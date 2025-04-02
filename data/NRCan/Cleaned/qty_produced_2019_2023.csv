@@ -1,0 +1,362 @@
+REF_DATE,GEO,Products,Variables,UOM,VALUE,TYPE
+2019,Canada,Barite (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2020,Canada,Barite (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2021,Canada,Barite (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2022,Canada,Barite (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2023,Canada,Barite (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2019,Canada,Clay (tonnes),Quantity produced,Tonnes,634571.0,Aggregates
+2020,Canada,Clay (tonnes),Quantity produced,Tonnes,217611.0,Aggregates
+2021,Canada,Clay (tonnes),Quantity produced,Tonnes,216418.0,Aggregates
+2022,Canada,Clay (tonnes),Quantity produced,Tonnes,261431.0,Aggregates
+2023,Canada,Clay (tonnes),Quantity produced,Tonnes,212118.0,Aggregates
+2023,Canada,Clay products (tonnes),Quantity produced,Tonnes,369443.0,Aggregates
+2022,Canada,Clay products (tonnes),Quantity produced,Tonnes,362338.0,Aggregates
+2019,Canada,Clay products (tonnes),Quantity produced,Tonnes,249738.0,Aggregates
+2020,Canada,Clay products (tonnes),Quantity produced,Tonnes,453422.0,Aggregates
+2021,Canada,Clay products (tonnes),Quantity produced,Tonnes,332305.0,Aggregates
+2023,Canada,"Cobalt, recoverable (tonnes)",Quantity produced,Tonnes,5099.0,Metals
+2019,Canada,"Cobalt, recoverable (tonnes)",Quantity produced,Tonnes,5039.0,Metals
+2020,Canada,"Cobalt, recoverable (tonnes)",Quantity produced,Tonnes,4069.0,Metals
+2021,Canada,"Cobalt, recoverable (tonnes)",Quantity produced,Tonnes,3953.0,Metals
+2022,Canada,"Cobalt, recoverable (tonnes)",Quantity produced,Tonnes,3534.0,Metals
+2022,Canada,"Copper, concentrates (tonnes)",Quantity produced,Tonnes,1517853.0,Metals
+2021,Canada,"Copper, concentrates (tonnes)",Quantity produced,Tonnes,1600117.0,Metals
+2019,Canada,"Copper, concentrates (tonnes)",Quantity produced,Tonnes,1659999.0,Metals
+2020,Canada,"Copper, concentrates (tonnes)",Quantity produced,Tonnes,1805567.0,Metals
+2019,Canada,"Copper, recoverable (tonnes)",Quantity produced,Tonnes,557242.0,Metals
+2020,Canada,"Copper, recoverable (tonnes)",Quantity produced,Tonnes,581713.0,Metals
+2021,Canada,"Copper, recoverable (tonnes)",Quantity produced,Tonnes,509350.0,Metals
+2022,Canada,"Copper, recoverable (tonnes)",Quantity produced,Tonnes,509062.0,Metals
+2023,Canada,"Copper, recoverable (tonnes)",Quantity produced,Tonnes,508250.0,Metals
+2023,Canada,Diamonds (carats),Quantity produced,Carats,16160688.0,Non_metals
+2021,Canada,Diamonds (carats),Quantity produced,Carats,16865216.0,Non_metals
+2022,Canada,Diamonds (carats),Quantity produced,Carats,16217233.0,Non_metals
+2019,Canada,Diamonds (carats),Quantity produced,Carats,18573661.0,Non_metals
+2020,Canada,Diamonds (carats),Quantity produced,Carats,14208812.0,Non_metals
+2019,Canada,Gemstones (kilograms),Quantity produced,Kilograms,69255.0,Non_metals
+2020,Canada,Gemstones (kilograms),Quantity produced,Kilograms,81907.0,Non_metals
+2021,Canada,Gemstones (kilograms),Quantity produced,Kilograms,65314.0,Non_metals
+2022,Canada,Gemstones (kilograms),Quantity produced,Kilograms,68482.0,Non_metals
+2023,Canada,Gemstones (kilograms),Quantity produced,Kilograms,0.0,Non_metals
+2021,Canada,"Gold and silver bullion, crude and dore (kilograms)",Quantity produced,Kilograms,222157.0,Metals
+2019,Canada,"Gold and silver bullion, crude and dore (kilograms)",Quantity produced,Kilograms,234850.0,Metals
+2020,Canada,"Gold and silver bullion, crude and dore (kilograms)",Quantity produced,Kilograms,211362.0,Metals
+2022,Canada,"Gold and silver bullion, crude and dore (kilograms)",Quantity produced,Kilograms,219520.0,Metals
+2022,Canada,"Gold, concentrates (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2021,Canada,"Gold, concentrates (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2019,Canada,"Gold, concentrates (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2020,Canada,"Gold, concentrates (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2019,Canada,"Gold, recoverable (kilograms)",Quantity produced,Kilograms,190899.0,Metals
+2020,Canada,"Gold, recoverable (kilograms)",Quantity produced,Kilograms,177884.0,Metals
+2021,Canada,"Gold, recoverable (kilograms)",Quantity produced,Kilograms,196730.0,Metals
+2022,Canada,"Gold, recoverable (kilograms)",Quantity produced,Kilograms,195226.0,Metals
+2023,Canada,"Gold, recoverable (kilograms)",Quantity produced,Kilograms,198335.0,Metals
+2021,Canada,Granite (tonnes),Quantity produced,Tonnes,55620523.0,Aggregates
+2019,Canada,Granite (tonnes),Quantity produced,Tonnes,48013482.0,Aggregates
+2020,Canada,Granite (tonnes),Quantity produced,Tonnes,47552693.0,Aggregates
+2022,Canada,Granite (tonnes),Quantity produced,Tonnes,38651258.0,Aggregates
+2023,Canada,Granite (tonnes),Quantity produced,Tonnes,35045266.0,Aggregates
+2019,Canada,Graphite (tonnes),Quantity produced,Tonnes,4332.0,Non_metals
+2020,Canada,Graphite (tonnes),Quantity produced,Tonnes,16239.0,Non_metals
+2021,Canada,Graphite (tonnes),Quantity produced,Tonnes,9290.0,Non_metals
+2022,Canada,Graphite (tonnes),Quantity produced,Tonnes,2530.0,Non_metals
+2023,Canada,Graphite (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2023,Canada,"Gravel (natural/crushed), natural sand (tonnes)",Quantity produced,Tonnes,203238174.0,Aggregates
+2021,Canada,"Gravel (natural/crushed), natural sand (tonnes)",Quantity produced,Tonnes,232549251.0,Aggregates
+2022,Canada,"Gravel (natural/crushed), natural sand (tonnes)",Quantity produced,Tonnes,263511196.0,Aggregates
+2019,Canada,"Gravel (natural/crushed), natural sand (tonnes)",Quantity produced,Tonnes,192024197.0,Aggregates
+2020,Canada,"Gravel (natural/crushed), natural sand (tonnes)",Quantity produced,Tonnes,210700626.0,Aggregates
+2019,Canada,Gypsum (tonnes),Quantity produced,Tonnes,2444963.0,Non_metals
+2020,Canada,Gypsum (tonnes),Quantity produced,Tonnes,3049824.0,Non_metals
+2021,Canada,Gypsum (tonnes),Quantity produced,Tonnes,2896360.0,Non_metals
+2022,Canada,Gypsum (tonnes),Quantity produced,Tonnes,3284929.0,Non_metals
+2023,Canada,Gypsum (tonnes),Quantity produced,Tonnes,3549648.0,Non_metals
+2022,Canada,Gypsum anhydrite (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2023,Canada,Gypsum anhydrite (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2020,Canada,Gypsum anhydrite (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2019,Canada,Gypsum anhydrite (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2021,Canada,Gypsum anhydrite (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2022,Canada,"Ilmenite, concentrates (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2019,Canada,"Ilmenite, concentrates (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2020,Canada,"Ilmenite, concentrates (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2021,Canada,"Ilmenite, concentrates (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2021,Canada,"Ilmenite, recoverable (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2022,Canada,"Ilmenite, recoverable (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2019,Canada,"Ilmenite, recoverable (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2020,Canada,"Ilmenite, recoverable (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2023,Canada,"Ilmenite, recoverable (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2023,Canada,"Iridium, recoverable (grams)",Quantity produced,Grams,0.0,Metals
+2021,Canada,"Iridium, recoverable (grams)",Quantity produced,Grams,0.0,Metals
+2022,Canada,"Iridium, recoverable (grams)",Quantity produced,Grams,0.0,Metals
+2019,Canada,"Iridium, recoverable (grams)",Quantity produced,Grams,0.0,Metals
+2020,Canada,"Iridium, recoverable (grams)",Quantity produced,Grams,0.0,Metals
+2019,Canada,"Iron, agglomerates (tonnes)",Quantity produced,Tonnes,19665690.0,Metals
+2020,Canada,"Iron, agglomerates (tonnes)",Quantity produced,Tonnes,18215145.0,Metals
+2021,Canada,"Iron, agglomerates (tonnes)",Quantity produced,Tonnes,18199877.0,Metals
+2022,Canada,"Iron, agglomerates (tonnes)",Quantity produced,Tonnes,18561077.0,Metals
+2023,Canada,"Iron, agglomerates (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2023,Canada,"Iron, concentrates (tonnes)",Quantity produced,Tonnes,59421934.0,Metals
+2022,Canada,"Iron, concentrates (tonnes)",Quantity produced,Tonnes,65032476.0,Metals
+2020,Canada,"Iron, concentrates (tonnes)",Quantity produced,Tonnes,60647580.0,Metals
+2019,Canada,"Iron, concentrates (tonnes)",Quantity produced,Tonnes,56488226.0,Metals
+2021,Canada,"Iron, concentrates (tonnes)",Quantity produced,Tonnes,58267104.0,Metals
+2023,Canada,"Iron, remelt (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2019,Canada,"Iron, remelt (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2020,Canada,"Iron, remelt (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2021,Canada,"Iron, remelt (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2022,Canada,"Iron, remelt (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2021,Canada,"Lead, concentrates (tonnes)",Quantity produced,Tonnes,21272.0,Metals
+2022,Canada,"Lead, concentrates (tonnes)",Quantity produced,Tonnes,12683.0,Metals
+2019,Canada,"Lead, concentrates (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2020,Canada,"Lead, concentrates (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2023,Canada,"Lead, recoverable (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2022,Canada,"Lead, recoverable (tonnes)",Quantity produced,Tonnes,4436.0,Metals
+2019,Canada,"Lead, recoverable (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2020,Canada,"Lead, recoverable (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2021,Canada,"Lead, recoverable (tonnes)",Quantity produced,Tonnes,9339.0,Metals
+2019,Canada,Lime (tonnes),Quantity produced,Tonnes,1975393.0,Aggregates
+2020,Canada,Lime (tonnes),Quantity produced,Tonnes,1602076.0,Aggregates
+2021,Canada,Lime (tonnes),Quantity produced,Tonnes,1925054.0,Aggregates
+2022,Canada,Lime (tonnes),Quantity produced,Tonnes,1224594.0,Aggregates
+2023,Canada,Lime (tonnes),Quantity produced,Tonnes,1919867.0,Aggregates
+2023,Canada,"Lime, hydrated lime (tonnes)",Quantity produced,Tonnes,99441.0,Aggregates
+2022,Canada,"Lime, hydrated lime (tonnes)",Quantity produced,Tonnes,95845.0,Aggregates
+2020,Canada,"Lime, hydrated lime (tonnes)",Quantity produced,Tonnes,178791.0,Aggregates
+2019,Canada,"Lime, hydrated lime (tonnes)",Quantity produced,Tonnes,160096.0,Aggregates
+2021,Canada,"Lime, hydrated lime (tonnes)",Quantity produced,Tonnes,178028.0,Aggregates
+2022,Canada,"Lime, quicklime (tonnes)",Quantity produced,Tonnes,1128749.0,Aggregates
+2019,Canada,"Lime, quicklime (tonnes)",Quantity produced,Tonnes,1815297.0,Aggregates
+2020,Canada,"Lime, quicklime (tonnes)",Quantity produced,Tonnes,1423285.0,Aggregates
+2021,Canada,"Lime, quicklime (tonnes)",Quantity produced,Tonnes,1747026.0,Aggregates
+2023,Canada,"Lime, quicklime (tonnes)",Quantity produced,Tonnes,1820426.0,Aggregates
+2023,Canada,Limestone (tonnes),Quantity produced,Tonnes,63927744.0,Aggregates
+2021,Canada,Limestone (tonnes),Quantity produced,Tonnes,119968070.0,Aggregates
+2022,Canada,Limestone (tonnes),Quantity produced,Tonnes,64391510.0,Aggregates
+2019,Canada,Limestone (tonnes),Quantity produced,Tonnes,93325885.0,Aggregates
+2020,Canada,Limestone (tonnes),Quantity produced,Tonnes,96057609.0,Aggregates
+2019,Canada,"Lithium, recoverable (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2020,Canada,"Lithium, recoverable (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2021,Canada,"Lithium, recoverable (kilograms)",Quantity produced,Kilograms,84760.0,Metals
+2022,Canada,"Lithium, recoverable (kilograms)",Quantity produced,Kilograms,178704.0,Metals
+2023,Canada,"Lithium, recoverable (kilograms)",Quantity produced,Kilograms,178864.0,Metals
+2023,Canada,Magnesite (tonnes),Quantity produced,Tonnes,0.0,Aggregates
+2022,Canada,Magnesite (tonnes),Quantity produced,Tonnes,0.0,Aggregates
+2021,Canada,Magnesite (tonnes),Quantity produced,Tonnes,0.0,Aggregates
+2020,Canada,Magnesite (tonnes),Quantity produced,Tonnes,0.0,Aggregates
+2019,Canada,Magnesite (tonnes),Quantity produced,Tonnes,0.0,Aggregates
+2019,Canada,Marble (tonnes),Quantity produced,Tonnes,954017.0,Aggregates
+2020,Canada,Marble (tonnes),Quantity produced,Tonnes,0.0,Aggregates
+2021,Canada,Marble (tonnes),Quantity produced,Tonnes,0.0,Aggregates
+2022,Canada,Marble (tonnes),Quantity produced,Tonnes,0.0,Aggregates
+2023,Canada,Marble (tonnes),Quantity produced,Tonnes,0.0,Aggregates
+2023,Canada,Marl (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2021,Canada,Marl (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2022,Canada,Marl (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2019,Canada,Marl (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2020,Canada,Marl (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2023,Canada,Mica (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2022,Canada,Mica (tonnes),Quantity produced,Tonnes,14115.0,Non_metals
+2019,Canada,Mica (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2020,Canada,Mica (tonnes),Quantity produced,Tonnes,13254.0,Non_metals
+2021,Canada,Mica (tonnes),Quantity produced,Tonnes,69780.0,Non_metals
+2019,Canada,"Molybdenum, concentrates (tonnes)",Quantity produced,Tonnes,8491.0,Metals
+2020,Canada,"Molybdenum, concentrates (tonnes)",Quantity produced,Tonnes,5260.0,Metals
+2021,Canada,"Molybdenum, concentrates (tonnes)",Quantity produced,Tonnes,2963.0,Metals
+2022,Canada,"Molybdenum, concentrates (tonnes)",Quantity produced,Tonnes,2179.0,Metals
+2023,Canada,"Molybdenum, recoverable (tonnes)",Quantity produced,Tonnes,1369.0,Metals
+2022,Canada,"Molybdenum, recoverable (tonnes)",Quantity produced,Tonnes,1420.0,Metals
+2021,Canada,"Molybdenum, recoverable (tonnes)",Quantity produced,Tonnes,1871.0,Metals
+2019,Canada,"Molybdenum, recoverable (tonnes)",Quantity produced,Tonnes,4385.0,Metals
+2020,Canada,"Molybdenum, recoverable (tonnes)",Quantity produced,Tonnes,3979.0,Metals
+2023,Canada,Nepheline syenite (tonnes),Quantity produced,Tonnes,771082.0,Aggregates
+2019,Canada,Nepheline syenite (tonnes),Quantity produced,Tonnes,519989.0,Aggregates
+2020,Canada,Nepheline syenite (tonnes),Quantity produced,Tonnes,657774.0,Aggregates
+2021,Canada,Nepheline syenite (tonnes),Quantity produced,Tonnes,689600.0,Aggregates
+2022,Canada,Nepheline syenite (tonnes),Quantity produced,Tonnes,771082.0,Aggregates
+2020,Canada,"Nickel, concentrates (tonnes)",Quantity produced,Tonnes,1055270.0,Metals
+2021,Canada,"Nickel, concentrates (tonnes)",Quantity produced,Tonnes,948574.0,Metals
+2019,Canada,"Nickel, concentrates (tonnes)",Quantity produced,Tonnes,1405833.0,Metals
+2022,Canada,"Nickel, concentrates (tonnes)",Quantity produced,Tonnes,838079.0,Metals
+2023,Canada,"Nickel, recoverable (tonnes)",Quantity produced,Tonnes,158668.0,Metals
+2022,Canada,"Nickel, recoverable (tonnes)",Quantity produced,Tonnes,122115.0,Metals
+2021,Canada,"Nickel, recoverable (tonnes)",Quantity produced,Tonnes,159145.0,Metals
+2020,Canada,"Nickel, recoverable (tonnes)",Quantity produced,Tonnes,168214.0,Metals
+2019,Canada,"Nickel, recoverable (tonnes)",Quantity produced,Tonnes,176021.0,Metals
+2019,Canada,"Niobium, concentrates (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2020,Canada,"Niobium, concentrates (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2021,Canada,"Niobium, concentrates (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2022,Canada,"Niobium, concentrates (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2022,Canada,"Niobium, recoverable (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2021,Canada,"Niobium, recoverable (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2023,Canada,"Niobium, recoverable (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2019,Canada,"Niobium, recoverable (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2020,Canada,"Niobium, recoverable (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2019,Canada,"Palladium, concentrates (kilograms)",Quantity produced,Kilograms,35974000.0,Metals
+2020,Canada,"Palladium, concentrates (kilograms)",Quantity produced,Kilograms,12008000.0,Metals
+2021,Canada,"Palladium, concentrates (kilograms)",Quantity produced,Kilograms,37260000.0,Metals
+2022,Canada,"Palladium, concentrates (kilograms)",Quantity produced,Kilograms,38451999.0,Metals
+2019,Canada,"Palladium, recoverable (grams)",Quantity produced,Grams,21928279.0,Metals
+2020,Canada,"Palladium, recoverable (grams)",Quantity produced,Grams,10897455.0,Metals
+2021,Canada,"Palladium, recoverable (grams)",Quantity produced,Grams,15432543.0,Metals
+2022,Canada,"Palladium, recoverable (grams)",Quantity produced,Grams,14591414.0,Metals
+2023,Canada,"Palladium, recoverable (grams)",Quantity produced,Grams,16113892.0,Metals
+2023,Canada,Peat (tonnes),Quantity produced,Tonnes,3027687.0,Non_metals
+2022,Canada,Peat (tonnes),Quantity produced,Tonnes,2254265.0,Non_metals
+2019,Canada,Peat (tonnes),Quantity produced,Tonnes,1306860.0,Non_metals
+2020,Canada,Peat (tonnes),Quantity produced,Tonnes,2164683.0,Non_metals
+2021,Canada,Peat (tonnes),Quantity produced,Tonnes,2155113.0,Non_metals
+2019,Canada,"Platinum group, recoverable (grams)",Quantity produced,Grams,32311468.0,Metals
+2020,Canada,"Platinum group, recoverable (grams)",Quantity produced,Grams,16821446.0,Metals
+2021,Canada,"Platinum group, recoverable (grams)",Quantity produced,Grams,20366905.0,Metals
+2022,Canada,"Platinum group, recoverable (grams)",Quantity produced,Grams,19481385.0,Metals
+2023,Canada,"Platinum group, recoverable (grams)",Quantity produced,Grams,21839752.0,Metals
+2023,Canada,"Platinum, recoverable (grams)",Quantity produced,Grams,5174260.0,Metals
+2022,Canada,"Platinum, recoverable (grams)",Quantity produced,Grams,4468758.0,Metals
+2021,Canada,"Platinum, recoverable (grams)",Quantity produced,Grams,0.0,Metals
+2019,Canada,"Platinum, recoverable (grams)",Quantity produced,Grams,0.0,Metals
+2020,Canada,"Platinum, recoverable (grams)",Quantity produced,Grams,0.0,Metals
+2019,Canada,"Potash, muriate of potash (MOP) (tonnes)",Quantity produced,Tonnes,20928973.0,Non_metals
+2020,Canada,"Potash, muriate of potash (MOP) (tonnes)",Quantity produced,Tonnes,22385928.0,Non_metals
+2021,Canada,"Potash, muriate of potash (MOP) (tonnes)",Quantity produced,Tonnes,23239270.0,Non_metals
+2022,Canada,"Potash, muriate of potash (MOP) (tonnes)",Quantity produced,Tonnes,23534219.0,Non_metals
+2023,Canada,"Potash, muriate of potash (MOP) (tonnes)",Quantity produced,Tonnes,21875302.0,Non_metals
+2023,Canada,"Potash, potassium oxide (K2O) (tonnes)",Quantity produced,Tonnes,13460341.0,Non_metals
+2021,Canada,"Potash, potassium oxide (K2O) (tonnes)",Quantity produced,Tonnes,14275819.0,Non_metals
+2022,Canada,"Potash, potassium oxide (K2O) (tonnes)",Quantity produced,Tonnes,14370013.0,Non_metals
+2019,Canada,"Potash, potassium oxide (K2O) (tonnes)",Quantity produced,Tonnes,12820345.0,Non_metals
+2020,Canada,"Potash, potassium oxide (K2O) (tonnes)",Quantity produced,Tonnes,13722423.0,Non_metals
+2019,Canada,Potassium sulphate (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2020,Canada,Potassium sulphate (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2021,Canada,Potassium sulphate (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2022,Canada,Potassium sulphate (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2023,Canada,Potassium sulphate (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2021,Canada,Pumice (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2023,Canada,Pumice (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2022,Canada,Pumice (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2020,Canada,Pumice (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2019,Canada,Pumice (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2019,Canada,"Rhodium, recoverable (grams)",Quantity produced,Grams,0.0,Metals
+2020,Canada,"Rhodium, recoverable (grams)",Quantity produced,Grams,0.0,Metals
+2021,Canada,"Rhodium, recoverable (grams)",Quantity produced,Grams,0.0,Metals
+2022,Canada,"Rhodium, recoverable (grams)",Quantity produced,Grams,0.0,Metals
+2023,Canada,"Rhodium, recoverable (grams)",Quantity produced,Grams,0.0,Metals
+2023,Canada,"Ruthenium, recoverable (grams)",Quantity produced,Grams,0.0,Metals
+2021,Canada,"Ruthenium, recoverable (grams)",Quantity produced,Grams,0.0,Metals
+2022,Canada,"Ruthenium, recoverable (grams)",Quantity produced,Grams,0.0,Metals
+2019,Canada,"Ruthenium, recoverable (grams)",Quantity produced,Grams,0.0,Metals
+2020,Canada,"Ruthenium, recoverable (grams)",Quantity produced,Grams,0.0,Metals
+2019,Canada,Salt (tonnes),Quantity produced,Tonnes,11896659.0,Non_metals
+2020,Canada,Salt (tonnes),Quantity produced,Tonnes,13282003.0,Non_metals
+2021,Canada,Salt (tonnes),Quantity produced,Tonnes,10988286.0,Non_metals
+2022,Canada,Salt (tonnes),Quantity produced,Tonnes,15107418.0,Non_metals
+2023,Canada,Salt (tonnes),Quantity produced,Tonnes,16049737.0,Non_metals
+2022,Canada,"Salt, fine vaccum (tonnes)",Quantity produced,Tonnes,0.0,Non_metals
+2023,Canada,"Salt, fine vaccum (tonnes)",Quantity produced,Tonnes,0.0,Non_metals
+2020,Canada,"Salt, fine vaccum (tonnes)",Quantity produced,Tonnes,0.0,Non_metals
+2019,Canada,"Salt, fine vaccum (tonnes)",Quantity produced,Tonnes,0.0,Non_metals
+2021,Canada,"Salt, fine vaccum (tonnes)",Quantity produced,Tonnes,0.0,Non_metals
+2023,Canada,"Salt, in brine (tonnes)",Quantity produced,Tonnes,0.0,Non_metals
+2019,Canada,"Salt, in brine (tonnes)",Quantity produced,Tonnes,0.0,Non_metals
+2020,Canada,"Salt, in brine (tonnes)",Quantity produced,Tonnes,0.0,Non_metals
+2021,Canada,"Salt, in brine (tonnes)",Quantity produced,Tonnes,0.0,Non_metals
+2022,Canada,"Salt, in brine (tonnes)",Quantity produced,Tonnes,0.0,Non_metals
+2021,Canada,"Salt, rock (tonnes)",Quantity produced,Tonnes,10155326.0,Non_metals
+2022,Canada,"Salt, rock (tonnes)",Quantity produced,Tonnes,14193011.0,Non_metals
+2019,Canada,"Salt, rock (tonnes)",Quantity produced,Tonnes,10971834.0,Non_metals
+2020,Canada,"Salt, rock (tonnes)",Quantity produced,Tonnes,12409137.0,Non_metals
+2023,Canada,"Salt, rock (tonnes)",Quantity produced,Tonnes,15245016.0,Non_metals
+2022,Canada,Sand and gravel (tonnes),Quantity produced,Tonnes,267756290.0,Aggregates
+2021,Canada,Sand and gravel (tonnes),Quantity produced,Tonnes,236634802.0,Aggregates
+2023,Canada,Sand and gravel (tonnes),Quantity produced,Tonnes,207760254.0,Aggregates
+2019,Canada,Sand and gravel (tonnes),Quantity produced,Tonnes,197110142.0,Aggregates
+2020,Canada,Sand and gravel (tonnes),Quantity produced,Tonnes,215070254.0,Aggregates
+2019,Canada,Sandstone (tonnes),Quantity produced,Tonnes,6898770.0,Aggregates
+2020,Canada,Sandstone (tonnes),Quantity produced,Tonnes,7249416.0,Aggregates
+2021,Canada,Sandstone (tonnes),Quantity produced,Tonnes,8496817.0,Aggregates
+2022,Canada,Sandstone (tonnes),Quantity produced,Tonnes,3323966.0,Aggregates
+2023,Canada,Sandstone (tonnes),Quantity produced,Tonnes,3367178.0,Aggregates
+2023,Canada,Serpentine (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2022,Canada,Serpentine (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2021,Canada,Serpentine (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2020,Canada,Serpentine (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2019,Canada,Serpentine (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2019,Canada,Shale (tonnes),Quantity produced,Tonnes,4107838.0,Other
+2020,Canada,Shale (tonnes),Quantity produced,Tonnes,2568084.0,Other
+2021,Canada,Shale (tonnes),Quantity produced,Tonnes,2153275.0,Other
+2022,Canada,Shale (tonnes),Quantity produced,Tonnes,0.0,Other
+2023,Canada,Shale (tonnes),Quantity produced,Tonnes,0.0,Other
+2022,Canada,"Silica sand, quartz crude, quartz milled (tonnes)",Quantity produced,Tonnes,4245094.0,Aggregates
+2021,Canada,"Silica sand, quartz crude, quartz milled (tonnes)",Quantity produced,Tonnes,4085551.0,Aggregates
+2023,Canada,"Silica sand, quartz crude, quartz milled (tonnes)",Quantity produced,Tonnes,4522080.0,Aggregates
+2019,Canada,"Silica sand, quartz crude, quartz milled (tonnes)",Quantity produced,Tonnes,5085945.0,Aggregates
+2020,Canada,"Silica sand, quartz crude, quartz milled (tonnes)",Quantity produced,Tonnes,4369628.0,Aggregates
+2019,Canada,"Silver, concentrates (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2020,Canada,"Silver, concentrates (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2021,Canada,"Silver, concentrates (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2022,Canada,"Silver, concentrates (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2019,Canada,"Silver, recoverable (kilograms)",Quantity produced,Kilograms,398773.0,Metals
+2020,Canada,"Silver, recoverable (kilograms)",Quantity produced,Kilograms,306913.0,Metals
+2021,Canada,"Silver, recoverable (kilograms)",Quantity produced,Kilograms,300272.0,Metals
+2022,Canada,"Silver, recoverable (kilograms)",Quantity produced,Kilograms,289645.0,Metals
+2023,Canada,"Silver, recoverable (kilograms)",Quantity produced,Kilograms,306263.0,Metals
+2023,Canada,Slate (tonnes),Quantity produced,Tonnes,1972676.0,Aggregates
+2022,Canada,Slate (tonnes),Quantity produced,Tonnes,2229107.0,Aggregates
+2019,Canada,Slate (tonnes),Quantity produced,Tonnes,1541127.0,Aggregates
+2020,Canada,Slate (tonnes),Quantity produced,Tonnes,0.0,Aggregates
+2021,Canada,Slate (tonnes),Quantity produced,Tonnes,0.0,Aggregates
+2019,Canada,"Soapstone, pyrophyllite and talc (tonnes)",Quantity produced,Tonnes,0.0,Non_metals
+2020,Canada,"Soapstone, pyrophyllite and talc (tonnes)",Quantity produced,Tonnes,0.0,Non_metals
+2021,Canada,"Soapstone, pyrophyllite and talc (tonnes)",Quantity produced,Tonnes,0.0,Non_metals
+2022,Canada,"Soapstone, pyrophyllite and talc (tonnes)",Quantity produced,Tonnes,0.0,Non_metals
+2023,Canada,"Soapstone, pyrophyllite and talc (tonnes)",Quantity produced,Tonnes,0.0,Non_metals
+2022,Canada,Sodium sulphate (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2021,Canada,Sodium sulphate (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2023,Canada,Sodium sulphate (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2019,Canada,Sodium sulphate (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2020,Canada,Sodium sulphate (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2019,Canada,"Spodumene, concentrates (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2020,Canada,"Spodumene, concentrates (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2021,Canada,"Spodumene, concentrates (kilograms)",Quantity produced,Kilograms,39095000.0,Metals
+2022,Canada,"Spodumene, concentrates (kilograms)",Quantity produced,Kilograms,82426000.0,Metals
+2022,Canada,Stone (tonnes),Quantity produced,Tonnes,110316930.0,Aggregates
+2021,Canada,Stone (tonnes),Quantity produced,Tonnes,188838090.0,Aggregates
+2023,Canada,Stone (tonnes),Quantity produced,Tonnes,105895173.0,Aggregates
+2019,Canada,Stone (tonnes),Quantity produced,Tonnes,154841119.0,Aggregates
+2020,Canada,Stone (tonnes),Quantity produced,Tonnes,155942539.0,Aggregates
+2019,Canada,"Tantalum, concentrates (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2020,Canada,"Tantalum, concentrates (kilograms)",Quantity produced,Kilograms,0.0,Metals
+2021,Canada,"Tantalum, concentrates (kilograms)",Quantity produced,Kilograms,5492000.0,Metals
+2022,Canada,"Tantalum, concentrates (kilograms)",Quantity produced,Kilograms,12069000.0,Metals
+2023,Canada,"Titanium dioxide, recoverable (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2019,Canada,"Titanium dioxide, recoverable (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2020,Canada,"Titanium dioxide, recoverable (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2021,Canada,"Titanium dioxide, recoverable (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2022,Canada,"Titanium dioxide, recoverable (tonnes)",Quantity produced,Tonnes,0.0,Metals
+2021,Canada,"Uranium, concentrates (tonnes)",Quantity produced,Tonnes,5470.0,Metals
+2022,Canada,"Uranium, concentrates (tonnes)",Quantity produced,Tonnes,8599.0,Metals
+2019,Canada,"Uranium, concentrates (tonnes)",Quantity produced,Tonnes,8228.0,Metals
+2020,Canada,"Uranium, concentrates (tonnes)",Quantity produced,Tonnes,4259.0,Metals
+2019,Canada,"Uranium, recoverable (tonnes)",Quantity produced,Tonnes,6979.0,Metals
+2020,Canada,"Uranium, recoverable (tonnes)",Quantity produced,Tonnes,3613.0,Metals
+2021,Canada,"Uranium, recoverable (tonnes)",Quantity produced,Tonnes,4768.0,Metals
+2022,Canada,"Uranium, recoverable (tonnes)",Quantity produced,Tonnes,7368.0,Metals
+2023,Canada,"Uranium, recoverable (tonnes)",Quantity produced,Tonnes,11373.0,Metals
+2019,Canada,Wollastonite (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2020,Canada,Wollastonite (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2021,Canada,Wollastonite (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2022,Canada,Wollastonite (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2023,Canada,Wollastonite (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2023,Canada,Zeolite (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2022,Canada,Zeolite (tonnes),Quantity produced,Tonnes,510.0,Non_metals
+2019,Canada,Zeolite (tonnes),Quantity produced,Tonnes,1059.0,Non_metals
+2020,Canada,Zeolite (tonnes),Quantity produced,Tonnes,0.0,Non_metals
+2021,Canada,Zeolite (tonnes),Quantity produced,Tonnes,1200.0,Non_metals
+2019,Canada,"Zinc, concentrates (tonnes)",Quantity produced,Tonnes,598868.0,Metals
+2020,Canada,"Zinc, concentrates (tonnes)",Quantity produced,Tonnes,393440.0,Metals
+2021,Canada,"Zinc, concentrates (tonnes)",Quantity produced,Tonnes,430236.0,Metals
+2022,Canada,"Zinc, concentrates (tonnes)",Quantity produced,Tonnes,432092.0,Metals
+2022,Canada,"Zinc, recoverable (tonnes)",Quantity produced,Tonnes,180256.0,Metals
+2019,Canada,"Zinc, recoverable (tonnes)",Quantity produced,Tonnes,269353.0,Metals
+2020,Canada,"Zinc, recoverable (tonnes)",Quantity produced,Tonnes,246995.0,Metals
+2021,Canada,"Zinc, recoverable (tonnes)",Quantity produced,Tonnes,230187.0,Metals
+2023,Canada,"Zinc, recoverable (tonnes)",Quantity produced,Tonnes,0.0,Metals

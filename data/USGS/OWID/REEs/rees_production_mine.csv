@@ -1,0 +1,69 @@
+Entity,Code,Year,production|Rare earths|Mine|tonnes
+Australia,AUS,2020,21000
+Australia,AUS,2021,24000
+Australia,AUS,2022,18000
+Australia,AUS,2023,18000
+Brazil,BRA,2020,600
+Brazil,BRA,2021,500
+Brazil,BRA,2022,80
+Brazil,BRA,2023,80
+Burundi,BDI,2020,300
+Burundi,BDI,2021,200
+Burundi,BDI,2022,0
+Canada,CAN,2020,0
+Canada,CAN,2021,0
+Canada,CAN,2022,0
+Canada,CAN,2023,0
+China,CHN,2020,140000
+China,CHN,2021,168000
+China,CHN,2022,210000
+China,CHN,2023,240000
+Greenland,GRL,2020,0
+Greenland,GRL,2021,0
+Greenland,GRL,2022,0
+Greenland,GRL,2023,0
+India,IND,2020,2900
+India,IND,2021,2900
+India,IND,2022,2900
+India,IND,2023,2900
+Madagascar,MDG,2020,2800
+Madagascar,MDG,2021,6800
+Madagascar,MDG,2022,960
+Madagascar,MDG,2023,960
+Malaysia,MYS,2022,80
+Malaysia,MYS,2023,80
+Myanmar,MMR,2020,31000
+Myanmar,MMR,2021,35000
+Myanmar,MMR,2022,12000
+Myanmar,MMR,2023,38000
+Other,,2020,100
+Other,,2021,60
+Other,,2022,80
+Russia,RUS,2020,2700
+Russia,RUS,2021,2600
+Russia,RUS,2022,2600
+Russia,RUS,2023,2600
+South Africa,ZAF,2020,0
+South Africa,ZAF,2021,0
+South Africa,ZAF,2022,0
+South Africa,ZAF,2023,0
+Tanzania,TZA,2020,0
+Tanzania,TZA,2021,0
+Tanzania,TZA,2022,0
+Tanzania,TZA,2023,0
+Thailand,THA,2020,3600
+Thailand,THA,2021,8200
+Thailand,THA,2022,7100
+Thailand,THA,2023,7100
+United States,USA,2020,39000
+United States,USA,2021,42000
+United States,USA,2022,42000
+United States,USA,2023,43000
+Vietnam,VNM,2020,700
+Vietnam,VNM,2021,400
+Vietnam,VNM,2022,1200
+Vietnam,VNM,2023,600
+World,OWID_WRL,2020,240000
+World,OWID_WRL,2021,290000
+World,OWID_WRL,2022,300000
+World,OWID_WRL,2023,350000

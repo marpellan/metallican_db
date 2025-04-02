@@ -1,0 +1,422 @@
+main_id,climate_trace_id,distance_m,name,source_name,similarity_full_score,similarity_partial_score
+YT-MAIN-ab926389-1,,,Keno Hill Silver District,,,
+NU-MAIN-15f39d07-1,,,Amaruq,,,
+ON-MAIN-87c0220c-1,,,Detour Lake,,,
+NU-MAIN-22b6a486-1,,,Meadowbank,,,
+NU-MAIN-b9901c24-1,,,Meliadine,,,
+ON-MAIN-042d0b12-1,,,Island,,,
+ON-MAIN-ca1b538d-1,,,Young-Davidson,,,
+ON-MAIN-079ac66d-1,,,Hemlo (Williams),,,
+QC-MAIN-cb4de7b8-1,,,Lamaque,,,
+BC-MAIN-f5fe547c-1,,,Elk,,,
+NL-MAIN-b066a0c7-1,NL-CTRACE-0630ae4b-1,5916.47,Point Rousse,Ming Mine,38.095238095238095,40.0
+ON-MAIN-86b89a70-1,,,Fox Complex,,,
+ON-MAIN-6b291dc6-1,,,Borden,,,
+QC-MAIN-03247f98-1,,,Éléonore,,,
+ON-MAIN-5a030c69-1,,,Hollinger,,,
+ON-MAIN-a86e1632-1,,,Hoyle Pond,,,
+ON-MAIN-ec0e3472-1,,,Porcupine,,,
+ON-MAIN-87eff5d8-1,,,Bell Creek,,,
+ON-MAIN-af364a50-1,,,Timmins West,,,
+ON-MAIN-f22b9058-1,,,Sugar Zone,,,
+SK-MAIN-fb71dcba-1,,,Santoy,,,
+SK-MAIN-409d52eb-1,,,Seabee,,,
+NS-MAIN-7611a9c0-1,,,Moose River Consolidated,,,
+YT-MAIN-24f21978-1,,,Eagle (Dublin Gulch),,,
+ON-MAIN-d0063de8-1,,,Eagle River,,,
+QC-MAIN-918440f1-1,,,Kiena,,,
+ON-MAIN-36212738-1,,,Mishi,,,
+QC-MAIN-efc41be6-1,,,Sleeping Giant,,,
+QC-MAIN-b1e99caf-1,,,Canadian Malartic,,,
+QC-MAIN-547f4bc7-1,,,Goldex,,,
+ON-MAIN-efe5148b-1,,,Macassa,,,
+ON-MAIN-cb6d25a5-1,,,Magino,,,
+ON-MAIN-578ec529-1,,,Red Lake,,,
+QC-MAIN-e3cedb7d-1,,,Casa Berardi,,,
+QC-MAIN-20601058-1,QC-CTRACE-edfe1d9d-1,4575.42,Westwood-Doyon,LaRonde Mine,23.076923076923073,30.000000000000004
+ON-MAIN-bfbfae34-1,,,Rainy River,,,
+BC-MAIN-6709f0d0-1,,,Brucejack,,,
+ON-MAIN-46afc5a3-1,,,Musselwhite,,,
+MB-MAIN-8f99fefb-1,MB-CTRACE-0583d32c-1,8029.32,New Britannia,Lalor Mine,26.086956521739136,33.333333333333336
+BC-MAIN-e6cded7f-1,BC-CTRACE-283f441b-1,437.8,Mount Polley,Mount Polley Mine,82.75862068965517,100.0
+BC-MAIN-bc178f67-1,BC-CTRACE-8ddeaa4c-1,490.28,New Afton,New Afton Mine,78.26086956521739,100.0
+BC-MAIN-95797c9b-1,BC-CTRACE-9b0fc421-1,1565.11,Red Chris,Red Chris Mine,78.26086956521739,100.0
+MB-MAIN-1136efa4-1,MB-CTRACE-0583d32c-1,13008.35,Stall Lake,Lalor Mine,40.0,44.44444444444444
+MB-MAIN-fd93bf0f-1,MB-CTRACE-0583d32c-1,1265.3,Lalor Lake,Lalor Mine,70.0,75.0
+QC-MAIN-44440aa8-1,QC-CTRACE-edfe1d9d-1,1037.58,LaRonde,LaRonde Mine,73.6842105263158,100.0
+BC-MAIN-0910057b-1,,,Brule,,,
+BC-MAIN-963c4503-1,,,Willow Creek,,,
+BC-MAIN-e24a35ee-1,,,Wolverine,,,
+AB-MAIN-7ae40bd3-1,,,Grande Cache,,,
+BC-MAIN-9ae2b136-1,,,Elkview,,,
+BC-MAIN-fc1cc254-1,,,Fording River,,,
+BC-MAIN-c5a3b064-1,,,Greenhills,,,
+NS-MAIN-d018933a-1,,,Donkin,,,
+BC-MAIN-e58d2ef9-1,,,Line Creek,,,
+AB-MAIN-b18786c7-1,,,Vista,,,
+NS-MAIN-1f720bce-1,,,Stellarton,,,
+AB-MAIN-fe3207ad-1,,,Coal Valley,,,
+SK-MAIN-4422e7f6-1,,,Estevan,,,
+AB-MAIN-0d96b8b1-1,,,Genesee,,,
+SK-MAIN-bba063c3-1,,,Poplar River,,,
+MB-MAIN-27fe043e-1,,,Tanco,,,
+NL-MAIN-3fb87140-1,,,Nugget Pond,,,
+BC-MAIN-040f6522-1,BC-CTRACE-3320235e-1,399.66,Highland Valley,Highland Valley Mine,85.71428571428572,100.0
+BC-MAIN-15627f87-1,BC-CTRACE-17267d3a-1,776.68,Mount Milligan,Mount Milligan Mine,84.84848484848484,100.0
+NL-MAIN-bd410410-1,NL-CTRACE-0630ae4b-1,120.99,Ming,Ming Mine,61.53846153846154,100.0
+BC-MAIN-435152ad-1,BC-CTRACE-5b9059dd-1,825.94,Copper Mountain,Copper Mountain Mine,85.71428571428572,100.0
+YT-MAIN-68063961-1,YT-CTRACE-03bfcfef-1,901.88,Minto,Minto Mine,66.66666666666667,100.0
+BC-MAIN-1342ed5d-1,BC-CTRACE-88db352f-1,1580.67,Gibraltar,Gibraltar Mine,78.26086956521739,100.0
+ON-MAIN-dcf3194d-1,ON-CTRACE-e3d25cb9-1,5953.73,McCreedy West,Coleman Mine,31.999999999999996,34.78260869565217
+ON-MAIN-dcf3194d-1,ON-CTRACE-c27ea770-1,75.51,McCreedy West,McCreedy West Mine,83.87096774193549,100.0
+ON-MAIN-af5d904f-1,ON-CTRACE-e538b32b-1,149.77,Kidd Creek,Kidd Creek Mine,80.0,100.0
+NT-MAIN-7e17e361-1,,,Ekati,,,
+NT-MAIN-debdc8cf-1,,,Gahcho Kué,,,
+NT-MAIN-72d9e68b-1,,,Diavik,,,
+QC-MAIN-410d5427-1,,,Renard,,,
+QC-MAIN-31468429-1,,,Fire Lake,,,
+QC-MAIN-e37f7069-1,,,Mont-Wright,,,
+NU-MAIN-2375f916-1,,,Mary River,,,
+QC-MAIN-a3f1b673-1,,,Bloom Lake,,,
+NL-MAIN-2d168cf5-1,NL-CTRACE-8253809b-1,14768.55,Carol Lake,Scully Mine,28.57142857142857,35.29411764705882
+NL-MAIN-26e5bd2d-1,NL-CTRACE-8253809b-1,1034.26,Scully,Scully Mine,70.58823529411764,100.0
+NL-MAIN-c5737f5f-1,,,DSO (3 and 4),,,
+QC-MAIN-696faf4f-1,,,DSO (Goodwood),,,
+QC-MAIN-dc872009-1,,,Lac Tio,,,
+QC-MAIN-4c223b8f-1,,,North American Lithium,,,
+QC-MAIN-a55bfb50-1,,,Niobec,,,
+MB-MAIN-c8fbe1c0-1,MB-CTRACE-92a744b8-1,527.26,Thompson (T-1 and T-3),Thompson Mine,57.14285714285714,81.81818181818181
+NL-MAIN-be92136a-1,NL-CTRACE-970ab9c4-1,315.92,Voisey’s Bay,Voisey's Bay Mine,75.86206896551724,91.66666666666666
+ON-MAIN-7b682137-1,ON-CTRACE-f4e08424-1,11183.56,Nickel Rim South,Garson Mine,14.814814814814813,25.0
+ON-MAIN-7b682137-1,ON-CTRACE-62f9ef17-1,23.79,Nickel Rim South,Sudbury INO Operation,21.62162162162162,28.57142857142857
+ON-MAIN-8d7da620-1,ON-CTRACE-8a30df38-1,122.25,Totten,Totten Mine,70.58823529411764,100.0
+ON-MAIN-e79f2bec-1,ON-CTRACE-e3d25cb9-1,135.99,Strathcona,Coleman Mine,18.181818181818176,25.0
+ON-MAIN-e79f2bec-1,ON-CTRACE-c27ea770-1,5861.64,Strathcona,McCreedy West Mine,21.42857142857143,25.0
+ON-MAIN-22af9c76-1,ON-CTRACE-bc264035-1,1706.73,Clarabelle,Copper Cliff Mine,29.629629629629626,31.57894736842105
+ON-MAIN-22af9c76-1,ON-CTRACE-55b19f8c-1,9963.48,Clarabelle,Creighton Mine,33.333333333333336,46.15384615384615
+ON-MAIN-22af9c76-1,ON-CTRACE-f4e08424-1,17421.32,Clarabelle,Garson Mine,28.57142857142857,30.76923076923077
+ON-MAIN-22af9c76-1,ON-CTRACE-bc264035-2,1706.73,Clarabelle,Stobie Mine,28.57142857142857,33.333333333333336
+ON-MAIN-48489720-1,ON-CTRACE-e3d25cb9-1,384.7,Coleman,Coleman Mine,73.6842105263158,100.0
+ON-MAIN-48489720-1,ON-CTRACE-c27ea770-1,6316.18,Coleman,McCreedy West Mine,24.0,33.333333333333336
+ON-MAIN-20ca68bc-1,ON-CTRACE-bc264035-1,1711.1,Copper Cliff Complex,Copper Cliff Mine,75.67567567567568,86.66666666666667
+ON-MAIN-20ca68bc-1,ON-CTRACE-55b19f8c-1,8959.29,Copper Cliff Complex,Creighton Mine,29.411764705882348,33.333333333333336
+ON-MAIN-20ca68bc-1,ON-CTRACE-f4e08424-1,18434.44,Copper Cliff Complex,Garson Mine,25.806451612903224,28.57142857142857
+ON-MAIN-20ca68bc-1,ON-CTRACE-bc264035-2,1711.1,Copper Cliff Complex,Stobie Mine,32.25806451612904,38.095238095238095
+ON-MAIN-9e805c41-1,ON-CTRACE-bc264035-1,10419.99,Creighton,Copper Cliff Mine,30.76923076923077,36.36363636363637
+ON-MAIN-9e805c41-1,ON-CTRACE-55b19f8c-1,1465.82,Creighton,Creighton Mine,78.26086956521739,100.0
+ON-MAIN-9e805c41-1,ON-CTRACE-bc264035-2,10419.99,Creighton,Stobie Mine,30.000000000000004,40.0
+ON-MAIN-eba2313b-1,ON-CTRACE-bc264035-1,18015.43,Garson,Copper Cliff Mine,17.391304347826086,25.0
+ON-MAIN-eba2313b-1,ON-CTRACE-f4e08424-1,61.47,Garson,Garson Mine,70.58823529411764,100.0
+ON-MAIN-eba2313b-1,ON-CTRACE-bc264035-2,18015.43,Garson,Stobie Mine,23.529411764705888,25.0
+ON-MAIN-eba2313b-1,ON-CTRACE-62f9ef17-1,11115.55,Garson,Sudbury INO Operation,22.22222222222222,54.54545454545454
+ON-MAIN-2a7426bd-1,ON-CTRACE-e3d25cb9-1,1283.24,Fraser,Coleman Mine,22.22222222222222,28.57142857142857
+ON-MAIN-2a7426bd-1,ON-CTRACE-c27ea770-1,5303.2,Fraser,McCreedy West Mine,25.0,36.36363636363637
+QC-MAIN-2747f5c0-1,,,Nunavik Nickel,,,
+QC-MAIN-5a8a80ca-1,QC-CTRACE-a68bb77f-1,18250.96,Raglan,Nunavik Nickel Operation,26.66666666666667,36.36363636363637
+QC-MAIN-5a8a80ca-1,QC-CTRACE-bfc689cf-1,215.88,Raglan,Raglan Operation,54.54545454545454,100.0
+ON-MAIN-bf708684-1,ON-CTRACE-f8304878-1,1029.12,Lac des Iles,Lac des Iles Mine,82.75862068965517,100.0
+NL-MAIN-f9946847-1,,,Beaver Brook,,,
+SK-MAIN-3fcec2e7-1,,,Cigar Lake,,,
+SK-MAIN-cbbe4602-1,,,Key Lake,,,
+SK-MAIN-fa315b6c-1,,,McArthur River,,,
+SK-MAIN-cec62931-1,,,McClean Lake,,,
+AB-MAIN-088a29d1-1,,,Horizon,,,
+AB-MAIN-c1f37e9f-1,,,Jackpine,,,
+AB-MAIN-3014a94d-1,,,Muskeg River,,,
+AB-MAIN-bfdf3cbd-1,,,Kearl,,,
+AB-MAIN-49171f37-1,,,Fort Hills,,,
+AB-MAIN-189a0c74-1,,,Millennium and Steepbank,,,
+AB-MAIN-0b9235e1-1,,,Aurora North and South,,,
+AB-MAIN-2a973ac9-1,,,Mildred Lake,,,
+BC-MAIN-eb5b0a1d-1,BC-CTRACE-f8ece3d6-1,160.2,Myra Falls,Myra Falls Mine,80.0,100.0
+QC-MAIN-36e82d90-1,,,A.S.I. - Ste Catherine,,,
+NB-MAIN-6593e458-1,,,AIM Recycling Atlantic,,,
+ON-MAIN-0dc1ca23-1,,,AIM Recycling Hamilton,,,
+QC-MAIN-8ca456ee-1,,,AIM Recycling La Prairie,,,
+QC-MAIN-a8bc675a-1,,,AIM Recycling Laval,,,
+QC-MAIN-4e8715a9-1,,,AIM Recycling Lévis,,,
+QC-MAIN-41c4b402-1,,,AIM Recycling Montréal-Est,,,
+ON-MAIN-a4f158ba-1,,,AIM Recycling Ottawa East,,,
+ON-MAIN-fc4f3bb2-1,,,Algoma Steel,,,
+QC-MAIN-a07b1ea4-1,,,Alma,,,
+QC-MAIN-9245d5f2-1,,,Alouette,,,
+AB-MAIN-0400fad0-1,,,AltaSteel,,,
+ON-MAIN-621e4f9d-1,,,ArcelorMittal Dofasco,,,
+QC-MAIN-0d3e2477-1,,,Arvida,,,
+QC-MAIN-a80a23b5-1,,,Baie-Comeau,,,
+AB-MAIN-d0340ea2-1,,,Baymag,,,
+QC-MAIN-1cdc4109-1,,,Bécancour,,,
+QC-MAIN-e6f9d1aa-1,,,Becancour Silicon,,,
+ON-MAIN-ab3beaca-1,,,Blind River,,,
+ON-MAIN-b8eb9cec-1,,,Brampton,,,
+ON-MAIN-5d575b1c-1,,,Brampton Division,,,
+AB-MAIN-9e5c8260-1,,,Calgary Facility,,,
+ON-MAIN-6d63265c-1,,,Cambridge Mill,,,
+QC-MAIN-7aedd1d1-1,,,Canadian Electrolytic Zinc Limited (CEZinc),,,
+QC-MAIN-b82e1010-1,,,CCR,,,
+QC-MAIN-e346178b-1,,,Contrecœur East,,,
+QC-MAIN-8395491a-1,,,Contrecœur West,,,
+QC-MAIN-d5f7f7a9-1,,,Contrecœur-Feruni,,,
+ON-MAIN-79b5b7f0-1,ON-CTRACE-bc264035-1,376.77,Copper Cliff Complex,Copper Cliff Mine,75.67567567567568,86.66666666666667
+ON-MAIN-79b5b7f0-1,ON-CTRACE-55b19f8c-1,9445.21,Copper Cliff Complex,Creighton Mine,29.411764705882348,33.333333333333336
+ON-MAIN-79b5b7f0-1,ON-CTRACE-f4e08424-1,18315.39,Copper Cliff Complex,Garson Mine,25.806451612903224,28.57142857142857
+ON-MAIN-79b5b7f0-1,ON-CTRACE-bc264035-2,376.77,Copper Cliff Complex,Stobie Mine,32.25806451612904,38.095238095238095
+QC-MAIN-a131cab8-1,,,Deschambault,,,
+QC-MAIN-7af0f951-1,,,Elkem Chicoutimi,,,
+SK-MAIN-df629bdd-1,,,EVRAZ Regina,,,
+AB-MAIN-e7f96788-1,,,GenAlta Recycling Inc.,,,
+MB-MAIN-88871a03-1,,,General Scrap,,,
+QC-MAIN-4201fced-1,,,General Smelting Company of Canada,,,
+QC-MAIN-5dd926d1-1,,,Grande-Baie,,,
+ON-MAIN-c630ce3f-1,,,Hamilton Parkdale Division,,,
+ON-MAIN-4181dc29-1,,,Hamilton Works,,,
+QC-MAIN-6ac74402-1,QC-CTRACE-312a5be7-1,342.17,Horne,Horne Mine,66.66666666666667,100.0
+QC-MAIN-6ac74402-1,QC-CTRACE-f84b599f-1,847.59,Horne,Quemont Mine,35.29411764705882,57.14285714285714
+MB-MAIN-1d0c2cb3-1,,,Industrial Metals,,,
+ON-MAIN-9326076c-1,,,Ivaco Rolling Mills,,,
+ON-MAIN-a427926b-1,,,Kingston Operation,,,
+BC-MAIN-637c52c2-1,,,Kitimat,,,
+ON-MAIN-f7c901fd-1,,,Lake Erie Works,,,
+QC-MAIN-ef20c691-1,,,Laterrière,,,
+NL-MAIN-06a353b2-1,,,Long Harbour,,,
+MB-MAIN-90b02c47-1,,,Manitoba Mill,,,
+ON-MAIN-8869c24c-1,,,Mississauga,,,
+ON-MAIN-f43e32c4-1,,,Mississauga,,,
+AB-MAIN-feb0ef06-1,,,Navajo Metals Inc.,,,
+QC-MAIN-2cd944d9-1,,,Niobec Converter,,,
+ON-MAIN-dd48cf98-1,,,Ottawa,,,
+ON-MAIN-2e8f3879-1,,,Ottawa Plant,,,
+ON-MAIN-d1b9bbe6-1,,,Port Colborne,,,
+ON-MAIN-7aca343d-1,,,Port Hope,,,
+QC-MAIN-3af5b4c3-1,,,Port-Cartier,,,
+BC-MAIN-bcfb90e1-1,,,Richmond,,,
+BC-MAIN-16a191d7-1,,,Richmond,,,
+QC-MAIN-662f8a99-1,,,Rio Tinto Iron and Titanium,,,
+QC-MAIN-d7a77a42-1,,,Sainte-Catherine,,,
+ON-MAIN-41376f49-1,,,Sault Ste. Marie Division,,,
+MB-MAIN-a67682ea-1,,,Selkirk Division,,,
+ON-MAIN-cc6e92f1-1,,,Smiths Falls Operation,,,
+QC-MAIN-6cad640b-1,,,Sorel Forge,,,
+ON-MAIN-ce39294f-1,ON-CTRACE-f4e08424-1,4612.66,Sudbury,Garson Mine,11.111111111111116,19.999999999999996
+ON-MAIN-ce39294f-1,ON-CTRACE-62f9ef17-1,9155.35,Sudbury,Sudbury INO Operation,50.0,100.0
+AB-MAIN-e029cb1f-1,,,The Cobalt Refinery Company Inc.,,,
+BC-MAIN-9be7e69d-1,,,Trail,,,
+QC-MAIN-746467df-1,,,Vaudreuil,,,
+BC-MAIN-7470aff6-1,,,Victoria Depot,,,
+ON-MAIN-10a30e3e-1,,,Welland Mill,,,
+SK-MAIN-42af1816-1,,,Wheat City Metals Inc.,,,
+ON-MAIN-34211858-1,,,Whitby Division,,,
+ON-MAIN-1252073c-1,,,Whitby Mill,,,
+QC-MAIN-f6f57dd6-1,,,Elysis,,,
+NL-MAIN-f9946847-2,,,Beaver Brook,,,
+QC-MAIN-3be44b79-1,,,Lithion St-Bruno,,,
+ON-MAIN-e116f385-1,,,Ontario Spoke,,,
+AB-MAIN-e2815b92-1,,,Fortune Minerals Refinery,,,
+NT-MAIN-47858377-1,,,NICO,,,
+ON-MAIN-0df6012f-1,,,Battery Materials Park,,,
+QC-MAIN-6c3c0289-1,,,Corner Bay Complex,,,
+NL-MAIN-2b03e509-1,,,Great Burnt Lake,,,
+BC-MAIN-07ad2be6-1,,,Morrison,,,
+BC-MAIN-955f8afa-1,,,North Island,,,
+YT-MAIN-411f048c-1,,,Casino,,,
+BC-MAIN-832d756d-1,BC-CTRACE-e72e429d-1,8182.21,Ootsa,Huckleberry Mine,0.0,0.0
+BC-MAIN-21e4646e-1,BC-CTRACE-8ddeaa4c-1,5588.34,Ajax,New Afton Mine,11.111111111111116,25.0
+BC-MAIN-c87d00e6-1,,,Galore Creek,,,
+BC-MAIN-b35001c5-1,,,GJ,,,
+BC-MAIN-51177ba8-1,BC-CTRACE-425a5a23-1,5130.16,Kemess,Kemess Mine,70.58823529411764,100.0
+BC-MAIN-5ec20643-1,,,Kwanika,,,
+NL-MAIN-bd410410-2,NL-CTRACE-0630ae4b-1,120.99,Ming,Ming Mine,61.53846153846154,100.0
+YT-MAIN-68063961-2,YT-CTRACE-03bfcfef-1,901.88,Minto,Minto Mine,66.66666666666667,100.0
+BC-MAIN-89916018-1,,,Yellowhead,,,
+YT-MAIN-6943b8cf-1,,,Carmacks,,,
+MB-MAIN-84300b33-1,,,Rail,,,
+BC-MAIN-6b1be260-1,BC-CTRACE-e72e429d-1,445.86,Huckleberry,Huckleberry Mine,81.4814814814815,100.0
+BC-MAIN-b799f085-1,,,Berg,,,
+BC-MAIN-67ecc2f4-1,,,Schaft Creek,,,
+ON-MAIN-099602fd-1,,,Thierry,,,
+NU-MAIN-5d4f52b4-1,,,High Lake,,,
+SK-MAIN-92c5ea59-1,,,McIlvenna Bay,,,
+BC-MAIN-b6add796-1,,,Kutcho,,,
+NL-MAIN-790a609b-1,,,AGS Fluorspar,,,
+QC-MAIN-383c2fa3-1,,,Akasaba West,,,
+BC-MAIN-1638bb75-1,BC-CTRACE-da4e102e-1,9189.38,Golden Crown,Lexington Mine,30.76923076923077,42.10526315789473
+BC-MAIN-ac5c4f8e-1,,,New Prosperity,,,
+ON-MAIN-41bc0337-1,,,Upper Beaver,,,
+QC-MAIN-5d1776d5-1,QC-CTRACE-da512f6f-1,554.36,Troilus,Troilus Mine,73.6842105263158,100.0
+BC-MAIN-18aacb3e-1,,,Iskut,,,
+BC-MAIN-853363d1-1,,,KSM,,,
+QC-MAIN-1b3434ee-1,QC-CTRACE-312a5be7-1,87.74,Horne 5,Horne Mine,58.82352941176471,83.33333333333334
+QC-MAIN-1b3434ee-1,QC-CTRACE-f84b599f-1,440.78,Horne 5,Quemont Mine,31.57894736842105,44.44444444444444
+BC-MAIN-b6135486-1,,,Revel Ridge,,,
+BC-MAIN-96b6e5eb-1,,,Kitsault Valley,,,
+BC-MAIN-53bba17f-1,,,Eskay Creek,,,
+YT-MAIN-11319f2d-1,,,Freegold Mountain,,,
+MB-MAIN-e03a8156-1,,,East Wekusko - Snow Lake,,,
+YT-MAIN-6dca29e5-1,,,Klaza,,,
+BC-MAIN-3091ca70-1,,,Deer Horn,,,
+MB-MAIN-b483545e-1,,,Monument Bay,,,
+YT-MAIN-60122d63-1,,,Rackla Gold,,,
+MB-MAIN-515b1195-1,MB-CTRACE-0583d32c-1,2179.03,1901,Lalor Mine,0.0,0.0
+MB-MAIN-82ea0522-1,MB-CTRACE-0583d32c-1,4103.49,Chisel North,Lalor Mine,27.27272727272727,35.29411764705882
+MB-MAIN-6d9f24ca-1,,,Talbot,,,
+MB-MAIN-d97f30a3-1,,,Tower,,,
+MB-MAIN-567f87fa-1,MB-CTRACE-0583d32c-1,17262.2,Wim,Lalor Mine,15.384615384615385,33.333333333333336
+ON-MAIN-4d689934-1,,,Albany,,,
+ON-MAIN-7f2e11bd-1,,,Bissett Creek,,,
+QC-MAIN-ce74de1a-1,,,La Loutre,,,
+QC-MAIN-fe7c9493-1,,,Lac Guéret (Uatnan),,,
+QC-MAIN-d0738410-1,,,Lac Rainy Graphite,,,
+ON-MAIN-f944754f-1,,,Kearney,,,
+QC-MAIN-a7571857-1,,,Matawinie,,,
+QC-MAIN-69334cb0-1,,,Lac Knife,,,
+QC-MAIN-2b8cc0f4-1,,,Miller,,,
+AB-MAIN-cc42475c-1,,,Steveville,,,
+AB-MAIN-a23961e4-1,,,Worsley,,,
+QC-MAIN-ba3d416f-1,,,Lac la Blache,,,
+QC-MAIN-bc5dd61c-1,,,Mont Sorcier,,,
+QC-MAIN-82b2717c-1,,,Blackrock,,,
+QC-MAIN-b5c425d8-1,,,Blackrock Pyrometallurgical Facility,,,
+QC-MAIN-7a5eacde-1,,,Lac Doré Vanadium,,,
+QC-MAIN-f7b40585-1,,,Lithium Demonstration Plant,,,
+AB-MAIN-b8d91ef4-1,,,Bashaw District,,,
+AB-MAIN-7a44e145-1,,,Boardwalk,,,
+SK-MAIN-82b85062-1,,,Kindersley Lithium,,,
+SK-MAIN-4690f3c8-1,,,Prairie Lithium,,,
+AB-MAIN-26c965c2-1,,,Rainbow Lake,,,
+QC-MAIN-8f616fcc-1,,,Authier,,,
+ON-MAIN-a70df1a9-1,,,Georgia Lake,,,
+QC-MAIN-66812dba-1,,,James Bay Lithium,,,
+QC-MAIN-f66d0226-1,,,Moblan,,,
+ON-MAIN-4abc69ca-1,,,Separation Rapids,,,
+ON-MAIN-313f0146-1,,,Seymour Lake,,,
+QC-MAIN-22c0a46a-1,,,Whabouchi,,,
+QC-MAIN-d8c75070-1,,,Rose,,,
+ON-MAIN-d06125fd-1,,,Pakeagama,,,
+QC-MAIN-2e5da440-1,,,Nemaska lithium conversion facility,,,
+ON-MAIN-5c6e6c7a-1,,,Markham lithium reprocessing facility,,,
+QC-MAIN-1d4869bb-1,,,Sirmac,,,
+QC-MAIN-d1b8233a-1,,,Alliance Magnesium,,,
+BC-MAIN-bb484112-1,,,Driftwood Creek,,,
+BC-MAIN-6f23468f-1,,,Record Ridge,,,
+NL-MAIN-9ccf36c0-1,NL-CTRACE-8253809b-1,1740.75,Scully Mine - Manganese project,Scully Mine,52.38095238095239,100.0
+QC-MAIN-2e5da440-2,,,Becancour Plant,,,
+NB-MAIN-14ab93ca-1,,,Battery Hill,,,
+NB-MAIN-80b89ec9-1,,,Woodstock,,,
+BC-MAIN-6b348f3c-1,,,Endako,,,
+BC-MAIN-3173491b-1,,,Lone Pine,,,
+BC-MAIN-74f5551c-1,,,Avanti Kitsault,,,
+BC-MAIN-161ec4d9-1,,,Davidson,,,
+MB-MAIN-90232f90-1,,,Minago,,,
+BC-MAIN-16e89d42-1,,,Decar,,,
+BC-MAIN-afea17a6-1,,,Turnagain,,,
+QC-MAIN-52b0862b-1,,,Dumont Nickel,,,
+MB-MAIN-b7374552-1,,,Bucko Lake,,,
+QC-MAIN-62ba823d-1,,,Lac Rocher,,,
+ON-MAIN-d8a52df2-1,,,Redstone,,,
+ON-MAIN-07bc135f-1,,,Kenbridge,,,
+MB-MAIN-17adc4a4-1,,,Lynn Lake,,,
+ON-MAIN-8de2b54e-1,ON-CTRACE-55b19f8c-1,15043.25,Crean Hill,Creighton Mine,50.0,57.14285714285714
+ON-MAIN-8de2b54e-1,ON-CTRACE-8a30df38-1,8618.95,Crean Hill,Totten Mine,38.095238095238095,47.05882352941176
+ON-MAIN-21de8cef-1,ON-CTRACE-e3d25cb9-1,5724.6,Onaping Depth,Coleman Mine,31.999999999999996,36.36363636363637
+ON-MAIN-21de8cef-1,ON-CTRACE-c27ea770-1,1272.17,Onaping Depth,McCreedy West Mine,19.354838709677423,37.5
+ON-MAIN-92254f18-1,ON-CTRACE-55b19f8c-1,16919.5,Victoria,Creighton Mine,36.36363636363637,37.5
+ON-MAIN-92254f18-1,ON-CTRACE-8a30df38-1,6720.26,Victoria,Totten Mine,21.052631578947366,25.0
+ON-MAIN-cef2ae42-1,,,Eagle's Nest,,,
+MB-MAIN-72954693-1,,,Makwa Mayville,,,
+NU-MAIN-4da97af6-1,,,Ferguson Lake,,,
+ON-MAIN-771f682a-1,,,Shakespeare,,,
+YT-MAIN-62f18e31-1,,,Nickel Shaw,,,
+ON-MAIN-71c22461-1,ON-CTRACE-e538b32b-1,16764.88,Crawford,Kidd Creek Mine,17.391304347826086,26.66666666666667
+BC-MAIN-cfe1a12c-1,,,Aley,,,
+ON-MAIN-9a1b3df8-1,,,James Bay (Argor),,,
+QC-MAIN-0f1f6d46-1,,,Crevier,,,
+ON-MAIN-c0dbe3d0-1,,,Marathon,,,
+ON-MAIN-260dc878-1,,,River Valley,,,
+ON-MAIN-13e61769-1,,,Martison,,,
+ON-MAIN-f039002e-1,,,Thunder Bay North,,,
+SK-MAIN-ee0fab1a-1,,,Jansen,,,
+SK-MAIN-fa964b40-1,,,Milestone,,,
+NB-MAIN-b72cbf1c-1,,,Millstream,,,
+SK-MAIN-52fbe54e-1,,,Muskowekwan,,,
+MB-MAIN-2ee057b8-1,,,PADCOM Potash Mine,,,
+SK-MAIN-ab9c65a7-1,,,Southey,,,
+SK-MAIN-86dd1c37-1,,,Vanguard,,,
+SK-MAIN-640b427c-1,,,Wynyard,,,
+QC-MAIN-e066357e-1,,,Kipawa (Zeus),,,
+QC-MAIN-e363e5b1-1,,,Eldor (Ashram),,,
+NT-MAIN-0f6cb3ad-1,,,Nechalacho - T-Zone & Tardiff Zone,,,
+NL-MAIN-da3b3dae-1,,,Port Hope Simpson (Foxtrot),,,
+SK-MAIN-98848a83-1,,,Rare Earth Processing Facility,,,
+ON-MAIN-e116f385-2,,,RapidSX Demonstration Plant,,,
+QC-MAIN-1fabc906-1,,,REE Recycling Facility (Saint-Bruno),,,
+SK-MAIN-53a8c866-1,,,Rare Earth Processing Facility,,,
+QC-MAIN-8fcacde6-1,,,Saint-Honoré,,,
+BC-MAIN-f80e2913-1,,,Wicheeda,,,
+QC-MAIN-cfde9015-1,,,Strange Lake,,,
+NT-MAIN-0f6cb3ad-2,,,Nechalacho - Basal Zone,,,
+QC-MAIN-6232bf35-1,,,Kwyjibo,,,
+QC-MAIN-f7b40585-2,,,Scandium Demonstration Plant,,,
+QC-MAIN-dd392d35-1,,,Crater Lake,,,
+BC-MAIN-fa8dd7ae-1,,,Blue River,,,
+NS-MAIN-6c39ff7e-1,,,East Kemptville,,,
+NB-MAIN-a4415da5-1,,,Mount Pleasant,,,
+NT-MAIN-03e8cde6-1,NT-CTRACE-435b1a6a-1,141.28,Cantung,Cantung Mine,73.6842105263158,100.0
+YT-MAIN-56c18e10-1,,,Mactung,,,
+YT-MAIN-43994b92-1,,,Northern Dancer,,,
+NB-MAIN-7b6678ae-1,,,Sisson,,,
+SK-MAIN-1dda9c9d-1,,,Eagle Point,,,
+SK-MAIN-11948fa6-1,,,Horseshoe-Raven,,,
+NU-MAIN-af98f320-1,,,Kiggavik-Sissons,,,
+NL-MAIN-9ee6abcb-1,,,Michelin,,,
+SK-MAIN-e95a9d65-1,,,Midwest,,,
+SK-MAIN-6e2b2410-1,,,Millennium,,,
+SK-MAIN-a584d05d-1,,,Rabbit Lake,,,
+SK-MAIN-b0e502f0-1,,,Patterson Lake South,,,
+SK-MAIN-19e40503-1,,,Rook I,,,
+SK-MAIN-b99b2981-1,,,Waterbury,,,
+SK-MAIN-85cc24e6-1,,,Wheeler River,,,
+AB-MAIN-5886ad62-1,,,SBH Black Shale,,,
+QC-MAIN-958e6b58-1,,,Scott Lake,,,
+ON-MAIN-1eff4e4b-1,,,Superior Lake,,,
+YT-MAIN-777864fa-1,,,Marg,,,
+QC-MAIN-53721d44-1,QC-CTRACE-f10ab779-1,17066.95,Caber Complex,Bell-Allard Mine,27.586206896551722,38.095238095238095
+QC-MAIN-53721d44-1,QC-CTRACE-45c6808e-1,14693.89,Caber Complex,Isle-Dieu Mine,22.22222222222222,30.000000000000004
+QC-MAIN-53721d44-1,QC-CTRACE-b04eb4c0-1,17100.82,Caber Complex,Lac Matagami Mine,26.66666666666667,28.57142857142857
+QC-MAIN-53721d44-1,QC-CTRACE-68575a0a-1,19776.35,Caber Complex,Matagami Mine,23.076923076923073,28.57142857142857
+QC-MAIN-53721d44-1,QC-CTRACE-71ec97d9-1,7449.48,Caber Complex,New Hosco Mine,29.629629629629626,31.57894736842105
+QC-MAIN-53721d44-1,QC-CTRACE-537cc9b9-1,17985.55,Caber Complex,Orchan Mine,25.0,30.000000000000004
+BC-MAIN-eb5b0a1d-2,BC-CTRACE-f8ece3d6-1,160.2,Myra Falls,Myra Falls Mine,80.0,100.0
+NU-MAIN-3a15ba90-1,,,Izok Lake,,,
+NT-MAIN-969facce-1,,,Pine Point,,,
+YT-MAIN-860ad5a3-1,,,Selwyn,,,
+YT-MAIN-80c56f4b-1,,,Yukon Base Metal,,,
+NL-MAIN-d57abb7f-1,,,Buchans River,,,
+NU-MAIN-9aa02969-1,,,Hackett River,,,
+YT-MAIN-c333e0eb-1,,,Kudz Ze Kayah,,,
+QC-MAIN-31d99c67-1,QC-CTRACE-e91c10d6-1,67.48,Langlois,Langlois Mine,76.19047619047619,100.0
+NS-MAIN-10a1b988-1,,,Scotia,,,
+BC-MAIN-360b5bc6-1,,,Akie,,,
+YT-MAIN-2e6786ff-1,,,Macmillan Pass,,,
+NB-MAIN-cd82270d-1,,,Nash Creek,,,
+NT-MAIN-9d6f2c07-1,,,Prairie Creek,,,
+NB-MAIN-97cfe920-1,NB-CTRACE-a90edb5b-1,141.24,Caribou,Caribou Mine,73.6842105263158,100.0
+NB-MAIN-658c67a1-1,NB-CTRACE-f28d43a3-1,185.4,Halfmile,Halfmile Mine,76.19047619047619,100.0
+NB-MAIN-658c67a1-1,NB-CTRACE-2f8ea035-1,19833.97,Halfmile,Heath Steele Mine,40.0,40.0
+NB-MAIN-100864a2-1,NB-CTRACE-a90edb5b-1,11426.98,Murray Brook,Caribou Mine,25.0,33.333333333333336
+NB-MAIN-100864a2-1,NB-CTRACE-bffe17c0-1,9415.41,Murray Brook,Restigouche Mine,14.28571428571429,19.047619047619047
+NB-MAIN-e2850267-1,NB-CTRACE-f28d43a3-1,881.88,Stratmat,Halfmile Mine,19.047619047619047,30.76923076923077
+NB-MAIN-e2850267-1,NB-CTRACE-2f8ea035-1,19080.85,Stratmat,Heath Steele Mine,24.0,37.5
+QC-MAIN-768b402a-1,,,Abcourt-Barvue,,,
+QC-MAIN-7c67a92e-1,,,Horizon,,,
+,MB-CTRACE-bf313a14-1,,,777 Mine,,
+,BC-CTRACE-40751c2e-1,,,Bell Mine,,
+,QC-CTRACE-f2c9f233-1,,,Bell-Allard South Mine,,
+,QC-CTRACE-b3149eac-1,,,Estrades Mine,,
+,BC-CTRACE-f6c10bb8-1,,,Granisle Mine,,
+,QC-CTRACE-29744834-1,,,Joutel Mine,,
+,BC-CTRACE-1d35c674-1,,,Max Mine,,
+,QC-CTRACE-5c090da4-1,,,Norita Mine,,
+,QC-CTRACE-c48ce6b8-1,,,Poirier Mine,,
+,QC-CTRACE-b5a2f01b-1,,,Radiore Mine,,
+,BC-CTRACE-62bd9926-1,,,Samatosum Mine,,
+,QC-CTRACE-59ee4d8c-1,,,Selbaie Mine,,

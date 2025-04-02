@@ -1,0 +1,26 @@
+Entity,Code,Year,reserves|Tin|Mine|tonnes
+Australia,AUS,2022,570000
+Australia,AUS,2023,620000
+Bolivia,BOL,2022,400000
+Bolivia,BOL,2023,400000
+Brazil,BRA,2022,420000
+Brazil,BRA,2023,420000
+China,CHN,2022,720000
+China,CHN,2023,1100000
+Democratic Republic of Congo,COD,2022,130000
+Democratic Republic of Congo,COD,2023,120000
+Indonesia,IDN,2022,800000
+Myanmar,MMR,2022,700000
+Myanmar,MMR,2023,700000
+Other,,2022,310000
+Other,,2023,310000
+Peru,PER,2022,130000
+Peru,PER,2023,130000
+Russia,RUS,2022,430000
+Russia,RUS,2023,460000
+United States,USA,2022,0
+United States,USA,2023,0
+Vietnam,VNM,2022,11000
+Vietnam,VNM,2023,11000
+World,OWID_WRL,2022,4600000
+World,OWID_WRL,2023,4300000

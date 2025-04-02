@@ -1,0 +1,87 @@
+Entity,Code,Year,production|Gallium|Processing|tonnes
+China,CHN,2011,200
+China,CHN,2012,270
+China,CHN,2013,300
+China,CHN,2014,300
+China,CHN,2015,284
+China,CHN,2016,171
+China,CHN,2017,319
+China,CHN,2018,404
+China,CHN,2019,357
+China,CHN,2020,317
+China,CHN,2021,423
+China,CHN,2022,600
+China,CHN,2023,600
+Germany,DEU,2013,38
+Germany,DEU,2014,16
+Germany,DEU,2015,11
+Germany,DEU,2016,23
+Germany,DEU,2017,0
+Japan,JPN,2008,7
+Japan,JPN,2009,7
+Japan,JPN,2010,5
+Japan,JPN,2011,5
+Japan,JPN,2012,8
+Japan,JPN,2013,8
+Japan,JPN,2014,8
+Japan,JPN,2015,6
+Japan,JPN,2016,3
+Japan,JPN,2017,3
+Japan,JPN,2018,3
+Japan,JPN,2019,3
+Japan,JPN,2020,3
+Japan,JPN,2021,3
+Japan,JPN,2022,3
+Japan,JPN,2023,3
+Kazakhstan,KAZ,2007,19
+Kazakhstan,KAZ,2008,19
+Kazakhstan,KAZ,2009,19
+Kazakhstan,KAZ,2010,19
+Kazakhstan,KAZ,2011,19
+Kazakhstan,KAZ,2012,16
+Russia,RUS,2008,13
+Russia,RUS,2009,13
+Russia,RUS,2010,13
+Russia,RUS,2011,13
+Russia,RUS,2012,13
+Russia,RUS,2013,13
+Russia,RUS,2014,13
+Russia,RUS,2015,13
+Russia,RUS,2016,13
+Russia,RUS,2017,13
+Russia,RUS,2018,13
+Russia,RUS,2019,13
+Russia,RUS,2020,5
+Russia,RUS,2021,5
+Russia,RUS,2022,5
+Russia,RUS,2023,5
+South Korea,KOR,2012,7
+South Korea,KOR,2013,2
+South Korea,KOR,2014,1
+South Korea,KOR,2015,3
+South Korea,KOR,2016,3
+South Korea,KOR,2017,3
+South Korea,KOR,2018,3
+South Korea,KOR,2019,3
+South Korea,KOR,2020,2
+South Korea,KOR,2021,2
+South Korea,KOR,2022,2
+South Korea,KOR,2023,2
+Ukraine,UKR,2013,13
+Ukraine,UKR,2014,13
+Ukraine,UKR,2015,9
+Ukraine,UKR,2016,9
+Ukraine,UKR,2017,4
+Ukraine,UKR,2018,4
+Ukraine,UKR,2019,8
+Ukraine,UKR,2020,4
+Ukraine,UKR,2021,1
+Ukraine,UKR,2022,1
+United States,USA,2020,0
+United States,USA,2021,0
+United States,USA,2022,0
+United States,USA,2023,0
+World,OWID_WRL,2020,327
+World,OWID_WRL,2021,434
+World,OWID_WRL,2022,610
+World,OWID_WRL,2023,610

@@ -1,0 +1,482 @@
+Metadata:
+  Identification_Information:
+    Citation:
+      Citation_Information:
+        Originator: Schulz, Klaus J.
+        Originator: Briskey, Joseph A.
+        Title: Major mineral deposits of the world
+        Publication_Date: 2005
+        Series_Information:
+          Series_Name: Open-File Report
+          Issue_Identification: 2005-1294
+        Publication_Information:
+          Publication_Place: Reston, Virginia
+          Publisher: U.S. Geological Survey
+        Online_Linkage: https://mrdata.usgs.gov/major-deposits/
+    Description:
+      Abstract: Regional locations and general geologic setting of known deposits of major nonfuel mineral commodities. Originally compiled in five parts by diverse authors, combined here for convenience despite likely inconsistencies among the regional reports.
+      Purpose:
+        The five regional compilations of major mineral deposits that are
+        here combined were originally created to begin a global mineral
+        resource assessment, and so should be understood as providing
+        generalized fundamental information about where in the world
+        important mineral resources have been discovered.
+
+        For our purposes, we did not need to obtain highly precise
+        geographic locations or details of the geometry of the deposits or
+        their precise geographic extents.  The user should expect these
+        point locations to be near the deposits they describe, but the
+        locations may be expected to be one or a few kilometers from the
+        actual locations.
+
+        Likewise this survey did not require detailed information on the
+        geological setting of each deposit or the extent of production or
+        resource estimates.  For larger deposits described here, such
+        information may be available in other USGS databases or
+        publications.
+    Time_Period_of_Content:
+      Time_Period_Information:
+        Single_Date/Time:
+          Calendar_Date: 2009
+      Currentness_Reference: publication date of the last-appearing source
+    Status:
+      Progress: Complete
+      Maintenance_and_Update_Frequency: None planned
+    Spatial_Domain:
+      Bounding_Coordinates:
+        West_Bounding_Coordinate: -178.73
+        East_Bounding_Coordinate: 178.18
+        North_Bounding_Coordinate: 83.1
+        South_Bounding_Coordinate: -48.39
+    Access_Constraints: none
+    Use_Constraints: none
+    Keywords:
+      Theme:
+        Theme_Keyword_Thesaurus: Alexandria Digital Library Feature Type Thesaurus
+        Theme_Keyword: mine sites
+      Place:
+        Place_Keyword_Thesaurus: Common geographic areas
+        Place_Keyword: fLD50 = Africa
+        Place_Keyword: fLD70 = Asia
+        Place_Keyword: fLD80 = Asia Minor and Middle East
+        Place_Keyword: fLD60 = Australia and New Zealand
+        Place_Keyword: fLD20 = Central America
+        Place_Keyword: fLD40 = Europe
+        Place_Keyword: fLD10 = North America
+        Place_Keyword: fLD30 = South America
+        Place_Keyword: fLD90 = Southeast Asia
+      Theme:
+        Theme_Keyword_Thesaurus: USGS Thesaurus
+        Theme_Keyword: economic geology
+        Theme_Keyword: geospatial datasets
+        Theme_Keyword: mineral resources
+        Theme_Keyword: web map services
+      Theme:
+        Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+        Theme_Keyword: geoscientificInformation
+    Point_of_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Klaus J Schulz
+          Contact_Organization: Midwest Region
+        Contact_Position: Research Geologist
+        Contact_Address:
+          Address_Type: mailing address
+          Address:
+            Mail Stop 954
+            12201 Sunrise Valley Dr
+          City: Reston
+          State_or_Province: VA
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6320
+        Contact_Facsimile_Telephone: 703-648-6383
+        Contact_Electronic_Mail_Address: kschulz@usgs.gov
+    Browse_Graphic:
+      Browse_Graphic_File_Name: https://mrdata.usgs.gov/major-deposits/ofr20051294.png
+      Browse_Graphic_File_Description: Reduced-size map of the world showing the locations of the major deposits plotted., (540 x 270 pixels)
+      Browse_Graphic_File_Type: PNG
+  Data_Quality_Information:
+    Attribute_Accuracy:
+      Attribute_Accuracy_Report: This combination of data from the five reports did not address accuracy of the deposit characteristics, but it did correct spelling of some commodity values.
+    Logical_Consistency_Report:
+      Rumor has it that, because the five component reports of OFR-2005-1294
+      were compiled by different geoscientists, there may be variations
+      among the reports in the criteria by which deposits were chosen for
+      inclusion, and it is clear from the data that the deposits of the US
+      were documented more fully than those of the other regions, owing to
+      greater access to source materials.
+    Completeness_Report:
+      Information in the component reports meet the needs of USGS
+      coordinators as of 2005, but no further information has been added to
+      reflect any newly discovered resources or deposits.
+    Lineage:
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Zientek, Michael L.
+            Originator: Orris, Greta J.
+            Publication_Date: 2005
+            Title: Geology and nonfuel mineral deposits of the United States
+            Series_Information:
+              Series_Name: Open-File Report
+              Issue_Identification: 2005-1294-A
+            Publication_Information:
+              Publication_Place: Reston, Virginia
+              Publisher: U.S. Geological Survey
+            Online_Linkage: http://pubs.usgs.gov/of/2005/1294/a/
+        Type_of_Source_Media: Digital file in Microsoft Excel format
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 2005
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: ofr20051294A
+        Source_Contribution: Deposits of the United States
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Cunningham, Charles G.
+            Originator: Zientek, Michael L.
+            Originator: Bawiec, Walter J.
+            Originator: Orris, Greta J.
+            Publication_Date: 2005
+            Title: Geology and Nonfuel Mineral Deposits of Latin America and Canada
+            Series_Information:
+              Series_Name: Open-File Report
+              Issue_Identification: 2005-1294-B
+            Publication_Information:
+              Publication_Place: Reston, Virginia
+              Publisher: U.S. Geological Survey
+            Online_Linkage: http://pubs.usgs.gov/of/2005/1294/b/
+        Type_of_Source_Media: Digital file in PDF
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 2005
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: ofr20051294B
+        Source_Contribution: Deposits of Latin America and Canada
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Peters, Stephen G.
+            Originator: Nokleberg, Warren J.
+            Originator: Doebrich, Jeff L.
+            Originator: Bawiec, Walter J.
+            Originator: Orris, Greta
+            Originator: Sutphin, David M.
+            Originator: Wilburn, David R.
+            Publication_Date: 2005
+            Title: Geology and nonfuel mineral deposits of Asia and the Pacific
+            Series_Information:
+              Series_Name: Open-File Report
+              Issue_Identification: 2005-1294-C
+            Publication_Information:
+              Publication_Place: Reston, Virginia
+              Publisher: U.S. Geological Survey
+            Online_Linkage: http://pubs.usgs.gov/of/2005/1294/c/
+        Type_of_Source_Media: Digital file in shapefile format
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 2005
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: ofr20051294C
+        Source_Contribution: Deposits of Asia and the Pacific
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Nokleberg, Warren J.
+            Originator: Bawiec, Walter J.
+            Originator: Doebrich, Jeff L.
+            Originator: Lipin, Bruce R.
+            Originator: Miller, Robert J.
+            Originator: Orris, Greta J.
+            Originator: Zientek, Michael L.
+            Publication_Date: 2005
+            Title:
+              Geology and nonfuel mineral deposits of Greenland, Europe, Russia, and
+              northern Central Asia
+            Series_Information:
+              Series_Name: Open-File Report
+              Issue_Identification: 2005-1294-D
+            Publication_Information:
+              Publication_Place: Reston, Virginia
+              Publisher: U.S. Geological Survey
+            Online_Linkage: http://pubs.usgs.gov/of/2005/1294/d/
+        Type_of_Source_Media: Digital file in PDF
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 2005
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: ofr20051294D
+        Source_Contribution: Deposits in Europe and northern Central Asia
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Taylor, Cliff D.
+            Originator: Schulz, Klaus J.
+            Originator: Doebrich, Jeff L.
+            Originator: Orris, Greta
+            Originator: Denning, Paul D.
+            Originator: Kirschbaum, Michael J.
+            Publication_Date: 2009
+            Title: Geology and Nonfuel Mineral Deposits of Africa and the Middle East
+            Series_Information:
+              Series_Name: Open-File Report
+              Issue_Identification: 2005-1294
+            Publication_Information:
+              Publication_Place: Reston, Virginia
+              Publisher: U.S. Geological Survey
+            Online_Linkage: http://pubs.usgs.gov/of/2005/1294/e/
+        Type_of_Source_Media: Digital file in PDF
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 2009
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: ofr20051294E
+        Source_Contribution: Deposits in Africa and countries of the Middle East
+      Process_Step:
+        Process_Description:
+          Data table from part A was obtained by request to the senior
+          author as a spreadsheet.  Data from part C was published as a GIS
+          shapefile.  Data from the other parts was scraped from the PDF
+          reports on the web.
+
+          Commodity lists were parsed, spelling was corrected, and
+          consistent commodity identifiers were stored in the separate
+          commodity table (joined to the deposit table on the field gid
+          present in both tables).  Commodity values in the commodity table
+          are element symbols for elemental commodities, and lower-case
+          names for mineral commodities, with the addition of the element
+          groups REE and PGE as is common practice.
+
+          References from the reports were combined and duplicates removed.
+          Digital compiler aspires to connect the full references with the
+          short citations that are contained in the tables, but as of
+          2015-09-18 this has not been successfuly completed.
+        Source_Used_Citation_Abbreviation: ofr20051294A
+        Source_Used_Citation_Abbreviation: ofr20051294B
+        Source_Used_Citation_Abbreviation: ofr20051294C
+        Source_Used_Citation_Abbreviation: ofr20051294D
+        Source_Used_Citation_Abbreviation: ofr20051294E
+        Process_Date: 201509
+        Process_Contact:
+          Contact_Information:
+            Contact_Person_Primary:
+              Contact_Person: Peter N Schweitzer
+              Contact_Organization: USGS ER GD
+            Contact_Position: Geologist
+            Contact_Address:
+              Address_Type: mailing address
+              Address: 12201 Sunrise Valley Drive
+              City: Reston
+              State_or_Province: VA
+              Postal_Code: 20192-0002
+              Country: USA
+            Contact_Voice_Telephone: 703-648-6533
+            Contact_Facsimile_Telephone: 703-648-6252
+            Contact_Electronic_Mail_Address: pschweitzer@usgs.gov
+  Spatial_Data_Organization_Information:
+    Direct_Spatial_Reference_Method: Point
+    Point_and_Vector_Object_Information:
+      SDTS_Terms_Description:
+        SDTS_Point_and_Vector_Object_Type: Entity point
+        Point_and_Vector_Object_Count: 3168
+  Spatial_Reference_Information:
+    Horizontal_Coordinate_System_Definition:
+      Geographic:
+        Latitude_Resolution: 0.0001
+        Longitude_Resolution: 0.0001
+        Geographic_Coordinate_Units: decimal degrees
+      Geodetic_Model:
+        Horizontal_Datum_Name: World Geodetic System 1984
+        Ellipsoid_Name: WGS 84
+        Semi-major_Axis: 6378137
+        Denominator_of_Flattening_Ratio: 298.257
+  Entity_and_Attribute_Information:
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: deposit
+        Entity_Type_Definition: Regional locations and general geologic setting of known deposits of major nonfuel mineral commodities
+      Attribute:
+        Attribute_Label: gid
+        Attribute_Definition:
+          Record ID.
+
+          Simple record number for this database.
+          Integer values.
+          Integer of width 4.
+      Attribute:
+        Attribute_Label: dep_name
+        Attribute_Definition:
+          Deposit name.
+
+          Name of the site or deposit, possibly with alternatives.
+          Textual values of no more than 128 characters.
+      Attribute:
+        Attribute_Label: country
+        Attribute_Definition:
+          Country.
+
+          Country in which the site is located.
+          Textual values of no more than 32 characters.
+      Attribute:
+        Attribute_Label: state
+        Attribute_Definition:
+          State.
+
+          State in which the site is located, for US sites.
+          Textual values of no more than 48 characters.
+      Attribute:
+        Attribute_Label: latitude
+        Attribute_Definition:
+          Latitude.
+
+          Geographic latitude in decimal degrees, WGS84, south latitudes
+          negative.
+          Real numbers stored in double precision.
+      Attribute:
+        Attribute_Label: longitude
+        Attribute_Definition:
+          Longitude.
+
+          Geographic longitude in decimal degrees, WGS84, west longitudes
+          negative.
+          Real numbers stored in double precision.
+      Attribute:
+        Attribute_Label: commodity
+        Attribute_Definition:
+          Commodity.
+
+          List of commodities present at the site.
+          Textual values of no more than 80 characters.
+      Attribute:
+        Attribute_Label: dep_type
+        Attribute_Definition:
+          Deposit type.
+
+          Generalized type of deposit.
+          Textual values of no more than 40 characters.
+      Attribute:
+        Attribute_Label: type_detail
+        Attribute_Definition:
+          Deposit type detail.
+
+          More details on deposit type, where available.
+          Textual values of no more than 96 characters.
+      Attribute:
+        Attribute_Label: model_code
+        Attribute_Definition:
+          Deposit model code.
+
+          Identifier of the deposit model, from Cox and Singer 1986.
+          Textual values of no more than 16 characters.
+      Attribute:
+        Attribute_Label: model_name
+        Attribute_Definition:
+          Deposit model name.
+
+          Name of the deposit model, from Cox and Singer 1986.
+          Textual values of no more than 80 characters.
+      Attribute:
+        Attribute_Label: metallic
+        Attribute_Definition:
+          Commodity type.
+
+          Metallic or non-metallic.
+          Textual values of no more than 16 characters.
+      Attribute:
+        Attribute_Label: citation
+        Attribute_Definition:
+          Source citation.
+
+          Short bibligraphic references as used in scientific texts,
+          semicolon-separated list.
+          Textual values of no more than 96 characters.
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: commodity
+        Entity_Type_Definition: Commodities listed separately and regularized in spelling and capitalization
+      Attribute:
+        Attribute_Label: gid
+        Attribute_Definition:
+          Record ID.
+
+          Unique identifier of the site within this database, a value of
+          deposit:gid.
+          Integer values.
+          Integer of width 4.
+      Attribute:
+        Attribute_Label: value
+        Attribute_Definition:
+          Commodity.
+
+          Name of mineral commodity or elemental symbol.
+          Textual values of no more than 32 characters.
+  Distribution_Information:
+    Distributor:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Peter N Schweitzer
+          Contact_Organization: USGS ER GD
+        Contact_Position: Geologist
+        Contact_Address:
+          Address_Type: mailing address
+          Address: 12201 Sunrise Valley Drive
+          City: Reston
+          State_or_Province: VA
+          Postal_Code: 20192-0002
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6533
+        Contact_Facsimile_Telephone: 703-648-6252
+        Contact_Electronic_Mail_Address: pschweitzer@usgs.gov
+    Resource_Description: USGS OFR 2005-1294, parts A through E, data tables only
+    Distribution_Liability:
+      Any use of trade, product, or firm names is for descriptive purposes only and does not imply
+      endorsement by the U.S. Government.
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: WMS
+          Format_Version_Number: 1.3.0
+          Format_Information_Content: Mineral deposits and characteristics
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: https://mrdata.usgs.gov/services/ofr20051294?service=WMS&request=GetCapabilities&version=1.3.0
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: Shapefile
+          Format_Version_Number: 1.0
+          Format_Information_Content: Mineral deposit locations with general deposit characteristics and commodity
+          Transfer_Size: 0.15
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: https://mrdata.usgs.gov/major-deposits/ofr20051294.zip
+      Fees: none
+  Metadata_Reference_Information:
+    Metadata_Date: 20161207
+    Metadata_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Schweitzer, Peter, N
+          Contact_Organization: Eastern Mineral Resources Team
+        Contact_Address:
+          Address_Type: mailing address
+          Address: 12201 Sunrise Valley Drive Mail Stop 954
+          City: Reston
+          State_or_Province: VA
+          Postal_Code: 20192
+          Country: USA
+        Contact_Voice_Telephone: 703-648-6533
+        Contact_Electronic_Mail_Address: pschweitzer@usgs.gov
+    Metadata_Standard_Name: Content Standard for Digital Geospatial Metadata
+    Metadata_Standard_Version: FGDC-STD-001-1998
+

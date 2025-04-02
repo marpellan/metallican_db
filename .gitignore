@@ -1,0 +1,9 @@
+# Ignore raw data and company reports
+QGIS_projects
+/data/Companies_reports
+/data/Sources
+
+# Ignore system/desktop files
+.DS_Store
+Thumbs.db
+desktop.ini

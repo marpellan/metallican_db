@@ -1,0 +1,29 @@
+Entity,Code,Year,reserves|Cobalt|Mine|tonnes
+Australia,AUS,2022,1500000
+Australia,AUS,2023,1700000
+Canada,CAN,2022,220000
+Canada,CAN,2023,230000
+China,CHN,2022,140000
+Cuba,CUB,2022,500000
+Cuba,CUB,2023,500000
+Democratic Republic of Congo,COD,2022,4000000
+Democratic Republic of Congo,COD,2023,6000000
+Indonesia,IDN,2022,600000
+Indonesia,IDN,2023,500000
+Madagascar,MDG,2022,100000
+Madagascar,MDG,2023,100000
+Morocco,MAR,2022,13000
+Other,,2022,610000
+Other,,2023,780000
+Papua New Guinea,PNG,2022,47000
+Papua New Guinea,PNG,2023,49000
+Philippines,PHL,2022,260000
+Philippines,PHL,2023,260000
+Russia,RUS,2022,250000
+Russia,RUS,2023,250000
+Turkey,TUR,2022,36000
+Turkey,TUR,2023,91000
+United States,USA,2022,69000
+United States,USA,2023,69000
+World,OWID_WRL,2022,8300000
+World,OWID_WRL,2023,11000000

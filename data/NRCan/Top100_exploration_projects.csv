@@ -1,0 +1,101 @@
+﻿OBJECTID,Count,Project Name / Nom du projet,Province / Territory,Province / Territoire,Commodity Group,Groupe de produits minéraux
+1,1,Kingsway,Newfoundland and Labrador,Terre-Neuve-et-Labrador,Gold,Or
+2,2,Queensway,Newfoundland and Labrador,Terre-Neuve-et-Labrador,Gold,Or
+3,3,Central Mineral Belt,Newfoundland and Labrador,Terre-Neuve-et-Labrador,Uranium,Uranium
+4,4,Goldboro,Nova Scotia,Nouvelle-Écosse,Gold,Or
+5,5,Fifteen Mile Stream,Nova Scotia,Nouvelle-Écosse,Gold,Or
+6,6,Clarence Stream,New Brunswick,Nouveau-Brunswick,Gold,Or
+7,7,Strange Lake,Quebec,Québec,Rare earth elements,Éléments des terres rares
+8,8,Adina,Quebec,Québec,Lithium,Lithium
+9,9,Matawinie,Quebec,Québec,Graphite,Graphite
+10,10,Corvette,Quebec,Québec,Lithium,Lithium
+11,11,Troilus,Quebec,Québec,Gold,Or
+12,12,Frotet,Quebec,Québec,Gold,Or
+13,13,Urban Barry,Quebec,Québec,Gold,Or
+14,14,Windfall,Quebec,Québec,Gold,Or
+15,15,Eau Claire,Quebec,Québec,Gold,Or
+16,16,Barry,Quebec,Québec,Gold,Or
+17,17,Desmaraisville South,Quebec,Québec,Gold,Or
+18,18,Rose,Quebec,Québec,Lithium,Lithium
+19,19,Rupert,Quebec,Québec,Lithium,Lithium
+20,20,James Bay,Quebec,Québec,Lithium,Lithium
+21,21,Val-d'Or East,Quebec,Québec,Gold,Or
+22,22,Elmer,Quebec,Québec,Gold,Or
+23,23,Marban,Quebec,Québec,Gold,Or
+24,24,Fenelon,Quebec,Québec,Gold,Or
+25,25,Grasset,Quebec,Québec,Nickel,Nickel
+26,26,Martiniere,Quebec,Québec,Gold,Or
+27,27,Duparquet,Quebec,Québec,Gold,Or
+28,28,Perron,Quebec,Québec,Gold,Or
+29,29,Larder Lake,Ontario,Ontario,Gold,Or
+30,30,Tower gold,Ontario,Ontario,Gold,Or
+31,31,Fenn-Gib,Ontario,Ontario,Gold,Or
+32,32,Bradshaw,Ontario,Ontario,Gold,Or
+33,33,Edleston,Ontario,Ontario,Nickel,Nickel
+34,34,Crawford,Ontario,Ontario,Nickel,Nickel
+35,35,Wawa,Ontario,Ontario,Gold,Or
+36,36,Golden Sky,Ontario,Ontario,Gold,Or
+37,37,Eagle's Nest,Ontario,Ontario,Nickel,Nickel
+38,38,Marathon,Ontario,Ontario,Palladium,Palladium
+39,39,Junior Lake,Ontario,Ontario,Gold,Or
+40,40,Seymour,Ontario,Ontario,Lithium,Lithium
+41,41,Moss Lake,Ontario,Ontario,Gold,Or
+42,42,Root,Ontario,Ontario,Lithium,Lithium
+43,43,Springpole,Ontario,Ontario,Gold,Or
+44,44,Goliath,Ontario,Ontario,Gold,Or
+45,45,Mavis Lake,Ontario,Ontario,Lithium,Lithium
+46,46,Pakeagama Lake,Ontario,Ontario,Lithium,Lithium
+47,47,Great Bear,Ontario,Ontario,Gold,Or
+48,48,Madsen,Ontario,Ontario,Gold,Or
+49,49,Rowan,Ontario,Ontario,Gold,Or
+50,50,Snow Lake,Manitoba,Manitoba,Lithium,Lithium
+51,51,Lynn Lake,Manitoba,Manitoba,Gold,Or
+52,52,Pine Bay,Manitoba,Manitoba,Copper,Cuivre
+53,53,McIlvenna Bay,Saskatchewan,Saskatchewan,Copper,Cuivre
+54,54,Wynyard,Saskatchewan,Saskatchewan,Potash,Potasse
+55,55,Roughrider,Saskatchewan,Saskatchewan,Uranium,Uranium
+56,56,Star - Orion South,Saskatchewan,Saskatchewan,Diamonds,Diamants
+57,57,Christie Lake,Saskatchewan,Saskatchewan,Uranium,Uranium
+58,58,West McArthur,Saskatchewan,Saskatchewan,Uranium,Uranium
+59,59,East Preston,Saskatchewan,Saskatchewan,Uranium,Uranium
+60,60,Rook 1,Saskatchewan,Saskatchewan,Uranium,Uranium
+61,61,Patterson Lake North,Saskatchewan,Saskatchewan,Uranium,Uranium
+62,62,Patterson Lake South,Saskatchewan,Saskatchewan,Uranium,Uranium
+63,63,Clearwater,Alberta,Alberta,Lithium,Lithium
+64,64,Grassy Mountain,Alberta,Alberta,Coal,Charbon
+65,65,MPD,British Columbia,Colombie-Britannique,Copper,Cuivre
+66,66,Shovelnose,British Columbia,Colombie-Britannique,Gold,Or
+67,67,Murray River,British Columbia,Colombie-Britannique,Coal,Charbon
+68,68,Cariboo,British Columbia,Colombie-Britannique,Gold,Or
+69,69,Wicheeda,British Columbia,Colombie-Britannique,Rare earth elements,Éléments des terres rares
+70,70,Kliyul,British Columbia,Colombie-Britannique,Copper,Cuivre
+71,71,Duke,British Columbia,Colombie-Britannique,Copper,Cuivre
+72,72,Lawyer,British Columbia,Colombie-Britannique,Gold,Or
+73,73,Ranch,British Columbia,Colombie-Britannique,Gold,Or
+74,74,Kitsault Valley,British Columbia,Colombie-Britannique,Gold,Or
+75,75,Cassiar,British Columbia,Colombie-Britannique,Gold,Or
+76,76,Scottie,British Columbia,Colombie-Britannique,Gold,Or
+77,77,Treaty Creek,British Columbia,Colombie-Britannique,Gold,Or
+78,78,KSM,British Columbia,Colombie-Britannique,Gold,Or
+79,79,Silvertip,British Columbia,Colombie-Britannique,Gold,Or
+80,80,Eskay,British Columbia,Colombie-Britannique,Gold,Or
+81,81,Corey,British Columbia,Colombie-Britannique,Gold,Or
+82,82,Schaft Creek,British Columbia,Colombie-Britannique,Copper,Cuivre
+83,83,Iskut,British Columbia,Colombie-Britannique,Gold,Or
+84,84,Galore Creek,British Columbia,Colombie-Britannique,Copper,Cuivre
+85,85,Thorn,British Columbia,Colombie-Britannique,Copper,Cuivre
+86,86,3 Aces,Yukon,Yukon,Gold,Or
+87,87,MacMillan Pass,Yukon,Yukon,Zinc,Zinc
+88,88,Kudz Ze Kayah,Yukon,Yukon,Zinc,Zinc
+89,89,Rogue,Yukon,Yukon,Gold,Or
+90,90,AurMac,Yukon,Yukon,Gold,Or
+91,91,Casino,Yukon,Yukon,Copper,Cuivre
+92,92,Coffee,Yukon,Yukon,Gold,Or
+93,93,Nechalacho,Northwest Territories,Territoires de Nord-Ouest,Rare earth elements,Éléments des terres rares
+94,94,Yellowknife,Northwest Territories,Territoires de Nord-Ouest,Lithium,Lithium
+95,95,Pine Point,Northwest Territories,Territoires de Nord-Ouest,Zinc,Zinc
+96,96,Colomac,Northwest Territories,Territoires de Nord-Ouest,Gold,Or
+97,97,Prairie Creek,Northwest Territories,Territoires de Nord-Ouest,Zinc,Zinc
+98,98,Ferguson Lake,Nunavut,Nunavut,Nickel,Nickel
+99,99,Angilak,Nunavut,Nunavut,Uranium,Uranium
+100,100,Madrid,Nunavut,Nunavut,Gold,Or

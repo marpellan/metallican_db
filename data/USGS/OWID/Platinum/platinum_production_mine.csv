@@ -1,0 +1,434 @@
+Entity,Code,Year,"production|Platinum group metals|Mine, platinum|tonnes"
+Australia,AUS,1970,0
+Australia,AUS,1971,0
+Australia,AUS,1972,0
+Australia,AUS,1973,0.03
+Australia,AUS,1974,0.06
+Australia,AUS,1975,0.01
+Australia,AUS,1976,0.098
+Australia,AUS,1977,0.115
+Australia,AUS,1978,0.092
+Australia,AUS,1979,0.086
+Australia,AUS,1980,0.064
+Australia,AUS,1981,0.065
+Australia,AUS,1982,0.074
+Australia,AUS,1983,0.052
+Australia,AUS,1984,0.066
+Australia,AUS,1985,0.095
+Australia,AUS,1986,0.115
+Australia,AUS,1987,0.084
+Australia,AUS,1988,0.073
+Australia,AUS,1989,0.075
+Australia,AUS,1990,0.1
+Australia,AUS,1991,0.1
+Australia,AUS,1992,0.15
+Australia,AUS,1993,0.079
+Australia,AUS,1994,0.113
+Australia,AUS,1995,0.074
+Australia,AUS,1996,0.119
+Australia,AUS,1997,0.315
+Australia,AUS,1998,0.155
+Australia,AUS,1999,0.09
+Australia,AUS,2000,0.171
+Australia,AUS,2001,0.174
+Australia,AUS,2002,0.122
+Australia,AUS,2003,0.133
+Australia,AUS,2004,0.196
+Australia,AUS,2005,0.058
+Australia,AUS,2018,0.111
+Australia,AUS,2019,0.099
+Australia,AUS,2020,0.107
+Australia,AUS,2021,0.09
+Australia,AUS,2022,0.1
+Botswana,BWA,2001,0.2
+Botswana,BWA,2002,0.3
+Botswana,BWA,2003,0.5
+Botswana,BWA,2004,0.5
+Botswana,BWA,2005,0.3
+Botswana,BWA,2006,0.3
+Botswana,BWA,2007,0.529
+Botswana,BWA,2008,0.591
+Botswana,BWA,2009,0.746
+Botswana,BWA,2010,0.498
+Botswana,BWA,2011,0.373
+Botswana,BWA,2012,0.435
+Botswana,BWA,2013,0.218
+Botswana,BWA,2014,0.124
+Botswana,BWA,2015,0.031
+Canada,CAN,1986,5.242
+Canada,CAN,1987,4.354
+Canada,CAN,1988,5.781
+Canada,CAN,1989,4.467
+Canada,CAN,1990,5.044
+Canada,CAN,1991,4.683
+Canada,CAN,1992,4.8
+Canada,CAN,1993,5
+Canada,CAN,1994,5.7
+Canada,CAN,1995,6.3
+Canada,CAN,1996,5.4
+Canada,CAN,1997,4.6
+Canada,CAN,1998,5.5
+Canada,CAN,1999,5.4
+Canada,CAN,2000,6
+Canada,CAN,2001,8.1
+Canada,CAN,2002,9.5
+Canada,CAN,2003,7.2
+Canada,CAN,2004,9.1
+Canada,CAN,2005,7.9
+Canada,CAN,2006,8.5
+Canada,CAN,2007,8.1
+Canada,CAN,2008,8.5
+Canada,CAN,2009,4
+Canada,CAN,2010,3.5
+Canada,CAN,2011,8.3
+Canada,CAN,2012,8.2
+Canada,CAN,2013,9.7
+Canada,CAN,2014,12
+Canada,CAN,2015,11.9
+Canada,CAN,2016,11.3
+Canada,CAN,2017,9.8
+Canada,CAN,2018,8.2
+Canada,CAN,2019,7.755
+Canada,CAN,2020,7
+Canada,CAN,2021,6
+Canada,CAN,2022,5.4
+Canada,CAN,2023,5.5
+China,CHN,2000,0.4
+China,CHN,2001,0.7
+China,CHN,2002,0.8
+China,CHN,2003,0.9
+China,CHN,2004,1.2
+China,CHN,2005,1.2
+China,CHN,2006,1.1
+China,CHN,2007,1.3
+China,CHN,2008,1.4
+China,CHN,2009,1.4
+China,CHN,2010,1.4
+China,CHN,2011,1.6
+China,CHN,2012,1.4
+China,CHN,2013,1.6
+China,CHN,2014,1.6
+China,CHN,2015,2.3
+China,CHN,2016,2.9
+China,CHN,2017,2.5
+China,CHN,2018,2.5
+China,CHN,2019,2.5
+China,CHN,2020,2.5
+China,CHN,2021,5.3
+China,CHN,2022,2.8
+Colombia,COL,1970,0.82
+Colombia,COL,1971,0.797
+Colombia,COL,1972,0.74
+Colombia,COL,1973,0.82
+Colombia,COL,1974,0.656
+Colombia,COL,2018,0.27
+Colombia,COL,2019,0.178
+Colombia,COL,2020,0.414
+Colombia,COL,2021,0.618
+Colombia,COL,2022,0.31
+East Germany,OWID_GDR,1985,2.148
+East Germany,OWID_GDR,1986,2
+East Germany,OWID_GDR,1987,2
+Ethiopia,ETH,1970,0.008
+Ethiopia,ETH,1971,0.006
+Ethiopia,ETH,1972,0.007
+Ethiopia,ETH,1973,0.009
+Ethiopia,ETH,1974,0.007
+Ethiopia,ETH,2005,0
+Ethiopia,ETH,2006,0.004
+Ethiopia,ETH,2007,0.003
+Ethiopia,ETH,2008,0.01
+Ethiopia,ETH,2009,0.008
+Ethiopia,ETH,2010,0.001
+Ethiopia,ETH,2011,0.001
+Ethiopia,ETH,2014,0
+Ethiopia,ETH,2015,0.005
+Ethiopia,ETH,2016,0.005
+Ethiopia,ETH,2017,0.004
+Ethiopia,ETH,2018,0.004
+Ethiopia,ETH,2019,0.002
+Ethiopia,ETH,2020,0.002
+Ethiopia,ETH,2021,0.004
+Ethiopia,ETH,2022,0.03
+Finland,FIN,1983,0.068
+Finland,FIN,1984,0.033
+Finland,FIN,1985,0.067
+Finland,FIN,1986,0.107
+Finland,FIN,1987,0.069
+Finland,FIN,1988,0.054
+Finland,FIN,1989,0.067
+Finland,FIN,1990,0.072
+Finland,FIN,1991,0.059
+Finland,FIN,2008,0
+Finland,FIN,2009,0
+Finland,FIN,2010,0
+Finland,FIN,2011,0
+Finland,FIN,2012,0.429
+Finland,FIN,2013,0.946
+Finland,FIN,2014,1.06
+Finland,FIN,2015,0.992
+Finland,FIN,2016,1.154
+Finland,FIN,2017,1.418
+Finland,FIN,2018,1.576
+Finland,FIN,2019,0.953
+Finland,FIN,2020,1.276
+Finland,FIN,2021,1.447
+Finland,FIN,2022,1.243
+Japan,JPN,1970,0.103
+Japan,JPN,1971,0.107
+Japan,JPN,1972,0.132
+Japan,JPN,1973,0.212
+Japan,JPN,1974,0.17
+Japan,JPN,1975,0.189
+Japan,JPN,1976,0.27
+Japan,JPN,1977,0.303
+Japan,JPN,1978,0.317
+Japan,JPN,1979,0.378
+Japan,JPN,1980,0.385
+Japan,JPN,1981,0.327
+Japan,JPN,1982,0.479
+Japan,JPN,1983,0.667
+Japan,JPN,1984,0.607
+Japan,JPN,1985,0.691
+Japan,JPN,1986,0.663
+Japan,JPN,1987,0.753
+Japan,JPN,1988,0.647
+Japan,JPN,1989,1.031
+Japan,JPN,1990,1.425
+Japan,JPN,1991,0.988
+Philippines,PHL,1970,0.011
+Philippines,PHL,1971,0.022
+Philippines,PHL,1972,0.084
+Philippines,PHL,1973,0.077
+Philippines,PHL,1974,0.042
+Philippines,PHL,1975,0.018
+Poland,POL,2005,0.03
+Poland,POL,2006,0.03
+Poland,POL,2007,0.03
+Poland,POL,2008,0.03
+Poland,POL,2009,0.03
+Poland,POL,2010,0.03
+Poland,POL,2011,0.023
+Poland,POL,2012,0.039
+Poland,POL,2013,0.051
+Poland,POL,2014,0.04
+Poland,POL,2015,0.04
+Poland,POL,2016,0.05
+Poland,POL,2017,0.011
+Poland,POL,2018,0.008
+Poland,POL,2019,0.008
+Poland,POL,2020,0.008
+Poland,POL,2021,0.008
+Poland,POL,2022,0.005
+Russia,RUS,1992,23.3
+Russia,RUS,1993,21.2
+Russia,RUS,1994,31.4
+Russia,RUS,1995,39.8
+Russia,RUS,1996,37.9
+Russia,RUS,1997,28
+Russia,RUS,1998,40.4
+Russia,RUS,1999,16.8
+Russia,RUS,2000,34.2
+Russia,RUS,2001,40.4
+Russia,RUS,2002,30.5
+Russia,RUS,2003,32.7
+Russia,RUS,2004,26.4
+Russia,RUS,2005,27.7
+Russia,RUS,2006,28.6
+Russia,RUS,2007,28.5
+Russia,RUS,2008,25
+Russia,RUS,2009,24.4
+Russia,RUS,2010,26.5
+Russia,RUS,2011,26.5
+Russia,RUS,2012,24.9
+Russia,RUS,2013,25
+Russia,RUS,2014,22
+Russia,RUS,2015,20.8
+Russia,RUS,2016,20.5
+Russia,RUS,2017,22.1
+Russia,RUS,2018,23.8
+Russia,RUS,2019,22.1
+Russia,RUS,2020,23
+Russia,RUS,2021,21
+Russia,RUS,2022,20
+Russia,RUS,2023,23
+Serbia,SRB,2006,0.002
+Serbia,SRB,2007,0.002
+Serbia,SRB,2008,0
+Serbia,SRB,2009,0.012
+Serbia,SRB,2010,0
+Serbia,SRB,2011,0.006
+Serbia,SRB,2012,0.003
+Serbia,SRB,2013,0.002
+Serbia,SRB,2014,0.003
+Serbia,SRB,2015,0.002
+Serbia,SRB,2016,0.004
+Serbia,SRB,2017,0.002
+Serbia,SRB,2018,0.005
+Serbia,SRB,2019,0.01
+Serbia,SRB,2020,0.02
+Serbia,SRB,2021,0.03
+Serbia,SRB,2022,0.01
+South Africa,ZAF,1970,46.7
+South Africa,ZAF,1971,38.9
+South Africa,ZAF,1972,43.5
+South Africa,ZAF,1973,73.4
+South Africa,ZAF,1974,87.95
+South Africa,ZAF,1975,80.795
+South Africa,ZAF,1976,83.9
+South Africa,ZAF,1996,188.636
+South Africa,ZAF,1997,115.861
+South Africa,ZAF,1998,116.483
+South Africa,ZAF,1999,121.304
+South Africa,ZAF,2000,114.459
+South Africa,ZAF,2001,129.746
+South Africa,ZAF,2002,133.796
+South Africa,ZAF,2003,148.348
+South Africa,ZAF,2004,153.239
+South Africa,ZAF,2005,168.749
+South Africa,ZAF,2006,168.125
+South Africa,ZAF,2007,165.835
+South Africa,ZAF,2008,146.141
+South Africa,ZAF,2009,140.819
+South Africa,ZAF,2010,147.79
+South Africa,ZAF,2011,148.008
+South Africa,ZAF,2012,128.59
+South Africa,ZAF,2013,137.024
+South Africa,ZAF,2014,93.991
+South Africa,ZAF,2015,139.125
+South Africa,ZAF,2016,133.241
+South Africa,ZAF,2017,131.247
+South Africa,ZAF,2018,137.053
+South Africa,ZAF,2019,132.989
+South Africa,ZAF,2020,112
+South Africa,ZAF,2021,142
+South Africa,ZAF,2022,124
+South Africa,ZAF,2023,120
+USSR,OWID_USS,1970,68.4
+USSR,OWID_USS,1971,71.5
+USSR,OWID_USS,1972,73.1
+USSR,OWID_USS,1973,76.2
+USSR,OWID_USS,1974,77.8
+USSR,OWID_USS,1983,28
+USSR,OWID_USS,1984,29
+USSR,OWID_USS,1985,30
+USSR,OWID_USS,1986,30.3
+USSR,OWID_USS,1987,31.1
+USSR,OWID_USS,1988,32
+USSR,OWID_USS,1989,32
+USSR,OWID_USS,1990,31
+USSR,OWID_USS,1991,30
+United States,USA,1970,0.25
+United States,USA,1971,0.317
+United States,USA,1972,0.115
+United States,USA,1973,0.173
+United States,USA,1974,0.128
+United States,USA,1975,0.165
+United States,USA,1976,0.085
+United States,USA,1983,0.195
+United States,USA,1984,0.455
+United States,USA,1985,0.47
+United States,USA,1986,0.5
+United States,USA,1987,1.03
+United States,USA,1988,1.49
+United States,USA,1989,1.68
+United States,USA,1990,2.05
+United States,USA,1991,1.73
+United States,USA,1992,1.65
+United States,USA,1993,2.05
+United States,USA,1994,1.96
+United States,USA,1995,1.59
+United States,USA,1996,1.84
+United States,USA,1997,2.61
+United States,USA,1998,3.24
+United States,USA,1999,2.92
+United States,USA,2000,3.11
+United States,USA,2001,3.76
+United States,USA,2002,4.385
+United States,USA,2003,4.168
+United States,USA,2004,4.043
+United States,USA,2005,3.919
+United States,USA,2006,4.292
+United States,USA,2007,3.857
+United States,USA,2008,3.577
+United States,USA,2009,3.826
+United States,USA,2010,3.45
+United States,USA,2011,3.7
+United States,USA,2012,3.67
+United States,USA,2013,3.72
+United States,USA,2014,3.66
+United States,USA,2015,3.67
+United States,USA,2016,3.89
+United States,USA,2017,3.98
+United States,USA,2018,4.16
+United States,USA,2019,4.15
+United States,USA,2020,4.2
+United States,USA,2021,4.02
+United States,USA,2022,3
+United States,USA,2023,2.9
+World,OWID_WRL,2020,166
+World,OWID_WRL,2021,192
+World,OWID_WRL,2022,174
+World,OWID_WRL,2023,180
+Yugoslavia,OWID_YGS,1976,0.031
+Yugoslavia,OWID_YGS,1977,0.023
+Yugoslavia,OWID_YGS,1978,0.013
+Yugoslavia,OWID_YGS,1979,0.021
+Yugoslavia,OWID_YGS,1980,0.013
+Yugoslavia,OWID_YGS,1981,0.015
+Yugoslavia,OWID_YGS,1982,0.013
+Yugoslavia,OWID_YGS,1983,0.006
+Yugoslavia,OWID_YGS,1984,0.013
+Yugoslavia,OWID_YGS,1985,0.003
+Yugoslavia,OWID_YGS,1986,0.03
+Yugoslavia,OWID_YGS,1987,0.022
+Yugoslavia,OWID_YGS,1988,0.023
+Yugoslavia,OWID_YGS,1989,0.023
+Yugoslavia,OWID_YGS,1990,0.021
+Yugoslavia,OWID_YGS,1991,0.022
+Zimbabwe,ZWE,1978,0
+Zimbabwe,ZWE,1979,0
+Zimbabwe,ZWE,1980,0.093
+Zimbabwe,ZWE,1981,0.072
+Zimbabwe,ZWE,1982,0.053
+Zimbabwe,ZWE,1983,0.053
+Zimbabwe,ZWE,1984,0.024
+Zimbabwe,ZWE,1985,0.019
+Zimbabwe,ZWE,1986,0.026
+Zimbabwe,ZWE,1987,0.018
+Zimbabwe,ZWE,1988,0.028
+Zimbabwe,ZWE,1989,0.025
+Zimbabwe,ZWE,1990,0.021
+Zimbabwe,ZWE,1991,0.019
+Zimbabwe,ZWE,1992,0.009
+Zimbabwe,ZWE,1993,0.004
+Zimbabwe,ZWE,1994,0.007
+Zimbabwe,ZWE,1995,0.006
+Zimbabwe,ZWE,1996,0.007
+Zimbabwe,ZWE,1997,0.345
+Zimbabwe,ZWE,1998,2.73
+Zimbabwe,ZWE,1999,0.39
+Zimbabwe,ZWE,2000,0.504
+Zimbabwe,ZWE,2001,0.519
+Zimbabwe,ZWE,2002,2.053
+Zimbabwe,ZWE,2003,2.33
+Zimbabwe,ZWE,2004,4.438
+Zimbabwe,ZWE,2005,4.833
+Zimbabwe,ZWE,2006,4.998
+Zimbabwe,ZWE,2007,5.086
+Zimbabwe,ZWE,2008,5.495
+Zimbabwe,ZWE,2009,6.849
+Zimbabwe,ZWE,2010,8.639
+Zimbabwe,ZWE,2011,10.827
+Zimbabwe,ZWE,2012,10.524
+Zimbabwe,ZWE,2013,13.066
+Zimbabwe,ZWE,2014,12.483
+Zimbabwe,ZWE,2015,12.564
+Zimbabwe,ZWE,2016,15.11
+Zimbabwe,ZWE,2017,14.257
+Zimbabwe,ZWE,2018,14.703
+Zimbabwe,ZWE,2019,13.857
+Zimbabwe,ZWE,2020,15
+Zimbabwe,ZWE,2021,14.7
+Zimbabwe,ZWE,2022,17
+Zimbabwe,ZWE,2023,19

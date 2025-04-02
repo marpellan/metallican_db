@@ -1,0 +1,112 @@
+Method,Impact Category,Subcategory
+"IMPACT World+ v2.0.1, footprint version",climate change,carbon footprint
+"IMPACT World+ v2.0.1, footprint version",ecosystem quality,remaining ecosystem quality damage
+"IMPACT World+ v2.0.1, footprint version",energy resources: non-renewable,fossil and nuclear energy use
+"IMPACT World+ v2.0.1, footprint version",human health,remaining human health damage
+"IMPACT World+ v2.0.1, footprint version",water use,water scarcity footprint
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,"Climate change, ecosystem quality, long term"
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,"Climate change, ecosystem quality, short term"
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Human health,"Climate change, human health, long term"
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Human health,"Climate change, human health, short term"
+IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10,Midpoint,"Climate change, long term"
+IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10,Midpoint,"Climate change, short term"
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,Fisheries impact
+IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10,Midpoint,Fossil and nuclear energy use
+IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10,Midpoint,Freshwater acidification
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,Freshwater acidification
+IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10,Midpoint,Freshwater ecotoxicity
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,"Freshwater ecotoxicity, long term"
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,"Freshwater ecotoxicity, short term"
+IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10,Midpoint,Freshwater eutrophication
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,Freshwater eutrophication
+IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10,Midpoint,Human toxicity cancer
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Human health,"Human toxicity cancer, long term"
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Human health,"Human toxicity cancer, short term"
+IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10,Midpoint,Human toxicity non-cancer
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Human health,"Human toxicity non-cancer, long term"
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Human health,"Human toxicity non-cancer, short term"
+IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10,Midpoint,Ionizing radiations
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,"Ionizing radiations, ecosystem quality"
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Human health,"Ionizing radiations, human health"
+IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10,Midpoint,"Land occupation, biodiversity"
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,"Land occupation, biodiversity"
+IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10,Midpoint,"Land transformation, biodiversity"
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,"Land transformation, biodiversity"
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,"Marine acidification, long term"
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,"Marine acidification, short term"
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,"Marine ecotoxicity, long term"
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,"Marine ecotoxicity, short term"
+IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10,Midpoint,Marine eutrophication
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,Marine eutrophication
+IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10,Midpoint,Mineral resources use
+IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10,Midpoint,Ozone layer depletion
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Human health,Ozone layer depletion
+IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10,Midpoint,Particulate matter formation
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Human health,Particulate matter formation
+IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10,Midpoint,Photochemical ozone formation
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,"Photochemical ozone formation, ecosystem quality"
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Human health,"Photochemical ozone formation, human health"
+IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10,Midpoint,Terrestrial acidification
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,Terrestrial acidification
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,"Terrestrial ecotoxicity, long term"
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,"Terrestrial ecotoxicity, short term"
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,Thermally polluted water
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,"Water availability, freshwater ecosystem"
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Human health,"Water availability, human health"
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,"Water availability, terrestrial ecosystem"
+IMPACT World+ Midpoint 2.1_regionalized for ecoinvent v3.10,Midpoint,Water scarcity
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Human health,Total human health
+IMPACT World+ Damage 2.1_regionalized for ecoinvent v3.10,Ecosystem quality,Total ecosystem quality
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,"Climate change, ecosystem quality, long term"
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,"Climate change, ecosystem quality, short term"
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Human health,"Climate change, human health, long term"
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Human health,"Climate change, human health, short term"
+IMPACT World+ Midpoint 2.1 for ecoinvent v3.10,Midpoint,"Climate change, long term"
+IMPACT World+ Midpoint 2.1 for ecoinvent v3.10,Midpoint,"Climate change, short term"
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,Fisheries impact
+IMPACT World+ Midpoint 2.1 for ecoinvent v3.10,Midpoint,Fossil and nuclear energy use
+IMPACT World+ Midpoint 2.1 for ecoinvent v3.10,Midpoint,Freshwater acidification
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,Freshwater acidification
+IMPACT World+ Midpoint 2.1 for ecoinvent v3.10,Midpoint,Freshwater ecotoxicity
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,"Freshwater ecotoxicity, long term"
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,"Freshwater ecotoxicity, short term"
+IMPACT World+ Midpoint 2.1 for ecoinvent v3.10,Midpoint,Freshwater eutrophication
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,Freshwater eutrophication
+IMPACT World+ Midpoint 2.1 for ecoinvent v3.10,Midpoint,Human toxicity cancer
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Human health,"Human toxicity cancer, long term"
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Human health,"Human toxicity cancer, short term"
+IMPACT World+ Midpoint 2.1 for ecoinvent v3.10,Midpoint,Human toxicity non-cancer
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Human health,"Human toxicity non-cancer, long term"
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Human health,"Human toxicity non-cancer, short term"
+IMPACT World+ Midpoint 2.1 for ecoinvent v3.10,Midpoint,Ionizing radiations
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,"Ionizing radiations, ecosystem quality"
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Human health,"Ionizing radiations, human health"
+IMPACT World+ Midpoint 2.1 for ecoinvent v3.10,Midpoint,"Land occupation, biodiversity"
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,"Land occupation, biodiversity"
+IMPACT World+ Midpoint 2.1 for ecoinvent v3.10,Midpoint,"Land transformation, biodiversity"
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,"Land transformation, biodiversity"
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,"Marine acidification, long term"
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,"Marine acidification, short term"
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,"Marine ecotoxicity, long term"
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,"Marine ecotoxicity, short term"
+IMPACT World+ Midpoint 2.1 for ecoinvent v3.10,Midpoint,Marine eutrophication
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,Marine eutrophication
+IMPACT World+ Midpoint 2.1 for ecoinvent v3.10,Midpoint,Mineral resources use
+IMPACT World+ Midpoint 2.1 for ecoinvent v3.10,Midpoint,Ozone layer depletion
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Human health,Ozone layer depletion
+IMPACT World+ Midpoint 2.1 for ecoinvent v3.10,Midpoint,Particulate matter formation
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Human health,Particulate matter formation
+IMPACT World+ Midpoint 2.1 for ecoinvent v3.10,Midpoint,Photochemical ozone formation
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,"Photochemical ozone formation, ecosystem quality"
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Human health,"Photochemical ozone formation, human health"
+IMPACT World+ Midpoint 2.1 for ecoinvent v3.10,Midpoint,Terrestrial acidification
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,Terrestrial acidification
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,"Terrestrial ecotoxicity, long term"
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,"Terrestrial ecotoxicity, short term"
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,Thermally polluted water
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,"Water availability, freshwater ecosystem"
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Human health,"Water availability, human health"
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,"Water availability, terrestrial ecosystem"
+IMPACT World+ Midpoint 2.1 for ecoinvent v3.10,Midpoint,Water scarcity
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Human health,Total human health
+IMPACT World+ Damage 2.1 for ecoinvent v3.10,Ecosystem quality,Total ecosystem quality

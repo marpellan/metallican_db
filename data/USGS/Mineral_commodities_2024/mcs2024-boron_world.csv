@@ -1,0 +1,11 @@
+﻿Source,Country,Type,Prod_kt_2022,Prod_kt_est_2023,Prod_note,Reserves_kt,Reserves_notes
+MCS2024,United States,borates,W,W,,48000,revised based on Government and company reports.
+MCS2024,"Argentina, crude ore","boron, crude ore",130,130,,NA,
+MCS2024,"Bolivia, ulexite",ulexite,170,170,,NA,
+MCS2024,"Chile, ulexite",ulexite,360,360,,35000,
+MCS2024,"China, boric oxide equivalent",boric oxide eqivalent,200,200,,20000,revised based on Government and company reports.
+MCS2024,"Germany, compounds",boron compounds,60,60,,NA,
+MCS2024,"Peru, crude borates",crude borates,200,200,,4000,
+MCS2024,"Russia, datolite ore",datolite ore,80,80,,40000,
+MCS2024,"Turkey, refined borates",refined borates,2200,2200,,950000,revised based on Government and company reports.
+MCS2024,World total,boron total all types,XX,XX,Not applicable,NA,World totals cannot be calculated because production and reserves are not reported in a consistent manner by all countries.
