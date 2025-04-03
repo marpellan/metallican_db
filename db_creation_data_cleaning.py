@@ -129,31 +129,61 @@ def filter_ghg_facility_naics(df, classifications):
 
 
 ### NPRI dataset
-def clean_npri(df, category_mapping):
+def clean_npri(excel_path: str,
+               sheet_name_data: str = "INRP-NPRI 2023",
+               sheet_name_mapping: str = "mapping_emissions") -> pd.DataFrame:
     """
-    Renames columns in a DataFrame based on a category mapping.
-    Each column name is prefixed with the category.
+    Extracts SQL-friendly long-format NPRI data using a structured mapping.
+
+    - Loads data with skiprows=3 to get clean metadata.
+    - Renames emission columns using Emission_type + Sub_emission_type_EN.
+    - Melts emission columns into long format.
+    - Keeps all metadata columns untouched.
+    - Removes rows where value is NaN or zero.
 
     Args:
-        df (pd.DataFrame): The DataFrame whose columns need renaming.
-        category_mapping (dict): A dictionary mapping categories to their subcategories.
+        excel_path (str): Path to the Excel file.
+        sheet_name_data (str): Sheet with the NPRI data.
+        sheet_name_mapping (str): Sheet with emission column metadata.
 
     Returns:
-        pd.DataFrame: The DataFrame with renamed columns.
+        pd.DataFrame: SQL-ready long-format DataFrame.
     """
-    # Create a mapping of old column names to new column names
-    column_renaming = {}
+    import pandas as pd
 
-    for category, subcategories in category_mapping.items():
-        for subcategory in subcategories:
-            if subcategory in df.columns:
-                # Create a new column name with the format 'category_subcategory'
-                new_column_name = f"{category.lower().replace(' ', '_')}_{subcategory.lower().replace(' ', '_')}"
-                column_renaming[subcategory] = new_column_name
+    # Step 1: Load the emission column mapping
+    mapping_df = pd.read_excel(excel_path, sheet_name=sheet_name_mapping)
+    mapping_df["Emission_type"] = mapping_df["Emission_type"].fillna(method="ffill")
+    mapping_df["unique_column_name"] = (
+        mapping_df["Emission_type"].str.strip() + " - " + mapping_df["Sub_emission_type_EN"].str.strip()
+    )
 
-    # Rename columns in the DataFrame
-    df = df.rename(columns=column_renaming)
-    return df
+    # Step 2: Load the NPRI data with clean headers
+    df = pd.read_excel(excel_path, sheet_name=sheet_name_data, skiprows=3)
+
+    # Step 3: Identify emission columns (based on the mapping length)
+    n_emission_cols = len(mapping_df)
+    emission_cols = df.columns[-n_emission_cols:]
+
+    # Step 4: Rename only emission columns
+    rename_map = dict(zip(emission_cols, mapping_df["unique_column_name"]))
+    df_renamed = df.rename(columns=rename_map)
+
+    # Step 5: Melt the emission columns
+    id_vars = [col for col in df.columns if col not in emission_cols]
+    melted = df_renamed.melt(id_vars=id_vars,
+                             value_vars=rename_map.values(),
+                             var_name="full_emission_column",
+                             value_name="value")
+
+    # Step 6: Split into emission_type and emission_subtype
+    melted[["emission_type", "emission_subtype"]] = melted["full_emission_column"].str.split(" - ", n=1, expand=True)
+
+    # Step 7: Remove NaNs and zeros
+    melted = melted.dropna(subset=["value"])
+    melted = melted[melted["value"] != 0]
+
+    return melted.drop(columns=["full_emission_column"])
 
 
 ### SUT dataset
