@@ -2,6 +2,8 @@ import pandas as pd
 import geopandas as gpd
 import time
 import ee
+from pathlib import Path
+import rasterio
 
 
 def extract_ghsl_population(main_gdf):
@@ -42,7 +44,7 @@ def extract_ghsl_population(main_gdf):
 
                 rows.append({
                     "main_id": row["main_id"],
-                    "name": row["name"],
+                    "name": row["facility_name"],
                     "year": int(year),
                     "buffer_size": label,
                     "total_population": max(total_pop, 0) if total_pop is not None else None,
@@ -69,7 +71,7 @@ def extract_npv(main_gdf):
     start_time = time.time()
 
     # Ensure required columns exist
-    required_cols = {"main_id", "name", "geometry"}
+    required_cols = {"main_id", "facility_name", "geometry"}
     if not required_cols.issubset(main_gdf.columns):
         raise ValueError(f"Missing required columns in main_gdf: {required_cols - set(main_gdf.columns)}")
 
@@ -89,7 +91,7 @@ def extract_npv(main_gdf):
     # Process each facility
     for index, row in main_gdf.iterrows():
         main_id = row["main_id"]
-        name = row["name"]
+        name = row["facility_name"]
         geom = row["geometry"]
 
         # Ensure geometry is a Point; if not, use centroid
@@ -184,7 +186,7 @@ def extract_land_cover_type(main_gdf):
 
         record = {
             "main_id": row["main_id"],
-            "name": row["name"],
+            "name": row["facility_name"],
             "year": 2021,
             "geometry": point
         }
@@ -270,7 +272,7 @@ def extract_aqueduct(main_gdf,
                 for var in baseline_variables:
                     rows.append({
                         "main_id": row["main_id"],
-                        "name": row["name"],
+                        "name": row["facility_name"],
                         "indicator": var,
                         "value": baseline_dict.get(var),
                         "year": 2020,
@@ -278,7 +280,7 @@ def extract_aqueduct(main_gdf,
                         "geometry": point
                     })
         except Exception as e:
-            print(f"❌ Baseline error for {row['name']}: {e}")
+            print(f"❌ Baseline error for {row['facility_name']}: {e}")
 
         # Future projections
         try:
@@ -293,7 +295,7 @@ def extract_aqueduct(main_gdf,
                             value = future_dict.get(key)
                             rows.append({
                                 "main_id": row["main_id"],
-                                "name": row["name"],
+                                "name": row["facility_name"],
                                 "indicator": key,
                                 "value": value,
                                 "year": year,
@@ -301,7 +303,7 @@ def extract_aqueduct(main_gdf,
                                 "geometry": point
                             })
         except Exception as e:
-            print(f"❌ Future error for {row['name']}: {e}")
+            print(f"❌ Future error for {row['facility_name']}: {e}")
 
         if idx % 10 == 0:
             print(f"Processed {idx + 1}/{len(main_gdf)} facilities...")
@@ -311,3 +313,112 @@ def extract_aqueduct(main_gdf,
 
     print(f"✅ Aqueduct extraction completed in {time.time() - start_time:.2f}s")
     return gdf
+
+
+def load_raster(period, scenario, resolution):
+    """Load raster for a given period, scenario, and resolution."""
+    if scenario:  # future
+        path = Path(f"data/Sources/Climate_category/koppen_geiger_tif/{period}/{scenario}/koppen_geiger_{resolution}.tif")
+    else:  # historical
+        path = Path(f"data/Sources/Climate_category/koppen_geiger_tif/{period}/koppen_geiger_{resolution}.tif")
+
+    if not path.exists():
+        raise FileNotFoundError(f"Raster not found: {path}")
+    return rasterio.open(path)
+
+
+def extract_climate_for_facilities(facilities_gdf, periods, scenarios, resolution):
+    """
+    Extract Köppen-Geiger climate classifications for a list of facilities across time periods and scenarios.
+
+    Returns a GeoDataFrame with: main_id, name, geometry, period, scenario, category, category_name
+    """
+
+    results = []
+
+    for period in periods:
+        is_future = "_" in period and int(period.split("_")[0]) > 2020
+        applicable_scenarios = scenarios if is_future else [None]
+
+        for scenario in applicable_scenarios:
+            raster = load_raster(period, scenario, resolution)
+            coords = [(geom.x, geom.y) for geom in facilities_gdf.geometry]
+            values = list(raster.sample(coords))
+            categories = [v[0] if v else None for v in values]
+
+            for i, category in enumerate(categories):
+                results.append({
+                    "main_id": facilities_gdf.iloc[i]["main_id"],
+                    "name": facilities_gdf.iloc[i]["facility_name"],
+                    "geometry": facilities_gdf.iloc[i]["geometry"],
+                    "year": period,
+                    "scenario": scenario if scenario else "historical",
+                    "category": category
+                })
+
+    # Convert to GeoDataFrame and map climate class name
+    gdf = gpd.GeoDataFrame(results, geometry="geometry", crs=facilities_gdf.crs)
+
+    return gdf
+
+
+def extract_peatland_presence(geometry, raster):
+    """
+    Extracts peatland extent or presence from a raster at a given point.
+
+    Parameters:
+    - geometry: Shapely Point (longitude, latitude)
+    - raster: Opened rasterio dataset (peatland raster)
+
+    Returns:
+    - peatland_value (int or float): Value indicating peatland presence (e.g., 0 = no peat, 1 = peat).
+    """
+    lon, lat = geometry.x, geometry.y  # Get coordinates from geometry
+
+    try:
+        # Get row and column index of the pixel
+        row, col = raster.index(lon, lat)
+
+        # Read the raster value at that position
+        peatland_value = raster.read(1)[row, col]
+    except (IndexError, ValueError):
+        peatland_value = None  # Point is outside raster bounds or error reading value
+
+    return peatland_value
+
+
+def extract_variable_from_nc(nc_path, variable_label, var_key, facilities_gdf, scenario=None, unit=None):
+    import xarray as xr
+    import pandas as pd
+    import geopandas as gpd
+
+    ds = xr.open_dataset(nc_path)
+    data = ds[var_key]
+
+    times = pd.to_datetime(data["time"].values).year
+    results = []
+
+    for idx, row in facilities_gdf.iterrows():
+        lon, lat = row.geometry.x, row.geometry.y
+
+        try:
+            # Get time series at nearest grid point as numpy array
+            ts = data.sel(lat=lat, lon=lon, method='nearest').values
+
+            # Build list of records per year
+            for i, val in enumerate(ts):
+                results.append({
+                    "main_id": row["main_id"],
+                    "name": row["facility_name"],
+                    "geometry": row["geometry"],
+                    "year": times[i],
+                    "variable": variable_label,
+                    "value": float(val),
+                    "unit": unit,
+                    "scenario": scenario
+                })
+        except Exception as e:
+            print(f"Error at point {row['name']}: {e}")
+
+    gdf = gpd.GeoDataFrame(results, geometry="geometry", crs=facilities_gdf.crs)
+    return gdf[["main_id", "name", "geometry", "year", "variable", "value", "unit", "scenario"]]

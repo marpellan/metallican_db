@@ -4,50 +4,49 @@ from geopandas.tools import clip
 from shapely.geometry import shape, mapping, Point, Polygon, MultiPolygon
 from geopandas.tools import clip
 from shapely.ops import transform
-from rapidfuzz import fuzz
+from rapidfuzz.fuzz import ratio, partial_ratio, token_sort_ratio, token_set_ratio
 from sklearn.cluster import DBSCAN
 from scipy.spatial import cKDTree
 
 
 def match_facilities(df1, df2, id_col1="id_1", id_col2="id_2",
-                          name_col1="facility_name_1", name_col2="facility_name_2",
-                          buffer_km=10, geometry_col="geometry"):
+                     name_col1="facility_name_1", name_col2="facility_name_2",
+                     buffer_km=10, geometry_col="geometry"):
     """
-    Matches facilities from two datasets based on two-sided geographical buffering and name similarity.
-    Full and partial similarity scores are computed. Prioritization is **not included**.
+    Matches facilities from two datasets based on spatial proximity and name similarity.
+
+    **Similarity metrics:**
+        - `partial_ratio`: Measures if one name is a substring of another (e.g., "Detour Lake" vs "Detour Lake Project").
+        - `token_set_ratio`: Compares sets of words, ignoring order and duplicates — best for messy or reordered names
+                             (e.g., "Hemlo (Williams)" vs "Williams Mine").
 
     **Parameters:**
-        df1 (pd.DataFrame or gpd.GeoDataFrame): First dataset with facility locations.
-        df2 (pd.DataFrame or gpd.GeoDataFrame): Second dataset with facility locations.
-        id_col1 (str): Column name for unique IDs in df1.
-        id_col2 (str): Column name for unique IDs in df2.
-        name_col1 (str): Column name for facility names in df1 (optional).
-        name_col2 (str): Column name for facility names in df2 (optional).
-        buffer_km (float): Search radius (in km) for geographical matching.
-        geometry_col (str): Column name for geometry (if using GeoDataFrames).
+        df1, df2 (pd.DataFrame or gpd.GeoDataFrame): Datasets with facility coordinates and names.
+        id_col1, id_col2 (str): Column names for unique IDs in df1 and df2.
+        name_col1, name_col2 (str): Column names for facility names in df1 and df2.
+        buffer_km (float): Radius (in kilometers) to consider spatially close facilities.
+        geometry_col (str): Column for geometry if using pre-made GeoDataFrames.
 
     **Returns:**
-        pd.DataFrame: All matches within the buffer, including distance and both similarity scores.
+        pd.DataFrame: Matched rows with distance and both similarity scores.
     """
 
-    # Convert to GeoDataFrames if not already
+    # Ensure GeoDataFrame format
     if not isinstance(df1, gpd.GeoDataFrame):
         df1 = gpd.GeoDataFrame(df1, geometry=gpd.points_from_xy(df1["longitude"], df1["latitude"]), crs="EPSG:4326")
     if not isinstance(df2, gpd.GeoDataFrame):
         df2 = gpd.GeoDataFrame(df2, geometry=gpd.points_from_xy(df2["longitude"], df2["latitude"]), crs="EPSG:4326")
 
-    # Convert both datasets to EPSG:3978 (meters-based coordinate system for Canada)
+    # Project to EPSG:3978 (meters-based) for buffer/distance
     df1 = df1.to_crs(epsg=3978)
     df2 = df2.to_crs(epsg=3978)
 
-    # Create a buffer of `buffer_km` converted to meters for both datasets
-    buffer_m = buffer_km * 1000  # Convert km to meters
+    buffer_m = buffer_km * 1000
     df1["buffer"] = df1.geometry.buffer(buffer_m)
     df2["buffer"] = df2.geometry.buffer(buffer_m)
 
     matches = []
 
-    # Iterate over df1 rows to find matches in df2
     for _, row1 in df1.iterrows():
         possible_matches = df2[df2["buffer"].intersects(row1["buffer"])]
         if possible_matches.empty:
@@ -57,31 +56,28 @@ def match_facilities(df1, df2, id_col1="id_1", id_col2="id_2",
                 "distance_m": None,
                 name_col1: row1.get(name_col1, None),
                 name_col2: None,
-                "similarity_full_score": None,
-                "similarity_partial_score": None
+                "similarity_partial_score": None,
+                "similarity_token_set": None
             })
         else:
             for _, row2 in possible_matches.iterrows():
                 distance_m = row1.geometry.distance(row2.geometry)
 
-                # Compute similarity scores
-                similarity_full_score = None
-                similarity_partial_score = None
-                if name_col1 in df1.columns and name_col2 in df2.columns:
-                    similarity_full_score = fuzz.ratio(str(row1[name_col1]), str(row2[name_col2]))
-                    similarity_partial_score = fuzz.partial_ratio(str(row1[name_col1]), str(row2[name_col2]))
+                name1 = str(row1.get(name_col1, ""))
+                name2 = str(row2.get(name_col2, ""))
+                similarity_partial_score = partial_ratio(name1, name2)
+                similarity_token_set = token_set_ratio(name1, name2)
 
                 matches.append({
                     id_col1: row1[id_col1],
                     id_col2: row2[id_col2],
                     "distance_m": round(distance_m, 2),
-                    name_col1: row1.get(name_col1, None),
-                    name_col2: row2.get(name_col2, None),
-                    "similarity_full_score": similarity_full_score,
-                    "similarity_partial_score": similarity_partial_score
+                    name_col1: name1,
+                    name_col2: name2,
+                    "similarity_partial_score": similarity_partial_score,
+                    "similarity_token_set": similarity_token_set
                 })
 
-    # Find unmatched facilities in df2
     unmatched_df2 = df2[~df2[id_col2].isin([m[id_col2] for m in matches if m[id_col2] is not None])]
     for _, row2 in unmatched_df2.iterrows():
         matches.append({
@@ -90,123 +86,75 @@ def match_facilities(df1, df2, id_col1="id_1", id_col2="id_2",
             "distance_m": None,
             name_col1: None,
             name_col2: row2.get(name_col2, None),
-            "similarity_full_score": None,
-            "similarity_partial_score": None
+            "similarity_partial_score": None,
+            "similarity_token_set": None
         })
 
-    # Convert matches to a DataFrame
-    full_matches_df = pd.DataFrame(matches)
-
-    return full_matches_df
+    return pd.DataFrame(matches)
 
 
-def match_facilities_unique(df1, df2, id_col1="id_1", id_col2="id_2",
-                            name_col1="facility_name_1", name_col2="facility_name_2",
-                            buffer_km=10, geometry_col="geometry", similarity_threshold=80):
+def assign_best_match(
+    match_df,
+    id_main_col,
+    id_sat_col,
+    name_main_col=None,
+    name_sat_col=None,
+    strategy="combined",  # Options: distance, similarity_partial, similarity_token_set, combined
+    weight_similarity=0.7,
+    weight_distance=0.3,
+    similarity_metric="token_set"  # or "partial"
+):
     """
-    Matches facilities from two datasets based on geographical proximity and name similarity.
-    Returns a SQL-friendly table where each row represents a facility, with matched facilities on the same row.
+    Assigns best matches from a match_facilities() result, using a strategy based on distance and/or name similarity.
 
-    Matches are prioritized = we store only the best match
-     - Only facilities within the buffer (e.g. 10km) are considered as possible matches
-     - Among the possible matches, the facility with the highest name similarity score is selected as match
-     - If the similarity score is the same, the one with the shortest distance is selected
+    **Similarity options:**
+        - "partial": uses RapidFuzz's partial_ratio (best when one name is a subset of the other)
+        - "token_set": uses token_set_ratio (best for messy names with reordering or extra words)
 
-    Parameters:
-        df1 (pd.DataFrame or gpd.GeoDataFrame): First dataset with facility locations.
-        df2 (pd.DataFrame or gpd.GeoDataFrame): Second dataset with facility locations.
-        id_col1 (str): Column name for unique IDs in df1.
-        id_col2 (str): Column name for unique IDs in df2.
-        name_col1 (str): Column name for facility names in df1 (optional).
-        name_col2 (str): Column name for facility names in df2 (optional).
-        buffer_km (float): Search radius (in km) for geographical matching.
-        geometry_col (str): Column name for geometry (if using GeoDataFrames).
-        similarity_threshold (int): Minimum similarity score (0-100) to consider as a name match.
+    **Parameters:**
+        match_df (pd.DataFrame): Output from match_facilities().
+        id_main_col (str): ID column for the main facilities table.
+        id_sat_col (str): ID column for the satellite table (e.g. GHG, waste).
+        name_main_col (str): Optional, name column in main table (for inspection/debug).
+        name_sat_col (str): Optional, name column in satellite table (for inspection/debug).
+        strategy (str): Matching strategy. Options: "distance", "similarity_partial", "similarity_token_set", "combined".
+        weight_similarity (float): Weight for similarity when using "combined".
+        weight_distance (float): Weight for inverse distance when using "combined".
+        similarity_metric (str): "partial" or "token_set" for use in "combined" strategy.
 
-    Returns:
-        pd.DataFrame: A SQL-friendly table with matched and unmatched facilities.
+    **Returns:**
+        pd.DataFrame: Columns [id_sat_col, id_main_col] for best match assignments.
     """
+    df = match_df.dropna(subset=[id_main_col, id_sat_col]).copy()
 
-    # Convert to GeoDataFrames if not already
-    if not isinstance(df1, gpd.GeoDataFrame):
-        df1 = gpd.GeoDataFrame(df1, geometry=gpd.points_from_xy(df1["longitude"], df1["latitude"]), crs="EPSG:4326")
-    if not isinstance(df2, gpd.GeoDataFrame):
-        df2 = gpd.GeoDataFrame(df2, geometry=gpd.points_from_xy(df2["longitude"], df2["latitude"]), crs="EPSG:4326")
-
-    # Convert both datasets to EPSG:3978 (meters-based coordinate system for Canada)
-    df1 = df1.to_crs(epsg=3978)
-    df2 = df2.to_crs(epsg=3978)
-
-    # Create a buffer of `buffer_km` converted to meters
-    buffer_m = buffer_km * 1000  # Convert km to meters
-    df1["buffer"] = df1.geometry.buffer(buffer_m)
-
-    matches = []
-
-    # Track matched IDs
-    matched_ids_1 = set()
-    matched_ids_2 = set()
-
-    # Iterate over df1 rows to find matches in df2
-    for _, row1 in df1.iterrows():
-        possible_matches = df2[df2.geometry.within(row1["buffer"])]
-
-        best_match = None
-        best_score = -1
-        best_distance = None
-
-        for _, row2 in possible_matches.iterrows():
-            distance_m = row1.geometry.distance(row2.geometry)
-
-            similarity_score = None
-            if name_col1 in df1.columns and name_col2 in df2.columns:
-                similarity_score = fuzz.ratio(str(row1[name_col1]), str(row2[name_col2]))
-
-            # Keep the best match (highest similarity score)
-            if similarity_score is not None and similarity_score > best_score:
-                best_match = row2
-                best_score = similarity_score
-                best_distance = distance_m
-
-        # If a match is found
-        if best_match is not None and best_score >= similarity_threshold:
-            matches.append({
-                id_col1: row1[id_col1],
-                id_col2: best_match[id_col2],
-                "distance_m": round(best_distance, 2),
-                name_col1: row1[name_col1] if name_col1 in df1.columns else None,
-                name_col2: best_match[name_col2] if name_col2 in df2.columns else None,
-                "similarity_score": best_score
-            })
-            matched_ids_1.add(row1[id_col1])
-            matched_ids_2.add(best_match[id_col2])
+    if strategy == "combined":
+        if similarity_metric == "partial":
+            sim_col = "similarity_partial_score"
+        elif similarity_metric == "token_set":
+            sim_col = "similarity_token_set"
         else:
-            # If no match is found, keep the unmatched facility from df1
-            matches.append({
-                id_col1: row1[id_col1],
-                id_col2: None,
-                "distance_m": None,
-                name_col1: row1[name_col1] if name_col1 in df1.columns else None,
-                name_col2: None,
-                "similarity_score": None
-            })
+            raise ValueError("similarity_metric must be 'partial' or 'token_set'")
 
-    # Find unmatched facilities in df2 (those not matched in df1)
-    unmatched_df2 = df2[~df2[id_col2].isin(matched_ids_2)]
-    for _, row2 in unmatched_df2.iterrows():
-        matches.append({
-            id_col1: None,
-            id_col2: row2[id_col2],
-            "distance_m": None,
-            name_col1: None,
-            name_col2: row2[name_col2] if name_col2 in df2.columns else None,
-            "similarity_score": None
-        })
+        df["score"] = (
+            weight_similarity * df[sim_col].fillna(0) +
+            weight_distance * (1 / (1 + df["distance_m"]))
+        )
+        df = df.sort_values("score", ascending=False).drop_duplicates(subset=[id_sat_col])
 
-    # Convert matches to a DataFrame
-    match_df = pd.DataFrame(matches)
+    elif strategy == "distance":
+        df = df.sort_values("distance_m", ascending=True).drop_duplicates(subset=[id_sat_col])
 
-    return match_df
+    elif strategy == "similarity_partial":
+        df = df.sort_values("similarity_partial_score", ascending=False).drop_duplicates(subset=[id_sat_col])
+
+    elif strategy == "similarity_token_set":
+        df = df.sort_values("similarity_token_set", ascending=False).drop_duplicates(subset=[id_sat_col])
+
+    else:
+        raise ValueError("strategy must be one of: 'distance', 'similarity_partial', 'similarity_token_set', 'combined'")
+
+    return df[[id_sat_col, id_main_col]]
+
 
 
 ### BUFFER
@@ -297,6 +245,7 @@ def match_facility_to_polygons_with_buffer(facility_df, polygon_gdf,
     match_df = pd.DataFrame(matches)
 
     return match_df
+
 
 ### CLUSTERING
 def cluster_sites_and_polygons(

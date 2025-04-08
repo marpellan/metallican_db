@@ -1,21 +1,11 @@
 import pandas as pd
 import numpy as np
 import hashlib
-import random
-
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 import geopandas as gpd
-from geopandas.tools import clip
-from shapely.geometry import shape, mapping, Point, Polygon, MultiPolygon
-from geopandas.tools import clip
-from shapely.ops import transform
-
+from shapely.geometry import Point, Polygon, MultiPolygon
 from rapidfuzz import fuzz
-
-from sklearn.cluster import DBSCAN
-from scipy.spatial import cKDTree
 
 
 def populate_table_df(column_mapping, facility_df, dynamic_columns=None, source_dfs=None):
@@ -80,7 +70,24 @@ def populate_table_df(column_mapping, facility_df, dynamic_columns=None, source_
     return facility_df
 
 
-def assign_id(df, canada_provinces, id_column="main_id", prefix="OTH", geometry_col="geometry"):
+def check_duplicate_facilities(df, name_col="facility_name", lon_col="longitude", lat_col="latitude"):
+    """
+    Flags possible duplicate facilities based on name and coordinates.
+
+    Parameters:
+        df (pd.DataFrame): Input DataFrame
+        name_col (str): Column with facility names
+        lon_col (str): Longitude column
+        lat_col (str): Latitude column
+
+    Returns:
+        pd.DataFrame: Subset of rows with duplicated (name, lat, lon) pairs
+    """
+    dupes = df[df.duplicated(subset=[name_col, lon_col, lat_col], keep=False)]
+    return dupes.sort_values(by=[name_col, lat_col, lon_col])
+
+
+def assign_id(df, canada_provinces, id_column="main_id", prefix="OTH", geometry_col="geometry", name_col="facility_name"):
     """
     Assign deterministic IDs with inferred provinces from coordinates.
     Handles both **Point** and **Polygon** geometries.
@@ -144,27 +151,21 @@ def assign_id(df, canada_provinces, id_column="main_id", prefix="OTH", geometry_
     # Extract centroid for polygons & coordinates for points
     df["longitude"], df["latitude"] = zip(*df.apply(extract_coordinates, axis=1))
 
-    # Add a counter for duplicate locations
-    df["location_count"] = df.groupby(["longitude", "latitude"]).cumcount() + 1
-
     def generate_id(row):
         """Generates a unique and deterministic ID."""
         lon, lat = row["longitude"], row["latitude"]
         province_code = get_province(lon, lat)  # Infer province
-        facility_name = row.get("facility_name", "Unknown")
+        facility_name = row.get(name_col, "Unknown")
 
         # Create a deterministic hash
         hash_input = f"{prefix}|{facility_name}|{lat}|{lon}"
         unique_hash = hashlib.md5(hash_input.encode()).hexdigest()[:8]
 
         # Ensure uniqueness by appending location_count for duplicate coordinates
-        return f"{province_code}-{prefix}-{unique_hash}-{row['location_count']}"
+        return f"{province_code}-{prefix}-{unique_hash}"
 
     # Apply the ID assignment
     df[id_column] = df.apply(generate_id, axis=1)
-
-    # Drop unnecessary columns
-    df = df.drop(columns=['location_count'])
 
     # Ensure ID column is first
     cols = [id_column] + [col for col in df.columns if col != id_column]
@@ -200,40 +201,66 @@ def add_year(gdf, year, original_year_col=None):
     return gdf
 
 
-def assign_row_id(df, id_column="id", prefix="MIN", num_digits=13):
+def assign_row_id(
+    df,
+    facility_id_col="main_id",
+    row_id_col="row_id",
+    prefix="ROW",
+    year_col='year',
+    scenario_col='scenario'
+):
     """
-    Assigns unique IDs to each row of a DataFrame.
+    Assigns a unique, stable row-level ID per entry linked to a facility.
+    Reuses the hash part of the main_id directly (not a re-hash).
 
-    - If `id_column` does not exist, it creates it as the first column.
-    - If `id_column` exists but contains NaN values, it fills them with unique generated IDs.
-    - Ensures uniqueness by avoiding duplicates within the DataFrame.
+    Format:
+      - With year & scenario:   PREFIX-<hash>-<year>-<scenario>-<index>
+      - With year only:         PREFIX-<hash>-<year>-<index>
+      - With scenario only:     PREFIX-<hash>-<scenario>-<index>
+      - Without both:           PREFIX-<hash>-<index>
 
     Parameters:
-    - df (pd.DataFrame): The input DataFrame.
-    - id_column (str): The name of the ID column to create or fill (default is "id").
-    - prefix (str): The prefix for the generated IDs (default is "MIN").
-    - num_digits (int): The number of digits in the numeric part of the ID (default is 13).
+        df (pd.DataFrame): Table with multiple rows per facility.
+        facility_id_col (str): Column with facility-level ID (e.g., 'main_id').
+        row_id_col (str): Name of the new row-level ID column.
+        prefix (str): Table-specific ID prefix (e.g., 'POLL', 'GHG').
+        year_col (str, optional): Column name for year (if applicable).
+        scenario_col (str, optional): Column name for scenario (if applicable).
 
     Returns:
-    - pd.DataFrame: Updated DataFrame with unique IDs assigned.
+        pd.DataFrame: Same table with new row_id as the first column.
     """
-    if id_column not in df.columns:
-        df.insert(0, id_column, None)  # Create the column as the first column
+    df = df.copy()
 
-    # Ensure uniqueness by tracking existing IDs
-    existing_ids = set(df[id_column].dropna().astype(str))  # Convert to str to match generated format
-    new_ids = []
+    def extract_hash(fac_id):
+        parts = str(fac_id).split("-")
+        return parts[-1] if len(parts) >= 3 else "xxxxxxx"
 
-    while len(new_ids) < df[id_column].isna().sum():
-        new_id = f"{prefix}-{random.randint(10 ** (num_digits - 1), 10 ** num_digits - 1)}"
-        if new_id not in existing_ids:
-            existing_ids.add(new_id)
-            new_ids.append(new_id)
+    df["_hash"] = df[facility_id_col].apply(extract_hash)
 
-    # Assign only to missing values
-    df.loc[df[id_column].isna(), id_column] = new_ids
+    group_cols = [facility_id_col]
+    if year_col:
+        group_cols.append(year_col)
+    if scenario_col:
+        group_cols.append(scenario_col)
 
-    return df
+    df["_row_index"] = df.groupby(group_cols).cumcount() + 1
+
+    def build_id(row):
+        parts = [prefix, row["_hash"]]
+        if year_col:
+            parts.append(str(row[year_col]))
+        if scenario_col:
+            parts.append(str(row[scenario_col]))
+        parts.append(str(row["_row_index"]))
+        return "-".join(parts)
+
+    df[row_id_col] = df.apply(build_id, axis=1)
+    df = df.drop(columns=["_row_index", "_hash"])
+
+    # Reorder to place row_id first
+    cols = [row_id_col] + [col for col in df.columns if col != row_id_col]
+    return df[cols]
 
 
 # def add_geospatial_info(facility_df, other_df, matching_columns, buffer_distance=10000, crs="EPSG:4326"):
