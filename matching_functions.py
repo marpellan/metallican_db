@@ -93,67 +93,96 @@ def match_facilities(df1, df2, id_col1="id_1", id_col2="id_2",
     return pd.DataFrame(matches)
 
 
-def assign_best_match(
+def one_to_many_relationships(
     match_df,
     id_main_col,
     id_sat_col,
-    name_main_col=None,
-    name_sat_col=None,
-    strategy="combined",  # Options: distance, similarity_partial, similarity_token_set, combined
-    weight_similarity=0.7,
-    weight_distance=0.3,
-    similarity_metric="token_set"  # or "partial"
+    distance_threshold_m=2000,
+    similarity_threshold=80,
+    similarity_metric="token_set"  # "partial" or "token_set"
 ):
     """
-    Assigns best matches from a match_facilities() result, using a strategy based on distance and/or name similarity.
+    Give me the single best match for each satellite entry — only if it passes the thresholds.
 
-    **Similarity options:**
-        - "partial": uses RapidFuzz's partial_ratio (best when one name is a subset of the other)
-        - "token_set": uses token_set_ratio (best for messy names with reordering or extra words)
-
-    **Parameters:**
+    Parameters:
         match_df (pd.DataFrame): Output from match_facilities().
         id_main_col (str): ID column for the main facilities table.
-        id_sat_col (str): ID column for the satellite table (e.g. GHG, waste).
-        name_main_col (str): Optional, name column in main table (for inspection/debug).
-        name_sat_col (str): Optional, name column in satellite table (for inspection/debug).
-        strategy (str): Matching strategy. Options: "distance", "similarity_partial", "similarity_token_set", "combined".
-        weight_similarity (float): Weight for similarity when using "combined".
-        weight_distance (float): Weight for inverse distance when using "combined".
-        similarity_metric (str): "partial" or "token_set" for use in "combined" strategy.
+        id_sat_col (str): ID column for the satellite table.
+        distance_threshold_m (float): Max distance in meters.
+        similarity_threshold (float): Min similarity score (0–100).
+        similarity_metric (str): 'partial' or 'token_set'.
 
-    **Returns:**
-        pd.DataFrame: Columns [id_sat_col, id_main_col] for best match assignments.
+    Returns:
+        pd.DataFrame: Best matches [id_sat_col, id_main_col] or NaN if no good match found.
     """
     df = match_df.dropna(subset=[id_main_col, id_sat_col]).copy()
 
-    if strategy == "combined":
-        if similarity_metric == "partial":
-            sim_col = "similarity_partial_score"
-        elif similarity_metric == "token_set":
-            sim_col = "similarity_token_set"
-        else:
-            raise ValueError("similarity_metric must be 'partial' or 'token_set'")
+    # Select the similarity column
+    sim_col = {
+        "partial": "similarity_partial_score",
+        "token_set": "similarity_token_set"
+    }.get(similarity_metric, "similarity_token_set")
 
-        df["score"] = (
-            weight_similarity * df[sim_col].fillna(0) +
-            weight_distance * (1 / (1 + df["distance_m"]))
-        )
-        df = df.sort_values("score", ascending=False).drop_duplicates(subset=[id_sat_col])
+    # Apply threshold filtering
+    df = df[
+        (df["distance_m"] <= distance_threshold_m) &
+        (df[sim_col] >= similarity_threshold)
+    ]
 
-    elif strategy == "distance":
-        df = df.sort_values("distance_m", ascending=True).drop_duplicates(subset=[id_sat_col])
-
-    elif strategy == "similarity_partial":
-        df = df.sort_values("similarity_partial_score", ascending=False).drop_duplicates(subset=[id_sat_col])
-
-    elif strategy == "similarity_token_set":
-        df = df.sort_values("similarity_token_set", ascending=False).drop_duplicates(subset=[id_sat_col])
-
-    else:
-        raise ValueError("strategy must be one of: 'distance', 'similarity_partial', 'similarity_token_set', 'combined'")
+    # Pick the best match per satellite ID
+    df["score"] = df[sim_col] + (1 / (1 + df["distance_m"]))
+    df = df.sort_values("score", ascending=False).drop_duplicates(subset=[id_sat_col])
 
     return df[[id_sat_col, id_main_col]]
+
+
+def filter_matches(
+    match_df,
+    distance_threshold_m=None,
+    similarity_threshold=None,
+    similarity_metric="token_set",  # or "partial"
+    strategy="and"
+):
+    """
+    Give me all matches that meet the thresholds..
+
+    Parameters:
+        match_df (pd.DataFrame): Output from match_facilities().
+        distance_threshold_m (float or None): Max distance allowed.
+        similarity_threshold (float or None): Min similarity score allowed (0–100).
+        similarity_metric (str): 'partial' or 'token_set'.
+        strategy (str): 'and' (both conditions) or 'or' (either passes).
+
+    Returns:
+        pd.DataFrame: Filtered match candidates.
+    """
+    df = match_df.copy()
+
+    sim_col = {
+        "partial": "similarity_partial_score",
+        "token_set": "similarity_token_set"
+    }.get(similarity_metric, "similarity_token_set")
+
+    conditions = []
+    if distance_threshold_m is not None:
+        conditions.append(df["distance_m"] <= distance_threshold_m)
+    if similarity_threshold is not None:
+        conditions.append(df[sim_col] >= similarity_threshold)
+
+    if conditions:
+        if strategy == "and":
+            combined = conditions[0]
+            for cond in conditions[1:]:
+                combined &= cond
+        elif strategy == "or":
+            combined = conditions[0]
+            for cond in conditions[1:]:
+                combined |= cond
+        else:
+            raise ValueError("strategy must be 'and' or 'or'")
+        df = df[combined]
+
+    return df.reset_index(drop=True)
 
 
 

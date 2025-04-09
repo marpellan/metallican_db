@@ -1,3 +1,13 @@
+import matplotlib.pyplot as plt
+import seaborn as sns
+import ee # Google Earth Engine
+import geemap # Google Earth Engine
+import xarray # for nc file
+import folium
+import leafmap.foliumap as leafmap
+import os
+
+
 def plot_map(full_facility_gdf, full_polygon_gdf,
              output_html="full_facility_polygon_map.html",
              open_in_browser=False):
@@ -151,3 +161,48 @@ def plot_polygons_per_facility(df):
     plt.xticks(bins)  # Ensure each integer is labeled
     plt.show()
 
+
+def plot_mine_status_mincan(df):
+    """
+    Plots two figures:
+    1. Mine openings and closures over time, with active mine count.
+    2. Current active vs. inactive mines as a pie chart.
+
+    Parameters:
+    df (pd.DataFrame): DataFrame containing columns 'open1', 'close1', 'open2', 'close2', 'open3', 'close3', and 'mine_status'.
+    """
+
+    # Extract relevant columns related to opening and closing years
+    open_close_columns = ['open1', 'close1', 'open2', 'close2', 'open3', 'close3']
+
+    # Convert columns to numeric, handling non-numeric values (like 'open')
+    df_filtered = df[open_close_columns].apply(pd.to_numeric, errors='coerce')
+
+    # Reshape data into long format
+    df_melted = df_filtered.melt(value_name='year', var_name='event').dropna()
+
+    # Determine whether the event is an opening (+1) or closing (-1)
+    df_melted['count'] = df_melted['event'].apply(lambda x: 1 if 'open' in x else -1)
+
+    # Aggregate counts per year
+    df_yearly = df_melted.groupby('year')['count'].sum().reset_index()
+
+    # Compute cumulative sum for active mines
+    df_yearly['active_mines'] = df_yearly['count'].cumsum()
+
+    # --- Figure 1: Mine Openings and Closures Over Time ---
+    fig, ax1 = plt.subplots(figsize=(10, 5))
+    ax1.bar(df_yearly['year'], df_yearly['count'], color=['green' if x > 0 else 'red' for x in df_yearly['count']],
+            label="Openings/Closures")
+    ax1.set_xlabel("Year")
+    ax1.set_ylabel("Number of Openings (+) / Closures (-)")
+    ax1.axhline(0, color='black', linewidth=0.8)
+    ax1.legend(loc="upper left")
+
+    # --- Figure 2: Current Active vs. Inactive Mines ---
+    mine_status_counts = df['mine_status'].value_counts()
+
+    plt.figure(figsize=(6, 6))
+    plt.pie(mine_status_counts, labels=mine_status_counts.index, autopct='%1.1f%%', colors=['green', 'red'])
+    plt.title("Current Active vs. Inactive Mines")
+    plt.show()

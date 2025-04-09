@@ -149,7 +149,6 @@ def clean_npri(excel_path: str,
     Returns:
         pd.DataFrame: SQL-ready long-format DataFrame.
     """
-    import pandas as pd
 
     # Step 1: Load the emission column mapping
     mapping_df = pd.read_excel(excel_path, sheet_name=sheet_name_mapping)

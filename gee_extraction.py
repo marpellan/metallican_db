@@ -39,7 +39,7 @@ def extract_ghsl_population(main_gdf):
                     ).get("population_count").getInfo()
 
                 except Exception as e:
-                    print(f"❌ Error for {row['name']} ({label}, {year}): {e}")
+                    print(f"❌ Error for {row['facility_name']} ({label}, {year}): {e}")
                     total_pop = None
 
                 rows.append({

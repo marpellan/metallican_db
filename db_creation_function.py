@@ -206,8 +206,8 @@ def assign_row_id(
     facility_id_col="main_id",
     row_id_col="row_id",
     prefix="ROW",
-    year_col='year',
-    scenario_col='scenario'
+    year_col=None,
+    scenario_col=None
 ):
     """
     Assigns a unique, stable row-level ID per entry linked to a facility.
