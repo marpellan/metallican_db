@@ -1,0 +1,452 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>National Minerals Information Center</origin>
+        <pubdate>2025</pubdate>
+        <title>Mineral Commodity Summaries 2025 -World Production, Capacity, and Reserves</title>
+        <geoform>tabular digital data</geoform>
+        <onlink>https://doi.org/10.5066/P9WCYUI6</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>National Minerals Information Center</origin>
+            <pubdate>2025</pubdate>
+            <title>Mineral Commodity Summaries 2025 Data Release</title>
+            <geoform>tabular digital data</geoform>
+            <onlink>https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data release contains the world production data extracted from the commodity chapters in the USGS Mineral Commodity Summaries 2025.</abstract>
+      <purpose>Published on an annual basis, the USGS Mineral Commodity Summaries report is the earliest Government publication to furnish estimates covering nonfuel mineral industry data. Data sheets contain information on the domestic industry structure, Government programs, tariffs, and 5-year salient statistics for over 90 individual minerals and materials.</purpose>
+      <supplinf>Where possible, data are those finalized for publication in the 2023 U.S. Geological Survey Minerals Yearbook Volume I - Metals and Minerals. For 2024, USGS National Minerals Information Center provided estimates based on available data from USGS surveys of the industry, other industry sources, and mineral commodity specialist research.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2020</begdate>
+          <enddate>2024</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Annually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-180.0000</westbc>
+        <eastbc>180.0000</eastbc>
+        <northbc>90.0000</northbc>
+        <southbc>-90.0000</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>metallic mineral resources</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Ferromanganese</themekey>
+        <themekey>Manganese dioxide</themekey>
+        <themekey>Silicomanganese</themekey>
+        <themekey>Manganese</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:63d1a485d34e06fef150072f</themekey>
+      </theme>
+      <place>
+        <placekt>Common geographic areas</placekt>
+        <placekey>United States</placekey>
+      </place>
+    </keywords>
+    <accconst>None.  Please see 'Distribution Info' for details.</accconst>
+    <useconst>None.  Users are advised to read the dataset's metadata thoroughly to understand appropriate use and data limitations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Elizabeth  Sangine</cntper>
+          <cntorg>USGS - Northeast Region</cntorg>
+        </cntperp>
+        <cntpos>Chief Mineral Commodities</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>National Center,John W Powell FB</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>703-648-7720</cntvoice>
+        <cntemail>escottsangine@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <crossref>
+      <citeinfo>
+        <origin>National Minerals Information Center</origin>
+        <pubdate>2025</pubdate>
+        <title>USGS National Minerals Information Center Mineral Commodity Web Page</title>
+        <geoform>application/service</geoform>
+        <othercit>Provides information and links to all available USGS National Minerals Information Center publications for all mineral commodities by publication type and year.</othercit>
+        <onlink>https://www.usgs.gov/centers/national-minerals-information-center/manganese-statistics-and-information</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Where possible, data for all years except 2024 have been finalized for publication in the U.S. Geological Survey Minerals Yearbook Volume I - Metals and Minerals; otherwise the data are noted as estimated.</attraccr>
+    </attracc>
+    <logic>Data were checked to ensure that they match those published in the Mineral Commodity Summaries 2025. Data were peer reviewed by Mineral Commodity Specialists and approved by supervisors in compliance with USGS fundamental science practices.</logic>
+    <complete>This data release contains tabular data found in the associated publication Mineral Commodity Summaries 2025 (MCS 2025); additional detailed information is available in the full text version of MCS 2025.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Minerals Information Center</origin>
+            <pubdate>2024</pubdate>
+            <title>USGS Minerals Yearbook Volume I - Metals and Minerals</title>
+            <edition>2023</edition>
+            <geoform>publication</geoform>
+            <onlink>https://www.usgs.gov/centers/national-minerals-information-center/minerals-yearbook-metals-and-minerals</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2023</begdate>
+              <enddate>2024</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>MYB Vol I</srccitea>
+        <srccontr>Source of world statistics for 2023 and basis for estimates for 2024. The data in the Minerals Yearbook are based on USGS surveys sent to companies involved in the industry for each mineral commodity.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>World production, capacity, and  reserves for each mineral commodity were compiled from published 2023 U.S. Geological Survey Minerals Yearbook Volume I - Metals and Minerals chapters or from preliminary tables of those to be published. Data for 2024 were estimated based on available 2024 data and industry trends. Estimates for world production were made for 2024 in collaboration with USGS National Minerals Information Center Global Minerals Analysis specialists using best available data.</procdesc>
+        <srcused>MYB Vol I</srcused>
+        <procdate>2024</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>MCS2025_World_Data.csv</enttypl>
+        <enttypd>Comma Separated Value (CSV) file containing data.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+  <attrlabl>SOURCE</attrlabl><attrdef>Publication containing the data.</attrdef><attrdefs>Producer Defined</attrdefs><attrdomv>
+    <edom>
+      <edomv>MCS2025</edomv>
+      <edomvd>Mineral Commodity Summaries 2025</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+</attr>
+      <attr>
+        <attrlabl>COMMODITY</attrlabl>
+        <attrdef>Mineral commodity for which the data were compiled.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Mineral  Commodities</codesetn>
+            <codesets>USGS National Minerals Information Center</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNTRY</attrlabl>
+        <attrdef>Country in which the mineral commodity is produced or processed.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Common Geographic Names</codesetn>
+            <codesets>Geopolitical Entities, Names, and Codes (GENC) Standard</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+        <attrdef>Description of the form of commodity for which the production is measured, usually mine production (content of the mineral commodity in the ore) or refinery production of the mineral commodity.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Mineral Commodity Salient Statistics</codesetn>
+            <codesets>USGS National Minerals Information Center</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+  <attrlabl>UNIT_MEAS</attrlabl><attrdef>Unit of measure for the production, capacity. and reserves</attrdef><attrdefs>Producer Defined</attrdefs><attrdomv><edom><edomv>&lt;&lt; empty cell &gt;&gt;</edomv><edomvd>No Data</edomvd><edomvds>Producer defined</edomvds></edom></attrdomv><attrdomv>
+    <edom>
+      <edomv>metric tons</edomv>
+      <edomvd>metric tons</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>thousand metric tons</edomv>
+      <edomvd>thousand metric tons</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>thousand metric dry tons</edomv>
+      <edomvd>thousand metric dry tons</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>million carats</edomv>
+      <edomvd>million carats</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>kilograms</edomv>
+      <edomvd>kilograms</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>thousand carats</edomv>
+      <edomvd>thousand carats</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>million cubic meters</edomv>
+      <edomvd>million cubic meters</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>million metric tons</edomv>
+      <edomvd>million metric tons</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+</attr>
+      <attr>
+        <attrlabl>PROD_2023</attrlabl>
+        <attrdef>production in 2023</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&lt;&lt; empty cell &gt;&gt;</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>1000000000</rdommax>
+            <attrunit>UNIT_MEAS</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PROD_EST_ 2024</attrlabl>
+        <attrdef>estimated production in 2024</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&lt;&lt; empty cell &gt;&gt;</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>1000000000</rdommax>
+            <attrunit>UNIT_MEAS</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PROD_NOTES</attrlabl>
+        <attrdef>notes about the production in the subject country</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&lt;&lt; empty cell &gt;&gt;</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <udom>free text - footnote in the MCS2025 publications</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CAP_2023</attrlabl>
+        <attrdef>capacity in 2023</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&lt;&lt; empty cell &gt;&gt;</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1000000000</rdommax>
+            <attrunit>UNIT_MEAS</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CAP_EST_ 2024</attrlabl>
+        <attrdef>estimated capacity in 2024</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&lt;&lt; empty cell &gt;&gt;</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1000000000</rdommax>
+            <attrunit>UNIT_MEAS</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+  <attrlabl>CAP_NOTES</attrlabl><attrdef>notes about the capacity for the commodity in the subject country</attrdef><attrdefs>Producer Defined</attrdefs><attrdomv><edom><edomv>&lt;&lt; empty cell &gt;&gt;</edomv><edomvd>No Data</edomvd><edomvds>Producer defined</edomvds></edom></attrdomv><attrdomv>
+    <edom>
+      <edomv>NA</edomv>
+      <edomvd>not available</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>estimated</edomv>
+      <edomvd>estimated</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>reported</edomv>
+      <edomvd>reported</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+</attr>
+      <attr>
+        <attrlabl>RESERVES_2024</attrlabl>
+        <attrdef>Reserves of the mineral commodity in the subject country</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&lt;&lt; empty cell &gt;&gt;</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>1000000000</rdommax>
+            <attrunit>UNIT_MEAS</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RESERVE_NOTES</attrlabl>
+        <attrdef>notes about the reserves in the subject country</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&lt;&lt; empty cell &gt;&gt;</edomv>
+            <edomvd>No Data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <udom>free text corresponding to footnotes in MCS 2025 publication</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>World production, capacity, and reserves data were compiled from the Mineral Commodity Summaries 2025 in one single file. Units may vary by commodity - the user of the data must select mineral commodities having similar units if comparing quantities.</eaover>
+      <eadetcit>World Production, Capacity, and Reserves data set accompanying Mineral Commodity Summaries 2025</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>GS ScienceBase</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform><digtinfo>
+          <formname>Digital Data</formname>
+        </digtinfo>
+        <digtopt><onlinopt><computer><networka><networkr>https://doi.org/10.5066/P13XCP3R</networkr></networka></computer></onlinopt></digtopt></digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20250126</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Northeast Region</cntorg>
+          <cntper>Robert M Callaghan</cntper>
+        </cntorgp>
+        <cntpos>Physical Scientist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Mail Stop 989, 12201 Sunrise Valley Dr</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20202</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>703-648-7709</cntvoice>
+        <cntfax>703-648-7757</cntfax>
+        <cntemail>rcallaghan@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

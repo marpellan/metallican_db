@@ -6,6 +6,8 @@ import seaborn as sns
 import geopandas as gpd
 from shapely.geometry import Point, Polygon, MultiPolygon
 from rapidfuzz import fuzz
+import sqlite3
+import os
 
 
 def populate_table_df(column_mapping, facility_df, dynamic_columns=None, source_dfs=None):
@@ -170,6 +172,29 @@ def assign_id(df, canada_provinces, id_column="main_id", prefix="OTH", geometry_
     # Ensure ID column is first
     cols = [id_column] + [col for col in df.columns if col != id_column]
     return df[cols]
+
+
+def assign_deterministic_id(df, prefix, name_column, id_column):
+    """
+    Assign deterministic IDs based on a string column.
+
+    Parameters:
+        df (pd.DataFrame): The DataFrame to modify.
+        prefix (str): A short prefix for the ID (e.g., 'CMP-', 'GRP-').
+        name_column (str): Column name containing the value to hash.
+        id_column (str): Column name where the ID will be stored.
+
+    Returns:
+        pd.DataFrame: The updated DataFrame with assigned IDs.
+    """
+    def generate_id(name):
+        if pd.isna(name):
+            return None
+        clean_name = str(name).strip().lower()
+        return f"{prefix}{hashlib.md5(clean_name.encode()).hexdigest()[:8]}"
+
+    df[id_column] = df[name_column].apply(generate_id)
+    return df
 
 
 def add_year(gdf, year, original_year_col=None):
@@ -549,4 +574,49 @@ def analyze_and_compare_polygon_areas(gdf1, gdf2, dataset_name1, dataset_name2, 
     plt.show()
 
     return summary_df
+
+
+def export_sqlite_db(db_path, tables_dict, keep_geometry_tables=None, csv_dir=None):
+    """
+    Export multiple (Geo)DataFrames to both SQLite and CSV with optional geometry as WKT.
+
+    Parameters:
+        db_path (str): Path to SQLite database file.
+        tables_dict (dict): {table_name: DataFrame or GeoDataFrame}.
+        keep_geometry_tables (list): List of table names to keep geometry (as WKT).
+        csv_dir (str, optional): Directory to export CSV files (default: same as db_path).
+    """
+    if keep_geometry_tables is None:
+        keep_geometry_tables = []
+
+    # Get folder for CSVs
+    if csv_dir is None:
+        csv_dir = os.path.dirname(db_path)
+
+    os.makedirs(csv_dir, exist_ok=True)
+
+    # Connect to SQLite
+    conn = sqlite3.connect(db_path)
+
+    for table_name, df in tables_dict.items():
+        df_export = df.copy()
+
+        # Handle geometry
+        if "geometry" in df_export.columns:
+            if table_name in keep_geometry_tables:
+                df_export["geometry"] = df_export.geometry.to_wkt()
+            else:
+                df_export = df_export.drop(columns="geometry")
+
+        # Export to SQLite
+        df_export.to_sql(table_name, conn, if_exists="replace", index=False)
+
+        # Export to CSV
+        csv_path = os.path.join(csv_dir, f"{table_name}.csv")
+        df_export.to_csv(csv_path, index=False)
+
+        print(f"✅ Exported '{table_name}' → SQLite + CSV")
+
+    conn.close()
+    print(f"✅ All exports completed to SQLite and CSVs in: {csv_dir}")
 

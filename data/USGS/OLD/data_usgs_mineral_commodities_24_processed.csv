@@ -1,0 +1,95 @@
+Source,Country,Type,Prod_2022,Prod_est_2023,FileName,Unit
+MCS2024,United States and Canada,"Plant capacity, fused aluminum oxide",60000,60000,mcs2024-abras_world.csv,Cap_t_est_2022
+MCS2024,World total (rounded),"Plant capacity, fused aluminum oxide",1310000,1300000,mcs2024-abras_world.csv,Cap_t_est_2022
+MCS2024,United States and Canada,"Plant capacity, silicon carbide",0,0,mcs2024-abras_world.csv,Cap_t_est_2022
+MCS2024,World total (rounded),"Plant capacity, silicon carbide",1000000,1000000,mcs2024-abras_world.csv,Cap_t_est_2022
+MCS 2024,Canada,"Smelter production, aluminum",2770.0,3000.0,mcs2024-alumi_world.csv,Prod_kt_2022
+MCS 2024,World total (rounded),"Smelter production, aluminum",68400.0,70000.0,mcs2024-alumi_world.csv,Prod_kt_2022
+MCS2024,Canada,"Mine production, contained antimony",2,2,mcs2024-antim_world.csv,Prod_t_2022
+MCS2024,World total (rounded)10,"Mine production, contained antimony",83100,83000,mcs2024-antim_world.csv,Prod_t_2022
+MCS2024,Canada,"Refinery production, alumina - calcined equivalent weights","1,360","1,600",mcs2024-bauxi_world.csv,Prod_kt_2022
+MCS2024,World total (rounded),"Refinery production, alumina - calcined equivalent weights","140,000","140,000",mcs2024-bauxi_world.csv,Prod_kt_2022
+MCS2024,Canada,"Mine production, bauxite, dry tons",0,0,mcs2024-bauxi_world.csv,Prod_kt_2022
+MCS2024,World total (rounded),"Mine production, bauxite, dry tons","400,000","400,000",mcs2024-bauxi_world.csv,Prod_kt_2022
+MCS2024,Canada,Refinery production,1800.0,1800.0,mcs2024-cadmi_world.csv,Prod_t_2022
+MCS2024,World total (rounded),Refinery production,22600.0,23000.0,mcs2024-cadmi_world.csv,Prod_t_2022
+MCS2024,Canada,"Mine production, metric tons of contained cobalt",3060,2100,mcs2024-cobal_world.csv,Prod_t_est_2022
+MCS2024,World total (rounded),"Mine production, metric tons of contained cobalt",197000,230000,mcs2024-cobal_world.csv,Prod_t_est_2022
+MCS2024,Canada,"Mine production, recoverable copper content",520.0,480.0,mcs2024-coppe_world.csv,Prod_kt_2022
+MCS2024,World total (rounded),"Mine production, recoverable copper content",21900.0,22000.0,mcs2024-coppe_world.csv,Prod_kt_2022
+MCS2024,Canada,"Refinery production, copper",278.0,310.0,mcs2024-coppe_world.csv,Prod_kt_2022
+MCS2024,World total (rounded),"Refinery production, copper",25900.0,27000.0,mcs2024-coppe_world.csv,Prod_kt_2022
+MCS2024,Canada,Iron ore - mine production - usable ore -thousand metric tons,69000,70000,mcs2024-feore_world.csv,Prod_kt_2022
+MCS2024,World total (rounded),Iron ore - mine production - usable ore -thousand metric tons,2500000,2500000,mcs2024-feore_world.csv,Prod_kt_2022
+MCS2024,Canada,Iron ore - mine production - iron content - thousand metric tons,41400,42000,mcs2024-feore_world.csv,Prod_kt_2022
+MCS2024,World total (rounded),Iron ore - mine production - iron content - thousand metric tons,1540000,1500000,mcs2024-feore_world.csv,Prod_kt_2022
+MCS2024,Canada,"Pig iron, million metric tons",6.0,6.0,mcs2024-feste_world.csv,Prod_mmt_2022
+MCS2024,World total (rounded),"Pig iron, million metric tons",1300.0,1300.0,mcs2024-feste_world.csv,Prod_mmt_2022
+MCS2024,Canada,"Raw steel, million metric tons",12.0,12.0,mcs2024-feste_world.csv,Prod_mmt_2022
+MCS2024,World total (rounded),"Raw steel, million metric tons",1880.0,1900.0,mcs2024-feste_world.csv,Prod_mmt_2022
+MCS2024,Canada,"Mine production, thousand carats of gem-quality diamond",16200.0,15000.0,mcs2024-gemst_world.csv,Prod_kct_2022
+MCS2024,World total (rounded),"Mine production, thousand carats of gem-quality diamond",75200.0,74000.0,mcs2024-gemst_world.csv,Prod_kct_2022
+MCS2024,Canada,Primary and secondary refinery production,,,mcs2024-germa_world.csv,Prod_kg_2022
+MCS2024,World total (rounded),Primary and secondary refinery production,,,mcs2024-germa_world.csv,Prod_kg_2022
+MCS2024,Canada,"Gold - contained content, mine production, metric tons",206,200,mcs2024-gold_world.csv,Prod_t_2022
+MCS2024,World total (rounded),"Gold - contained content, mine production, metric tons",3060,3000,mcs2024-gold_world.csv,Prod_t_2022
+MCS2024,Canada,"Mine production, graphite",13000,3500,mcs2024-graph_world.csv,Prod_t_2022
+MCS2024,World total (rounded),"Mine production, graphite",1680000,1600000,mcs2024-graph_world.csv,Prod_t_2022
+MCS2024,Canada,Mine production,2400,2400,mcs2024-gypsu_world.csv,Prod_kt_2022
+MCS2024,World total (rounded),Mine production,155000,160000,mcs2024-gypsu_world.csv,Prod_kt_2022
+MCS2024,Canada,"Mine production, helium",3,4,mcs2024-heliu_world.csv,Prod_mcm_2022
+MCS2024,World total (rounded),"Mine production, helium",158,170,mcs2024-heliu_world.csv,Prod_mcm_2022
+MCS2024,Canada,"Refinery production, indium",39.0,37.0,mcs2024-indiu_world.csv,Prod_t_est_2022
+MCS2024,World total (rounded),"Refinery production, indium",999.0,990.0,mcs2024-indiu_world.csv,Prod_t_est_2022
+MCS2024,Canada (shipments),"Plant production, lime",1680,1700,mcs2024-lime_world.csv,Prod_kt_2022
+MCS2024,World total (rounded),"Plant production, lime",430000,430000,mcs2024-lime_world.csv,Prod_kt_2022
+MCS2024,Canada,"Mine production, lithium content",520,3400,mcs2024-lithi_world.csv,Prod_t_2022
+MCS2024,World total (rounded),"Mine production, lithium content",146000,180000,mcs2024-lithi_world.csv,Prod_t_2022
+MCS2024,Canada,"Mine production, magnesite - contained magnesium oxide (MgO) ",150,150,mcs2024-mgcomp_world.csv,Prod_kt_2022
+MCS2024,World total (rounded),"Mine production, magnesite - contained magnesium oxide (MgO) ",21900,22000,mcs2024-mgcomp_world.csv,Prod_kt_2022
+MCS2024,Canada,Mine production - mica scrap and flake,15000.0,15000.0,mcs2024-mica_world.csv,Prod_t_est_2022
+MCS2024,World total (rounded),Mine production - mica scrap and flake,318000.0,330000.0,mcs2024-mica_world.csv,Prod_t_est_2022
+MCS2024,Canada,Mine production - mica sheet,,,mcs2024-mica_world.csv,Prod_t_est_2022
+MCS2024,World total (rounded),Mine production - mica sheet,,,mcs2024-mica_world.csv,Prod_t_est_2022
+MCS2024,Canada,"Mine production, contained molybdenum",952.0,1000.0,mcs2024-molyb_world.csv,Prod_t_2022
+MCS2024,World total (rounded),"Mine production, contained molybdenum",253000.0,260000.0,mcs2024-molyb_world.csv,Prod_t_2022
+MCS2024,Canada,"Mine production - nickel, metric tons contained",143000.0,180000.0,mcs2024-nicke_world.csv,Prod_t_2022
+MCS2024,World total (rounded),"Mine production - nickel, metric tons contained",3270000.0,3600000.0,mcs2024-nicke_world.csv,Prod_t_2022
+MCS2024,Canada,"Mine production, niobium content",6700.0,7000.0,mcs2024-niobi_world.csv,Prod_t_2022
+MCS2024,World total (rounded),"Mine production, niobium content",83700.0,83000.0,mcs2024-niobi_world.csv,Prod_t_2022
+MCS2024,Canada,"Plant production, ammonia - contained nitrogen",3410,3400,mcs2024-nitro_world.csv,Prod_kt_2022
+MCS2024,World total (rounded),"Plant production, ammonia - contained nitrogen",145000,150000,mcs2024-nitro_world.csv,Prod_kt_2022
+MCS2024,Canada,"Mine production, peat",2390.0,2400.0,mcs2024-peat_world.csv,Prod_kt_2022
+MCS2024,World total (rounded),"Mine production, peat",23600.0,23000.0,mcs2024-peat_world.csv,Prod_kt_2022
+MCS2024,Canada, Mine production: Palladium,16100,16000,mcs2024-plati_world.csv,Prod_kg_2022
+MCS2024,World total (rounded), World mine production: Palladium,203000,210000,mcs2024-plati_world.csv,Prod_kg_2022
+MCS2024,Canada, Mine production: Platinum,5400,5500,mcs2024-plati_world.csv,Prod_kg_2022
+MCS2024,World total (rounded), World mine production: Platinum,174000,180000,mcs2024-plati_world.csv,Prod_kg_2022
+MCS2024,Canada,"Mine production, potassium oxide (K2O) equivalent",14600,13000,mcs2024-potas_world.csv,Prod_kt_2022
+MCS2024,World total (rounded),"Mine production, potassium oxide (K2O) equivalent",40900,39000,mcs2024-potas_world.csv,Prod_kt_2022
+MCS2024,Canada,"Rare earths, mine production, rare-earth-oxide equivalent, metric tons",0.0,0.0,mcs2024-raree_world.csv,Prod_t_est_2022
+MCS2024,World total (rounded),"Rare earths, mine production, rare-earth-oxide equivalent, metric tons",300000.0,350000.0,mcs2024-raree_world.csv,Prod_t_est_2022
+MCS2024,Canada,Mine production,12000.0,12000.0,mcs2024-salt_world.csv,Prod_kt_est_2022
+MCS2024,World total (rounded),Mine production,270000.0,270000.0,mcs2024-salt_world.csv,Prod_kt_est_2022
+MCS2024,Canada,"Mine production, industrial sand and gravel","e5,000",5500.0,mcs2024-sandi_world.csv,Prod_kt_2022
+MCS2024,World total (rounded),"Mine production, industrial sand and gravel",359000,400000.0,mcs2024-sandi_world.csv,Prod_kt_2022
+MCS2024,Canada,"Refinery production, contained selenium",110,120,mcs2024-selen_world.csv,Prod_t_est_2022
+MCS2024,World total (rounded),"Refinery production, contained selenium",3310,3600,mcs2024-selen_world.csv,Prod_t_est_2022
+MCS2024,Canada,"Plant production, silicon content of ferrosilicon",20,20,mcs2024-simet_world.csv,Prod_kt_2022
+MCS2024,World total (rounded),"Plant production, silicon content of ferrosilicon",5440,5200,mcs2024-simet_world.csv,Prod_kt_2022
+MCS2024,Canada,"Plant production, silicon metal",29,30,mcs2024-simet_world.csv,Prod_kt_2022
+MCS2024,World total (rounded),"Plant production, silicon metal",3670,3800,mcs2024-simet_world.csv,Prod_kt_2022
+MCS2024,Canada,"Production, all forms, contained sulfur",4900.0,4900.0,mcs2024-sulfu_world.csv,Prod_kt_2022
+MCS2024,World total (rounded),"Production, all forms, contained sulfur",82000.0,82000.0,mcs2024-sulfu_world.csv,Prod_kt_2022
+MCS2024,Canada (unspecified minerals),"Mine production, unspecified talc and/or pyrophyllite",200,200,mcs2024-talc_world.csv,Prod_kt_est_2022
+MCS2024,World total (rounded),"Mine production, talc and pyrophyllite (rounded)",7130,7000,mcs2024-talc_world.csv,Prod_kt_est_2022
+MCS2024,Canada,"Refinery production, tellurium content",24,27,mcs2024-tellu_world.csv,Prod_t_est_2022
+MCS2024,World total (rounded),"Refinery production, tellurium content",584,640,mcs2024-tellu_world.csv,Prod_t_est_2022
+MCS2024,Canada,"Mine production: Ilmenite, titanium dioxide (TiO2) content.",520,500,mcs2024-timin_world.csv,Prod_kt_est_2022
+MCS2024,"World total (ilmenite, rounded)","World total mine production: Ilmenite, titanium dioxide (TiO2) content.",8800,8600,mcs2024-timin_world.csv,Prod_kt_est_2022
+MCS2024,"World total (rutile, rounded)","World total mine production: rutile (rounded), titanium dioxide (TiO2) content.",640,560,mcs2024-timin_world.csv,Prod_kt_est_2022
+MCS2024,"World total (ilmenite and rutile, rounded)","World total mine production: ilmentite and rutile (rounded), titanium dioxide (TiO2) content.",9400,9200,mcs2024-timin_world.csv,Prod_kt_est_2022
+MCS2024,Canada,Sponge Metal Production and Sponge and Pigment Capacity,0,0,mcs2024-titan_world.csv,Prod_Sponge_t_Est_2022
+MCS2024,World total (rounded),Sponge Metal Production and Sponge and Pigment Capacity,270000,330000,mcs2024-titan_world.csv,Prod_Sponge_t_Est_2022
+MCS2024,Canada,"Mine production, wollastonite",20000,20000,mcs2024-wolla_world.csv,Prod_t_est_2022
+MCS2024,World total (rounded),"Mine production, wollastonite",1120000,1100000,mcs2024-wolla_world.csv,Prod_t_est_2022
