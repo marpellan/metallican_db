@@ -1,4 +1,4 @@
-PRAGMA foreign_keys = OFF;
+PRAGMA foreign_keys = ON;
 
 --- MAIN table ---
 CREATE TABLE "main" (
@@ -32,6 +32,7 @@ CREATE TABLE "climate_categories" (
   "year" TEXT,
   "scenario" TEXT,
   "category" TEXT,
+  "geometry" TEXT,
 FOREIGN KEY (main_id) REFERENCES main(main_id)
 );
 
@@ -50,6 +51,7 @@ CREATE TABLE "ghg" (
   "unit" TEXT,
   "facility_url" TEXT,
   "source_df" TEXT,
+  "geometry" TEXT,
   "main_id" TEXT,
 FOREIGN KEY (main_id) REFERENCES main(main_id)
 );
@@ -62,7 +64,8 @@ CREATE TABLE "indigenous_land" (
   "Data_Src" TEXT,
   "Data_Date" TEXT,
   "longitude" REAL,
-  "latitude" REAL
+  "latitude" REAL,
+  "geometry" TEXT
 );
 
 
@@ -74,6 +77,7 @@ CREATE TABLE "land_cover" (
   "year" INTEGER,
   "modis_land_cover" TEXT,
   "esa_land_cover" TEXT,
+  "geometry" TEXT,
 FOREIGN KEY (main_id) REFERENCES main(main_id)
 );
 
@@ -96,6 +100,7 @@ CREATE TABLE "pollution" (
   "emission_subtype" TEXT,
   "value" TEXT,
   "source_df" TEXT,
+  "geometry" TEXT,
   "main_id" TEXT,
 FOREIGN KEY (main_id) REFERENCES main(main_id)
 );
@@ -104,7 +109,8 @@ FOREIGN KEY (main_id) REFERENCES main(main_id)
 CREATE TABLE "land_occupation" (
 "tang_id" TEXT PRIMARY KEY,
   "area_km2" REAL,
-  "cluster_id" INTEGER
+  "geometry" TEXT,
+  "cluster_id" TEXT
 );
 
 
@@ -119,6 +125,29 @@ CREATE TABLE "mincan" (
   "information" TEXT,
   "mine_status" TEXT,
   "operation_periods" TEXT,
+  "geometry" TEXT,
+  "main_id" TEXT,
+FOREIGN KEY (main_id) REFERENCES main(main_id)
+);
+
+
+CREATE TABLE "conflict" (
+"conflict_id" TEXT PRIMARY KEY,
+  "case_name" TEXT,
+  "facility_name_ejatlas" TEXT,
+  "province" TEXT,
+  "latitude" REAL,
+  "longitude" REAL,
+  "geolocation_accuracy" TEXT,
+  "start_date" TEXT,
+  "end_date" TEXT,
+  "conflict_description" TEXT,
+  "conflict_details" TEXT,
+  "population_affected" TEXT,
+  "conflict_intensity" TEXT,
+  "project_status" TEXT,
+  "reference" TEXT,
+  "geometry" TEXT,
   "main_id" TEXT,
 FOREIGN KEY (main_id) REFERENCES main(main_id)
 );
@@ -131,6 +160,7 @@ CREATE TABLE "natural_potential_vegetation" (
   "latitude" REAL,
   "longitude" REAL,
   "biome_type" TEXT,
+  "geometry" TEXT,
 FOREIGN KEY (main_id) REFERENCES main(main_id)
 );
 
@@ -142,6 +172,7 @@ CREATE TABLE "peatland" (
   "longitude" REAL,
   "latitude" REAL,
   "peatland_presence" TEXT,
+  "geometry" TEXT,
 FOREIGN KEY (main_id) REFERENCES main(main_id)
 );
 
@@ -154,6 +185,7 @@ CREATE TABLE "population" (
   "year" INTEGER,
   "buffer_size" TEXT,
   "total_population" REAL,
+  "geometry" TEXT,
 FOREIGN KEY (main_id) REFERENCES main(main_id)
 );
 
@@ -166,14 +198,15 @@ CREATE TABLE "protected_land" (
   "MANG_AUTH" TEXT,
   "STATUS_YR" INTEGER,
   "longitude" REAL,
-  "latitude" REAL
+  "latitude" REAL,
+  "geometry" TEXT
 );
 
 
 CREATE TABLE "tailings" (
 "row_id" TEXT PRIMARY KEY,
   "year" INTEGER,
-  "tailing_id" TEXT,
+  "tailing_id" TEXT UNIQUE,
   "tsf_name" TEXT,
   "related_mine" TEXT,
   "main_owner" TEXT,
@@ -208,6 +241,7 @@ CREATE TABLE "water_risk" (
   "value" TEXT,
   "year" INTEGER,
   "scenario" TEXT,
+  "geometry" TEXT,
 FOREIGN KEY (main_id) REFERENCES main(main_id)
 );
 
@@ -222,6 +256,7 @@ CREATE TABLE "weather" (
   "value" REAL,
   "unit" TEXT,
   "scenario" TEXT,
+  "geometry" TEXT,
 FOREIGN KEY (main_id) REFERENCES main(main_id)
 );
 

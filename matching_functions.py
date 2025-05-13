@@ -384,3 +384,131 @@ def cluster_sites_and_polygons(
     polygon_gdf = assign_cluster(polygon_gdf, polygon_id_col)
 
     return facility_gdf, polygon_gdf, tailing_gdf
+
+
+def clustering_dbcan(
+    facility_gdf, polygon_gdf, tailing_gdf,
+    facility_id_col="main_id",
+    polygon_id_col="tang_id",
+    tailing_id_col="tailing_id",
+    eps_km=10, min_samples=2, crs="EPSG:3978", boundary_step=5
+):
+    """
+    Cluster facilities, tailings, and polygon boundaries using DBSCAN.
+
+    Returns:
+    - facility_gdf, tailing_gdf, polygon_gdf: each with one cluster_id per entity (replacing -1 with "No cluster")
+    - cluster_link_df: tidy table of (main_id, tailing_id, tang_id, cluster_id, check_manually)
+    """
+
+    import pandas as pd
+    import numpy as np
+    import geopandas as gpd
+    from shapely.geometry import Point, Polygon, MultiPolygon
+    from shapely.ops import transform
+    from sklearn.cluster import DBSCAN
+
+    # Preserve original polygon_gdf
+    polygon_gdf_original = polygon_gdf.copy()
+
+    # Project all layers
+    facility_gdf = facility_gdf.to_crs(crs)
+    tailing_gdf = tailing_gdf.to_crs(crs)
+    polygon_gdf_proj = polygon_gdf.to_crs(crs).explode(index_parts=False).reset_index(drop=True)
+
+    # Clean Z-dimension from polygon geometries
+    def to_2d(geom):
+        if isinstance(geom, MultiPolygon):
+            return MultiPolygon([Polygon([(x, y) for x, y, *_ in poly.exterior.coords]) for poly in geom.geoms])
+        elif isinstance(geom, Polygon):
+            return Polygon([(x, y) for x, y, *_ in geom.exterior.coords])
+        return geom
+
+    polygon_gdf_proj["geometry"] = polygon_gdf_proj["geometry"].apply(to_2d)
+
+    # Sample polygon boundary points
+    def boundary_points(geom, pid):
+        coords = list(geom.exterior.coords)[::boundary_step]
+        return [(pid, Point(c)) for c in coords]
+
+    poly_points = []
+    for _, row in polygon_gdf_proj.iterrows():
+        poly_points.extend(boundary_points(row["geometry"], row[polygon_id_col]))
+
+    poly_gdf = gpd.GeoDataFrame(poly_points, columns=[polygon_id_col, "geometry"], crs=crs)
+    poly_gdf[facility_id_col] = None
+    poly_gdf[tailing_id_col] = None
+
+    # Prepare facility and tailing points
+    facility_tmp = facility_gdf[[facility_id_col, "geometry"]].copy()
+    facility_tmp[polygon_id_col] = None
+    facility_tmp[tailing_id_col] = None
+
+    tailing_tmp = tailing_gdf[[tailing_id_col, "geometry"]].copy()
+    tailing_tmp[polygon_id_col] = None
+    tailing_tmp[facility_id_col] = None
+
+    # Combine all points
+    all_points = pd.concat([facility_tmp, tailing_tmp, poly_gdf], ignore_index=True)
+    all_points = all_points[all_points.geometry.notna()].copy()
+
+    # Apply DBSCAN clustering
+    coords = np.array([(geom.x, geom.y) for geom in all_points.geometry])
+    db = DBSCAN(eps=eps_km * 1000, min_samples=min_samples).fit(coords)
+    all_points["cluster_id"] = db.labels_
+
+    # Extract one cluster_id per unique entity
+    def extract_entity_clusters(col_name):
+        return (
+            all_points[[col_name, "cluster_id"]]
+            .dropna(subset=[col_name])
+            .drop_duplicates(subset=[col_name])
+        )
+
+    facility_clusters = extract_entity_clusters(facility_id_col)
+    tailing_clusters = extract_entity_clusters(tailing_id_col)
+    polygon_clusters = extract_entity_clusters(polygon_id_col)
+
+    # Merge cluster_id into original GeoDataFrames
+    facility_gdf = facility_gdf.merge(facility_clusters, on=facility_id_col, how="left")
+    tailing_gdf = tailing_gdf.merge(tailing_clusters, on=tailing_id_col, how="left")
+    polygon_gdf = polygon_gdf_original.merge(polygon_clusters, on=polygon_id_col, how="left")
+
+    # Replace cluster_id = -1 with "No cluster"
+    for gdf in (facility_gdf, polygon_gdf, tailing_gdf):
+        if "cluster_id" in gdf.columns:
+            gdf["cluster_id"] = gdf["cluster_id"].fillna(-1).replace(-1, "No cluster")
+
+    # Replace -1 with "No cluster" in all_points for consistency
+    all_points["cluster_id"] = all_points["cluster_id"].fillna(-1).replace(-1, "No cluster")
+
+    # Count #facilities and #tailings per cluster
+    cluster_stats = all_points.groupby("cluster_id").agg({
+        facility_id_col: lambda x: x.notna().sum(),
+        tailing_id_col: lambda x: x.notna().sum()
+    }).rename(columns={
+        facility_id_col: "n_facilities",
+        tailing_id_col: "n_tailings"
+    }).reset_index()
+
+    cluster_stats["check_manually"] = (cluster_stats["n_facilities"] > 1) | (cluster_stats["n_tailings"] > 1)
+
+    # Create cluster link table: one row per entity with cluster_id
+    cluster_link_df = all_points[
+        [facility_id_col, tailing_id_col, polygon_id_col, "cluster_id"]
+    ].dropna(subset=["cluster_id"]).copy()
+
+    cluster_link_df = (
+        pd.concat([
+            cluster_link_df[[facility_id_col, "cluster_id"]].dropna().drop_duplicates(),
+            cluster_link_df[[tailing_id_col, "cluster_id"]].dropna().drop_duplicates(),
+            cluster_link_df[[polygon_id_col, "cluster_id"]].dropna().drop_duplicates()
+        ])
+        .reset_index(drop=True)
+    )
+
+    # Merge check_manually flag into cluster_link_df
+    cluster_link_df = cluster_link_df.merge(cluster_stats[["cluster_id", "check_manually"]], on="cluster_id", how="left")
+
+    # Final tidy output
+    return facility_gdf, polygon_gdf, tailing_gdf, cluster_link_df

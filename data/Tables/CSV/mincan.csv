@@ -67,8 +67,8 @@ QC-MINCAN-83950e58,Peel-Elder,Beauchastel,Quebec,48.286378,-79.130486,"Gold, Sil
 AB-MINCAN-27124b78,,Grande Cache ,Alberta,53.938609067,-119.178388597999,Coal,,Inactive,1967–1972; 2004–2015; 2018–2020,
 BC-MINCAN-92291585,"Table Mountain, Cassiar Gold Property, Erikson, Jennie,(…) McDame Lake",Cassiar,British Columbia,59.195555,-129.68499,"Gold, Silver, Zinc, Lead, Copper, Antimony, Bismuth, Cadmium",Lots of prospection and sampling since then,Inactive,1978–1988; 1994–2007,
 QC-MINCAN-c972fc39,Vezza,,Quebec,49.5329,-77.76671,"Gold, Silver",Also other periods with significan exploration at the mine.,Inactive,1986–1988; 1993–1997; 2016–2019,
-BC-MINCAN-b7c27ef4,Wolverine or Perry Creek,,British Columbia,55.0861,-121.2453,Coal,https://www.gem.wiki/Wolverine_mine,Active,2006–2014; 2017–open,BC-MAIN-afd7eec5
-AB-MINCAN-fb104999,Vista,,Alberta,53.403506,-117.36642,Coal,Possibly producing for a period before,Active,2019–open,AB-MAIN-a67a8e37
+BC-MINCAN-b7c27ef4,Wolverine or Perry Creek,,British Columbia,55.0861,-121.2453,Coal,https://www.gem.wiki/Wolverine_mine,Active,2006–2014; 2017–open,
+AB-MINCAN-fb104999,Vista,,Alberta,53.403506,-117.36642,Coal,Possibly producing for a period before,Active,2019–open,
 QC-MINCAN-c4a792be,Domlin,Marbleton,Quebec,45.617966,-71.604558,Lime,,Active,1824–open,
 QC-MINCAN-a98e595a,,Thetford Mines ,Quebec,46.07861,-71.30056,Asbestos,,Inactive,1878–1964,
 BC-MINCAN-0dc69334,Cariboo-Amelia or Camps McKinney Gold,,British Columbia,49.0625,-119.13861,"Gold, Silver, Lead, Zinc, Copper, Pyrophyllite, Silica",many more producers listed here https://minfile.gov.bc.ca/summary.aspx?minfilno=082ESW020,Inactive,1887–1962,
@@ -101,7 +101,7 @@ MB-MINCAN-a9292578,,Neepawa ,Manitoba,50.23611111111112,-99.46388888888887,Salt,
 NS-MINCAN-f8793ddf,,,Nova Scotia,46.89361,-60.48389,Gypsum, gypsum mine called National Gypsum Company quarries operated between 1933 and 1955. The closure match the info of the Index of Producing Mines (source3),Inactive,1933–1955,
 NT-MINCAN-7fc88611,Eldorado,,Northwest Territories,66.08384,-118.03657,"Uranium, Radium, Silver, Copper","(see source3, p.223)",Inactive,1933–1960; 1975–1982,
 ON-MINCAN-910ae5fa,,Pickle Lake,Ontario,51.4637845328404,-90.185290267705,"Copper, Nickel",might reopen with indigenous participation,Inactive,1935–1960,
-NT-MINCAN-eae97f9d,,,Yukon,62.462500000000006,-114.31666666666666,Gold,gold rush,Inactive,1935–1952,
+NT-MINCAN-eae97f9d,,,Yukon,62.4625,-114.31666666666666,Gold,gold rush,Inactive,1935–1952,
 AB-MINCAN-9e539865,,,Alberta,49.5924539786563,-114.405280195553,Coal,,Inactive,1937–1961,
 NS-MINCAN-4ed2d911,,Walton ,Nova Scotia,45.2305704711816,-64.0063315080475,"Barite, Silver, Lead, Zinc",,Inactive,1941–1979,
 ON-MINCAN-2f8037b7,,,Ontario,48.51388,-81.21363,Gold,,Inactive,1944–1965,
@@ -218,14 +218,14 @@ NU-MINCAN-d93a2c54,Mary River,,Nunavut,71.340446,-71.340446,Iron,,Active,2014–
 ON-MINCAN-243ee459,Taylor,,Ontario,48.56667,-80.61333,Gold,,Inactive,2015–2020,
 QC-MINCAN-1c16c912,Éléonore,,Quebec,52.69889,-76.08667,Gold,,Active,2015–open,QC-MAIN-6dc537e6
 BC-MINCAN-c6f7b41b,Yellow Giant,,British Columbia,53.36257,-130.12352,Gold,,Inactive,2015–2015,
-BC-MINCAN-12c1ca6d,Willow Creek,Tumbler Ridge,British Columbia,55.619443,-122.22194,Coal,,Inactive,2015–2010; 2014–2018; open–,BC-MAIN-fb4d0c45
+BC-MINCAN-12c1ca6d,Willow Creek,Tumbler Ridge,British Columbia,55.619443,-122.22194,Coal,,Inactive,2015–2010; 2014–2018; open–,
 BC-MINCAN-496a2682,Red Chris,,British Columbia,57.7,-129.78333,"Gold, Silver, Copper",,Active,2015–open,BC-MAIN-8eb8be0d
 SK-MINCAN-7501c939,Cigar Lake,,Saskatchewan,58.06819,-104.54123,Uranium,,Active,2015–open,SK-MAIN-91cf5448
 QC-MINCAN-72adc1b6,Renard,,Quebec,52.813913,-72.190579,Diamond,,Active,2016–open,QC-MAIN-3032c251
 BC-MINCAN-c26265bf,Silvertip,,British Columbia,59.92,-130.34,"Silver, Zinc, Lead, Gold",,Inactive,2016–2020,
 NS-MINCAN-59931ace,Dufferin,,Nova Scotia,44.9719,-62.3929,Gold,,Inactive,2017–2019,
 NS-MINCAN-21b5fbce,Moose River Consolidated,,Nova Scotia,44.98243,-62.94292,Gold,,Active,2017–open,NS-MAIN-c9c77a59
-NS-MINCAN-3a1569cf,Donkin,,Nova Scotia,46.178108,-59.825861,Coal,,Inactive,2017–2020,NS-MAIN-baf0bfbd
+NS-MINCAN-3a1569cf,Donkin,,Nova Scotia,46.178108,-59.825861,Coal,,Inactive,2017–2020,
 ON-MINCAN-ddd10f1c,Rainy River,,Ontario,48.833,-94.012,"Gold, Silver, Nickel, Copper, Cobalt",,Active,2017–open,ON-MAIN-0aadf28f
 SK-MINCAN-de82f057,Bethune,,Saskatchewan,50.62917,-105.26167,Potash,,Active,2017–open,
 BC-MINCAN-492cfeba,Brucejack,,British Columbia,56.47554,-130.21783,"Gold, Silver",,Active,2017–open,BC-MAIN-857b7b89
@@ -336,7 +336,7 @@ MB-MINCAN-afd512eb,Puffy Lake,,Manitoba,55.03472222222222,-100.99166666666667,Go
 BC-MINCAN-8f7f2876,Hedley,Hedley,British Columbia,49.346666,-120.07583,"Gold, Silver",,Inactive,1988–1993,
 BC-MINCAN-0133facf,,Lawyers Mine,British Columbia,57.338333,-127.18027,"Gold, Silver, Copper, Zinc, Lead",,Inactive,1989–1992,
 NL-MINCAN-96e592ab,Hammerdown,Baie Verte ,Newfoundland-and-Labrador,49.5528314121716,-56.2466780156429,"Gold, Silver",80 workers,Inactive,2000–2004,
-BC-MINCAN-ae37ff3d,Dillon or Brule,Tumbler Ridge,British Columbia,55.386666,-121.81999,Coal,,Inactive,2004–2007; 2014–2016,BC-MAIN-becbbe67
+BC-MINCAN-ae37ff3d,Dillon or Brule,Tumbler Ridge,British Columbia,55.386666,-121.81999,Coal,,Inactive,2004–2007; 2014–2016,
 SK-MINCAN-1e58c571,Cory Division,Saskatoon ,Saskatchewan,52.089095,-106.866906072091,Potash,,Active,2005–open,
 NL-MINCAN-d8d4cf69,Voisey's Bay,Voisey's Bay,Newfoundland-and-Labrador,56.3313442729352,-62.0970567185797,"Nickel, Copper, Cobalt",,Active,2005–open,NL-MAIN-2d8801d6
 NU-MINCAN-958f6c12,Jericho Diamond,Kugluktuk,Nunavut,65.99722222222222,-111.475,Diamond,"0.78 M carats of diamonds from 1.2 Mt @ 0.65 cpt from open pit to -100 m, sold for $95-$105/carat. Production figures returned 24% less grade and 31% less value than -280 m resource of 5.525 Mt @ 0.85 cpt valued at $145/carat. Open-pit and mine site rehabilitation performed by federal government (modest producer).",Inactive,2006–2008,
@@ -580,7 +580,6 @@ NB-MINCAN-5287c000,Piccadilly,Sussex,New Brunswick,45.7515,-65.4162,Salt,more th
 ON-MINCAN-266b1776,Holt-McDermott,Kirkland Lake ,Ontario,48.5101,-79.74016,Gold,,Active,1988–open,
 NS-MINCAN-7b9a0273,Sugar Camp,River Denys ,Nova Scotia,45.708157,-61.3170204148798,Gypsum,"The company opened a new quarry in 1992 in Sugar Camp as the Big Brook operation wound down. It was estimated at the time that the Sugar Camp deposit contained at least 50 million tonnes of gypsum and the plan was to extract about one million tonnes per year. /// The Melford and Sugar Camp quarries were both idled in 2011, mainly due to the 2009 collapse of the United States housing market. With fewer homes being built, and less demand for wallboard, there was less demand for gypsum. source: notyourgrandfather...",Inactive,1992–2011,
 QC-MINCAN-940990db,,St. Adolphe de Dudswell ,Quebec,45.63318,-71.59098,Lime,"""The Marbleton Plant, one of the oldest lime production facilities in North America, is equipped with modern and efficient production equipment. For limestone, the plant draws on an extensive ocean reef deposit which has been quarried since 1824."" /////////// https://www.latribune.ca/2020/07/03/un-poumon-economique-deux-fois-centenaire-a1f509650a0601c4556fd23d0cef011e",Active,1824–open,
-NS-MINCAN-4ed2d911,,Walton ,Nova Scotia,45.2305704711816,-64.0063315080475,Gypsum,"1966: Formation of Cape Breton Development Corporation to revitalize mining in the Sydney coal field, Nova Scotia. 1968: Cape Breton Development Corporation takes over operations of remaining mines in Sydney coal field, Nova Scotia.",Inactive,1810–1972,
 NS-MINCAN-ea9406d1,,Walton ,Nova Scotia,45.226163,-63.9349771291674,Barite,"Connected to discovered in 1962 Production begins, Yava mine, Salmon River area, Cape Breton, Nova Scotia?",Inactive,1828–1974,
 ON-MINCAN-b17ab173,Goderich,Goderich ,Ontario,43.73785,-81.70784,Salt,,Active,1866–open,
 NS-MINCAN-91def973,Pioneer or Drummond,Westville ,Nova Scotia,45.55917,-62.71222,Coal,"Closing of Drummond Colliery, Westville, Nova Scotia 
@@ -634,7 +633,6 @@ ON-MINCAN-24d11119,Coniaurum,,Ontario,48.4881,-81.27099,Gold,,Inactive,1928–19
 QC-MINCAN-91aedc35,Bedford,Bedford,Quebec,45.114415,-73.014601,Lime,"The Bedford Plant, the largest producer of lime in Canada, is located in Southern Québec, approximately midway between Montréal and the Vermont border. The plant's annual production capacity is over 400,000 tons of quicklime with a storage capacity of more than 8,000 tons.",Active,1930–open,
 QC-MINCAN-ca9b4f25,,Black Lake,Quebec,46.04863,-71.3685,Asbestos,,Inactive,1930–1964,
 QC-MINCAN-933d88dd,,,Quebec,48.09583,-77.42222,Gold,,Inactive,1931–1965,
-NS-MINCAN-f8793ddf,,,Nova Scotia,46.89361,-60.48389,Gypsum,According to this source a gypsum mine called National Gypsum Company quarries operated between 1933 and 1955. The closure match the info of the Index of Producing Mines https://www.mindat.org/loc-16847.html,Inactive,1933–1955,
 NL-MINCAN-0b0e63cc,,St Lawrence,Newfoundland-and-Labrador,46.903198,-55.399156,Fluorspar,188 workers,Inactive,1933–1961,
 NL-MINCAN-c6be57d9,Newfoundland Fluorspar Works,St. Lawrence ,Newfoundland-and-Labrador,46.903198,-55.399156,Fluorspar,120 workers,Inactive,1933–1978,
 ON-MINCAN-cf9a5c80,Macassas,Kirkland Lake,Ontario,48.130261,-80.088542,Gold,,Active,1933–1999; 2002–open,ON-MAIN-1f126a43
@@ -768,7 +766,6 @@ QC-MINCAN-e833d652,Seleine,Les Îles-de-la-Madeleine,Quebec,47.618447,-61.555091
 ON-MINCAN-692b03e7,Cheminis,Virginiatown,Ontario,48.11739,-79.66481,Gold,The mine was also in operation from 1934 to 1940.,Inactive,1975–1980; 1990–2011; 1990–2011,
 QC-MINCAN-b8c6ec78,Mine Ferderber (Belmoral),Val d'Or ,Quebec,48.135688,-77.649952,"Gold, Silver","The May, 1980, cave-in killed eight miners at the company's Ferderber gold mine. Belmoral was charged and the case went to tria",Inactive,1975–1994,
 QC-MINCAN-13530c4c,Niobec,Chicoutimi ,Quebec,48.531545,-71.159139,"Niobium, Rare Earth Elements (REE), Zircon",,Active,1976–open,QC-MAIN-649d2873
-QC-MINCAN-e833d652,Seleine,Madeleine Islands,Quebec,47.618447,-61.555091,Salt,closure between 1995 and 1997. currently employs 150 (2022),Active,1978–open,
 BC-MINCAN-d24d3289,Mt. Meager,Pemberton,British Columbia,50.667221,-123.48527,"Pumice, Pozzolan","The pumice deposits were first held as a minerals lease by J. MacIsaac. After J. MacIsaac's death in the late 1970s a new lease was issued to W.H. Willes, who explored and exploited the deposit from the mid 1970s to the mid 1980s. The mined pumice was crushed, screened and stockpiled near Pemberton. The operation ceased when an access bridge was washed out. In 1988",Active,1978–1988; 1996–open,
 NS-MINCAN-74104b9b,Lake Uist ,Pine Brook,Nova Scotia,45.79881,-60.56764,Barite,"Production begins at Novex Mining and Exploration Company’s barite mine at Pine Brook, Cape Breton, Nova Scotia",Inactive,1980–1985,
 ON-MINCAN-acd10bd1,,Sault Ste. Marie ,Ontario,46.5214747144766,-84.3594750067459,"Lime, Dolomite", aimed at local production.,Active,1980–open,
@@ -801,7 +798,6 @@ QC-MINCAN-26f567da,Lac-des-iles (Diotte),Notre-Dame-du-Laus/Bouthillier Twnship,
 NS-MINCAN-e52b3ecc,,Westville ,Nova Scotia,45.556667,-62.66,Coal," Opening in 1996 ""Pioneer Coal Ltd., an Antigonish-based mining company is in the process of winding down its open pit mine in Stellarton and has been looking for new sources of coal. It approached Westville last year about doing exploratory drilling on historical underground mine works. - Aaron Beswick"" (source3 link1)",Inactive,1991–2019,
 QC-MINCAN-a44a58dc,Dolobex,Portage-du-Fort,Quebec,45.600774,-76.652273,Dolomite,,Inactive,1991–2004,
 NS-MINCAN-ef73715e,Glen Morrison,Sydney ,Nova Scotia,45.999181,-60.3169019520444,"Limestone, https://gq.mines.gouv.qc.ca/documents/examine/GM68420/GM68420.pdf",,Active,1992–open,
-SK-MINCAN-023e8a76,,Saskatoon,Saskatchewan,52.1582677135294,-106.674710181748,Salt,,Active,1992–open,
 ON-MINCAN-d5325d40,Street Township,Sudbury,Ontario,46.579953,-80.608442,Almandine,,Inactive,1993–2016,
 ON-MINCAN-de7958a8,Lac-des-iles,Thunder Bay ,Ontario,49.16997,-89.61277,Palladium,,Active,1993–2008; 2010–open,
 SK-MINCAN-f458175f,Konuto Lake (Denare Beach),Creighton,Saskatchewan,54.652502,-102.056381626872,"Copper, Zinc","""About 65 people will work at the mine."" from https://www.cbc.ca/news/canada/lynn-lake-hit-hard-while-flin-flon-gains-1.192718 but also ""Meanwhile, Keystone Gold Project is shutting down it's operations in Lynn Lake after six years."" This might cancel the impact",Inactive,1993–2005,
@@ -871,7 +867,6 @@ BC-MINCAN-3cdd69ba,Kootenay River or Elkhorn,Invermere (Windermere Creek),Britis
 BC-MINCAN-1c2e4477,Estella,,British Columbia,49.769443,-115.60527,"Silver, Lead, Zinc, Cadmium, Copper, Gold",,Inactive,1951–1967,
 ON-MINCAN-bca30566,Gypsum Division (No.3),Caledonia ,Ontario,43.09114,-79.96713,Gypsum,,Inactive,1952–1991,
 BC-MINCAN-6a74a33d,,Texada Island ,British Columbia,49.703055,-124.55055,"Iron, Copper, Silver, Gold, Zinc, Magnetite, Cobalt, Molybdenum",,Inactive,1952–1956,
-BC-MINCAN-e99e3800,,Cassiar,British Columbia,59.324999,-129.81805,"Asbestos, Chrysotile, Jade/Nephrite, Gemstones, Magnesium",,Inactive,1952–1998,
 SK-MINCAN-9e7c1abc,,,Saskatchewan,59.4694421382564,-108.609748749532,Uranium,,Inactive,1952–1959,
 ON-MINCAN-910a7294,,,Ontario,46.67426,-80.80414,Nickel,Rim Nickel and East Rim Nickel Mines are the same.,Inactive,1953–1958,
 ON-MINCAN-b0358dfc,,Steep Rock Lake ,Ontario,48.7932,-91.64844,Iron,,Inactive,1953–1980,
@@ -882,8 +877,6 @@ SK-MINCAN-182732cc,,,Saskatchewan,59.581944,-108.64027743547,Uranium,,Inactive,1
 ON-MINCAN-65f81a01,,Ojibway ,Ontario,42.25575,-83.10301,Salt,"The first is the Ojibway Mine at 200 Morton Drive in Windsor, established in 1955, and is owned by The Canadian Salt Company, Limited. The facility has 250 employees, earns roughly $75–99 million a year, producing road and mining salt",Active,1955–open,
 ON-MINCAN-b57672fb,,Marmora ,Ontario,44.47905,-77.65775,Iron,,Inactive,1955–1978,
 ON-MINCAN-ccb5b275,,,Ontario,44.50305,-77.42273,Granite,,Inactive,1955–1968,
-NB-MINCAN-3eceb06d,,,New Brunswick,46.0759529153469,-66.0748074998611,Coal,Minor occurrence (limited to no exploration work),Inactive,1955–1965,
-NB-MINCAN-3eceb06d,,Minto ,New Brunswick,46.0759529153469,-66.0748074998611,Coal,Minor occurrence (limited to no exploration work),Inactive,1955–1969,
 SK-MINCAN-297489d5,,Waden Bay ,Saskatchewan,55.293889,-105.004173062913,"Copper, Silver, Gold",,Inactive,1955–1992,
 SK-MINCAN-6c75afb7,,,Saskatchewan,59.385834,-108.879446663189,Uranium,,Inactive,1955–1964,
 SK-MINCAN-260b61b3,,Uranium City ,Saskatchewan,59.543056,-108.668063687111,Uranium,,Inactive,1955–1979,
@@ -929,7 +922,6 @@ SK-MINCAN-8cfbf0f6,K2,Esterhazy ,Saskatchewan,50.682989911938,-101.849829932264,
 SK-MINCAN-ddcef085,Allan Potashs,Allan,Saskatchewan,51.936923,-106.087161356668,Potash,,Active,1968–open,
 AB-MINCAN-0a2d8425,Cardinal River (Cheviot),Luscar and Hinton,Alberta,53.1008220120999,-117.440769634,Coal,,Active,1968–open,
 NT-MINCAN-18878335,Bullmoose,Port Radium ,Northwest Territories,65.60416666666666,-118.11666666666666,"Silver, Copper, Lead, Zinc",,Inactive,1968–1985,
-NB-MINCAN-3eceb06d,,Minto ,New Brunswick,46.0759529153469,-66.0748074998611,Coal,Minor occurrence (limited to no exploration work),Inactive,1969–1969,
 AB-MINCAN-4fc01b26,Highvale,Seba Beach ,Alberta,53.4692849018,-114.524586753999,Coal,,Inactive,1969–2021,
 ON-MINCAN-e47d5e14,,Matachewan,Ontario,47.88154,-81.00254,Asbestos,,Inactive,1970–1978,
 BC-MINCAN-a1c3a5a3,,Greenwood,British Columbia,49.101666,-118.70277,"Copper, Gold, Silver, Cobalt",,Inactive,1970–1971,
@@ -941,7 +933,7 @@ NL-MINCAN-a34e9244,Ming,Baie Verte ,Newfoundland-and-Labrador,49.9153530132726,-
 BC-MINCAN-3e33555f,Eskay Creek,Stewart,British Columbia,56.653888,-130.42888,"Gold, Silver, Zinc, Copper, Lead",,Inactive,1971–2008,BC-MAIN-b1fe389a
 NS-MINCAN-3fc275f0,Lingan,New Waterford,Nova Scotia,46.2524929901,-60.0978728007,Coal,"1966: Formation of Cape Breton Development Corporation to revitalize mining in the Sydney coalfield, Nova Scotia. 1968: Cape Breton Development Corporation takes over operations of remaining mines in Sydney coalfield, Nova Scotia.",Inactive,1972–1992,
 ON-MINCAN-b907d405,,Sturgeon Lake,Ontario,49.87404,-90.97111,Copper,,Inactive,1972–1988,
-BC-MINCAN-2d031a3f,Fording River,Elkford,British Columbia,50.194999,-114.84138,Coal,,Active,1972–open,BC-MAIN-c202b377
+BC-MINCAN-2d031a3f,Fording River,Elkford,British Columbia,50.194999,-114.84138,Coal,,Active,1972–open,
 BC-MINCAN-52fd4602,,Highland Valley,British Columbia,50.450277,-121.04305,"Copper, Molybdenum, Silver, Gold, Zinc",,Inactive,1972–1986,
 SK-MINCAN-605caea3,Boundary Dam,Estevan ,Saskatchewan,49.105929,-103.020215826326,Coal,,Inactive,1973–2019,
 ON-MINCAN-051269dd,Maybrun,Atikwa - Populus Lake,Ontario,49.42166,-93.65084,Copper,,Inactive,1973–1974,
@@ -974,7 +966,7 @@ ON-MINCAN-c0e3b525,Aquarius,Maclem Twp,Ontario,48.53189,-80.86851,Gold,,Inactive
 BC-MINCAN-a9413d41,Mt. Brussilof,Radium Hot Springs,British Columbia,50.788888,-115.67888,Magnesia,,Inactive,1984–2015,
 NB-MINCAN-d78b03c0,,Cape Spencer ,New Brunswick,45.19832,-65.91163,Gold,,Inactive,1986–1988,
 NB-MINCAN-f60171f2,,Poodiac,New Brunswick,45.607191,-65.534962,Silica,,Active,1986–open,
-YT-MINCAN-e836ab88,Whiskey Lake,Whitehorse,Yukon,61.97472222222223,-132.53250000000003,Coal,,Inactive,1986–1992,
+YT-MINCAN-e836ab88,Whiskey Lake,Whitehorse,Yukon,61.97472222222223,-132.5325,Coal,,Inactive,1986–1992,
 NT-MINCAN-c51baa23,Tom and Ptarmigans,Yellowknife ,Northwest Territories,62.520833333333336,-114.19583333333334,Gold,"The mine was also in production from1941 to 1942/// ""Ptarmigan and Tom operations were in full swing after 1989 when Treminco installed its own milling plant. The mine began to loose profit in 1992 and reserves continued to drop throughout the 1990s. A depletion of economic orebodies forced a final closure in 1997."" (source1 (Silke), p.399)",Inactive,1986–1997,
 ON-MINCAN-7b29d7b3,Bell Creek,,Ontario,48.56007,-81.17146,Gold,,Active,1987–1994; 2012–open,ON-MAIN-bfbcd72e
 ON-MINCAN-a7aa012e,Golden Patricia,Sioux Lookout,Ontario,51.36594,-91.13417,Gold,,Inactive,1987–2015,
