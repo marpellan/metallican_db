@@ -1,12 +1,13 @@
+import sqlite3
+import numpy as np
 import pandas as pd
 import geopandas as gpd
-from geopandas.tools import clip
-from shapely.geometry import shape, mapping, Point, Polygon, MultiPolygon
-from geopandas.tools import clip
-from shapely.ops import transform
+import os
+import re
+from shapely.ops import transform, unary_union
 from rapidfuzz.fuzz import ratio, partial_ratio, token_sort_ratio, token_set_ratio
+from shapely.geometry import Point, Polygon, MultiPolygon
 from sklearn.cluster import DBSCAN
-from scipy.spatial import cKDTree
 
 
 def match_facilities(df1, df2, id_col1="id_1", id_col2="id_2",
@@ -185,330 +186,786 @@ def filter_matches(
     return df.reset_index(drop=True)
 
 
+# def match_facility_to_polygons_with_buffer(
+#     facility_df, polygon_gdf,
+#     facility_id_col="facility_id", polygon_id_col="polygon_id",
+#     buffer_km=10, crs="EPSG:3978"
+# ):
+#     """
+#     Returns only matched facility–polygon pairs (excluding unmatched records).
+#     """
+#
+#     # Convert to GeoDataFrame if needed
+#     if not isinstance(facility_df, gpd.GeoDataFrame):
+#         facility_gdf = gpd.GeoDataFrame(
+#             facility_df,
+#             geometry=gpd.points_from_xy(facility_df["longitude"], facility_df["latitude"]),
+#             crs="EPSG:4326"
+#         ).to_crs(crs)
+#     else:
+#         facility_gdf = facility_df.to_crs(crs)
+#
+#     polygon_gdf = polygon_gdf.to_crs(crs)
+#
+#     # Remove Z-dimension if needed
+#     polygon_gdf['geometry'] = polygon_gdf['geometry'].apply(lambda geom: transform(lambda x, y, z=None: (x, y), geom))
+#
+#     # Buffer around facilities
+#     buffer_m = buffer_km * 1000
+#     facility_gdf["buffer"] = facility_gdf.geometry.buffer(buffer_m)
+#
+#     matches = []
+#
+#     for _, facility in facility_gdf.iterrows():
+#         nearby_polygons = polygon_gdf[polygon_gdf.geometry.intersects(facility["buffer"])]
+#         for _, polygon in nearby_polygons.iterrows():
+#             matches.append({
+#                 facility_id_col: facility[facility_id_col],
+#                 polygon_id_col: polygon[polygon_id_col],
+#                 "distance_to_centroid_m": round(facility.geometry.distance(polygon.geometry.centroid), 2),
+#                 "distance_to_edge_m": round(facility.geometry.distance(polygon.geometry.boundary), 2)
+#             })
+#
+#     return pd.DataFrame(matches)
 
-### BUFFER
-def match_facility_to_polygons_with_buffer(facility_df, polygon_gdf,
-                                 facility_id_col="facility_id", polygon_id_col="polygon_id",
-                                 buffer_km=10, crs="EPSG:3978"):
+
+def associate_facilities_near_polygons(
+    facility_gdf,
+    polygon_gdf,
+    facility_id_col="main_id",
+    polygon_id_col="protected_id",
+    buffer_km=50,
+    crs="EPSG:3978"
+):
     """
-    Matches facility (points) with polygons based on spatial proximity using a buffer.
-
-    Parameters:
-        facility_df (pd.DataFrame or gpd.GeoDataFrame): Facility dataset with lat/lon.
-        polygon_gdf (gpd.GeoDataFrame): Polygons dataset.
-        facility_id_col (str): Unique facility ID column in facility_df.
-        polygon_id_col (str): Unique polygon ID column in polygon_gdf.
-        buffer_km (float): Buffer radius in kilometers.
-        crs (str): CRS for spatial analysis, default is EPSG:3978.
+    Optimized association between facilities and polygons using buffer + spatial join.
 
     Returns:
-        pd.DataFrame: Matches with facility and polygon IDs, including unmatched facilities & polygons.
+        DataFrame with: main_id, protected_id, distance_km, relation_type
     """
 
-    # Convert facility_df to GeoDataFrame if necessary
-    if not isinstance(facility_df, gpd.GeoDataFrame):
-        facility_gdf = gpd.GeoDataFrame(
-            facility_df,
-            geometry=gpd.points_from_xy(facility_df["longitude"], facility_df["latitude"]),
-            crs="EPSG:4326"
-        ).to_crs(crs)
-    else:
-        facility_gdf = facility_df.to_crs(crs)
+    # Project to common CRS
+    facility_gdf = facility_gdf[[facility_id_col, "geometry"]].copy().to_crs(crs)
+    polygon_gdf = polygon_gdf[[polygon_id_col, "geometry"]].copy().to_crs(crs)
 
-    # Convert polygons to the same CRS
-    polygon_gdf = polygon_gdf.to_crs(crs)
-
-    # Remove Z-dimension from polygons if necessary
-    polygon_gdf['geometry'] = polygon_gdf['geometry'].apply(lambda geom: transform(lambda x, y, z=None: (x, y), geom))
-
-    # Create buffer around facility points
-    buffer_m = buffer_km * 1000  # Convert km to meters
+    # Step 1: Buffer facilities
+    buffer_m = buffer_km * 1000
     facility_gdf["buffer"] = facility_gdf.geometry.buffer(buffer_m)
 
-    matches = []
-    matched_facilities = set()
-    matched_polygons = set()
+    # Step 2: Spatial join to find intersecting polygons
+    buffer_gdf = gpd.GeoDataFrame(
+        facility_gdf[[facility_id_col, "buffer"]],
+        geometry="buffer",
+        crs=crs
+    )
+    joined = gpd.sjoin(buffer_gdf, polygon_gdf, predicate="intersects", how="inner")
 
-    # Iterate over facility points to find matching polygons
-    for _, facility in facility_gdf.iterrows():
-        possible_matches = polygon_gdf[polygon_gdf.geometry.intersects(facility["buffer"])]
+    # Step 3: For each match, compute actual distance from point to polygon
+    results = []
+    for _, row in joined.iterrows():
+        fid = row[facility_id_col]
+        pid = row[polygon_id_col]
+        dist_km = facility_gdf.loc[facility_gdf[facility_id_col] == fid].geometry.values[0].distance(
+            polygon_gdf.loc[polygon_gdf[polygon_id_col] == pid].geometry.values[0]
+        ) / 1000
 
-        if not possible_matches.empty:
-            for _, polygon in possible_matches.iterrows():
-                # Distance from facility point to polygon centroid
-                distance_to_centroid_m = facility.geometry.distance(polygon.geometry.centroid)
+        relation = "within_polygon" if facility_gdf.loc[facility_gdf[facility_id_col] == fid].geometry.values[0].within(
+            polygon_gdf.loc[polygon_gdf[polygon_id_col] == pid].geometry.values[0]
+        ) else "within_buffer"
 
-                # Distance from facility point to polygon boundary (minimum distance)
-                distance_to_edge_m = facility.geometry.distance(polygon.geometry.boundary)
-
-                matches.append({
-                    facility_id_col: facility[facility_id_col],
-                    polygon_id_col: polygon[polygon_id_col],
-                    "distance_to_centroid_m": round(distance_to_centroid_m, 2),
-                    "distance_to_edge_m": round(distance_to_edge_m, 2)
-                })
-
-                # Track matched IDs
-                matched_facilities.add(facility[facility_id_col])
-                matched_polygons.add(polygon[polygon_id_col])
-        else:
-            # Facility has no matching polygon
-            matches.append({
-                facility_id_col: facility[facility_id_col],
-                polygon_id_col: None,
-                "distance_to_centroid_m": None,
-                "distance_to_edge_m": None
-            })
-
-    # Add unmatched polygons (transparency: polygons with no linked facility)
-    unmatched_polygons = polygon_gdf[~polygon_gdf[polygon_id_col].isin(matched_polygons)]
-    for _, polygon in unmatched_polygons.iterrows():
-        matches.append({
-            facility_id_col: None,
-            polygon_id_col: polygon[polygon_id_col],
-            "distance_to_centroid_m": None,
-            "distance_to_edge_m": None
+        results.append({
+            facility_id_col: fid,
+            polygon_id_col: pid,
+            "distance_km": round(dist_km, 3),
+            "relation_type": relation
         })
 
-    # Convert results to DataFrame
-    match_df = pd.DataFrame(matches)
+    return pd.DataFrame(results)
 
-    return match_df
+
+def assign_polygons_to_points(
+        facility_gdf,
+        tailing_gdf,
+        polygon_gdf,
+        facility_id_col="main_id",
+        tailing_id_col="tailing_id",
+        polygon_id_col="tang_id",
+        max_dist_km=10,
+        crs="EPSG:3978"
+):
+    """
+    Assign each polygon to the closest facility or tailing site, preferring entities contained
+    within the polygon when possible. Computes true minimum geometric distance (not centroid-based).
+
+    Returns:
+        DataFrame with: main_id, tailing_id, tang_id, distance_km, relation_type
+    """
+
+    # Project all geometries
+    fac = facility_gdf[[facility_id_col, "geometry"]].copy().to_crs(crs)
+    fac["entity_type"] = "facility"
+    fac = fac.rename(columns={facility_id_col: "entity_id"})
+
+    tail = tailing_gdf[[tailing_id_col, "geometry"]].copy().to_crs(crs)
+    tail["entity_type"] = "tailing"
+    tail = tail.rename(columns={tailing_id_col: "entity_id"})
+
+    entities = pd.concat([fac, tail], ignore_index=True)
+    polygons = polygon_gdf[[polygon_id_col, "geometry"]].copy().to_crs(crs)
+
+    assignments = []
+
+    for _, row in polygons.iterrows():
+        tang_id = row[polygon_id_col]
+        poly_geom = row.geometry
+
+        # Containment-based assignment
+        contained = entities[entities.geometry.within(poly_geom)]
+
+        if not contained.empty:
+            for _, ent in contained.iterrows():
+                main_id = ent["entity_id"] if ent["entity_type"] == "facility" else None
+                tailing_id = ent["entity_id"] if ent["entity_type"] == "tailing" else None
+                dist_km = ent.geometry.distance(poly_geom) / 1000
+                assignments.append({
+                    "main_id": main_id,
+                    "tailing_id": tailing_id,
+                    polygon_id_col: tang_id,
+                    "distance_km": dist_km
+                })
+
+        else:
+            # Fallback: closest entity by true geometry
+            distances = entities.geometry.apply(lambda g: g.distance(poly_geom))
+            nearest_idx = distances.idxmin()
+            dist_km = distances[nearest_idx] / 1000
+
+            if dist_km <= max_dist_km:
+                ent = entities.loc[nearest_idx]
+                main_id = ent["entity_id"] if ent["entity_type"] == "facility" else None
+                tailing_id = ent["entity_id"] if ent["entity_type"] == "tailing" else None
+                assignments.append({
+                    "main_id": main_id,
+                    "tailing_id": tailing_id,
+                    polygon_id_col: tang_id,
+                    "distance_km": dist_km
+                })
+
+    assigned_df = pd.DataFrame(assignments)
+
+    # Determine which entity was assigned
+    assigned_df["entity_id"] = assigned_df["main_id"].combine_first(assigned_df["tailing_id"])
+
+    # Count how many polygons per entity
+    poly_per_entity = assigned_df.groupby("entity_id")[polygon_id_col].nunique().rename("n_polygons")
+
+    # Count how many entities per polygon
+    entity_per_poly = assigned_df.groupby(polygon_id_col)["entity_id"].nunique().rename("n_entities")
+
+    # Merge back to assignment table
+    assigned_df = assigned_df.merge(poly_per_entity, on="entity_id", how="left")
+    assigned_df = assigned_df.merge(entity_per_poly, on=polygon_id_col, how="left")
+
+    def classify(row):
+        if row["n_entities"] > 1:
+            return "many-to-one"
+        elif row["n_polygons"] > 1:
+            return "one-to-many"
+        else:
+            return "one-to-one"
+
+    assigned_df["relation_type"] = assigned_df.apply(classify, axis=1)
+
+    return assigned_df.drop(columns=["entity_id", "n_entities", "n_polygons"])
 
 
 ### CLUSTERING
-def cluster_sites_and_polygons(
-    facility_gdf, polygon_gdf, tailing_gdf,
-    facility_id_col="main_id",
-    polygon_id_col="tang_id",
-    tailing_id_col="tailing_id",
-    eps_km=10, min_samples=2, crs="EPSG:3978", boundary_step=5):
-    """
-    Cluster facilities, tailings, and polygons spatially using DBSCAN, and assign shared cluster IDs.
+# def clustering_dbcan_old(
+#     facility_gdf, polygon_gdf, tailing_gdf,
+#     facility_id_col="main_id",
+#     polygon_id_col="tang_id",
+#     tailing_id_col="tailing_id",
+#     eps_km=10, min_samples=2, crs="EPSG:3978", boundary_step=5
+# ):
+#     """
+#     Cluster facilities, tailings, and polygon boundaries using DBSCAN.
+#
+#     Returns:
+#     - facility_gdf, tailing_gdf, polygon_gdf: each with one cluster_id per entity (replacing -1 with "No cluster")
+#     - cluster_link_df: tidy table of (main_id, tailing_id, tang_id, cluster_id, check_manually)
+#     """
+#
+#     import pandas as pd
+#     import numpy as np
+#     import geopandas as gpd
+#     from shapely.geometry import Point, Polygon, MultiPolygon
+#     from shapely.ops import transform
+#     from sklearn.cluster import DBSCAN
+#
+#     # Preserve original polygon_gdf
+#     polygon_gdf_original = polygon_gdf.copy()
+#
+#     # Project all layers
+#     facility_gdf = facility_gdf.to_crs(crs)
+#     tailing_gdf = tailing_gdf.to_crs(crs)
+#     polygon_gdf_proj = polygon_gdf.to_crs(crs).explode(index_parts=False).reset_index(drop=True)
+#
+#     # Clean Z-dimension from polygon geometries
+#     def to_2d(geom):
+#         if isinstance(geom, MultiPolygon):
+#             return MultiPolygon([Polygon([(x, y) for x, y, *_ in poly.exterior.coords]) for poly in geom.geoms])
+#         elif isinstance(geom, Polygon):
+#             return Polygon([(x, y) for x, y, *_ in geom.exterior.coords])
+#         return geom
+#
+#     polygon_gdf_proj["geometry"] = polygon_gdf_proj["geometry"].apply(to_2d)
+#
+#     # Sample polygon boundary points
+#     def boundary_points(geom, pid):
+#         coords = list(geom.exterior.coords)[::boundary_step]
+#         return [(pid, Point(c)) for c in coords]
+#
+#     poly_points = []
+#     for _, row in polygon_gdf_proj.iterrows():
+#         poly_points.extend(boundary_points(row["geometry"], row[polygon_id_col]))
+#
+#     poly_gdf = gpd.GeoDataFrame(poly_points, columns=[polygon_id_col, "geometry"], crs=crs)
+#     poly_gdf[facility_id_col] = None
+#     poly_gdf[tailing_id_col] = None
+#
+#     # Prepare facility and tailing points
+#     facility_tmp = facility_gdf[[facility_id_col, "geometry"]].copy()
+#     facility_tmp[polygon_id_col] = None
+#     facility_tmp[tailing_id_col] = None
+#
+#     tailing_tmp = tailing_gdf[[tailing_id_col, "geometry"]].copy()
+#     tailing_tmp[polygon_id_col] = None
+#     tailing_tmp[facility_id_col] = None
+#
+#     # Combine all points
+#     all_points = pd.concat([facility_tmp, tailing_tmp, poly_gdf], ignore_index=True)
+#     all_points = all_points[all_points.geometry.notna()].copy()
+#
+#     # Apply DBSCAN clustering
+#     coords = np.array([(geom.x, geom.y) for geom in all_points.geometry])
+#     db = DBSCAN(eps=eps_km * 1000, min_samples=min_samples).fit(coords)
+#     all_points["cluster_id"] = db.labels_
+#
+#     # Extract one cluster_id per unique entity
+#     def extract_entity_clusters(col_name):
+#         return (
+#             all_points[[col_name, "cluster_id"]]
+#             .dropna(subset=[col_name])
+#             .drop_duplicates(subset=[col_name])
+#         )
+#
+#     facility_clusters = extract_entity_clusters(facility_id_col)
+#     tailing_clusters = extract_entity_clusters(tailing_id_col)
+#     polygon_clusters = extract_entity_clusters(polygon_id_col)
+#
+#     # Merge cluster_id into original GeoDataFrames
+#     facility_gdf = facility_gdf.merge(facility_clusters, on=facility_id_col, how="left")
+#     tailing_gdf = tailing_gdf.merge(tailing_clusters, on=tailing_id_col, how="left")
+#     polygon_gdf = polygon_gdf_original.merge(polygon_clusters, on=polygon_id_col, how="left")
+#
+#     # Replace cluster_id = -1 with "No cluster"
+#     for gdf in (facility_gdf, polygon_gdf, tailing_gdf):
+#         if "cluster_id" in gdf.columns:
+#             gdf["cluster_id"] = gdf["cluster_id"].fillna(-1).replace(-1, "No cluster")
+#
+#     # Replace -1 with "No cluster" in all_points for consistency
+#     all_points["cluster_id"] = all_points["cluster_id"].fillna(-1).replace(-1, "No cluster")
+#
+#     # Count #facilities and #tailings per cluster
+#     cluster_stats = all_points.groupby("cluster_id").agg({
+#         facility_id_col: lambda x: x.notna().sum(),
+#         tailing_id_col: lambda x: x.notna().sum()
+#     }).rename(columns={
+#         facility_id_col: "n_facilities",
+#         tailing_id_col: "n_tailings"
+#     }).reset_index()
+#
+#     cluster_stats["check_manually"] = (cluster_stats["n_facilities"] > 1) | (cluster_stats["n_tailings"] > 1)
+#
+#     # Create cluster link table: one row per entity with cluster_id
+#     cluster_link_df = all_points[
+#         [facility_id_col, tailing_id_col, polygon_id_col, "cluster_id"]
+#     ].dropna(subset=["cluster_id"]).copy()
+#
+#     cluster_link_df = (
+#         pd.concat([
+#             cluster_link_df[[facility_id_col, "cluster_id"]].dropna().drop_duplicates(),
+#             cluster_link_df[[tailing_id_col, "cluster_id"]].dropna().drop_duplicates(),
+#             cluster_link_df[[polygon_id_col, "cluster_id"]].dropna().drop_duplicates()
+#         ])
+#         .reset_index(drop=True)
+#     )
+#
+#     # Merge check_manually flag into cluster_link_df
+#     cluster_link_df = cluster_link_df.merge(cluster_stats[["cluster_id", "check_manually"]], on="cluster_id", how="left")
+#
+#     # Final tidy output
+#     return facility_gdf, polygon_gdf, tailing_gdf, cluster_link_df
 
-    Each point or polygon will receive a 'cluster_id'.
-    A 'check_manually' flag is added when multiple facilities or tailings are grouped together.
+
+# def clustering_dbcan(
+#     facility_gdf,
+#     polygon_gdf,
+#     tailing_gdf,
+#     facility_id_col="main_id",
+#     polygon_id_col="tang_id",
+#     tailing_id_col="tailing_id",
+#     eps_km=10,
+#     min_samples=2,
+#     crs="EPSG:3978",
+#     boundary_step=5
+# ):
+#     """
+#     Cluster facilities, tailings, and polygon boundaries using DBSCAN.
+#
+#     Returns:
+#     - cluster_link_df: DataFrame with columns cluster_id, main_ids, tailing_ids, tang_ids
+#     - cluster_table: GeoDataFrame with cluster summary including geometry and area
+#     """
+#
+#     # 1. Project all layers
+#     fac = facility_gdf.to_crs(crs).copy()
+#     tail = tailing_gdf.to_crs(crs).copy()
+#     poly = polygon_gdf.to_crs(crs).explode(index_parts=False).reset_index(drop=True).copy()
+#
+#     # 2. Ensure 2D geometries
+#     def to_2d(g):
+#         if isinstance(g, MultiPolygon):
+#             return MultiPolygon([Polygon([(x, y) for x, y, *_ in p.exterior.coords]) for p in g.geoms])
+#         elif isinstance(g, Polygon):
+#             return Polygon([(x, y) for x, y, *_ in g.exterior.coords])
+#         return g
+#     poly["geometry"] = poly["geometry"].apply(to_2d)
+#
+#     # 3. Sample boundary points
+#     boundary_pts = []
+#     for _, row in poly.iterrows():
+#         g = row.geometry
+#         if not isinstance(g, (Polygon, MultiPolygon)):
+#             continue
+#         coords = list(g.exterior.coords)[::boundary_step]
+#         for x, y in coords:
+#             boundary_pts.append({
+#                 polygon_id_col: row[polygon_id_col],
+#                 "geometry": Point(x, y),
+#                 facility_id_col: None,
+#                 tailing_id_col: None
+#             })
+#     poly_pts = gpd.GeoDataFrame(boundary_pts, crs=crs)
+#
+#     # 4. Facility and tailing points
+#     fac_pts = fac[[facility_id_col, "geometry"]].copy()
+#     fac_pts[polygon_id_col] = None
+#     fac_pts[tailing_id_col] = None
+#
+#     tail_pts = tail[[tailing_id_col, "geometry"]].copy()
+#     tail_pts[polygon_id_col] = None
+#     tail_pts[facility_id_col] = None
+#
+#     # 5. Combine and DBSCAN clustering
+#     all_pts = pd.concat([fac_pts, tail_pts, poly_pts], ignore_index=True).dropna(subset=["geometry"])
+#     coords = np.array([(geom.x, geom.y) for geom in all_pts.geometry])
+#     all_pts["cluster_id"] = DBSCAN(eps=eps_km * 1000, min_samples=min_samples).fit_predict(coords)
+#
+#     # 6. Assign cluster_id back to polygons
+#     poly_cls = (
+#         all_pts[[polygon_id_col, "cluster_id"]]
+#         .dropna(subset=[polygon_id_col])
+#         .drop_duplicates(subset=[polygon_id_col])
+#     )
+#     poly = poly.merge(poly_cls, on=polygon_id_col, how="left")
+#
+#     # 7. Valid cluster IDs (excluding noise)
+#     valid = sorted(all_pts.loc[all_pts["cluster_id"] != -1, "cluster_id"].unique())
+#
+#     # 8. Build cluster_link_df with lists of IDs
+#     def collect_ids(colname):
+#         df = all_pts[[colname, "cluster_id"]].dropna(subset=[colname])
+#         df = df[df["cluster_id"].isin(valid)].drop_duplicates()
+#         return df.groupby("cluster_id")[colname].agg(list)
+#
+#     main_ids = collect_ids(facility_id_col)
+#     tailing_ids = collect_ids(tailing_id_col)
+#     tang_ids = collect_ids(polygon_id_col)
+#
+#     cluster_link_df = pd.DataFrame({
+#         "cluster_id": valid,
+#         "main_ids": [main_ids.get(cid, []) for cid in valid],
+#         "tailing_ids": [tailing_ids.get(cid, []) for cid in valid],
+#         "tang_ids": [tang_ids.get(cid, []) for cid in valid],
+#     })
+#
+#     cluster_link_df["n_facilities"] = cluster_link_df["main_ids"].apply(len)
+#     cluster_link_df["n_tailings"] = cluster_link_df["tailing_ids"].apply(len)
+#     cluster_link_df["n_polygons"] = cluster_link_df["tang_ids"].apply(len)
+#
+#     # 9. Build cluster_table with geometry union and classification
+#     rows = []
+#     for _, row in cluster_link_df.iterrows():
+#         cid = row["cluster_id"]
+#         nf, nt, npol = row["n_facilities"], row["n_tailings"], row["n_polygons"]
+#         ne = nf + nt
+#
+#         if npol == 0:
+#             relation = "no relation"
+#         elif ne == 0:
+#             relation = 'no relation'
+#         elif ne == 1 and npol == 1:
+#             relation = "one-to-one"
+#         elif ne == 1 and npol > 1:
+#             relation = "one-to-many"
+#         elif ne > 1 and npol == 1:
+#             relation = "many-to-one"
+#         else:
+#             relation = "many-to-many"
+#
+#         if npol > 0:
+#             poly_subset = poly[poly["cluster_id"] == cid]
+#             geom = unary_union(poly_subset.geometry.tolist())
+#             area = geom.area / 1e6
+#         else:
+#             geom = None
+#             area = 0.0
+#
+#         rows.append({
+#             "cluster_id": cid,
+#             "n_facilities": nf,
+#             "n_tailings": nt,
+#             "n_polygons": npol,
+#             "relation": relation,
+#             "geometry": geom,
+#             "area_km2": area
+#         })
+#
+#     cluster_table = gpd.GeoDataFrame(rows, crs=crs)
+#
+#     return cluster_link_df, cluster_table
+#
+#
+# def assign_refined_clusters(cluster_link_df, cluster_table, facility_gdf, tailing_gdf, polygon_gdf,
+#                              facility_id_col="main_id", tailing_id_col="tailing_id", polygon_id_col="tang_id"):
+#     """
+#     Assign final_cluster_id to each facility, tailing, and polygon based on cluster relationships.
+#     - Uses nearest-entity polygon assignment for many-to-many
+#     - Computes final geometry and area per subcluster
+#
+#     Returns:
+#     - facility_gdf, tailing_gdf, polygon_gdf with final_cluster_id
+#     - cluster_table_out: final_cluster_id, geometry, area_km2_subcluster, relation
+#     """
+#
+#     facility_gdf = facility_gdf.copy()
+#     tailing_gdf = tailing_gdf.copy()
+#     polygon_gdf = polygon_gdf.copy()
+#
+#     facility_gdf["final_cluster_id"] = None
+#     tailing_gdf["final_cluster_id"] = None
+#     polygon_gdf["final_cluster_id"] = None
+#
+#     new_cluster_rows = []
+#
+#     for _, cluster in cluster_table.iterrows():
+#         base_cid = str(cluster["cluster_id"])
+#         relation = cluster["relation"]
+#
+#         row = cluster_link_df[cluster_link_df["cluster_id"] == cluster["cluster_id"]]
+#         if row.empty:
+#             continue
+#
+#         mains = row.iloc[0]["main_ids"] if isinstance(row.iloc[0]["main_ids"], list) else []
+#         tails = row.iloc[0]["tailing_ids"] if isinstance(row.iloc[0]["tailing_ids"], list) else []
+#         polys = row.iloc[0]["tang_ids"] if isinstance(row.iloc[0]["tang_ids"], list) else []
+#
+#         poly_subset = polygon_gdf[polygon_gdf[polygon_id_col].isin(polys)]
+#
+#         ## === ONE TO ONE ===
+#         if relation == "one-to-one":
+#             sub_cid = base_cid
+#             geom = unary_union(poly_subset.geometry)
+#             area = geom.area / 1e6
+#
+#             facility_gdf.loc[facility_gdf[facility_id_col].isin(mains), "final_cluster_id"] = sub_cid
+#             tailing_gdf.loc[tailing_gdf[tailing_id_col].isin(tails), "final_cluster_id"] = sub_cid
+#             polygon_gdf.loc[polygon_gdf[polygon_id_col].isin(polys), "final_cluster_id"] = sub_cid
+#
+#             new_cluster_rows.append({
+#                 "final_cluster_id": sub_cid,
+#                 "n_facilities": len(mains),
+#                 "n_tailings": len(tails),
+#                 "n_polygons": len(polys),
+#                 "relation": relation,
+#                 "geometry": geom,
+#                 "area_km2_subcluster": area
+#             })
+#
+#         ## === ONE TO MANY ===
+#         elif relation == "one-to-many":
+#             sub_cid = base_cid
+#             geom = unary_union(poly_subset.geometry)
+#             area = geom.area / 1e6
+#
+#             facility_gdf.loc[facility_gdf[facility_id_col].isin(mains), "final_cluster_id"] = sub_cid
+#             tailing_gdf.loc[tailing_gdf[tailing_id_col].isin(tails), "final_cluster_id"] = sub_cid
+#             polygon_gdf.loc[polygon_gdf[polygon_id_col].isin(polys), "final_cluster_id"] = sub_cid
+#
+#             new_cluster_rows.append({
+#                 "final_cluster_id": sub_cid,
+#                 "n_facilities": len(mains),
+#                 "n_tailings": len(tails),
+#                 "n_polygons": len(polys),
+#                 "relation": relation,
+#                 "geometry": geom,
+#                 "area_km2_subcluster": area
+#             })
+#
+#         ## === MANY TO ONE ===
+#         elif relation == "many-to-one":
+#             union_geom = unary_union(poly_subset.geometry)
+#             total_area = union_geom.area / 1e6
+#             entities = mains + tails
+#             n = len(entities)
+#             share_geom = union_geom
+#             share_area = total_area / n if n > 0 else 0
+#
+#             for i, ent_id in enumerate(entities):
+#                 sub_cid = f"{base_cid}.{chr(97 + i)}"
+#                 if ent_id in mains:
+#                     facility_gdf.loc[facility_gdf[facility_id_col] == ent_id, "final_cluster_id"] = sub_cid
+#                 else:
+#                     tailing_gdf.loc[tailing_gdf[tailing_id_col] == ent_id, "final_cluster_id"] = sub_cid
+#                 polygon_gdf.loc[polygon_gdf[polygon_id_col].isin(polys), "final_cluster_id"] = sub_cid
+#
+#                 new_cluster_rows.append({
+#                     "final_cluster_id": sub_cid,
+#                     "n_facilities": 1 if ent_id in mains else 0,
+#                     "n_tailings": 1 if ent_id in tails else 0,
+#                     "n_polygons": len(polys),
+#                     "relation": relation,
+#                     "geometry": share_geom,
+#                     "area_km2_subcluster": share_area
+#                 })
+#
+#         ## === MANY TO MANY (Nearest polygon assignment) ===
+#                 ## === MANY TO MANY (Greedy nearest, each entity gets at least one polygon) ===
+#         elif relation == "many-to-many":
+#             entities = [(ent, "facility") for ent in mains] + [(ent, "tailing") for ent in tails]
+#             entity_geoms = {
+#                 ent: facility_gdf.loc[facility_gdf[facility_id_col] == ent, "geometry"].values[0]
+#                 if typ == "facility" else
+#                 tailing_gdf.loc[tailing_gdf[tailing_id_col] == ent, "geometry"].values[0]
+#                 for ent, typ in entities
+#             }
+#
+#             # Prepare polygon pool
+#             unassigned_poly_ids = set(polys)
+#             poly_df = polygon_gdf[polygon_gdf[polygon_id_col].isin(unassigned_poly_ids)].copy()
+#             poly_df["centroid"] = poly_df.geometry.centroid
+#
+#             # Ensure we have enough polygons
+#             if len(unassigned_poly_ids) < len(entities):
+#                 print(f"⚠️ Cluster {base_cid} has fewer polygons than entities: {len(unassigned_poly_ids)} < {len(entities)}")
+#
+#             assigned_poly_ids = set()
+#             entity_to_polys = {ent: [] for ent, _ in entities}
+#
+#             # Step 1: one polygon per entity (nearest)
+#             for ent_id, _ in entities:
+#                 if not unassigned_poly_ids:
+#                     break  # no more polygons
+#
+#                 ent_geom = entity_geoms[ent_id]
+#                 subset = poly_df[poly_df[polygon_id_col].isin(unassigned_poly_ids)].copy()
+#                 subset["dist"] = subset["centroid"].distance(ent_geom)
+#                 nearest_idx = subset["dist"].idxmin()
+#                 nearest_poly_id = subset.loc[nearest_idx, polygon_id_col]
+#
+#                 entity_to_polys[ent_id].append(nearest_poly_id)
+#                 assigned_poly_ids.add(nearest_poly_id)
+#                 unassigned_poly_ids.remove(nearest_poly_id)
+#
+#             # Step 2: distribute remaining polygons
+#             remaining_polys = list(unassigned_poly_ids)
+#             if remaining_polys:
+#                 for i, poly_id in enumerate(remaining_polys):
+#                     ent_id = entities[i % len(entities)][0]
+#                     entity_to_polys[ent_id].append(poly_id)
+#
+#             # Final assignment
+#             for i, (ent_id, poly_ids) in enumerate(entity_to_polys.items()):
+#                 sub_cid = f"{base_cid}.{chr(97 + i)}"
+#                 if ent_id in mains:
+#                     facility_gdf.loc[facility_gdf[facility_id_col] == ent_id, "final_cluster_id"] = sub_cid
+#                 else:
+#                     tailing_gdf.loc[tailing_gdf[tailing_id_col] == ent_id, "final_cluster_id"] = sub_cid
+#                 polygon_gdf.loc[polygon_gdf[polygon_id_col].isin(poly_ids), "final_cluster_id"] = sub_cid
+#
+#                 subgeom = unary_union(polygon_gdf.loc[polygon_gdf[polygon_id_col].isin(poly_ids)].geometry)
+#                 area = subgeom.area / 1e6
+#
+#                 new_cluster_rows.append({
+#                     "final_cluster_id": sub_cid,
+#                     "n_facilities": 1 if ent_id in mains else 0,
+#                     "n_tailings": 1 if ent_id in tails else 0,
+#                     "n_polygons": len(poly_ids),
+#                     "relation": relation,
+#                     "geometry": subgeom,
+#                     "area_km2_subcluster": area
+#                 })
+#
+#
+#         ## === Fallback ===
+#         else:
+#             continue  # skip no-relation or invalid clusters
+#
+#     cluster_table_out = gpd.GeoDataFrame(new_cluster_rows, crs=cluster_table.crs)
+#     return facility_gdf, tailing_gdf, polygon_gdf, cluster_table_out
+
+
+def export_sqlite_db(db_path, tables_dict, keep_geometry_tables=None, csv_dir=None):
+    """
+    Export multiple (Geo)DataFrames to both SQLite and CSV with optional geometry as WKT.
 
     Parameters:
-    - facility_gdf (GeoDataFrame): Point data of facilities with a unique ID column.
-    - polygon_gdf (GeoDataFrame): Polygon data to match, with a unique ID column.
-    - tailing_gdf (GeoDataFrame): Point data of tailings, also with unique ID column.
-    - facility_id_col (str): Column name for unique facility ID.
-    - polygon_id_col (str): Column name for unique polygon ID.
-    - tailing_id_col (str): Column name for unique tailing ID.
-    - eps_km (float): Max distance (in km) to cluster together (DBSCAN's `eps`).
-    - min_samples (int): Minimum number of samples to form a cluster (DBSCAN).
-    - crs (str): CRS for accurate distance computation (default: EPSG:3978 = Canada Albers).
-    - boundary_step (int): Sampling step for polygon boundary points (1 = no simplification).
-
-    Returns:
-    - facility_gdf (GeoDataFrame): With added 'cluster_id' and 'check_manually' columns.
-    - polygon_gdf (GeoDataFrame): Same.
-    - tailing_gdf (GeoDataFrame): Same.
+        db_path (str): Path to SQLite database file.
+        tables_dict (dict): {table_name: DataFrame or GeoDataFrame}.
+        keep_geometry_tables (list): List of table names to keep geometry (as WKT).
+        csv_dir (str, optional): Directory to export CSV files (default: same as db_path).
     """
+    if keep_geometry_tables is None:
+        keep_geometry_tables = []
 
-    import pandas as pd
-    import numpy as np
-    import geopandas as gpd
-    from shapely.geometry import Point, Polygon, MultiPolygon
-    from sklearn.cluster import DBSCAN
+    # Get folder for CSVs
+    if csv_dir is None:
+        csv_dir = os.path.dirname(db_path)
 
-    # Ensure consistent CRS
-    facility_gdf = facility_gdf.to_crs(crs)
-    tailing_gdf = tailing_gdf.to_crs(crs)
-    polygon_gdf = polygon_gdf.to_crs(crs).explode(index_parts=False)
+    os.makedirs(csv_dir, exist_ok=True)
 
-    # Clean Z-dimension from polygons
-    def to_2d(geom):
-        if isinstance(geom, MultiPolygon):
-            return MultiPolygon([Polygon([(x, y) for x, y, *_ in poly.exterior.coords]) for poly in geom.geoms])
-        elif isinstance(geom, Polygon):
-            return Polygon([(x, y) for x, y, *_ in geom.exterior.coords])
-        return geom
+    # Connect to SQLite
+    conn = sqlite3.connect(db_path)
 
-    polygon_gdf["geometry"] = polygon_gdf["geometry"].apply(to_2d)
+    for table_name, df in tables_dict.items():
+        df_export = df.copy()
 
-    # Extract polygon boundary points
-    def boundary_points(geom, pid):
-        coords = list(geom.exterior.coords)[::boundary_step]
-        return [(pid, Point(c)) for c in coords]
+        # Handle geometry
+        if "geometry" in df_export.columns:
+            if table_name in keep_geometry_tables:
+                df_export["geometry"] = df_export.geometry.to_wkt()
+            else:
+                df_export = df_export.drop(columns="geometry")
 
-    poly_points = []
-    for _, row in polygon_gdf.iterrows():
-        poly_points.extend(boundary_points(row["geometry"], row[polygon_id_col]))
+        # Export to SQLite
+        df_export.to_sql(table_name, conn, if_exists="replace", index=False)
 
-    poly_gdf = gpd.GeoDataFrame(poly_points, columns=[polygon_id_col, "geometry"], crs=crs)
-    poly_gdf[facility_id_col] = None
-    poly_gdf[tailing_id_col] = None
+        # Export to CSV
+        csv_path = os.path.join(csv_dir, f"{table_name}.csv")
+        df_export.to_csv(csv_path, index=False)
 
-    # Prepare facility and tailing points
-    facility_tmp = facility_gdf[[facility_id_col, "geometry"]].copy()
-    facility_tmp[polygon_id_col] = None
-    facility_tmp[tailing_id_col] = None
+        print(f"✅ Exported '{table_name}' → SQLite + CSV")
 
-    tailing_tmp = tailing_gdf[[tailing_id_col, "geometry"]].copy()
-    tailing_tmp[polygon_id_col] = None
-    tailing_tmp[facility_id_col] = None
-
-    # Combine all points for clustering
-    all_points = pd.concat([facility_tmp, tailing_tmp, poly_gdf], ignore_index=True)
-    all_points = all_points[all_points.geometry.notna()].copy()
+    conn.close()
+    print(f"✅ All exports completed to SQLite and CSVs in: {csv_dir}")
 
 
-    # Get coordinates and run clustering
-    coords = np.array([(geom.x, geom.y) for geom in all_points.geometry])
-    db = DBSCAN(eps=eps_km * 1000, min_samples=min_samples).fit(coords)
-    all_points["cluster_id"] = db.labels_
-
-    # Cluster statistics
-    cluster_stats = all_points.groupby("cluster_id").agg({
-        facility_id_col: lambda x: x.notna().sum(),
-        tailing_id_col: lambda x: x.notna().sum(),
-    }).rename(columns={
-        facility_id_col: "n_facilities",
-        tailing_id_col: "n_tailings"
-    }).reset_index()
-
-    cluster_stats["check_manually"] = (cluster_stats["n_facilities"] > 1) | (cluster_stats["n_tailings"] > 1)
-
-    # Merge stats back
-    all_points = all_points.merge(cluster_stats[["cluster_id", "check_manually"]], on="cluster_id", how="left")
-
-    # Assign back to original GeoDataFrames
-    def assign_cluster(df, id_col):
-        cluster_info = all_points[[id_col, "cluster_id", "check_manually"]].dropna(subset=[id_col])
-        return df.merge(cluster_info, on=id_col, how="left")
-
-    facility_gdf = assign_cluster(facility_gdf, facility_id_col)
-    tailing_gdf = assign_cluster(tailing_gdf, tailing_id_col)
-    polygon_gdf = assign_cluster(polygon_gdf, polygon_id_col)
-
-    return facility_gdf, polygon_gdf, tailing_gdf
-
-
-def clustering_dbcan(
-    facility_gdf, polygon_gdf, tailing_gdf,
-    facility_id_col="main_id",
-    polygon_id_col="tang_id",
-    tailing_id_col="tailing_id",
-    eps_km=10, min_samples=2, crs="EPSG:3978", boundary_step=5
+def create_and_populate_database(
+        db_path,
+        schema_path,
+        tables_dict,
+        keep_geometry_tables=None
 ):
     """
-    Cluster facilities, tailings, and polygon boundaries using DBSCAN.
+    Creates a fresh SQLite database, applies schema, converts geometries,
+    and inserts data from a dictionary of tables.
 
-    Returns:
-    - facility_gdf, tailing_gdf, polygon_gdf: each with one cluster_id per entity (replacing -1 with "No cluster")
-    - cluster_link_df: tidy table of (main_id, tailing_id, tang_id, cluster_id, check_manually)
+    Parameters:
+    - db_path: str, path to the database file
+    - schema_path: str, path to the .sql schema file
+    - tables_dict: dict, {table_name: DataFrame or GeoDataFrame}
+    - keep_geometry_tables: list of table names where geometry should be kept (default: None)
     """
+    if keep_geometry_tables is None:
+        keep_geometry_tables = []
 
-    import pandas as pd
-    import numpy as np
-    import geopandas as gpd
-    from shapely.geometry import Point, Polygon, MultiPolygon
-    from shapely.ops import transform
-    from sklearn.cluster import DBSCAN
+    # --- 1. SAFE START ---
+    try:
+        conn.close()
+    except:
+        pass
 
-    # Preserve original polygon_gdf
-    polygon_gdf_original = polygon_gdf.copy()
+    if os.path.exists(db_path):
+        os.remove(db_path)
+        print(f"✅ Old database '{db_path}' deleted")
+    else:
+        print(f"ℹ️ No old database found at '{db_path}'")
 
-    # Project all layers
-    facility_gdf = facility_gdf.to_crs(crs)
-    tailing_gdf = tailing_gdf.to_crs(crs)
-    polygon_gdf_proj = polygon_gdf.to_crs(crs).explode(index_parts=False).reset_index(drop=True)
+    # --- 2. APPLY SCHEMA ---
+    with open(schema_path, "r", encoding="utf-8") as f:
+        schema = f.read()
 
-    # Clean Z-dimension from polygon geometries
-    def to_2d(geom):
-        if isinstance(geom, MultiPolygon):
-            return MultiPolygon([Polygon([(x, y) for x, y, *_ in poly.exterior.coords]) for poly in geom.geoms])
-        elif isinstance(geom, Polygon):
-            return Polygon([(x, y) for x, y, *_ in geom.exterior.coords])
-        return geom
-
-    polygon_gdf_proj["geometry"] = polygon_gdf_proj["geometry"].apply(to_2d)
-
-    # Sample polygon boundary points
-    def boundary_points(geom, pid):
-        coords = list(geom.exterior.coords)[::boundary_step]
-        return [(pid, Point(c)) for c in coords]
-
-    poly_points = []
-    for _, row in polygon_gdf_proj.iterrows():
-        poly_points.extend(boundary_points(row["geometry"], row[polygon_id_col]))
-
-    poly_gdf = gpd.GeoDataFrame(poly_points, columns=[polygon_id_col, "geometry"], crs=crs)
-    poly_gdf[facility_id_col] = None
-    poly_gdf[tailing_id_col] = None
-
-    # Prepare facility and tailing points
-    facility_tmp = facility_gdf[[facility_id_col, "geometry"]].copy()
-    facility_tmp[polygon_id_col] = None
-    facility_tmp[tailing_id_col] = None
-
-    tailing_tmp = tailing_gdf[[tailing_id_col, "geometry"]].copy()
-    tailing_tmp[polygon_id_col] = None
-    tailing_tmp[facility_id_col] = None
-
-    # Combine all points
-    all_points = pd.concat([facility_tmp, tailing_tmp, poly_gdf], ignore_index=True)
-    all_points = all_points[all_points.geometry.notna()].copy()
-
-    # Apply DBSCAN clustering
-    coords = np.array([(geom.x, geom.y) for geom in all_points.geometry])
-    db = DBSCAN(eps=eps_km * 1000, min_samples=min_samples).fit(coords)
-    all_points["cluster_id"] = db.labels_
-
-    # Extract one cluster_id per unique entity
-    def extract_entity_clusters(col_name):
-        return (
-            all_points[[col_name, "cluster_id"]]
-            .dropna(subset=[col_name])
-            .drop_duplicates(subset=[col_name])
+    def insert_drops(schema_sql):
+        return re.sub(
+            r'(CREATE TABLE\s+"?([\w_]+)"?\s*\()',
+            lambda m: f'DROP TABLE IF EXISTS \"{m.group(2)}\";\n{m.group(0)}',
+            schema_sql,
+            flags=re.IGNORECASE
         )
 
-    facility_clusters = extract_entity_clusters(facility_id_col)
-    tailing_clusters = extract_entity_clusters(tailing_id_col)
-    polygon_clusters = extract_entity_clusters(polygon_id_col)
+    schema = insert_drops(schema)
 
-    # Merge cluster_id into original GeoDataFrames
-    facility_gdf = facility_gdf.merge(facility_clusters, on=facility_id_col, how="left")
-    tailing_gdf = tailing_gdf.merge(tailing_clusters, on=tailing_id_col, how="left")
-    polygon_gdf = polygon_gdf_original.merge(polygon_clusters, on=polygon_id_col, how="left")
+    conn_local = sqlite3.connect(db_path)
+    conn_local.execute("PRAGMA foreign_keys = ON;")
+    cursor = conn_local.cursor()
+    statements = [s.strip() for s in schema.split(';') if s.strip()]
+    for stmt in statements:
+        cursor.execute(stmt + ";")
+    conn_local.commit()
+    conn_local.close()
 
-    # Replace cluster_id = -1 with "No cluster"
-    for gdf in (facility_gdf, polygon_gdf, tailing_gdf):
-        if "cluster_id" in gdf.columns:
-            gdf["cluster_id"] = gdf["cluster_id"].fillna(-1).replace(-1, "No cluster")
+    print(f"✅ Empty database structure created at '{db_path}'")
 
-    # Replace -1 with "No cluster" in all_points for consistency
-    all_points["cluster_id"] = all_points["cluster_id"].fillna(-1).replace(-1, "No cluster")
+    # --- 3. CONVERT GEOMETRIES ---
+    print("🔄 Converting geometries...")
+    for table_name, df in tables_dict.items():
+        if isinstance(df, gpd.GeoDataFrame) and "geometry" in df.columns:
+            if table_name in keep_geometry_tables:
+                df["geometry"] = df["geometry"].to_wkt()
+            else:
+                df.drop(columns=["geometry"], inplace=True)
+    print("✅ Geometries handled (kept only where needed)")
 
-    # Count #facilities and #tailings per cluster
-    cluster_stats = all_points.groupby("cluster_id").agg({
-        facility_id_col: lambda x: x.notna().sum(),
-        tailing_id_col: lambda x: x.notna().sum()
-    }).rename(columns={
-        facility_id_col: "n_facilities",
-        tailing_id_col: "n_tailings"
-    }).reset_index()
+    # --- 4. OPEN CONNECTION ---
+    conn = sqlite3.connect(db_path)
+    conn.execute("PRAGMA foreign_keys = ON;")
+    print("✅ New connection opened")
 
-    cluster_stats["check_manually"] = (cluster_stats["n_facilities"] > 1) | (cluster_stats["n_tailings"] > 1)
+    # --- 5. INSERT TABLES ---
+    def safe_insert(df, table_name):
+        try:
+            df.to_sql(table_name, conn, if_exists="append", index=False)
+            print(f"✅ Inserted {len(df)} rows into '{table_name}'")
+        except Exception as e:
+            print(f"❌ Error inserting '{table_name}': {e}")
 
-    # Create cluster link table: one row per entity with cluster_id
-    cluster_link_df = all_points[
-        [facility_id_col, tailing_id_col, polygon_id_col, "cluster_id"]
-    ].dropna(subset=["cluster_id"]).copy()
+    # Insert all tables
+    for table_name, df in tables_dict.items():
+        safe_insert(df, table_name)
 
-    cluster_link_df = (
-        pd.concat([
-            cluster_link_df[[facility_id_col, "cluster_id"]].dropna().drop_duplicates(),
-            cluster_link_df[[tailing_id_col, "cluster_id"]].dropna().drop_duplicates(),
-            cluster_link_df[[polygon_id_col, "cluster_id"]].dropna().drop_duplicates()
-        ])
-        .reset_index(drop=True)
-    )
+    # --- 6. CHECK FOREIGN KEYS ---
+    try:
+        broken_foreign_keys = conn.execute("PRAGMA foreign_key_check;").fetchall()
+        if broken_foreign_keys:
+            print("❌ Foreign key problems found:")
+            for problem in broken_foreign_keys:
+                print(problem)
+        else:
+            print("✅ No foreign key problems found!")
+    except Exception as e:
+        print(f"❌ Error checking foreign keys: {e}")
 
-    # Merge check_manually flag into cluster_link_df
-    cluster_link_df = cluster_link_df.merge(cluster_stats[["cluster_id", "check_manually"]], on="cluster_id", how="left")
-
-    # Final tidy output
-    return facility_gdf, polygon_gdf, tailing_gdf, cluster_link_df
+    # --- 7. CLOSE CONNECTION ---
+    conn.close()
+    print("✅ Connection closed properly")

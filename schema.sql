@@ -3,10 +3,10 @@ PRAGMA foreign_keys = ON;
 --- MAIN table ---
 CREATE TABLE "main" (
 "main_id" TEXT PRIMARY KEY,
+  "facility_group_id" TEXT,
+  "company_id" TEXT,
   "facility_name" TEXT,
   "reported_company" TEXT,
-  "longitude" REAL,
-  "latitude" REAL,
   "city" TEXT,
   "province" TEXT,
   "status" TEXT,
@@ -17,203 +17,145 @@ CREATE TABLE "main" (
   "commodity_group" TEXT,
   "primary_commodity" TEXT,
   "commodities" TEXT,
-  "source" TEXT,
-  "source_df" TEXT,
+  "source_id" TEXT,
   "geometry" TEXT,
-  "cluster_id" TEXT
-);
-
---- Satellite tables ---
-CREATE TABLE "climate_categories" (
-"row_id" TEXT PRIMARY KEY,
-  "climate_category_id" TEXT,
-  "main_id" TEXT,
-  "name" TEXT,
-  "year" TEXT,
-  "scenario" TEXT,
-  "category" TEXT,
-  "geometry" TEXT,
-FOREIGN KEY (main_id) REFERENCES main(main_id)
+  "cluster_id" TEXT,
+FOREIGN KEY (source_id) REFERENCES source(source_id),
+FOREIGN KEY (cluster_id) REFERENCES cluster(cluster_id)
 );
 
 
-CREATE TABLE "ghg" (
-"row_id" TEXT PRIMARY KEY,
-  "year" INTEGER,
-  "ghg_id" TEXT,
-  "facility_name_ghg" TEXT,
-  "longitude" REAL,
-  "latitude" REAL,
-  "city" TEXT,
-  "province" TEXT,
-  "sector" TEXT,
-  "value" REAL,
-  "unit" TEXT,
-  "facility_url" TEXT,
-  "source_df" TEXT,
-  "geometry" TEXT,
-  "main_id" TEXT,
-FOREIGN KEY (main_id) REFERENCES main(main_id)
+--- Source table ---
+CREATE TABLE "source" (
+"source_id" TEXT PRIMARY KEY,
+  "source_name" TEXT,
+  "source_type" TEXT, #
+  "year" REAL,
+  "author" TEXT,
+  "url_doi" TEXT
 );
 
 
-CREATE TABLE "indigenous_land" (
-"indigenous_land_id" TEXT PRIMARY KEY,
-  "Name" TEXT,
-  "Category" TEXT,
-  "Data_Src" TEXT,
-  "Data_Date" TEXT,
-  "longitude" REAL,
-  "latitude" REAL,
-  "geometry" TEXT
+
+--- Manual data collection table ---
+CREATE TABLE "ownership" (
+    "main_id" TEXT,
+    "facility_group_id" TEXT,
+    "company_id" TEXT,
+    "company_url" TEXT,
+    "facility_url" TEXT,
+    "mdo_url" TEXT,
+    "recent_transaction" TEXT,
+    "owners" TEXT,
+    "operator" TEXT,
+    "source_id" TEXT,
+FOREIGN KEY (main_id) REFERENCES main(main_id),
+FOREIGN KEY (facility_group_id) REFERENCES main(facility_group_id),
+FOREIGN KEY (company_id) REFERENCES main(company_id),
+FOREIGN KEY (source_id) REFERENCES source(source_id),
 );
 
 
-CREATE TABLE "land_cover" (
-"row_id" TEXT PRIMARY KEY,
-  "land_cover_id" TEXT,
-  "main_id" TEXT,
-  "name" TEXT,
-  "year" INTEGER,
-  "modis_land_cover" TEXT,
-  "esa_land_cover" TEXT,
-  "geometry" TEXT,
-FOREIGN KEY (main_id) REFERENCES main(main_id)
+CREATE TABLE "production" (
+    "row_id" TEXT PRIMARY KEY,
+    "main_id" TEXT,
+    "facility_group_id" TEXT,
+    "company_id" TEXT,
+    "year" INTEGER,
+    "commodity" TEXT,
+    "reference_point" TEXT,
+    "material_type" TEXT,
+    "unit" TEXT,
+    "value" REAL,
+    "comment" TEXT,
+    "source_id" TEXT,
+FOREIGN KEY (main_id) REFERENCES main(main_id),
+FOREIGN KEY (facility_group_id) REFERENCES main(facility_group_id),
+FOREIGN KEY (company_id) REFERENCES main(company_id),
+FOREIGN KEY (source_id) REFERENCES source(source_id),
 );
 
 
-CREATE TABLE "pollution" (
-"row_id" TEXT PRIMARY KEY,
-  "year" INTEGER,
-  "pollutant_id" TEXT,
-  "facility_name_npri" TEXT,
-  "company_name_npri" TEXT,
-  "facility_type" TEXT,
-  "longitude" REAL,
-  "latitude" REAL,
-  "terrestrial_ecozone" TEXT,
-  "watershed" TEXT,
-  "substance_name_npri" TEXT,
-  "substance_name_ecoinvent" TEXT,
-  "substance_unit" TEXT,
-  "emission_type" TEXT,
-  "emission_subtype" TEXT,
-  "value" TEXT,
-  "source_df" TEXT,
-  "geometry" TEXT,
-  "main_id" TEXT,
-FOREIGN KEY (main_id) REFERENCES main(main_id)
+CREATE TABLE "reserves_resources" (
+    "row_id" TEXT PRIMARY KEY,
+    "main_id" TEXT,
+    "facility_group_id" TEXT,
+    "year" INTEGER,
+    "commodity" TEXT,
+    "reserves_resources" TEXT,
+    "reserves_resources_type" TEXT,
+    "ore" REAL,
+    "ore_unit" TEXT,
+    "grade" REAL,
+    "grade_unit" TEXT,
+    "metal_content" REAL,
+    "metal_content_unit" TEXT,
+    "recovery_rate" REAL,
+    "source_id" TEXT,
+FOREIGN KEY (main_id) REFERENCES main(main_id),
+FOREIGN KEY (facility_group_id) REFERENCES main(facility_group_id),
+FOREIGN KEY (source_id) REFERENCES source(source_id),
 );
 
 
-CREATE TABLE "land_occupation" (
-"tang_id" TEXT PRIMARY KEY,
-  "area_km2" REAL,
-  "geometry" TEXT,
-  "cluster_id" TEXT
+CREATE TABLE "energy" (
+    "row_id" TEXT PRIMARY KEY,
+    "main_id" TEXT,
+    "facility_group_id" TEXT,
+    "company_id" TEXT,
+    "year" INTEGER,
+    "commodity" TEXT,
+    "energy_type" TEXT,
+    "unit" TEXT,
+    "value" REAL,
+    "source_id" TEXT,
+FOREIGN KEY (main_id) REFERENCES main(main_id),
+FOREIGN KEY (facility_group_id) REFERENCES main(facility_group_id),
+FOREIGN KEY (company_id) REFERENCES main(company_id),
+FOREIGN KEY (source_id) REFERENCES source(source_id),
 );
 
 
-CREATE TABLE "mincan" (
-"mincan_id" TEXT PRIMARY KEY,
-  "namemine" TEXT,
-  "town" TEXT,
-  "province" TEXT,
-  "latitude" REAL,
-  "longitude" REAL,
-  "commodityall" TEXT,
-  "information" TEXT,
-  "mine_status" TEXT,
-  "operation_periods" TEXT,
-  "geometry" TEXT,
-  "main_id" TEXT,
-FOREIGN KEY (main_id) REFERENCES main(main_id)
+CREATE TABLE "environment" (
+    "row_id" TEXT PRIMARY KEY,
+    "main_id" TEXT,
+    "facility_group_id" TEXT,
+    "company_id" TEXT,
+    "year" INTEGER,
+    "commodity" TEXT,
+    "type" TEXT,
+    "elementary_flows" TEXT,
+    "unit" TEXT,
+    "value" REAL,
+    "source_id" TEXT,
+FOREIGN KEY (main_id) REFERENCES main(main_id),
+FOREIGN KEY (facility_group_id) REFERENCES main(facility_group_id),
+FOREIGN KEY (company_id) REFERENCES main(company_id),
+FOREIGN KEY (source_id) REFERENCES source(source_id),
 );
 
 
-CREATE TABLE "conflict" (
-"conflict_id" TEXT PRIMARY KEY,
-  "case_name" TEXT,
-  "facility_name_ejatlas" TEXT,
-  "province" TEXT,
-  "latitude" REAL,
-  "longitude" REAL,
-  "geolocation_accuracy" TEXT,
-  "start_date" TEXT,
-  "end_date" TEXT,
-  "conflict_description" TEXT,
-  "conflict_details" TEXT,
-  "population_affected" TEXT,
-  "conflict_intensity" TEXT,
-  "project_status" TEXT,
-  "reference" TEXT,
-  "geometry" TEXT,
-  "main_id" TEXT,
-FOREIGN KEY (main_id) REFERENCES main(main_id)
+CREATE TABLE "archetypes" (
+    "main_id" TEXT,
+    "facility_group_id" TEXT,
+    "deposit_type" TEXT,
+    "mining_depth" INTEGER,
+    "mining_method" TEXT,
+    "processing_method" TEXT,
+    "source_id" TEXT,
+FOREIGN KEY (main_id) REFERENCES main(main_id),
+FOREIGN KEY (facility_group_id) REFERENCES main(facility_group_id),
+FOREIGN KEY (source_id) REFERENCES source(source_id),
 );
 
 
-CREATE TABLE "natural_potential_vegetation" (
-"npv_id" TEXT PRIMARY KEY,
-  "main_id" TEXT,
-  "name" TEXT,
-  "latitude" REAL,
-  "longitude" REAL,
-  "biome_type" TEXT,
-  "geometry" TEXT,
-FOREIGN KEY (main_id) REFERENCES main(main_id)
-);
-
-
-CREATE TABLE "peatland" (
-"peatland_id" TEXT PRIMARY KEY,
-  "main_id" TEXT,
-  "facility_name" TEXT,
-  "longitude" REAL,
-  "latitude" REAL,
-  "peatland_presence" TEXT,
-  "geometry" TEXT,
-FOREIGN KEY (main_id) REFERENCES main(main_id)
-);
-
-
-CREATE TABLE "population" (
-"row_id" TEXT PRIMARY KEY,
-  "population_id" TEXT,
-  "main_id" TEXT,
-  "name" TEXT,
-  "year" INTEGER,
-  "buffer_size" TEXT,
-  "total_population" REAL,
-  "geometry" TEXT,
-FOREIGN KEY (main_id) REFERENCES main(main_id)
-);
-
-
-CREATE TABLE "protected_land" (
-"wpda_id" TEXT PRIMARY KEY,
-  "NAME" TEXT,
-  "DESIG" TEXT,
-  "OWN_TYPE" TEXT,
-  "MANG_AUTH" TEXT,
-  "STATUS_YR" INTEGER,
-  "longitude" REAL,
-  "latitude" REAL,
-  "geometry" TEXT
-);
-
-
+--- Satellite tables with one-to-many relatioships ---
 CREATE TABLE "tailings" (
 "row_id" TEXT PRIMARY KEY,
+  "main_id" TEXT,
   "year" INTEGER,
   "tailing_id" TEXT UNIQUE,
   "tsf_name" TEXT,
-  "related_mine" TEXT,
-  "main_owner" TEXT,
-  "full_ownership" TEXT,
-  "operator" TEXT,
-  "longitude" REAL,
-  "latitude" REAL,
   "status" TEXT,
   "construction_year" REAL,
   "raise_type" TEXT,
@@ -222,73 +164,192 @@ CREATE TABLE "tailings" (
   "planned_storage_5_years" TEXT,
   "hazard_categorization" TEXT,
   "classification_system" TEXT,
-  "link" TEXT,
-  "source" TEXT,
-  "source_df" TEXT,
   "geometry" TEXT,
-  "main_id" TEXT,
+  "source_id" TEXT,
   "cluster_id" TEXT,
-FOREIGN KEY (main_id) REFERENCES main(main_id)
+FOREIGN KEY (main_id) REFERENCES main(main_id),
+FOREIGN KEY (source_id) REFERENCES source(source_id),
+FOREIGN KEY (cluster_id) REFERENCES cluster(cluster_id)
 );
 
 
-CREATE TABLE "water_risk" (
-"row_id" TEXT PRIMARY KEY,
-  "water_risk_id" TEXT,
+CREATE TABLE "mincan" (
+"mincan_id" TEXT PRIMARY KEY,
   "main_id" TEXT,
-  "name" TEXT,
-  "indicator" TEXT,
-  "value" TEXT,
+  "mine_status" TEXT,
+  "operation_periods" TEXT,
+  "source_id" TEXT,
+FOREIGN KEY (main_id) REFERENCES main(main_id),
+FOREIGN KEY (source_id) REFERENCES source(source_id)
+);
+
+
+CREATE TABLE "conflict" (
+"ej_atlas_id" TEXT PRIMARY KEY,
+  "main_id" TEXT,
+  "case_name" TEXT,
+  "start_date" TEXT,
+  "end_date" TEXT,
+  "conflict_description" TEXT,
+  "conflict_details" TEXT,
+  "population_affected" TEXT,
+  "conflict_intensity" TEXT,
+  "project_status" TEXT,
+  "source_id" TEXT,
+FOREIGN KEY (main_id) REFERENCES main(main_id),
+FOREIGN KEY (source_id) REFERENCES source(source_id)
+);
+
+
+CREATE TABLE "ghg" (
+"row_id" TEXT PRIMARY KEY,
+  "ghg_id" TEXT,
+  "main_id" TEXT,
   "year" INTEGER,
+  "sector" TEXT,
+  "value" REAL,
+  "unit" TEXT,
+  "source_id" TEXT,
+FOREIGN KEY (main_id) REFERENCES main(main_id),
+FOREIGN KEY (source_id) REFERENCES source(source_id)
+);
+
+
+CREATE TABLE "pollution" (
+"row_id" TEXT PRIMARY KEY,
+  "npri_id" TEXT,
+  "main_id" TEXT,
+  "year" INTEGER,
+  "terrestrial_ecozone" TEXT,
+  "watershed" TEXT,
+  "substance_name_npri" TEXT,
+  "substance_name_ecoinvent" TEXT,
+  "substance_unit" TEXT,
+  "emission_type" TEXT,
+  "emission_subtype" TEXT,
+  "value" TEXT,
+  "source_id" TEXT,
+FOREIGN KEY (main_id) REFERENCES main(main_id),
+FOREIGN KEY (source_id) REFERENCES source(source_id)
+);
+
+
+CREATE TABLE "climate_categories" (
+"row_id" TEXT PRIMARY KEY,
+  "main_id" TEXT,
+  "year" TEXT,
   "scenario" TEXT,
-  "geometry" TEXT,
-FOREIGN KEY (main_id) REFERENCES main(main_id)
+  "category" TEXT,
+  "source_id" TEXT,
+FOREIGN KEY (main_id) REFERENCES main(main_id),
+FOREIGN KEY (source_id) REFERENCES source(source_id)
 );
 
 
 CREATE TABLE "weather" (
 "row_id" TEXT PRIMARY KEY,
-  "weather_id" TEXT,
   "main_id" TEXT,
-  "name" TEXT,
   "year" INTEGER,
   "variable" TEXT,
   "value" REAL,
   "unit" TEXT,
   "scenario" TEXT,
+  "source_id" TEXT,
+FOREIGN KEY (main_id) REFERENCES main(main_id),
+FOREIGN KEY (source_id) REFERENCES source(source_id)
+);
+
+
+CREATE TABLE "peatland" (
+"peatland_id" TEXT PRIMARY KEY,
+  "main_id" TEXT,
+  "peatland_presence" TEXT,
+  "source_id" TEXT,
+FOREIGN KEY (main_id) REFERENCES main(main_id),
+FOREIGN KEY (source_id) REFERENCES source(source_id)
+);
+
+
+CREATE TABLE "population" (
+"row_id" TEXT PRIMARY KEY,
+  "main_id" TEXT,
+  "year" INTEGER,
+  "buffer_size" TEXT,
+  "total_population" REAL,
+  "source_id" TEXT,
+FOREIGN KEY (main_id) REFERENCES main(main_id),
+FOREIGN KEY (source_id) REFERENCES source(source_id)
+);
+
+
+CREATE TABLE "land_cover" (
+"row_id" TEXT PRIMARY KEY,
+  "main_id" TEXT,
+  "name" TEXT,
+  "year" INTEGER,
+  "modis_land_cover" TEXT,
+  "esa_land_cover" TEXT,
+  "source_id" TEXT,
+FOREIGN KEY (main_id) REFERENCES main(main_id),
+FOREIGN KEY (source_id) REFERENCES source(source_id)
+);
+
+
+CREATE TABLE "npv" (
+"npv_id" TEXT PRIMARY KEY,
+  "main_id" TEXT,
+  "biome_type" TEXT,
+  "source_id" TEXT,
+FOREIGN KEY (main_id) REFERENCES main(main_id),
+FOREIGN KEY (source_id) REFERENCES source(source_id)
+);
+
+
+CREATE TABLE "water_risk" (
+"row_id" TEXT PRIMARY KEY,
+  "main_id" TEXT,
+  "indicator" TEXT,
+  "value" TEXT,
+  "year" INTEGER,
+  "scenario" TEXT,
+  "source_id" TEXT,
+FOREIGN KEY (main_id) REFERENCES main(main_id),
+FOREIGN KEY (source_id) REFERENCES source(source_id)
+);
+
+
+--- Satellite tables with many-to-many relationships ---
+CREATE TABLE "land_occupation" (
+"tang_id" TEXT PRIMARY KEY,
+  "area_km2" REAL,
   "geometry" TEXT,
-FOREIGN KEY (main_id) REFERENCES main(main_id)
+  "cluster_id" TEXT,
+  "source_id" TEXT,
+FOREIGN KEY (source_id) REFERENCES source(source_id),
+FOREIGN KEY (cluster_id) REFERENCES cluster(cluster_id)
 );
 
 
---- Linking tables ---
-CREATE TABLE lt_clusters (
-  main_id TEXT,
-  cluster_id TEXT,
-  tailing_id TEXT,
-  tang_id TEXT,
-  check_manually INTEGER,
-FOREIGN KEY(main_id) REFERENCES main(main_id),
-FOREIGN KEY(tailing_id) REFERENCES tailings(tailing_id),
-FOREIGN KEY(tang_id) REFERENCES land_occupation(tang_id)
+CREATE TABLE "protected_land" (
+"wpda_id" TEXT PRIMARY KEY,
+  "wpda_name" TEXT,
+  "type" TEXT,
+  "ownership" TEXT,
+  "operator" TEXT,
+  "status_year" INTEGER,
+  "geometry" TEXT,
+   "source_id" TEXT,
+FOREIGN KEY (source_id) REFERENCES source(source_id)
 );
 
 
-CREATE TABLE "lt_protected_land" (
-"main_id" TEXT,
-  "wpda_id" TEXT,
-  "distance_to_centroid_m" REAL,
-  "distance_to_edge_m" REAL,
-FOREIGN KEY(main_id) REFERENCES main(main_id),
-FOREIGN KEY(wpda_id) REFERENCES protected_land(wpda_id)
+CREATE TABLE "indigenous_land" (
+"indigenous_land_id" TEXT PRIMARY KEY,
+  "land_category" TEXT,
+  "data_source" TEXT,
+  "status_date" TEXT,
+  "geometry" TEXT,
+  "source_id" TEXT,
+FOREIGN KEY (source_id) REFERENCES source(source_id)
 );
 
-
-CREATE TABLE "lt_indigenous_land" (
-"main_id" TEXT,
-  "indigenous_land_id" TEXT,
-  "distance_to_centroid_m" REAL,
-  "distance_to_edge_m" REAL,
-FOREIGN KEY(main_id) REFERENCES main(main_id),
-FOREIGN KEY(indigenous_land_id) REFERENCES indigenous_land(indigenous_land_id)
-);

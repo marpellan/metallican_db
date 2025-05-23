@@ -51,7 +51,7 @@ def populate_table_df(column_mapping, facility_df, dynamic_columns=None, source_
                     temp_df[dynamic_col] = source_values[source_name]
 
         # Add a 'source' column for provenance tracking
-        temp_df["source_df"] = source_name
+        #temp_df["source_df"] = source_name
 
         # Ensure temp_df aligns with facility_df
         missing_columns = set(facility_df.columns) - set(temp_df.columns)
@@ -87,6 +87,27 @@ def check_duplicate_facilities(df, name_col="facility_name", lon_col="longitude"
     """
     dupes = df[df.duplicated(subset=[name_col, lon_col, lat_col], keep=False)]
     return dupes.sort_values(by=[name_col, lat_col, lon_col])
+
+
+def convert_to_gdf(df):
+    """
+    Transform df to gdf with EPSG:4326
+
+    Parameters:
+        df (pd.DataFrame or gpd.GeoDataFrame): Data containing facilities/projects.
+
+    Returns:
+        gpd.GeoDataFrame
+    """
+
+    # Convert to GeoDataFrame if it's a regular DataFrame
+    if not isinstance(df, gpd.GeoDataFrame):
+        if "latitude" in df.columns and "longitude" in df.columns:
+            df = gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df["longitude"], df["latitude"]), crs="EPSG:4326")
+        else:
+            raise ValueError("The input DataFrame must have 'latitude' and 'longitude' columns or a 'geometry' column.")
+
+    return df
 
 
 def assign_id(df, canada_provinces, id_column="main_id", prefix="OTH", geometry_col="geometry", name_col="facility_name"):
@@ -148,7 +169,7 @@ def assign_id(df, canada_provinces, id_column="main_id", prefix="OTH", geometry_
 
     # Ensure the input is a GeoDataFrame
     if not isinstance(df, gpd.GeoDataFrame):
-        raise ValueError("The input df must be a GeoDataFrame with a geometry column.")
+        raise ValueError("The input gdf must be a GeoDataFrame with a geometry column.")
 
     # Extract centroid for polygons & coordinates for points
     df["longitude"], df["latitude"] = zip(*df.apply(extract_coordinates, axis=1))
@@ -258,8 +279,12 @@ def assign_row_id(
     df = df.copy()
 
     def extract_hash(fac_id):
-        parts = str(fac_id).split("-")
-        return parts[-1] if len(parts) >= 3 else "xxxxxxx"
+        s = str(fac_id)
+        parts = s.split("-")
+        if len(parts) >= 3:
+            return parts[-1]  # Keep original logic for full main_id
+        else:
+            return s  # Use the full string (e.g., '10052')
 
     df["_hash"] = df[facility_id_col].apply(extract_hash)
 
@@ -574,49 +599,4 @@ def analyze_and_compare_polygon_areas(gdf1, gdf2, dataset_name1, dataset_name2, 
     plt.show()
 
     return summary_df
-
-
-def export_sqlite_db(db_path, tables_dict, keep_geometry_tables=None, csv_dir=None):
-    """
-    Export multiple (Geo)DataFrames to both SQLite and CSV with optional geometry as WKT.
-
-    Parameters:
-        db_path (str): Path to SQLite database file.
-        tables_dict (dict): {table_name: DataFrame or GeoDataFrame}.
-        keep_geometry_tables (list): List of table names to keep geometry (as WKT).
-        csv_dir (str, optional): Directory to export CSV files (default: same as db_path).
-    """
-    if keep_geometry_tables is None:
-        keep_geometry_tables = []
-
-    # Get folder for CSVs
-    if csv_dir is None:
-        csv_dir = os.path.dirname(db_path)
-
-    os.makedirs(csv_dir, exist_ok=True)
-
-    # Connect to SQLite
-    conn = sqlite3.connect(db_path)
-
-    for table_name, df in tables_dict.items():
-        df_export = df.copy()
-
-        # Handle geometry
-        if "geometry" in df_export.columns:
-            if table_name in keep_geometry_tables:
-                df_export["geometry"] = df_export.geometry.to_wkt()
-            else:
-                df_export = df_export.drop(columns="geometry")
-
-        # Export to SQLite
-        df_export.to_sql(table_name, conn, if_exists="replace", index=False)
-
-        # Export to CSV
-        csv_path = os.path.join(csv_dir, f"{table_name}.csv")
-        df_export.to_csv(csv_path, index=False)
-
-        print(f"✅ Exported '{table_name}' → SQLite + CSV")
-
-    conn.close()
-    print(f"✅ All exports completed to SQLite and CSVs in: {csv_dir}")
 

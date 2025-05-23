@@ -158,3 +158,85 @@ def plot_mine_status_mincan(df):
     plt.pie(mine_status_counts, labels=mine_status_counts.index, autopct='%1.1f%%', colors=['green', 'red'])
     plt.title("Current Active vs. Inactive Mines")
     plt.show()
+
+
+def plot_polygons_assginment(
+    facility_gdf,
+    tailing_gdf,
+    polygon_gdf,
+    facility_id_col="main_id",
+    tailing_id_col="tailing_id",
+    polygon_id_col="tang_id",
+    assigned_main_col="main_id",
+    assigned_tailing_col="tailing_id",
+    output_html="assignment_map.html",
+    simplify_tolerance=0.0005,
+    open_in_browser=False,
+    zoom_start=4,
+    center=(56.1304, -106.3468)
+):
+    """
+    Interactive map showing facilities, tailings, and assigned polygons with IDs and assignment status.
+    """
+
+    def _prepare_gdf(gdf, simplify=False):
+        gdf = gdf.copy()
+        if gdf.crs is None or gdf.crs.to_epsg() != 4326:
+            gdf = gdf.to_crs("EPSG:4326")
+        if simplify:
+            gdf["geometry"] = gdf.geometry.simplify(simplify_tolerance)
+        return gdf[~gdf.geometry.is_empty & gdf.geometry.notna()].reset_index(drop=True)
+
+    # Reproject
+    facility_gdf = _prepare_gdf(facility_gdf)
+    tailing_gdf = _prepare_gdf(tailing_gdf)
+    polygon_gdf = _prepare_gdf(polygon_gdf, simplify=True)
+
+    # Create map
+    m = folium.Map(location=center, zoom_start=zoom_start, tiles="CartoDB positron")
+
+    # Facilities
+    facility_cluster = MarkerCluster(name="Facilities").add_to(m)
+    for _, row in facility_gdf.iterrows():
+        tooltip = f"{facility_id_col}: {row.get(facility_id_col, 'Unknown')}"
+        folium.Marker(
+            location=[row.geometry.y, row.geometry.x],
+            tooltip=tooltip,
+            icon=folium.Icon(color="blue", icon="industry", prefix="fa")
+        ).add_to(facility_cluster)
+
+    # Tailings
+    tailing_cluster = MarkerCluster(name="Tailings").add_to(m)
+    for _, row in tailing_gdf.iterrows():
+        tooltip = f"{tailing_id_col}: {row.get(tailing_id_col, 'Unknown')}"
+        folium.Marker(
+            location=[row.geometry.y, row.geometry.x],
+            tooltip=tooltip,
+            icon=folium.Icon(color="red", icon="trash", prefix="fa")
+        ).add_to(tailing_cluster)
+
+    # Polygons with assigned entity info
+    folium.GeoJson(
+        polygon_gdf,
+        name="Assigned Polygons",
+        style_function=lambda x: {
+            "fillColor": "#FFD700",
+            "color": "#333333",
+            "weight": 1.2,
+            "fillOpacity": 0.3
+        },
+        tooltip=folium.GeoJsonTooltip(
+            fields=[polygon_id_col, assigned_main_col, assigned_tailing_col],
+            aliases=["Polygon ID", "Assigned Main ID", "Assigned Tailing ID"],
+            localize=True,
+            labels=True
+        )
+    ).add_to(m)
+
+    folium.LayerControl().add_to(m)
+    m.save(output_html)
+    print(f"✅ Map saved to {output_html}")
+
+    if open_in_browser:
+        import webbrowser
+        webbrowser.open(output_html)
