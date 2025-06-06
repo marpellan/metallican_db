@@ -422,3 +422,43 @@ def extract_variable_from_nc(nc_path, variable_label, var_key, facilities_gdf, s
 
     gdf = gpd.GeoDataFrame(results, geometry="geometry", crs=facilities_gdf.crs)
     return gdf[["main_id", "name", "geometry", "year", "variable", "value", "unit", "scenario"]]
+
+
+def extract_prioritization_area(gdf, raster_path, buffer_km=50, id_col="main_id", name_col="facility_name"):
+    """
+    Assigns Jung et al. 2021 conservation priority values to a GeoDataFrame of mining sites.
+
+    Args:
+        gdf (GeoDataFrame): Input GeoDataFrame with point geometries and CRS.
+        raster_path (str): Path to Jung et al. 2021 raster file.
+        buffer_km (float): Buffer radius around each site in kilometers (default: 50 km).
+        id_col (str): Column name for site identifier.
+        name_col (str): Column name for site name.
+
+    Returns:
+        GeoDataFrame with original CRS and two added columns:
+            - 'jung_priority_point': raster value at the point
+            - 'jung_priority_mean_XXkm': mean value in buffer
+    """
+    original_crs = gdf.crs
+    gdf_copy = gdf[[id_col, name_col, 'geometry']].copy()
+
+    # Reproject to Mollweide for sampling (10 km raster grid is in ESRI:54009)
+    gdf_moll = gdf_copy.to_crs("ESRI:54009")
+
+    # ---- Point sampling ----
+    gdf_moll["jung_priority_point"] = point_query(gdf_moll, raster_path)
+
+    # ---- Buffer sampling ----
+    buffer_m = buffer_km * 1000
+    gdf_moll["geometry_buffer"] = gdf_moll.geometry.buffer(buffer_m)
+    buffer_gdf = gpd.GeoDataFrame(gdf_moll[[id_col, name_col, "geometry_buffer"]],
+                                  geometry="geometry_buffer", crs="ESRI:54009")
+
+    stats = zonal_stats(buffer_gdf, raster_path, stats=["mean"], nodata=None)
+    gdf_moll[f"jung_priority_mean_{int(buffer_km)}km"] = [s["mean"] for s in stats]
+
+    # ---- Clean up and reproject back ----
+    result = gdf_moll.drop(columns=["geometry_buffer"]).set_geometry("geometry").to_crs(original_crs)
+
+    return result

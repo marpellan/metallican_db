@@ -1,0 +1,43 @@
+commodity,reference_point_label,value_tonnes
+Aluminum,Intermediate metal produced,3531969.14503269
+Cobalt,Refined metal,3368.0
+Concentrate,Concentrate produced,142285.0
+Copper,Concentrate produced,28428257.657516997
+Copper,Intermediate metal produced,94594343.64
+Diamonds,Concentrate produced,0.002254752406
+Diamonds,Ore mined,21200000.0
+Diamonds,Ore processed,4200000.000337542
+Ferroniobium,Intermediate metal produced,11700.0
+GEOs,Intermediate metal produced,0.0003172557
+Gold,Concentrate produced,8.261549869593
+Gold,Intermediate metal produced,170.79205189374443
+Gold,Ore mined,26195883.0
+Gold,Ore processed,44497823.3081444
+Gold,Refined metal,208.891106
+Iron,Concentrate produced,72614125.44684838
+Iron,Ore mined,3560022.3
+Iron,Ore processed,21.0
+Lead,Intermediate metal produced,2900.0
+Lead,Refined metal,244600.0
+Lithium,Concentrate produced,33120.0
+Lithium,Ore mined,407034.0
+Molybdenum,Concentrate produced,900.0
+Molybdenum,Intermediate metal produced,544310.4
+Nickel,Concentrate produced,400.0
+Nickel,Intermediate metal produced,9220.0
+Nickel,Refined metal,91868.0
+"Nickel, cobalt",Refined metal,35636.0
+Ore,Ore mined,137340320.0
+Ore,Ore processed,87919709.289214
+PGM,Intermediate metal produced,38.319511999999996
+Platinum,Refined metal,0.9642084999999999
+Silver,Concentrate produced,99.59645514299999
+Silver,Intermediate metal produced,126.5548974499
+Silver,Refined metal,858.083358
+Steel,Intermediate metal produced,828000.0
+Steel,Refined metal,5000000.0
+Titanium dioxide slag,Refined metal,1111000.0
+Uranium,Concentrate produced,29302043.2
+Zinc,Concentrate produced,177324.997133
+Zinc,Intermediate metal produced,1500.0
+Zinc,Refined metal,1008600.0

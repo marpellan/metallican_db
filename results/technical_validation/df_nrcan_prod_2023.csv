@@ -1,0 +1,23 @@
+Geography,Commodity,Product_type,Variable,Unit,Value,data_source,reference_point_label,value_tonnes
+canada,aluminum,alloys,quantity produced,Tonnes,43691.0,16100019,intermediate metal produced,43691.0
+canada,aluminum,molten metal,quantity produced,Tonnes,3258153.0,16100019,intermediate metal produced,3258153.0
+canada,cobalt,recoverable,quantity produced,Tonnes,5099.0,16100022,intermediate metal produced,5099.0
+canada,cobalt,refined,quantity produced,Kilograms,4923174.0,16100019,refined metal,4923.174
+canada,copper,concentrates,quantity produced,Kilograms,1472936470.0,16100019,concentrate produced,1472936.47
+canada,copper,recoverable,quantity produced,Tonnes,508250.0,16100022,intermediate metal produced,508250.0
+canada,diamonds,undefined,quantity produced,Carats,16160688.0,16100022,nan,3.2321375999999997
+canada,gold,recoverable,quantity produced,Kilograms,198335.0,16100022,intermediate metal produced,198.335
+canada,iron,concentrates,quantity produced,Tonnes,59421934.0,16100022,concentrate produced,59421934.0
+canada,lithium,recoverable,quantity produced,Kilograms,178864.0,16100022,intermediate metal produced,178.864
+canada,molybdenum,recoverable,quantity produced,Tonnes,1369.0,16100022,intermediate metal produced,1369.0
+canada,nickel,concentrates,quantity produced,Kilograms,949236267.0,16100019,concentrate produced,949236.267
+canada,nickel,recoverable,quantity produced,Tonnes,158668.0,16100022,intermediate metal produced,158668.0
+canada,palladium,recoverable,quantity produced,Grams,16113892.0,16100022,intermediate metal produced,16.113892
+canada,platinum,recoverable,quantity produced,Grams,5174260.0,16100022,intermediate metal produced,5.174259999999999
+canada,platinum group,recoverable,quantity produced,Grams,21839752.0,16100022,intermediate metal produced,21.839752
+canada,platinum group,refined,quantity produced,Grams,11541177.0,16100019,refined metal,11.541177
+canada,silver,recoverable,quantity produced,Kilograms,306263.0,16100022,intermediate metal produced,306.26300000000003
+canada,silver,refined,quantity produced,Kilograms,6720981.0,16100019,refined metal,6720.981
+canada,uranium,recoverable,quantity produced,Tonnes,11373.0,16100022,intermediate metal produced,11373.0
+canada,zinc,concentrates,quantity produced,Kilograms,213493000.0,16100019,concentrate produced,213493.0
+canada,zinc,recoverable,quantity produced,Kilograms,99789481.0,16100019,intermediate metal produced,99789.481

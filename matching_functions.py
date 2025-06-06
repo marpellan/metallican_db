@@ -137,53 +137,53 @@ def one_to_many_relationships(
     return df[[id_sat_col, id_main_col]]
 
 
-def filter_matches(
-    match_df,
-    distance_threshold_m=None,
-    similarity_threshold=None,
-    similarity_metric="token_set",  # or "partial"
-    strategy="and"
-):
-    """
-    Give me all matches that meet the thresholds..
-
-    Parameters:
-        match_df (pd.DataFrame): Output from match_facilities().
-        distance_threshold_m (float or None): Max distance allowed.
-        similarity_threshold (float or None): Min similarity score allowed (0–100).
-        similarity_metric (str): 'partial' or 'token_set'.
-        strategy (str): 'and' (both conditions) or 'or' (either passes).
-
-    Returns:
-        pd.DataFrame: Filtered match candidates.
-    """
-    df = match_df.copy()
-
-    sim_col = {
-        "partial": "similarity_partial_score",
-        "token_set": "similarity_token_set"
-    }.get(similarity_metric, "similarity_token_set")
-
-    conditions = []
-    if distance_threshold_m is not None:
-        conditions.append(df["distance_m"] <= distance_threshold_m)
-    if similarity_threshold is not None:
-        conditions.append(df[sim_col] >= similarity_threshold)
-
-    if conditions:
-        if strategy == "and":
-            combined = conditions[0]
-            for cond in conditions[1:]:
-                combined &= cond
-        elif strategy == "or":
-            combined = conditions[0]
-            for cond in conditions[1:]:
-                combined |= cond
-        else:
-            raise ValueError("strategy must be 'and' or 'or'")
-        df = df[combined]
-
-    return df.reset_index(drop=True)
+# def filter_matches(
+#     match_df,
+#     distance_threshold_m=None,
+#     similarity_threshold=None,
+#     similarity_metric="token_set",  # or "partial"
+#     strategy="and"
+# ):
+#     """
+#     Give me all matches that meet the thresholds..
+#
+#     Parameters:
+#         match_df (pd.DataFrame): Output from match_facilities().
+#         distance_threshold_m (float or None): Max distance allowed.
+#         similarity_threshold (float or None): Min similarity score allowed (0–100).
+#         similarity_metric (str): 'partial' or 'token_set'.
+#         strategy (str): 'and' (both conditions) or 'or' (either passes).
+#
+#     Returns:
+#         pd.DataFrame: Filtered match candidates.
+#     """
+#     df = match_df.copy()
+#
+#     sim_col = {
+#         "partial": "similarity_partial_score",
+#         "token_set": "similarity_token_set"
+#     }.get(similarity_metric, "similarity_token_set")
+#
+#     conditions = []
+#     if distance_threshold_m is not None:
+#         conditions.append(df["distance_m"] <= distance_threshold_m)
+#     if similarity_threshold is not None:
+#         conditions.append(df[sim_col] >= similarity_threshold)
+#
+#     if conditions:
+#         if strategy == "and":
+#             combined = conditions[0]
+#             for cond in conditions[1:]:
+#                 combined &= cond
+#         elif strategy == "or":
+#             combined = conditions[0]
+#             for cond in conditions[1:]:
+#                 combined |= cond
+#         else:
+#             raise ValueError("strategy must be 'and' or 'or'")
+#         df = df[combined]
+#
+#     return df.reset_index(drop=True)
 
 
 # def match_facility_to_polygons_with_buffer(

@@ -2,6 +2,7 @@
 QGIS_projects
 /data/Companies_reports
 /data/Sources
+OLD
 
 # Ignore system/desktop files
 .DS_Store

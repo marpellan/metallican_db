@@ -6,7 +6,6 @@ import seaborn as sns
 import geopandas as gpd
 from shapely.geometry import Point, Polygon, MultiPolygon
 from rapidfuzz import fuzz
-import sqlite3
 import os
 
 
@@ -313,57 +312,36 @@ def assign_row_id(
     return df[cols]
 
 
-# def add_geospatial_info(facility_df, other_df, matching_columns, buffer_distance=10000, crs="EPSG:4326"):
-#     """
-#     Add information from another DataFrame to facility_df based on geospatial matching.
-#
-#     Parameters:
-#         facility_df (pd.DataFrame): The main facility DataFrame.
-#         other_df (pd.DataFrame): The secondary DataFrame with additional information.
-#         matching_columns (dict): Columns to add from other_df. Format: {"source_column": "target_column"}.
-#         buffer_distance (float): Buffer distance in meters for proximity matching.
-#         crs (str): Coordinate Reference System, default is WGS 84 (EPSG:4326).
-#
-#     Returns:
-#         pd.DataFrame: The updated facility_df with added information.
-#     """
-#     # Convert facility_df and other_df to GeoDataFrames
-#     facility_gdf = gpd.GeoDataFrame(
-#         facility_df,
-#         geometry=gpd.points_from_xy(facility_df["longitude"], facility_df["latitude"]),
-#         crs=crs,
-#     )
-#     other_gdf = gpd.GeoDataFrame(
-#         other_df,
-#         geometry=gpd.points_from_xy(other_df["longitude"], other_df["latitude"]),
-#         crs=crs,
-#     )
-#
-#     # Reproject to a projected CRS for accurate buffering
-#     facility_gdf = facility_gdf.to_crs("EPSG:3978")
-#     other_gdf = other_gdf.to_crs("EPSG:3978")
-#
-#     # Create a buffer around each facility
-#     facility_gdf["geometry"] = facility_gdf["geometry"].buffer(buffer_distance)
-#
-#     # Perform a spatial join to find matches within the buffer
-#     joined_gdf = gpd.sjoin(other_gdf, facility_gdf, how="inner", predicate="within")
-#
-#     # Drop duplicate matches and aggregate if necessary
-#     joined_gdf = joined_gdf.groupby("index_right").first()
-#
-#     # Add the matching columns to facility_gdf
-#     for source_col, target_col in matching_columns.items():
-#         if source_col in other_gdf.columns:
-#             facility_gdf[target_col] = joined_gdf[source_col]
-#
-#     # Reproject back to the original CRS
-#     facility_gdf = facility_gdf.to_crs(crs)
-#
-#     # Drop buffer geometry for clean output
-#     facility_gdf = facility_gdf.drop(columns="geometry")
-#
-#     return pd.DataFrame(facility_gdf)
+
+def create_substance_table(pollutant_df):
+    # Select relevant columns and drop duplicates
+    unique_substances = pollutant_df[[
+        "substance_name_npri", "substance_name_ecoinvent",
+        "emission_type", "emission_subtype"
+    ]].drop_duplicates().reset_index(drop=True)
+
+    # Rename for clarity
+    unique_substances = unique_substances.rename(columns={
+        "substance_name_npri": "substance_name",
+        "substance_name_ecoinvent": "ecoinvent_alias",
+        "emission_type": "substance_type",
+        "emission_subtype": "substance_subtype"
+    })
+
+    # Generate a stable hash ID
+    def make_id(row):
+        raw = f"{row['substance_name']}|{row['ecoinvent_alias']}|{row['substance_type']}|{row['substance_subtype']}"
+        return "SUB" + hashlib.sha1(raw.encode('utf-8')).hexdigest()[:10]
+
+    unique_substances["substance_id"] = unique_substances.apply(make_id, axis=1)
+
+    # Reorder columns
+    substance_table = unique_substances[[
+        "substance_id", "substance_type", "substance_subtype",
+        "substance_name", "ecoinvent_alias"
+    ]]
+
+    return substance_table
 
 
 def compute_similarity_score(df, name_col1="facility_name_df1", name_col2="facility_name_df2", threshold=80):
@@ -382,87 +360,6 @@ def compute_similarity_score(df, name_col1="facility_name_df1", name_col2="facil
     df["similarity_score"] = df.apply(lambda row: fuzz.ratio(str(row[name_col1]), str(row[name_col2])), axis=1)
     #df["name_match"] = df["name_similarity"] >= threshold  # True if similarity is above the threshold
     return df
-
-
-# def merge_gdf(facility_df, other_df, buffer_distance=10000, crs="EPSG:4326"):
-#     """
-#     Add all columns from another DataFrame to facility_df based on geospatial proximity.
-#
-#     Works with either 'facility_id' or 'project_id' as the main identifier.
-#
-#     Parameters:
-#         facility_df (pd.DataFrame): The main facility DataFrame.
-#         other_df (pd.DataFrame): The secondary DataFrame with additional information.
-#         buffer_distance (float): Buffer distance in meters for proximity matching.
-#         crs (str): Coordinate Reference System, default is WGS 84 (EPSG:4326).
-#
-#     Returns:
-#         pd.DataFrame: The updated facility_df with added information.
-#     """
-#
-#     # Detect whether the primary key is 'facility_id' or 'project_id'
-#     primary_id = "facility_id" if "facility_id" in facility_df.columns else "project_id" if "project_id" in facility_df.columns else None
-#
-#     if primary_id is None:
-#         raise ValueError("Neither 'facility_id' nor 'project_id' found in facility_df.")
-#
-#     # Keep only relevant columns from facility_df
-#     facility_df = facility_df[[primary_id, 'longitude', 'latitude']]
-#
-#     # Convert facility_df and other_df to GeoDataFrames
-#     facility_gdf = gpd.GeoDataFrame(
-#         facility_df,
-#         geometry=gpd.points_from_xy(facility_df["longitude"], facility_df["latitude"]),
-#         crs=crs,
-#     )
-#     other_gdf = gpd.GeoDataFrame(
-#         other_df,
-#         geometry=gpd.points_from_xy(other_df["longitude"], other_df["latitude"]),
-#         crs=crs,
-#     )
-#
-#     # Reproject to a projected CRS for accurate buffering
-#     facility_gdf = facility_gdf.to_crs("EPSG:3978")
-#     other_gdf = other_gdf.to_crs("EPSG:3978")
-#
-#     # Create a buffer around each facility **as a separate column**
-#     facility_gdf["buffer_geom"] = facility_gdf.geometry.buffer(buffer_distance)
-#
-#     # Perform a spatial join using buffer geometry
-#     joined_gdf = gpd.sjoin(other_gdf, facility_gdf.set_geometry("buffer_geom"), how="inner", predicate="within")
-#
-#     # Rename spatial join columns to standard names
-#     joined_gdf.rename(columns={"geometry_right": "geometry"}, inplace=True)
-#
-#     # Drop duplicate matches and keep only the first match per facility
-#     joined_gdf = joined_gdf.groupby("index_right").first()
-#
-#     # Merge all columns from other_df back into facility_gdf (fixing suffixes)
-#     facility_gdf = facility_gdf.merge(
-#         joined_gdf.drop(columns=["geometry"]),
-#         left_index=True,
-#         right_index=True,
-#         how="left",
-#         suffixes=("", "_matched")  # Prevent _x and _y mess
-#     )
-#
-#     # Remove unnecessary columns created by spatial join
-#     drop_cols = ["buffer_geom", "longitude_right", "latitude_right", "longitude_left", "latitude_left", "geometry_left",
-#                  f"{primary_id}_matched"]
-#     facility_gdf.drop(columns=[col for col in drop_cols if col in facility_gdf.columns], inplace=True)
-#
-#     # Fix ID duplication issue
-#     if f"{primary_id}_x" in facility_gdf.columns:
-#         facility_gdf.rename(columns={f"{primary_id}_x": primary_id}, inplace=True)
-#
-#     if f"{primary_id}_y" in facility_gdf.columns:
-#         facility_gdf.drop(columns=[f"{primary_id}_y"], inplace=True)
-#
-#     # Reproject back to original CRS
-#     facility_gdf = facility_gdf.to_crs(crs)
-#
-#     # Convert back to a DataFrame
-#     return pd.DataFrame(facility_gdf)
 
 
 ### POLYGONS
