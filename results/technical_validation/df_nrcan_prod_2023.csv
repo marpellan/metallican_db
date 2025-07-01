@@ -1,23 +1,32 @@
-Geography,Commodity,Product_type,Variable,Unit,Value,data_source,reference_point_label,value_tonnes
-canada,aluminum,alloys,quantity produced,Tonnes,43691.0,16100019,intermediate metal produced,43691.0
-canada,aluminum,molten metal,quantity produced,Tonnes,3258153.0,16100019,intermediate metal produced,3258153.0
-canada,cobalt,recoverable,quantity produced,Tonnes,5099.0,16100022,intermediate metal produced,5099.0
-canada,cobalt,refined,quantity produced,Kilograms,4923174.0,16100019,refined metal,4923.174
-canada,copper,concentrates,quantity produced,Kilograms,1472936470.0,16100019,concentrate produced,1472936.47
-canada,copper,recoverable,quantity produced,Tonnes,508250.0,16100022,intermediate metal produced,508250.0
-canada,diamonds,undefined,quantity produced,Carats,16160688.0,16100022,nan,3.2321375999999997
-canada,gold,recoverable,quantity produced,Kilograms,198335.0,16100022,intermediate metal produced,198.335
-canada,iron,concentrates,quantity produced,Tonnes,59421934.0,16100022,concentrate produced,59421934.0
-canada,lithium,recoverable,quantity produced,Kilograms,178864.0,16100022,intermediate metal produced,178.864
-canada,molybdenum,recoverable,quantity produced,Tonnes,1369.0,16100022,intermediate metal produced,1369.0
-canada,nickel,concentrates,quantity produced,Kilograms,949236267.0,16100019,concentrate produced,949236.267
-canada,nickel,recoverable,quantity produced,Tonnes,158668.0,16100022,intermediate metal produced,158668.0
-canada,palladium,recoverable,quantity produced,Grams,16113892.0,16100022,intermediate metal produced,16.113892
-canada,platinum,recoverable,quantity produced,Grams,5174260.0,16100022,intermediate metal produced,5.174259999999999
-canada,platinum group,recoverable,quantity produced,Grams,21839752.0,16100022,intermediate metal produced,21.839752
-canada,platinum group,refined,quantity produced,Grams,11541177.0,16100019,refined metal,11.541177
-canada,silver,recoverable,quantity produced,Kilograms,306263.0,16100022,intermediate metal produced,306.26300000000003
-canada,silver,refined,quantity produced,Kilograms,6720981.0,16100019,refined metal,6720.981
-canada,uranium,recoverable,quantity produced,Tonnes,11373.0,16100022,intermediate metal produced,11373.0
-canada,zinc,concentrates,quantity produced,Kilograms,213493000.0,16100019,concentrate produced,213493.0
-canada,zinc,recoverable,quantity produced,Kilograms,99789481.0,16100019,intermediate metal produced,99789.481
+Commodity,Product_type,Unit,Value,data_source,Value_tonnes
+aluminum,molten metal,Tonnes,3258153.0,16100019,3258153.0
+aluminum,alloys,Tonnes,43691.0,16100019,43691.0
+cobalt,refined,Kilograms,4923174.0,16100019,4923.174
+cobalt,recoverable,Tonnes,3260.0,16100022,3260.0
+copper,concentrates,Tonnes,1272135.0,16100022,1272135.0
+copper,recoverable,Tonnes,484552.0,16100022,484552.0
+diamonds,undefined,Carats,15674351.0,16100022,3.1348702
+gold,recoverable,Kilograms,191035.0,16100022,191.035
+gold and silver bullion,crude and dore,Kilograms,215873.0,16100022,215.873
+iridium,recoverable,Grams,91895.0,16100022,0.09189499999999999
+iron,concentrates,Tonnes,65165564.0,16100022,65165564.0
+iron,agglomerates,Tonnes,17708017.0,16100022,17708017.0
+lithium,recoverable,Kilograms,31600000.0,16100022,31600.0
+molybdenum,concentrates,Tonnes,2537.0,16100022,2537.0
+molybdenum,recoverable,Tonnes,1171.0,16100022,1171.0
+nickel,recoverable,Tonnes,127237.0,16100022,127237.0
+nickel,concentrates,Tonnes,949184.0,16100022,949184.0
+palladium,concentrates,Kilograms,39792000.0,16100022,39792.0
+palladium,recoverable,Grams,17267477.0,16100022,17.267477
+platinum,recoverable,Grams,6119780.0,16100022,6.1197799999999996
+platinum group,recoverable,Grams,23970214.0,16100022,23.970214
+platinum group,refined,Grams,11541177.0,16100019,11.541177
+rhodium,recoverable,Grams,333668.0,16100022,0.33366799999999996
+ruthenium,recoverable,Grams,157394.0,16100022,0.157394
+silver,refined,Kilograms,6720981.0,16100019,6720.981
+silver,recoverable,Kilograms,240523.0,16100022,240.523
+uranium,concentrates,Tonnes,12366.0,16100022,12366.0
+uranium,recoverable,Tonnes,13884.0,16100022,13884.0
+zeolite,undefined,Tonnes,565.0,16100022,565.0
+zinc,concentrates,Tonnes,177439.0,16100022,177439.0
+zinc,recoverable,Tonnes,109507.0,16100022,109507.0

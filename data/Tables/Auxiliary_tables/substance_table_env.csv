@@ -1,0 +1,36 @@
+substance_id,substance_name
+SUB2c1715b8f1,SOx
+SUB515573c582,NOx
+SUB550729bf89,CO
+SUBc7ba2dc1ed,POP
+SUB7bf58ed670,VOC
+SUB68c60ca2b5,HAP
+SUB606cb109e2,Mercury
+SUBc6f71d85ae,Lead
+SUBea8825f00e,PM10
+SUB95ce94acc5,PM2.5
+SUB2755fd780a,Nitrogen
+SUBe85dc94f4d,Sulfur dioxide
+SUB8319f60a2f,VOCs
+SUB0c95dc6163,PM
+SUB7aae3e468f,PM<10
+SUBf53b3d840b,Manganese
+SUBbc44335e90,Polycyclic aromatic hydrocarbons
+SUB93846da691,SO2
+SUB1c6e015419,Ammonia
+SUBbabfa2dbb1,Uranium
+SUB7826f3de59,Hydrogen fluoride
+SUB27172bcf76,NO2
+SUBa2a8a02933,Direct dust emissions
+SUB1f549497a7,Particulate
+SUB34a498887a,HAPs
+SUB0cbc90a094,Arsenic
+SUBd9feeabbe7,Selenium
+SUBcf761b373a,Fluoride emissions
+SUB3e2376b19e,NOx (excluding NO2)
+SUB3bc15c8aae,-
+SUB7765f1eeaa,CO2
+SUB4eea0d29b9,Biogenic CO2
+SUB72bfc6f7ea,CH4
+SUBab97051319,N2O
+SUB18f94e849c,PFCs

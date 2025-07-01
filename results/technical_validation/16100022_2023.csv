@@ -1,0 +1,27 @@
+Geography,Commodity,Product_type,Variable,Unit,Value,data_source
+Canada,Cobalt,recoverable,Quantity produced,Tonnes,3260.0,16100022
+Canada,Copper,concentrates,Quantity produced,Tonnes,1272135.0,16100022
+Canada,Copper,recoverable,Quantity produced,Tonnes,484552.0,16100022
+Canada,Diamonds,undefined,Quantity produced,Carats,15674351.0,16100022
+Canada,Gold,recoverable,Quantity produced,Kilograms,191035.0,16100022
+Canada,Gold and silver bullion,crude and dore,Quantity produced,Kilograms,215873.0,16100022
+Canada,Iridium,recoverable,Quantity produced,Grams,91895.0,16100022
+Canada,Iron,agglomerates,Quantity produced,Tonnes,17708017.0,16100022
+Canada,Iron,concentrates,Quantity produced,Tonnes,65165564.0,16100022
+Canada,Lithium,recoverable,Quantity produced,Kilograms,31600000.0,16100022
+Canada,Molybdenum,concentrates,Quantity produced,Tonnes,2537.0,16100022
+Canada,Molybdenum,recoverable,Quantity produced,Tonnes,1171.0,16100022
+Canada,Nickel,concentrates,Quantity produced,Tonnes,949184.0,16100022
+Canada,Nickel,recoverable,Quantity produced,Tonnes,127237.0,16100022
+Canada,Palladium,concentrates,Quantity produced,Kilograms,39792000.0,16100022
+Canada,Palladium,recoverable,Quantity produced,Grams,17267477.0,16100022
+Canada,Platinum,recoverable,Quantity produced,Grams,6119780.0,16100022
+Canada,Platinum group,recoverable,Quantity produced,Grams,23970214.0,16100022
+Canada,Rhodium,recoverable,Quantity produced,Grams,333668.0,16100022
+Canada,Ruthenium,recoverable,Quantity produced,Grams,157394.0,16100022
+Canada,Silver,recoverable,Quantity produced,Kilograms,240523.0,16100022
+Canada,Uranium,concentrates,Quantity produced,Tonnes,12366.0,16100022
+Canada,Uranium,recoverable,Quantity produced,Tonnes,13884.0,16100022
+Canada,Zeolite,undefined,Quantity produced,Tonnes,565.0,16100022
+Canada,Zinc,concentrates,Quantity produced,Tonnes,177439.0,16100022
+Canada,Zinc,recoverable,Quantity produced,Tonnes,109507.0,16100022

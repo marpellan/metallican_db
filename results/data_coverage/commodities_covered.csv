@@ -1,0 +1,105 @@
+facility_type,commodity,commodity_mapping,count
+manufacturing,alumina,aluminum,2
+manufacturing,aluminum,aluminum,9
+manufacturing,aluminum chemicals,aluminum,1
+manufacturing,ammonium sulfate,ammonium,1
+manufacturing,bismuth,bismuth,1
+manufacturing,cadmium,cadmium,2
+manufacturing,cobalt,cobalt,2
+manufacturing,composites,-,1
+manufacturing,copper,copper,2
+manufacturing,copper anodes,copper,1
+manufacturing,copper cathodes,copper,1
+manufacturing,copper oxide,copper,1
+manufacturing,copper sulfate,copper,1
+manufacturing,copper sulfide,copper,1
+manufacturing,electrolytic cobalt,cobalt,1
+manufacturing,ferroniobium,ferroniobium,1
+manufacturing,ferrosilicon,ferrosilicon,2
+manufacturing,germanium,germanium,1
+manufacturing,gold,gold,5
+manufacturing,indium,indium,1
+manufacturing,iron ore,iron,1
+manufacturing,lead,lead,1
+manufacturing,liquid sulfur dioxide,sulfur,3
+manufacturing,magnesium oxide,magnesium,1
+manufacturing,molybdenum,molybdenum,1
+manufacturing,nickel,nickel,3
+manufacturing,nickel sulfate,nickel,1
+manufacturing,nickel-copper matte containing cobalt,nickel,1
+manufacturing,platinum group metals,pgms,4
+manufacturing,precious metals,-,2
+manufacturing,recycled lead,lead,1
+manufacturing,scandium,scandium,1
+manufacturing,selenium,selenium,1
+manufacturing,selenium cake,selenium,1
+manufacturing,silicon metal,silicon,1
+manufacturing,silver,silver,5
+manufacturing,steel,steel,15
+manufacturing,sulfuric acid,-,4
+manufacturing,tellurium,tellurium,1
+manufacturing,tellurium dioxide cake,tellurium,1
+manufacturing,titanium dioxide,titanium,1
+manufacturing,uranium,uranium,2
+manufacturing,vanadium,vanadium,1
+manufacturing,zinc,zinc,2
+mining,antimony,antimony,1
+mining,cadmium,cadmium,1
+mining,cesium,cesium,1
+mining,cobalt,cobalt,15
+mining,copper,copper,30
+mining,diamonds,diamonds,4
+mining,gold,gold,62
+mining,ilmenite,ilmenite,1
+mining,indium,indium,1
+mining,iron,iron,8
+mining,lead,lead,2
+mining,lithium,lithium,2
+mining,molybdenum,molybdenum,2
+mining,nickel,nickel,15
+mining,niobium,niobium,1
+mining,platinum group metals,pgms,14
+mining,selenium,selenium,7
+mining,silver,silver,36
+mining,tellurium,tellurium,6
+mining,uranium,uranium,4
+mining,zinc,zinc,6
+project,aluminum,aluminum,1
+project,battery materials,-,2
+project,bismuth,bismuth,2
+project,cesium,cesium,1
+project,chromite,chromite,1
+project,cobalt,cobalt,19
+project,copper,copper,54
+project,gold,gold,54
+project,graphite,graphite,6
+project,iron ore,iron,10
+project,lead,lead,19
+project,lithium,lithium,18
+project,lithium hydroxide,lithium,1
+project,lithium metal,lithium,1
+project,magnesium,magnesium,2
+project,manganese,manganese,3
+project,manganese sulphate,manganese,1
+project,molybdenum,molybdenum,11
+project,nickel,nickel,20
+project,niobium,niobium,6
+project,palladium,palladium,15
+project,phosphate,phosphate,2
+project,platinum,platinum,15
+project,rare earth elements,rees,12
+project,rhenium,rhenium,1
+project,rhodium,rhodium,3
+project,rubidium,rubidium,1
+project,scandium,scandium,3
+project,silver,silver,44
+project,tantalum,tantalum,5
+project,tellurium,tellurium,1
+project,tin,tin,1
+project,titanium,titanium,4
+project,tungsten,tungsten,5
+project,uranium,uranium,7
+project,vanadium,vanadium,5
+project,zinc,zinc,27
+project,zircon,zircon,1
+project,zirconium,zirconium,1

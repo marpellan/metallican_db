@@ -1,0 +1,180 @@
+substance_id,harmonized_name,original_name,source
+SUB07971a0766,"1,2,4-Trimethylbenzene","1,2,4-Trimethylbenzene",NPRI
+SUBbdfdffeb95,1-Nitropyrene,1-Nitropyrene,NPRI
+SUB0f01e7c1d0,2-Butoxyethanol,2-Butoxyethanol,NPRI
+SUB324959500a,"7,12-Dimethylbenz[a]anthracene","7,12-Dimethylbenz[a]anthracene",NPRI
+SUBfee6b26acd,"7H-Dibenzo[c,g]carbazole","7H-Dibenzo[c,g]carbazole",NPRI
+SUB59bc2af740,Acenaphthene,Acenaphthene,NPRI
+SUB5f82681098,Acenaphthylene,Acenaphthylene,NPRI
+SUB0cb02304aa,Acetaldehyde,Acetaldehyde,NPRI
+SUBbeec838a08,Acrolein,Acrolein,NPRI
+SUB04d412c6e9,Aluminum (fume or dust only),Aluminum (fume or dust only),NPRI
+SUBb7945341aa,Aluminum oxide (fibrous forms only),Aluminum oxide (fibrous forms only),NPRI
+SUB1c6e015419,Ammonia,Ammonia (total),NPRI
+SUB6aaa046914,Anthracene,Anthracene,NPRI
+SUB0600013568,Antimony,Antimony (and its compounds),NPRI
+SUB0cbc90a094,Arsenic,Arsenic (and its compounds),NPRI
+SUB92c9c70222,Asbestos (friable form only),Asbestos (friable form only),NPRI
+SUB12f40aa86f,Azo disperse dyes,Azo disperse dyes,NPRI
+SUB24d6951bbb,Benz[a]anthracene,Benz[a]anthracene,NPRI
+SUBe89b88732c,Benzene,Benzene,NPRI
+SUB84410986b0,Benzo[a]pyrene,Benzo[a]pyrene,NPRI
+SUBbc1422aea9,Benzo[b]fluoranthene,Benzo[b]fluoranthene,NPRI
+SUB3feeddfb40,Benzo[e]pyrene,Benzo[e]pyrene,NPRI
+SUB739819743d,Benzo[ghi]perylene,Benzo[ghi]perylene,NPRI
+SUB400d9d7412,Benzo[j]fluoranthene,Benzo[j]fluoranthene,NPRI
+SUB61cc69e600,Benzo[k]fluoranthene,Benzo[k]fluoranthene,NPRI
+SUB4eea0d29b9,Biogenic CO2,Biogenic CO2,Manual
+SUBcc6b33a72a,Bisphenol A,Bisphenol A,NPRI
+SUB72bfc6f7ea,CH4,CH4,Manual
+SUB550729bf89,CO,CO,Manual
+SUB7765f1eeaa,CO2,CO2,Manual
+SUB09c00f97af,Cadmium (and its compounds),Cadmium (and its compounds),NPRI
+SUB3393dcebb9,Calcium fluoride,Calcium fluoride,NPRI
+SUB2e8ffb4a6f,Carbon disulphide,Carbon disulphide,NPRI
+SUB642eab0862,Carbon monoxide,Carbon monoxide,NPRI
+SUBebbc37025c,Carbonyl sulphide,Carbonyl sulphide,NPRI
+SUB26aa59ab40,Chlorine,Chlorine,NPRI
+SUB7e3f017a30,Chromium (and its compounds),Chromium (and its compounds),NPRI
+SUB65f3d10c4e,Chrysene,Chrysene,NPRI
+SUBd94d47b1d8,Cobalt (and its compounds),Cobalt (and its compounds),NPRI
+SUB71ee3dc4ca,Copper (and its compounds),Copper (and its compounds),NPRI
+SUB7d26453701,"Cresol (all isomers, and their salts)","Cresol (all isomers, and their salts)",NPRI
+SUB43088290b1,Cumene,Cumene,NPRI
+SUB2dfd45248d,Cyanides (ionic),Cyanides (ionic),NPRI
+SUB72038cdf53,"Dibenz[a,h]acridine","Dibenz[a,h]acridine",NPRI
+SUB414bbf79f1,"Dibenz[a,h]anthracene","Dibenz[a,h]anthracene",NPRI
+SUB4c08b38e69,"Dibenz[a,j]acridine","Dibenz[a,j]acridine",NPRI
+SUB599e5241dc,"Dibenzo[a,e]fluoranthene","Dibenzo[a,e]fluoranthene",NPRI
+SUB86b0baf95a,"Dibenzo[a,e]pyrene","Dibenzo[a,e]pyrene",NPRI
+SUBf6386b6ccf,"Dibenzo[a,h]pyrene","Dibenzo[a,h]pyrene",NPRI
+SUBe855715891,"Dibenzo[a,i]pyrene","Dibenzo[a,i]pyrene",NPRI
+SUB661d9cd98a,Dioxins and furans - total,Dioxins and furans - total,NPRI
+SUBa2a8a02933,Direct dust emissions,Direct dust emissions,Manual
+SUBf0dcc01230,Ethylbenzene,Ethylbenzene,NPRI
+SUBa5e5153ac3,Ethylene,Ethylene,NPRI
+SUB0c065993da,Ethylene glycol,Ethylene glycol,NPRI
+SUB9f82f183af,Fluoranthene,Fluoranthene,NPRI
+SUB8e9bc1adda,Fluorene,Fluorene,NPRI
+SUBcf761b373a,Fluoride emissions,Fluoride emissions,Manual
+SUBa99be32e06,Fluorine,Fluorine,NPRI
+SUB0f9bbc087f,Formaldehyde,Formaldehyde,NPRI
+SUBba06444fdd,Formic acid,Formic acid,NPRI
+SUB4faf1d835d,Hexachlorobenzene,Hexachlorobenzene,NPRI
+SUB07242555d3,Hexavalent chromium (and its compounds),Hexavalent chromium (and its compounds),NPRI
+SUBbc19ba7e85,Hydrochloric acid,Hydrochloric acid,NPRI
+SUB2c45c77583,Hydrogen cyanide,Hydrogen cyanide,NPRI
+SUB7826f3de59,Hydrogen fluoride,Hydrogen fluoride,NPRI
+SUB405e794a25,Hydrogen sulphide,Hydrogen sulphide,NPRI
+SUB46dd0460ff,"Indeno[1,2,3-cd]pyrene","Indeno[1,2,3-cd]pyrene",NPRI
+SUB0813c70cea,Isopropyl alcohol,Isopropyl alcohol,NPRI
+SUBc6f71d85ae,Lead,Lead,Manual
+SUBa91e414206,Lead (and its compounds),Lead (and its compounds),NPRI
+SUBf53b3d840b,Manganese,Manganese,Manual
+SUB60617760c1,Manganese (and its compounds),Manganese (and its compounds),NPRI
+SUB606cb109e2,Mercury,Mercury,Manual
+SUB630ad32d56,Mercury (and its compounds),Mercury (and its compounds),NPRI
+SUBf91b149b76,Methanol,Methanol,NPRI
+SUBe2c5d3ebd3,Methyl ethyl ketone,Methyl ethyl ketone,NPRI
+SUBa6a8b89e4f,Methyl isobutyl ketone,Methyl isobutyl ketone,NPRI
+SUBba5ec01413,Methylenebis(phenylisocyanate),Methylenebis(phenylisocyanate),NPRI
+SUBd17fc3b906,Molybdenum trioxide,Molybdenum trioxide,NPRI
+SUBd7dad9d315,N-Methyl-2-pyrrolidone,N-Methyl-2-pyrrolidone,NPRI
+SUBab97051319,N2O,N2O,Manual
+SUB27172bcf76,NO2,NO2,Manual
+SUB515573c582,NOx,NOx,Manual
+SUB3e2376b19e,NOx (excluding NO2),NOx (excluding NO2),Manual
+SUB9ec6d93273,Naphthalene,Naphthalene,NPRI
+SUB7df4ab05e3,Nickel (and its compounds),Nickel (and its compounds),NPRI
+SUB76703920dd,Nitrate ion in solution at pH >= 6.0,Nitrate ion in solution at pH >= 6.0,NPRI
+SUBa72a30e847,Nitric acid,Nitric acid,NPRI
+SUB2755fd780a,Nitrogen,Nitrogen,Manual
+SUB04af69acf0,Nitrogen oxides (expressed as nitrogen dioxide),Nitrogen oxides (expressed as nitrogen dioxide),NPRI
+SUBb4f3957ea0,Nonylphenol and its ethoxylates,Nonylphenol and its ethoxylates,NPRI
+SUB75cf795e75,"PAHs, total unspeciated","PAHs, total unspeciated",NPRI
+SUB18f94e849c,PFCs,PFCs,Manual
+SUB0c95dc6163,PM,PM,Manual
+SUBea8825f00e,PM10,PM10 - Particulate Matter <= 10 Micrometers,NPRI
+SUB95ce94acc5,PM2.5,PM2.5 - Particulate Matter <= 2.5 Micrometers,NPRI
+SUB7aae3e468f,PM<10,PM<10,Manual
+SUBc7ba2dc1ed,POP,POP,Manual
+SUB1f549497a7,Particulate,Particulate,Manual
+SUB8a0492cbf7,Perylene,Perylene,NPRI
+SUBdc9cf1e9f0,Phenanthrene,Phenanthrene,NPRI
+SUBfd3b98a0d1,Phenol (and its salts),Phenol (and its salts),NPRI
+SUBf71eab520e,Phosphorus (total),Phosphorus (total),NPRI
+SUB580e09c2f4,Polycyclic aromatic hydrocarbons (PAH),Polycyclic aromatic hydrocarbons (PAH),Manual
+SUBd68524448d,Polymeric diphenylmethane diisocyanate,Polymeric diphenylmethane diisocyanate,NPRI
+SUBbaba118e51,Propylene,Propylene,NPRI
+SUBae2c461010,Pyrene,Pyrene,NPRI
+SUB14984da897,Quinoline,Quinoline,NPRI
+SUB93846da691,SO2,SO2,Manual
+SUB2c1715b8f1,SOx,SOx,Manual
+SUBd9feeabbe7,Selenium,Selenium,Manual
+SUB7ff5383217,Selenium (and its compounds),Selenium (and its compounds),NPRI
+SUB31b9e1e5be,Silver (and its compounds),Silver (and its compounds),NPRI
+SUB1b9efda1e7,Sodium fluoride,Sodium fluoride,NPRI
+SUB44e42b7dc0,"Speciated VOC - 1,2,4-Trimethylbenzene","Speciated VOC - 1,2,4-Trimethylbenzene",NPRI
+SUBb3d9e02bf4,"Speciated VOC - 1,3-Butadiene","Speciated VOC - 1,3-Butadiene",NPRI
+SUB82f86d6a2d,Speciated VOC - 2-Butoxyethanol,Speciated VOC - 2-Butoxyethanol,NPRI
+SUB7a5c094230,Speciated VOC - Acetylene,Speciated VOC - Acetylene,NPRI
+SUBf846b05407,Speciated VOC - Benzene,Speciated VOC - Benzene,NPRI
+SUB5f13b62c95,Speciated VOC - Butane (all isomers),Speciated VOC - Butane (all isomers),NPRI
+SUBe1c9548753,Speciated VOC - Butene (all isomers),Speciated VOC - Butene (all isomers),NPRI
+SUB66c5a8703a,Speciated VOC - D-Limonene,Speciated VOC - D-Limonene,NPRI
+SUB6e7d148ba6,Speciated VOC - Decane  (all isomers),Speciated VOC - Decane  (all isomers),NPRI
+SUBde0c64d328,Speciated VOC - Ethanol,Speciated VOC - Ethanol,NPRI
+SUBb5ceabe7ff,Speciated VOC - Ethyl acetate,Speciated VOC - Ethyl acetate,NPRI
+SUB7a852f5869,Speciated VOC - Ethylene,Speciated VOC - Ethylene,NPRI
+SUB2a0824761d,Speciated VOC - Ethyltoluene (all isomers),Speciated VOC - Ethyltoluene (all isomers),NPRI
+SUB427c29d4d5,Speciated VOC - Formaldehyde,Speciated VOC - Formaldehyde,NPRI
+SUB5c992dbf1c,Speciated VOC - Furfuryl alcohol,Speciated VOC - Furfuryl alcohol,NPRI
+SUB268490c8de,Speciated VOC - Heavy aromatic solvent naphtha,Speciated VOC - Heavy aromatic solvent naphtha,NPRI
+SUB97af46ae84,Speciated VOC - Heptane (all isomers),Speciated VOC - Heptane (all isomers),NPRI
+SUB444fd579c9,Speciated VOC - Hexane (all isomers excluding n-hexane),Speciated VOC - Hexane (all isomers excluding n-hexane),NPRI
+SUBe01168b038,Speciated VOC - Hexene (all isomers),Speciated VOC - Hexene (all isomers),NPRI
+SUBb215244183,Speciated VOC - Hydrotreated heavy naphtha,Speciated VOC - Hydrotreated heavy naphtha,NPRI
+SUBb3ad2ab68f,Speciated VOC - Hydrotreated light distillate,Speciated VOC - Hydrotreated light distillate,NPRI
+SUBad5caaf73e,Speciated VOC - Isopropyl alcohol,Speciated VOC - Isopropyl alcohol,NPRI
+SUBa031714bcf,Speciated VOC - Light aromatic solvent naphtha,Speciated VOC - Light aromatic solvent naphtha,NPRI
+SUB744af8bbf7,Speciated VOC - Methanol,Speciated VOC - Methanol,NPRI
+SUB2dcfac1ae9,Speciated VOC - Methyl ethyl ketone,Speciated VOC - Methyl ethyl ketone,NPRI
+SUBc325d7d809,Speciated VOC - Methyl isobutyl ketone,Speciated VOC - Methyl isobutyl ketone,NPRI
+SUBd3277f955b,Speciated VOC - Mineral spirits,Speciated VOC - Mineral spirits,NPRI
+SUB666ef0853a,Speciated VOC - Nonane (all isomers),Speciated VOC - Nonane (all isomers),NPRI
+SUB705528570e,Speciated VOC - Octane (all isomers),Speciated VOC - Octane (all isomers),NPRI
+SUBd4dd188e54,Speciated VOC - Other glycol ethers and acetates (and their isomers),Speciated VOC - Other glycol ethers and acetates (and their isomers),NPRI
+SUBfccb546ec8,Speciated VOC - Pentane (all isomers),Speciated VOC - Pentane (all isomers),NPRI
+SUB5e96c4d65f,Speciated VOC - Pentene (all isomers),Speciated VOC - Pentene (all isomers),NPRI
+SUBfa27fe1951,Speciated VOC - Propane,Speciated VOC - Propane,NPRI
+SUBcd8e6158e4,Speciated VOC - Propyl acetate (all isomers),Speciated VOC - Propyl acetate (all isomers),NPRI
+SUBc4fe19f682,Speciated VOC - Propylene,Speciated VOC - Propylene,NPRI
+SUBb8203155e7,Speciated VOC - Propylene glycol methyl ether acetate (all isomers),Speciated VOC - Propylene glycol methyl ether acetate (all isomers),NPRI
+SUBa6748c149f,Speciated VOC - Solvent naphtha light aliphatic,Speciated VOC - Solvent naphtha light aliphatic,NPRI
+SUBc265377133,Speciated VOC - Solvent naphtha medium aliphatic,Speciated VOC - Solvent naphtha medium aliphatic,NPRI
+SUB11536f42a8,Speciated VOC - Stoddard solvent,Speciated VOC - Stoddard solvent,NPRI
+SUB6855ca23fa,Speciated VOC - Styrene,Speciated VOC - Styrene,NPRI
+SUB2aa97e9c63,Speciated VOC - Tetrahydrofuran,Speciated VOC - Tetrahydrofuran,NPRI
+SUB5ffb6440b6,Speciated VOC - Toluene,Speciated VOC - Toluene,NPRI
+SUBe4773bcd62,"Speciated VOC - Trimethylbenzene (all isomers excluding 1,2,4-trimethylbenzene)","Speciated VOC - Trimethylbenzene (all isomers excluding 1,2,4-trimethylbenzene)",NPRI
+SUBc9a102d24c,Speciated VOC - VM & P naphtha,Speciated VOC - VM & P naphtha,NPRI
+SUB3555b0b724,Speciated VOC - Xylene (all isomers),Speciated VOC - Xylene (all isomers),NPRI
+SUBba84f97e78,Speciated VOC - n-Hexane,Speciated VOC - n-Hexane,NPRI
+SUB2bdc5cc5a2,Speciated VOC - n-Propanol (n-Propyl alcohol),Speciated VOC - n-Propanol (n-Propyl alcohol),NPRI
+SUBd1605a269e,Speciated VOC - p-Dichlorobenzene,Speciated VOC - p-Dichlorobenzene,NPRI
+SUBe2b990f545,Styrene,Styrene,NPRI
+SUBe85dc94f4d,Sulfur dioxide,Sulfur dioxide,Manual
+SUB4cedd6b899,Sulphur dioxide,Sulphur dioxide,NPRI
+SUBda6a6d231d,Sulphuric acid,Sulphuric acid,NPRI
+SUB3d85023c46,Thallium (and its compounds),Thallium (and its compounds),NPRI
+SUBa7136aa478,Toluene,Toluene,NPRI
+SUB28f44d0e11,Total particulate matter,Total particulate matter,NPRI
+SUBba3b5d11c7,Total reduced sulphur (expressed as hydrogen sulphide),Total reduced sulphur (expressed as hydrogen sulphide),NPRI
+SUBf7dbe2d6dd,Trichloroethylene,Trichloroethylene,NPRI
+SUBbabfa2dbb1,Uranium,Uranium,Manual
+SUB8319f60a2f,VOCs,Volatile Organic Compounds (Total),NPRI
+SUB787e5ac1a2,Vanadium (and its compounds),Vanadium (and its compounds),NPRI
+SUBe849a2ff09,Xylene (all isomers),Xylene (all isomers),NPRI
+SUBae95939c3f,Zinc (and its compounds),Zinc (and its compounds),NPRI
+SUB090a1237c1,i-Butyl alcohol,i-Butyl alcohol,NPRI
+SUBd049575022,n-Hexane,n-Hexane,NPRI

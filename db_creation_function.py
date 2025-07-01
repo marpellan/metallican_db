@@ -313,35 +313,9 @@ def assign_row_id(
 
 
 
-def create_substance_table(pollutant_df):
-    # Select relevant columns and drop duplicates
-    unique_substances = pollutant_df[[
-        "substance_name_npri", "substance_name_ecoinvent",
-        "emission_type", "emission_subtype"
-    ]].drop_duplicates().reset_index(drop=True)
 
-    # Rename for clarity
-    unique_substances = unique_substances.rename(columns={
-        "substance_name_npri": "substance_name",
-        "substance_name_ecoinvent": "ecoinvent_alias",
-        "emission_type": "substance_type",
-        "emission_subtype": "substance_subtype"
-    })
 
-    # Generate a stable hash ID
-    def make_id(row):
-        raw = f"{row['substance_name']}|{row['ecoinvent_alias']}|{row['substance_type']}|{row['substance_subtype']}"
-        return "SUB" + hashlib.sha1(raw.encode('utf-8')).hexdigest()[:10]
 
-    unique_substances["substance_id"] = unique_substances.apply(make_id, axis=1)
-
-    # Reorder columns
-    substance_table = unique_substances[[
-        "substance_id", "substance_type", "substance_subtype",
-        "substance_name", "ecoinvent_alias"
-    ]]
-
-    return substance_table
 
 
 def compute_similarity_score(df, name_col1="facility_name_df1", name_col2="facility_name_df2", threshold=80):
@@ -497,3 +471,205 @@ def analyze_and_compare_polygon_areas(gdf1, gdf2, dataset_name1, dataset_name2, 
 
     return summary_df
 
+
+def create_substance_table(pollutant_gdf, env_df):
+    """
+    Combine and clean substance names from NPRI and manually collected datasets,
+    apply harmonized naming, assign stable substance IDs, and return a master substance table.
+    """
+
+    # Step 1: Concatenate and tag provenance
+    npri_sub = pollutant_gdf[['substance_name_npri']].copy()
+    npri_sub['source'] = 'NPRI'
+    npri_sub = npri_sub.rename(columns={'substance_name_npri': 'original_name'})
+
+    manual_sub = env_df[['substance_name']].copy()
+    manual_sub['source'] = 'Manual'
+    manual_sub = manual_sub.rename(columns={'substance_name': 'original_name'})
+
+    all_substances = pd.concat([npri_sub, manual_sub], ignore_index=True)
+
+    # Step 2: Clean and exclude irrelevant entries
+    all_substances['original_name'] = all_substances['original_name'].astype(str).str.strip()
+    all_substances = all_substances[all_substances['original_name'] != '-']
+    all_substances = all_substances[all_substances['original_name'] != 'nan']
+
+    # Step 3: Harmonization dictionary
+    harmonized_map = {
+        "Ammonia (total)": "Ammonia",
+        "Antimony (and its compounds)": "Antimony",
+        "Arsenic (and its compounds)": "Arsenic",
+        "Lead (and its compounds)": "Lead",
+        "Mercury (and its compounds)": "Mercury",
+        "PM10 - Particulate Matter <= 10 Micrometers": "PM10",
+        "PM2.5 - Particulate Matter <= 2.5 Micrometers": "PM2.5",
+        "Volatile Organic Compounds (Total)": "VOCs",
+    }
+
+    all_substances['harmonized_name'] = all_substances['original_name'].replace(harmonized_map)
+
+    # Step 4: Drop duplicates
+    substance_table = (
+        all_substances
+        .drop_duplicates(subset=['harmonized_name'])
+        .sort_values('harmonized_name')
+        .reset_index(drop=True)
+    )
+
+    # Step 5: Generate stable substance_id using SHA1 hash
+    def make_id(row):
+        raw = f"{row['harmonized_name']}"
+        return "SUB" + hashlib.sha1(raw.encode('utf-8')).hexdigest()[:10]
+
+    substance_table['substance_id'] = substance_table.apply(make_id, axis=1)
+
+    # Step 6: Reorder columns
+    substance_table = substance_table[[
+        'substance_id', 'harmonized_name', 'original_name', 'source'
+    ]]
+
+    return substance_table
+
+
+def create_compartment_table(pollutant_gdf, env_df):
+    """
+    Build a harmonized compartment table with traceable raw labels for merging.
+    """
+
+    # --- Define mapping from emission_type to (compartment, pathway)
+    compartment_mapping_clean = {
+        "Air Emissions / Émissions à l'air": ("Air", "Unspecified"),
+        "Water Releases / Rejets à l'eau": ("Water", "Unspecified"),
+        "Land Releases /  Rejets au sol": ("Land", "Unspecified"),
+        "On-Site Disposal / Élimination sur le site": ("Land", "On-site disposal"),
+        "Off-Site Disposal / Élimination hors site": ("Land", "Off-site disposal"),
+        "Total Releases / Rejets totaux": (None, "Aggregate"),
+        "Transfers for Treatment / Transferts pour traitement": (None, "Transfer for treatment"),
+        "Transfers for Recycling / Transferts pour recyclage": (None, "Transfer for recycling"),
+        "Total On-Site, Off-Site and Treatment Disposal /\n Élimination sur le site, hors site et pour traitement totale": (None, "Aggregate"),
+        "Grand Total": (None, "Grand total")
+    }
+
+    # --- NPRI data
+    npri_comp = pollutant_gdf[['emission_type', 'emission_subtype']].dropna(subset=['emission_type']).copy()
+    npri_comp['source'] = 'NPRI'
+    npri_comp[['compartment', 'default_pathway']] = npri_comp['emission_type'].map(compartment_mapping_clean).apply(pd.Series)
+    npri_comp['compartment_pathway'] = npri_comp['emission_subtype'].fillna('').str.strip()
+    npri_comp.loc[npri_comp['compartment_pathway'] == '', 'compartment_pathway'] = npri_comp['default_pathway']
+    npri_comp['raw_compartment_label'] = npri_comp['emission_type']
+    npri_comp['raw_pathway_label'] = npri_comp['emission_subtype'].fillna('Unspecified')
+    npri_comp = npri_comp.drop(columns=['default_pathway'])
+
+    # --- Manual data
+    env_comp = env_df[['compartment']].dropna().copy()
+    env_comp = env_comp[env_comp['compartment'] != '-']
+    env_comp['compartment_pathway'] = 'Unspecified'
+    env_comp['raw_compartment_label'] = env_comp['compartment']
+    env_comp['raw_pathway_label'] = 'Unspecified'
+    env_comp['source'] = 'Manually collected data'
+
+    # --- Align columns
+    env_comp['compartment'] = env_comp['compartment']
+    manual_cols = ['compartment', 'compartment_pathway', 'raw_compartment_label', 'raw_pathway_label', 'source']
+    npri_cols = manual_cols
+
+    # --- Combine all
+    all_comps = pd.concat([
+        npri_comp[npri_cols],
+        env_comp[manual_cols]
+    ], ignore_index=True).drop_duplicates().reset_index(drop=True)
+
+    # --- Create hashed ID
+    def make_id(row):
+        raw = f"{row['compartment']}_{row['compartment_pathway']}"
+        return "CMP" + hashlib.sha1(raw.encode('utf-8')).hexdigest()[:10]
+
+    all_comps['compartment_id'] = all_comps.apply(make_id, axis=1)
+
+    # --- Final structure
+    return all_comps[[
+        'compartment_id', 'compartment', 'compartment_pathway',
+        'raw_compartment_label', 'raw_pathway_label', 'source'
+    ]].sort_values(['compartment', 'compartment_pathway'])
+
+
+def add_source_id_to_collected_data(df, company_col="company", facility_col="facility", source_col="source", source_id_col="source_id"):
+    """
+    Add a human-readable source_id column to a DataFrame using company, facility, and source file name.
+
+    Parameters:
+    - df: pandas DataFrame
+    - company_col: column name for the company
+    - facility_col: column name for the facility
+    - source_col: column name for the source file (e.g. PDF, Excel)
+    - source_id_col: name of the output column to be added
+
+    Returns:
+    - df with a new 'source_id' column (if not already present)
+    """
+    import pandas as pd
+    from pathlib import Path
+
+    if source_id_col not in df.columns:
+        def create_source_id(row):
+            company = str(row[company_col]).strip().replace(" ", "")
+            file_stem = Path(str(row[source_col])).stem.strip().replace(" ", "")
+            return f"SRC_{company}_{file_stem}"
+
+        df[source_id_col] = df.apply(create_source_id, axis=1)
+    else:
+        print(f"ℹ️ '{source_id_col}' already exists. No changes made.")
+
+    return df
+
+
+def create_source_table_from_datasets(dataset_dict, manually_collected_dfs, source_col="source", company_col="company", facility_col="facility"):
+    """
+    Create a consolidated source table from multiple GeoDataFrames and manually collected data.
+
+    Parameters:
+    - dataset_dict: dict mapping GeoDataFrame name (str) to actual df with a single source_id value
+    - manually_collected_dfs: list of dataframes that use the 'add_source_id' function
+    - source_col, company_col, facility_col: column names in manually collected dfs
+
+    Returns:
+    - A pandas DataFrame with columns: source_id, source_provenance, source_name
+    """
+
+    import pandas as pd
+    from pathlib import Path
+
+    # Step 1: Add known datasets
+    dataset_sources = []
+    for name, df in dataset_dict.items():
+        unique_ids = df['source_id'].dropna().unique()
+        for sid in unique_ids:
+            dataset_sources.append({
+                "source_id": sid.strip(),
+                "source_provenance": "dataset",
+                "source_name": name
+            })
+
+    # Step 2: Add manually collected sources
+    manual_sources = []
+    for df in manually_collected_dfs:
+        if "source_id" not in df.columns:
+            continue  # skip if not processed yet
+        for _, row in df.dropna(subset=["source_id"]).drop_duplicates(subset=["source_id"]).iterrows():
+            source_id = row["source_id"]
+            company = str(row.get(company_col, "")).strip()
+            facility = str(row.get(facility_col, "")).strip()
+            file_path = Path(str(row.get(source_col, "")))
+            file_name = file_path.name
+            source_name = f"{company} – {facility} ({file_name})".strip(" –()")
+            manual_sources.append({
+                "source_id": source_id,
+                "source_provenance": "report",
+                "source_name": source_name
+            })
+
+    # Combine, deduplicate
+    full_source_table = pd.DataFrame(dataset_sources + manual_sources)
+    full_source_table = full_source_table.drop_duplicates(subset=["source_id"]).sort_values("source_provenance")
+
+    return full_source_table

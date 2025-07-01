@@ -3,10 +3,9 @@ aluminum,intermediate metal produced,"3,531,969","3,301,844"
 cobalt,intermediate metal produced,,"5,099"
 cobalt,refined metal,"3,368","4,923"
 concentrate,concentrate produced,"142,285",
-copper,concentrate produced,"28,428,258","1,472,936"
-copper,intermediate metal produced,"94,594,344","508,250"
+copper,concentrate produced,"67,109,335","1,472,936"
+copper,intermediate metal produced,"55,913,266","508,250"
 diamonds,concentrate produced,0,
-diamonds,nan,,3
 diamonds,ore mined,"21,200,000",
 diamonds,ore processed,"4,200,000",
 ferroniobium,intermediate metal produced,"11,700",
@@ -24,8 +23,7 @@ lead,refined metal,"244,600",
 lithium,concentrate produced,"33,120",
 lithium,intermediate metal produced,,179
 lithium,ore mined,"407,034",
-molybdenum,concentrate produced,900,
-molybdenum,intermediate metal produced,"544,310","1,369"
+molybdenum,intermediate metal produced,"545,210","1,369"
 nickel,concentrate produced,400,"949,236"
 nickel,intermediate metal produced,"9,220","158,668"
 nickel,refined metal,"91,868",
@@ -38,8 +36,8 @@ platinum,intermediate metal produced,,5
 platinum,refined metal,1,
 platinum group,intermediate metal produced,,22
 platinum group,refined metal,,12
-silver,concentrate produced,100,
-silver,intermediate metal produced,127,306
+silver,concentrate produced,93,
+silver,intermediate metal produced,133,306
 silver,refined metal,858,"6,721"
 steel,intermediate metal produced,"828,000",
 steel,refined metal,"5,000,000",
