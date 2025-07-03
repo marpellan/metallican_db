@@ -673,3 +673,62 @@ def create_source_table_from_datasets(dataset_dict, manually_collected_dfs, sour
     full_source_table = full_source_table.drop_duplicates(subset=["source_id"]).sort_values("source_provenance")
 
     return full_source_table
+
+
+def assign_row_id_to_collected_data(
+    df,
+    facility_id_col="main_id",
+    row_id_col="row_id",
+    prefix="ROW",
+    year_col=None,
+    scenario_col=None,
+    fallback_cols=["facility_group_id", "company_id"]
+):
+    df = df.copy()
+
+    def is_valid(val):
+        return pd.notna(val) and str(val).strip() not in ["", "-"]
+
+    def resolve_facility_id(row):
+        val = row.get(facility_id_col)
+        if is_valid(val):
+            return str(val).strip()
+        for col in fallback_cols:
+            fallback_val = row.get(col)
+            if is_valid(fallback_val):
+                return str(fallback_val).strip()
+        return "UNKNOWN"
+
+    def extract_hash(fac_id):
+        s = str(fac_id)
+        parts = s.split("-")
+        if len(parts) >= 3:
+            return parts[-1]
+        else:
+            return s
+
+    df["_facility_resolved"] = df.apply(resolve_facility_id, axis=1)
+    df["_hash"] = df["_facility_resolved"].apply(extract_hash)
+
+    group_cols = ["_facility_resolved"]
+    if year_col:
+        group_cols.append(year_col)
+    if scenario_col:
+        group_cols.append(scenario_col)
+
+    df["_row_index"] = df.groupby(group_cols).cumcount() + 1
+
+    def build_id(row):
+        parts = [prefix, row["_hash"]]
+        if year_col:
+            parts.append(str(row[year_col]))
+        if scenario_col:
+            parts.append(str(row[scenario_col]))
+        parts.append(str(row["_row_index"]))
+        return "-".join(parts)
+
+    df[row_id_col] = df.apply(build_id, axis=1)
+    df.drop(columns=["_row_index", "_hash", "_facility_resolved"], inplace=True)
+
+    cols = [row_id_col] + [col for col in df.columns if col != row_id_col]
+    return df[cols]

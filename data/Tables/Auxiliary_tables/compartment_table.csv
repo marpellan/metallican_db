@@ -1,0 +1,49 @@
+compartment_id,compartment,compartment_pathway,raw_compartment_label,raw_pathway_label,source
+CMP87fcbae317,Air,Fugitive Emissions,Air Emissions / Émissions à l'air,Fugitive Emissions,NPRI
+CMP950ffe3996,Air,Other,Air Emissions / Émissions à l'air,Other,NPRI
+CMP8395a4b073,Air,Spills,Air Emissions / Émissions à l'air,Spills,NPRI
+CMP1718f4466d,Air,Stack Emissions,Air Emissions / Émissions à l'air,Stack Emissions,NPRI
+CMP83f6ce8345,Air,Storage / Handling,Air Emissions / Émissions à l'air,Storage / Handling,NPRI
+CMP6d07582b7f,Air,Total,Air Emissions / Émissions à l'air,Total,NPRI
+CMPf3265e9fca,Air,Unspecified,Air,Unspecified,Manually collected data
+CMP1ada5c9a81,Land,Land Fill,On-Site Disposal / Élimination sur le site,Land Fill,NPRI
+CMP1ada5c9a81,Land,Land Fill,Off-Site Disposal / Élimination hors site,Land Fill,NPRI
+CMPcb8a7736a9,Land,Land Treatment,On-Site Disposal / Élimination sur le site,Land Treatment,NPRI
+CMP3143a20c1b,Land,Other,Land Releases /  Rejets au sol,Other,NPRI
+CMPab73449d50,Land,Spills,Land Releases /  Rejets au sol,Spills,NPRI
+CMP9f9a51a77d,Land,Storage,Off-Site Disposal / Élimination hors site,Storage,NPRI
+CMPd55c4d2434,Land,Tailings,On-Site Disposal / Élimination sur le site,Tailings,NPRI
+CMPd55c4d2434,Land,Tailings,Off-Site Disposal / Élimination hors site,Tailings,NPRI
+CMPa7d2fb8111,Land,Total,Land Releases /  Rejets au sol,Total,NPRI
+CMP64ce27a887,Land,Total Off-Site,Off-Site Disposal / Élimination hors site,Total Off-Site,NPRI
+CMP64b8fa0009,Land,Total On-Site,On-Site Disposal / Élimination sur le site,Total On-Site,NPRI
+CMPcfaa2bd69b,Land,Underground Injection,Off-Site Disposal / Élimination hors site,Underground Injection,NPRI
+CMPc2a407fec8,Land,Unspecified,Land,Unspecified,Manually collected data
+CMPd14486f651,Land,Waste Rock,On-Site Disposal / Élimination sur le site,Waste Rock,NPRI
+CMPd14486f651,Land,Waste Rock,Off-Site Disposal / Élimination hors site,Waste Rock,NPRI
+CMP9115949d7e,Water,Direct Discharge,Water Releases / Rejets à l'eau,Direct Discharge,NPRI
+CMP3e56f83199,Water,Spills,Water Releases / Rejets à l'eau,Spills,NPRI
+CMPdb39127c91,Water,Total,Water Releases / Rejets à l'eau,Total,NPRI
+CMP68bd334352,Water,Unspecified,Water Releases / Rejets à l'eau,Unspecified,NPRI
+CMP68bd334352,Water,Unspecified,Water,Unspecified,Manually collected data
+CMPdc26bd798a,,Acid or Base Recovery,Transfers for Recycling / Transferts pour recyclage,Acid or Base Recovery,NPRI
+CMP8bff63f5ca,,Biological Treatment,Transfers for Treatment / Transferts pour traitement,Biological Treatment,NPRI
+CMPe653bef0f2,,Chemical Treatment,Transfers for Treatment / Transferts pour traitement,Chemical Treatment,NPRI
+CMPa85e070508,,Energy Recovery,Transfers for Recycling / Transferts pour recyclage,Energy Recovery,NPRI
+CMP171e7c8ee1,,Incineration,Transfers for Treatment / Transferts pour traitement,Incineration,NPRI
+CMPdb2643d259,,Inorganic Compound Recovery,Transfers for Recycling / Transferts pour recyclage,Inorganic Compound Recovery,NPRI
+CMP1693e775c9,,Metal Recovery,Transfers for Recycling / Transferts pour recyclage,Metal Recovery,NPRI
+CMP9d366bb214,,Organic Compound Recovery,Transfers for Recycling / Transferts pour recyclage,Organic Compound Recovery,NPRI
+CMP860ec9c376,,Other,Transfers for Recycling / Transferts pour recyclage,Other,NPRI
+CMP0c7c16ad88,,Physical Treatment,Transfers for Treatment / Transferts pour traitement,Physical Treatment,NPRI
+CMPa7311ed8af,,Road Dust Emissions,Total Releases / Rejets totaux,Road Dust Emissions,NPRI
+CMP54d99df3e0,,Solvent Recovery,Transfers for Recycling / Transferts pour recyclage,Solvent Recovery,NPRI
+CMP86f071b89d,,Total,Transfers for Treatment / Transferts pour traitement,Total,NPRI
+CMP86f071b89d,,Total,"Total On-Site, Off-Site and Treatment Disposal /
+ Élimination sur le site, hors site et pour traitement totale",Total,NPRI
+CMP86f071b89d,,Total,Transfers for Recycling / Transferts pour recyclage,Total,NPRI
+CMP06badc586b,,Total Releases (Excluding Road Dust),Total Releases / Rejets totaux,Total Releases (Excluding Road Dust),NPRI
+CMP01b206d131,,Total Releases Including Road Dust,Total Releases / Rejets totaux,Total Releases Including Road Dust,NPRI
+CMP281acc6045,,"Total Releases, Disposals and Transfers for Recycling",Grand Total,"Total Releases, Disposals and Transfers for Recycling",NPRI
+CMP1eddd4f2ed,,Transfer to a Municipal Sewage Treatment Plant,Transfers for Treatment / Transferts pour traitement,Transfer to a Municipal Sewage Treatment Plant,NPRI
+CMP8e4863c7e3,,Used Oil Recovery,Transfers for Recycling / Transferts pour recyclage,Used Oil Recovery,NPRI

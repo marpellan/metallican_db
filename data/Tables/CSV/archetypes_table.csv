@@ -1,0 +1,230 @@
+row_id,reported_company_nrcan,name,main_id,facility_group_id,facility_type,mining_processing_type,commodities_nrcan,deposit_type,mining_depth,mining_method,processing_method,source,source_id
+ARCH-d29e0839-1,Abcourt Mines Inc,Sleeping Giant,QC-MAIN-d29e0839,-,mining,Concentrator,"Gold, silver",VMS,,"Shrinkage stoping
+Room-and-pillar
+Longhole stoping",,MDO,SRC_AbcourtMinesInc_MDO
+ARCH-1f126a43-1,Agnico Eagle Mines Limited,Canadian Malartic,ON-MAIN-1f126a43,-,mining,"Underground, concentrator","Gold, silver",Disseminated gold deposit,,"Open pit, conventional truck and shovel; remote-controlled shovels, drills, and dozers used in legacy underground mining areas​","Conventional crushing, grinding, gravity concentration, cyanide leaching, and carbon-in-pulp recovery​",TR_2021,SRC_AgnicoEagleMinesLimited_TR_2021
+ARCH-e7e6a960-1,Agnico Eagle Mines Limited,Detour Lake,QC-MAIN-e7e6a960,-,mining,"Open-pit, concentrator",Gold,Disseminated and structurally controlled lode gold deposit​,,"Open pit, conventional truck and shovel method","Crushing, grinding, gravity concentration, cyanide leaching, and carbon-in-pulp (CIP) circuit​",TR_2021,SRC_AgnicoEagleMinesLimited_TR_2021
+ARCH-8b0264c9-1,Agnico Eagle Mines Limited,Goldex,NU-MAIN-8b0264c9,-,mining,"Underground, concentrator","Gold, silver","Vein / narrow vein
+Skarn
+Hydrothermal",,"Truck & Shovel / Loader
+Longhole stoping",,MDO,SRC_AgnicoEagleMinesLimited_MDO
+ARCH-4ea8ac9d-1,Agnico Eagle Mines Limited,LaRonde,NU-MAIN-4ea8ac9d,-,mining,"Open-pit, underground, concentrator","Gold, zinc, copper, silver, cadmium",Polymetallic massive sulphide and lode gold deposit,,"Longitudinal and transverse longhole open stoping methods, primary-secondary or pillarless mining sequences, and paste backfill​",,TR_2023,SRC_AgnicoEagleMinesLimited_TR_2023
+ARCH-730aefe3-1,Agnico Eagle Mines Limited,Macassa,NU-MAIN-730aefe3,-,mining,Concentrator,"Gold, silver","Vein / narrow vein
+Breccia pipe / Stockwork",,"Longhole stoping
+Mechanized Cut & Fill
+Underhand Cut & Fill
+Overhand Cut & Fill",x,MDO,SRC_AgnicoEagleMinesLimited_MDO
+ARCH-GRP-0a2c0d69-1,Agnico Eagle Mines Limited,Meadowbank complex,-,GRP-0a2c0d69,mining,"Open-pit, concentrator",Gold,"Mesothermal lode-gold mineralization (including hybrid, stratiform, and vein-type iron-formation-hosted gold deposits)​",-,Open pit truck and shovel methods; selective mining within ore zones,"Primary and secondary crushing, semi-autogenous grinding (SAG), ball mill, gravity concentration, cyanide leaching, and carbon-in-pulp (CIP)​",TR_2018,SRC_AgnicoEagleMinesLimited_TR_2018
+ARCH-aeafbb59-1,Agnico Eagle Mines Limited,Meliadine,ON-MAIN-aeafbb59,-,mining,"Underground, concentrator",Gold,"Mesothermal lode gold deposits, primarily iron-formation-hosted",,"Long-hole mining method (both transverse and longitudinal mining); Cemented pastefill in primary stopes, rockfill in secondary stopes",,TR_2023,SRC_AgnicoEagleMinesLimited_TR_2023
+ARCH-7607a50e-1,Alamos Gold Inc,Island,ON-MAIN-7607a50e,-,mining,"Underground, concentrator",Gold,Vein / narrow vein,,"Longitudinal open stoping
+Longhole open stoping
+Transverse open stoping",,MDO,SRC_AlamosGoldInc_MDO
+ARCH-687b8c8d-1,Alamos Gold Inc,Young-Davidson,ON-MAIN-687b8c8d,-,mining,"Underground, concentrator",Gold,"Intrusion related
+Syenite hosted",,"Longitudinal stoping
+Transverse stoping",,MDO,SRC_AlamosGoldInc_MDO
+ARCH-084bd95c-1,ArcelorMittal,Fire Lake,QC-MAIN-084bd95c,-,mining,Open-pit,Iron,Banded iron formation,,Truck & Shovel / Loader,,MDO,SRC_ArcelorMittal_MDO
+ARCH-33c09b8b-1,ArcelorMittal,Mont-Wright,QC-MAIN-33c09b8b,-,mining,"Open-pit, concentrator",Iron,Banded iron formation,,Truck & Shovel / Loader,,MDO,SRC_ArcelorMittal_MDO
+ARCH-8825d90d-1,Argonaut Gold Inc,Magino,ON-MAIN-8825d90d,-,mining,"Open-pit, concentrator","Gold, silver","Vein / narrow vein
+Orogenic
+Breccia pipe / Stockwork",,Truck & Shovel / Loader,,MDO,SRC_ArgonautGoldInc_MDO
+ARCH-8825d90d-2,Argonaut Gold Inc.,Magino,ON-MAIN-8825d90d,-,mining,"Open-pit, concentrator","Gold, silver","Vein / narrow vein
+Orogenic
+Breccia pipe / Stockwork",,Truck & Shovel / Loader,,MDO,SRC_ArgonautGoldInc._MDO
+ARCH-5154702a-1,Baffinland Iron Mines Corporation,Mary River,NU-MAIN-5154702a,-,mining,Open-pit,Iron,Banded iron formation,,Truck & Shovel / Loader,,MDO,SRC_BaffinlandIronMinesCorporation_MDO
+ARCH-6e9be24e-1,Barrick Gold Corporation,Hemlo (Williams),ON-MAIN-6e9be24e,-,mining,"Open-pit, underground, concentrator",Gold,"Orogenic
+Breccia pipe / Stockwork",,"Longitudinal stoping
+Alimak
+Transverse stoping",,MDO,SRC_BarrickGoldCorporation_MDO
+ARCH-6c1d6ee6-1,Burgundy Diamond Mines,Ekati,NT-MAIN-6c1d6ee6,-,mining,"Underground, plant",Diamonds,Kimberlite,,"Truck & Shovel / Loader
+Sub-level Retreat",,,SRC_BurgundyDiamondMines_nan
+ARCH-91cf5448-1,Cameco Corporation,Cigar Lake,SK-MAIN-91cf5448,-,mining,Underground,Uranium,Unconformity-related,~410–450,"Jet Boring System (JBS), frozen ore","Slurry to McClean Lake mill, acid leach (~99.5% recovery)",TR_2024,SRC_CamecoCorporation_TR_2024
+ARCH-GRP-21eee27d-1,Cameco Corporation,Key Lake + McArthur River,-,GRP-21eee27d,mining,"Underground, concentrator",Uranium,Unconformity-related,~500–640,Underground blasthole & raisebore,"Acid leach at Key Lake mill, blended with lower-grade feed",TR_2019,SRC_CamecoCorporation_TR_2019
+ARCH-5ce331b8-1,Canadian Royalties Inc,Nunavik Nickel,QC-MAIN-5ce331b8,-,mining,"Open-pit, underground, concentrator","Nickel, copper, platinum group metals, cobalt",Magmatic,,"Truck & Shovel / Loader
+Longhole stoping",,MDO,SRC_CanadianRoyaltiesInc_MDO
+ARCH-ed23117f-1,Centerra Gold Inc,Mount Milligan,BC-MAIN-ed23117f,-,mining,"Open-pit, concentrator","Copper, gold, silver","Porphyry
+Breccia pipe / Stockwork
+Vein / narrow vein",,Truck & Shovel / Loader,,,SRC_CenterraGoldInc_nan
+ARCH-089f3c60-1,Champion Iron Ltd,Bloom Lake,QC-MAIN-089f3c60,-,mining,Open-pit,Iron,Banded iron formation,,Truck & Shovel / Loader,,MDO,SRC_ChampionIronLtd_MDO
+ARCH-94e652a5-1,De Beers Canada Inc,Gahcho Kué,NT-MAIN-94e652a5,-,mining,"Open-pit, plant",Diamonds,Kimberlite,,Truck & Shovel / Loader,,,SRC_DeBeersCanadaInc_nan
+ARCH-f9e41c2a-1,Eldorado Gold,Lamaque,QC-MAIN-f9e41c2a,-,mining,"Underground, concentrator",Gold,"Vein / narrow vein
+Orogenic",,"Longhole stoping
+Longitudinal stoping
+Transverse stoping
+Longitudinal retreat
+Sill mining",,MDO,SRC_EldoradoGold_MDO
+ARCH-7f050560-1,Evolution Mining Ltd,Red Lake,ON-MAIN-7f050560,-,mining,"Underground, concentrator","Gold, silver","Vein / narrow vein
+Replacement
+Breccia pipe / Stockwork",,"Sub-level open stoping (SLOS)
+Avoca",,MDO,SRC_EvolutionMiningLtd_MDO
+ARCH-c139de6d-1,FireFly Metals Ltd,Ming,NL-MAIN-c139de6d,-,mining,Concentrator,"Copper, gold, silver",VMS,,"Post Pillar Cut & Fill
+Longhole stoping
+Transverse stoping",,MDO,SRC_FireFlyMetalsLtd_MDO
+ARCH-a97821c0-1,Glencore Canada Corporation,Kidd Creek,QC-MAIN-a97821c0,-,mining,Underground,"Copper, zinc, silver, selenium, indium",VMS,,Longhole open stoping,,MDO,SRC_GlencoreCanadaCorporation_MDO
+ARCH-f8313ebd-1,Glencore Canada Corporation,Raglan,ON-MAIN-f8313ebd,-,mining,Concentrator,"Nickel, platinum group metals, copper, cobalt, gold, silver","Magmatic
+Footwall hosted",,"Cut & Fill
+Longhole stoping",,MDO,SRC_GlencoreCanadaCorporation_MDO
+ARCH-GRP-1437e854-1,Glencore Canada Corporation,Sudbury INO,-,GRP-1437e854,mining and manufacturing,"Underground, concentrator","Nickel, copper, platinum group metals, gold, cobalt, silver","Vein / narrow vein
+Contact-metasomatic
+Footwall hosted",,"Cut & Fill
+Blast Hole Stoping
+Longhole stoping",,MDO,SRC_GlencoreCanadaCorporation_MDO
+ARCH-44857446-1,Hecla Mining Company,Casa Berardi,YT-MAIN-44857446,-,mining,"Underground, concentrator","Gold, silver","Breccia pipe / Stockwork
+Vein / narrow vein
+Banded iron formation hosted",,"Truck & Shovel / Loader
+Longhole stoping
+Transverse stoping
+Longitudinal stoping",,MDO,SRC_HeclaMiningCompany_MDO
+ARCH-b86f7d07-1,Hecla Mining Company,Keno Hill Silver District,QC-MAIN-b86f7d07,-,mining,"Open-pit, underground, concentrator","Silver, zinc, lead","Hydrothermal
+Vein / narrow vein",,Mechanized Cut & Fill,,MDO,SRC_HeclaMiningCompany_MDO
+ARCH-GRP-a13779f8-1,Hudbay Minerals Inc,Snow Lake,-,GRP-a13779f8,mining,"Open-pit, underground, concentrator","Gold, zinc, copper, silver","Volcanogenic Massive Sulphide (VMS) — Cu-Zn and Zn-Cu rich, and structurally controlled lode-gold vein-type for New Britannia and other gold zones","Lalor’s mineralized lenses reach ~800 meters vertical depth​.
+The 3 Zone and New Britannia workings reach around 130 meters depth","Lalor: Cut and fill & Longhole open stoping
+1901: Post-Pillar Mechanized Cut & Fill (PPMCAF) and Inclined Room & Pillar
+WIM/3 Zone: Longhole retreat​","Stall Mill: Crush, grind, flotation for Cu, Zn, Au
+New Britannia: Grind, flotation, leaching (for Au), refining. Flotation tails optionally leached​",TR,SRC_HudbayMineralsInc_TR
+ARCH-599152a0-1,Hudbay Minerals Inc,Copper Mountain,BC-MAIN-599152a0,-,mining,Concentrator,"Copper, gold, silver","Alkalic porphyry copper–gold deposit (silica saturated), typical of BC's Cordillera deposits​","Open pit operation — final pit depth not explicitly provided, but standard practice for similar porphyry copper mines suggests ~400–600 meters depth","Open pit mining with blasting, loading, and hauling using shovels and 220-tonne haul trucks​",Crush–grind–flotation: SAG mill + ball mill + pebble crusher; sulphide flotation producing Cu-Ag-Au concentrate,TR,SRC_HudbayMineralsInc_TR
+ARCH-02884fb5-1,IAMGOLD Corporation,Westwood-Doyon,QC-MAIN-02884fb5,-,mining,"Underground, concentrator","Gold, silver","VMS
+Vein / narrow vein
+Intrusion related
+Orogenic",,"Truck & Shovel / Loader
+Underhand stoping
+Longhole open stoping",,MDO,SRC_IAMGOLDCorporation_MDO
+ARCH-dd723db4-1,Iron Ore Company of Canada Inc.,Carol Lake,NL-MAIN-dd723db4,-,mining,"Open-pit, concentrator",Iron,Banded iron formation,,Truck & Shovel / Loader,,MDO,SRC_IronOreCompanyofCanadaInc._MDO
+ARCH-7001a391-1,KGHM,McCreedy West,ON-MAIN-7001a391,-,mining,Underground,"Copper, nickel, platinum group metals, gold, silver, cobalt","Vein / narrow vein
+Breccia pipe / Stockwork
+Footwall hosted",,"Back stoping
+Undercut mining",,MDO,SRC_KGHM_MDO
+ARCH-a555d9b9-1,Magris Performance Materials Inc.,Niobec,QC-MAIN-a555d9b9,-,mining,"Underground, concentrator",Niobium,"Magmatic
+Metasomatic",,Open stopping,,MDO,SRC_MagrisPerformanceMaterialsInc._MDO
+ARCH-f021107e-1,Maritime Resources Corp.,Point Rousse,NL-MAIN-f021107e,-,mining,"Open-pit, concentrator",Gold,"Vein / narrow vein
+Orogenic",,Truck & Shovel / Loader,,MDO,SRC_MaritimeResourcesCorp._MDO
+ARCH-4e0734b5-1,McEwen Mining Inc,Fox Complex,ON-MAIN-4e0734b5,-,mining,"Open-pit, underground, concentrator",Gold,"Vein / narrow vein
+Intrusion related
+Breccia pipe / Stockwork
+Porphyry
+Epithermal",,"Longitudinal stoping
+Transverse stoping
+Longhole stoping
+Longitudinal open stoping",,MDO,SRC_McEwenMiningInc_MDO
+ARCH-752fbcae-1,Minto Metals Corporation,Minto,YT-MAIN-752fbcae,-,mining,"Open-pit, underground, concentrator","Copper, gold, silver",Porphyry,,Longhole upper cut retreat,,MDO,SRC_MintoMetalsCorporation_MDO
+ARCH-aa76f6f2-1,New Gold Inc,New Afton,BC-MAIN-aa76f6f2,-,mining,"Open-pit, underground, concentrator","Gold, copper, silver",Alkalic coppergold porphyry,,"Black caving, longhole stoping",,MDO,SRC_NewGoldInc_MDO
+ARCH-0aadf28f-1,New Gold Inc,Rainy River,ON-MAIN-0aadf28f,-,mining,"Underground, concentrator","Gold, silver","VMS, vein/narrow vein",,"Truck & Shovel / Loader
+Longitudinal open stoping
+Transverse stoping
+Longhole open stoping
+Avoca",,MDO,SRC_NewGoldInc_MDO
+ARCH-6dc537e6-1,Newmont Corporation,Borden,QC-MAIN-6dc537e6,-,mining,"Open-pit, underground",Gold,"Vein / narrow vein
+Mesothermal",,Sub-level Retreat,,MDO,SRC_NewmontCorporation_MDO
+ARCH-fefeaee4-1,Newmont Corporation,Brucejack,ON-MAIN-fefeaee4,-,mining,"Underground, concentrator","Gold, silver","Breccia pipe / Stockwork
+Vein / narrow vein
+Epithermal",,"Longhole open stoping
+Transverse open stoping
+Longitudinal open stoping",,MDO,SRC_NewmontCorporation_MDO
+ARCH-538513cd-1,Newmont Corporation,Éléonore,ON-MAIN-538513cd,-,mining,"Underground, concentrator",Gold,"Breccia pipe / Stockwork
+Sediment-hosted",,"Transverse open stoping
+Open stoping
+Longitudinal retreat",,MDO,SRC_NewmontCorporation_MDO
+ARCH-3b3e5365-1,Newmont Corporation,Hollinger,ON-MAIN-3b3e5365,-,mining,"Underground, concentrator",Gold,"Vein / narrow vein
+Porphyry",,Truck & Shovel / Loader,,MDO,SRC_NewmontCorporation_MDO
+ARCH-8629a493-1,Newmont Corporation,Hoyle Pond,ON-MAIN-8629a493,-,mining,Open-pit,Gold,Vein / narrow vein,,"Longhole stoping
+Shrinkage stoping
+Mechanized Cut & Fill",,MDO,SRC_NewmontCorporation_MDO
+ARCH-8eb8be0d-1,Newmont Corporation,Musselwhite,BC-MAIN-8eb8be0d,-,mining,Concentrator,"Gold, silver","Iron formation hosted
+Vein / narrow vein
+Stratabound",,"Avoca
+Transverse stoping
+Longhole stoping
+Longitudinal retreat
+Sub-level stoping",,MDO,SRC_NewmontCorporation_MDO
+ARCH-1c674cd0-1,Newmont Corporation,Porcupine,ON-MAIN-1c674cd0,-,mining,Underground,Gold,"Breccia pipe / Stockwork
+Vein / narrow vein",,"Truck & Shovel / Loader
+Shrinkage stoping
+Sub-level Retreat
+Longhole stoping
+Mechanized Cut & Fill",,MDO,SRC_NewmontCorporation_MDO
+ARCH-857b7b89-1,Newmont Corporation,Red Chris,BC-MAIN-857b7b89,-,mining,"Open-pit, concentrator","Gold, copper, silver",Porphyry,,Truck & Shovel / Loader,,MDO,SRC_NewmontCorporation_MDO
+ARCH-60ba74c4-1,Orano Canada Inc,McClean Lake,SK-MAIN-60ba74c4,-,mining,Concentrator,Uranium,"Unconformity related
+Vein / narrow vein",,Borehole mining (SABRE),,MDO,SRC_OranoCanadaInc_MDO
+ARCH-bfbcd72e-1,Pan American Silver Corp,Bell Creek,ON-MAIN-bfbcd72e,-,mining,"Underground, concentrator",Gold,"Veing / narrow vein
+Mesothermal",,Longhole stoping,,MDO,SRC_PanAmericanSilverCorp_MDO
+ARCH-f3e6ff08-1,Pan American Silver Corp,Timmins West,ON-MAIN-f3e6ff08,-,mining,Underground,Gold,"Vein / narrow vein
+Mesothermal
+Intrusion related",,"Longitudinal stoping
+Transverse stoping
+Longhole stoping",,MDO,SRC_PanAmericanSilverCorp_MDO
+ARCH-e82266c5-1,Rio Tinto,Diavik,QC-MAIN-e82266c5,-,mining,"Underground, plant",Diamonds,Kimberlite,,"Blast Hole Stoping
+Sub-level Retreat",,MDO,SRC_RioTinto_MDO
+ARCH-0ec39ce0-1,Rio Tinto,Lac Tio,NT-MAIN-0ec39ce0,-,mining,Open-pit,Ilmenite,"Magmatic
+Intrusion related",,Truck & Shovel / Loader,,MDO,SRC_RioTinto_MDO
+ARCH-dc1a16f9-1,Sayona Québec Inc,North American Lithium,QC-MAIN-dc1a16f9,-,mining,"Open-pit, underground",Lithium,Pegmatite,,Truck & Shovel / Loader,,MDO,SRC_SayonaQuébecInc_MDO
+ARCH-f4fc3276-1,Silver Lake Resources Ltd,Sugar Zone,ON-MAIN-f4fc3276,-,mining,"Underground, concentrator",Gold,"Longhole open stoping
+Longitudinal retreat",,"Porphyry
+Vein / narrow vein
+Mesothermal",,MDO,SRC_SilverLakeResourcesLtd_MDO
+ARCH-915d9faa-1,Sinomine Resource Grp Co. Ltd,Tanco,MB-MAIN-915d9faa,-,mining,"Underground, concentrator, plant","Cesium, lithium","Room-and-pillar
+Longhole stoping",,Pegmatite,,MDO,SRC_SinomineResourceGrpCo.Ltd_MDO
+ARCH-GRP-14bfbb82-1,SSR Mining Inc,Seabee Gold Operation,-,GRP-14bfbb82,mining,Concentrator,Gold,"Vein / narrow vein
+Mesothermal",,"Avoca
+Transverse stoping
+Alimak
+Longitudinal retreat",,MDO,SRC_SSRMiningInc_MDO
+ARCH-c9c77a59-1,St Barbara Limited,Moose River Consolidated,NS-MAIN-c9c77a59,-,mining,"Open-pit, concentrator",Gold,"Vein / narrow vein
+Mesothermal",,Truck & Shovel / Loader,,MDO,SRC_StBarbaraLimited_MDO
+ARCH-3032c251-1,Stornoway Diamonds Corporation,Renard,QC-MAIN-3032c251,-,mining,"Open-pit, underground, concentrator",Diamonds,Kimberlite,,"Truck & Shovel / Loader
+Blast Hole Stoping",,MDO,SRC_StornowayDiamondsCorporation_MDO
+ARCH-b64bae7a-1,Tacora Resources Inc.,Scully,NL-MAIN-b64bae7a,-,mining,"Open-pit, concentrator",Iron,Banded iron formation,,Truck & Shovel / Loader,,MDO,SRC_TacoraResourcesInc._MDO
+ARCH-6b4800fe-1,Taseko Mines Limited,Gibraltar,BC-MAIN-6b4800fe,-,mining,"Open-pit, concentrator","Copper, molybdenum, silver",Porphyry,,Truck & Shovel / Loader,,,SRC_TasekoMinesLimited_nan
+ARCH-e09881ff-1,Tata Steel Minerals Canada Limited,DSO (3 and 4),NL-MAIN-e09881ff,-,mining,Open-pit,Iron,Iron formation hosted,,Truck & Shovel / Loader,,MDO,SRC_TataSteelMineralsCanadaLimited_MDO
+ARCH-b8c826a2-1,Tata Steel Minerals Canada Limited,DSO (Goodwood),QC-MAIN-b8c826a2,-,mining,Open-pit,Iron,Iron formation hosted,,Truck & Shovel / Loader,,MDO,SRC_TataSteelMineralsCanadaLimited_MDO
+ARCH-2c4ceca5-1,Teck Resources Limited,Highland Valley,BC-MAIN-2c4ceca5,-,mining,Open-pit,"Copper, silver, molybdenum","Porphyry
+Breccia pipe / Stockwork
+Vein / narrow vein",,Truck & Shovel / Loader,,MDO,SRC_TeckResourcesLimited_MDO
+ARCH-2c4ceca5-2,Teck Resources Limited,Highland Valley,BC-MAIN-2c4ceca5,-,mining,Open-pit,"Copper, silver, molybdenum","Porphyry
+Breccia pipe / Stockwork
+Vein / narrow vein",,Truck & Shovel / Loader,,MDO,SRC_TeckResourcesLimited_MDO
+ARCH-23155c25-1,Trafigura Mining Group,Myra Falls,BC-MAIN-23155c25,-,mining,Underground,"Zinc, copper, silver, gold, lead",VMS,,"Cut & Fill
+Drift & Fill
+Sub-level open stoping (SLOS)
+Longhole open stoping",,MDO,SRC_TrafiguraMiningGroup_MDO
+ARCH-de2f9639-1,Vale,Coleman,ON-MAIN-de2f9639,GRP-dc07540b,mining,Underground,"Nickel, copper, platinum group metals, gold, silver, cobalt, selenium, tellurium","Magmatic
+Footwall hosted
+Breccia pipe / Stockwork",,"Mechanized Cut & Fill
+Post Pillar Cut & Fill
+Longitudinal stoping
+Transverse stoping
+Slot-Slash
+Uppers Retreat
+Vertical Crater Retreat
+Drift & Fill",,MDO,SRC_Vale_MDO
+ARCH-d9036091-1,Vale,Voisey’s Bay,NL-MAIN-d9036091,-,mining,Refinery,"Nickel, copper, cobalt",Magmatic,,"Drift & Fill
+Open stoping",,MDO,SRC_Vale_MDO
+ARCH-GRP-dc07540b-1,Vale,Sudbury Operation,-,GRP-dc07540b,mining,"Open-pit, underground, concentrator","Nickel, copper, platinum group metals, gold, silver, cobalt, selenium, tellurium","Magmatic
+Footwall hosted
+Breccia pipe / Stockwork",,"Mechanized Cut & Fill
+Post Pillar Cut & Fill
+Longitudinal stoping
+Transverse stoping
+Slot-Slash
+Uppers Retreat
+Vertical Crater Retreat
+Drift & Fill",,MDO,SRC_Vale_MDO
+ARCH-2e13aaa0-1,Vale,Thompson (T-1 and T-3),ON-MAIN-2e13aaa0,-,mining,"Smelter, refinery, plant","Nickel, cobalt, copper, platinum group metals, gold, silver","Vein / narrow vein
+Breccia pipe / Stockwork
+Magmatic",,"Cut & Fill
+Vertical block mining (VBM)
+Slot-Slash",,MDO,SRC_Vale_MDO
+ARCH-63b394c3-1,Vale,Totten,ON-MAIN-63b394c3,-,mining,Refinery,"Nickel, copper, platinum group metals, gold, silver, cobalt",Magmatic,,"Slot-Slash
+Mechanized Cut & Fill
+Transverse stoping
+Longitudinal stoping",,MDO,SRC_Vale_MDO
+ARCH-e05ed9fe-1,Victoria Gold Corporation,Eagle (Dublin Gulch),YT-MAIN-e05ed9fe,-,mining,"Open-pit, concentrator",Gold,"Vein / narrow vein
+Intrusion related",,Truck & Shovel / Loader,,MDO,SRC_VictoriaGoldCorporation_MDO
+ARCH-9de9bb0d-1,Wesdome Gold Mines Ltd,Eagle River,QC-MAIN-9de9bb0d,-,mining,"Underground, concentrator",Gold,"Mesothermal
+Vein / narrow vein",,"Longhole stoping
+Alimak
+Sub-level open stoping (SLOS)",,MDO,SRC_WesdomeGoldMinesLtd_MDO
+ARCH-c5fefb01-1,Wesdome Gold Mines Ltd,Kiena,ON-MAIN-c5fefb01,-,mining,"Open-pit, concentrator",Gold,"Vein / narrow vein
+Breccia pipe / Stockwork
+Orogenic",,"Longhole stoping
+Longitudinal retreat",,MDO,SRC_WesdomeGoldMinesLtd_MDO
+ARCH-cb85213a-1,Wesdome Gold Mines Ltd,Mishi,ON-MAIN-cb85213a,-,mining,Open-pit,Gold,"Vein / narrow vein
+Mesothermal",,Truck & Shovel / Loader,,MDO,SRC_WesdomeGoldMinesLtd_MDO

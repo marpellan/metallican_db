@@ -1,0 +1,176 @@
+source_id,source_provenance,source_name
+https://tailing.grida.no/,dataset,Global Tailings Portal
+https://doi.org/10.1038/s43247-023-00805-6,dataset,Global Mining Footprint Mapped from High-Resolution Satellite Imagery
+https://www.protectedplanet.net,dataset,World Database on Protected Areas (WDPA)
+http://www.landmarkmap.org,dataset,Indigenous Peoples’ and Local Community Lands and Territories
+https://doi.org/10.7717/peerj.5457,dataset,Potential Natural Vegetation (NPV)
+https://www.wri.org/data/aqueduct-global-maps-40-data,dataset,Aqueduct 4.0
+https://doi.org/10.2905/2FF68A52-5B5B-4A22-8F40-C41DA8332CFE,dataset,Global Human Settlement Layer (GHSL)
+https://greifswaldmoor.de/global-peatland-database-en.html,dataset,Global Peatland Database
+https://doi.org/10.5067/MODIS/MCD12Q1.061 + https://doi.org/10.5281/zenodo.7254221,dataset,Modis Land Cover and ESA World Cover
+https://doi.org/10.1038/s41597-023-02549-6,dataset,High-Resolution (1 km) Koppen-Geiger Maps for 1901–2099 Based on Constrained CMIP6 Projections
+https://doi.org/10.5281/zenodo.5006332,dataset,"Areas of global importance for conserving terrestrial biodiversity, carbon and water"
+https://www.canada.ca/en/environment-climate-change/services/national-pollutant-release-inventory/tools-resources-data/exploredata.html,dataset,National Pollutant Inventory Report (NPRI)
+https://www.canada.ca/en/environment-climate-change/services/environmental-indicators/greenhouse-gas-emissions/large-facilities.html,dataset,GHG from large facilities
+http://journals.librarypublishing.arizona.edu/jpe/article/id/1932/,dataset,Environmental Justice Atlas
+"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory",dataset,ClimateTRACE mineral extraction sector
+10.1038/s41597-024-03116-3,dataset,A Comprehensive Historical and Geolocalized Database of Mining Activities in Canada
+https://climate-scenarios.canada.ca/?page=CanDCS6-indices,dataset,CMIP6 statistically downscaled climate indices (CanDCS-M6)
+SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042029,report,Agnico-Eagle-2023-Sustainability-Performance-Data_25042029
+SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042113,report,Agnico-Eagle-2023-Sustainability-Performance-Data_25042113
+SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042091,report,Agnico-Eagle-2023-Sustainability-Performance-Data_25042091
+SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042092,report,Agnico-Eagle-2023-Sustainability-Performance-Data_25042092
+SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042070,report,Agnico-Eagle-2023-Sustainability-Performance-Data_25042070
+SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042071,report,Agnico-Eagle-2023-Sustainability-Performance-Data_25042071
+SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042028,report,Agnico-Eagle-2023-Sustainability-Performance-Data_25042028
+SRC_AlgomaSteelInc._nan,report,nan
+SRC_ArgonautGoldInc_MDO,report,MDO
+SRC_AgnicoEagleMinesLimited_TR_2021,report,TR_2021
+SRC_AgnicoEagleMinesLimited_MDO,report,MDO
+SRC_AgnicoEagleMinesLimited_TR_2023,report,TR_2023
+SRC_AgnicoEagleMinesLimited_TR_2018,report,TR_2018
+SRC_AlamosGoldInc_MDO,report,MDO
+SRC_ArcelorMittal_MDO,report,MDO
+SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042112,report,Agnico-Eagle-2023-Sustainability-Performance-Data_25042112
+SRC_AbcourtMinesInc_MDO,report,MDO
+SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042134,report,Agnico-Eagle-2023-Sustainability-Performance-Data_25042134
+SRC_NewGoldInc_2023-New-Gold-ESG-Data-Factbook,report,2023-New-Gold-ESG-Data-Factbook.xlsx
+SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042155,report,Agnico-Eagle-2023-Sustainability-Performance-Data_25042155
+SRC_TeckResourcesLimited_Teck-Sustainability-Databook,report,Teck-Sustainability-Databook.xlsx
+SRC_WesdomeGoldMinesLtd._ESG_data_2023,report,ESG_data_2023.xlsx
+SRC_RioTinto_2024-sustainability-factbook,report,2024-sustainability-factbook.xlsx
+SRC_BaffinlandIronMinesCorporation_AR_2023,report,AR_2023.pdf
+SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked,report,Newmont-2023-Performance-Data-Tables-V4-locked.xlsx
+SRC_PanAmericanSilverCorp_PAS-2023-Sustainability-Performance-Data-Book,report,PAS-2023-Sustainability-Performance-Data-Book.xlsx
+SRC_AlgomaSteelInc._ESG_2024,report,ESG_2024.pdf
+SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042133,report,Agnico-Eagle-2023-Sustainability-Performance-Data_25042133
+SRC_ArcelorMittal_IR_2023,report,IR_2023.pdf
+SRC_MagrisPerformanceMaterials_SR_2023,report,SR_2023.pdf
+SRC_ArgonautGoldInc._MDO,report,MDO
+SRC_RealAlloyCanadaLtd_SR_2023,report,SR_2023.pdf
+SRC_SherrittInternationalCorporationandGeneralNickelCompanyS.A._SR_2023,report,SR_2023.pdf
+SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042049,report,Agnico-Eagle-2023-Sustainability-Performance-Data_25042049
+SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042050,report,Agnico-Eagle-2023-Sustainability-Performance-Data_25042050
+SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042154,report,Agnico-Eagle-2023-Sustainability-Performance-Data_25042154
+SRC_Glencore_GLEN-2023-ESG-Data-Book,report,GLEN-2023-ESG-Data-Book.xlsx
+SRC_BaffinlandIronMinesCorporation_MDO,report,MDO
+SRC_DeBeersCanadaInc_nan,report,nan
+SRC_BurgundyDiamondMines_nan,report,nan
+SRC_NewmontCorporation_MDO,report,MDO
+SRC_OranoCanadaInc_MDO,report,MDO
+SRC_PanAmericanSilverCorp_MDO,report,MDO
+SRC_RioTinto_MDO,report,MDO
+SRC_SayonaQuébecInc_MDO,report,MDO
+SRC_SilverLakeResourcesLtd_MDO,report,MDO
+SRC_SinomineResourceGrpCo.Ltd_MDO,report,MDO
+SRC_NewGoldInc_MDO,report,MDO
+SRC_SSRMiningInc_MDO,report,MDO
+SRC_StornowayDiamondsCorporation_MDO,report,MDO
+SRC_TacoraResourcesInc._MDO,report,MDO
+SRC_TasekoMinesLimited_nan,report,nan
+SRC_TataSteelMineralsCanadaLimited_MDO,report,MDO
+SRC_TeckResourcesLimited_MDO,report,MDO
+SRC_TrafiguraMiningGroup_MDO,report,MDO
+SRC_Vale_MDO,report,MDO
+SRC_StBarbaraLimited_MDO,report,MDO
+SRC_BarrickGoldCorporation_MDO,report,MDO
+SRC_MintoMetalsCorporation_MDO,report,MDO
+SRC_MaritimeResourcesCorp._MDO,report,MDO
+SRC_CamecoCorporation_TR_2024,report,TR_2024
+SRC_CamecoCorporation_TR_2019,report,TR_2019
+SRC_CanadianRoyaltiesInc_MDO,report,MDO
+SRC_CenterraGoldInc_nan,report,nan
+SRC_ChampionIronLtd_MDO,report,MDO
+SRC_TacoraResourcesInc._SR_2024,report,SR_2024.pdf
+SRC_EldoradoGold_MDO,report,MDO
+SRC_McEwenMiningInc_MDO,report,MDO
+SRC_EvolutionMiningLtd_MDO,report,MDO
+SRC_GlencoreCanadaCorporation_MDO,report,MDO
+SRC_HeclaMiningCompany_MDO,report,MDO
+SRC_HudbayMineralsInc_TR,report,TR
+SRC_IAMGOLDCorporation_MDO,report,MDO
+SRC_IronOreCompanyofCanadaInc._MDO,report,MDO
+SRC_KGHM_MDO,report,MDO
+SRC_MagrisPerformanceMaterialsInc._MDO,report,MDO
+SRC_FireFlyMetalsLtd_MDO,report,MDO
+SRC_TacoraResourcesInc._ESG_2024,report,ESG_2024.pdf
+SRC_IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected,report,2023_iamgold-esg-performance-data-final_protected
+SRC_RealAlloyCanadaLtd._SR_2023,report,SR_2023.pdf
+SRC_ChampionIronLtd_TR_Bloom_Lake_2023,report,TR_Bloom_Lake_2023.pdf
+SRC_DeBeersCanadaInc_SR_2023,report,SR_2023.pdf
+SRC_EldoradoGold_Data,report,Data.xlsx
+SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web,report,EVN_FY24-ESG-Performance-Data_web.xlsx
+SRC_EVRAZNorthAmericaInc_GEM,report,GEM
+SRC_TasekoMinesLimited_ESG_2023,report,ESG_2023.pdf
+SRC_TeckResourcesLimited_2024_Annual_report,report,2024_Annual_report
+SRC_ChampionIronLtd_cil-23sr-esg-databookvf,report,cil-23sr-esg-databookvf.xlsx
+SRC_Glencore_GLEN_2024_FY_ProductionReport,report,GLEN_2024_FY_ProductionReport
+SRC_HeclaMiningCompany_hecla-keno-hill-yukon-territory-canada,report,hecla-keno-hill-yukon-territory-canada
+"SRC_HeicoCompanies,LLC_GEM",report,GEM
+SRC_ImpalaCanadaLtd_FY2024,report,FY2024
+SRC_KGHMPolskaMiedźS.A._Magna_Mining_MDA_2024,report,Magna_Mining_MDA_2024
+SRC_CenterraGoldInc_Data,report,Data.xlsx
+SRC_ImperialMetalsCorporation_2024-Q4-MDA,report,2024-Q4-MDA
+SRC_IAMGOLDCorporation_operational_data,report,operational_data.xlsx
+SRC_GoldMountainMiningCorp_gold-mountain-reports-its-interim-q4-2025-financial-and-operating-results-1001121?utm_source=chatgpt,report,gold-mountain-reports-its-interim-q4-2025-financial-and-operating-results-1001121?utm_source=chatgpt.com
+SRC_NewGoldInc_New_gold_production,report,New_gold_production.xlsx
+SRC_CamecoCorporation_AR_2023,report,AR_2023.pdf
+SRC_BurgundyDiamondMines_Quarterly-Activities-Report-for-the-Period-ended-September-30th-2025,report,Quarterly-Activities-Report-for-the-Period-ended-September-30th-2025
+SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data,report,2023-Sustainability-Performance_data
+SRC_Glencore_GLEN_2024-FY_ProductionReport_tables,report,GLEN_2024-FY_ProductionReport_tables.xlsx
+SRC_HeclaMiningCompany_casa-berardi-quebec-canada,report,casa-berardi-quebec-canada
+SRC_HudbayMineralsInc_MDA25,report,MDA25
+SRC_AlamosGoldInc_Data_2023,report,Data_2023.xlsx
+SRC_AlcoaCorporation_4Q23-Alcoa-Financial-Results,report,4Q23-Alcoa-Financial-Results
+SRC_AlcoaCorporation_the-industry,report,the-industry
+SRC_BurgundyDiamondMines_Quarterly-Activities-Report-for-the-Period-ended-September-30th-2024,report,Quarterly-Activities-Report-for-the-Period-ended-September-30th-2024
+SRC_AlcoaCorporationandRioTintoAluminumInc._the-industry,report,the-industry
+SRC_ArcelorMittal_Factbook_2024,report,Factbook_2024.pdf
+SRC_ArcelorMittal_GEM,report,GEM
+SRC_ArgonautGoldInc_Data_2023,report,Data_2023.xlsx
+SRC_BaffinlandIronMinesCorporation_GEM,report,GEM
+SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data,report,Barrick_2023_Performance-Data.xlsx
+SRC_BurgundyDiamondMines_Quarterly-Activities-Report-for-the-Period-ended-September-30th-2027,report,Quarterly-Activities-Report-for-the-Period-ended-September-30th-2027
+SRC_BurgundyDiamondMines_Quarterly-Activities-Report-for-the-Period-ended-September-30th-2026,report,Quarterly-Activities-Report-for-the-Period-ended-September-30th-2026
+SRC_ArcelorMittal_arcelormittal-factbook-2024,report,arcelormittal-factbook-2024.pdf
+SRC_SSRMiningInc_ESG_2023,report,ESG_2023.pdf
+SRC_IronOreCompanyofCanada_rt-fact-book-addendum,report,rt-fact-book-addendum.xlsx
+SRC_McEwenMiningInc_SEC_2024,report,SEC_2024.pdf
+SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables,report,2023-ESG-Data-Tables
+SRC_AlcoaCorporation_2023-Sustainability-Data-Book,report,2023-Sustainability-Data-Book.xlsx
+SRC_AlgomaSteelInc._ESG_2023,report,ESG_2023.pdf
+SRC_CamecoCorporation_Cameco_2023_Sustainability_Report_Performance_Table_0,report,Cameco_2023_Sustainability_Report_Performance_Table_0.xlsx
+SRC_CanadianRoyaltiesInc._Rapport_Objectif_Emissions_GES_2023_EN,report,Rapport_Objectif_Emissions_GES_2023_EN
+SRC_EldoradoGold_ESG_2023,report,ESG_2023.pdf
+SRC_EVRAZNorthAmericaInc_Databook_2021,report,Databook_2021
+SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL,report,2024-MDA-FINAL
+SRC_Glencore_2024+ESG+data+book,report,2024+ESG+data+book.xlsx
+SRC_HudbayMineralsInc_Hudbay-2023-Integrated-Annual-Report-Performance-Data,report,Hudbay-2023-Integrated-Annual-Report-Performance-Data.xlsx
+SRC_VictoriaGoldCorporation_MDO,report,MDO
+SRC_ImpalaCanadaLtd_ESG_2024,report,ESG_2024.pdf
+SRC_IronOreCompanyofCanadaInc_SR_2023,report,SR_2023.pdf
+SRC_NewGoldInc_ESG_data_2023,report,ESG_data_2023.xlsx
+SRC_NewmontCorporation_2023-Performance-data,report,2023-Performance-data.xlsx
+SRC_PanAmericanSilverCorp_ESG_data_2023,report,ESG_data_2023.xlsx
+SRC_HeclaMiningCompany_SR_2023,report,SR_2023.pdf
+SRC_MagrisPerformanceMaterialsInc._SR_2023,report,SR_2023.pdf
+SRC_TataSteelMineralsCanadaLimited_Mining-in-NL-Fall-2024,report,Mining-in-NL-Fall-2024.pdf
+SRC_TacoraResourcesInc._GEM,report,GEM
+SRC_CanadianRoyaltiesInc._?cf-view,report,?cf-view
+SRC_NewmontCorporation_Operating_statistics_2023,report,Operating_statistics_2023
+SRC_NewmontCorporation_AR_2024,report,AR_2024
+SRC_NewmontCorporation_Operating_statistics_2024,report,Operating_statistics_2024
+SRC_NewmontCorporation_Operating_statistics_2025,report,Operating_statistics_2025
+SRC_OranoCanadaInc_mining-and-milling,report,mining-and-milling
+SRC_PanAmericanSilverCorp._Financial_results,report,Financial_results
+SRC_SherrittInternationalCorporationandGeneralNickelCompanyS.A._TR_2023,report,TR_2023.pdf
+SRC_RioTinto_the-industry,report,the-industry
+SRC_RioTinto_2024-4qor-xlsx,report,2024-4qor-xlsx.xlsx
+SRC_RoyalCanadianMint_2024_IR,report,2024_IR
+SRC_SayonaQuébecInc_AR_2023,report,AR_2023.pdf
+SRC_Vale_Vale'sperformancein1Q25-xls,report,Vale's performance in 1Q25 - xls
+SRC_SilverLakeResourcesLtd_MDI42C14SE00005,report,MDI42C14SE00005
+SRC_SilverLakeResourcesLtd_MDI42C14SE00006,report,MDI42C14SE00006
+SRC_SSRMiningInc_FY2024,report,FY2024
+SRC_RioTinto_rt-fact-book-addendum,report,rt-fact-book-addendum.xlsx
+SRC_WesdomeGoldMinesLtd_MDO,report,MDO

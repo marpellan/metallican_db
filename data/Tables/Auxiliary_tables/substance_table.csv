@@ -68,12 +68,10 @@ SUB7826f3de59,Hydrogen fluoride,Hydrogen fluoride,NPRI
 SUB405e794a25,Hydrogen sulphide,Hydrogen sulphide,NPRI
 SUB46dd0460ff,"Indeno[1,2,3-cd]pyrene","Indeno[1,2,3-cd]pyrene",NPRI
 SUB0813c70cea,Isopropyl alcohol,Isopropyl alcohol,NPRI
-SUBc6f71d85ae,Lead,Lead,Manual
-SUBa91e414206,Lead (and its compounds),Lead (and its compounds),NPRI
+SUBc6f71d85ae,Lead,Lead (and its compounds),NPRI
 SUBf53b3d840b,Manganese,Manganese,Manual
 SUB60617760c1,Manganese (and its compounds),Manganese (and its compounds),NPRI
-SUB606cb109e2,Mercury,Mercury,Manual
-SUB630ad32d56,Mercury (and its compounds),Mercury (and its compounds),NPRI
+SUB606cb109e2,Mercury,Mercury (and its compounds),NPRI
 SUBf91b149b76,Methanol,Methanol,NPRI
 SUBe2c5d3ebd3,Methyl ethyl ketone,Methyl ethyl ketone,NPRI
 SUBa6a8b89e4f,Methyl isobutyl ketone,Methyl isobutyl ketone,NPRI
@@ -96,8 +94,6 @@ SUB18f94e849c,PFCs,PFCs,Manual
 SUB0c95dc6163,PM,PM,Manual
 SUBea8825f00e,PM10,PM10 - Particulate Matter <= 10 Micrometers,NPRI
 SUB95ce94acc5,PM2.5,PM2.5 - Particulate Matter <= 2.5 Micrometers,NPRI
-SUB7aae3e468f,PM<10,PM<10,Manual
-SUBc7ba2dc1ed,POP,POP,Manual
 SUB1f549497a7,Particulate,Particulate,Manual
 SUB8a0492cbf7,Perylene,Perylene,NPRI
 SUBdc9cf1e9f0,Phenanthrene,Phenanthrene,NPRI
@@ -163,7 +159,6 @@ SUBba84f97e78,Speciated VOC - n-Hexane,Speciated VOC - n-Hexane,NPRI
 SUB2bdc5cc5a2,Speciated VOC - n-Propanol (n-Propyl alcohol),Speciated VOC - n-Propanol (n-Propyl alcohol),NPRI
 SUBd1605a269e,Speciated VOC - p-Dichlorobenzene,Speciated VOC - p-Dichlorobenzene,NPRI
 SUBe2b990f545,Styrene,Styrene,NPRI
-SUBe85dc94f4d,Sulfur dioxide,Sulfur dioxide,Manual
 SUB4cedd6b899,Sulphur dioxide,Sulphur dioxide,NPRI
 SUBda6a6d231d,Sulphuric acid,Sulphuric acid,NPRI
 SUB3d85023c46,Thallium (and its compounds),Thallium (and its compounds),NPRI

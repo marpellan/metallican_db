@@ -1,0 +1,390 @@
+prod_id,year,geography,commodity,reference_point,material_type,data_type,unit,value,value_tonnes,comment,main_id,facility_group_id,company_id,source_id
+PROD-1f126a43-2023-1,2023,Canada,Ore,2,Ore processed,Production,t,19594928.0,19594928.0,,ON-MAIN-1f126a43,-,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-1f126a44-2023-1,2023,Canada,Gold,4,Intermediate metal,Production,oz,684640.0,21.294700239999997,"""Production reflects Agnico Eagle's 50% interest up to March 30 2023 and 100% thereafter""",ON-MAIN-1f126a44,-,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-1f126a45-2023-1,2023,Canada,Silver,4,Intermediate metal,Production,koz,310.0,9.642085,"""Production reflects Agnico Eagle's 50% interest up to March 30 2023 and 100% thereafter""",ON-MAIN-1f126a45,-,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-e7e6a960-2023-1,2023,Canada,Gold,2,Ore processed,Production,t,25434853.5024164,25434853.5024164,,QC-MAIN-e7e6a960,-,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-e7e6a963-2023-1,2023,Canada,Gold,4,Intermediate metal,Production,oz,677446.0,21.070941661,Like intermediate metal,QC-MAIN-e7e6a963,-,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-e7e6a964-2023-1,2023,Canada,Silver,4,Intermediate metal,Production,koz,79.0,2.4571765,Like intermediate metal,QC-MAIN-e7e6a964,-,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-8b0264c9-2023-1,2023,Canada,Ore,2,Ore processed,Production,t,2886927.3287239997,2886927.3287239997,,NU-MAIN-8b0264c9,-,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-8b0264c9-2023-2,2023,Canada,Gold,4,Intermediate metal,Production,oz,140982.567105,4.385051275950367,,NU-MAIN-8b0264c9,-,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-8b0264c9-2023-3,2023,Canada,Silver,4,Intermediate metal,Production,koz,2.0,0.062207,,NU-MAIN-8b0264c9,-,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-8b0264c9-2023-4,2023,Canada,Zinc,3,Concentrate,Production,t,39.036758,39.036758,,NU-MAIN-8b0264c9,-,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-730aefe3-2023-1,2023,Canada,Ore,2,Ore processed,Production,t,441588.0,441588.0,,NU-MAIN-730aefe3,-,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-730aefe3-2023-2,2023,Canada,Gold,4,Intermediate metal,Production,oz,228535.0,7.1082383725,,NU-MAIN-730aefe3,-,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-GRP-0a2c0d69-2023-1,2023,Canada,Gold,2,Ore processed,Production,t,3842649.005728,3842649.005728,,-,GRP-0a2c0d69,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-GRP-0a2c0d69-2023-2,2023,Canada,Gold,4,Intermediate metal,Production,oz,431665.6270210001,13.426311830047675,Like intermediate metal,-,GRP-0a2c0d69,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-GRP-0a2c0d69-2023-3,2023,Canada,Silver,4,Intermediate metal,Production,koz,125.0,3.8879375,Like intermediate metal,-,GRP-0a2c0d69,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-aeafbb59-2023-1,2023,Canada,Gold,2,Ore processed,Production,t,1918143.0,1918143.0,,ON-MAIN-aeafbb59,-,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-aeafbb60-2023-1,2023,Canada,Gold,4,Intermediate metal,Production,oz,364141.0,11.326059593499998,Like intermediate metal,ON-MAIN-aeafbb60,-,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-aeafbb61-2023-1,2023,Canada,Silver,4,Intermediate metal,Production,koz,27.0,0.8397945,Like intermediate metal,ON-MAIN-aeafbb61,-,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-UNKNOWN-2023-1,2023,World,Copper,5,Refinery production,Production,kt,443.3,443300.0,Includes production by Horne and CCR but also other refineries not in Canada.,-,-,,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
+PROD-UNKNOWN-2023-2,2023,World,Copper,5,Refinery production,Production,kt,507.3,507300.0,Includes production by Horne and CCR but also other refineries not in Canada.,-,-,,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
+PROD-44857446-2023-1,2023,Canada,Gold,4,Intermediate metal,Production,koz,86.6,2.6935630999999995,,YT-MAIN-44857446,-,,SRC_HeclaMiningCompany_casa-berardi-quebec-canada
+PROD-44857446-2023-2,2023,Canada,Silver,4,Intermediate metal,Production,koz,24.2,0.7527047,,YT-MAIN-44857446,-,,SRC_HeclaMiningCompany_casa-berardi-quebec-canada
+PROD-599152a0-2023-1,2023,Canada,Copper,3,Concentrate,Production,t,82685.0,82685.0,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,-,,SRC_HudbayMineralsInc_MDA25
+PROD-7607a50e-2023-1,2023,Canada,Gold,4,Intermediate metal,Production,oz,131400.0,4.0869998999999995,,ON-MAIN-7607a50e,-,,SRC_AlamosGoldInc_Data_2023
+PROD-7607a50e-2023-2,2023,Canada,Gold,1,Ore mined,Production,t,437541.0,437541.0,,ON-MAIN-7607a50e,-,,SRC_AlamosGoldInc_Data_2023
+PROD-7607a50e-2023-3,2023,Canada,Gold,2,Ore processed,Production,t,439008.0,439008.0,,ON-MAIN-7607a50e,-,,SRC_AlamosGoldInc_Data_2023
+PROD-7607a50e-2023-4,2023,Canada,Gold,2,Mill grade,Technical attribute,?,9.48,,,ON-MAIN-7607a50e,-,,SRC_AlamosGoldInc_Data_2023
+PROD-7607a50e-2023-5,2023,Canada,Gold,2,Mill recovery rate,Technical attribute,%,97.0,,,ON-MAIN-7607a50e,-,,SRC_AlamosGoldInc_Data_2023
+PROD-7607a50e-2023-6,2023,Canada,Gold,2,Ore grade,Technical attribute,?,9.43,,,ON-MAIN-7607a50e,-,,SRC_AlamosGoldInc_Data_2023
+PROD-687b8c8d-2023-1,2023,Canada,Gold,4,Intermediate metal,Production,oz,185100.0,5.757257849999999,,ON-MAIN-687b8c8d,-,,SRC_AlamosGoldInc_Data_2023
+PROD-687b8c8d-2023-2,2023,Canada,Gold,1,Ore mined,Production,t,2878155.0,2878155.0,,ON-MAIN-687b8c8d,-,,SRC_AlamosGoldInc_Data_2023
+PROD-687b8c8d-2023-3,2023,Canada,Gold,2,Ore processed,Production,t,2878047.0,2878047.0,,ON-MAIN-687b8c8d,-,,SRC_AlamosGoldInc_Data_2023
+PROD-687b8c8d-2023-4,2023,Canada,Gold,2,Mill grade,Technical attribute,?,2.2,,,ON-MAIN-687b8c8d,-,,SRC_AlamosGoldInc_Data_2023
+PROD-687b8c8d-2023-5,2023,Canada,Gold,2,Mill recovery rate,Technical attribute,%,90.0,,,ON-MAIN-687b8c8d,-,,SRC_AlamosGoldInc_Data_2023
+PROD-687b8c8d-2023-6,2023,Canada,Gold,2,Ore grade,Technical attribute,?,2.2,,,ON-MAIN-687b8c8d,-,,SRC_AlamosGoldInc_Data_2023
+PROD-CMP-140e111b-2023-1,2023,World,Aluminum,4,Aluminum production,Production,kmt,2114.0,2114.0,,-,,CMP-140e111b,SRC_AlcoaCorporation_4Q23-Alcoa-Financial-Results
+PROD-52c01ae4-2023-1,2023,Canada,Aluminum,4,Capacity,Capacity,t,312000.0,,,QC-MAIN-52c01ae4,-,CMP-140e111b,SRC_AlcoaCorporation_the-industry
+PROD-eac5a52b-2023-1,2023,Canada,Aluminum,4,Capacity,Capacity,t,287000.0,,,QC-MAIN-eac5a52b,-,CMP-140e111b,SRC_AlcoaCorporation_the-industry
+PROD-c8966bdc-2023-1,2023,Canada,Aluminum,4,Capacity,Capacity,t,462000.0,,,QC-MAIN-c8966bdc,-,,SRC_AlcoaCorporationandRioTintoAluminumInc._the-industry
+PROD-GRP-1402249f-2024-1,2024,Canada,Iron,3,Mining production,Production,Mt,24.2,24.2,Ambigous production type,-,GRP-1402249f,CMP-3775c12e,SRC_ArcelorMittal_arcelormittal-factbook-2024
+PROD-4c35e094-2024-1,2024,Canada,Steel,5,Flat,Production,Mt,3.1,3.1,"Integrated, mini-mill",ON-MAIN-4c35e094,,,SRC_ArcelorMittal_Factbook_2024
+PROD-UNKNOWN-2024-1,2024,Canada,Steel,5,"Long/wire rod, bars, slabs",Production,Mt,1.9,1.9,Mini-mill,-,-,,SRC_ArcelorMittal_Factbook_2024
+PROD-084bd95c-2023-1,2023,Canada,Iron,3,Iron ore,Production,kt,5901.0,5901000.0,Given in ttpa (total ton per annum),QC-MAIN-084bd95c,,CMP-3775c12e,SRC_ArcelorMittal_GEM
+PROD-33c09b8b-2023-1,2023,Canada,Iron,3,Concentrate & pellets,Production,Mt,22.4,22.4,,QC-MAIN-33c09b8b,,CMP-3775c12e,SRC_ArcelorMittal_arcelormittal-factbook-2024
+PROD-8825d90d-2024-1,2024,Canada,Gold,4,Gold production,Production,oz,33000.0,1.0264155,Data from Alamos Gold,ON-MAIN-8825d90d,-,-,SRC_ArgonautGoldInc_Data_2023
+PROD-8825d90d-2024-2,2024,Canada,Gold,1,Ore mined,Production,t,1838496.0,1838496.0,Data from Alamos Gold,ON-MAIN-8825d90d,-,-,SRC_ArgonautGoldInc_Data_2023
+PROD-8825d90d-2024-3,2024,Canada,Gold,1,Waste mined,Production,t,6759562.0,6759562.0,Data from Alamos Gold,ON-MAIN-8825d90d,-,-,SRC_ArgonautGoldInc_Data_2023
+PROD-8825d90d-2024-4,2024,Canada,Gold,1,Waste to ore ratio,Technical attribute,%,4.18,,Data from Alamos Gold,ON-MAIN-8825d90d,-,-,SRC_ArgonautGoldInc_Data_2023
+PROD-8825d90d-2024-5,2024,Canada,Gold,2,Ore grade,Technical attribute,g/t?,0.81,,Data from Alamos Gold,ON-MAIN-8825d90d,-,-,SRC_ArgonautGoldInc_Data_2023
+PROD-8825d90d-2024-6,2024,Canada,Gold,2,Ore processed,Production,t,1165551.0,1165551.0,Data from Alamos Gold,ON-MAIN-8825d90d,-,-,SRC_ArgonautGoldInc_Data_2023
+PROD-8825d90d-2024-7,2024,Canada,Gold,2,Head grade,Technical attribute,g/t?,0.91,,Data from Alamos Gold,ON-MAIN-8825d90d,-,-,SRC_ArgonautGoldInc_Data_2023
+PROD-8825d90d-2024-8,2024,Canada,Gold,2,Recovery rate,Technical attribute,%,95.0,,Data from Alamos Gold,ON-MAIN-8825d90d,-,-,SRC_ArgonautGoldInc_Data_2023
+PROD-5154702a-2023-1,2023,Canada,Iron,3,Concentrate produced,Production,kt,6200.0,6200000.0,Given in ttpa (total ton per annum),NU-MAIN-5154702a,,,SRC_BaffinlandIronMinesCorporation_GEM
+PROD-6e9be24e-2023-1,2023,Canada,Gold,2,Ore processed,Production,t,1266009.0,1266009.0,Not sure of the unit,ON-MAIN-6e9be24e,,,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
+PROD-6e9be24e-2023-2,2023,Canada,Gold,1,Waste rock mined,Production,t,1530006.0,1530006.0,Not sure of the unit,ON-MAIN-6e9be24e,,,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
+PROD-6e9be24e-2023-3,2023,Canada,Gold,4,Intermediate metal ,Production,oz,141045.0,4.3869931575,,ON-MAIN-6e9be24e,,,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
+PROD-6c1d6ee6-2023-1,2023,Canada,Diamonds,3,Carats recovered,Production,Mcts,5.1,5.1,,NT-MAIN-6c1d6ee6,,,SRC_BurgundyDiamondMines_Quarterly-Activities-Report-for-the-Period-ended-September-30th-2027
+PROD-6c1d6ee6-2023-2,2023,Canada,Diamonds,2,Ore processed,Production,Mdmt,4.2,4.2,,NT-MAIN-6c1d6ee6,,,SRC_BurgundyDiamondMines_Quarterly-Activities-Report-for-the-Period-ended-September-30th-2026
+PROD-6c1d6ee6-2023-3,2023,Canada,Diamonds,1,Ore mined,Production,Mwmt,4.6,4.6,,NT-MAIN-6c1d6ee6,,,SRC_BurgundyDiamondMines_Quarterly-Activities-Report-for-the-Period-ended-September-30th-2025
+PROD-6c1d6ee6-2023-4,2023,Canada,Diamonds,1,Waste mined,Production,Mwmt,16.6,16.6,,NT-MAIN-6c1d6ee6,,,SRC_BurgundyDiamondMines_Quarterly-Activities-Report-for-the-Period-ended-September-30th-2024
+PROD-91cf5448-2023-1,2023,Canada,Uranium,3,Concentrate,Production,Mlbs,15.1,15.1,On a 100% ownership basis,SK-MAIN-91cf5448,-,CMP-cadb529a,SRC_CamecoCorporation_AR_2023
+PROD-GRP-21eee27d-2023-1,2023,Canada,Uranium,3,Concentrate,Production,Mlbs,13.5,13.5,On a 100% ownership basis,-,GRP-21eee27d,CMP-cadb529a,SRC_CamecoCorporation_AR_2023
+PROD-599152a0-2023-2,2023,Canada,Copper,2,Head grade,Technical attribute,%,0.35,,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,-,,SRC_HudbayMineralsInc_MDA25
+PROD-599152a0-2023-3,2023,Canada,Copper,2,Recovery rate,Technical attribute,%,79.7,,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,-,,SRC_HudbayMineralsInc_MDA25
+PROD-599152a0-2023-4,2023,Canada,Copper,3,Contained metal in concentrate produced,Production,t,19050.0,19050.0,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,-,,SRC_HudbayMineralsInc_MDA25
+PROD-599152a0-2023-5,2023,Canada,Copper,3,Concentrate grade,Technical attribute,% Cu,23.1,,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,-,,SRC_HudbayMineralsInc_MDA25
+PROD-599152a0-2023-6,2023,Canada,Gold,4,Contained metal in concentrate produced,Production,oz,8848.0,0.27520376799999996,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,-,,SRC_HudbayMineralsInc_MDA25
+PROD-599152a0-2023-7,2023,Canada,Ore,2,Ore milled,Production,t,6862152.0,6862152.0,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,-,,SRC_HudbayMineralsInc_MDA25
+PROD-599152a0-2023-8,2023,Canada,Ore,1,Ore mined,Production,t,6975389.0,6975389.0,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,-,,SRC_HudbayMineralsInc_MDA25
+PROD-599152a0-2023-9,2023,Canada,Silver,4,Contained metal in concentrate produced,Production,oz,218282.0,6.789334187,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,-,,SRC_HudbayMineralsInc_MDA25
+PROD-599152a0-2023-10,2023,Canada,Gold,2,Head grade,Technical attribute,g/t,0.07,,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,-,,SRC_HudbayMineralsInc_MDA25
+PROD-599152a0-2023-11,2023,Canada,Gold,2,Recovery rate,Technical attribute,%,55.9,,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,-,,SRC_HudbayMineralsInc_MDA25
+PROD-599152a0-2023-12,2023,Canada,Ore,1,Strip ratio,Technical attribute,-,3.82,,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,-,,SRC_HudbayMineralsInc_MDA25
+PROD-CMP-c08ac7d7-2023-1,2023,World,Iron,3,Concentrate,Production,Mt,14.16,14.16,,-,-,CMP-c08ac7d7,SRC_ChampionIronLtd_cil-23sr-esg-databookvf
+PROD-CMP-c08ac7d7-2023-2,2023,World,Iron,1,Ore mined and hauled,Production,Mt,40.87,40.87,,-,-,CMP-c08ac7d7,SRC_ChampionIronLtd_cil-23sr-esg-databookvf
+PROD-089f3c60-2022-1,2022,Canada,Iron,3,Concentrate produced,Production,wmt,7.9,7.9,,QC-MAIN-089f3c60,,CMP-c08ac7d7,SRC_ChampionIronLtd_TR_Bloom_Lake_2023
+PROD-089f3c60-2022-2,2022,Canada,Iron,1,Ore mined,Production,wmt,22.3,22.3,,QC-MAIN-089f3c60,,CMP-c08ac7d7,SRC_ChampionIronLtd_TR_Bloom_Lake_2023
+PROD-089f3c60-2022-3,2022,Canada,Iron,2,Ore processed,Production,wmt,21.0,21.0,,QC-MAIN-089f3c60,,CMP-c08ac7d7,SRC_ChampionIronLtd_TR_Bloom_Lake_2023
+PROD-089f3c60-2022-4,2022,Canada,Iron,3,Concentrate grade,Technical attribute,%,0.662,,,QC-MAIN-089f3c60,,CMP-c08ac7d7,SRC_ChampionIronLtd_TR_Bloom_Lake_2023
+PROD-CMP-d899f7d7-2023-1,2023,Canada,Diamonds,3,Carats recovered,Production,kct,2834.0,0.0005668,,-,-,CMP-d899f7d7,SRC_DeBeersCanadaInc_SR_2023
+PROD-f9e41c2a-2023-1,2023,Canada,Gold,4,Intermediate metal,Production,oz,177069.0,5.5074656415,,QC-MAIN-f9e41c2a,-,,SRC_EldoradoGold_Data
+PROD-f9e41c2a-2023-2,2023,Canada,Gold,2,Ore milled,Production,t,838419.0,838419.0,,QC-MAIN-f9e41c2a,-,,SRC_EldoradoGold_Data
+PROD-f9e41c2a-2023-3,2023,Canada,Gold,2,Head grade,Technical attribute,g/t,6.76,,,QC-MAIN-f9e41c2a,-,,SRC_EldoradoGold_Data
+PROD-f9e41c2a-2023-4,2023,Canada,Gold,2,Recovery rate,Technical attribute,%,0.971,,,QC-MAIN-f9e41c2a,-,,SRC_EldoradoGold_Data
+PROD-7f050560-2024-1,2024,Canada,Ore,1,Material mined,Production,t,1855271.0,1855271.0,,ON-MAIN-7f050560,-,,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
+PROD-7f050560-2024-2,2024,Canada,Ore,1,Ore mined,Production,t,862000.0,862000.0,,ON-MAIN-7f050560,-,,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
+PROD-7f050560-2024-3,2024,Canada,Ore,2,Ore processed,Production,t,841000.0,841000.0,,ON-MAIN-7f050560,-,,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
+PROD-7f050560-2024-4,2024,Canada,Ore,1,Waste mined,Production,t,993271.0,993271.0,,ON-MAIN-7f050560,-,,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
+PROD-7f050560-2024-5,2024,Canada,Gold,4,Intermediate metal,Production,oz,112700.0,3.5053644499999996,,ON-MAIN-7f050560,-,,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
+PROD-26b9aaf3-2021-1,2021,Canada,Steel,4,EAF production,Production,kt,828.0,828000.0,,SK-MAIN-26b9aaf3,-,,SRC_EVRAZNorthAmericaInc_GEM
+PROD-26b9aaf3-2021-2,2021,Canada,Steel,4,Nominal crude steel capacity,Capacity,ttpa,1200.0,,,SK-MAIN-26b9aaf3,-,,SRC_EVRAZNorthAmericaInc_GEM
+PROD-599152a0-2023-13,2023,Canada,Silver,2,Head grade,Technical attribute,g/t,1.36,,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,-,,SRC_HudbayMineralsInc_MDA25
+PROD-599152a0-2023-14,2023,Canada,Silver,2,Recovery rate,Technical attribute,%,73.0,,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,-,,SRC_HudbayMineralsInc_MDA25
+PROD-CMP-d5f1c66b-2023-1,2023,World,Cobalt,4 or 5,?,Production,kt,41.3,41300.0,Impossible to assign a reference point. Probably 4 or 5?,-,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
+PROD-CMP-d5f1c66b-2023-2,2023,World,Copper,4 or 5,?,Production,kt,1010.1,1010100.0,Impossible to assign a reference point. Probably 4 or 5?,-,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
+PROD-CMP-d5f1c66b-2023-3,2023,World,Ferrochrome,4 or 5,?,Production,kt,1162.0,1162000.0,Impossible to assign a reference point. Probably 4 or 5?,-,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
+PROD-CMP-d5f1c66b-2023-4,2023,World,Gold,4 or 5,?,Production,koz,747.0,23.2343145,Impossible to assign a reference point. Probably 4 or 5?,-,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
+PROD-CMP-d5f1c66b-2023-5,2023,World,Lead,4 or 5,?,Production,kt,182.7,182700.0,Impossible to assign a reference point. Probably 4 or 5?,-,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
+PROD-CMP-d5f1c66b-2023-6,2023,World,Nickel,4 or 5,?,Production,kt,97.6,97600.0,Impossible to assign a reference point. Probably 4 or 5?,-,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
+PROD-CMP-d5f1c66b-2023-7,2023,World,Silver,4 or 5,?,Production,koz,20011.0,622.4121385,Impossible to assign a reference point. Probably 4 or 5?,-,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
+PROD-CMP-d5f1c66b-2023-8,2023,World,Zinc,4 or 5,?,Production,kt,918.5,918500.0,Impossible to assign a reference point. Probably 4 or 5?,-,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
+PROD-529c96b4-2023-1,2023,Canada,Lead,5,Refinery production,Production,kt,244.6,244600.0,,QC-MAIN-529c96b4,-,,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
+PROD-529c96b4-2023-2,2023,Canada,Zinc,5,Refinery production,Production,kt,752.6,752600.0,,QC-MAIN-529c96b4,-,,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
+PROD-6b4800fe-2023-1,2023,Canada,Copper,3,Intermediate metal,Production,Mlbs,123.0,123.0,,BC-MAIN-6b4800fe,-,,SRC_TasekoMinesLimited_ESG_2023
+PROD-6b4800fe-2023-2,2023,Canada,Molybdenum,4,Intermediate metal,Production,Mlbs,1.2,1.2,,BC-MAIN-6b4800fe,-,,SRC_TasekoMinesLimited_ESG_2023
+PROD-2c4ceca5-2024-1,2024,Canada,Copper,3,Contained metal in concentrate produced,Production,kt,102.4,102400.0,,BC-MAIN-2c4ceca5,-,,SRC_TeckResourcesLimited_2024_Annual_report
+PROD-2c4ceca5-2024-2,2024,Canada,Molybdenum,4,Contained metal in concentrate produced,Production,kt,0.9,900.0,,BC-MAIN-2c4ceca5,-,,SRC_TeckResourcesLimited_2024_Annual_report
+PROD-UNKNOWN-2023-3,2023,World,Cobalt,5,Refined metal,Production,kt,0.4,400.0,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",-,-,,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-UNKNOWN-2023-4,2023,World,Cobalt,5,Refined metal,Production,kt,3.5,3500.0,"Includes third-party feed. Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",-,-,,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-UNKNOWN-2023-5,2023,Canada,Copper,3,Concentrate,Production,kt,4.8,4800.0,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",-,-,,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
+PROD-UNKNOWN-2023-6,2023,Canada,Copper,3,Concentrate,Production,kt,6.2,6200.0,"Including third party feed. Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",-,-,,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
+PROD-UNKNOWN-2023-7,2023,World,Copper,5,Refined metal,Production,kt,8.9,8900.0,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",-,-,,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
+PROD-UNKNOWN-2023-8,2023,World,Copper,5,Refined metal,Production,kt,20.1,20100.0,"Including third party feed. Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",-,-,,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
+PROD-UNKNOWN-2023-9,2023,World,Gold,4,Intermediate metal,Production,koz,11.0,0.3421385,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",-,-,,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-UNKNOWN-2023-10,2023,World,Gold,4,Intermediate metal,Production,koz,27.0,0.8397945,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",-,-,,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-UNKNOWN-2023-11,2023,Canada,Nickel,3,Concentrate,Production,kt,0.2,200.0,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",-,-,,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-UNKNOWN-2023-12,2023,Canada,Nickel,3,Concentrate,Production,kt,0.2,200.0,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",-,-,,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-UNKNOWN-2023-13,2023,World,Nickel,5,Refined metal,Production,kt,39.1,39100.0,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",-,-,,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-UNKNOWN-2023-14,2023,World,Nickel,5,Refined metal,Production,kt,95.0,95000.0,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",-,-,,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-UNKNOWN-2023-15,2023,World,Palladium,4,Intermediate metal,Production,koz,65.0,2.0217275,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",-,-,,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-UNKNOWN-2023-16,2023,World,Palladium,4,Intermediate metal,Production,koz,201.0,6.251803499999999,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",-,-,,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-UNKNOWN-2023-17,2023,World,Platinum,4,Intermediate metal,Production,koz,24.0,0.7464839999999999,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",-,-,,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-UNKNOWN-2023-18,2023,World,Platinum,4,Intermediate metal,Production,koz,51.0,1.5862785,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",-,-,,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-UNKNOWN-2023-19,2023,World,Rhodium,4,Intermediate metal,Production,koz,3.0,0.09331049999999999,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",-,-,,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-UNKNOWN-2023-20,2023,World,Rhodium,4,Intermediate metal,Production,koz,3.0,0.09331049999999999,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",-,-,,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-UNKNOWN-2023-21,2023,World,Silver,4,Intermediate metal,Production,koz,223.0,6.9360805,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",-,-,,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-4724f4ba-2024-1,2024,Canada,Gold,1,Ore mined,Production,t,34017.0,34017.0,,BC-MAIN-4724f4ba,-,,SRC_GoldMountainMiningCorp_gold-mountain-reports-its-interim-q4-2025-financial-and-operating-results-1001121?utm_source=chatgpt
+PROD-4724f4ba-2024-2,2024,Canada,Gold,1,Waste mined,Production,t,1623010.0,1623010.0,,BC-MAIN-4724f4ba,-,,SRC_GoldMountainMiningCorp_gold-mountain-reports-its-interim-q4-2025-financial-and-operating-results-1001121?utm_source=chatgpt
+PROD-4724f4ba-2024-3,2024,Canada,Gold,2,Ore delivered,Production,t,33245.0,33245.0,,BC-MAIN-4724f4ba,-,,SRC_GoldMountainMiningCorp_gold-mountain-reports-its-interim-q4-2025-financial-and-operating-results-1001121?utm_source=chatgpt
+PROD-4724f4ba-2024-4,2024,Canada,Gold,2,Ore grade,Technical attribute,g/t,4.26,,,BC-MAIN-4724f4ba,-,,SRC_GoldMountainMiningCorp_gold-mountain-reports-its-interim-q4-2025-financial-and-operating-results-1001121?utm_source=chatgpt
+PROD-4724f4ba-2024-5,2024,Canada,Gold,1,Strip ratio,Technical attribute,waste/ore,47.7,,,BC-MAIN-4724f4ba,-,,SRC_GoldMountainMiningCorp_gold-mountain-reports-its-interim-q4-2025-financial-and-operating-results-1001121?utm_source=chatgpt
+PROD-4724f4ba-2024-6,2024,Canada,Gold,4,Gold ounces sold,Production,oz,3916.0,0.121801306,,BC-MAIN-4724f4ba,-,,SRC_GoldMountainMiningCorp_gold-mountain-reports-its-interim-q4-2025-financial-and-operating-results-1001121?utm_source=chatgpt
+PROD-b86f7d07-2023-1,2023,Canada,Lead,4,Intermediate metal,Production,kt,2.9,2900.0,,QC-MAIN-b86f7d07,-,,SRC_HeclaMiningCompany_hecla-keno-hill-yukon-territory-canada
+PROD-b86f7d07-2023-2,2023,Canada,Silver,4,Intermediate metal,Production,Moz,2.8,2.8,,QC-MAIN-b86f7d07,-,,SRC_HeclaMiningCompany_hecla-keno-hill-yukon-territory-canada
+PROD-b86f7d07-2023-3,2023,Canada,Zinc,4,Intermediate metal,Production,kt,1.5,1500.0,,QC-MAIN-b86f7d07,-,,SRC_HeclaMiningCompany_hecla-keno-hill-yukon-territory-canada
+PROD-UNKNOWN-2023-22,2023,World,Silver,4,Intermediate metal,Production,koz,407.0,12.659124499999999,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",-,-,,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-a97821c0-2023-1,2023,Canada,Copper,3,Concentrate,Production,kt,22.6,22600.0,,QC-MAIN-a97821c0,-,,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
+PROD-fc6f1a44-2023-1,2023,Canada,Steel,4,Nominal crude steel capacity,Capacity,ttpa,650.0,,,ON-MAIN-fc6f1a44,-,,"SRC_HeicoCompanies,LLC_GEM"
+PROD-a97821c0-2023-2,2023,Canada,Silver,3,Concentrate,Production,koz,1378.0,42.860623,,QC-MAIN-a97821c0,-,,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-a97821c0-2023-3,2023,Canada,Zinc,3,Concentrate,Production,kt,38.6,38600.0,,QC-MAIN-a97821c0,-,,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-a3c56a83-2023-1,2023,Canada,Ore,2,Ore milled,Production,kt,10248.0,10248000.0,,ON-MAIN-a3c56a83,-,,SRC_ImpalaCanadaLtd_FY2024
+PROD-a3c56a83-2023-2,2023,Canada,PGM,2,Head grade,Technical attribute,g/t,3.88,,,ON-MAIN-a3c56a83,-,,SRC_ImpalaCanadaLtd_FY2024
+PROD-a3c56a83-2023-3,2023,Canada,PGM,4,Intermediate metal,Production,koz,1232.0,38.319511999999996,,ON-MAIN-a3c56a83,-,,SRC_ImpalaCanadaLtd_FY2024
+PROD-be5b3dc8-2023-1,2023,Canada,Copper,2,Ore grade,Technical attribute,%,0.86,,,MB-MAIN-be5b3dc8,-,,SRC_HudbayMineralsInc_MDA25
+PROD-be5b3dc8-2023-2,2023,Canada,Gold,2,Ore grade,Technical attribute,g/t,4.74,,,MB-MAIN-be5b3dc8,-,,SRC_HudbayMineralsInc_MDA25
+PROD-be5b3dc8-2023-3,2023,Canada,Ore,1,Ore mined,Production,t,1526729.0,1526729.0,,MB-MAIN-be5b3dc8,-,,SRC_HudbayMineralsInc_MDA25
+PROD-be5b3dc8-2023-4,2023,Canada,Silver,2,Ore grade,Technical attribute,g/t,24.51,,,MB-MAIN-be5b3dc8,-,,SRC_HudbayMineralsInc_MDA25
+PROD-be5b3dc8-2023-5,2023,Canada,Zinc,2,Ore grade,Technical attribute,%,3.0,,,MB-MAIN-be5b3dc8,-,,SRC_HudbayMineralsInc_MDA25
+PROD-4ea8ac9d-2023-1,2023,Canada,Copper,3,Concentrate,Production,t,7702.438517,7702.438517,,NU-MAIN-4ea8ac9d,-,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-4ea8ac9d-2023-2,2023,Canada,Gold,4,Intermediate metal,Production,oz,306648.486458,9.537841198546403,,NU-MAIN-4ea8ac9d,-,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-4ea8ac9d-2023-3,2023,Canada,Ore,2,Ore processed,Production,t,2658395.96049,2658395.96049,,NU-MAIN-4ea8ac9d,-,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-4ea8ac9d-2023-4,2023,Canada,Silver,4,Intermediate metal,Production,koz,588.0,18.288858,,NU-MAIN-4ea8ac9d,-,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-4ea8ac9d-2023-5,2023,Canada,Zinc,3,Concentrate,Production,t,2577.9603749999997,2577.9603749999997,,NU-MAIN-4ea8ac9d,-,,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-7001a391-2023-1,2023,Canada,Cobalt,2,Ore grade,Technical attribute,%,0.01,,,ON-MAIN-7001a391,-,,SRC_KGHMPolskaMiedźS.A._Magna_Mining_MDA_2024
+PROD-7001a391-2023-2,2023,Canada,Copper,2,Ore grade,Technical attribute,%,1.59,,,ON-MAIN-7001a391,-,,SRC_KGHMPolskaMiedźS.A._Magna_Mining_MDA_2024
+PROD-7001a391-2023-3,2023,Canada,Gold,2,Ore grade,Technical attribute,g/t,0.41,,,ON-MAIN-7001a391,-,,SRC_KGHMPolskaMiedźS.A._Magna_Mining_MDA_2024
+PROD-7001a391-2023-4,2023,Canada,Nickel,2,Ore grade,Technical attribute,%,0.23,,,ON-MAIN-7001a391,-,,SRC_KGHMPolskaMiedźS.A._Magna_Mining_MDA_2024
+PROD-7001a391-2023-5,2023,Canada,Ore,1,Ore mined,Production,t,317660.0,317660.0,,ON-MAIN-7001a391,-,,SRC_KGHMPolskaMiedźS.A._Magna_Mining_MDA_2024
+PROD-7001a391-2023-6,2023,Canada,Palladium,2,Ore grade,Technical attribute,g/t,1.34,,,ON-MAIN-7001a391,-,,SRC_KGHMPolskaMiedźS.A._Magna_Mining_MDA_2024
+PROD-7001a391-2023-7,2023,Canada,Platinum,2,Ore grade,Technical attribute,g/t,1.03,,,ON-MAIN-7001a391,-,,SRC_KGHMPolskaMiedźS.A._Magna_Mining_MDA_2024
+PROD-7001a391-2023-8,2023,Canada,Silver,2,Ore grade,Technical attribute,g/t,14.05,,,ON-MAIN-7001a391,-,,SRC_KGHMPolskaMiedźS.A._Magna_Mining_MDA_2024
+PROD-ed23117f-2023-1,2023,Canada,Copper,2,Head grade,Technical attribute,%,0.18,,,BC-MAIN-ed23117f,,,SRC_CenterraGoldInc_Data
+PROD-ed23117f-2023-2,2023,Canada,Copper,2,Recovery rate,Technical attribute,%,77.6,,,BC-MAIN-ed23117f,,,SRC_CenterraGoldInc_Data
+PROD-ed23117f-2023-3,2023,Canada,Gold,2,Head grade,Technical attribute,g/t,0.36,,,BC-MAIN-ed23117f,,,SRC_CenterraGoldInc_Data
+PROD-ed23117f-2023-4,2023,Canada,Gold,2,Recovery rate,Technical attribute,%,64.0,,,BC-MAIN-ed23117f,,,SRC_CenterraGoldInc_Data
+PROD-ed23117f-2023-5,2023,Canada,Concentrate,3,Concentrate produced,Production,dmt,142285.0,142285.0,"No commodity is given, probably a concentrate mix?",BC-MAIN-ed23117f,,,SRC_CenterraGoldInc_Data
+PROD-ed23117f-2023-6,2023,Canada,Copper,3,Concentrate,Production,klbs,61862.0,28060108.303999998,Assumed concentrate as it is not a refinery/smelter,BC-MAIN-ed23117f,,,SRC_CenterraGoldInc_Data
+PROD-ed23117f-2023-7,2023,Canada,Gold,4,Intermediate metal,Production,oz,154391.0,4.8021004685,,BC-MAIN-ed23117f,,,SRC_CenterraGoldInc_Data
+PROD-ed23117f-2023-8,2023,Canada,Ore,1,Ore mined,Production,kt,21278.0,21278000.0,,BC-MAIN-ed23117f,,,SRC_CenterraGoldInc_Data
+PROD-ed23117f-2023-9,2023,Canada,Ore,2,Ore processed,Production,kt,21680.0,21680000.0,,BC-MAIN-ed23117f,,,SRC_CenterraGoldInc_Data
+PROD-ed23117f-2023-10,2023,Canada,Ore,1,Tonnes mined,Production,kt,50015.0,50015000.0,,BC-MAIN-ed23117f,,,SRC_CenterraGoldInc_Data
+PROD-3f490561-2023-1,2023,Canada,Copper,2,Ore grade,Technical attribute,%,0.287,,,BC-MAIN-3f490561,-,,SRC_ImperialMetalsCorporation_2024-Q4-MDA
+PROD-da0b5c3d-2023-1,2023,Canada,Copper,3,Concentrate grade,Technical attribute,% Cu,20.11,,,MB-MAIN-da0b5c3d,-,,SRC_HudbayMineralsInc_MDA25
+PROD-da0b5c3d-2023-2,2023,Canada,Copper,2,Head grade,Technical attribute,%,0.74,,,MB-MAIN-da0b5c3d,-,,SRC_HudbayMineralsInc_MDA25
+PROD-da0b5c3d-2023-3,2023,Canada,Copper,2,Recovery rate,Technical attribute,%,90.4,,,MB-MAIN-da0b5c3d,-,,SRC_HudbayMineralsInc_MDA25
+PROD-da0b5c3d-2023-4,2023,Canada,Gold,2,Head grade,Technical attribute,g/t,3.45,,,MB-MAIN-da0b5c3d,-,,SRC_HudbayMineralsInc_MDA25
+PROD-da0b5c3d-2023-5,2023,Canada,Gold,2,Recovery rate,Technical attribute,%,64.8,,,MB-MAIN-da0b5c3d,-,,SRC_HudbayMineralsInc_MDA25
+PROD-da0b5c3d-2023-6,2023,Canada,Silver,2,Head grade,Technical attribute,g/t,24.19,,,MB-MAIN-da0b5c3d,-,,SRC_HudbayMineralsInc_MDA25
+PROD-da0b5c3d-2023-7,2023,Canada,Silver,2,Recovery rate,Technical attribute,%,61.4,,,MB-MAIN-da0b5c3d,-,,SRC_HudbayMineralsInc_MDA25
+PROD-da0b5c3d-2023-8,2023,Canada,Zinc,3,Concentrate grade,Technical attribute,% Zn,51.84,,,MB-MAIN-da0b5c3d,-,,SRC_HudbayMineralsInc_MDA25
+PROD-da0b5c3d-2023-9,2023,Canada,Zinc,2,Head grade,Technical attribute,%,4.36,,,MB-MAIN-da0b5c3d,-,,SRC_HudbayMineralsInc_MDA25
+PROD-da0b5c3d-2023-10,2023,Canada,Zinc,2,Recovery rate,Technical attribute,%,82.2,,,MB-MAIN-da0b5c3d,-,,SRC_HudbayMineralsInc_MDA25
+PROD-da0b5c3d-2023-11,2023,Canada,Ore,2,Ore milled,Production,t,965567.0,965567.0,,MB-MAIN-da0b5c3d,-,,SRC_HudbayMineralsInc_MDA25
+PROD-da0b5c3d-2023-12,2023,Canada,Copper,3,Concentrate,Production,t,31900.0,31900.0,,MB-MAIN-da0b5c3d,-,,SRC_HudbayMineralsInc_MDA25
+PROD-da0b5c3d-2023-13,2023,Canada,Copper,3,Contained metal in concentrate,Production,t,6415.0,6415.0,,MB-MAIN-da0b5c3d,-,,SRC_HudbayMineralsInc_MDA25
+PROD-da0b5c3d-2023-14,2023,Canada,Copper,3,Total contained metal in concentrate and doré produced,Production,t,12154.0,12154.0,,MB-MAIN-da0b5c3d,-,,SRC_HudbayMineralsInc_MDA25
+PROD-da0b5c3d-2023-15,2023,Canada,Gold,3,Contained metal in concentrate,Production,oz,69326.0,2.156281241,,MB-MAIN-da0b5c3d,-,,SRC_HudbayMineralsInc_MDA25
+PROD-da0b5c3d-2023-16,2023,Canada,Gold,3,Total contained metal in concentrate and doré produced,Production,oz,187363.0,5.8276450705,,MB-MAIN-da0b5c3d,-,,SRC_HudbayMineralsInc_MDA25
+PROD-da0b5c3d-2023-17,2023,Canada,Silver,3,Contained metal in concentrate,Production,oz,461399.0,14.3511237965,,MB-MAIN-da0b5c3d,-,,SRC_HudbayMineralsInc_MDA25
+PROD-da0b5c3d-2023-18,2023,Canada,Silver,3,Total contained metal in concentrate and doré produced,Production,oz,851723.0,26.4915663305,,MB-MAIN-da0b5c3d,-,,SRC_HudbayMineralsInc_MDA25
+PROD-da0b5c3d-2023-19,2023,Canada,Zinc,3,Concentrate,Production,t,66824.0,66824.0,,MB-MAIN-da0b5c3d,-,,SRC_HudbayMineralsInc_MDA25
+PROD-da0b5c3d-2023-20,2023,Canada,Zinc,3,Contained metal in concentrate,Production,t,34642.0,34642.0,,MB-MAIN-da0b5c3d,-,,SRC_HudbayMineralsInc_MDA25
+PROD-da0b5c3d-2023-21,2023,Canada,Zinc,3,Total contained metal in concentrate and doré produced,Production,t,34642.0,34642.0,,MB-MAIN-da0b5c3d,-,,SRC_HudbayMineralsInc_MDA25
+PROD-02884fb5-2023-1,2023,Canada,Ore,2,Head grade,Technical attribute,g/t,3.03,,,QC-MAIN-02884fb5,-,,SRC_IAMGOLDCorporation_operational_data
+PROD-02884fb5-2023-2,2023,Canada,Ore,2,Ore grade,Technical attribute,g/t,3.19,,,QC-MAIN-02884fb5,-,,SRC_IAMGOLDCorporation_operational_data
+PROD-02884fb5-2023-3,2023,Canada,Ore,2,Recovery rate,Technical attribute,%,93.0,,,QC-MAIN-02884fb5,-,,SRC_IAMGOLDCorporation_operational_data
+PROD-02884fb5-2023-4,2023,Canada,Ore,2,Ore milled,Production,kt,1034.0,1034000.0,,QC-MAIN-02884fb5,-,,SRC_IAMGOLDCorporation_operational_data
+PROD-02884fb5-2023-5,2023,Canada,Ore,1,Ore mined,Production,kt,1022.0,1022000.0,,QC-MAIN-02884fb5,-,,SRC_IAMGOLDCorporation_operational_data
+PROD-02884fb5-2023-6,2023,Canada,Gold,4,Intermediate metal,Production,koz,93.0,2.8926255,,QC-MAIN-02884fb5,-,,SRC_IAMGOLDCorporation_operational_data
+PROD-3f490561-2023-2,2023,Canada,Copper,2,Recovery rate,Technical attribute,%,80.0,,,BC-MAIN-3f490561,-,,SRC_ImperialMetalsCorporation_2024-Q4-MDA
+PROD-3f490561-2023-3,2023,Canada,Copper,3,Concentrate,Production,klbs,30145.0,13673530.84,Assumed concentrate as it is not a refinery/smelter,BC-MAIN-3f490561,-,,SRC_ImperialMetalsCorporation_2024-Q4-MDA
+PROD-3f490561-2023-4,2023,Canada,Gold,2,Ore grade,Technical attribute,g/t,0.311,,,BC-MAIN-3f490561,-,,SRC_ImperialMetalsCorporation_2024-Q4-MDA
+PROD-3f490561-2023-5,2023,Canada,Gold,2,Recovery rate,Technical attribute,%,70.4,,,BC-MAIN-3f490561,-,,SRC_ImperialMetalsCorporation_2024-Q4-MDA
+PROD-3f490561-2023-6,2023,Canada,Gold,4,Intermediate metal,Production,oz,41834.0,1.301183819,,BC-MAIN-3f490561,-,,SRC_ImperialMetalsCorporation_2024-Q4-MDA
+PROD-3f490561-2023-7,2023,Canada,Ore,2,Ore milled,Production,t,5948239.0,5948239.0,,BC-MAIN-3f490561,-,,SRC_ImperialMetalsCorporation_2024-Q4-MDA
+PROD-aa76f6f2-2023-1,2023,Canada,Copper,2,Grade,Technical attribute,%,0.77,,,BC-MAIN-aa76f6f2,-,,SRC_NewGoldInc_New_gold_production
+PROD-aa76f6f2-2023-2,2023,Canada,Copper,2,Recovery rate,Technical attribute,%,91.0,,,BC-MAIN-aa76f6f2,-,,SRC_NewGoldInc_New_gold_production
+PROD-aa76f6f2-2023-3,2023,Canada,Copper,3,Concentrate,Production,Mlbs,47.4,47.4,Assumed concentrate as it is not a refinery/smelter,BC-MAIN-aa76f6f2,-,,SRC_NewGoldInc_New_gold_production
+PROD-aa76f6f2-2023-4,2023,Canada,Gold,2,Grade,Technical attribute,g/t,0.72,,,BC-MAIN-aa76f6f2,-,,SRC_NewGoldInc_New_gold_production
+PROD-dd723db4-2023-1,2023,Canada,Iron,3,Concentrate,Production,kt,13913.117546848382,13913117.546848381,Total production based on Rio Tinto's ownership share,NL-MAIN-dd723db4,-,,SRC_IronOreCompanyofCanada_rt-fact-book-addendum
+PROD-aa76f6f2-2023-5,2023,Canada,Gold,2,Recovery rate,Technical attribute,%,90.0,,,BC-MAIN-aa76f6f2,-,,SRC_NewGoldInc_New_gold_production
+PROD-aa76f6f2-2023-6,2023,Canada,Gold,4,Intermediate metal,Production,oz,67433.0,2.0974023154999997,,BC-MAIN-aa76f6f2,-,,SRC_NewGoldInc_New_gold_production
+PROD-aa76f6f2-2023-7,2023,Canada,Ore,1,Ore mined,Production,kt,2993.0,2993000.0,,BC-MAIN-aa76f6f2,-,,SRC_NewGoldInc_New_gold_production
+PROD-aa76f6f2-2023-8,2023,Canada,Ore,2,Ore processed,Production,kt,3065.0,3065000.0,,BC-MAIN-aa76f6f2,-,,SRC_NewGoldInc_New_gold_production
+PROD-aa76f6f2-2023-9,2023,Canada,Ore,1,Waste mined,Production,kt,574.0,574000.0,,BC-MAIN-aa76f6f2,-,,SRC_NewGoldInc_New_gold_production
+PROD-0898e255-2023-1,2023,Canada,Copper,2,Head grade,Technical attribute,%,1.03,,,MB-MAIN-0898e255,-,,SRC_HudbayMineralsInc_MDA25
+PROD-0898e255-2023-2,2023,Canada,Copper,2,Recovery rate,Technical attribute,%,93.3,,,MB-MAIN-0898e255,-,,SRC_HudbayMineralsInc_MDA25
+PROD-0898e255-2023-3,2023,Canada,Copper,3,Concentrate grade,Technical attribute,% Cu,15.44,,,MB-MAIN-0898e255,-,,SRC_HudbayMineralsInc_MDA25
+PROD-a555d9b9-2023-1,2023,Canada,Ferroniobium,4,?,Production,t,11700.0,11700.0,,QC-MAIN-a555d9b9,-,,SRC_MagrisPerformanceMaterialsInc._SR_2023
+PROD-4e0734b5-2023-1,2023,Canada,Gold,2,Head grade,Technical attribute,,2.84,,,ON-MAIN-4e0734b5,-,,SRC_McEwenMiningInc_SEC_2024
+PROD-4e0734b5-2023-2,2023,Canada,Gold,2,Ore grade,Technical attribute,g/t Au,3.08,,,ON-MAIN-4e0734b5,-,,SRC_McEwenMiningInc_SEC_2024
+PROD-4e0734b5-2023-3,2023,Canada,Gold,1,Ore mined,Production,t,96.0,96.0,,ON-MAIN-4e0734b5,-,,SRC_McEwenMiningInc_SEC_2024
+PROD-4e0734b5-2023-4,2023,Canada,Gold,2,Ore processed,Production,t,120.0,120.0,,ON-MAIN-4e0734b5,-,,SRC_McEwenMiningInc_SEC_2024
+PROD-4e0734b5-2023-5,2023,Canada,GEOs,4,Intermediate metal,Production,oz,10.2,0.0003172557,,ON-MAIN-4e0734b5,-,,SRC_McEwenMiningInc_SEC_2024
+PROD-4e0734b5-2023-6,2023,Canada,Gold,4,Intermediate metal,Production,oz,10.2,0.0003172557,,ON-MAIN-4e0734b5,-,,SRC_McEwenMiningInc_SEC_2024
+PROD-4e0734b5-2023-7,2023,Canada,Silver,4,Intermediate metal,Production,oz,1.4,4.35449e-05,,ON-MAIN-4e0734b5,-,,SRC_McEwenMiningInc_SEC_2024
+PROD-0898e255-2023-4,2023,Canada,Copper,3,Concentrate,Production,t,37.176,37.176,,MB-MAIN-0898e255,-,,SRC_HudbayMineralsInc_MDA25
+PROD-0898e255-2023-5,2023,Canada,Copper,3,Contained metal in concentrate,Production,t,5.739,5.739,,MB-MAIN-0898e255,-,,SRC_HudbayMineralsInc_MDA25
+PROD-0898e255-2023-6,2023,Canada,Gold,2,Head grade,Technical attribute,g/t,6.76,,,MB-MAIN-0898e255,-,,SRC_HudbayMineralsInc_MDA25
+PROD-0898e255-2023-7,2023,Canada,Gold,2,Recovery rate,Technical attribute,%,88.6,,,MB-MAIN-0898e255,-,,SRC_HudbayMineralsInc_MDA25
+PROD-0898e255-2023-8,2023,Canada,Gold,3,Contained metal in concentrate,Production,oz,77.798,0.002419790093,,MB-MAIN-0898e255,-,,SRC_HudbayMineralsInc_MDA25
+PROD-0898e255-2023-9,2023,Canada,Gold,4,Intermediate metal,Production,oz,40239.0,1.2515737365,,MB-MAIN-0898e255,-,,SRC_HudbayMineralsInc_MDA25
+PROD-0898e255-2023-10,2023,Canada,Ore,2,Ore milled,Production,t,596912.0,596912.0,,MB-MAIN-0898e255,-,,SRC_HudbayMineralsInc_MDA25
+PROD-0898e255-2023-11,2023,Canada,Silver,2,Head grade,Technical attribute,%,25.11,,,MB-MAIN-0898e255,-,,SRC_HudbayMineralsInc_MDA25
+PROD-0898e255-2023-12,2023,Canada,Silver,2,Recovery rate,Technical attribute,%,81.5,,,MB-MAIN-0898e255,-,,SRC_HudbayMineralsInc_MDA25
+PROD-0aadf28f-2023-1,2023,Canada,Gold,2,Grade,Technical attribute,g/t,0.99,,Ore grade is assumed,ON-MAIN-0aadf28f,-,,SRC_NewGoldInc_New_gold_production
+PROD-0aadf28f-2023-2,2023,Canada,Ore,2,Recovery rate,Technical attribute,%,91.0,,,ON-MAIN-0aadf28f,-,,SRC_NewGoldInc_New_gold_production
+PROD-0aadf28f-2023-3,2023,Canada,Ore,1,Ore mined,Production,kt,12412.0,12412000.0,,ON-MAIN-0aadf28f,-,,SRC_NewGoldInc_New_gold_production
+PROD-0aadf28f-2023-4,2023,Canada,Ore,2,Ore processed,Production,kt,8764.0,8764000.0,,ON-MAIN-0aadf28f,-,,SRC_NewGoldInc_New_gold_production
+PROD-0aadf28f-2023-5,2023,Canada,Ore,1,Waste mined,Production,kt,31553.0,31553000.0,,ON-MAIN-0aadf28f,-,,SRC_NewGoldInc_New_gold_production
+PROD-0aadf28f-2023-6,2023,Canada,Gold,4,Intermediate metal,Production,oz,253745.0,7.892357607499999,,ON-MAIN-0aadf28f,-,,SRC_NewGoldInc_New_gold_production
+PROD-0898e255-2023-13,2023,Canada,Silver,3,Contained metal in concentrate,Production,oz,292694.0,9.103807828999999,,MB-MAIN-0898e255,-,,SRC_HudbayMineralsInc_MDA25
+PROD-0898e255-2023-14,2023,Canada,Silver,4,Intermediate metal,Production,oz,97630.0,3.036634705,,MB-MAIN-0898e255,-,,SRC_HudbayMineralsInc_MDA25
+PROD-0898e255-2023-15,2023,Canada,Zinc,2,Head grade,Technical attribute,%,0.84,,,MB-MAIN-0898e255,-,,SRC_HudbayMineralsInc_MDA25
+PROD-5ce331b8-2023-1,2023,Canada,Nickel,4,Intermediate metal,Production,kt,9.22,9220.0,,QC-MAIN-5ce331b8,,,SRC_CanadianRoyaltiesInc._?cf-view
+PROD-857b7b89-2023-1,2023,Canada,Copper,2,Mill ore grade,Technical attribute,%,0.4,,,BC-MAIN-857b7b89,-,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-857b7b89-2023-2,2023,Canada,Copper,2,Mill recovery rate,Technical attribute,%,81.2,,,BC-MAIN-857b7b89,-,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-857b7b89-2023-3,2023,Canada,Copper,3,Concentrate,Production,Mlbs,8.0,8.0,Assumed concentrate as it is not a refinery/smelter,BC-MAIN-857b7b89,-,,SRC_NewmontCorporation_AR_2024
+PROD-857b7b89-2023-4,2023,Canada,Gold,2,Mill ore grade,Technical attribute,g/t,0.276,,,BC-MAIN-857b7b89,-,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-857b7b89-2023-5,2023,Canada,Gold,2,Mill recovery rate,Technical attribute,%,54.2,,,BC-MAIN-857b7b89,-,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-fefeaee4-2023-1,2023,Canada,Ore,2,Mill ore grade,Technical attribute,g/t,5.685,,,ON-MAIN-fefeaee4,-,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-fefeaee4-2023-2,2023,Canada,Ore,2,Mill recovery rate,Technical attribute,%,96.0,,,ON-MAIN-fefeaee4,-,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-fefeaee4-2023-3,2023,Canada,Ore,1,Ore mined,Production,kt,167.0,167000.0,,ON-MAIN-fefeaee4,-,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-fefeaee4-2023-4,2023,Canada,Ore,2,Ore processed,Production,kt,166.0,166000.0,,ON-MAIN-fefeaee4,-,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-fefeaee4-2023-5,2023,Canada,Gold,4,Intermediate metal,Production,koz,29.0,0.9020015,,ON-MAIN-fefeaee4,-,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-538513cd-2023-1,2023,Canada,Gold,2,Mill ore grade,Technical attribute,g/t,4.785,,,ON-MAIN-538513cd,-,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-538513cd-2023-2,2023,Canada,Gold,2,Mill recovery rate,Technical attribute,%,91.0,,,ON-MAIN-538513cd,-,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-538513cd-2023-3,2023,Canada,Gold,4,Intermediate metal,Production,koz,232.0,7.216012,,ON-MAIN-538513cd,-,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-538513cd-2023-4,2023,Canada,Gold,1,Ore mined,Production,kt,1656.0,1656000.0,,ON-MAIN-538513cd,-,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-538513cd-2023-5,2023,Canada,Gold,2,Ore processed,Production,kt,1661.0,1661000.0,,ON-MAIN-538513cd,-,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-8eb8be0d-2023-1,2023,Canada,Ore,2,Mill ore grade,Technical attribute,g/t,5.701,,,BC-MAIN-8eb8be0d,-,,SRC_NewmontCorporation_Operating_statistics_2024
+PROD-8eb8be0d-2023-2,2023,Canada,Ore,2,Mill recovery rate,Technical attribute,%,95.7,,,BC-MAIN-8eb8be0d,-,,SRC_NewmontCorporation_Operating_statistics_2025
+PROD-8eb8be0d-2023-3,2023,Canada,Ore,1,Ore mined,Production,kt,1027.0,1027000.0,,BC-MAIN-8eb8be0d,-,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-8eb8be0d-2023-4,2023,Canada,Ore,2,Ore processed,Production,kt,1028.0,1028000.0,,BC-MAIN-8eb8be0d,-,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-8eb8be0d-2023-5,2023,Canada,Gold,4,Intermediate metal,Production,koz,180.0,5.59863,,BC-MAIN-8eb8be0d,-,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-GRP-0d911886-2023-1,2023,Canada,Gold,2,Mill ore grade,Technical attribute,g/t,3.015,,,-,GRP-0d911886,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-GRP-0d911886-2023-2,2023,Canada,Gold,2,Mill recovery rate,Technical attribute,%,91.4,,,-,GRP-0d911886,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-GRP-0d911886-2023-3,2023,Canada,Gold,4,Intermediate metal,Production,koz,260.0,8.08691,,-,GRP-0d911886,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-GRP-0d911886-2023-4,2023,Canada,Gold,1,Ore mined|OP ore,Production,kt,2669.0,2669000.0,,-,GRP-0d911886,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-GRP-0d911886-2023-5,2023,Canada,Gold,1,Ore mined|OP waste,Production,kt,4303.0,4303000.0,,-,GRP-0d911886,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-GRP-0d911886-2023-6,2023,Canada,Gold,1,Ore mined|Underground,Production,kt,809.0,809000.0,,-,GRP-0d911886,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-GRP-0d911886-2023-7,2023,Canada,Gold,2,Ore processed,Production,kt,2911.0,2911000.0,,-,GRP-0d911886,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-60ba74c4-2022-1,2022,Canada,Uranium,3,Concentrate,Production,Mlbs,18.0,18.0,,SK-MAIN-60ba74c4,-,,SRC_OranoCanadaInc_mining-and-milling
+PROD-60ba74c4-2022-2,2022,Canada,Uranium,3,Concentrate,Production,Mlbs,18.0,18.0,,SK-MAIN-60ba74c4,-,CMP-43299e17,SRC_OranoCanadaInc_mining-and-milling
+PROD-60ba74c4-2022-3,2022,Canada,Uranium,3,Concentrate,Capacity,Mlbs,24.0,,,SK-MAIN-60ba74c4,-,CMP-43299e17,SRC_OranoCanadaInc_mining-and-milling
+PROD-GRP-147b3123-2023-1,2023,Canada,Gold,2,Grade,Technical attribute,g/t,2.7,,,-,GRP-147b3123,,SRC_PanAmericanSilverCorp._Financial_results
+PROD-GRP-147b3123-2023-2,2023,Canada,Gold,1,Ore mined,Production,kt,1541.0,1541000.0,,-,GRP-147b3123,,SRC_PanAmericanSilverCorp._Financial_results
+PROD-GRP-147b3123-2023-3,2023,Canada,Gold,2,Ore processed,Production,kt,1574.0,1574000.0,,-,GRP-147b3123,,SRC_PanAmericanSilverCorp._Financial_results
+PROD-GRP-147b3123-2023-4,2023,Canada,Gold,4,Intermediate metal,Production,koz,132.9,4.13365515,,-,GRP-147b3123,,SRC_PanAmericanSilverCorp._Financial_results
+PROD-GRP-147b3123-2023-5,2023,Canada,Silver,4,Intermediate metal,Production,koz,16.0,0.497656,,-,GRP-147b3123,,SRC_PanAmericanSilverCorp._Financial_results
+PROD-01c1e81f-2023-1,2023,Canada,Aluminum,4,Smelter production,Capacity,t,473000.0,,,QC-MAIN-01c1e81f,-,CMP-7a096012,SRC_RioTinto_the-industry
+PROD-01c1e81f-2023-2,2023,Canada,Aluminum,4,Smelter production,Production,kt,484.0,484000.0,,QC-MAIN-01c1e81f,-,CMP-7a096012,SRC_RioTinto_rt-fact-book-addendum
+PROD-8d6616b4-2023-1,2023,Canada,Aluminum,4,Smelter production,Capacity,t,620000.0,,,QC-MAIN-8d6616b4,-,CMP-7a096012,SRC_RioTinto_the-industry
+PROD-8d6616b4-2023-2,2023,Canada,Aluminum,4,Smelter production,Production,kt,634.0,634000.0,,QC-MAIN-8d6616b4,-,CMP-7a096012,SRC_RioTinto_rt-fact-book-addendum
+PROD-c0e3a48b-2023-1,2023,Canada,Aluminum,4,Smelter production,Capacity,t,234000.0,,,QC-MAIN-c0e3a48b,-,CMP-7a096012,SRC_RioTinto_rt-fact-book-addendum
+PROD-c0e3a48b-2023-2,2023,Canada,Aluminum,4,Smelter production,Production,kt,172.039452,172039.45200000002,,QC-MAIN-c0e3a48b,-,CMP-7a096012,SRC_RioTinto_rt-fact-book-addendum
+PROD-e82266c5-2023-1,2023,Canada,Diamonds,3,Diamond recovered,Production,kct,3339.76203,0.000667952406,,QC-MAIN-e82266c5,-,,SRC_RioTinto_2024-4qor-xlsx
+PROD-e82266c5-2023-2,2023,Canada,Diamonds,2,Ore processed,Production,kct,1687.71,0.000337542,,QC-MAIN-e82266c5,-,,SRC_RioTinto_2024-4qor-xlsx
+PROD-92628f16-2023-1,2023,Canada,Aluminum,4,Smelter production,Capacity,t,233000.0,,,QC-MAIN-92628f16,-,CMP-7a096012,SRC_RioTinto_the-industry
+PROD-92628f16-2023-2,2023,Canada,Aluminum,4,Smelter production,Production,kt,229.0,229000.0,,QC-MAIN-92628f16,-,CMP-7a096012,SRC_RioTinto_rt-fact-book-addendum
+PROD-c1c7eb99-2023-1,2023,Canada,Aluminum,4,Smelter production,Capacity,t,432000.0,,,QC-MAIN-c1c7eb99,-,CMP-7a096012,SRC_RioTinto_the-industry
+PROD-c1c7eb99-2023-2,2023,Canada,Aluminum,4,Smelter production,Production,kt,377.272078,377272.07800000004,,QC-MAIN-c1c7eb99,-,CMP-7a096012,SRC_RioTinto_rt-fact-book-addendum
+PROD-3aa117d8-2023-1,2023,Canada,Aluminum,4,Smelter production,Capacity,t,257000.0,,,QC-MAIN-3aa117d8,-,CMP-7a096012,SRC_RioTinto_the-industry
+PROD-3aa117d8-2023-2,2023,Canada,Aluminum,4,Smelter production,Production,kt,243.851812,243851.812,,QC-MAIN-3aa117d8,-,CMP-7a096012,SRC_RioTinto_rt-fact-book-addendum
+PROD-3e146840-2023-1,2023,Canada,Titanium dioxide slag,5,Not specified,Production,kt,1111.0,1111000.0,Difficult to assign a reference point. Probably 4 or 5?,QC-MAIN-3e146840,-,,SRC_RioTinto_rt-fact-book-addendum
+PROD-eb47f7c7-2023-1,2023,Canada,Aluminum,4,Smelter grade alumina,Production,kt,1391.80580303269,1391805.80303269,,BC-MAIN-eb47f7c7,-,,SRC_RioTinto_rt-fact-book-addendum
+PROD-CMP-9abface1-2023-1,2023,Canada,Gold,5,Bullion,Production,Moz,0.99,0.99,,-,-,CMP-9abface1,SRC_RoyalCanadianMint_2024_IR
+PROD-CMP-9abface1-2023-2,2023,Canada,Gold,5,Refined,Production,Moz,5.71,5.71,,-,-,CMP-9abface1,SRC_RoyalCanadianMint_2024_IR
+PROD-CMP-9abface1-2023-3,2023,Canada,Gold,5,Numismatic,Production,Moz,0.016,0.016,,-,-,CMP-9abface1,SRC_RoyalCanadianMint_2024_IR
+PROD-CMP-9abface1-2023-4,2023,Canada,Platinum,5,Bullion,Production,Moz,0.03,0.03,,-,-,CMP-9abface1,SRC_RoyalCanadianMint_2024_IR
+PROD-CMP-9abface1-2023-5,2023,Canada,Platinum,5,Numismatic,Production,Moz,0.001,0.001,,-,-,CMP-9abface1,SRC_RoyalCanadianMint_2024_IR
+PROD-CMP-9abface1-2023-6,2023,Canada,Silver,5,Bullion,Production,Moz,24.8,24.8,,-,-,CMP-9abface1,SRC_RoyalCanadianMint_2024_IR
+PROD-CMP-9abface1-2023-7,2023,Canada,Silver,5,Refined,Production,Moz,2.24,2.24,,-,-,CMP-9abface1,SRC_RoyalCanadianMint_2024_IR
+PROD-CMP-9abface1-2023-8,2023,Canada,Silver,5,Numismatic,Production,Moz,0.548,0.548,,-,-,CMP-9abface1,SRC_RoyalCanadianMint_2024_IR
+PROD-dc1a16f9-2023-1,2023,Canada,Lithium,1,Ore mined,Production,wmt,407034.0,407034.0,,QC-MAIN-dc1a16f9,-,,SRC_SayonaQuébecInc_AR_2023
+PROD-dc1a16f9-2023-2,2023,Canada,Lithium,3,Concentrate (spodumene),Production,dmt,33120.0,33120.0,,QC-MAIN-dc1a16f9,-,,SRC_SayonaQuébecInc_AR_2023
+PROD-857b7b89-2023-6,2023,Canada,Gold,4,Intermediate metal,Production,koz,5.0,0.1555175,,BC-MAIN-857b7b89,-,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-857b7b89-2023-7,2023,Canada,Ore,1,Ore mined|OP ore,Production,kt,1325.0,1325000.0,,BC-MAIN-857b7b89,-,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-857b7b89-2023-8,2023,Canada,Ore,1,Ore mined|OP waste,Production,kt,2444.0,2444000.0,,BC-MAIN-857b7b89,-,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-857b7b89-2023-9,2023,Canada,Ore,2,Ore processed,Production,kt,1139.0,1139000.0,,BC-MAIN-857b7b89,-,,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-GRP-dc07540b-2023-1,2023,Canada,Copper,3,Finished production,Production,kt,57.9,57900.0,Assumed concentrate,-,GRP-dc07540b,,SRC_Vale_Vale'sperformancein1Q25-xls
+PROD-GRP-dc07540b-2023-2,2023,Canada,Nickel,5,Finished production,Production,kt,38.2,38200.0,,-,GRP-dc07540b,,SRC_Vale_Vale'sperformancein1Q25-xls
+PROD-f4fc3276-2023-1,2023,Canada,Gold,4,Gold,Production,oz,134886.0,4.195426701,,ON-MAIN-f4fc3276,-,,SRC_SilverLakeResourcesLtd_MDI42C14SE00005
+PROD-f4fc3276-2023-2,2023,Canada,Gold,4,Grade,Technical attribute,g/t,5.4,,,ON-MAIN-f4fc3276,-,,SRC_SilverLakeResourcesLtd_MDI42C14SE00006
+PROD-GRP-14bfbb82-2023-1,2023,Canada,Gold,2,Mill feed grade,Technical attribute,g/t,10.14,,,-,GRP-14bfbb82,,SRC_SSRMiningInc_FY2024
+PROD-GRP-14bfbb82-2023-2,2023,Canada,Gold,2,Recovery rate,Technical attribute,%,97.0,,,-,GRP-14bfbb82,,SRC_SSRMiningInc_FY2024
+PROD-GRP-14bfbb82-2023-3,2023,Canada,Gold,2,Ore milled,Production,kt,122.0,122000.0,,-,GRP-14bfbb82,,SRC_SSRMiningInc_FY2024
+PROD-GRP-14bfbb82-2023-4,2023,Canada,Gold,1,Ore mined,Production,kt,117.0,117000.0,,-,GRP-14bfbb82,,SRC_SSRMiningInc_FY2024
+PROD-GRP-14bfbb82-2023-5,2023,Canada,Gold,4,Intermediate metal,Production,oz,38757.0,1.2054783494999999,,-,GRP-14bfbb82,,SRC_SSRMiningInc_FY2024
+PROD-b64bae7a-2023-1,2023,Canada,Iron,4,Design capacity,Capacity,kt,6000.0,, ,NL-MAIN-b64bae7a,-,,SRC_TacoraResourcesInc._GEM
+PROD-b64bae7a-2023-2,2023,Canada,Iron,1,Ore mined,Production,kt,3560.0,3560000.0,GEM displays 'Iron ore mined' but is it not concentrate?,NL-MAIN-b64bae7a,-,,SRC_TacoraResourcesInc._GEM
+PROD-d3a4aba9-2022-1,2022,Canada,Cobalt,2,Recovery rate,Technical attribute,%,81.2,,Includes other third pary feeds,AB-MAIN-d3a4aba9,-,,SRC_SherrittInternationalCorporationandGeneralNickelCompanyS.A._TR_2023
+PROD-d3a4aba9-2022-2,2022,Canada,Cobalt,5,Refinery production,Production,t,3368.0,3368.0,Deducted as the difference and verified in the SR,AB-MAIN-d3a4aba9,-,,SRC_SherrittInternationalCorporationandGeneralNickelCompanyS.A._TR_2023
+PROD-GRP-2a663492-2023-1,2023,Canada,Iron,4,Capacity,Capacity,Mt,4.2,,,-,GRP-2a663492,,SRC_TataSteelMineralsCanadaLimited_Mining-in-NL-Fall-2024
+PROD-d3a4aba9-2022-3,2022,Canada,Nickel,2,Recovery rate,Technical attribute,%,83.5,,Includes other third pary feeds,AB-MAIN-d3a4aba9,-,,SRC_SherrittInternationalCorporationandGeneralNickelCompanyS.A._TR_2023
+PROD-d3a4aba9-2022-4,2022,Canada,Nickel,5,Refinery production,Production,t,32268.0,32268.0,,AB-MAIN-d3a4aba9,-,,SRC_SherrittInternationalCorporationandGeneralNickelCompanyS.A._TR_2023
+PROD-3bb6b7cd-2024-1,2024,Canada,Zinc,5,Refined production,Production,kt,256.0,256000.0,,BC-MAIN-3bb6b7cd,-,,SRC_TeckResourcesLimited_2024_Annual_report
+PROD-d3a4aba9-2022-5,2022,Canada,"Nickel, cobalt",4,Annual production capacity,Capacity,t,38200.0,,Includes other third pary feeds,AB-MAIN-d3a4aba9,-,,SRC_SherrittInternationalCorporationandGeneralNickelCompanyS.A._TR_2023
+PROD-d3a4aba9-2022-6,2022,Canada,"Nickel, cobalt",5,Refinery production,Production,t,35636.0,35636.0,Includes other third pary feeds,AB-MAIN-d3a4aba9,-,,SRC_SherrittInternationalCorporationandGeneralNickelCompanyS.A._TR_2023
+PROD-2e13aaa0-2023-1,2023,Canada,Copper,3,Finished production,Production,kt,4.7,4700.0,Assumed concentrate,ON-MAIN-2e13aaa0,-,,SRC_Vale_Vale'sperformancein1Q25-xls
+PROD-2e13aaa0-2023-2,2023,Canada,Nickel,5,Finished production,Production,kt,7.9,7900.0,,ON-MAIN-2e13aaa0,-,,SRC_Vale_Vale'sperformancein1Q25-xls
+PROD-d9036091-2023-1,2023,Canada,Copper,3,Finished production,Production,kt,9.6,9600.0,Assumed concentrate,NL-MAIN-d9036091,-,,SRC_Vale_Vale'sperformancein1Q25-xls
+PROD-d9036091-2023-2,2023,Canada,Nickel,5,Finished production,Production,kt,13.5,13500.0,,NL-MAIN-d9036091,-,,SRC_Vale_Vale'sperformancein1Q25-xls
+PROD-9de9bb0d-2023-1,2023,Canada,Gold,2,Head grade,Technical attribute,g/t,12.6,,,QC-MAIN-9de9bb0d,-,,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
+PROD-9de9bb0d-2023-2,2023,Canada,Gold,2,Recovery rate,Technical attribute,%,96.9,,,QC-MAIN-9de9bb0d,-,,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
+PROD-9de9bb0d-2023-3,2023,Canada,Gold,4,Intermediate metal,Production,Oz,87467.0,87467.0,,QC-MAIN-9de9bb0d,-,,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
+PROD-9de9bb0d-2023-4,2023,Canada,Gold,2,Ore milled,Production,t,222627.0,222627.0,,QC-MAIN-9de9bb0d,-,,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
+PROD-9de9bb0d-2023-5,2023,Canada,Gold,2,Ore processed,Production,t,2.7,2.7,,QC-MAIN-9de9bb0d,-,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+PROD-c5fefb01-2023-1,2023,Canada,Gold,2,Head grade,Technical attribute,g/t,5.9,,,ON-MAIN-c5fefb01,-,,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
+PROD-c5fefb01-2023-2,2023,Canada,Gold,2,Recovery rate,Technical attribute,%,98.3,,,ON-MAIN-c5fefb01,-,,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
+PROD-c5fefb01-2023-3,2023,Canada,Gold,4,Intermediate metal,Production,Oz,35537.0,35537.0,,ON-MAIN-c5fefb01,-,,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
+PROD-c5fefb01-2023-4,2023,Canada,Gold,2,Ore milled,Production,t,191148.0,191148.0,,ON-MAIN-c5fefb01,-,,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
+PROD-c5fefb01-2023-5,2023,Canada,Gold,2,Ore processed,Production,t,1.1,1.1,,ON-MAIN-c5fefb01,-,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+1754055,2023,Canada,,Ore processed,,Production,t of copper ore,863000.0036928342,863000.0036928342,,ON-MAIN-6e9b2449,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754056,2023,Canada,,Ore processed,,Production,t of copper ore,985000.0042148804,985000.0042148804,,ON-MAIN-63b394c3,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754057,2023,Canada,,Ore processed,,Production,t of copper ore,14575000.06236739,14575000.06236739,,BC-MAIN-599152a0,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754058,2023,Canada,,Ore processed,,Production,t of copper ore,406000.0017373009,406000.0017373009,,ON-MAIN-52224e1e,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754060,2023,Canada,,Ore processed,,Production,t of copper ore,650000.002781393,650000.002781393,,ON-MAIN-48fe2205,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754061,2023,Canada,,Ore processed,,Production,t of copper ore,88100000.37698573,88100000.37698573,,BC-MAIN-6b4800fe,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754066,2023,Canada,,Ore processed,,Production,t of copper ore,72886000.31188402,72886000.31188402,,BC-MAIN-bf503b6b,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754067,2023,Canada,,Ore processed,,Production,t of copper ore,0.0,0.0,,QC-MAIN-30c1828c,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754077,2023,Canada,,Ore processed,,Production,t of copper ore,1501481.0064249367,1501481.0064249367,,QC-MAIN-e51eda66,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754081,2023,Canada,,Ore processed,,Production,t of copper ore,527971.0022592229,527971.0022592229,,ON-MAIN-7001a391,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754082,2023,Canada,,Ore processed,,Production,t of copper ore,0.0,0.0,,NL-MAIN-c139de6d,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754083,2023,Canada,,Ore processed,,Production,t of copper ore,0.0,0.0,,YT-MAIN-752fbcae,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754084,2023,Canada,,Ore processed,,Production,t of copper ore,21278000.09104997,21278000.09104997,,BC-MAIN-ed23117f,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754085,2023,Canada,,Ore processed,,Production,t of copper ore,5948239.025452908,5948239.025452908,,BC-MAIN-3f490561,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754086,2023,Canada,,Ore processed,,Production,t of copper ore,45000.00019255798,45000.00019255798,,BC-MAIN-23155c25,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754087,2023,Canada,,Ore processed,,Production,t of copper ore,2993000.0128072454,2993000.0128072454,,BC-MAIN-aa76f6f2,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754096,2023,Canada,,Ore processed,,Production,t of copper ore,684879.0029306426,684879.0029306426,,QC-MAIN-a97821c0,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754097,2023,Canada,,Ore processed,,Production,t of copper ore,6887709.029472963,6887709.029472963,,BC-MAIN-8eb8be0d,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754104,2023,Canada,,Ore processed,,Production,t of copper ore,518000.00221655634,518000.00221655634,,ON-MAIN-28f3f0fc,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754105,2023,Canada,,Ore processed,,Production,t of copper ore,0.0,0.0,,QC-MAIN-b2148882,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+25486533,2023,Canada,,Ore processed,,Production,t of copper ore,1350000.0057767394,1350000.0057767394,,ON-MAIN-f8313ebd,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+25486534,2023,Canada,,Ore processed,,Production,t of copper ore,3798000.0162518937,3798000.0162518937,,ON-MAIN-a3c56a83,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+36395102,2023,Canada,,Ore processed,,Production,t of iron ore,15782798.067535635,15782798.067535635,,NL-MAIN-b64bae7a,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754055,2023,Canada,,Ore processed,,Capacity,tonnes,4624000.019786403,4624000.019786403,,ON-MAIN-6e9b2449,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754056,2023,Canada,,Ore processed,,Capacity,tonnes,35547000.15210797,35547000.15210797,,ON-MAIN-63b394c3,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754057,2023,Canada,,Ore processed,,Capacity,tonnes,367000001.5704173,367000001.5704173,,BC-MAIN-599152a0,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754058,2023,Canada,,Ore processed,,Capacity,tonnes,11041000.04724517,11041000.04724517,,ON-MAIN-52224e1e,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754060,2023,Canada,,Ore processed,,Capacity,tonnes,4822000.020633657,4822000.020633657,,ON-MAIN-48fe2205,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754061,2023,Canada,,Ore processed,,Capacity,tonnes,645000002.7599977,645000002.7599977,,BC-MAIN-6b4800fe,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754066,2023,Canada,,Ore processed,,Capacity,tonnes,263100001.12582237,263100001.12582237,,BC-MAIN-bf503b6b,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754067,2023,Canada,,Ore processed,,Capacity,tonnes,87879592.9686352,87879592.9686352,,QC-MAIN-30c1828c,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754077,2023,Canada,,Ore processed,,Capacity,tonnes,19882000.085076395,19882000.085076395,,QC-MAIN-e51eda66,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754081,2023,Canada,,Ore processed,,Capacity,tonnes,87879592.9686352,87879592.9686352,,ON-MAIN-7001a391,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754082,2023,Canada,,Ore processed,,Capacity,tonnes,7413000.031720718,7413000.031720718,,NL-MAIN-c139de6d,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754083,2023,Canada,,Ore processed,,Capacity,tonnes,2313000.0098974803,2313000.0098974803,,YT-MAIN-752fbcae,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754084,2023,Canada,,Ore processed,,Capacity,tonnes,250025001.06987357,250025001.06987357,,BC-MAIN-ed23117f,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754085,2023,Canada,,Ore processed,,Capacity,tonnes,49029000.209798336,49029000.209798336,,BC-MAIN-3f490561,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754086,2023,Canada,,Ore processed,,Capacity,tonnes,4110000.0175869614,4110000.0175869614,,BC-MAIN-23155c25,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754087,2023,Canada,,Ore processed,,Capacity,tonnes,34087000.14586053,34087000.14586053,,BC-MAIN-aa76f6f2,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754096,2023,Canada,,Ore processed,,Capacity,tonnes,15000000.064185994,15000000.064185994,,QC-MAIN-a97821c0,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754097,2023,Canada,,Ore processed,,Capacity,tonnes,454900001.9465472,454900001.9465472,,BC-MAIN-8eb8be0d,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754104,2023,Canada,,Ore processed,,Capacity,tonnes,2453000.0104965493,2453000.0104965493,,ON-MAIN-28f3f0fc,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+1754105,2023,Canada,,Ore processed,,Capacity,tonnes,87879592.9686352,87879592.9686352,,QC-MAIN-b2148882,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+25486533,2023,Canada,,Ore processed,,Capacity,tonnes,2500000.0106976656,2500000.0106976656,,ON-MAIN-f8313ebd,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+25486534,2023,Canada,,Ore processed,,Capacity,tonnes,22000000.094139457,22000000.094139457,,ON-MAIN-a3c56a83,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
+36395102,2023,Canada,,Ore processed,,Capacity,tonnes,478943002.0494288,478943002.0494288,,NL-MAIN-b64bae7a,,,"Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory"
