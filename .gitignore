@@ -3,6 +3,7 @@ QGIS_projects
 /data/Companies_reports
 /data/Sources
 OLD
+not_in_github
 
 # Ignore system/desktop files
 .DS_Store

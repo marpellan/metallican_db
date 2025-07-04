@@ -4,6 +4,7 @@ import time
 import ee
 from pathlib import Path
 import rasterio
+from rasterstats import zonal_stats, point_query
 
 
 def extract_ghsl_population(main_gdf):
