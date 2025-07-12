@@ -1,9 +1,6 @@
 # MetalliCan
 
-<img src="MetalliCan_logo.png" alt="Project Logo" width="500"/>
-
-
-
+<img src="MetalliCan_logo_color.png" alt="Project Logo" width="300"/>
 
 This repository contains the code and data associated to create the MetalliCan database, 
 a database on metal-related production activities in Canada and their relation to environmental and social impacts. 
@@ -11,7 +8,7 @@ a database on metal-related production activities in Canada and their relation t
 
 # 📊 Input datasets
 Due to the large size of certain input datasets, they are not included in this Github repository.
-Instead, please refer to the [README.xlsx](README.xlsx) file, which provides a complete list of these datasets, including download instructions, links, and DOIs where available.
+Instead, please refer to the article, which provides a complete list of these datasets.
 
 Additionally, running the [datasets_processing.ipynb](datasets_processing.ipynb) requires (free) user accounts in Google Earth Engine to authenticate and execute related code.
 

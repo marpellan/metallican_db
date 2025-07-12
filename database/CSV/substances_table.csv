@@ -1,0 +1,175 @@
+substance_id,substance_name
+SUB07971a0766,"1,2,4-Trimethylbenzene"
+SUBbdfdffeb95,1-Nitropyrene
+SUB0f01e7c1d0,2-Butoxyethanol
+SUB324959500a,"7,12-Dimethylbenz[a]anthracene"
+SUBfee6b26acd,"7H-Dibenzo[c,g]carbazole"
+SUB59bc2af740,Acenaphthene
+SUB5f82681098,Acenaphthylene
+SUB0cb02304aa,Acetaldehyde
+SUBbeec838a08,Acrolein
+SUB04d412c6e9,Aluminum (fume or dust only)
+SUBb7945341aa,Aluminum oxide (fibrous forms only)
+SUB1c6e015419,Ammonia
+SUB6aaa046914,Anthracene
+SUB0600013568,Antimony
+SUB0cbc90a094,Arsenic
+SUB92c9c70222,Asbestos (friable form only)
+SUB12f40aa86f,Azo disperse dyes
+SUB24d6951bbb,Benz[a]anthracene
+SUBe89b88732c,Benzene
+SUB84410986b0,Benzo[a]pyrene
+SUBbc1422aea9,Benzo[b]fluoranthene
+SUB3feeddfb40,Benzo[e]pyrene
+SUB739819743d,Benzo[ghi]perylene
+SUB400d9d7412,Benzo[j]fluoranthene
+SUB61cc69e600,Benzo[k]fluoranthene
+SUB4eea0d29b9,Biogenic CO2
+SUBcc6b33a72a,Bisphenol A
+SUB72bfc6f7ea,CH4
+SUB550729bf89,CO
+SUB7765f1eeaa,CO2
+SUB09c00f97af,Cadmium (and its compounds)
+SUB3393dcebb9,Calcium fluoride
+SUB2e8ffb4a6f,Carbon disulphide
+SUB642eab0862,Carbon monoxide
+SUBebbc37025c,Carbonyl sulphide
+SUB26aa59ab40,Chlorine
+SUB7e3f017a30,Chromium (and its compounds)
+SUB65f3d10c4e,Chrysene
+SUBd94d47b1d8,Cobalt (and its compounds)
+SUB71ee3dc4ca,Copper (and its compounds)
+SUB7d26453701,"Cresol (all isomers, and their salts)"
+SUB43088290b1,Cumene
+SUB2dfd45248d,Cyanides (ionic)
+SUB72038cdf53,"Dibenz[a,h]acridine"
+SUB414bbf79f1,"Dibenz[a,h]anthracene"
+SUB4c08b38e69,"Dibenz[a,j]acridine"
+SUB599e5241dc,"Dibenzo[a,e]fluoranthene"
+SUB86b0baf95a,"Dibenzo[a,e]pyrene"
+SUBf6386b6ccf,"Dibenzo[a,h]pyrene"
+SUBe855715891,"Dibenzo[a,i]pyrene"
+SUB661d9cd98a,Dioxins and furans - total
+SUBa2a8a02933,Direct dust emissions
+SUBf0dcc01230,Ethylbenzene
+SUBa5e5153ac3,Ethylene
+SUB0c065993da,Ethylene glycol
+SUB9f82f183af,Fluoranthene
+SUB8e9bc1adda,Fluorene
+SUBcf761b373a,Fluoride emissions
+SUBa99be32e06,Fluorine
+SUB0f9bbc087f,Formaldehyde
+SUBba06444fdd,Formic acid
+SUB4faf1d835d,Hexachlorobenzene
+SUB07242555d3,Hexavalent chromium (and its compounds)
+SUBbc19ba7e85,Hydrochloric acid
+SUB2c45c77583,Hydrogen cyanide
+SUB7826f3de59,Hydrogen fluoride
+SUB405e794a25,Hydrogen sulphide
+SUB46dd0460ff,"Indeno[1,2,3-cd]pyrene"
+SUB0813c70cea,Isopropyl alcohol
+SUBc6f71d85ae,Lead
+SUBf53b3d840b,Manganese
+SUB60617760c1,Manganese (and its compounds)
+SUB606cb109e2,Mercury
+SUBf91b149b76,Methanol
+SUBe2c5d3ebd3,Methyl ethyl ketone
+SUBa6a8b89e4f,Methyl isobutyl ketone
+SUBba5ec01413,Methylenebis(phenylisocyanate)
+SUBd17fc3b906,Molybdenum trioxide
+SUBd7dad9d315,N-Methyl-2-pyrrolidone
+SUBab97051319,N2O
+SUB27172bcf76,NO2
+SUB515573c582,NOx
+SUB3e2376b19e,NOx (excluding NO2)
+SUB9ec6d93273,Naphthalene
+SUB7df4ab05e3,Nickel (and its compounds)
+SUB76703920dd,Nitrate ion in solution at pH >= 6.0
+SUBa72a30e847,Nitric acid
+SUB2755fd780a,Nitrogen
+SUB04af69acf0,Nitrogen oxides (expressed as nitrogen dioxide)
+SUBb4f3957ea0,Nonylphenol and its ethoxylates
+SUB75cf795e75,"PAHs, total unspeciated"
+SUB18f94e849c,PFCs
+SUB0c95dc6163,PM
+SUBea8825f00e,PM10
+SUB95ce94acc5,PM2.5
+SUB1f549497a7,Particulate
+SUB8a0492cbf7,Perylene
+SUBdc9cf1e9f0,Phenanthrene
+SUBfd3b98a0d1,Phenol (and its salts)
+SUBf71eab520e,Phosphorus (total)
+SUB580e09c2f4,Polycyclic aromatic hydrocarbons (PAH)
+SUBd68524448d,Polymeric diphenylmethane diisocyanate
+SUBbaba118e51,Propylene
+SUBae2c461010,Pyrene
+SUB14984da897,Quinoline
+SUB93846da691,SO2
+SUB2c1715b8f1,SOx
+SUBd9feeabbe7,Selenium
+SUB7ff5383217,Selenium (and its compounds)
+SUB31b9e1e5be,Silver (and its compounds)
+SUB1b9efda1e7,Sodium fluoride
+SUB44e42b7dc0,"Speciated VOC - 1,2,4-Trimethylbenzene"
+SUBb3d9e02bf4,"Speciated VOC - 1,3-Butadiene"
+SUB82f86d6a2d,Speciated VOC - 2-Butoxyethanol
+SUB7a5c094230,Speciated VOC - Acetylene
+SUBf846b05407,Speciated VOC - Benzene
+SUB5f13b62c95,Speciated VOC - Butane (all isomers)
+SUBe1c9548753,Speciated VOC - Butene (all isomers)
+SUB66c5a8703a,Speciated VOC - D-Limonene
+SUB6e7d148ba6,Speciated VOC - Decane  (all isomers)
+SUBde0c64d328,Speciated VOC - Ethanol
+SUBb5ceabe7ff,Speciated VOC - Ethyl acetate
+SUB7a852f5869,Speciated VOC - Ethylene
+SUB2a0824761d,Speciated VOC - Ethyltoluene (all isomers)
+SUB427c29d4d5,Speciated VOC - Formaldehyde
+SUB5c992dbf1c,Speciated VOC - Furfuryl alcohol
+SUB268490c8de,Speciated VOC - Heavy aromatic solvent naphtha
+SUB97af46ae84,Speciated VOC - Heptane (all isomers)
+SUB444fd579c9,Speciated VOC - Hexane (all isomers excluding n-hexane)
+SUBe01168b038,Speciated VOC - Hexene (all isomers)
+SUBb215244183,Speciated VOC - Hydrotreated heavy naphtha
+SUBb3ad2ab68f,Speciated VOC - Hydrotreated light distillate
+SUBad5caaf73e,Speciated VOC - Isopropyl alcohol
+SUBa031714bcf,Speciated VOC - Light aromatic solvent naphtha
+SUB744af8bbf7,Speciated VOC - Methanol
+SUB2dcfac1ae9,Speciated VOC - Methyl ethyl ketone
+SUBc325d7d809,Speciated VOC - Methyl isobutyl ketone
+SUBd3277f955b,Speciated VOC - Mineral spirits
+SUB666ef0853a,Speciated VOC - Nonane (all isomers)
+SUB705528570e,Speciated VOC - Octane (all isomers)
+SUBd4dd188e54,Speciated VOC - Other glycol ethers and acetates (and their isomers)
+SUBfccb546ec8,Speciated VOC - Pentane (all isomers)
+SUB5e96c4d65f,Speciated VOC - Pentene (all isomers)
+SUBfa27fe1951,Speciated VOC - Propane
+SUBcd8e6158e4,Speciated VOC - Propyl acetate (all isomers)
+SUBc4fe19f682,Speciated VOC - Propylene
+SUBb8203155e7,Speciated VOC - Propylene glycol methyl ether acetate (all isomers)
+SUBa6748c149f,Speciated VOC - Solvent naphtha light aliphatic
+SUBc265377133,Speciated VOC - Solvent naphtha medium aliphatic
+SUB11536f42a8,Speciated VOC - Stoddard solvent
+SUB6855ca23fa,Speciated VOC - Styrene
+SUB2aa97e9c63,Speciated VOC - Tetrahydrofuran
+SUB5ffb6440b6,Speciated VOC - Toluene
+SUBe4773bcd62,"Speciated VOC - Trimethylbenzene (all isomers excluding 1,2,4-trimethylbenzene)"
+SUBc9a102d24c,Speciated VOC - VM & P naphtha
+SUB3555b0b724,Speciated VOC - Xylene (all isomers)
+SUBba84f97e78,Speciated VOC - n-Hexane
+SUB2bdc5cc5a2,Speciated VOC - n-Propanol (n-Propyl alcohol)
+SUBd1605a269e,Speciated VOC - p-Dichlorobenzene
+SUBe2b990f545,Styrene
+SUB4cedd6b899,Sulphur dioxide
+SUBda6a6d231d,Sulphuric acid
+SUB3d85023c46,Thallium (and its compounds)
+SUBa7136aa478,Toluene
+SUB28f44d0e11,Total particulate matter
+SUBba3b5d11c7,Total reduced sulphur (expressed as hydrogen sulphide)
+SUBf7dbe2d6dd,Trichloroethylene
+SUBbabfa2dbb1,Uranium
+SUB8319f60a2f,VOCs
+SUB787e5ac1a2,Vanadium (and its compounds)
+SUBe849a2ff09,Xylene (all isomers)
+SUBae95939c3f,Zinc (and its compounds)
+SUB090a1237c1,i-Butyl alcohol
+SUBd049575022,n-Hexane

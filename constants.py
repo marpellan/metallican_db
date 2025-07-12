@@ -164,3 +164,42 @@ water_risk_dict = {
     "opt80_iv_x_l": "Interannual Variability Label"
 }
 
+unit_conversion = {
+    # Standard mass units
+    "t": 1,                      # tonne
+    "kt": 1_000,                 # kilotonne
+    "mt": 1_000_000,             # megatonne
+    "kmt": 1_000_000_000,        # 1000 megatonne
+    "kg": 1e-3,                  # kilograms to tonnes
+    "g": 1e-6,                   # grams to tonnes
+
+    # Ounces — distinguish between **avoirdupois** and **troy**
+    # Metals (e.g. gold, silver) use **troy ounces** (1 troy oz = 31.1035 g)
+    # Regular goods (like lead, zinc) use **avoirdupois ounces** (1 avdp oz = 28.3495 g)
+    #"oz": 0.0000283495,          # avoirdupois ounce to tonnes
+    #"oz avdp": 0.0000283495,
+    "oz": 0.0000311035,        # troy ounce to tonnes
+    "oz au": 0.0000311035,       # assume gold uses troy ounce
+    "oz au eq": 0.0000311035,    # gold equivalent, likely same
+
+    "koz": 0.0311035,            # 1,000 troy ounces = 31.1035 kg = 0.0311035 t
+    "moz": 31.1035,              # 1,000,000 troy ounces = 31.1035 t
+
+    # Pounds
+    "lb": 0.000453592,           # 1 lb = 0.453592 kg
+    "klbs": 0.453592,            # 1,000 lb
+    "mlbs": 453.592,             # 1,000,000 lb
+    "million lbs": 453.592,      # same as mlbs
+
+    # Wet metric tonne / dry metric tonne
+    "wmt": 1,                    # often = tonne, but water content may vary
+    "dmt": 1,                    # usually reported already corrected for moisture
+    "mwmt": 1_000_000,           # Million wet metric tonnes
+    "mdmt": 1_000_000,           # Million dry metric tonnes
+
+    # Carats
+    "ct": 2e-7,                  # 1 carat = 0.2 g = 0.0000002 t
+    "kct": 2e-4,                 # 1,000 carats = 0.2 kg = 0.0002 t
+    "mct": 0.2,                  # 1,000,000 carats = 200 kg = 0.2 t
+    "mcts": 0.2,                 # alternative spelling (your value 2e-4 was too small)
+}

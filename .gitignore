@@ -1,6 +1,5 @@
 # Ignore raw data and company reports
 QGIS_projects
-/data/Companies_reports
 /data/Sources
 OLD
 not_in_github
