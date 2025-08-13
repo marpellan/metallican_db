@@ -1,0 +1,126 @@
+substance_id,substance_type,substance_name
+NA - 16,Group of substances,Ammonia (total)
+NA - 02,Group of substances,Arsenic (and its compounds)
+630-08-0,Substance,Carbon monoxide
+NA - 04,Group of substances,Chromium (and its compounds)
+NA - 05,Group of substances,Cobalt (and its compounds)
+NA - 06,Group of substances,Copper (and its compounds)
+NA - 07,Group of substances,Cyanides (ionic)
+NA - 08,Group of substances,Lead (and its compounds)
+NA - 09,Group of substances,Manganese (and its compounds)
+7697-37-2,Substance,Nitric acid
+11104-93-1,Substance,Nitrogen oxides (expressed as nitrogen dioxide)
+NA - 22,Group of substances,Phosphorus (total)
+NA - M09,Group of substances,PM10 - Particulate Matter <= 10 Micrometers
+NA - M10,Group of substances,PM2.5 - Particulate Matter <= 2.5 Micrometers
+NA - 37,Group of substances,Thallium (and its compounds)
+NA - M08,Group of substances,Total particulate matter
+NA - 40,Group of substances,Vanadium (and its compounds)
+NA - 14,Group of substances,Zinc (and its compounds)
+NA - D/F,Group of substances,Dioxins and furans - total
+118-74-1,Substance,Hexachlorobenzene
+NA - M16,Group of substances,Volatile Organic Compounds (Total)
+NA - 03,Group of substances,Cadmium (and its compounds)
+7647-01-0,Substance,Hydrochloric acid
+NA - 11,Group of substances,Nickel (and its compounds)
+NA - 12,Group of substances,Selenium (and its compounds)
+NA - 01,Group of substances,Antimony (and its compounds)
+75-15-0,Substance,Carbon disulphide
+NA - 10,Group of substances,Mercury (and its compounds)
+NA - 17,Group of substances,Nitrate ion in solution at pH >= 6.0
+NA - 13,Group of substances,Silver (and its compounds)
+NA - M14,Group of substances,Total reduced sulphur (expressed as hydrogen sulphide)
+75-07-0,Substance,Acetaldehyde
+206-44-0,Substance,Fluoranthene
+7664-39-3,Substance,Hydrogen fluoride
+7783-06-4,Substance,Hydrogen sulphide
+NA - P/H,Group of substances,"PAHs, total unspeciated"
+85-01-8,Substance,Phenanthrene
+129-00-0,Substance,Pyrene
+7446-09-5,Substance,Sulphur dioxide
+7664-93-9,Substance,Sulphuric acid
+7429-90-5,Substance,Aluminum (fume or dust only)
+208-96-8,Substance,Acenaphthylene
+86-73-7,Substance,Fluorene
+78-83-1,Substance,i-Butyl alcohol
+5522-43-0,Substance,1-Nitropyrene
+67-56-1,Substance,Methanol
+91-22-5,Substance,Quinoline
+83-32-9,Substance,Acenaphthene
+120-12-7,Substance,Anthracene
+56-55-3,Substance,Benz[a]anthracene
+50-32-8,Substance,Benzo[a]pyrene
+205-99-2,Substance,Benzo[b]fluoranthene
+191-24-2,Substance,Benzo[ghi]perylene
+207-08-9,Substance,Benzo[k]fluoranthene
+53-70-3,Substance,"Dibenz[a,h]anthracene"
+193-39-5,Substance,"Indeno[1,2,3-cd]pyrene"
+74-90-8,Substance,Hydrogen cyanide
+64-18-6,Substance,Formic acid
+107-21-1,Substance,Ethylene glycol
+7782-41-4,Substance,Fluorine
+71-43-2,Substance,Benzene
+74-85-1,Substance,Ethylene
+115-07-1,Substance,Propylene
+108-88-3,Substance,Toluene
+NA - 19,Group of substances,Hexavalent chromium (and its compounds)
+7789-75-5,Substance,Calcium fluoride
+192-97-2,Substance,Benzo[e]pyrene
+463-58-1,Substance,Carbonyl sulphide
+218-01-9,Substance,Chrysene
+5385-75-1,Substance,"Dibenzo[a,e]fluoranthene"
+192-65-4,Substance,"Dibenzo[a,e]pyrene"
+189-55-9,Substance,"Dibenzo[a,i]pyrene"
+91-20-3,Substance,Naphthalene
+198-55-0,Substance,Perylene
+7782-50-5,Substance,Chlorine
+95-63-6,Substance,"1,2,4-Trimethylbenzene"
+111-76-2,Substance,2-Butoxyethanol
+67-63-0,Substance,Isopropyl alcohol
+78-93-3,Substance,Methyl ethyl ketone
+108-10-1,Substance,Methyl isobutyl ketone
+1330-20-7,Substance,Xylene (all isomers)
+194-59-2,Substance,"7H-Dibenzo[c,g]carbazole"
+100-41-4,Substance,Ethylbenzene
+108-95-2,Substance,Phenol (and its salts)
+100-42-5,Substance,Styrene
+1344-28-1,Substance,Aluminum oxide (fibrous forms only)
+79-01-6,Substance,Trichloroethylene
+80-05-7,Substance,Bisphenol A
+110-54-3,Substance,n-Hexane
+205-82-3,Substance,Benzo[j]fluoranthene
+1313-27-5,Substance,Molybdenum trioxide
+226-36-8,Substance,"Dibenz[a,h]acridine"
+224-42-0,Substance,"Dibenz[a,j]acridine"
+57-97-6,Substance,"7,12-Dimethylbenz[a]anthracene"
+NA - 20,Group of substances,Nonylphenol and its ethoxylates
+1319-77-3,Substance,"Cresol (all isomers, and their salts)"
+872-50-4,Substance,N-Methyl-2-pyrrolidone
+101-68-8,Substance,Methylenebis(phenylisocyanate)
+9016-87-9,Substance,Polymeric diphenylmethane diisocyanate
+189-64-0,Substance,"Dibenzo[a,h]pyrene"
+71-43-2,Substance,Speciated VOC - Benzene
+1332-21-4,Substance,Asbestos (friable form only)
+7681-49-4,Substance,Sodium fluoride
+NA - 46,Group of substances,Azo disperse dyes
+7732-18-5,Group of substances,Water
+NA - NOx,Group of substances,NOx
+NA - SOx,Group of substances,SOx
+NA - GHG,Group of substances,GHG
+124-38-9,Substance,Biogenic CO2
+74-82-8,Substance,CH4
+630-08-0,Substance,CO
+124-38-9,Substance,CO2
+NA - 08,Substance,Lead
+NA - 10,Substance,Mercury
+10024-97-2,Substance,N2O
+NA - PFCs,Group of substances,PFCs
+NA - M09,Group of substances,Particulate Matter <= 10 Micrometers
+NA - PAH,Group of substances,Polycyclic aromatic hydrocarbons (PAH)
+NA - M16,Group of substances,VOCs
+2025884,Substance,SO2
+NA - Particulate,Group of substances,Particulate
+NA - 02,Substance,Arsenic
+NA - 12,Group of substances,Selenium
+NA - NOx,Group of substances,NOx (excluding NO2)
+10102-44-0,Substance,NO2

@@ -1,0 +1,405 @@
+main_id,mincan_id,distance_m,facility_name,namemine,similarity_partial_score,similarity_token_set
+QC-MAIN-5801b453,,,Abcourt-Barvue,,,
+QC-MAIN-d29e0839,QC-MINCAN-a6163f93,646.83,Sleeping Giant,Sleeping Giant,100.0,100.0
+QC-MAIN-f1ff4920,,,Akasaba West,,,
+NU-MAIN-4ea8ac9d,NU-MINCAN-4efe1cae,0.0,Amaruq,Amaruq,100.0,100.0
+QC-MAIN-e7e6a960,QC-MINCAN-494c7715,15902.5,Canadian Malartic,Kiena,44.44444444444444,27.272727272727266
+QC-MAIN-e7e6a960,QC-MINCAN-44904232,19527.86,Canadian Malartic,Goldex,18.181818181818176,8.695652173913047
+QC-MAIN-e7e6a960,QC-MINCAN-920ca787,2434.97,Canadian Malartic,Canadian Malartic,100.0,100.0
+QC-MAIN-e7e6a960,QC-MINCAN-6f83c124,994.32,Canadian Malartic,Canadian Malartic,100.0,100.0
+QC-MAIN-e7e6a960,QC-MINCAN-b4d15252,2199.68,Canadian Malartic,Mine Barnat (Sladen),42.85714285714286,43.24324324324324
+ON-MAIN-aeafbb59,ON-MINCAN-7b832414,466.91,Detour Lake,Detour Lake,100.0,100.0
+QC-MAIN-c0660aec,QC-MINCAN-494c7715,4592.64,Goldex,Kiena,28.57142857142857,18.181818181818187
+QC-MAIN-c0660aec,QC-MINCAN-44904232,0.0,Goldex,Goldex,100.0,100.0
+QC-MAIN-c0660aec,QC-MINCAN-920ca787,17464.11,Goldex,Canadian Malartic,18.181818181818176,8.695652173913047
+QC-MAIN-c0660aec,QC-MINCAN-6f83c124,19449.35,Goldex,Canadian Malartic,18.181818181818176,8.695652173913047
+QC-MAIN-c0660aec,QC-MINCAN-b4d15252,18027.28,Goldex,Mine Barnat (Sladen),50.0,23.07692307692308
+QC-MAIN-c0660aec,QC-MINCAN-0feebe9d,2377.8,Goldex,Joubi,28.57142857142857,18.181818181818187
+QC-MAIN-e51eda66,QC-MINCAN-8321e85e,1017.16,LaRonde,LaRonde,100.0,100.0
+QC-MAIN-e51eda66,QC-MINCAN-efafa693,5533.19,LaRonde,Westwood,44.44444444444444,26.66666666666667
+ON-MAIN-1f126a43,ON-MINCAN-cf9a5c80,1862.07,Macassa,Macassas,100.0,93.33333333333333
+NU-MAIN-730aefe3,NU-MINCAN-1d9e43a7,1158.75,Meadowbank,Meadowbank,100.0,100.0
+NU-MAIN-8b0264c9,NU-MINCAN-6ca88e12,0.0,Meliadine,Meliadine,100.0,100.0
+MB-MAIN-5d21dbd5,,,Monument Bay,,,
+ON-MAIN-74997012,,,Upper Beaver,,,
+ON-MAIN-687b8c8d,ON-MINCAN-49811fe2,1358.62,Island,Island Gold,100.0,100.0
+ON-MAIN-7607a50e,ON-MINCAN-8c35080f,1401.29,Young-Davidson,Young-Davidson,100.0,100.0
+QC-MAIN-52c01ae4,,,Baie-Comeau,,,
+QC-MAIN-eac5a52b,,,Deschambault,,,
+QC-MAIN-81a288d0,QC-MINCAN-13530c4c,11143.68,Elysis,Niobec,25.0,16.66666666666667
+QC-MAIN-c8966bdc,,,Bécancour,,,
+ON-MAIN-eab8c362,ON-MINCAN-acd10bd1,565.11,Algoma Steel,None,33.333333333333336,25.0
+QC-MAIN-8c7063b2,,,James Bay Lithium,,,
+BC-MAIN-3ef4f421,,,Avanti Kitsault,,,
+AB-MAIN-9fed34a8,,,AltaSteel,,,
+QC-MAIN-33c09b8b,,,Fire Lake,,,
+QC-MAIN-084bd95c,QC-MINCAN-548f03a9,1695.15,Mont-Wright,Mount Wright,81.81818181818181,86.95652173913044
+QC-MAIN-1eee4ace,,,Contrecœur East,,,
+QC-MAIN-844dcc47,,,Contrecœur West,,,
+QC-MAIN-e25eed27,,,Port-Cartier,,,
+ON-MAIN-4c35e094,ON-MINCAN-923c108f,16215.49,ArcelorMittal Dofasco,Dundas Division,40.0,27.77777777777777
+ON-MAIN-8825d90d,ON-MINCAN-49811fe2,1424.49,Magino,Island Gold,50.0,23.529411764705884
+SK-MAIN-de2e2f8e,,,Prairie Lithium,,,
+ON-MAIN-e928d96a,,,Brampton,,,
+NT-MAIN-4f11f183,,,Nechalacho - Basal Zone,,,
+ON-MAIN-46f71d5b,,,Separation Rapids,,,
+NU-MAIN-5154702a,,,Mary River,,,
+ON-MAIN-6e9be24e,ON-MINCAN-dd136e76,376.37,Hemlo (Williams),Williams or Page-Williams,69.23076923076923,53.65853658536585
+AB-MAIN-8434dce0,AB-MINCAN-bab4efd2,5357.53,Baymag,None,0.0,0.0
+YT-MAIN-2cc9bb06,,,Kudz Ze Kayah,,,
+NL-MAIN-895cb178,NL-MINCAN-4cdd35dd,1640.38,Buchans River,Buchans Unit,81.81818181818181,73.6842105263158
+NT-MAIN-6c1d6ee6,NT-MINCAN-ea720725,481.75,Ekati,Panda (Ekati Project),100.0,38.46153846153846
+NB-MAIN-0c5b40d8,,,Nash Creek,,,
+ON-MAIN-484e4fa3,,,Blind River,,,
+SK-MAIN-91cf5448,SK-MINCAN-7501c939,0.0,Cigar Lake,Cigar Lake,100.0,100.0
+SK-MAIN-bb89158f,,,Key Lake,,,
+SK-MAIN-d3c471e8,,,McArthur River,,,
+ON-MAIN-237587f6,,,Port Hope,,,
+ON-MAIN-4c5c1179,ON-MINCAN-08e05315,17001.78,Crawford,Kidd Creek,30.76923076923077,33.33333333333333
+NB-MAIN-8e04eb21,NB-MINCAN-6ad4666a,11083.66,Murray Brook,Caribou ,37.5,31.578947368421055
+ON-MAIN-37e9571e,,,Thierry,,,
+NB-MAIN-3e7d42ac,,,Woodstock,,,
+NU-MAIN-eae1621e,,,Ferguson Lake,,,
+QC-MAIN-5ce331b8,,,Nunavik Nickel,,,
+BC-MAIN-eba3e309,,,Golden Crown,,,
+BC-MAIN-e34feb4d,,,Kemess,,,
+BC-MAIN-ed23117f,BC-MINCAN-4eaf1f96,0.0,Mount Milligan,Mt Milligan,95.23809523809523,88.0
+QC-MAIN-089f3c60,QC-MINCAN-548f03a9,11126.78,Bloom Lake,Mount Wright,25.0,18.181818181818187
+NL-MAIN-251d6364,,,Beaver Brook,,,
+ON-MAIN-be399420,,,Thunder Bay North,,,
+QC-MAIN-3330383b,,,Eldor (Ashram),,,
+MB-MAIN-6fca9d6d,,,Lynn Lake,,,
+QC-MAIN-d4e2812a,,,Rose,,,
+AB-MAIN-9a0307f6,,,SBH Black Shale,,,
+QC-MAIN-715d4318,,,Horizon,,,
+NT-MAIN-94e652a5,NT-MINCAN-ecb9b239,0.0,Gahcho Kué,Gahcho Kué,100.0,100.0
+BC-MAIN-382acb18,,,Wicheeda,,,
+SK-MAIN-4aef3cb2,,,Waterbury,,,
+SK-MAIN-95ec2625,,,Wheeler River,,,
+BC-MAIN-51068f3b,,,Kitsault Valley,,,
+AB-MAIN-7d4a0421,,,Bashaw District,,,
+QC-MAIN-f9e41c2a,QC-MINCAN-494c7715,14118.06,Lamaque,Kiena,33.333333333333336,16.66666666666667
+QC-MAIN-f9e41c2a,QC-MINCAN-44904232,10106.22,Lamaque,Goldex,28.57142857142857,15.384615384615387
+QC-MAIN-f9e41c2a,QC-MINCAN-0feebe9d,7828.65,Lamaque,Joubi,28.57142857142857,16.66666666666667
+ON-MAIN-6664e89b,ON-MINCAN-7763265b,6611.98,Battery Materials Park,Haileybury,47.05882352941176,25.0
+ON-MAIN-6664e89b,QC-MINCAN-4d537dd7,15408.04,Battery Materials Park,None,25.0,7.692307692307693
+QC-MAIN-5398dfac,QC-MINCAN-13530c4c,13395.77,Elkem Chicoutimi,Niobec,33.333333333333336,27.272727272727266
+QC-MAIN-2cf66e65,,,Becancour Plant,,,
+ON-MAIN-7f050560,ON-MINCAN-b089dc5f,5984.95,Red Lake,Cochenour,15.384615384615385,11.764705882352942
+ON-MAIN-7f050560,ON-MINCAN-66fd9252,16898.68,Red Lake,PureGold,36.36363636363637,25.0
+ON-MAIN-7f050560,ON-MINCAN-fc444118,1079.67,Red Lake,Red Lake,100.0,100.0
+SK-MAIN-26b9aaf3,,,EVRAZ Regina,,,
+QC-MAIN-c1cc9f7c,,,Becancour Silicon,,,
+NL-MAIN-c139de6d,NL-MINCAN-64d7ea1b,5812.82,Ming,Pine Cove,57.14285714285714,30.769230769230774
+NL-MAIN-842ba1b4,,,Nugget Pond,,,
+YT-MAIN-ca488f19,,,Macmillan Pass,,,
+YT-MAIN-70d629b4,,,Mactung,,,
+BC-MAIN-efff21d3,,,Deer Horn,,,
+SK-MAIN-0684a5d8,,,Patterson Lake South,,,
+MB-MAIN-f7fde5b4,,,Minago,,,
+QC-MAIN-ae473a4e,,,Lac Knife,,,
+SK-MAIN-7a11ae49,,,McIlvenna Bay,,,
+AB-MAIN-ca9625ce,,,Fortune Minerals Refinery,,,
+NT-MAIN-b7cdf82c,,,NICO,,,
+ON-MAIN-d47616e5,,,Martison,,,
+BC-MAIN-e1641dfb,,,Decar,,,
+ON-MAIN-c06904f0,,,Pakeagama,,,
+ON-MAIN-64bbe7e6,,,Marathon,,,
+QC-MAIN-22426144,,,REE Recycling Facility (Saint-Bruno),,,
+MB-MAIN-0d5c2cae,,,Selkirk Division,,,
+ON-MAIN-92cdea80,,,Whitby Division,,,
+ON-MAIN-bddeaef0,,,Cambridge Mill,,,
+MB-MAIN-b4ca1426,,,Manitoba Mill,,,
+ON-MAIN-21b6ab35,,,Whitby Mill,,,
+QC-MAIN-de3d8b7b,QC-MINCAN-6127ba77,15463.63,Canadian Electrolytic Zinc Limited (CEZinc),None,28.57142857142857,8.510638297872347
+QC-MAIN-529c96b4,,,CCR,,,
+ON-MAIN-206041d1,ON-MINCAN-838ef03f,16.57,Fraser,Fraser,100.0,100.0
+ON-MAIN-206041d1,ON-MINCAN-fa8d0bc2,2912.59,Fraser,Levack,25.0,16.66666666666667
+QC-MAIN-abb3e1c7,,,General Smelting Company of Canada,,,
+QC-MAIN-30c1828c,QC-MINCAN-83950e58,9344.6,Horne,Peel-Elder,33.333333333333336,13.333333333333329
+QC-MAIN-30c1828c,QC-MINCAN-47ee4b61,16470.86,Horne,None,75.0,66.66666666666666
+ON-MAIN-f8313ebd,ON-MINCAN-08e05315,300.37,Kidd Creek,Kidd Creek,100.0,100.0
+ON-MAIN-fcb287a4,,,Nickel Rim South,,,
+ON-MAIN-319e04a8,ON-MINCAN-838ef03f,4844.26,Onaping Depth,Fraser,22.22222222222222,10.526315789473685
+ON-MAIN-319e04a8,ON-MINCAN-fa8d0bc2,3252.5,Onaping Depth,Levack,22.22222222222222,21.05263157894737
+QC-MAIN-a97821c0,QC-MINCAN-a90e8433,615.8,Raglan,Raglan,100.0,100.0
+ON-MAIN-ed85ac94,ON-MINCAN-838ef03f,1155.52,Strathcona,Fraser,40.0,25.0
+ON-MAIN-ed85ac94,ON-MINCAN-fa8d0bc2,3070.78,Strathcona,Levack,33.333333333333336,25.0
+ON-MAIN-40ce0593,,,Sudbury,,,
+BC-MAIN-4724f4ba,,,Elk,,,
+YT-MAIN-956d050a,,,Carmacks,,,
+ON-MAIN-97ee890f,,,Seymour Lake,,,
+MB-MAIN-27a90834,,,Makwa Mayville,,,
+SK-MAIN-fbe28fef,,,Kindersley Lithium,,,
+BC-MAIN-b031959a,,,Turnagain,,,
+QC-MAIN-b86f7d07,QC-MINCAN-cf418fe9,52.79,Casa Berardi,Casa Berardi,100.0,100.0
+YT-MAIN-44857446,YT-MINCAN-1ba16580,8650.64,Keno Hill Silver District,Historic Keno Hill District,83.72093023255813,83.72093023255815
+YT-MAIN-c3105f43,,,Rackla Gold,,,
+ON-MAIN-fc6f1a44,,,Ivaco Rolling Mills,,,
+MB-MAIN-e2e67f8f,MB-MINCAN-15965632,1491.8,1901,Lalor Lake,0.0,0.0
+MB-MAIN-e2e67f8f,MB-MINCAN-556ed99a,6351.38,1901,New Britannia ( Nor-Acme),0.0,0.0
+BC-MAIN-599152a0,BC-MINCAN-77aaa8f9,1917.76,Copper Mountain,Similkameen Division,30.76923076923077,22.85714285714286
+BC-MAIN-599152a0,BC-MINCAN-14ce4b06,0.0,Copper Mountain,Copper Mountain,100.0,100.0
+MB-MAIN-be5b3dc8,MB-MINCAN-15965632,1457.75,Lalor Lake,Lalor Lake,100.0,100.0
+MB-MAIN-be5b3dc8,MB-MINCAN-556ed99a,6367.16,Lalor Lake,New Britannia ( Nor-Acme),33.333333333333336,28.57142857142857
+MB-MAIN-da0b5c3d,MB-MINCAN-15965632,8670.85,New Britannia,Lalor Lake,26.66666666666667,17.391304347826093
+MB-MAIN-da0b5c3d,MB-MINCAN-556ed99a,3116.63,New Britannia,New Britannia ( Nor-Acme),100.0,100.0
+MB-MAIN-c0684566,,,Rail,,,
+MB-MAIN-0898e255,MB-MINCAN-15965632,13240.41,Stall Lake,Lalor Lake,77.77777777777779,70.0
+MB-MAIN-0898e255,MB-MINCAN-556ed99a,5563.25,Stall Lake,New Britannia ( Nor-Acme),30.000000000000004,17.14285714285714
+MB-MAIN-854abe09,,,Talbot,,,
+MB-MAIN-1a82a1b7,,,Tower,,,
+MB-MAIN-b5b81ee3,MB-MINCAN-15965632,18562.51,Wim,Lalor Lake,0.0,0.0
+MB-MAIN-b5b81ee3,MB-MINCAN-556ed99a,17848.33,Wim,New Britannia ( Nor-Acme),33.333333333333336,14.285714285714292
+QC-MAIN-02884fb5,QC-MINCAN-8321e85e,4535.61,Westwood-Doyon,LaRonde,44.44444444444444,19.04761904761905
+QC-MAIN-02884fb5,QC-MINCAN-efafa693,0.0,Westwood-Doyon,Westwood,100.0,72.72727272727272
+ON-MAIN-a3c56a83,ON-MINCAN-de7958a8,191.61,Lac des Iles,Lac-des-iles,75.0,50.0
+BC-MAIN-3f490561,,,Mount Polley,,,
+QC-MAIN-586679b9,,,Crater Lake,,,
+NL-MAIN-dd723db4,,,Carol Lake,,,
+ON-MAIN-7001a391,ON-MINCAN-838ef03f,5322.37,McCreedy West,Fraser,36.36363636363637,21.05263157894737
+ON-MAIN-7001a391,ON-MINCAN-fa8d0bc2,3017.32,McCreedy West,Levack,25.0,10.526315789473685
+ON-MAIN-9a34108c,ON-MINCAN-5ea38d2b,4975.93,Victoria,Lockerby,33.333333333333336,25.0
+ON-MAIN-9a34108c,ON-MINCAN-07ece30d,6842.19,Victoria,Totten,19.999999999999996,14.285714285714292
+ON-MAIN-6bd6cc80,,,Kingston Operation,,,
+MB-MAIN-a832fb0a,MB-MINCAN-556ed99a,18347.24,East Wekusko - Snow Lake,New Britannia ( Nor-Acme),27.027027027027028,28.57142857142857
+BC-MAIN-12730593,,,Kutcho,,,
+ON-MAIN-575c5e66,,,Ontario Spoke,,,
+ON-MAIN-6b998583,,,Markham lithium reprocessing facility,,,
+QC-MAIN-0414a373,,,Lithion St-Bruno,,,
+AB-MAIN-35d0dc71,,,Boardwalk,,,
+QC-MAIN-a2c6775d,,,La Loutre,,,
+ON-MAIN-b1d981ca,ON-MINCAN-5ea38d2b,3085.69,Crean Hill,Lockerby,19.999999999999996,11.111111111111114
+ON-MAIN-b1d981ca,ON-MINCAN-07ece30d,8740.58,Crean Hill,Totten,36.36363636363637,25.0
+ON-MAIN-54b7e152,,,Shakespeare,,,
+QC-MAIN-aa793d35,,,Dumont Nickel,,,
+QC-MAIN-649d2873,QC-MINCAN-13530c4c,74.99,Niobec Converter,Niobec,100.0,100.0
+QC-MAIN-a555d9b9,QC-MINCAN-13530c4c,176.78,Niobec,Niobec,100.0,100.0
+NB-MAIN-c1e4dee0,,,Battery Hill,,,
+NL-MAIN-f021107e,NL-MINCAN-64d7ea1b,408.47,Point Rousse,Pine Cove,58.82352941176471,38.095238095238095
+QC-MAIN-615ebdb4,,,Lac Guéret (Uatnan),,,
+ON-MAIN-470b504b,,,Ottawa Plant,,,
+ON-MAIN-4e0734b5,ON-MINCAN-019a0826,0.0,Fox Complex,Black Fox,50.0,50.0
+QC-MAIN-237d67c1,,,Lac Rainy Graphite,,,
+BC-MAIN-c7247100,,,Driftwood Creek,,,
+YT-MAIN-752fbcae,,,Minto,,,
+NU-MAIN-8e62bfbc,,,High Lake,,,
+NU-MAIN-1ef8af2c,,,Izok Lake,,,
+QC-MAIN-eb73fd68,,,Nemaska lithium conversion facility,,,
+QC-MAIN-9d41d417,,,Whabouchi,,,
+ON-MAIN-2bb07cd3,,,River Valley,,,
+BC-MAIN-aa76f6f2,BC-MINCAN-72fabc94,0.0,New Afton,New Afton,100.0,100.0
+ON-MAIN-0aadf28f,ON-MINCAN-ddd10f1c,0.0,Rainy River,Rainy River,100.0,100.0
+ON-MAIN-1c674cd0,ON-MINCAN-b94b1f25,0.0,Borden,Borden,100.0,100.0
+BC-MAIN-857b7b89,BC-MINCAN-492cfeba,0.0,Brucejack,Brucejack,100.0,100.0
+BC-MAIN-c720b195,,,GJ,,,
+ON-MAIN-8629a493,ON-MINCAN-4e601e2c,14905.95,Hollinger,Hoyle Pond,57.14285714285714,42.10526315789474
+ON-MAIN-8629a493,ON-MINCAN-7b29d7b3,14262.81,Hollinger,Bell Creek,37.5,31.578947368421055
+ON-MAIN-538513cd,ON-MINCAN-4e601e2c,3009.77,Hoyle Pond,Hoyle Pond,100.0,100.0
+ON-MAIN-538513cd,ON-MINCAN-7b29d7b3,4758.45,Hoyle Pond,Bell Creek,26.66666666666667,20.0
+ON-MAIN-fefeaee4,ON-MINCAN-69e999a0,1974.44,Musselwhite,Musselwhite,100.0,100.0
+ON-MAIN-3b3e5365,ON-MINCAN-8cc0bb47,17332.94,Porcupine,Redstone,40.0,35.294117647058826
+ON-MAIN-3b3e5365,ON-MINCAN-4e601e2c,11944.83,Porcupine,Hoyle Pond,46.15384615384615,31.578947368421055
+ON-MAIN-3b3e5365,ON-MINCAN-7b29d7b3,11981.68,Porcupine,Bell Creek,30.76923076923077,21.05263157894737
+BC-MAIN-8eb8be0d,BC-MINCAN-496a2682,0.0,Red Chris,Red Chris,100.0,100.0
+QC-MAIN-6dc537e6,QC-MINCAN-1c16c912,0.0,Éléonore,Éléonore,100.0,100.0
+BC-MAIN-b4655afb,,,Galore Creek,,,
+SK-MAIN-3012889c,,,Rook I,,,
+YT-MAIN-1910d1c3,,,Nickel Shaw,,,
+QC-MAIN-288718a6,,,Crevier,,,
+NB-MAIN-f58cc895,,,Sisson,,,
+ON-MAIN-8b86d975,,,Bissett Creek,,,
+BC-MAIN-6fbdcf4c,,,North Island,,,
+BC-MAIN-265a57f6,,,Kwanika,,,
+NT-MAIN-b3681e03,,,Prairie Creek,,,
+QC-MAIN-d6748d40,,,Matawinie,,,
+QC-MAIN-69bb36c1,,,Caber Complex,,,
+SK-MAIN-60ba74c4,,,McClean Lake,,,
+NT-MAIN-b99d4cb2,,,Pine Point,,,
+NL-MAIN-a498ddc6,,,Michelin,,,
+ON-MAIN-bfbcd72e,ON-MINCAN-4e601e2c,2162.13,Bell Creek,Hoyle Pond,26.66666666666667,20.0
+ON-MAIN-bfbcd72e,ON-MINCAN-7b29d7b3,924.2,Bell Creek,Bell Creek,100.0,100.0
+ON-MAIN-f3e6ff08,ON-MINCAN-643672f4,0.0,Timmins West,Timmins,100.0,100.0
+QC-MAIN-3aa117d8,,,Alma,,,
+QC-MAIN-c1c7eb99,QC-MINCAN-13530c4c,11305.35,Arvida,Niobec,25.0,16.66666666666667
+QC-MAIN-01c1e81f,,,Grande-Baie,,,
+BC-MAIN-eb47f7c7,,,Kitimat,,,
+QC-MAIN-c0e3a48b,,,Laterrière,,,
+QC-MAIN-92628f16,QC-MINCAN-13530c4c,11485.06,Vaudreuil,Niobec,25.0,13.333333333333329
+QC-MAIN-8d6616b4,,,Alouette,,,
+NT-MAIN-0ec39ce0,,,Diavik,,,
+QC-MAIN-e82266c5,QC-MINCAN-287a8b10,190.38,Lac Tio,Tio (Lake Tio or Allard Lake),71.42857142857143,60.0
+QC-MAIN-11c40b1f,,,Lithium Demonstration Plant,,,
+QC-MAIN-3e146840,,,Rio Tinto Iron and Titanium,,,
+QC-MAIN-7b3b4c8b,,,Scandium Demonstration Plant,,,
+ON-MAIN-eda110b0,,,Georgia Lake,,,
+YT-MAIN-73ce66b5,,,Klaza,,,
+BC-MAIN-116ae608,,,Revel Ridge,,,
+ON-MAIN-dca9cce7,,,Ottawa,,,
+SK-MAIN-d5c9124e,SK-MINCAN-1e58c571,17170.8,Rare Earth Processing Facility,Cory Division,38.46153846153846,32.55813953488372
+SK-MAIN-d5c9124e,SK-MINCAN-cc547f50,18044.1,Rare Earth Processing Facility,Patience Lake,40.0,32.55813953488372
+QC-MAIN-c4fb59c2,,,Moblan,,,
+QC-MAIN-1186a6d0,,,Authier,,,
+QC-MAIN-dc1a16f9,,,North American Lithium,,,
+BC-MAIN-b7591127,,,Iskut,,,
+BC-MAIN-4959ea63,BC-MINCAN-492cfeba,7160.09,KSM,Brucejack,0.0,0.0
+YT-MAIN-03a159d7,,,Selwyn,,,
+AB-MAIN-d3a4aba9,AB-MINCAN-df542726,2743.4,The Cobalt Refinery Company Inc.,None,50.0,16.66666666666667
+ON-MAIN-f4fc3276,ON-MINCAN-079b81a1,0.0,Sugar Zone,Sugar Zone,100.0,100.0
+MB-MAIN-915d9faa,,,Tanco,,,
+BC-MAIN-b1fe389a,,,Eskay Creek,,,
+QC-MAIN-1d2f31f9,,,Kwyjibo,,,
+NL-MAIN-bb23d8a6,,,Great Burnt Lake,,,
+SK-MAIN-22ce14be,SK-MINCAN-5ac4b2dd,0.0,Santoy,Santoy 8,100.0,100.0
+SK-MAIN-29afbdb5,SK-MINCAN-5ac4b2dd,12916.58,Seabee,Santoy 8,50.0,28.57142857142857
+NS-MAIN-c9c77a59,NS-MINCAN-21b5fbce,0.0,Moose River Consolidated,Moose River Consolidated,100.0,100.0
+ON-MAIN-020a683c,ON-MINCAN-923c108f,14913.9,Hamilton Works,Dundas Division,35.29411764705882,34.48275862068965
+ON-MAIN-b2e5c9bb,,,Lake Erie Works,,,
+QC-MAIN-3032c251,QC-MINCAN-72adc1b6,0.0,Renard,Renard,100.0,100.0
+QC-MAIN-b5937543,,,Blackrock,,,
+QC-MAIN-64595b02,,,Blackrock Pyrometallurgical Facility,,,
+BC-MAIN-a505d25d,,,Ootsa,,,
+BC-MAIN-c5d1b42d,,,Berg,,,
+QC-MAIN-6a26086e,,,Sorel Forge,,,
+NL-MAIN-b64bae7a,,,Scully,,,
+NL-MAIN-18695c6d,,,Scully Mine - Manganese project,,,
+ON-MAIN-1aa10efa,,,Kenbridge,,,
+BC-MAIN-23f67ea8,,,Aley,,,
+BC-MAIN-6b4800fe,BC-MINCAN-8cc41b53,150.27,Gibraltar,Gibraltar,100.0,100.0
+BC-MAIN-18bed6d7,,,Yellowhead,,,
+NL-MAIN-e09881ff,,,DSO (3 and 4),,,
+QC-MAIN-b8c826a2,QC-MINCAN-a6cbac08,0.0,DSO (Goodwood),DSO (Goodwood),100.0,100.0
+BC-MAIN-bf503b6b,,,Highland Valley,,,
+BC-MAIN-193ddddb,,,Schaft Creek,,,
+BC-MAIN-3bb6b7cd,,,Trail,,,
+QC-MAIN-2587e541,,,Strange Lake,,,
+BC-MAIN-23155c25,BC-MINCAN-595f5049,1117.69,Myra Falls,Myra Falls,100.0,100.0
+YT-MAIN-68c87980,,,Freegold Mountain,,,
+QC-MAIN-b2148882,,,Troilus,,,
+ON-MAIN-4a6187a4,,,RapidSX Demonstration Plant,,,
+SK-MAIN-9dd2b7f8,,,Horseshoe-Raven,,,
+ON-MAIN-387b06fe,,,Welland Mill,,,
+ON-MAIN-de2f9639,,,Clarabelle,,,
+ON-MAIN-6e9b2449,ON-MINCAN-838ef03f,1560.47,Coleman,Fraser,25.0,15.384615384615387
+ON-MAIN-6e9b2449,ON-MINCAN-fa8d0bc2,3478.52,Coleman,Levack,40.0,30.769230769230774
+ON-MAIN-f080c409,,,Copper Cliff Complex,,,
+ON-MAIN-63b394c3,,,Copper Cliff Complex,,,
+ON-MAIN-52224e1e,ON-MINCAN-5ea38d2b,11641.85,Creighton,Lockerby,19.999999999999996,11.764705882352942
+ON-MAIN-48fe2205,,,Garson,,,
+ON-MAIN-2e13aaa0,,,Port Colborne,,,
+MB-MAIN-e0a6250e,,,Thompson (T-1 and T-3),,,
+ON-MAIN-28f3f0fc,ON-MINCAN-5ea38d2b,11732.69,Totten,Lockerby,36.36363636363637,28.57142857142857
+ON-MAIN-28f3f0fc,ON-MINCAN-07ece30d,0.0,Totten,Totten,100.0,100.0
+NL-MAIN-d9036091,,,Long Harbour,,,
+NL-MAIN-2d8801d6,NL-MINCAN-d8d4cf69,376.77,Voisey’s Bay,Voisey's Bay,91.66666666666666,91.66666666666667
+QC-MAIN-860bbbfc,,,Lac Doré Vanadium,,,
+YT-MAIN-e05ed9fe,YT-MINCAN-8fada64a,0.0,Eagle (Dublin Gulch),Eagle (Dublin Gulch),100.0,100.0
+QC-MAIN-d59f82aa,,,Sirmac,,,
+NT-MAIN-b1b28b01,,,Nechalacho - T-Zone & Tardiff Zone,,,
+AB-MAIN-63f096a6,,,Rainbow Lake,,,
+QC-MAIN-be473617,QC-MINCAN-072223ba,19606.72,Mont Sorcier,Duvay-Obalski,15.384615384615385,8.0
+ON-MAIN-3c468faa,,,Superior Lake,,,
+ON-MAIN-cb85213a,ON-MINCAN-97f916de,13792.98,Eagle River,Mishi,22.22222222222222,12.5
+ON-MAIN-cb85213a,ON-MINCAN-1c3b8f14,269.08,Eagle River,Eagle River,100.0,100.0
+QC-MAIN-9de9bb0d,QC-MINCAN-494c7715,603.69,Kiena,Kiena,100.0,100.0
+QC-MAIN-9de9bb0d,QC-MINCAN-44904232,4107.51,Kiena,Goldex,28.57142857142857,18.181818181818187
+QC-MAIN-9de9bb0d,QC-MINCAN-920ca787,14257.55,Kiena,Canadian Malartic,44.44444444444444,27.272727272727266
+QC-MAIN-9de9bb0d,QC-MINCAN-6f83c124,16579.62,Kiena,Canadian Malartic,44.44444444444444,27.272727272727266
+QC-MAIN-9de9bb0d,QC-MINCAN-b4d15252,14769.67,Kiena,Mine Barnat (Sladen),50.0,24.0
+QC-MAIN-9de9bb0d,QC-MINCAN-0feebe9d,6342.06,Kiena,Joubi,33.333333333333336,20.0
+ON-MAIN-c5fefb01,ON-MINCAN-97f916de,551.25,Mishi,Mishi,100.0,100.0
+ON-MAIN-c5fefb01,ON-MINCAN-1c3b8f14,14060.47,Mishi,Eagle River,22.22222222222222,12.5
+BC-MAIN-feb13c30,,,Record Ridge,,,
+YT-MAIN-5e0d8b48,,,Casino,,,
+ON-MAIN-12c68d49,,,Eagle's Nest,,,
+BC-MAIN-891d3cb5,,,Akie,,,
+,ON-MINCAN-ccf2bf99,,,Haley,,
+,NB-MINCAN-63ccd128,,,Stratmat (Halfmile),,
+,ON-MINCAN-9abb16ea,,,Calcite Division,,
+,QC-MINCAN-06b1f129,,,Parent Mica Deposit,,
+,QC-MINCAN-227d3d18,,,Charlevoix,,
+,AB-MINCAN-1f02a2f3,,,Coal Valley,,
+,SK-MINCAN-5cc72a2d,,,Vascoy (Rocanville Division),,
+,SK-MINCAN-3f1bcdcb,,,,,
+,SK-MINCAN-cbfb59a3,,,Rocanville Division,,
+,SK-MINCAN-0e7fd863,,,Shand,,
+,BC-MINCAN-b7c27ef4,,,Wolverine or Perry Creek,,
+,AB-MINCAN-fb104999,,,Vista,,
+,QC-MINCAN-c4a792be,,,Domlin,,
+,ON-MINCAN-dcad146e,,,,,
+,BC-MINCAN-1af9c930,,,Premier,,
+,BC-MINCAN-b1f8d21f,,,Dome Mountain,,
+,ZZ-MINCAN-93489a7a,,,Pugwash,,
+,BC-MINCAN-c4bfc9ab,,,,,
+,BC-MINCAN-be8c27ca,,,Silver Queen,,
+,ON-MINCAN-78fee3c0,,,Plant,,
+,QC-MINCAN-44e0bdee,,,Sainte-Clotilde (Armand Sicotte) or Marcil Quarry,,
+,ZZ-MINCAN-a62feaf9,,,Sussex (Lower Millstream Potash),,
+,BC-MINCAN-9568ffa5,,,Quinsam,,
+,ON-MINCAN-421e454e,,,Reiss Lime,,
+,BC-MINCAN-1ba2a96d,,,MAX,,
+,NL-MINCAN-dea6d820,,,Beaver Brook,,
+,QC-MINCAN-5bfa990a,,,Barry,,
+,QC-MINCAN-fb453944,,,Rocmec 1,,
+,ON-MINCAN-4e67cbbc,,,St. Lawrence,,
+,QC-MINCAN-498ff152,,,Bracemac-McLeod,,
+,ON-MINCAN-b9448fc0,,,Broken Hammer,,
+,NU-MINCAN-d93a2c54,,,Mary River,,
+,SK-MINCAN-de82f057,,,Bethune,,
+,NU-MINCAN-c890ff47,,,Hope Bay,,
+,NL-MINCAN-f672e15e,,,St. Lawrence,,
+,BC-MINCAN-5f70024e,,,"
+Silvertip",,
+,NB-MINCAN-56d13b79,,,Upham East,,
+,NB-MINCAN-ec0f4f8c,,,Springhill,,
+,SK-MINCAN-ed17fb21,,,,,
+,SK-MINCAN-8907f04e,,,Lanigan Division,,
+,SK-MINCAN-f137cb3d,,,Vanscoy ,,
+,BC-MINCAN-24d6ecdb,,,,,
+,SK-MINCAN-5bb92fba,,,Poplar River,,
+,ON-MINCAN-e563e91d,,,,,
+,NL-MINCAN-66eb13e6,,,Coal Brook,,
+,SK-MINCAN-925fb143,,,Sifto Salt Division,,
+,SK-MINCAN-770a0f8a,,,Costello (klimax),,
+,BC-MINCAN-f7ead273,,,Ashcroft,,
+,SK-MINCAN-8b2e7c65,,,K1,,
+,SK-MINCAN-391cddcb,,,Colonsay,,
+,AB-MINCAN-e1786f69,,,Sil Silica Division,,
+,NB-MINCAN-7c7fa51d,,,Jamer Operation,,
+,ON-MINCAN-266b1776,,,Holt-McDermott,,
+,QC-MINCAN-940990db,,,,,
+,ON-MINCAN-b17ab173,,,Goderich,,
+,QC-MINCAN-fe6d379c,,,Jolichaux Division,,
+,SK-MINCAN-42c1c0a7,,,Bienfait,,
+,QC-MINCAN-e3420d82,,,St-Rémi China Clay,,
+,QC-MINCAN-78148b13,,,Saint-Canut,,
+,QC-MINCAN-91aedc35,,,Bedford,,
+,ON-MINCAN-3c27ae75,,,Nephton Quarry,,
+,NS-MINCAN-3d5a93b2,,,Sifto Salt Division,,
+,AB-MINCAN-4a246389,,,,,
+,QC-MINCAN-581b1ea8,,,Saint-Donat,,
+,NS-MINCAN-1c9701c1,,,,,
+,QC-MINCAN-b6636eeb,,,,,
+,QC-MINCAN-e833d652,,,Seleine,,
+,BC-MINCAN-d24d3289,,,Mt. Meager,,
+,ON-MINCAN-ad559838,,,,,
+,QC-MINCAN-d752cbaa,,,Bachelor,,
+,BC-MINCAN-d0828a1e,,,Greenhills,,
+,BC-MINCAN-a059fae1,,,Red Lake,,
+,NS-MINCAN-ef73715e,,,Glen Morrison,,
+,BC-MINCAN-3cdd69ba,,,Kootenay River or Elkhorn,,
+,ON-MINCAN-65f81a01,,,,,
+,SK-MINCAN-9cbc06dd,,,Unity,,
+,SK-MINCAN-b73b9b70,,,Kalium Chemicals Division,,
+,SK-MINCAN-8cfbf0f6,,,K2,,
+,SK-MINCAN-ddcef085,,,Allan Potashs,,
+,AB-MINCAN-0a2d8425,,,Cardinal River (Cheviot),,
+,BC-MINCAN-2d031a3f,,,Fording River,,
+,SK-MINCAN-2b7f48b2,,,Wilcox,,
+,NB-MINCAN-f60171f2,,,,,
+,AB-MINCAN-5182058c,,,Genesee,,
+,AB-MINCAN-ad5bcd89,,,Coleman,,
+,AB-MINCAN-95fd8b3b,,,,,
+,BC-MINCAN-d8cf3b3a,,,,,
+,SK-MINCAN-2aefa179,,,,,
+,QC-MINCAN-8f0f7e05,,,Ardorbec,,

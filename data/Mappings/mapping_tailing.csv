@@ -1,0 +1,107 @@
+main_id,tailing_id,distance_m,facility_name,related_mine,similarity_partial_score,similarity_token_set
+QC-MAIN-e7e6a960,19,3128.44,Canadian Malartic,Canadian Malartic,100,100
+QC-MAIN-e7e6a960,1243,2365.54,Canadian Malartic,Canadian Malartic,100,100
+ON-MAIN-aeafbb59,1524,1075.98,Detour Lake,Detour Lake mine,100,100
+QC-MAIN-c0660aec,16,4870.17,Goldex,Goldex,100,100
+NU-MAIN-730aefe3,12,1290.1,Meadowbank,Meadowbank,100,100
+NU-MAIN-730aefe3,13,1858.98,Meadowbank,Meadowbank,100,100
+NU-MAIN-730aefe3,14,2639.61,Meadowbank,Meadowbank,100,100
+NU-MAIN-8b0264c9,15,4087.98,Meliadine,Meliadine,100,100
+ON-MAIN-687b8c8d,1656,2518.15,Island,Island Gold Mine,100,100
+ON-MAIN-687b8c8d,1657,2518.15,Island,Island Gold Mine,100,100
+ON-MAIN-687b8c8d,1658,2518.15,Island,Island Gold Mine,100,100
+ON-MAIN-687b8c8d,1659,2518.15,Island,Island Gold Mine,100,100
+ON-MAIN-687b8c8d,1660,2518.15,Island,Island Gold Mine,100,100
+ON-MAIN-7607a50e,1652,2878.3,Young-Davidson,Young-Davidson Mine,100,100
+ON-MAIN-7607a50e,1653,2878.3,Young-Davidson,Young-Davidson Mine,100,100
+ON-MAIN-7607a50e,1654,2878.3,Young-Davidson,Young-Davidson Mine,100,100
+ON-MAIN-7607a50e,1655,2878.3,Young-Davidson,Young-Davidson Mine,100,100
+ON-MAIN-6e9be24e,194,4097.52,Hemlo (Williams),Hemlo,100,100
+SK-MAIN-bb89158f,1344,3307.41,Key Lake,Key Lake Operation,100,100
+SK-MAIN-bb89158f,1346,1013.44,Key Lake,Key Lake Operation,100,100
+BC-MAIN-e34feb4d,827,6777.2,Kemess,Kemess South,100,100
+BC-MAIN-ed23117f,826,983.1,Mount Milligan,Mount Milligan,100,100
+ON-MAIN-7f050560,1885,2271.89,Red Lake,Red Lake Gold Mines       ,100,100
+ON-MAIN-7f050560,1886,1912.03,Red Lake,Red Lake Gold Mines       ,100,100
+ON-MAIN-7f050560,1887,2271.89,Red Lake,Red Lake Gold Mines       ,100,100
+ON-MAIN-7f050560,1888,17332.86,Red Lake,Red Lake Gold Mines       ,100,100
+QC-MAIN-30c1828c,716,5062.84,Horne,Fonderie Horne,100,100
+QC-MAIN-30c1828c,717,6232.52,a,Fonderie Horne,100,100
+QC-MAIN-30c1828c,718,6922.24,Horne,Fonderie Horne,100,100
+QC-MAIN-30c1828c,719,9719.81,Horne,Fonderie Horne,100,100
+QC-MAIN-30c1828c,720,3188.61,Horne,Fonderie Horne,100,100
+QC-MAIN-a97821c0,746,194.32,Raglan,Raglan Mine,100,100
+ON-MAIN-40ce0593,1117,18744.77,Sudbury,Sudbury,100,100
+QC-MAIN-b86f7d07,1677,1888.89,Casa Berardi,Casa Berardi,100,100
+QC-MAIN-b86f7d07,1685,1286.22,Casa Berardi,Casa Berardi,100,100
+QC-MAIN-b86f7d07,1686,1315.3,Casa Berardi,Casa Berardi,100,100
+QC-MAIN-b86f7d07,1687,1313.33,Casa Berardi,Casa Berardi,100,100
+ON-MAIN-fefeaee4,1890,2030.02,Musselwhite,Musselwhite Mine             ,100,100
+ON-MAIN-3b3e5365,1868,3623.11,Porcupine,Porcupine Gold Mines  ,100,100
+ON-MAIN-3b3e5365,1869,4830.39,Porcupine,Porcupine Gold Mines  ,100,100
+ON-MAIN-3b3e5365,1871,1470.28,Porcupine,Porcupine Gold Mines  ,100,100
+ON-MAIN-3b3e5365,1872,679.45,Porcupine,Porcupine Gold Mines  ,100,100
+ON-MAIN-3b3e5365,1873,962.2,Porcupine,Porcupine Gold Mines  ,100,100
+ON-MAIN-3b3e5365,1874,680.41,Porcupine,Porcupine Gold Mines  ,100,100
+ON-MAIN-3b3e5365,1875,2131.15,Porcupine,Porcupine Gold Mines  ,100,100
+ON-MAIN-3b3e5365,1876,2665.41,Porcupine,Porcupine Gold Mines  ,100,100
+ON-MAIN-3b3e5365,1877,5025.25,Porcupine,Porcupine Gold Mines  ,100,100
+ON-MAIN-3b3e5365,1878,10771.45,Porcupine,Porcupine Gold Mines  ,100,100
+ON-MAIN-3b3e5365,1879,10646.65,Porcupine,Porcupine Gold Mines  ,100,100
+ON-MAIN-3b3e5365,1880,11954.01,Porcupine,Porcupine Gold Mines  ,100,100
+ON-MAIN-3b3e5365,1881,3528.11,Porcupine,Porcupine Gold Mines  ,100,100
+ON-MAIN-3b3e5365,1882,4043.49,Porcupine,Porcupine Gold Mines  ,100,100
+ON-MAIN-3b3e5365,1883,4978.26,Porcupine,Porcupine Gold Mines  ,100,100
+NT-MAIN-b99d4cb2,1319,2785.47,Pine Point,Pine Point ,100,100
+ON-MAIN-bfbcd72e,1436,948.32,Bell Creek,Bell Creek,100,100
+QC-MAIN-92628f16,456,10001.7,Vaudreuil,Vaudreuil,100,100
+QC-MAIN-92628f16,457,1508.68,Vaudreuil,Vaudreuil,100,100
+NT-MAIN-0ec39ce0,375,1915.1,Diavik,Diavik,100,100
+BC-MAIN-b1fe389a,225,3993.52,Eskay Creek,Eskay,100,100
+BC-MAIN-b1fe389a,226,6511.65,Eskay Creek,Eskay,100,100
+SK-MAIN-29afbdb5,1508,2741.58,Seabee,Seabee Mine,100,100
+SK-MAIN-29afbdb5,1509,1971.63,Seabee,Seabee Mine,100,100
+SK-MAIN-29afbdb5,1767,2741.58,Seabee,Seabee Mine,100,100
+SK-MAIN-29afbdb5,1768,1971.63,Seabee,Seabee Mine,100,100
+BC-MAIN-bf503b6b,1309,5067.91,Highland Valley,Highland Valley Copper,100,100
+BC-MAIN-bf503b6b,1310,8617.04,Highland Valley,Highland Valley Copper,100,100
+BC-MAIN-bf503b6b,1311,10743.77,Highland Valley,Highland Valley Copper,100,100
+BC-MAIN-bf503b6b,1312,4386.5,Highland Valley,Highland Valley Copper,100,100
+ON-MAIN-f080c409,1122,1466.22,Copper Cliff Complex,Copper Cliff,100,100
+ON-MAIN-f080c409,1123,6050.17,Copper Cliff Complex,Copper Cliff,100,100
+ON-MAIN-f080c409,1124,6050.17,Copper Cliff Complex,Copper Cliff,100,100
+ON-MAIN-f080c409,1125,6050.17,Copper Cliff Complex,Copper Cliff,100,100
+ON-MAIN-f080c409,1126,6050.17,Copper Cliff Complex,Copper Cliff,100,100
+ON-MAIN-f080c409,1127,6050.17,Copper Cliff Complex,Copper Cliff,100,100
+ON-MAIN-f080c409,1128,6050.17,Copper Cliff Complex,Copper Cliff,100,100
+ON-MAIN-f080c409,1129,6050.17,Copper Cliff Complex,Copper Cliff,100,100
+MB-MAIN-e0a6250e,1120,2711.34,Thompson (T-1 and T-3),Thompson,100,100
+MB-MAIN-e0a6250e,1121,2711.34,Thompson (T-1 and T-3),Thompson,100,100
+NL-MAIN-d9036091,1116,261.03,Long Harbour,Long Harbour,100,100
+NL-MAIN-2d8801d6,1115,6394.23,Voisey’s Bay,Voisey's Bay,91.66666667,91.66666667
+NT-MAIN-94e652a5,28,1981.99,Gahcho Kué,Gahcho Kue,94.73684211,90
+NT-MAIN-94e652a5,29,1981.99,Gahcho Kué,Gahcho Kue,94.73684211,90
+QC-MAIN-e51eda66,23,1042.77,LaRonde,Laronde,85.71428571,85.71428571
+QC-MAIN-e51eda66,24,2069.61,LaRonde,Laronde,85.71428571,85.71428571
+ON-MAIN-fcb287a4,744,1510.02,Nickel Rim South,Nickel Rim Mine,84.61538462,80
+ON-MAIN-fcb287a4,745,324.68,Nickel Rim South,Nickel Rim Mine,84.61538462,80
+QC-MAIN-084bd95c,1416,5891.11,Mont-Wright,Mont Wright TSF,90.90909091,76.92307692
+ON-MAIN-319e04a8,738,3947.16,Onaping Depth,Onaping Area Mines,76.19047619,70
+ON-MAIN-319e04a8,739,3007.07,Onaping Depth,Onaping Area Mines,76.19047619,70
+ON-MAIN-319e04a8,740,6397.79,Onaping Depth,Onaping Area Mines,76.19047619,70
+QC-MAIN-6dc537e6,1891,2861.87,Éléonore,Eleonore Mine                ,75,57.14285714
+QC-MAIN-e25eed27,1417,1417.29,Port-Cartier,Port Cartier TSF,91.66666667,50
+QC-MAIN-02884fb5,1544,4041.43,Westwood-Doyon,Westwood Gold Mine,72.72727273,50
+QC-MAIN-de3d8b7b,750,1734.8,Canadian Electrolytic Zinc Limited (CEZinc),CEZinc Processing Plant,40,48.48484848
+QC-MAIN-de3d8b7b,751,2136.02,Canadian Electrolytic Zinc Limited (CEZinc),CEZinc Processing Plant,40,48.48484848
+QC-MAIN-de3d8b7b,752,2523.93,Canadian Electrolytic Zinc Limited (CEZinc),CEZinc Processing Plant,40,48.48484848
+QC-MAIN-de3d8b7b,753,1819.61,Canadian Electrolytic Zinc Limited (CEZinc),CEZinc Processing Plant,40,48.48484848
+QC-MAIN-de3d8b7b,754,933.17,Canadian Electrolytic Zinc Limited (CEZinc),CEZinc Processing Plant,40,48.48484848
+QC-MAIN-de3d8b7b,755,975.05,Canadian Electrolytic Zinc Limited (CEZinc),CEZinc Processing Plant,40,48.48484848
+QC-MAIN-de3d8b7b,756,556.41,Canadian Electrolytic Zinc Limited (CEZinc),CEZinc Processing Plant,40,48.48484848
+QC-MAIN-de3d8b7b,757,963.19,Canadian Electrolytic Zinc Limited (CEZinc),CEZinc Processing Plant,40,48.48484848
+QC-MAIN-de3d8b7b,758,847.47,Canadian Electrolytic Zinc Limited (CEZinc),CEZinc Processing Plant,40,48.48484848
+QC-MAIN-6a26086e,452,8868.05,Sorel Forge,Sorel-Tracy,63.15789474,45.45454545
+ON-MAIN-ed85ac94,738,3484.77,Strathcona,Onaping Area Mines,31.57894737,28.57142857
+ON-MAIN-ed85ac94,739,3221.02,Strathcona,Onaping Area Mines,31.57894737,28.57142857
+ON-MAIN-ed85ac94,740,2917.23,Strathcona,Onaping Area Mines,31.57894737,28.57142857

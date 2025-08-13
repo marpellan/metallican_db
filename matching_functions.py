@@ -91,7 +91,10 @@ def match_facilities(df1, df2, id_col1="id_1", id_col2="id_2",
             "similarity_token_set": None
         })
 
-    return pd.DataFrame(matches)
+    matches_df = pd.DataFrame(matches)
+    matches_df = matches_df.drop_duplicates()
+
+    return matches_df
 
 
 def one_to_many_relationships(

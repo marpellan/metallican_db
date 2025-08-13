@@ -172,6 +172,7 @@ unit_conversion = {
     "kmt": 1_000_000_000,        # 1000 megatonne
     "kg": 1e-3,                  # kilograms to tonnes
     "g": 1e-6,                   # grams to tonnes
+    "ttpa": 1_000,                # thousands tonnes per annum to tonnes
 
     # Ounces — distinguish between **avoirdupois** and **troy**
     # Metals (e.g. gold, silver) use **troy ounces** (1 troy oz = 31.1035 g)
@@ -202,4 +203,8 @@ unit_conversion = {
     "kct": 2e-4,                 # 1,000 carats = 0.2 kg = 0.0002 t
     "mct": 0.2,                  # 1,000,000 carats = 200 kg = 0.2 t
     "mcts": 0.2,                 # alternative spelling (your value 2e-4 was too small)
+
+    # US short tons
+    "short tons": 0.90718474,
+    "million short tons": 907_184.74
 }

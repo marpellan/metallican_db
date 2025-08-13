@@ -1,0 +1,16 @@
+compartment_name,release_pathway,flow_direction,compartment_id
+Air,Stack Emissions,Emission,compa50ae012
+Air,Storage / Handling,Emission,comp1dcc546c
+Air,Fugitive Emissions,Emission,comp7d3e3488
+Air,Other,Emission,compb30db82f
+Water,Direct Discharge,Emission,comp567d1198
+Water,Waterbody,Emission,compb4e31bc7
+Land,Spills,Emission,comp4fceff4c
+Land,Other,Emission,comp3af7aa38
+Air,Spills,Emission,comp3ca42ad5
+Water,Spills,Emission,compea433608
+Air,Unspecified,Emission,comp82641eec
+Land,Unspecified,Occupation and transformation,compde27e9f6
+Water,Unspecified,Withdrawal,comp412a1227
+Water,Unspecified,Consumption,comp93f08204
+Water,Unspecified,Discharged,compc80509fb
