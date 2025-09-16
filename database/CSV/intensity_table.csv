@@ -12,12 +12,12 @@ INT-CMP-140e111b-2023-10,2023,Aluminum,GHG,Smelting,tCO2eq/t of production,4.15,
 INT-CMP-140e111b-2023-11,2023,Aluminum,Land,Land utilization requirements for bauxite residue,m2 land/kt alumina produced,44.97,,,,CMP-140e111b,SRC_AlcoaCorporation_2023-Sustainability-Data-Book
 INT-CMP-0f9c0b53-2023-1,2023,Steel,GHG,scope1 intensity,tCO2eq/t steel,1.83,,,,CMP-0f9c0b53,SRC_AlgomaSteelInc._nan
 INT-CMP-0f9c0b53-2023-2,2023,Steel,GHG,scope1+2 intensity,tCO2eq/t steel,1.84,,,,CMP-0f9c0b53,SRC_AlgomaSteelInc._nan
-INT-CMP-3775c12e-2023-1,2023,x,Air,dust intensity (steel),kg/t of steel,0.48,,,,CMP-3775c12e,SRC_ArcelorMittal_IR_2023
-INT-CMP-3775c12e-2023-2,2023,x,Air,Nox intensity (steel),kg/t of steel,1.07,,,,CMP-3775c12e,SRC_ArcelorMittal_IR_2023
-INT-CMP-3775c12e-2023-3,2023,x,Air,Sox intensity (steel),kg/t of steel,1.79,,,,CMP-3775c12e,SRC_ArcelorMittal_IR_2023
-INT-CMP-3775c12e-2023-4,2023,x,GHG,scope1+2 intensity (steel),tCO2eq/t of stell,1.96,,,,CMP-3775c12e,SRC_ArcelorMittal_IR_2023
-INT-CMP-3775c12e-2023-5,2023,x,Water,Net water use,m3/t of steel,3.4,,,,CMP-3775c12e,SRC_ArcelorMittal_IR_2023
-INT-CMP-3775c12e-2023-6,2023,x,Water,Net water use,m3/t of steel,3.4,,,,CMP-3775c12e,SRC_ArcelorMittal_IR_2023
+INT-CMP-3775c12e-2023-1,2023,,Air,dust intensity (steel),kg/t of steel,0.48,,,,CMP-3775c12e,SRC_ArcelorMittal_IR_2023
+INT-CMP-3775c12e-2023-2,2023,,Air,Nox intensity (steel),kg/t of steel,1.07,,,,CMP-3775c12e,SRC_ArcelorMittal_IR_2023
+INT-CMP-3775c12e-2023-3,2023,,Air,Sox intensity (steel),kg/t of steel,1.79,,,,CMP-3775c12e,SRC_ArcelorMittal_IR_2023
+INT-CMP-3775c12e-2023-4,2023,,GHG,scope1+2 intensity (steel),tCO2eq/t of stell,1.96,,,,CMP-3775c12e,SRC_ArcelorMittal_IR_2023
+INT-CMP-3775c12e-2023-5,2023,,Water,Net water use,m3/t of steel,3.4,,,,CMP-3775c12e,SRC_ArcelorMittal_IR_2023
+INT-CMP-3775c12e-2023-6,2023,,Water,Net water use,m3/t of steel,3.4,,,,CMP-3775c12e,SRC_ArcelorMittal_IR_2023
 INT-CMP-c08ac7d7-2024-1,2024,Iron,GHG,scope1 intensity,tCO2eq/t iron concentrate produced,8.87,,,,CMP-c08ac7d7,SRC_ChampionIronLtd_cil-23sr-esg-databookvf
 INT-CMP-c08ac7d7-2024-2,2024,Iron,GHG,scope2 intensity,tCO2eq/t iron concentrate produced,0.08,,,,CMP-c08ac7d7,SRC_ChampionIronLtd_cil-23sr-esg-databookvf
 INT-CMP-c08ac7d7-2023-1,2023,Iron,Air,NOx,kg/t iron concentrate produced,0.017,,,,CMP-c08ac7d7,SRC_ChampionIronLtd_cil-23sr-esg-databookvf
@@ -31,7 +31,7 @@ INT-CMP-12afc634-2023-3,2023,,GHG,scope1+2,tCO2eq/t of ore processed,9.9,,,,CMP-
 INT-CMP-12afc634-2023-4,2023,,GHG,scope1+2,tCO2eq/t of copper-equivalent production),1.7,,,,CMP-12afc634,SRC_HudbayMineralsInc_Hudbay-2023-Integrated-Annual-Report-Performance-Data
 INT-CMP-9abb4c27-2023-1,2023,Talc,GHG,scope1+2 intensity,tCO2eq/t,0.13,,,,CMP-9abb4c27,SRC_MagrisPerformanceMaterials_SR_2023
 INT-CMP-9abb4c27-2023-2,2023,Niobium,GHG,scope1+2 intensity,tCO2eq/t,1.61,,,,CMP-9abb4c27,SRC_MagrisPerformanceMaterials_SR_2023
-INT-CMP-7a096012-2023-1,2023,x,GHG,scope1+2 intensity,tCO2eq/t Cu-eq,6.8,,,,CMP-7a096012,SRC_RioTinto_2024-sustainability-factbook
+INT-CMP-7a096012-2023-1,2023,,GHG,scope1+2 intensity,tCO2eq/t Cu-eq,6.8,,,,CMP-7a096012,SRC_RioTinto_2024-sustainability-factbook
 INT-1f126a43-2023-1,2023,"Gold, silver",Water,Freshwater withdrawn for use intensity,m3 of water/t of ore processed,0.03242599309372303,,ON-MAIN-1f126a43,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042091
 INT-1f126a43-2023-2,2023,"Gold, silver",Water,Freshwater withdrawn for use intensity,m3 of water/oz of gold,0.9280570810937134,,ON-MAIN-1f126a43,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042092
 INT-dd723db4-2023-1,2023,Iron,GHG,scope1+2 intensity|mining operation,kgCO2eq/kt,1341.0,,NL-MAIN-dd723db4,,,SRC_IronOreCompanyofCanadaInc_SR_2023
@@ -98,10 +98,10 @@ INT-687b8c8d-2023-6,2023,Gold,GHG,scope1+2?,CO2eq/oz gold production,0.160129659
 INT-CMP-140e111b-2023-12,2023,Aluminum,Energy,Energy intensity,GJ/t aluminum produced,74.8,,,,CMP-140e111b,SRC_AlcoaCorporation_2023-Sustainability-Data-Book
 INT-CMP-c08ac7d7-2024-3,2024,Iron,Energy,Energy intensity,MJ/t iron concentrate produced,265.0,,,,CMP-c08ac7d7,SRC_ChampionIronLtd_cil-23sr-esg-databookvf
 INT-CMP-28720916-2021-4,2021,Steel,Energy,Energy intensity,GJ/t of crude steel,23.3,,,,CMP-28720916,SRC_EVRAZNorthAmericaInc_Databook_2021
-INT-CMP-12afc634-2023-5,2023,x,Energy,Energy intensity,TJ/Mt of ore processed,200.0,,,,CMP-12afc634,SRC_HudbayMineralsInc_Hudbay-2023-Integrated-Annual-Report-Performance-Data
-INT-CMP-12afc634-2023-6,2023,x,Energy,Energy intensity,TJ/kt of copper-equivalent production,35.0,,,,CMP-12afc634,SRC_HudbayMineralsInc_Hudbay-2023-Integrated-Annual-Report-Performance-Data
-INT-CMP-d5f1c66b-2023-1,2023,x,Energy,Energy intensity of metals mining,GJ/t Cu-eq,40.3,,,,CMP-d5f1c66b,SRC_Glencore_2024+ESG+data+book
-INT-CMP-d5f1c66b-2023-2,2023,x,Energy,Energy intensity of metals smelting,GJ/t Cu-eq,30.3,,,,CMP-d5f1c66b,SRC_Glencore_2024+ESG+data+book
+INT-CMP-12afc634-2023-5,2023,,Energy,Energy intensity,TJ/Mt of ore processed,200.0,,,,CMP-12afc634,SRC_HudbayMineralsInc_Hudbay-2023-Integrated-Annual-Report-Performance-Data
+INT-CMP-12afc634-2023-6,2023,,Energy,Energy intensity,TJ/kt of copper-equivalent production,35.0,,,,CMP-12afc634,SRC_HudbayMineralsInc_Hudbay-2023-Integrated-Annual-Report-Performance-Data
+INT-CMP-d5f1c66b-2023-1,2023,,Energy,Energy intensity of metals mining,GJ/t Cu-eq,40.3,,,,CMP-d5f1c66b,SRC_Glencore_2024+ESG+data+book
+INT-CMP-d5f1c66b-2023-2,2023,,Energy,Energy intensity of metals smelting,GJ/t Cu-eq,30.3,,,,CMP-d5f1c66b,SRC_Glencore_2024+ESG+data+book
 INT-e7e6a960-2023-3,2023,Gold,Energy,Electricity intensity,kWh/t ore processed,32.670089368553114,,QC-MAIN-e7e6a960,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 INT-e7e6a960-2023-4,2023,Gold,Energy,Energy intensity,GJ/t ore processed,0.2853527738742617,,QC-MAIN-e7e6a960,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 INT-GRP-0a2c0d69-2023-3,2023,Gold,Energy,Electricity intensity,kWh/t ore processed,42.9,,,GRP-0a2c0d69,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data

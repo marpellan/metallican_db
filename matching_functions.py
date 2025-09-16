@@ -407,12 +407,22 @@ def create_and_populate_database(
     print("✅ New connection opened")
 
     # --- 5. INSERT TABLES ---
+    # def safe_insert(df, table_name):
+    #     try:
+    #         df.to_sql(table_name, conn, if_exists="append", index=False)
+    #         print(f"✅ Inserted {len(df)} rows into '{table_name}'")
+    #     except Exception as e:
+    #         print(f"❌ Error inserting '{table_name}': {e}")
+
     def safe_insert(df, table_name):
-        try:
-            df.to_sql(table_name, conn, if_exists="append", index=False)
-            print(f"✅ Inserted {len(df)} rows into '{table_name}'")
-        except Exception as e:
-            print(f"❌ Error inserting '{table_name}': {e}")
+        for _, row in df.iterrows():
+            try:
+                row_df = pd.DataFrame([row])
+                row_df.to_sql(table_name, conn, if_exists="append", index=False)
+            except Exception as e:
+                print(f"Failed to insert row in {table_name}: {row.to_dict()}")
+                print(f"Error: {e}")
+                raise  # Stop after the first error
 
     # Insert all tables
     for table_name, df in tables_dict.items():

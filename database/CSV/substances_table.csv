@@ -99,28 +99,19 @@ NA - 20,Group of substances,Nonylphenol and its ethoxylates
 101-68-8,Substance,Methylenebis(phenylisocyanate)
 9016-87-9,Substance,Polymeric diphenylmethane diisocyanate
 189-64-0,Substance,"Dibenzo[a,h]pyrene"
-71-43-2,Substance,Speciated VOC - Benzene
 1332-21-4,Substance,Asbestos (friable form only)
 7681-49-4,Substance,Sodium fluoride
 NA - 46,Group of substances,Azo disperse dyes
-NA - GHG,Group of substances,GHG
-7732-18-5,Group of substances,Water
-NA - NOx,Group of substances,NOx
-NA - SOx,Group of substances,SOx
-630-08-0,Substance,CO
-NA - 08,Substance,Lead
-NA - 10,Substance,Mercury
-10102-44-0,Substance,NO2
-NA - M09,Group of substances,Particulate Matter <= 10 Micrometers
-2025884,Substance,SO2
-NA - M16,Group of substances,VOCs
-NA - PAH,Group of substances,Polycyclic aromatic hydrocarbons (PAH)
-NA - NOx,Group of substances,NOx (excluding NO2)
-124-38-9,Substance,Biogenic CO2
-74-82-8,Substance,CH4
 124-38-9,Substance,CO2
+74-82-8,Substance,CH4
+NA - GHG,Group of substances,GHG
 10024-97-2,Substance,N2O
-NA - PFCs,Group of substances,PFCs
-NA - 02,Substance,Arsenic
-NA - 12,Group of substances,Selenium
+10102-44-0,Substance,NO2
+NA - NOx,Group of substances,NOx
 NA - Particulate,Group of substances,Particulate
+NA - PFCs,Group of substances,PFCs
+NA - PAH,Group of substances,Polycyclic aromatic hydrocarbons (PAH)
+2025884,Group of substances,SO2
+NA - SOx,Group of substances,SOx
+7732-18-5,Substance,Water
+,Group of substances,

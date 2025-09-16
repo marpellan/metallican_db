@@ -17,6 +17,7 @@ TAIL-1659.0-2019-1,ON-MAIN-687b8c8d,2019,1659.0,Primary Pond Dyke 4,Active,2011.
 TAIL-1660.0-2019-1,ON-MAIN-687b8c8d,2019,1660.0,Primary Pond Dyke 5,Active,2015.0,Downstream,5.0,486000,486000,Moderate,Ontario Ministry of Natural Resources Classification and Inflow Design Criteria (2011),POINT (-84.445337 48.30807),https://tailing.grida.no/
 TAIL-28.0-2019-1,NT-MAIN-94e652a5,2019,28.0,Gahcho Kué Area 2 FINE PKC,Active,2016.0,Downstream,12.0,3500000,3500000,Major,Anglo American Technical Standard (AA TS 602 001),POINT (-109.2117519 63.463619),https://tailing.grida.no/
 TAIL-29.0-2019-1,NT-MAIN-94e652a5,2019,29.0,Gahcho Kué Course PKC Pile,Active,2016.0,Dry stack,20.0,2900000,2900000,High,Anglo American Technical Standard (AA TS 602 001),POINT (-109.2117519 63.463619),https://tailing.grida.no/
+TAIL-1416.0-2019-1,QC-MAIN-084bd95c,2019,1416.0,Mont Wright TSF,Active,1981.0,Sidehill embankment,100.0,725000000,725000000,Very High,Canadian Dam Association,POINT (-67.3866583 52.7982639),https://tailing.grida.no/
 TAIL-827.0-2019-1,BC-MAIN-e34feb4d,2019,827.0,Kemess South TSF,Inactive,1998.0,Modified Centreline,180.0,141000000,141000000,Very High,Canadian Dam Association (CDA) 2013,POINT (-126.66972 57.0216667),https://tailing.grida.no/
 TAIL-225.0-2019-1,BC-MAIN-b1fe389a,2019,225.0,Albino Lake TSF,Closed,1997.0,Lake,,200000,200000,Not rated,,POINT (-130.496457 56.650496),https://tailing.grida.no/
 TAIL-226.0-2019-1,BC-MAIN-b1fe389a,2019,226.0,Tom McKay TSF,Closed,2001.0,Lake,,500000,500000,Not rated,,POINT (-130.520252 56.619746),https://tailing.grida.no/
@@ -29,6 +30,9 @@ TAIL-717.0-2019-1,QC-MAIN-30c1828c,2019,717.0,"Noranda 5 Polishing Pond (South, 
 TAIL-718.0-2019-1,QC-MAIN-30c1828c,2019,718.0,"Noranda 5 (Dyke N5-1,2,3)",Active,2015.0,Upstream,8.0,5000000,5000000,Very High,CDA 2007 (2013),POINT (-79.09444444 48.22111111),https://tailing.grida.no/
 TAIL-719.0-2019-1,QC-MAIN-30c1828c,2019,719.0,Waite Amulet TSF (Acid rock drainage water pond) (Principal Dike),Closed,1973.0,Centreline,3.0,650000,650000,,CDA 2007 (2013),POINT (-79.07521111 48.33078889),https://tailing.grida.no/
 TAIL-720.0-2019-1,QC-MAIN-30c1828c,2019,720.0,Quémont-2 TSF (A-G),Inactive,1989.0,Downstream,14.0,8200000,8200000,Very High,CDA 2007 (2013),POINT (-78.97833333 48.26805556),https://tailing.grida.no/
+TAIL-738.0-2019-1,ON-MAIN-ed85ac94,2019,738.0,Neutralizing Reservoir Dam,Active,1968.0,Centreline,15.0,9000000,9000000,Very High,CDA 2007 (2013),POINT (-81.33527778 46.64277778),https://tailing.grida.no/
+TAIL-739.0-2019-1,ON-MAIN-ed85ac94,2019,739.0,Polishing Reservoir Dam,Inactive,,Centreline,8.0,0,0,Very High,CDA 2007 (2013),POINT (-81.349975 46.64514444),https://tailing.grida.no/
+TAIL-740.0-2019-1,ON-MAIN-ed85ac94,2019,740.0,Strathcona Tailings Area Dam 3A & 3B,Active,2001.0,Centreline,13.0,4000000,4000000,Very High,CDA 2007 (2013),POINT (-81.31111111 46.65916667),https://tailing.grida.no/
 TAIL-1677.0-2019-1,QC-MAIN-b86f7d07,2019,1677.0,Casa Berardi Cell 4,Active,2010.0,Upstream,8.0,5000000,5000000,High,Candian Dam Association Consequence Classification,POINT (-79.240528 49.555972),https://tailing.grida.no/
 TAIL-1685.0-2019-1,QC-MAIN-b86f7d07,2019,1685.0,Casa Berardi Cell #1,Inactive,1989.0,Downstream,8.0,nan,nan,High,Candian Dam Association Consequence Classification,POINT (-79.232417 49.560333),https://tailing.grida.no/
 TAIL-1686.0-2019-1,QC-MAIN-b86f7d07,2019,1686.0,Casa Berardi Cell #2,Closure,1993.0,Upstream,19.0,nan,nan,Significant,Candian Dam Association Consequence Classification,POINT (-79.223056 49.561333),https://tailing.grida.no/
@@ -76,16 +80,28 @@ TAIL-1116.0-2019-1,NL-MAIN-d9036091,2019,1116.0,Long Harbour,Active,2013.0,Singl
 TAIL-1117.0-2019-1,ON-MAIN-40ce0593,2019,1117.0,FETA Dam,Inactive Care and Maintenance,1968.0,Single Stage,12.0,5100000,5100000,Low,Canadian Dam Association,POINT (-81.024806 46.5158611),https://tailing.grida.no/
 TAIL-1120.0-2019-1,MB-MAIN-e0a6250e,2019,1120.0,Thompson TSF Dam A ¹,Active,1971.0,Downstream,26.0,42000000,42000000,Significant,Canadian Dam Association,POINT (-97.805056 55.7040278),https://tailing.grida.no/
 TAIL-1121.0-2019-1,MB-MAIN-e0a6250e,2019,1121.0,Thompson TSF Other Dams ¹,Active,1971.0,Downstream,26.0,42000000,42000000,Very High,Canadian Dam Association,POINT (-97.805056 55.7040278),https://tailing.grida.no/
+TAIL-1122.0-2019-1,ON-MAIN-f080c409,2019,1122.0,Upper Pond Tailings Facility,Inactive Care and Maintenance,1929.0,Upstream,19.0,3900000,3900000,Extreme,Canadian Dam Association,POINT (-81.050833 46.4863056),https://tailing.grida.no/
 TAIL-1122.0-2019-1,ON-MAIN-63b394c3,2019,1122.0,Upper Pond Tailings Facility,Inactive Care and Maintenance,1929.0,Upstream,19.0,3900000,3900000,Extreme,Canadian Dam Association,POINT (-81.050833 46.4863056),https://tailing.grida.no/
 TAIL-1123.0-2019-1,ON-MAIN-f080c409,2019,1123.0,A Area Tailings,Inactive Care and Maintenance,1936.0,Upstream,25.0,8400000,8400000,Extreme,Canadian Dam Association,POINT (-81.140583 46.4714167),https://tailing.grida.no/
+TAIL-1123.0-2019-1,ON-MAIN-63b394c3,2019,1123.0,A Area Tailings,Inactive Care and Maintenance,1936.0,Upstream,25.0,8400000,8400000,Extreme,Canadian Dam Association,POINT (-81.140583 46.4714167),https://tailing.grida.no/
 TAIL-1124.0-2019-1,ON-MAIN-f080c409,2019,1124.0,M Area Tailings,Inactive Care and Maintenance,1945.0,Upstream,37.0,58600000,58600000,Extreme,Canadian Dam Association,POINT (-81.140583 46.4714167),https://tailing.grida.no/
+TAIL-1124.0-2019-1,ON-MAIN-63b394c3,2019,1124.0,M Area Tailings,Inactive Care and Maintenance,1945.0,Upstream,37.0,58600000,58600000,Extreme,Canadian Dam Association,POINT (-81.140583 46.4714167),https://tailing.grida.no/
 TAIL-1125.0-2019-1,ON-MAIN-f080c409,2019,1125.0,P Area Tailings,Inactive Care and Maintenance,1960.0,Upstream,45.0,59700000,59700000,Extreme,Canadian Dam Association,POINT (-81.140583 46.4714167),https://tailing.grida.no/
+TAIL-1125.0-2019-1,ON-MAIN-63b394c3,2019,1125.0,P Area Tailings,Inactive Care and Maintenance,1960.0,Upstream,45.0,59700000,59700000,Extreme,Canadian Dam Association,POINT (-81.140583 46.4714167),https://tailing.grida.no/
 TAIL-1126.0-2019-1,ON-MAIN-f080c409,2019,1126.0,R1 Tailings,Active,1985.0,"Compacted
+Outer Shell",14.0,2900000,2900000,Extreme,Canadian Dam Association,POINT (-81.140583 46.4714167),https://tailing.grida.no/
+TAIL-1126.0-2019-1,ON-MAIN-63b394c3,2019,1126.0,R1 Tailings,Active,1985.0,"Compacted
 Outer Shell",14.0,2900000,2900000,Extreme,Canadian Dam Association,POINT (-81.140583 46.4714167),https://tailing.grida.no/
 TAIL-1127.0-2019-1,ON-MAIN-f080c409,2019,1127.0,R2 Tailings,Active,1985.0,"Compacted
 Outer Shell",13.0,18000000,18000000,Extreme,Canadian Dam Association,POINT (-81.140583 46.4714167),https://tailing.grida.no/
+TAIL-1127.0-2019-1,ON-MAIN-63b394c3,2019,1127.0,R2 Tailings,Active,1985.0,"Compacted
+Outer Shell",13.0,18000000,18000000,Extreme,Canadian Dam Association,POINT (-81.140583 46.4714167),https://tailing.grida.no/
 TAIL-1128.0-2019-1,ON-MAIN-f080c409,2019,1128.0,R3 Tailings,Active,1985.0,"Compacted
 Outer Shell",27.0,39000000,39000000,Extreme,Canadian Dam Association,POINT (-81.140583 46.4714167),https://tailing.grida.no/
+TAIL-1128.0-2019-1,ON-MAIN-63b394c3,2019,1128.0,R3 Tailings,Active,1985.0,"Compacted
+Outer Shell",27.0,39000000,39000000,Extreme,Canadian Dam Association,POINT (-81.140583 46.4714167),https://tailing.grida.no/
 TAIL-1129.0-2019-1,ON-MAIN-f080c409,2019,1129.0,R4 Tailings,Active,1990.0,"Compacted
+Outer Shell",22.0,59000000,59000000,Extreme,Canadian Dam Association,POINT (-81.140583 46.4714167),https://tailing.grida.no/
+TAIL-1129.0-2019-1,ON-MAIN-63b394c3,2019,1129.0,R4 Tailings,Active,1990.0,"Compacted
 Outer Shell",22.0,59000000,59000000,Extreme,Canadian Dam Association,POINT (-81.140583 46.4714167),https://tailing.grida.no/
 TAIL-1243.0-2019-1,QC-MAIN-e7e6a960,2019,1243.0,Canadian Malartic TSF,Active,2012.0,Upstream,40.0,96000000,96000000,Medium to High,CDA/Yamana,POINT (-78.1036111 48.1113889),https://tailing.grida.no/

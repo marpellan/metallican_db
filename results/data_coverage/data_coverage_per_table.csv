@@ -1,271 +1,271 @@
-main_id,facility_type,facility_name,commodities,Archetype table,By-product ratios table,Climate category table,Conflict table,Energy table,Environmental intensity table,Environmental flows table,Land cover table,Land occupation table,Peatland table,Population table,Prioritize conservation areas table,Production table,Protected & Indigenous land table,Reserves table,Tailings table,Water risk table,Weather table
-QC-MAIN-5801b453,advanced project,Abcourt-Barvue,"Zinc, silver",0,0,9,0,0,0,0,1,2,1,4,1,0,30,0,0,32,128
-QC-MAIN-d29e0839,mining,Sleeping Giant,"Gold, silver",1,0,9,0,0,0,0,1,6,1,4,1,0,44,2,0,32,128
-QC-MAIN-f1ff4920,advanced project,Akasaba West,"Gold, copper",0,0,9,0,0,0,0,1,10,1,4,1,0,46,0,0,32,128
-NU-MAIN-4ea8ac9d,mining,Amaruq,Gold,1,0,9,0,8,2,19,1,0,1,4,1,5,1,4,0,32,128
-QC-MAIN-e7e6a960,mining,Canadian Malartic,"Gold, silver",1,0,9,0,8,2,247,1,6,1,4,1,1,41,5,2,32,128
-ON-MAIN-aeafbb59,mining,Detour Lake,Gold,1,0,9,0,8,2,263,1,4,1,4,1,1,8,5,1,32,128
-QC-MAIN-c0660aec,mining,Goldex,"Gold, silver",0,0,9,0,0,0,147,1,6,1,4,1,0,45,0,1,32,128
-QC-MAIN-e51eda66,mining,LaRonde,"Gold, zinc, copper, silver, cadmium",0,3,9,0,0,0,1,1,0,1,4,1,2,39,0,2,32,128
-ON-MAIN-1f126a43,mining,Macassa,"Gold, silver",1,0,9,0,8,2,261,1,16,1,4,1,1,24,4,0,32,128
-NU-MAIN-730aefe3,mining,Meadowbank,Gold,1,0,9,0,9,2,289,1,1,1,4,1,2,1,5,3,32,128
-NU-MAIN-8b0264c9,mining,Meliadine,Gold,1,0,9,0,8,2,19,1,0,1,4,1,4,3,5,1,32,128
-MB-MAIN-5d21dbd5,advanced project,Monument Bay,"Gold, tungsten",0,0,9,0,0,0,0,1,0,1,4,1,0,8,0,0,32,128
-ON-MAIN-74997012,advanced project,Upper Beaver,"Gold, copper",0,0,9,0,0,0,0,1,0,1,4,1,0,41,0,0,32,128
-ON-MAIN-687b8c8d,mining,Island,Gold,1,0,9,0,8,6,247,1,0,1,4,1,6,13,2,5,32,128
-ON-MAIN-7607a50e,mining,Young-Davidson,Gold,1,0,9,0,7,6,316,1,7,1,4,1,6,14,2,4,32,128
-QC-MAIN-52c01ae4,manufacturing,Baie-Comeau,Aluminum (pure or alloyed),0,0,9,0,0,0,182,1,0,1,4,1,1,63,0,0,32,128
-QC-MAIN-eac5a52b,manufacturing,Deschambault,Aluminum (pure),0,0,9,0,0,0,157,1,0,1,4,1,1,106,0,0,32,128
-QC-MAIN-81a288d0,advanced project,Elysis,Aluminum,0,0,9,0,0,0,0,1,0,1,4,1,0,64,0,0,32,128
-QC-MAIN-c8966bdc,manufacturing,Bécancour,Aluminum (pure or alloyed),0,0,9,0,0,0,173,1,0,1,4,1,1,74,0,0,32,128
-ON-MAIN-eab8c362,manufacturing,Algoma Steel,Steel,0,0,9,0,0,0,327,1,0,1,4,1,0,18,0,0,32,128
-QC-MAIN-8c7063b2,advanced project,James Bay Lithium,Lithium (spodumene),0,0,9,0,0,0,0,1,0,1,4,1,0,2,0,0,32,128
-BC-MAIN-3ef4f421,advanced project,Avanti Kitsault,"Molybdenum, silver, lead",0,0,9,0,0,0,0,1,1,1,4,1,0,15,0,0,32,128
-AB-MAIN-9fed34a8,manufacturing,AltaSteel,Steel,0,0,9,0,0,0,225,1,0,1,4,1,0,28,0,0,32,128
-QC-MAIN-33c09b8b,mining,Fire Lake,Iron,1,0,9,0,0,0,41,1,5,1,4,1,1,5,0,0,32,128
-QC-MAIN-084bd95c,mining,Mont-Wright,Iron,1,0,9,0,0,0,195,1,2,1,4,1,1,5,0,0,32,128
-QC-MAIN-1eee4ace,manufacturing,Contrecœur East,Steel,0,0,9,0,0,0,0,1,3,1,4,1,0,184,0,0,32,128
-QC-MAIN-844dcc47,manufacturing,Contrecœur West,Steel,0,0,9,0,0,0,0,1,3,1,4,1,0,194,0,0,32,128
-QC-MAIN-e25eed27,manufacturing,Port-Cartier,Iron ore,0,0,9,0,0,0,211,1,0,1,4,1,0,74,0,0,32,128
-ON-MAIN-4c35e094,manufacturing,ArcelorMittal Dofasco,Steel,0,0,9,0,0,0,758,1,0,1,4,1,1,62,0,0,32,128
-ON-MAIN-8825d90d,mining,Magino,"Gold, silver",2,0,9,0,0,0,215,1,1,1,4,1,8,13,0,0,32,128
-SK-MAIN-de2e2f8e,advanced project,Prairie Lithium,Lithium (brine),0,0,9,0,0,0,0,1,0,1,4,1,0,20,0,0,32,128
-ON-MAIN-e928d96a,manufacturing,Brampton,"Gold, silver",0,0,9,0,0,0,0,1,0,1,4,1,0,125,0,0,32,128
-NT-MAIN-4f11f183,advanced project,Nechalacho - Basal Zone,"Rare earth elements, niobium, tantalum, zirconium",0,0,9,0,0,0,0,1,0,1,4,1,0,0,0,0,32,128
-ON-MAIN-46f71d5b,advanced project,Separation Rapids,Lithium (spodumene),0,0,9,0,0,0,0,1,0,1,4,1,0,19,0,0,32,128
-NU-MAIN-5154702a,mining,Mary River,Iron,1,0,9,0,0,0,4,1,0,1,4,1,1,1,2,0,32,128
-ON-MAIN-6e9be24e,mining,Hemlo (Williams),Gold,1,0,9,0,4,8,5,1,3,1,4,1,3,12,5,1,32,128
-AB-MAIN-8434dce0,manufacturing,Baymag,Magnesium oxide,0,0,9,0,0,0,0,1,0,1,4,1,0,22,0,0,32,128
-YT-MAIN-2cc9bb06,advanced project,Kudz Ze Kayah,"Zinc, lead, copper, silver, gold",0,0,9,0,0,0,0,1,0,1,4,1,0,0,0,0,32,128
-NL-MAIN-895cb178,advanced project,Buchans River,"Zinc, lead, copper, silver, gold",0,0,9,0,0,0,0,1,5,1,4,1,0,1,0,0,32,128
-NT-MAIN-6c1d6ee6,mining,Ekati,Diamonds,1,0,9,0,0,0,1,1,6,1,4,1,4,1,1,0,32,128
-NB-MAIN-0c5b40d8,advanced project,Nash Creek,"Zinc, lead, silver",0,0,9,0,0,0,0,1,0,1,4,1,0,82,0,0,32,128
-ON-MAIN-484e4fa3,manufacturing,Blind River,Uranium (trioxide),0,0,9,0,0,0,0,1,0,1,4,1,0,40,0,0,32,128
-SK-MAIN-91cf5448,mining,Cigar Lake,Uranium,1,0,9,0,0,0,68,1,4,1,4,1,1,1,5,0,32,128
-SK-MAIN-bb89158f,mining,Key Lake,Uranium,0,0,9,0,0,0,187,1,6,1,4,1,0,1,5,2,32,128
-SK-MAIN-d3c471e8,mining,McArthur River,Uranium,0,0,9,0,0,0,66,1,5,1,4,1,0,0,1,0,32,128
-ON-MAIN-237587f6,manufacturing,Port Hope,"Uranium (hexafluoride, dioxide, metals, alloys)",0,0,9,0,0,0,0,1,0,1,4,1,0,43,0,0,32,128
-ON-MAIN-4c5c1179,advanced project,Crawford,"Nickel, iron ore, cobalt, palladium, platinum, chromite",0,0,9,0,0,0,0,1,3,1,4,1,0,10,0,0,32,128
-NB-MAIN-8e04eb21,advanced project,Murray Brook,"Zinc, lead, silver, copper, gold",0,0,9,0,0,0,0,1,3,1,4,1,0,81,0,0,32,128
-ON-MAIN-37e9571e,advanced project,Thierry,"Copper, nickel, silver, gold, platinum, palladium",0,0,9,0,0,0,0,1,4,1,4,1,0,5,0,0,32,128
-NB-MAIN-3e7d42ac,advanced project,Woodstock,"Manganese, iron ore",0,0,9,0,0,0,0,1,0,1,4,1,0,107,0,0,32,128
-NU-MAIN-eae1621e,advanced project,Ferguson Lake,"Nickel, copper, palladium, platinum, cobalt",0,0,9,0,0,0,0,1,0,1,4,1,0,1,0,0,32,128
-QC-MAIN-5ce331b8,mining,Nunavik Nickel,"Nickel, copper, platinum group metals, cobalt",1,0,9,0,1,2,9,1,0,1,4,1,1,1,0,0,32,128
-BC-MAIN-eba3e309,advanced project,Golden Crown,"Gold, copper",0,0,9,0,0,0,0,1,4,1,4,1,0,23,0,0,32,128
-BC-MAIN-e34feb4d,advanced project,Kemess,"Copper, gold, silver",0,0,9,0,0,0,23,1,2,1,4,1,0,4,0,1,32,128
-BC-MAIN-ed23117f,mining,Mount Milligan,"Copper, gold, silver",1,1,9,0,5,0,165,1,1,1,4,1,12,8,15,1,32,128
-QC-MAIN-089f3c60,mining,Bloom Lake,Iron,1,0,9,0,0,0,0,1,7,1,4,1,4,7,20,0,32,128
-NL-MAIN-251d6364,mining,Beaver Brook,Antimony,0,0,9,0,0,0,0,1,0,1,4,1,0,2,0,0,32,128
-ON-MAIN-be399420,advanced project,Thunder Bay North,"Platinum, palladium, gold, nickel, copper, silver, rhodium, cobalt",0,0,9,0,0,0,0,1,0,1,4,1,0,23,0,0,32,128
-QC-MAIN-3330383b,advanced project,Eldor (Ashram),Rare earth elements,0,0,9,0,0,0,0,1,0,1,4,1,0,0,0,0,32,128
-MB-MAIN-6fca9d6d,advanced project,Lynn Lake,"Nickel, copper, cobalt",0,0,9,0,0,0,0,1,18,1,4,1,0,1,0,0,32,128
-QC-MAIN-d4e2812a,advanced project,Rose,"Lithium (spodumene), tantalum",0,0,9,0,0,0,0,1,0,1,4,1,0,1,0,0,32,128
-AB-MAIN-9a0307f6,advanced project,SBH Black Shale,"Vanadium, zinc, nickel, uranium, copper, cobalt, rare earth elements, scandium, lithium, molybdenum",0,0,9,0,0,0,0,1,0,1,4,1,0,8,0,0,32,128
-QC-MAIN-715d4318,advanced project,Horizon,"Zircon, titanium, rare earth elements",0,0,9,0,0,0,0,1,0,1,4,1,0,216,0,0,32,128
-NT-MAIN-94e652a5,mining,Gahcho Kué,Diamonds,1,0,9,0,0,0,0,1,1,1,4,1,0,1,0,2,32,128
-BC-MAIN-382acb18,advanced project,Wicheeda,Rare earth elements,0,0,9,0,0,0,0,1,0,1,4,1,0,14,0,0,32,128
-SK-MAIN-4aef3cb2,advanced project,Waterbury,Uranium,0,0,9,0,0,0,0,1,2,1,4,1,0,1,0,0,32,128
-SK-MAIN-95ec2625,advanced project,Wheeler River,Uranium,0,0,9,0,0,0,0,1,0,1,4,1,0,1,0,0,32,128
-BC-MAIN-51068f3b,advanced project,Kitsault Valley,"Gold, silver, copper, lead",0,0,9,0,0,0,0,1,0,1,4,1,0,11,0,0,32,128
-AB-MAIN-7d4a0421,advanced project,Bashaw District,Lithium (brine),0,0,9,0,0,0,0,1,0,1,4,1,0,15,0,0,32,128
-QC-MAIN-f9e41c2a,mining,Lamaque,Gold,1,0,9,0,7,4,10,1,25,1,4,1,4,39,5,0,32,128
-ON-MAIN-6664e89b,advanced project,Battery Materials Park,"Cobalt, nickel, lithium",0,0,9,0,0,0,0,1,0,1,4,1,0,39,0,0,32,128
-QC-MAIN-5398dfac,manufacturing,Elkem Chicoutimi,Ferrosilicon,0,0,9,0,0,0,39,1,1,1,4,1,0,64,0,0,32,128
-QC-MAIN-2cf66e65,advanced project,Becancour Plant,Manganese sulphate,0,0,9,0,0,0,0,1,0,1,4,1,0,85,0,0,32,128
-ON-MAIN-7f050560,mining,Red Lake,"Gold, silver",1,0,9,0,8,0,195,1,9,1,4,1,5,9,3,4,32,128
-SK-MAIN-26b9aaf3,manufacturing,EVRAZ Regina,Steel,0,0,9,0,0,0,328,1,0,1,4,1,2,47,0,0,32,128
-QC-MAIN-c1cc9f7c,manufacturing,Becancour Silicon,"Silicon metal, ferrosilicon",0,0,9,0,0,0,0,1,0,1,4,1,0,74,0,0,32,128
-NL-MAIN-c139de6d,mining,Ming,"Copper, gold, silver",1,0,9,0,0,0,45,1,4,1,4,1,2,1,9,0,32,128
-NL-MAIN-842ba1b4,mining,Nugget Pond,Copper,0,0,9,0,0,0,44,1,4,1,4,1,0,3,0,0,32,128
-YT-MAIN-ca488f19,advanced project,Macmillan Pass,"Zinc, lead, silver",0,0,9,0,0,0,0,1,0,1,4,1,0,1,0,0,32,128
-YT-MAIN-70d629b4,advanced project,Mactung,Tungsten,0,0,9,0,0,0,0,1,0,1,4,1,0,1,0,0,32,128
-BC-MAIN-efff21d3,advanced project,Deer Horn,"Gold, silver, tellurium, copper, zinc, lead",0,0,9,0,0,0,0,1,0,1,4,1,0,9,0,0,32,128
-SK-MAIN-0684a5d8,advanced project,Patterson Lake South,Uranium,0,0,9,0,0,0,0,1,0,1,4,1,0,3,0,0,32,128
-MB-MAIN-f7fde5b4,advanced project,Minago,Nickel,0,0,9,0,0,0,0,1,0,1,4,1,0,2,0,0,32,128
-QC-MAIN-ae473a4e,advanced project,Lac Knife,Graphite,0,0,9,0,0,0,0,1,0,1,4,1,0,5,0,0,32,128
-SK-MAIN-7a11ae49,advanced project,McIlvenna Bay,"Copper, zinc, gold, silver, lead",0,0,9,0,0,0,0,1,2,1,4,1,0,21,0,0,32,128
-AB-MAIN-ca9625ce,advanced project,Fortune Minerals Refinery,"Cobalt, gold, bismuth, copper",0,0,9,0,0,0,0,1,0,1,4,1,0,18,0,0,32,128
-NT-MAIN-b7cdf82c,advanced project,NICO,"Cobalt, gold, bismuth, copper",0,0,9,0,0,0,0,1,0,1,4,1,0,2,0,0,32,128
-ON-MAIN-d47616e5,advanced project,Martison,"Phosphate, niobium",0,0,9,0,0,0,0,1,0,1,4,1,0,1,0,0,32,128
-BC-MAIN-e1641dfb,advanced project,Decar,"Nickel, cobalt",0,0,9,0,0,0,0,1,0,1,4,1,0,56,0,0,32,128
-ON-MAIN-c06904f0,advanced project,Pakeagama,"Lithium (spodumene), tantalum, tin, niobium, rubidium, cesium",0,0,9,0,0,0,0,1,0,1,4,1,0,5,0,0,32,128
-ON-MAIN-64bbe7e6,advanced project,Marathon,"Palladium, platinum, gold, copper, silver",0,0,9,0,0,0,0,1,9,1,4,1,0,14,0,0,32,128
-QC-MAIN-22426144,advanced project,REE Recycling Facility (Saint-Bruno),Rare earth elements,0,0,9,0,0,0,0,1,0,1,4,1,0,197,0,0,32,128
-MB-MAIN-0d5c2cae,manufacturing,Selkirk Division,,0,0,9,0,0,0,0,1,0,1,4,1,0,38,0,0,32,128
-ON-MAIN-92cdea80,manufacturing,Whitby Division,,0,0,9,0,0,0,0,1,0,1,4,1,0,42,0,0,32,128
-ON-MAIN-bddeaef0,manufacturing,Cambridge Mill,Steel,0,0,9,0,0,0,12,1,0,1,4,1,0,67,0,0,32,128
-MB-MAIN-b4ca1426,manufacturing,Manitoba Mill,Steel,0,0,9,0,0,0,132,1,0,1,4,1,0,36,0,0,32,128
-ON-MAIN-21b6ab35,manufacturing,Whitby Mill,Steel,0,0,9,0,0,0,238,1,0,1,4,1,0,42,0,0,32,128
-QC-MAIN-de3d8b7b,manufacturing,Canadian Electrolytic Zinc Limited (CEZinc),"Zinc, cadmium, liquid sulfur dioxide, sulfuric acid",0,0,9,0,0,0,0,1,4,1,4,1,0,148,0,0,32,128
-QC-MAIN-529c96b4,manufacturing,CCR,"Copper (cathodes), gold, silver, tellurium, selenium, nickel sulfate, copper sulfate, platinum group metals",0,0,9,0,0,0,212,1,0,1,4,1,2,217,0,0,32,128
-ON-MAIN-206041d1,mining,Fraser,"Nickel, copper, platinum group metals, gold, cobalt, silver",0,0,9,0,0,0,0,1,7,1,4,1,0,22,0,0,32,128
-QC-MAIN-abb3e1c7,manufacturing,General Smelting Company of Canada,Recycled lead,0,0,9,0,0,0,0,1,0,1,4,1,0,217,0,0,32,128
-QC-MAIN-30c1828c,manufacturing,Horne,"Copper anodes, precious metals, sulfuric acid",0,0,9,0,0,0,220,1,1,1,4,1,2,57,0,5,32,128
-ON-MAIN-f8313ebd,mining,Kidd Creek,"Copper, zinc, silver, selenium, indium",1,3,9,0,0,0,1,1,6,1,4,1,2,11,30,0,32,128
-ON-MAIN-fcb287a4,mining,Nickel Rim South,"Nickel, copper, cobalt, platinum group metals, gold",0,0,9,0,0,0,128,1,2,1,4,1,0,16,0,2,32,128
-ON-MAIN-319e04a8,advanced project,Onaping Depth,"Nickel, copper, cobalt, platinum, palladium, rhodium, gold, silver",0,0,9,0,0,0,0,1,8,1,4,1,0,23,0,0,32,128
-QC-MAIN-a97821c0,mining,Raglan,"Nickel, platinum group metals, copper, cobalt, gold, silver",1,4,9,0,0,0,269,1,3,1,4,1,7,3,16,1,32,128
-ON-MAIN-ed85ac94,mining,Strathcona,"Nickel, copper, platinum group metals, gold, silver, cobalt, selenium, tellurium",0,0,9,0,0,0,0,1,3,1,4,1,0,22,0,0,32,128
-ON-MAIN-40ce0593,manufacturing,Sudbury,"Nickel-copper matte containing cobalt, gold, silver, platinum group metals",0,0,9,0,0,0,300,1,9,1,4,1,0,15,0,1,32,128
-BC-MAIN-4724f4ba,mining,Elk,Gold,0,0,9,0,0,0,0,1,2,1,4,1,6,52,3,0,32,128
-YT-MAIN-956d050a,advanced project,Carmacks,"Copper, gold, silver, molybdenum",0,0,9,0,0,0,0,1,0,1,4,1,0,5,0,0,32,128
-ON-MAIN-97ee890f,advanced project,Seymour Lake,Lithium (spodumene),0,0,9,0,0,0,0,1,0,1,4,1,0,6,0,0,32,128
-MB-MAIN-27a90834,advanced project,Makwa Mayville,"Nickel, copper, gold, platinum, palladium, cobalt",0,0,9,0,0,0,0,1,0,1,4,1,0,8,0,0,32,128
-SK-MAIN-fbe28fef,advanced project,Kindersley Lithium,Lithium (brine),0,0,9,0,0,0,0,1,0,1,4,1,0,20,0,0,32,128
-BC-MAIN-b031959a,advanced project,Turnagain,"Nickel, cobalt, platinum, palladium",0,0,9,0,0,0,0,1,0,1,4,1,0,1,0,0,32,128
-QC-MAIN-b86f7d07,mining,Casa Berardi,"Gold, silver",1,0,9,0,5,0,2,1,2,1,4,1,3,29,15,4,32,128
-YT-MAIN-44857446,mining,Keno Hill Silver District,"Silver, zinc, lead",1,0,9,0,5,0,2,1,14,1,4,1,2,2,10,0,32,128
-YT-MAIN-c3105f43,advanced project,Rackla Gold,"Gold, tungsten",0,0,9,0,0,0,0,1,0,1,4,1,0,2,0,0,32,128
-ON-MAIN-fc6f1a44,manufacturing,Ivaco Rolling Mills,Steel,0,0,9,0,0,0,166,1,0,1,4,1,1,95,0,0,32,128
-MB-MAIN-e2e67f8f,advanced project,1901,"Gold, zinc, copper, silver",0,0,9,0,0,0,0,1,9,1,4,1,0,0,0,0,32,128
-BC-MAIN-599152a0,mining,Copper Mountain,"Copper, gold, silver",1,0,9,0,2,0,187,1,4,1,4,1,16,34,16,0,32,128
-MB-MAIN-be5b3dc8,mining,Lalor Lake,"Gold, zinc, copper, silver",0,0,9,0,0,0,0,1,5,1,4,1,5,0,10,0,32,128
-MB-MAIN-da0b5c3d,mining,New Britannia,"Gold, copper",0,0,9,0,0,0,58,1,5,1,4,1,21,0,0,0,32,128
-MB-MAIN-c0684566,advanced project,Rail,"Copper, gold, zinc, silver",0,0,9,0,0,0,0,1,0,1,4,1,0,1,0,0,32,128
-MB-MAIN-0898e255,mining,Stall Lake,"Gold, zinc",0,0,9,0,0,0,0,1,1,1,4,1,15,0,2,0,32,128
-MB-MAIN-854abe09,advanced project,Talbot,"Gold, zinc, copper, silver",0,0,9,0,0,0,0,1,0,1,4,1,0,3,0,0,32,128
-MB-MAIN-1a82a1b7,advanced project,Tower,"Gold, zinc, copper, silver",0,0,9,0,0,0,0,1,0,1,4,1,0,2,0,0,32,128
-MB-MAIN-b5b81ee3,advanced project,Wim,"Gold, zinc, copper, silver",0,0,9,0,0,0,0,1,0,1,4,1,0,0,0,0,32,128
-QC-MAIN-02884fb5,mining,Westwood-Doyon,"Gold, silver",1,0,9,0,7,0,29,1,8,1,4,1,6,37,5,0,32,128
-ON-MAIN-a3c56a83,mining,Lac des Iles,"Platinum group metals, gold, nickel, copper, cobalt",0,10,9,0,3,0,7,1,1,1,4,1,5,8,20,0,32,128
-BC-MAIN-3f490561,mining,Mount Polley,"Gold, copper, silver",0,2,9,0,0,0,217,1,6,1,4,1,9,16,9,0,32,128
-QC-MAIN-586679b9,advanced project,Crater Lake,"Scandium, rare earth elements",0,0,9,0,0,0,0,1,0,1,4,1,0,0,0,0,32,128
-NL-MAIN-dd723db4,mining,Carol Lake,Iron,1,0,9,0,1,4,1,1,4,1,4,1,1,6,16,0,32,128
-ON-MAIN-7001a391,mining,McCreedy West,"Copper, nickel, platinum group metals, gold, silver, cobalt",1,0,9,0,0,0,104,1,4,1,4,1,10,23,0,0,32,128
-ON-MAIN-9a34108c,advanced project,Victoria,"Nickel, copper, gold, cobalt, platinum, palladium",0,0,9,0,0,0,20,1,1,1,4,1,0,22,0,0,32,128
-ON-MAIN-6bd6cc80,manufacturing,Kingston Operation,,0,0,9,0,0,0,0,1,0,1,4,1,0,84,0,0,32,128
-MB-MAIN-a832fb0a,advanced project,East Wekusko - Snow Lake,"Gold, silver, copper, zinc",0,0,9,0,0,0,0,1,0,1,4,1,0,0,0,0,32,128
-BC-MAIN-12730593,advanced project,Kutcho,"Copper, zinc, silver, gold, lead",0,0,9,0,0,0,0,1,0,1,4,1,0,3,0,0,32,128
-ON-MAIN-575c5e66,advanced project,Ontario Spoke,Battery materials (black mass),0,0,9,0,0,0,0,1,0,1,4,1,0,80,0,0,32,128
-ON-MAIN-6b998583,advanced project,Markham lithium reprocessing facility,Lithium metal,0,0,9,0,0,0,0,1,0,1,4,1,0,74,0,0,32,128
-QC-MAIN-0414a373,advanced project,Lithion St-Bruno,Battery materials (black mass),0,0,9,0,0,0,0,1,0,1,4,1,0,196,0,0,32,128
-AB-MAIN-35d0dc71,advanced project,Boardwalk,Lithium (brine),0,0,9,0,0,0,0,1,0,1,4,1,0,7,0,0,32,128
-QC-MAIN-a2c6775d,advanced project,La Loutre,Graphite,0,0,9,0,0,0,0,1,0,1,4,1,0,117,0,0,32,128
-ON-MAIN-b1d981ca,advanced project,Crean Hill,"Nickel, copper, cobalt, platinum, palladium, gold",0,0,9,0,0,0,0,1,2,1,4,1,0,23,0,0,32,128
-ON-MAIN-54b7e152,advanced project,Shakespeare,"Nickel, copper, palladium, platinum, gold, cobalt",0,0,9,0,0,0,0,1,8,1,4,1,0,30,0,0,32,128
-QC-MAIN-aa793d35,advanced project,Dumont Nickel,"Nickel, cobalt, platinum, palladium, iron ore",0,0,9,0,0,0,0,1,0,1,4,1,0,36,0,0,32,128
-QC-MAIN-649d2873,manufacturing,Niobec Converter,Ferroniobium,0,0,9,0,0,0,0,1,0,1,4,1,0,61,0,0,32,128
-QC-MAIN-a555d9b9,mining,Niobec,Niobium,1,0,9,0,0,0,145,1,2,1,4,1,1,61,0,0,32,128
-NB-MAIN-c1e4dee0,advanced project,Battery Hill,"Manganese, iron ore",0,0,9,0,0,0,0,1,0,1,4,1,0,112,0,0,32,128
-NL-MAIN-f021107e,mining,Point Rousse,Gold,1,0,9,0,0,0,0,1,2,1,4,1,0,1,0,0,32,128
-QC-MAIN-615ebdb4,advanced project,Lac Guéret (Uatnan),Graphite,0,0,9,0,0,0,0,1,0,1,4,1,0,52,0,0,32,128
-ON-MAIN-470b504b,manufacturing,Ottawa Plant,"Vanadium, molybdenum",0,0,9,0,0,0,0,1,0,1,4,1,0,123,0,0,32,128
-ON-MAIN-4e0734b5,mining,Fox Complex,Gold,1,0,9,0,0,0,0,1,14,1,4,1,7,17,0,0,32,128
-QC-MAIN-237d67c1,advanced project,Lac Rainy Graphite,Graphite,0,0,9,0,0,0,0,1,0,1,4,1,0,7,0,0,32,128
-BC-MAIN-c7247100,advanced project,Driftwood Creek,Magnesium,0,0,9,0,0,0,0,1,0,1,4,1,0,17,0,0,32,128
-YT-MAIN-752fbcae,mining,Minto,"Copper, gold, silver",1,0,9,0,0,0,1,1,1,1,4,1,2,3,0,0,32,128
-NU-MAIN-8e62bfbc,advanced project,High Lake,"Copper, zinc, gold, silver, lead",0,0,9,0,0,0,0,1,0,1,4,1,0,2,0,0,32,128
-NU-MAIN-1ef8af2c,advanced project,Izok Lake,"Zinc, copper, silver, lead, gold",0,0,9,0,0,0,0,1,0,1,4,1,0,1,0,0,32,128
-QC-MAIN-eb73fd68,advanced project,Nemaska lithium conversion facility,Lithium hydroxide,0,0,9,0,0,0,0,1,0,1,4,1,0,85,0,0,32,128
-QC-MAIN-9d41d417,advanced project,Whabouchi,Lithium (spodumene),0,0,9,0,0,0,0,1,4,1,4,1,0,2,0,0,32,128
-ON-MAIN-2bb07cd3,advanced project,River Valley,"Palladium, platinum, gold, nickel, copper, rhodium, cobalt",0,0,9,0,0,0,0,1,0,1,4,1,0,23,0,0,32,128
-BC-MAIN-aa76f6f2,mining,New Afton,"Gold, copper, silver",1,2,9,0,7,0,178,1,13,1,4,1,11,48,12,0,32,128
-ON-MAIN-0aadf28f,mining,Rainy River,"Gold, silver",1,0,9,0,5,0,141,1,3,1,4,1,6,32,10,0,32,128
-ON-MAIN-1c674cd0,mining,Borden,Gold,1,0,9,0,0,0,132,1,0,1,4,1,0,16,0,0,32,128
-BC-MAIN-857b7b89,mining,Brucejack,"Gold, silver",1,0,9,0,7,0,50,1,0,1,4,1,8,6,6,0,32,128
-BC-MAIN-c720b195,advanced project,GJ,"Copper, gold, silver",0,0,9,0,0,0,0,1,0,1,4,1,0,9,0,0,32,128
-ON-MAIN-8629a493,mining,Hollinger,Gold,1,0,9,0,0,0,0,1,3,1,4,1,0,9,0,0,32,128
-ON-MAIN-538513cd,mining,Hoyle Pond,Gold,1,0,9,0,6,2,28,1,3,1,4,1,5,10,5,0,32,128
-ON-MAIN-fefeaee4,mining,Musselwhite,"Gold, silver",1,0,9,0,8,0,211,1,8,1,4,1,5,2,3,1,32,128
-ON-MAIN-3b3e5365,mining,Porcupine,Gold,1,0,9,0,0,0,222,1,1,1,4,1,0,10,0,15,32,128
-BC-MAIN-8eb8be0d,mining,Red Chris,"Gold, copper, silver",1,2,9,0,8,2,184,1,3,1,4,1,7,10,5,0,32,128
-QC-MAIN-6dc537e6,mining,Éléonore,Gold,1,0,9,0,0,0,218,1,12,1,4,1,0,1,0,0,32,128
-BC-MAIN-b4655afb,advanced project,Galore Creek,"Copper, gold, silver",0,2,9,0,0,0,0,1,0,1,4,1,0,2,6,0,32,128
-SK-MAIN-3012889c,advanced project,Rook I,Uranium,0,0,9,0,0,0,0,1,0,1,4,1,0,1,0,0,32,128
-YT-MAIN-1910d1c3,advanced project,Nickel Shaw,"Nickel, copper, platinum, palladium, gold, cobalt",0,0,9,0,0,0,0,1,0,1,4,1,0,2,0,0,32,128
-QC-MAIN-288718a6,advanced project,Crevier,"Niobium, tantalum",0,0,9,0,0,0,0,1,0,1,4,1,0,44,0,0,32,128
-NB-MAIN-f58cc895,advanced project,Sisson,"Tungsten, molybdenum",0,0,9,0,0,0,0,1,0,1,4,1,0,108,0,0,32,128
-ON-MAIN-8b86d975,advanced project,Bissett Creek,Graphite,0,0,9,0,0,0,0,1,0,1,4,1,0,51,0,0,32,128
-BC-MAIN-6fbdcf4c,advanced project,North Island,"Copper, gold, molybdenum, rhenium",0,0,9,0,0,0,0,1,0,1,4,1,0,73,0,0,32,128
-BC-MAIN-265a57f6,advanced project,Kwanika,"Copper, gold, silver",0,0,9,0,0,0,0,1,0,1,4,1,0,19,0,0,32,128
-NT-MAIN-b3681e03,advanced project,Prairie Creek,"Zinc, lead, silver",0,0,9,0,0,0,0,1,1,1,4,1,0,2,0,0,32,128
-QC-MAIN-d6748d40,advanced project,Matawinie,Graphite,0,0,9,1,0,0,0,1,0,1,4,1,0,114,0,0,32,128
-QC-MAIN-69bb36c1,advanced project,Caber Complex,"Zinc, copper, silver, gold",0,0,9,0,0,0,0,1,1,1,4,1,0,11,0,0,32,128
-SK-MAIN-60ba74c4,mining,McClean Lake,Uranium,1,0,9,0,0,0,0,1,11,1,4,1,2,2,0,0,32,128
-NT-MAIN-b99d4cb2,advanced project,Pine Point,"Zinc, lead",0,0,9,0,0,0,0,1,11,1,4,1,0,2,0,1,32,128
-NL-MAIN-a498ddc6,advanced project,Michelin,Uranium,0,0,9,0,0,0,0,1,0,1,4,1,0,0,0,0,32,128
-ON-MAIN-bfbcd72e,mining,Bell Creek,Gold,1,0,9,0,0,0,1,1,0,1,4,1,0,12,0,1,32,128
-ON-MAIN-f3e6ff08,mining,Timmins West,Gold,1,0,9,0,0,0,40,1,7,1,4,1,0,8,0,0,32,128
-QC-MAIN-3aa117d8,manufacturing,Alma,Aluminum (pure or alloyed),0,0,9,0,0,0,167,1,0,1,4,1,2,49,0,0,32,128
-QC-MAIN-c1c7eb99,manufacturing,Arvida,"Aluminum (pure or alloyed), alumina, aluminum chemicals, composites",0,0,9,0,0,0,348,1,0,1,4,1,2,64,0,0,32,128
-QC-MAIN-01c1e81f,manufacturing,Grande-Baie,Aluminum (pure or alloyed),0,0,9,0,0,0,210,1,0,1,4,1,2,81,0,0,32,128
-BC-MAIN-eb47f7c7,manufacturing,Kitimat,Aluminum (pure or alloyed),0,0,9,0,0,0,0,1,0,1,4,1,1,64,0,0,32,128
-QC-MAIN-c0e3a48b,manufacturing,Laterrière,Aluminum (pure or alloyed),0,0,9,0,0,0,138,1,0,1,4,1,2,64,0,0,32,128
-QC-MAIN-92628f16,manufacturing,Vaudreuil,Alumina,0,0,9,0,0,0,57,1,3,1,4,1,2,64,0,2,32,128
-QC-MAIN-8d6616b4,manufacturing,Alouette,Aluminum (pure),0,0,9,0,0,0,214,1,0,1,4,1,2,65,0,0,32,128
-NT-MAIN-0ec39ce0,mining,Diavik,Diamonds,1,0,9,0,0,0,1,1,2,1,4,1,0,0,0,1,32,128
-QC-MAIN-e82266c5,mining,Lac Tio,Ilmenite,1,0,9,0,0,0,0,1,1,1,4,1,2,25,5,0,32,128
-QC-MAIN-11c40b1f,advanced project,Lithium Demonstration Plant,Lithium,0,0,9,0,0,0,0,1,1,1,4,1,0,139,0,0,32,128
-QC-MAIN-3e146840,manufacturing,Rio Tinto Iron and Titanium,"Steel, titanium dioxide, scandium",0,0,9,0,0,0,0,1,0,1,4,1,1,140,0,0,32,128
-QC-MAIN-7b3b4c8b,advanced project,Scandium Demonstration Plant,Scandium,0,0,9,0,0,0,0,1,0,1,4,1,0,139,0,0,32,128
-ON-MAIN-eda110b0,advanced project,Georgia Lake,Lithium (spodumene),0,0,9,0,0,0,0,1,0,1,4,1,0,13,0,0,32,128
-YT-MAIN-73ce66b5,advanced project,Klaza,"Gold, silver, lead, zinc",0,0,9,0,0,0,0,1,0,1,4,1,0,3,0,0,32,128
-BC-MAIN-116ae608,advanced project,Revel Ridge,"Gold, lead, silver, zinc",0,0,9,0,0,0,0,1,0,1,4,1,0,10,0,0,32,128
-ON-MAIN-dca9cce7,manufacturing,Ottawa,"Gold, silver",0,0,9,0,0,0,0,1,0,1,4,1,0,137,0,0,32,128
-SK-MAIN-d5c9124e,advanced project,Rare Earth Processing Facility,Rare earth elements,0,0,9,0,0,0,0,1,0,1,4,1,0,50,0,0,32,128
-QC-MAIN-c4fb59c2,advanced project,Moblan,Lithium (spodumene),0,0,9,0,0,0,0,1,0,1,4,1,0,24,0,0,32,128
-QC-MAIN-1186a6d0,advanced project,Authier,Lithium (spodumene),0,0,9,0,0,0,0,1,0,1,4,1,0,27,0,0,32,128
-QC-MAIN-dc1a16f9,mining,North American Lithium,Lithium,1,0,9,0,0,0,110,1,3,1,4,1,2,23,1,0,32,128
-BC-MAIN-b7591127,advanced project,Iskut,"Gold, copper, silver, iron ore",0,0,9,0,0,0,0,1,0,1,4,1,0,6,0,0,32,128
-BC-MAIN-4959ea63,advanced project,KSM,"Gold, copper, silver, molybdenum",0,0,9,0,0,0,0,1,0,1,4,1,0,6,0,0,32,128
-YT-MAIN-03a159d7,advanced project,Selwyn,"Zinc, lead",0,0,9,0,0,0,0,1,0,1,4,1,0,2,0,0,32,128
-AB-MAIN-d3a4aba9,manufacturing,The Cobalt Refinery Company Inc.,"Nickel, cobalt, copper sulfide, ammonium sulfate",0,0,9,0,0,0,0,1,0,1,4,1,6,35,0,0,32,128
-ON-MAIN-f4fc3276,mining,Sugar Zone,Gold,1,0,9,0,0,0,0,1,0,1,4,1,2,9,4,0,32,128
-MB-MAIN-915d9faa,mining,Tanco,"Cesium, lithium",1,0,9,0,0,0,0,1,3,1,4,1,0,12,0,0,32,128
-BC-MAIN-b1fe389a,advanced project,Eskay Creek,"Gold, Silver, copper, lead, zinc",0,0,9,0,0,0,0,1,1,1,4,1,0,7,0,2,32,128
-QC-MAIN-1d2f31f9,advanced project,Kwyjibo,"Rare earth elements, phosphate, iron ore",0,0,9,0,0,0,0,1,0,1,4,1,0,4,0,0,32,128
-NL-MAIN-bb23d8a6,advanced project,Great Burnt Lake,"Copper, gold",0,0,9,0,0,0,0,1,0,1,4,1,0,0,0,0,32,128
-SK-MAIN-22ce14be,mining,Santoy,Gold,0,0,9,0,0,0,0,1,0,1,4,1,0,2,0,0,32,128
-SK-MAIN-29afbdb5,mining,Seabee,Gold,0,0,9,0,0,0,185,1,5,1,4,1,0,3,0,4,32,128
-NS-MAIN-c9c77a59,mining,Moose River Consolidated,Gold,1,0,9,0,0,0,0,1,2,1,4,1,0,122,2,0,32,128
-ON-MAIN-020a683c,manufacturing,Hamilton Works,Steel,0,0,9,0,0,0,402,1,0,1,4,1,0,62,0,0,32,128
-ON-MAIN-b2e5c9bb,manufacturing,Lake Erie Works,Steel,0,0,9,0,0,0,472,1,0,1,4,1,0,86,0,0,32,128
-QC-MAIN-3032c251,mining,Renard,Diamonds,1,0,9,0,0,0,1,1,7,1,4,1,0,2,0,0,32,128
-QC-MAIN-b5937543,advanced project,Blackrock,"Iron ore, vanadium, titanium",0,0,9,0,0,0,0,1,2,1,4,1,0,27,0,0,32,128
-QC-MAIN-64595b02,advanced project,Blackrock Pyrometallurgical Facility,"Iron ore, vanadium, titanium",0,0,9,0,0,0,0,1,0,1,4,1,0,74,0,0,32,128
-BC-MAIN-a505d25d,advanced project,Ootsa,"Copper, gold, molybdenum, silver",0,0,9,0,0,0,0,1,2,1,4,1,0,8,0,0,32,128
-BC-MAIN-c5d1b42d,advanced project,Berg,"Copper, Molybdenum, Gold, Silver",0,0,9,0,0,0,0,1,0,1,4,1,0,10,0,0,32,128
-QC-MAIN-6a26086e,manufacturing,Sorel Forge,Steel,0,0,9,0,0,0,0,1,0,1,4,1,0,138,0,0,32,128
-NL-MAIN-b64bae7a,mining,Scully,Iron,1,0,9,0,5,0,135,1,2,1,4,1,4,6,1,0,32,128
-NL-MAIN-18695c6d,advanced project,Scully Mine - Manganese project,Manganese,0,0,9,0,0,0,0,1,5,1,4,1,0,6,0,0,32,128
-ON-MAIN-1aa10efa,advanced project,Kenbridge,"Nickel, copper, cobalt",0,0,9,0,0,0,0,1,0,1,4,1,0,25,0,0,32,128
-BC-MAIN-23f67ea8,advanced project,Aley,Niobium,0,0,9,0,0,0,0,1,0,1,4,1,0,5,0,0,32,128
-BC-MAIN-6b4800fe,mining,Gibraltar,"Copper, molybdenum, silver",1,2,9,0,3,1,219,1,4,1,4,1,9,38,9,0,32,128
-BC-MAIN-18bed6d7,advanced project,Yellowhead,"Copper, gold, silver",0,0,9,0,0,0,0,1,0,1,4,1,0,27,0,0,32,128
-NL-MAIN-e09881ff,mining,DSO (3 and 4),Iron,1,0,9,0,0,0,0,1,6,1,4,1,0,3,0,0,32,128
-QC-MAIN-b8c826a2,mining,DSO (Goodwood),Iron,1,0,9,0,0,0,0,1,0,1,4,1,0,4,0,0,32,128
-BC-MAIN-bf503b6b,mining,Highland Valley,"Copper, silver, molybdenum",0,0,9,0,0,0,176,1,1,1,4,1,2,157,0,4,32,128
-BC-MAIN-193ddddb,advanced project,Schaft Creek,"Copper, molybdenum, gold, silver",0,0,9,0,0,0,0,1,0,1,4,1,0,5,0,0,32,128
-BC-MAIN-3bb6b7cd,manufacturing,Trail,"Zinc, lead, bismuth, cadmium, indium, germanium, precious metals, liquid sulfur dioxide, sulfuric acid",0,0,9,0,0,0,261,1,0,1,4,1,1,25,0,0,32,128
-QC-MAIN-2587e541,advanced project,Strange Lake,"Rare earth elements, niobium",0,0,9,0,0,0,0,1,0,1,4,1,0,2,0,0,32,128
-BC-MAIN-23155c25,mining,Myra Falls,"Zinc, copper, silver, gold, lead",1,0,9,0,0,0,341,1,2,1,4,1,2,84,0,0,32,128
-YT-MAIN-68c87980,advanced project,Freegold Mountain,"Gold, silver, copper, molybdenum, tungsten",0,0,9,0,0,0,0,1,0,1,4,1,0,4,0,0,32,128
-QC-MAIN-b2148882,advanced project,Troilus,"Gold, copper, silver",0,0,9,0,0,0,1,1,6,1,4,1,2,11,0,0,32,128
-ON-MAIN-4a6187a4,advanced project,RapidSX Demonstration Plant,Rare earth elements,0,0,9,0,0,0,0,1,0,1,4,1,0,80,0,0,32,128
-SK-MAIN-9dd2b7f8,advanced project,Horseshoe-Raven,Uranium,0,0,9,0,0,0,0,1,14,1,4,1,0,3,0,0,32,128
-ON-MAIN-387b06fe,manufacturing,Welland Mill,Steel,0,0,9,0,0,0,0,1,0,1,4,1,0,42,0,0,32,128
-ON-MAIN-de2f9639,mining,Clarabelle,"Nickel, copper, platinum group metals, gold, silver, cobalt, selenium, tellurium",1,0,9,0,0,0,213,1,5,1,4,1,0,23,0,0,32,128
-ON-MAIN-6e9b2449,mining,Coleman,"Nickel, copper, platinum group metals, gold, silver, cobalt, selenium, tellurium",0,0,9,0,0,0,59,1,3,1,4,1,2,22,0,0,32,128
-ON-MAIN-f080c409,mining,Copper Cliff Complex,"Nickel, copper, platinum group metals, gold, silver, cobalt, selenium, tellurium",0,0,9,0,0,0,0,1,2,1,4,1,0,23,0,7,32,128
-ON-MAIN-63b394c3,manufacturing,Copper Cliff Complex,"Nickel (oxide sinter, pellets, powder, sulfide), copper cathodes, gold, silver, selenium cake, tellurium dioxide cake, platinum group metals (in residues), liquid sulfur dioxide, sulfuric acid",1,0,9,0,0,0,116,1,5,1,4,1,2,23,0,1,32,128
-ON-MAIN-52224e1e,mining,Creighton,"Nickel, copper, platinum group metals, gold, silver, cobalt, selenium, tellurium",0,0,9,0,0,0,88,1,2,1,4,1,2,23,0,0,32,128
-ON-MAIN-48fe2205,mining,Garson,"Nickel, copper, platinum group metals, gold, silver, cobalt, selenium, tellurium",0,0,9,0,0,0,137,1,9,1,4,1,2,19,0,0,32,128
-ON-MAIN-2e13aaa0,manufacturing,Port Colborne,"Electrolytic cobalt, platinum group metals (in residues), copper oxide",1,0,9,1,0,0,127,1,0,1,4,1,2,37,0,0,32,128
-MB-MAIN-e0a6250e,mining,Thompson (T-1 and T-3),"Nickel, cobalt, copper, platinum group metals, gold, silver",0,0,9,0,0,0,0,1,12,1,4,1,0,3,0,2,32,128
-ON-MAIN-28f3f0fc,mining,Totten,"Nickel, copper, platinum group metals, gold, silver, cobalt",0,0,9,0,0,0,130,1,4,1,4,1,2,22,0,0,32,128
-NL-MAIN-d9036091,manufacturing,Long Harbour,"Nickel, copper, cobalt",1,0,9,0,0,0,122,1,4,1,4,1,2,12,0,1,32,128
-NL-MAIN-2d8801d6,mining,Voisey’s Bay,"Nickel, copper, cobalt",0,0,9,1,0,0,0,1,10,1,4,1,0,0,0,1,32,128
-QC-MAIN-860bbbfc,advanced project,Lac Doré Vanadium,"Iron ore, vanadium, titanium",0,0,9,0,0,0,0,1,0,1,4,1,0,29,0,0,32,128
-YT-MAIN-e05ed9fe,mining,Eagle (Dublin Gulch),Gold,1,0,9,0,0,0,0,1,0,1,4,1,0,2,0,0,32,128
-QC-MAIN-d59f82aa,advanced project,Sirmac,"Lithium, tantalum",0,0,9,0,0,0,0,1,0,1,4,1,0,35,0,0,32,128
-NT-MAIN-b1b28b01,advanced project,Nechalacho - T-Zone & Tardiff Zone,Rare earth elements,0,0,9,0,0,0,0,1,0,1,4,1,0,0,0,0,32,128
-AB-MAIN-63f096a6,advanced project,Rainbow Lake,Lithium (brine),0,0,9,0,0,0,0,1,0,1,4,1,0,5,0,0,32,128
-QC-MAIN-be473617,advanced project,Mont Sorcier,"Iron ore, vanadium",0,0,9,0,0,0,0,1,0,1,4,1,0,34,0,0,32,128
-ON-MAIN-3c468faa,advanced project,Superior Lake,"Zinc, copper, gold, silver",0,0,9,0,0,0,0,1,2,1,4,1,0,20,0,0,32,128
-ON-MAIN-cb85213a,mining,Eagle River,Gold,1,0,9,0,0,0,228,1,4,1,4,1,0,12,0,0,32,128
-QC-MAIN-9de9bb0d,mining,Kiena,Gold,1,0,9,0,8,6,231,1,6,1,4,1,5,42,5,0,32,128
-ON-MAIN-c5fefb01,mining,Mishi,Gold,1,0,9,0,8,6,19,1,4,1,4,1,5,11,5,0,32,128
-BC-MAIN-feb13c30,advanced project,Record Ridge,Magnesium,0,0,9,0,0,0,0,1,0,1,4,1,0,24,0,0,32,128
-YT-MAIN-5e0d8b48,advanced project,Casino,"Copper, gold, molybdenum, silver",0,0,9,0,0,0,0,1,0,1,4,1,0,2,0,0,32,128
-ON-MAIN-12c68d49,advanced project,Eagle's Nest,"Nickel, copper, gold, platinum, palladium",0,0,9,0,0,0,0,1,0,1,4,1,0,1,0,0,32,128
-BC-MAIN-891d3cb5,advanced project,Akie,"Zinc, lead, silver",0,0,9,0,0,0,0,1,0,1,4,1,0,9,0,0,32,128
+main_id,facility_type,facility_name,commodities,Archetype table,By-product ratios table,Climate category table,Conflict table,Environmental flows table,Intensity table,Land cover table,Land occupation table,Materials and energy table,Peatland table,Population table,Prioritize conservation areas table,Production table,Protected & Indigenous land table,Reserves table,Tailings table,Technical attributes table,Waste table,Water risk table,Weather table
+QC-MAIN-5801b453,advanced project,Abcourt-Barvue,"Zinc, silver",0,0,9,0,0,0,1,2,0,1,4,1,0,30,0,0,0,0,32,128
+QC-MAIN-d29e0839,mining,Sleeping Giant,"Gold, silver",1,0,9,0,0,0,1,6,0,1,4,1,0,44,2,0,0,0,32,128
+QC-MAIN-f1ff4920,advanced project,Akasaba West,"Gold, copper",0,0,9,0,0,0,1,10,0,1,4,1,0,46,0,0,0,0,32,128
+NU-MAIN-4ea8ac9d,mining,Amaruq,Gold,1,0,9,0,9,4,1,0,5,1,4,1,5,1,4,0,0,10,32,128
+QC-MAIN-e7e6a960,mining,Canadian Malartic,"Gold, silver",1,0,9,0,87,4,1,6,5,1,4,1,3,41,5,2,0,10,32,128
+ON-MAIN-aeafbb59,mining,Detour Lake,Gold,1,0,9,0,69,4,1,4,5,1,4,1,3,8,5,1,0,10,32,128
+QC-MAIN-c0660aec,mining,Goldex,"Gold, silver",0,0,9,0,38,0,1,6,0,1,4,1,0,45,0,1,0,0,32,128
+QC-MAIN-e51eda66,mining,LaRonde,"Gold, zinc, copper, silver, cadmium",0,3,9,0,1,0,1,0,0,1,4,1,2,39,0,2,0,0,32,128
+ON-MAIN-1f126a43,mining,Macassa,"Gold, silver",1,0,9,0,94,4,1,16,5,1,4,1,0,24,4,0,0,10,32,128
+NU-MAIN-730aefe3,mining,Meadowbank,Gold,1,0,9,0,101,4,1,1,6,1,4,1,2,1,5,3,0,10,32,128
+NU-MAIN-8b0264c9,mining,Meliadine,Gold,1,0,9,0,9,4,1,0,5,1,4,1,7,3,5,1,0,10,32,128
+MB-MAIN-5d21dbd5,advanced project,Monument Bay,"Gold, tungsten",0,0,9,0,0,0,1,0,0,1,4,1,0,8,0,0,0,0,32,128
+ON-MAIN-74997012,advanced project,Upper Beaver,"Gold, copper",0,0,9,0,0,0,1,0,0,1,4,1,0,41,0,0,0,0,32,128
+ON-MAIN-687b8c8d,mining,Island,Gold,1,0,9,0,94,8,1,0,8,1,4,1,3,13,2,5,3,18,32,128
+ON-MAIN-7607a50e,mining,Young-Davidson,Gold,1,0,9,0,118,8,1,7,7,1,4,1,3,14,2,4,3,18,32,128
+QC-MAIN-52c01ae4,manufacturing,Baie-Comeau,Aluminum (pure or alloyed),0,0,9,0,71,0,1,0,0,1,4,1,1,63,0,0,0,0,32,128
+QC-MAIN-eac5a52b,manufacturing,Deschambault,Aluminum (pure),0,0,9,0,37,0,1,0,0,1,4,1,1,106,0,0,0,0,32,128
+QC-MAIN-81a288d0,advanced project,Elysis,Aluminum,0,0,9,0,0,0,1,0,0,1,4,1,0,64,0,0,0,0,32,128
+QC-MAIN-c8966bdc,manufacturing,Bécancour,Aluminum (pure or alloyed),0,0,9,0,54,0,1,0,0,1,4,1,1,74,0,0,0,0,32,128
+ON-MAIN-eab8c362,manufacturing,Algoma Steel,Steel,0,0,9,0,93,0,1,0,0,1,4,1,0,18,0,0,0,0,32,128
+QC-MAIN-8c7063b2,advanced project,James Bay Lithium,Lithium (spodumene),0,0,9,0,0,0,1,0,0,1,4,1,0,2,0,0,0,0,32,128
+BC-MAIN-3ef4f421,advanced project,Avanti Kitsault,"Molybdenum, silver, lead",0,0,9,0,0,0,1,1,0,1,4,1,0,15,0,0,0,0,32,128
+AB-MAIN-9fed34a8,manufacturing,AltaSteel,Steel,0,0,9,0,78,0,1,0,0,1,4,1,0,28,0,0,0,0,32,128
+QC-MAIN-33c09b8b,mining,Fire Lake,Iron,1,0,9,0,14,0,1,5,0,1,4,1,1,5,0,0,0,0,32,128
+QC-MAIN-084bd95c,mining,Mont-Wright,Iron,1,0,9,0,71,0,1,1,0,1,4,1,1,5,0,1,0,0,32,128
+QC-MAIN-1eee4ace,manufacturing,Contrecœur East,Steel,0,0,9,0,51,0,1,3,0,1,4,1,0,184,0,0,0,0,32,128
+QC-MAIN-844dcc47,manufacturing,Contrecœur West,Steel,0,0,9,0,46,0,1,3,0,1,4,1,0,194,0,0,0,0,32,128
+QC-MAIN-e25eed27,manufacturing,Port-Cartier,Iron ore,0,0,9,0,58,0,1,0,0,1,4,1,0,74,0,0,0,0,32,128
+ON-MAIN-4c35e094,manufacturing,ArcelorMittal Dofasco,Steel,0,0,9,0,193,0,1,0,0,1,4,1,1,62,0,0,0,0,32,128
+ON-MAIN-8825d90d,mining,Magino,"Gold, silver",2,0,9,0,73,0,1,1,0,1,4,1,3,13,0,0,4,1,32,128
+SK-MAIN-de2e2f8e,advanced project,Prairie Lithium,Lithium (brine),0,0,9,0,0,0,1,0,0,1,4,1,0,20,0,0,0,0,32,128
+ON-MAIN-e928d96a,manufacturing,Brampton,"Gold, silver",0,0,9,0,8,0,1,0,0,1,4,1,0,125,0,0,0,0,32,128
+NT-MAIN-4f11f183,advanced project,Nechalacho - Basal Zone,"Rare earth elements, niobium, tantalum, zirconium",0,0,9,0,0,0,1,0,0,1,4,1,0,0,0,0,0,0,32,128
+ON-MAIN-46f71d5b,advanced project,Separation Rapids,Lithium (spodumene),0,0,9,0,0,0,1,0,0,1,4,1,0,19,0,0,0,0,32,128
+NU-MAIN-5154702a,mining,Mary River,Iron,1,0,9,0,4,0,1,0,0,1,4,1,1,1,2,0,0,0,32,128
+ON-MAIN-6e9be24e,mining,Hemlo (Williams),Gold,1,0,9,0,93,10,1,3,2,1,4,1,2,12,5,1,0,1,32,128
+AB-MAIN-8434dce0,manufacturing,Baymag,Magnesium oxide,0,0,9,0,0,0,1,0,0,1,4,1,0,22,0,0,0,0,32,128
+YT-MAIN-2cc9bb06,advanced project,Kudz Ze Kayah,"Zinc, lead, copper, silver, gold",0,0,9,0,0,0,1,0,0,1,4,1,0,0,0,0,0,0,32,128
+NL-MAIN-895cb178,advanced project,Buchans River,"Zinc, lead, copper, silver, gold",0,0,9,0,0,0,1,5,0,1,4,1,0,1,0,0,0,0,32,128
+NT-MAIN-6c1d6ee6,mining,Ekati,Diamonds,1,0,9,0,1,0,1,6,0,1,4,1,3,1,1,0,0,1,32,128
+NB-MAIN-0c5b40d8,advanced project,Nash Creek,"Zinc, lead, silver",0,0,9,0,0,0,1,0,0,1,4,1,0,82,0,0,0,0,32,128
+ON-MAIN-484e4fa3,manufacturing,Blind River,Uranium (trioxide),0,0,9,0,0,0,1,0,0,1,4,1,0,40,0,0,0,0,32,128
+SK-MAIN-91cf5448,mining,Cigar Lake,Uranium,1,0,9,0,19,0,1,4,0,1,4,1,1,1,5,0,0,0,32,128
+SK-MAIN-bb89158f,mining,Key Lake,Uranium,0,0,9,0,60,0,1,6,0,1,4,1,0,1,5,2,0,0,32,128
+SK-MAIN-d3c471e8,mining,McArthur River,Uranium,0,0,9,0,22,0,1,5,0,1,4,1,0,0,1,0,0,0,32,128
+ON-MAIN-237587f6,manufacturing,Port Hope,"Uranium (hexafluoride, dioxide, metals, alloys)",0,0,9,0,0,0,1,0,0,1,4,1,0,43,0,0,0,0,32,128
+ON-MAIN-4c5c1179,advanced project,Crawford,"Nickel, iron ore, cobalt, palladium, platinum, chromite",0,0,9,0,0,0,1,3,0,1,4,1,0,10,0,0,0,0,32,128
+NB-MAIN-8e04eb21,advanced project,Murray Brook,"Zinc, lead, silver, copper, gold",0,0,9,0,0,0,1,3,0,1,4,1,0,81,0,0,0,0,32,128
+ON-MAIN-37e9571e,advanced project,Thierry,"Copper, nickel, silver, gold, platinum, palladium",0,0,9,0,0,0,1,4,0,1,4,1,0,5,0,0,0,0,32,128
+NB-MAIN-3e7d42ac,advanced project,Woodstock,"Manganese, iron ore",0,0,9,0,0,0,1,0,0,1,4,1,0,107,0,0,0,0,32,128
+NU-MAIN-eae1621e,advanced project,Ferguson Lake,"Nickel, copper, palladium, platinum, cobalt",0,0,9,0,0,0,1,0,0,1,4,1,0,1,0,0,0,0,32,128
+QC-MAIN-5ce331b8,mining,Nunavik Nickel,"Nickel, copper, platinum group metals, cobalt",1,0,9,0,9,3,1,0,0,1,4,1,1,1,0,0,0,0,32,128
+BC-MAIN-eba3e309,advanced project,Golden Crown,"Gold, copper",0,0,9,0,0,0,1,4,0,1,4,1,0,23,0,0,0,0,32,128
+BC-MAIN-e34feb4d,advanced project,Kemess,"Copper, gold, silver",0,0,9,0,5,0,1,2,0,1,4,1,2,4,0,1,0,0,32,128
+BC-MAIN-ed23117f,mining,Mount Milligan,"Copper, gold, silver",1,1,9,0,32,0,1,1,5,1,4,1,8,8,15,1,4,4,32,128
+QC-MAIN-089f3c60,mining,Bloom Lake,Iron,1,0,9,0,61,0,1,7,0,1,4,1,3,7,20,0,1,0,32,128
+NL-MAIN-251d6364,mining,Beaver Brook,Antimony,0,0,9,0,0,0,1,0,0,1,4,1,0,2,0,0,0,0,32,128
+ON-MAIN-be399420,advanced project,Thunder Bay North,"Platinum, palladium, gold, nickel, copper, silver, rhodium, cobalt",0,0,9,0,0,0,1,0,0,1,4,1,0,23,0,0,0,0,32,128
+QC-MAIN-3330383b,advanced project,Eldor (Ashram),Rare earth elements,0,0,9,0,0,0,1,0,0,1,4,1,0,0,0,0,0,0,32,128
+MB-MAIN-6fca9d6d,advanced project,Lynn Lake,"Nickel, copper, cobalt",0,0,9,0,0,0,1,18,0,1,4,1,0,1,0,0,0,0,32,128
+QC-MAIN-d4e2812a,advanced project,Rose,"Lithium (spodumene), tantalum",0,0,9,0,0,0,1,0,0,1,4,1,0,1,0,0,0,0,32,128
+AB-MAIN-9a0307f6,advanced project,SBH Black Shale,"Vanadium, zinc, nickel, uranium, copper, cobalt, rare earth elements, scandium, lithium, molybdenum",0,0,9,0,0,0,1,0,0,1,4,1,0,8,0,0,0,0,32,128
+QC-MAIN-715d4318,advanced project,Horizon,"Zircon, titanium, rare earth elements",0,0,9,0,0,0,1,0,0,1,4,1,0,216,0,0,0,0,32,128
+NT-MAIN-94e652a5,mining,Gahcho Kué,Diamonds,1,0,9,0,1,0,1,1,0,1,4,1,0,1,0,2,0,0,32,128
+BC-MAIN-382acb18,advanced project,Wicheeda,Rare earth elements,0,0,9,0,0,0,1,0,0,1,4,1,0,14,0,0,0,0,32,128
+SK-MAIN-4aef3cb2,advanced project,Waterbury,Uranium,0,0,9,0,0,0,1,2,0,1,4,1,0,1,0,0,0,0,32,128
+SK-MAIN-95ec2625,advanced project,Wheeler River,Uranium,0,0,9,0,0,0,1,0,0,1,4,1,0,1,0,0,0,0,32,128
+BC-MAIN-51068f3b,advanced project,Kitsault Valley,"Gold, silver, copper, lead",0,0,9,0,0,0,1,0,0,1,4,1,0,11,0,0,0,0,32,128
+AB-MAIN-7d4a0421,advanced project,Bashaw District,Lithium (brine),0,0,9,0,0,0,1,0,0,1,4,1,0,15,0,0,0,0,32,128
+QC-MAIN-f9e41c2a,mining,Lamaque,Gold,1,0,9,0,6,4,1,25,7,1,4,1,2,39,5,0,2,4,32,128
+ON-MAIN-6664e89b,advanced project,Battery Materials Park,"Cobalt, nickel, lithium",0,0,9,0,4,0,1,0,0,1,4,1,0,39,0,0,0,0,32,128
+QC-MAIN-5398dfac,manufacturing,Elkem Chicoutimi,Ferrosilicon,0,0,9,0,7,0,1,1,0,1,4,1,0,64,0,0,0,0,32,128
+QC-MAIN-2cf66e65,advanced project,Becancour Plant,Manganese sulphate,0,0,9,0,2,0,1,0,0,1,4,1,0,85,0,0,0,0,32,128
+ON-MAIN-7f050560,mining,Red Lake,"Gold, silver",1,0,9,0,71,3,1,9,5,1,4,1,4,9,3,4,0,6,32,128
+SK-MAIN-26b9aaf3,manufacturing,EVRAZ Regina,Steel,0,0,9,0,66,0,1,0,0,1,4,1,2,47,0,0,0,0,32,128
+QC-MAIN-c1cc9f7c,manufacturing,Becancour Silicon,"Silicon metal, ferrosilicon",0,0,9,0,13,0,1,0,0,1,4,1,0,74,0,0,0,0,32,128
+NL-MAIN-c139de6d,mining,Ming,"Copper, gold, silver",1,0,9,0,16,0,1,4,0,1,4,1,2,1,9,0,0,0,32,128
+NL-MAIN-842ba1b4,mining,Nugget Pond,Copper,0,0,9,0,15,0,1,4,0,1,4,1,0,3,0,0,0,0,32,128
+YT-MAIN-ca488f19,advanced project,Macmillan Pass,"Zinc, lead, silver",0,0,9,0,0,0,1,0,0,1,4,1,0,1,0,0,0,0,32,128
+YT-MAIN-70d629b4,advanced project,Mactung,Tungsten,0,0,9,0,0,0,1,0,0,1,4,1,0,1,0,0,0,0,32,128
+BC-MAIN-efff21d3,advanced project,Deer Horn,"Gold, silver, tellurium, copper, zinc, lead",0,0,9,0,0,0,1,0,0,1,4,1,0,9,0,0,0,0,32,128
+SK-MAIN-0684a5d8,advanced project,Patterson Lake South,Uranium,0,0,9,0,0,0,1,0,0,1,4,1,0,3,0,0,0,0,32,128
+MB-MAIN-f7fde5b4,advanced project,Minago,Nickel,0,0,9,0,0,0,1,0,0,1,4,1,0,2,0,0,0,0,32,128
+QC-MAIN-ae473a4e,advanced project,Lac Knife,Graphite,0,0,9,0,0,0,1,0,0,1,4,1,0,5,0,0,0,0,32,128
+SK-MAIN-7a11ae49,advanced project,McIlvenna Bay,"Copper, zinc, gold, silver, lead",0,0,9,0,0,0,1,2,0,1,4,1,0,21,0,0,0,0,32,128
+AB-MAIN-ca9625ce,advanced project,Fortune Minerals Refinery,"Cobalt, gold, bismuth, copper",0,0,9,0,0,0,1,0,0,1,4,1,0,18,0,0,0,0,32,128
+NT-MAIN-b7cdf82c,advanced project,NICO,"Cobalt, gold, bismuth, copper",0,0,9,0,0,0,1,0,0,1,4,1,0,2,0,0,0,0,32,128
+ON-MAIN-d47616e5,advanced project,Martison,"Phosphate, niobium",0,0,9,0,0,0,1,0,0,1,4,1,0,1,0,0,0,0,32,128
+BC-MAIN-e1641dfb,advanced project,Decar,"Nickel, cobalt",0,0,9,0,0,0,1,0,0,1,4,1,0,56,0,0,0,0,32,128
+ON-MAIN-c06904f0,advanced project,Pakeagama,"Lithium (spodumene), tantalum, tin, niobium, rubidium, cesium",0,0,9,0,0,0,1,0,0,1,4,1,0,5,0,0,0,0,32,128
+ON-MAIN-64bbe7e6,advanced project,Marathon,"Palladium, platinum, gold, copper, silver",0,0,9,0,0,0,1,9,0,1,4,1,0,14,0,0,0,0,32,128
+QC-MAIN-22426144,advanced project,REE Recycling Facility (Saint-Bruno),Rare earth elements,0,0,9,0,0,0,1,0,0,1,4,1,0,197,0,0,0,0,32,128
+MB-MAIN-0d5c2cae,manufacturing,Selkirk Division,,0,0,9,0,1,0,1,0,0,1,4,1,0,38,0,0,0,0,32,128
+ON-MAIN-92cdea80,manufacturing,Whitby Division,,0,0,9,0,1,0,1,0,0,1,4,1,0,42,0,0,0,0,32,128
+ON-MAIN-bddeaef0,manufacturing,Cambridge Mill,Steel,0,0,9,0,4,0,1,0,0,1,4,1,0,67,0,0,0,0,32,128
+MB-MAIN-b4ca1426,manufacturing,Manitoba Mill,Steel,0,0,9,0,41,0,1,0,0,1,4,1,0,36,0,0,0,0,32,128
+ON-MAIN-21b6ab35,manufacturing,Whitby Mill,Steel,0,0,9,0,48,0,1,0,0,1,4,1,0,42,0,0,0,0,32,128
+QC-MAIN-de3d8b7b,manufacturing,Canadian Electrolytic Zinc Limited (CEZinc),"Zinc, cadmium, liquid sulfur dioxide, sulfuric acid",0,0,9,0,0,0,1,4,0,1,4,1,0,148,0,0,0,0,32,128
+QC-MAIN-529c96b4,manufacturing,CCR,"Copper (cathodes), gold, silver, tellurium, selenium, nickel sulfate, copper sulfate, platinum group metals",0,0,9,0,42,0,1,0,0,1,4,1,2,217,0,0,0,0,32,128
+ON-MAIN-206041d1,mining,Fraser,"Nickel, copper, platinum group metals, gold, cobalt, silver",1,0,9,0,0,0,1,3,0,1,4,1,0,22,0,0,0,0,32,128
+QC-MAIN-abb3e1c7,manufacturing,General Smelting Company of Canada,Recycled lead,0,0,9,0,0,0,1,0,0,1,4,1,0,217,0,0,0,0,32,128
+QC-MAIN-30c1828c,manufacturing,Horne,"Copper anodes, precious metals, sulfuric acid",0,0,9,0,82,0,1,1,0,1,4,1,2,57,0,5,0,0,32,128
+ON-MAIN-f8313ebd,mining,Kidd Creek,"Copper, zinc, silver, selenium, indium",1,3,9,0,40,0,1,6,0,1,4,1,2,11,30,0,0,0,32,128
+ON-MAIN-fcb287a4,mining,Nickel Rim South,"Nickel, copper, cobalt, platinum group metals, gold",0,0,9,0,28,0,1,2,0,1,4,1,0,16,0,2,0,0,32,128
+ON-MAIN-319e04a8,advanced project,Onaping Depth,"Nickel, copper, cobalt, platinum, palladium, rhodium, gold, silver",0,0,9,0,0,0,1,8,0,1,4,1,0,23,0,0,0,0,32,128
+QC-MAIN-a97821c0,mining,Raglan,"Nickel, platinum group metals, copper, cobalt, gold, silver",1,4,9,0,84,0,1,3,0,1,4,1,7,3,16,1,0,0,32,128
+ON-MAIN-ed85ac94,mining,Strathcona,"Nickel, copper, platinum group metals, gold, silver, cobalt, selenium, tellurium",1,0,9,0,76,0,1,3,0,1,4,1,0,22,0,3,0,0,32,128
+ON-MAIN-40ce0593,manufacturing,Sudbury,"Nickel-copper matte containing cobalt, gold, silver, platinum group metals",0,0,9,0,109,0,1,9,0,1,4,1,2,15,0,1,0,0,32,128
+BC-MAIN-4724f4ba,mining,Elk,Gold,1,0,9,0,0,0,1,2,0,1,4,1,3,52,3,0,2,1,32,128
+YT-MAIN-956d050a,advanced project,Carmacks,"Copper, gold, silver, molybdenum",0,0,9,0,0,0,1,0,0,1,4,1,0,5,0,0,0,0,32,128
+ON-MAIN-97ee890f,advanced project,Seymour Lake,Lithium (spodumene),0,0,9,0,0,0,1,0,0,1,4,1,0,6,0,0,0,0,32,128
+MB-MAIN-27a90834,advanced project,Makwa Mayville,"Nickel, copper, gold, platinum, palladium, cobalt",0,0,9,0,0,0,1,0,0,1,4,1,0,8,0,0,0,0,32,128
+SK-MAIN-fbe28fef,advanced project,Kindersley Lithium,Lithium (brine),0,0,9,0,0,0,1,0,0,1,4,1,0,20,0,0,0,0,32,128
+BC-MAIN-b031959a,advanced project,Turnagain,"Nickel, cobalt, platinum, palladium",0,0,9,0,0,0,1,0,0,1,4,1,0,1,0,0,0,0,32,128
+QC-MAIN-b86f7d07,mining,Casa Berardi,"Gold, silver",1,0,9,0,2,0,1,2,5,1,4,1,4,29,15,4,3,0,32,128
+YT-MAIN-44857446,mining,Keno Hill Silver District,"Silver, zinc, lead",1,0,9,0,2,0,1,14,5,1,4,1,3,2,10,0,0,0,32,128
+YT-MAIN-c3105f43,advanced project,Rackla Gold,"Gold, tungsten",0,0,9,0,0,0,1,0,0,1,4,1,0,2,0,0,0,0,32,128
+ON-MAIN-fc6f1a44,manufacturing,Ivaco Rolling Mills,Steel,0,0,9,0,30,0,1,0,0,1,4,1,1,95,0,0,0,0,32,128
+MB-MAIN-e2e67f8f,advanced project,1901,"Gold, zinc, copper, silver",0,0,9,0,0,0,1,9,0,1,4,1,0,0,0,0,0,0,32,128
+BC-MAIN-599152a0,mining,Copper Mountain,"Copper, gold, silver",1,0,9,0,54,0,1,4,4,1,4,1,8,34,16,0,8,0,32,128
+MB-MAIN-be5b3dc8,mining,Lalor Lake,"Gold, zinc, copper, silver",0,0,9,0,1,0,1,5,0,1,4,1,3,0,10,0,4,0,32,128
+MB-MAIN-da0b5c3d,mining,New Britannia,"Gold, copper",0,0,9,0,10,0,1,5,0,1,4,1,11,0,0,0,10,0,32,128
+MB-MAIN-c0684566,advanced project,Rail,"Copper, gold, zinc, silver",0,0,9,0,0,0,1,0,0,1,4,1,0,1,0,0,0,0,32,128
+MB-MAIN-0898e255,mining,Stall Lake,"Gold, zinc",0,0,9,0,25,0,1,1,0,1,4,1,7,0,2,0,8,0,32,128
+MB-MAIN-854abe09,advanced project,Talbot,"Gold, zinc, copper, silver",0,0,9,0,0,0,1,0,0,1,4,1,0,3,0,0,0,0,32,128
+MB-MAIN-1a82a1b7,advanced project,Tower,"Gold, zinc, copper, silver",0,0,9,0,0,0,1,0,0,1,4,1,0,2,0,0,0,0,32,128
+MB-MAIN-b5b81ee3,advanced project,Wim,"Gold, zinc, copper, silver",0,0,9,0,0,0,1,0,0,1,4,1,0,0,0,0,0,0,32,128
+QC-MAIN-02884fb5,mining,Westwood-Doyon,"Gold, silver",1,0,9,0,13,0,1,8,20,1,4,1,3,37,5,0,3,4,32,128
+ON-MAIN-a3c56a83,mining,Lac des Iles,"Platinum group metals, gold, nickel, copper, cobalt",1,10,9,0,8,0,1,1,3,1,4,1,4,8,20,0,1,0,32,128
+BC-MAIN-3f490561,mining,Mount Polley,"Gold, copper, silver",1,2,9,0,60,0,1,6,0,1,4,1,5,16,9,0,4,0,32,128
+QC-MAIN-586679b9,advanced project,Crater Lake,"Scandium, rare earth elements",0,0,9,0,0,0,1,0,0,1,4,1,0,0,0,0,0,0,32,128
+NL-MAIN-dd723db4,mining,Carol Lake,Iron,1,0,9,0,81,4,1,4,1,1,4,1,2,6,16,0,0,0,32,128
+ON-MAIN-7001a391,mining,McCreedy West,"Copper, nickel, platinum group metals, gold, silver, cobalt",1,0,9,0,33,0,1,3,0,1,4,1,3,23,0,0,7,0,32,128
+ON-MAIN-9a34108c,advanced project,Victoria,"Nickel, copper, gold, cobalt, platinum, palladium",0,0,9,0,6,0,1,1,0,1,4,1,0,22,0,0,0,0,32,128
+ON-MAIN-6bd6cc80,manufacturing,Kingston Operation,,0,0,9,0,2,0,1,0,0,1,4,1,0,84,0,0,0,0,32,128
+MB-MAIN-a832fb0a,advanced project,East Wekusko - Snow Lake,"Gold, silver, copper, zinc",0,0,9,0,0,0,1,0,0,1,4,1,0,0,0,0,0,0,32,128
+BC-MAIN-12730593,advanced project,Kutcho,"Copper, zinc, silver, gold, lead",0,0,9,0,0,0,1,0,0,1,4,1,0,3,0,0,0,0,32,128
+ON-MAIN-575c5e66,advanced project,Ontario Spoke,Battery materials (black mass),0,0,9,0,0,0,1,0,0,1,4,1,0,80,0,0,0,0,32,128
+ON-MAIN-6b998583,advanced project,Markham lithium reprocessing facility,Lithium metal,0,0,9,0,0,0,1,0,0,1,4,1,0,74,0,0,0,0,32,128
+QC-MAIN-0414a373,advanced project,Lithion St-Bruno,Battery materials (black mass),0,0,9,0,0,0,1,0,0,1,4,1,0,196,0,0,0,0,32,128
+AB-MAIN-35d0dc71,advanced project,Boardwalk,Lithium (brine),0,0,9,0,0,0,1,0,0,1,4,1,0,7,0,0,0,0,32,128
+QC-MAIN-a2c6775d,advanced project,La Loutre,Graphite,0,0,9,0,0,0,1,0,0,1,4,1,0,117,0,0,0,0,32,128
+ON-MAIN-b1d981ca,advanced project,Crean Hill,"Nickel, copper, cobalt, platinum, palladium, gold",0,0,9,0,0,0,1,2,0,1,4,1,0,23,0,0,0,0,32,128
+ON-MAIN-54b7e152,advanced project,Shakespeare,"Nickel, copper, palladium, platinum, gold, cobalt",0,0,9,0,0,0,1,8,0,1,4,1,0,30,0,0,0,0,32,128
+QC-MAIN-aa793d35,advanced project,Dumont Nickel,"Nickel, cobalt, platinum, palladium, iron ore",0,0,9,0,0,0,1,0,0,1,4,1,0,36,0,0,0,0,32,128
+QC-MAIN-649d2873,manufacturing,Niobec Converter,Ferroniobium,0,0,9,0,0,0,1,0,0,1,4,1,0,61,0,0,0,0,32,128
+QC-MAIN-a555d9b9,mining,Niobec,Niobium,1,0,9,0,40,0,1,2,0,1,4,1,1,61,0,0,0,0,32,128
+NB-MAIN-c1e4dee0,advanced project,Battery Hill,"Manganese, iron ore",0,0,9,0,0,0,1,0,0,1,4,1,0,112,0,0,0,0,32,128
+NL-MAIN-f021107e,mining,Point Rousse,Gold,1,0,9,0,0,0,1,2,0,1,4,1,0,1,0,0,0,0,32,128
+QC-MAIN-615ebdb4,advanced project,Lac Guéret (Uatnan),Graphite,0,0,9,0,0,0,1,0,0,1,4,1,0,52,0,0,0,0,32,128
+ON-MAIN-470b504b,manufacturing,Ottawa Plant,"Vanadium, molybdenum",0,0,9,0,0,0,1,0,0,1,4,1,0,123,0,0,0,0,32,128
+ON-MAIN-4e0734b5,mining,Fox Complex,Gold,1,0,9,0,56,0,1,14,0,1,4,1,5,17,0,0,2,0,32,128
+QC-MAIN-237d67c1,advanced project,Lac Rainy Graphite,Graphite,0,0,9,0,0,0,1,0,0,1,4,1,0,7,0,0,0,0,32,128
+BC-MAIN-c7247100,advanced project,Driftwood Creek,Magnesium,0,0,9,0,0,0,1,0,0,1,4,1,0,17,0,0,0,0,32,128
+YT-MAIN-752fbcae,mining,Minto,"Copper, gold, silver",1,0,9,0,1,0,1,1,0,1,4,1,2,3,0,0,0,0,32,128
+NU-MAIN-8e62bfbc,advanced project,High Lake,"Copper, zinc, gold, silver, lead",0,0,9,0,0,0,1,0,0,1,4,1,0,2,0,0,0,0,32,128
+NU-MAIN-1ef8af2c,advanced project,Izok Lake,"Zinc, copper, silver, lead, gold",0,0,9,0,0,0,1,0,0,1,4,1,0,1,0,0,0,0,32,128
+QC-MAIN-eb73fd68,advanced project,Nemaska lithium conversion facility,Lithium hydroxide,0,0,9,0,0,0,1,0,0,1,4,1,0,85,0,0,0,0,32,128
+QC-MAIN-9d41d417,advanced project,Whabouchi,Lithium (spodumene),0,0,9,0,0,0,1,4,0,1,4,1,0,2,0,0,0,0,32,128
+ON-MAIN-2bb07cd3,advanced project,River Valley,"Palladium, platinum, gold, nickel, copper, rhodium, cobalt",0,0,9,0,0,0,1,0,0,1,4,1,0,23,0,0,0,0,32,128
+BC-MAIN-aa76f6f2,mining,New Afton,"Gold, copper, silver",1,2,9,0,37,0,1,13,14,1,4,1,6,48,12,0,4,8,32,128
+ON-MAIN-0aadf28f,mining,Rainy River,"Gold, silver",1,0,9,0,26,0,1,3,12,1,4,1,3,32,10,0,2,8,32,128
+ON-MAIN-1c674cd0,mining,Borden,Gold,1,0,9,0,59,0,1,0,0,1,4,1,0,16,0,0,0,0,32,128
+BC-MAIN-857b7b89,mining,Brucejack,"Gold, silver",1,0,9,0,19,0,1,0,7,1,4,1,4,6,6,0,4,0,32,128
+BC-MAIN-c720b195,advanced project,GJ,"Copper, gold, silver",0,0,9,0,0,0,1,0,0,1,4,1,0,9,0,0,0,0,32,128
+ON-MAIN-8629a493,mining,Hollinger,Gold,1,0,9,0,1,0,1,3,0,1,4,1,0,9,0,0,0,0,32,128
+ON-MAIN-538513cd,mining,Hoyle Pond,Gold,1,0,9,0,15,2,1,3,14,1,4,1,3,10,5,0,2,6,32,128
+ON-MAIN-fefeaee4,mining,Musselwhite,"Gold, silver",1,0,9,0,57,0,1,8,8,1,4,1,3,2,3,1,2,0,32,128
+ON-MAIN-3b3e5365,mining,Porcupine,Gold,1,0,9,0,81,0,1,1,0,1,4,1,0,10,0,15,0,0,32,128
+BC-MAIN-8eb8be0d,mining,Red Chris,"Gold, copper, silver",1,2,9,0,42,2,1,3,15,1,4,1,5,10,5,0,2,6,32,128
+QC-MAIN-6dc537e6,mining,Éléonore,Gold,1,0,9,0,61,0,1,12,0,1,4,1,0,1,0,0,0,0,32,128
+BC-MAIN-b4655afb,advanced project,Galore Creek,"Copper, gold, silver",0,2,9,0,0,0,1,0,0,1,4,1,0,2,6,0,0,0,32,128
+SK-MAIN-3012889c,advanced project,Rook I,Uranium,0,0,9,0,0,0,1,0,0,1,4,1,0,1,0,0,0,0,32,128
+YT-MAIN-1910d1c3,advanced project,Nickel Shaw,"Nickel, copper, platinum, palladium, gold, cobalt",0,0,9,0,0,0,1,0,0,1,4,1,0,2,0,0,0,0,32,128
+QC-MAIN-288718a6,advanced project,Crevier,"Niobium, tantalum",0,0,9,0,0,0,1,0,0,1,4,1,0,44,0,0,0,0,32,128
+NB-MAIN-f58cc895,advanced project,Sisson,"Tungsten, molybdenum",0,0,9,0,0,0,1,0,0,1,4,1,0,108,0,0,0,0,32,128
+ON-MAIN-8b86d975,advanced project,Bissett Creek,Graphite,0,0,9,0,0,0,1,0,0,1,4,1,0,51,0,0,0,0,32,128
+BC-MAIN-6fbdcf4c,advanced project,North Island,"Copper, gold, molybdenum, rhenium",0,0,9,0,0,0,1,0,0,1,4,1,0,73,0,0,0,0,32,128
+BC-MAIN-265a57f6,advanced project,Kwanika,"Copper, gold, silver",0,0,9,0,0,0,1,0,0,1,4,1,0,19,0,0,0,0,32,128
+NT-MAIN-b3681e03,advanced project,Prairie Creek,"Zinc, lead, silver",0,0,9,0,0,0,1,1,0,1,4,1,0,2,0,0,0,0,32,128
+QC-MAIN-d6748d40,advanced project,Matawinie,Graphite,0,0,9,1,0,0,1,0,0,1,4,1,0,114,0,0,0,0,32,128
+QC-MAIN-69bb36c1,advanced project,Caber Complex,"Zinc, copper, silver, gold",0,0,9,0,0,0,1,1,0,1,4,1,0,11,0,0,0,0,32,128
+SK-MAIN-60ba74c4,mining,McClean Lake,Uranium,1,0,9,0,76,0,1,11,0,1,4,1,2,2,0,0,0,0,32,128
+NT-MAIN-b99d4cb2,advanced project,Pine Point,"Zinc, lead",0,0,9,0,0,0,1,11,0,1,4,1,0,2,0,1,0,0,32,128
+NL-MAIN-a498ddc6,advanced project,Michelin,Uranium,0,0,9,0,0,0,1,0,0,1,4,1,0,0,0,0,0,0,32,128
+ON-MAIN-bfbcd72e,mining,Bell Creek,Gold,1,0,9,0,90,0,1,0,0,1,4,1,0,12,0,1,0,0,32,128
+ON-MAIN-f3e6ff08,mining,Timmins West,Gold,1,0,9,0,14,0,1,7,0,1,4,1,0,8,0,0,0,0,32,128
+QC-MAIN-3aa117d8,manufacturing,Alma,Aluminum (pure or alloyed),0,0,9,0,51,0,1,0,0,1,4,1,2,49,0,0,0,0,32,128
+QC-MAIN-c1c7eb99,manufacturing,Arvida,"Aluminum (pure or alloyed), alumina, aluminum chemicals, composites",0,0,9,0,111,0,1,0,0,1,4,1,2,64,0,0,0,0,32,128
+QC-MAIN-01c1e81f,manufacturing,Grande-Baie,Aluminum (pure or alloyed),0,0,9,0,58,0,1,0,0,1,4,1,2,81,0,0,0,0,32,128
+BC-MAIN-eb47f7c7,manufacturing,Kitimat,Aluminum (pure or alloyed),0,0,9,0,0,0,1,0,0,1,4,1,1,64,0,0,0,0,32,128
+QC-MAIN-c0e3a48b,manufacturing,Laterrière,Aluminum (pure or alloyed),0,0,9,0,31,0,1,0,0,1,4,1,2,64,0,0,0,0,32,128
+QC-MAIN-92628f16,manufacturing,Vaudreuil,Alumina,0,0,9,0,16,0,1,3,0,1,4,1,2,64,0,2,0,0,32,128
+QC-MAIN-8d6616b4,manufacturing,Alouette,Aluminum (pure),0,0,9,0,80,0,1,0,0,1,4,1,2,65,0,0,0,0,32,128
+NT-MAIN-0ec39ce0,mining,Diavik,Diamonds,1,0,9,0,1,0,1,2,0,1,4,1,0,0,0,1,0,0,32,128
+QC-MAIN-e82266c5,mining,Lac Tio,Ilmenite,1,0,9,0,0,0,1,1,0,1,4,1,2,25,5,0,0,0,32,128
+QC-MAIN-11c40b1f,advanced project,Lithium Demonstration Plant,Lithium,0,0,9,0,0,0,1,1,0,1,4,1,0,139,0,0,0,0,32,128
+QC-MAIN-3e146840,manufacturing,Rio Tinto Iron and Titanium,"Steel, titanium dioxide, scandium",0,0,9,0,66,0,1,0,0,1,4,1,1,140,0,0,0,0,32,128
+QC-MAIN-7b3b4c8b,advanced project,Scandium Demonstration Plant,Scandium,0,0,9,0,0,0,1,0,0,1,4,1,0,139,0,0,0,0,32,128
+ON-MAIN-eda110b0,advanced project,Georgia Lake,Lithium (spodumene),0,0,9,0,0,0,1,0,0,1,4,1,0,13,0,0,0,0,32,128
+YT-MAIN-73ce66b5,advanced project,Klaza,"Gold, silver, lead, zinc",0,0,9,0,0,0,1,0,0,1,4,1,0,3,0,0,0,0,32,128
+BC-MAIN-116ae608,advanced project,Revel Ridge,"Gold, lead, silver, zinc",0,0,9,0,0,0,1,0,0,1,4,1,0,10,0,0,0,0,32,128
+ON-MAIN-dca9cce7,manufacturing,Ottawa,"Gold, silver",0,0,9,0,0,0,1,0,0,1,4,1,0,137,0,0,0,0,32,128
+SK-MAIN-d5c9124e,advanced project,Rare Earth Processing Facility,Rare earth elements,0,0,9,0,0,0,1,0,0,1,4,1,0,50,0,0,0,0,32,128
+QC-MAIN-c4fb59c2,advanced project,Moblan,Lithium (spodumene),0,0,9,0,0,0,1,0,0,1,4,1,0,24,0,0,0,0,32,128
+QC-MAIN-1186a6d0,advanced project,Authier,Lithium (spodumene),0,0,9,0,0,0,1,0,0,1,4,1,0,27,0,0,0,0,32,128
+QC-MAIN-dc1a16f9,mining,North American Lithium,Lithium,1,0,9,0,28,0,1,3,0,1,4,1,2,23,1,0,0,0,32,128
+BC-MAIN-b7591127,advanced project,Iskut,"Gold, copper, silver, iron ore",0,0,9,0,0,0,1,0,0,1,4,1,0,6,0,0,0,0,32,128
+BC-MAIN-4959ea63,advanced project,KSM,"Gold, copper, silver, molybdenum",0,0,9,0,0,0,1,0,0,1,4,1,0,6,0,0,0,0,32,128
+YT-MAIN-03a159d7,advanced project,Selwyn,"Zinc, lead",0,0,9,0,0,0,1,0,0,1,4,1,0,2,0,0,0,0,32,128
+AB-MAIN-d3a4aba9,manufacturing,The Cobalt Refinery Company Inc.,"Nickel, cobalt, copper sulfide, ammonium sulfate",0,0,9,0,30,0,1,0,0,1,4,1,4,35,0,0,2,0,32,128
+ON-MAIN-f4fc3276,mining,Sugar Zone,Gold,1,0,9,0,0,0,1,0,0,1,4,1,1,9,4,0,1,0,32,128
+MB-MAIN-915d9faa,mining,Tanco,"Cesium, lithium",1,0,9,0,0,0,1,3,0,1,4,1,0,12,0,0,0,0,32,128
+BC-MAIN-b1fe389a,advanced project,Eskay Creek,"Gold, Silver, copper, lead, zinc",0,0,9,0,0,0,1,1,0,1,4,1,0,7,0,2,0,0,32,128
+QC-MAIN-1d2f31f9,advanced project,Kwyjibo,"Rare earth elements, phosphate, iron ore",0,0,9,0,0,0,1,0,0,1,4,1,0,4,0,0,0,0,32,128
+NL-MAIN-bb23d8a6,advanced project,Great Burnt Lake,"Copper, gold",0,0,9,0,0,0,1,0,0,1,4,1,0,0,0,0,0,0,32,128
+SK-MAIN-22ce14be,mining,Santoy,Gold,0,0,9,0,0,0,1,0,0,1,4,1,0,2,0,0,0,0,32,128
+SK-MAIN-29afbdb5,mining,Seabee,Gold,0,0,9,0,53,0,1,5,0,1,4,1,0,3,0,4,0,0,32,128
+NS-MAIN-c9c77a59,mining,Moose River Consolidated,Gold,1,0,9,0,0,0,1,2,0,1,4,1,0,122,2,0,0,0,32,128
+ON-MAIN-020a683c,manufacturing,Hamilton Works,Steel,0,0,9,0,115,0,1,0,0,1,4,1,0,62,0,0,0,0,32,128
+ON-MAIN-b2e5c9bb,manufacturing,Lake Erie Works,Steel,0,0,9,0,1,0,1,0,0,1,4,1,0,86,0,0,0,0,32,128
+QC-MAIN-3032c251,mining,Renard,Diamonds,1,0,9,0,1,0,1,7,0,1,4,1,0,2,0,0,0,0,32,128
+QC-MAIN-b5937543,advanced project,Blackrock,"Iron ore, vanadium, titanium",0,0,9,0,0,0,1,2,0,1,4,1,0,27,0,0,0,0,32,128
+QC-MAIN-64595b02,advanced project,Blackrock Pyrometallurgical Facility,"Iron ore, vanadium, titanium",0,0,9,0,0,0,1,0,0,1,4,1,0,74,0,0,0,0,32,128
+BC-MAIN-a505d25d,advanced project,Ootsa,"Copper, gold, molybdenum, silver",0,0,9,0,0,0,1,2,0,1,4,1,0,8,0,0,0,0,32,128
+BC-MAIN-c5d1b42d,advanced project,Berg,"Copper, Molybdenum, Gold, Silver",0,0,9,0,0,0,1,0,0,1,4,1,0,10,0,0,0,0,32,128
+QC-MAIN-6a26086e,manufacturing,Sorel Forge,Steel,0,0,9,0,0,0,1,0,0,1,4,1,0,138,0,0,0,0,32,128
+NL-MAIN-b64bae7a,mining,Scully,Iron,1,0,9,0,47,0,1,2,5,1,4,1,4,6,1,0,0,0,32,128
+NL-MAIN-18695c6d,advanced project,Scully Mine - Manganese project,Manganese,0,0,9,0,1,0,1,5,0,1,4,1,2,6,0,0,0,0,32,128
+ON-MAIN-1aa10efa,advanced project,Kenbridge,"Nickel, copper, cobalt",0,0,9,0,0,0,1,0,0,1,4,1,0,25,0,0,0,0,32,128
+BC-MAIN-23f67ea8,advanced project,Aley,Niobium,0,0,9,0,0,0,1,0,0,1,4,1,0,5,0,0,0,0,32,128
+BC-MAIN-6b4800fe,mining,Gibraltar,"Copper, molybdenum, silver",1,2,9,0,74,1,1,4,5,1,4,1,6,38,9,0,3,2,32,128
+BC-MAIN-18bed6d7,advanced project,Yellowhead,"Copper, gold, silver",0,0,9,0,0,0,1,0,0,1,4,1,0,27,0,0,0,0,32,128
+NL-MAIN-e09881ff,mining,DSO (3 and 4),Iron,1,0,9,0,10,0,1,6,0,1,4,1,0,3,0,0,0,0,32,128
+QC-MAIN-b8c826a2,mining,DSO (Goodwood),Iron,1,0,9,0,0,0,1,0,0,1,4,1,0,4,0,0,0,0,32,128
+BC-MAIN-bf503b6b,mining,Highland Valley,"Copper, silver, molybdenum",1,0,9,0,47,0,1,1,0,1,4,1,4,157,0,4,0,0,32,128
+BC-MAIN-193ddddb,advanced project,Schaft Creek,"Copper, molybdenum, gold, silver",0,0,9,0,0,0,1,0,0,1,4,1,0,5,0,0,0,0,32,128
+BC-MAIN-3bb6b7cd,manufacturing,Trail,"Zinc, lead, bismuth, cadmium, indium, germanium, precious metals, liquid sulfur dioxide, sulfuric acid",0,0,9,0,86,0,1,0,0,1,4,1,1,25,0,0,0,0,32,128
+QC-MAIN-2587e541,advanced project,Strange Lake,"Rare earth elements, niobium",0,0,9,0,0,0,1,0,0,1,4,1,0,2,0,0,0,0,32,128
+BC-MAIN-23155c25,mining,Myra Falls,"Zinc, copper, silver, gold, lead",1,0,9,0,87,0,1,2,0,1,4,1,2,84,0,0,0,0,32,128
+YT-MAIN-68c87980,advanced project,Freegold Mountain,"Gold, silver, copper, molybdenum, tungsten",0,0,9,0,0,0,1,0,0,1,4,1,0,4,0,0,0,0,32,128
+QC-MAIN-b2148882,advanced project,Troilus,"Gold, copper, silver",0,0,9,0,1,0,1,6,0,1,4,1,2,11,0,0,0,0,32,128
+ON-MAIN-4a6187a4,advanced project,RapidSX Demonstration Plant,Rare earth elements,0,0,9,0,0,0,1,0,0,1,4,1,0,80,0,0,0,0,32,128
+SK-MAIN-9dd2b7f8,advanced project,Horseshoe-Raven,Uranium,0,0,9,0,0,0,1,14,0,1,4,1,0,3,0,0,0,0,32,128
+ON-MAIN-387b06fe,manufacturing,Welland Mill,Steel,0,0,9,0,28,0,1,0,0,1,4,1,0,42,0,0,0,0,32,128
+ON-MAIN-de2f9639,mining,Clarabelle,"Nickel, copper, platinum group metals, gold, silver, cobalt, selenium, tellurium",2,0,9,0,106,0,1,5,0,1,4,1,0,23,0,0,0,0,32,128
+ON-MAIN-6e9b2449,mining,Coleman,"Nickel, copper, platinum group metals, gold, silver, cobalt, selenium, tellurium",0,0,9,0,19,0,1,3,0,1,4,1,2,22,0,0,0,0,32,128
+ON-MAIN-f080c409,mining,Copper Cliff Complex,"Nickel, copper, platinum group metals, gold, silver, cobalt, selenium, tellurium",1,0,9,0,40,0,1,2,0,1,4,1,2,23,0,8,0,0,32,128
+ON-MAIN-63b394c3,manufacturing,Copper Cliff Complex,"Nickel (oxide sinter, pellets, powder, sulfide), copper cathodes, gold, silver, selenium cake, tellurium dioxide cake, platinum group metals (in residues), liquid sulfur dioxide, sulfuric acid",1,0,9,0,60,0,1,5,0,1,4,1,0,23,0,8,0,0,32,128
+ON-MAIN-52224e1e,mining,Creighton,"Nickel, copper, platinum group metals, gold, silver, cobalt, selenium, tellurium",1,0,9,0,25,0,1,2,0,1,4,1,2,23,0,0,0,0,32,128
+ON-MAIN-48fe2205,mining,Garson,"Nickel, copper, platinum group metals, gold, silver, cobalt, selenium, tellurium",1,0,9,0,52,0,1,9,0,1,4,1,2,19,0,0,0,0,32,128
+ON-MAIN-2e13aaa0,manufacturing,Port Colborne,"Electrolytic cobalt, platinum group metals (in residues), copper oxide",1,0,9,1,35,0,1,0,0,1,4,1,2,37,0,0,0,0,32,128
+MB-MAIN-e0a6250e,mining,Thompson (T-1 and T-3),"Nickel, cobalt, copper, platinum group metals, gold, silver",0,0,9,0,2,0,1,12,0,1,4,1,2,3,0,2,0,0,32,128
+ON-MAIN-28f3f0fc,mining,Totten,"Nickel, copper, platinum group metals, gold, silver, cobalt",0,0,9,0,49,0,1,4,0,1,4,1,2,22,0,0,0,0,32,128
+NL-MAIN-d9036091,manufacturing,Long Harbour,"Nickel, copper, cobalt",1,0,9,0,29,0,1,4,0,1,4,1,2,12,0,1,0,0,32,128
+NL-MAIN-2d8801d6,mining,Voisey’s Bay,"Nickel, copper, cobalt",0,0,9,1,93,0,1,10,0,1,4,1,2,0,0,1,0,0,32,128
+QC-MAIN-860bbbfc,advanced project,Lac Doré Vanadium,"Iron ore, vanadium, titanium",0,0,9,0,0,0,1,0,0,1,4,1,0,29,0,0,0,0,32,128
+YT-MAIN-e05ed9fe,mining,Eagle (Dublin Gulch),Gold,1,0,9,0,1,0,1,0,0,1,4,1,0,2,0,0,0,0,32,128
+QC-MAIN-d59f82aa,advanced project,Sirmac,"Lithium, tantalum",0,0,9,0,0,0,1,0,0,1,4,1,0,35,0,0,0,0,32,128
+NT-MAIN-b1b28b01,advanced project,Nechalacho - T-Zone & Tardiff Zone,Rare earth elements,0,0,9,0,0,0,1,0,0,1,4,1,0,0,0,0,0,0,32,128
+AB-MAIN-63f096a6,advanced project,Rainbow Lake,Lithium (brine),0,0,9,0,0,0,1,0,0,1,4,1,0,5,0,0,0,0,32,128
+QC-MAIN-be473617,advanced project,Mont Sorcier,"Iron ore, vanadium",0,0,9,0,0,0,1,0,0,1,4,1,0,34,0,0,0,0,32,128
+ON-MAIN-3c468faa,advanced project,Superior Lake,"Zinc, copper, gold, silver",0,0,9,0,0,0,1,2,0,1,4,1,0,20,0,0,0,0,32,128
+ON-MAIN-cb85213a,mining,Eagle River,Gold,1,0,9,0,59,0,1,4,0,1,4,1,0,12,0,0,0,0,32,128
+QC-MAIN-9de9bb0d,mining,Kiena,Gold,1,0,9,0,14,8,1,6,6,1,4,1,2,42,5,0,2,5,32,128
+ON-MAIN-c5fefb01,mining,Mishi,Gold,1,0,9,0,14,8,1,4,6,1,4,1,2,11,5,0,2,5,32,128
+BC-MAIN-feb13c30,advanced project,Record Ridge,Magnesium,0,0,9,0,0,0,1,0,0,1,4,1,0,24,0,0,0,0,32,128
+YT-MAIN-5e0d8b48,advanced project,Casino,"Copper, gold, molybdenum, silver",0,0,9,0,0,0,1,0,0,1,4,1,0,2,0,0,0,0,32,128
+ON-MAIN-12c68d49,advanced project,Eagle's Nest,"Nickel, copper, gold, platinum, palladium",0,0,9,0,0,0,1,0,0,1,4,1,0,1,0,0,0,0,32,128
+BC-MAIN-891d3cb5,advanced project,Akie,"Zinc, lead, silver",0,0,9,0,0,0,1,0,0,1,4,1,0,9,0,0,0,0,32,128
