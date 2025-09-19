@@ -1,271 +1,271 @@
-﻿main_id,facility_name,longitude,latitude,geometry,peatland_presence,source_id
-QC-MAIN-5801b453,Abcourt-Barvue,-77.67901,48.52154,POINT (-77.67901 48.52154),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-d29e0839,Sleeping Giant,-77.97434,49.13259,POINT (-77.97434 49.13259),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-f1ff4920,Akasaba West,-77.58,48.04,POINT (-77.58 48.04),peat dominated,https://greifswaldmoor.de/global-peatland-database-en.html
-NU-MAIN-4ea8ac9d,Amaruq,-96.697,65.415,POINT (-96.697 65.415),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-e7e6a960,Canadian Malartic,-78.130824,48.122223,POINT (-78.130824 48.122223),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-aeafbb59,Detour Lake,-79.717631,50.018143,POINT (-79.717631 50.018143),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-c0660aec,Goldex,-77.8733,48.0926,POINT (-77.8733 48.0926),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-e51eda66,LaRonde,-78.428,48.2516,POINT (-78.428 48.2516),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-1f126a43,Macassa,-80.071637,48.142528,POINT (-80.071637 48.142528),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NU-MAIN-730aefe3,Meadowbank,-96.071313,65.0199956,POINT (-96.071313 65.0199956),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NU-MAIN-8b0264c9,Meliadine,-92.220206,63.031529,POINT (-92.220206 63.031529),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-MB-MAIN-5d21dbd5,Monument Bay,-92.914016,54.446415,POINT (-92.914016 54.446415),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-74997012,Upper Beaver,-79.76,48.16,POINT (-79.76 48.16),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-687b8c8d,Island,-84.449604,48.285667,POINT (-84.449604 48.285667),peat dominated,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-7607a50e,Young-Davidson,-80.67444,47.94667,POINT (-80.67444 47.94667),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-52c01ae4,Baie-Comeau,-68.1491,49.2562,POINT (-68.1491 49.2562),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-eac5a52b,Deschambault,-71.9467,46.6939,POINT (-71.9467 46.6939),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-81a288d0,Elysis,-71.17565,48.43214,POINT (-71.17565 48.43214),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-c8966bdc,Bécancour,-72.3852,46.381,POINT (-72.3852 46.381),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-eab8c362,Algoma Steel,-84.36664,46.52055,POINT (-84.36664 46.52055),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-8c7063b2,James Bay Lithium,-77.06667,52.23333,POINT (-77.06667 52.23333),peat dominated,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-3ef4f421,Avanti Kitsault,-129.419,55.422,POINT (-129.419 55.422),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-AB-MAIN-9fed34a8,AltaSteel,-113.387962,53.492783,POINT (-113.387962 53.492783),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-33c09b8b,Fire Lake,-67.363935,52.352998,POINT (-67.363935 52.352998),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-084bd95c,Mont-Wright,-67.330058,52.757053,POINT (-67.330058 52.757053),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-1eee4ace,Contrecœur East,-73.249081,45.837723,POINT (-73.249081 45.837723),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-844dcc47,Contrecœur West,-73.263268,45.819938,POINT (-73.263268 45.819938),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-e25eed27,Port-Cartier,-66.797531,50.03213,POINT (-66.797531 50.03213),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-4c35e094,ArcelorMittal Dofasco,-79.805204,43.269132,POINT (-79.805204 43.269132),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-8825d90d,Magino,-84.45744,48.28869,POINT (-84.45744 48.28869),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-SK-MAIN-de2e2f8e,Prairie Lithium,-103.63518,49.21363,POINT (-103.63518 49.21363),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-e928d96a,Brampton,-79.722125,43.691066,POINT (-79.722125 43.691066),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NT-MAIN-4f11f183,Nechalacho - Basal Zone,-112.59972,62.11806,POINT (-112.59972 62.11806),peat dominated,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-46f71d5b,Separation Rapids,-94.58258,50.266,POINT (-94.58258 50.266),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NU-MAIN-5154702a,Mary River,-78.556869,71.340446,POINT (-78.556869 71.340446),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-6e9be24e,Hemlo (Williams),-85.91598,48.695726,POINT (-85.91598 48.695726),peat dominated,https://greifswaldmoor.de/global-peatland-database-en.html
-AB-MAIN-8434dce0,Baymag,-115.210061,51.060022,POINT (-115.210061 51.060022),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-YT-MAIN-2cc9bb06,Kudz Ze Kayah,-130.59894,61.47108,POINT (-130.59894 61.47108),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NL-MAIN-895cb178,Buchans River,-56.855965,48.829018,POINT (-56.855965 48.829018),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-NT-MAIN-6c1d6ee6,Ekati,-110.618,64.715,POINT (-110.618 64.715),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NB-MAIN-0c5b40d8,Nash Creek,-66.09771,47.88939,POINT (-66.09771 47.88939),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-484e4fa3,Blind River,-83.017246,46.180896,POINT (-83.017246 46.180896),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-SK-MAIN-91cf5448,Cigar Lake,-104.54123,58.06819,POINT (-104.54123 58.06819),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-SK-MAIN-bb89158f,Key Lake,-105.647,57.207,POINT (-105.647 57.207),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-SK-MAIN-d3c471e8,McArthur River,-105.053,57.7637,POINT (-105.053 57.7637),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-237587f6,Port Hope,-78.2943,43.9429,POINT (-78.2943 43.9429),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-4c5c1179,Crawford,-81.37309,48.83972,POINT (-81.37309 48.83972),peat dominated,https://greifswaldmoor.de/global-peatland-database-en.html
-NB-MAIN-8e04eb21,Murray Brook,-66.43167,47.52528,POINT (-66.43167 47.52528),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-37e9571e,Thierry,-90.34694,51.49667,POINT (-90.34694 51.49667),peat dominated,https://greifswaldmoor.de/global-peatland-database-en.html
-NB-MAIN-3e7d42ac,Woodstock,-67.64,46.18,POINT (-67.64 46.18),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NU-MAIN-eae1621e,Ferguson Lake,-96.83306,62.87306,POINT (-96.83306 62.87306),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-5ce331b8,Nunavik Nickel,-74.1375,61.420856,POINT (-74.1375 61.420856),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-eba3e309,Golden Crown,-118.59,49.09,POINT (-118.59 49.09),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-e34feb4d,Kemess,-126.77117,57.05037,POINT (-126.77117 57.05037),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-ed23117f,Mount Milligan,-124.031,55.118,POINT (-124.031 55.118),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-089f3c60,Bloom Lake,-67.28,52.84,POINT (-67.28 52.84),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NL-MAIN-251d6364,Beaver Brook,-55.196,48.715909,POINT (-55.196 48.715909),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-be399420,Thunder Bay North,-88.931,48.79,POINT (-88.931 48.79),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-3330383b,Eldor (Ashram),-68.40417,56.94583,POINT (-68.40417 56.94583),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-MB-MAIN-6fca9d6d,Lynn Lake,-101.03486,56.85217,POINT (-101.03486 56.85217),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-d4e2812a,Rose,-76.172,52.022485,POINT (-76.172 52.022485),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-AB-MAIN-9a0307f6,SBH Black Shale,-111.90375,57.68711,POINT (-111.90375 57.68711),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-715d4318,Horizon,-73.450825,45.57462,POINT (-73.450825 45.57462),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NT-MAIN-94e652a5,Gahcho Kué,-109.21194,63.44528,POINT (-109.21194 63.44528),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-382acb18,Wicheeda,-122.09912,54.53141,POINT (-122.09912 54.53141),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-SK-MAIN-4aef3cb2,Waterbury,-104.03032,58.3478,POINT (-104.03032 58.3478),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-SK-MAIN-95ec2625,Wheeler River,-105.38137,57.50888,POINT (-105.38137 57.50888),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-51068f3b,Kitsault Valley,-129.57778,55.75361,POINT (-129.57778 55.75361),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-AB-MAIN-7d4a0421,Bashaw District,-113.93655,51.77696,POINT (-113.93655 51.77696),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-f9e41c2a,Lamaque,-77.739624,48.079221,POINT (-77.739624 48.079221),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-6664e89b,Battery Materials Park,-79.62229,47.40635,POINT (-79.62229 47.40635),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-5398dfac,Elkem Chicoutimi,-71.131239,48.412769,POINT (-71.131239 48.412769),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-2cf66e65,Becancour Plant,-72.433334,46.333332,POINT (-72.433334 46.333332),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-7f050560,Red Lake,-93.732922,51.050557,POINT (-93.732922 51.050557),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-SK-MAIN-26b9aaf3,EVRAZ Regina,-104.623843,50.515263,POINT (-104.623843 50.515263),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-c1cc9f7c,Becancour Silicon,-72.39,46.37,POINT (-72.39 46.37),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NL-MAIN-c139de6d,Ming,-56.087,49.915,POINT (-56.087 49.915),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-NL-MAIN-842ba1b4,Nugget Pond,-55.7753,49.845,POINT (-55.7753 49.845),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-YT-MAIN-ca488f19,Macmillan Pass,-130.15143,63.16057,POINT (-130.15143 63.16057),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-YT-MAIN-70d629b4,Mactung,-130.1525,63.2822222222,POINT (-130.1525 63.2822222222),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-efff21d3,Deer Horn,-127.30826,53.3607,POINT (-127.30826 53.3607),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-SK-MAIN-0684a5d8,Patterson Lake South,-109.364,57.639,POINT (-109.364 57.639),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-MB-MAIN-f7fde5b4,Minago,-99.21912,54.1092,POINT (-99.21912 54.1092),peat dominated,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-ae473a4e,Lac Knife,-67.18179,52.54974,POINT (-67.18179 52.54974),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-SK-MAIN-7a11ae49,McIlvenna Bay,-102.89498,54.65977,POINT (-102.89498 54.65977),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-AB-MAIN-ca9625ce,Fortune Minerals Refinery,-112.513502,53.797615,POINT (-112.513502 53.797615),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NT-MAIN-b7cdf82c,NICO,-116.74583,63.55,POINT (-116.74583 63.55),peat dominated,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-d47616e5,Martison,-83.414444,50.314444,POINT (-83.414444 50.314444),peat dominated,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-e1641dfb,Decar,-125.359691,54.894513,POINT (-125.359691 54.894513),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-c06904f0,Pakeagama,-93.37727,52.60026,POINT (-93.37727 52.60026),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-64bbe7e6,Marathon,-86.3263,48.78758,POINT (-86.3263 48.78758),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-22426144,REE Recycling Facility (Saint-Bruno),-73.340812,45.525976,POINT (-73.340812 45.525976),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-MB-MAIN-0d5c2cae,Selkirk Division,-96.911166,50.133771,POINT (-96.911166 50.133771),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-92cdea80,Whitby Division,-78.910676,43.851906,POINT (-78.910676 43.851906),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-bddeaef0,Cambridge Mill,-80.28,43.37,POINT (-80.28 43.37),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-MB-MAIN-b4ca1426,Manitoba Mill,-96.893633,50.130273,POINT (-96.893633 50.130273),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-21b6ab35,Whitby Mill,-78.91,43.86,POINT (-78.91 43.86),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-de3d8b7b,Canadian Electrolytic Zinc Limited (CEZinc),-74.097205,45.228312,POINT (-74.097205 45.228312),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-529c96b4,CCR,-73.511778,45.627518,POINT (-73.511778 45.627518),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-206041d1,Fraser,-81.3404,46.6633,POINT (-81.3404 46.6633),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-abb3e1c7,General Smelting Company of Canada,-73.676345,45.448518,POINT (-73.676345 45.448518),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-30c1828c,Horne,-79.0151,48.2534,POINT (-79.0151 48.2534),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-f8313ebd,Kidd Creek,-81.37,48.6894,POINT (-81.37 48.6894),peat dominated,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-fcb287a4,Nickel Rim South,-80.796793,46.657982,POINT (-80.796793 46.657982),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-319e04a8,Onaping Depth,-81.383878,46.632019,POINT (-81.383878 46.632019),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-a97821c0,Raglan,-73.674669,61.687171,POINT (-73.674669 61.687171),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-ed85ac94,Strathcona,-81.3427,46.6734,POINT (-81.3427 46.6734),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-40ce0593,Sudbury,-80.7993,46.5763,POINT (-80.7993 46.5763),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-4724f4ba,Elk,-120.31487,49.8538,POINT (-120.31487 49.8538),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-YT-MAIN-956d050a,Carmacks,-136.7,62.33,POINT (-136.7 62.33),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-97ee890f,Seymour Lake,-88.4491,50.40987,POINT (-88.4491 50.40987),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-MB-MAIN-27a90834,Makwa Mayville,-95.60953,50.6298,POINT (-95.60953 50.6298),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-SK-MAIN-fbe28fef,Kindersley Lithium,-109.19120556,51.73894139,POINT (-109.19120556 51.73894139),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-b031959a,Turnagain,-128.86282,58.47856,POINT (-128.86282 58.47856),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-b86f7d07,Casa Berardi,-79.231307,49.5719,POINT (-79.231307 49.5719),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-YT-MAIN-44857446,Keno Hill Silver District,-135.4833,63.9167,POINT (-135.4833 63.9167),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-YT-MAIN-c3105f43,Rackla Gold,-134.41278,64.19667,POINT (-134.41278 64.19667),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-fc6f1a44,Ivaco Rolling Mills,-74.704435,45.6119,POINT (-74.704435 45.6119),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-MB-MAIN-e2e67f8f,1901,-100.134,54.8557,POINT (-100.134 54.8557),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-599152a0,Copper Mountain,-120.533,49.331,POINT (-120.533 49.331),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-MB-MAIN-be5b3dc8,Lalor Lake,-100.13333,54.86667,POINT (-100.13333 54.86667),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-MB-MAIN-da0b5c3d,New Britannia,-100.024002,54.886349,POINT (-100.024002 54.886349),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-MB-MAIN-c0684566,Rail,-100.5916,54.7463,POINT (-100.5916 54.7463),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-MB-MAIN-0898e255,Stall Lake,-99.9451,54.85692,POINT (-99.9451 54.85692),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-MB-MAIN-854abe09,Talbot,-99.6343,54.1133,POINT (-99.6343 54.1133),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-MB-MAIN-1a82a1b7,Tower,-99.2284,53.9623,POINT (-99.2284 53.9623),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-MB-MAIN-b5b81ee3,Wim,-100.05248,55.02136,POINT (-100.05248 55.02136),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-02884fb5,Westwood-Doyon,-78.502,48.256,POINT (-78.502 48.256),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-a3c56a83,Lac des Iles,-89.6105,49.1691,POINT (-89.6105 49.1691),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-3f490561,Mount Polley,-121.633931,52.544959,POINT (-121.633931 52.544959),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-586679b9,Crater Lake,-63.8991,55.35025,POINT (-63.8991 55.35025),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NL-MAIN-dd723db4,Carol Lake,-66.936774,53.039755,POINT (-66.936774 53.039755),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-7001a391,McCreedy West,-81.39894,46.638059,POINT (-81.39894 46.638059),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-9a34108c,Victoria,-81.38333,46.41667,POINT (-81.38333 46.41667),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-6bd6cc80,Kingston Operation,-76.5121,44.2615,POINT (-76.5121 44.2615),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-MB-MAIN-a832fb0a,East Wekusko - Snow Lake,-99.77143,54.78534,POINT (-99.77143 54.78534),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-12730593,Kutcho,-128.38736,58.20996,POINT (-128.38736 58.20996),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-575c5e66,Ontario Spoke,-76.5,44.233334,POINT (-76.5 44.233334),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-6b998583,Markham lithium reprocessing facility,-79.3415,43.8331,POINT (-79.3415 43.8331),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-0414a373,Lithion St-Bruno,-73.349998,45.533333,POINT (-73.349998 45.533333),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-AB-MAIN-35d0dc71,Boardwalk,-117.163427,54.946792,POINT (-117.163427 54.946792),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-a2c6775d,La Loutre,-74.99714,46.03656,POINT (-74.99714 46.03656),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-b1d981ca,Crean Hill,-81.36167,46.42472,POINT (-81.36167 46.42472),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-54b7e152,Shakespeare,-81.85944,46.33417,POINT (-81.85944 46.33417),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-aa793d35,Dumont Nickel,-78.4425,48.64667,POINT (-78.4425 48.64667),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-649d2873,Niobec Converter,-71.158168,48.531738,POINT (-71.158168 48.531738),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-a555d9b9,Niobec,-71.156929,48.532148,POINT (-71.156929 48.532148),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NB-MAIN-c1e4dee0,Battery Hill,-67.62547,46.22531,POINT (-67.62547 46.22531),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NL-MAIN-f021107e,Point Rousse,-56.124447,49.96142,POINT (-56.124447 49.96142),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-615ebdb4,Lac Guéret (Uatnan),-69.1,51.14,POINT (-69.1 51.14),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-470b504b,Ottawa Plant,-75.562391,45.298042,POINT (-75.562391 45.298042),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-4e0734b5,Fox Complex,-80.340814,48.534362,POINT (-80.340814 48.534362),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-237d67c1,Lac Rainy Graphite,-67.07597,52.60511,POINT (-67.07597 52.60511),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-c7247100,Driftwood Creek,-116.575,50.904,POINT (-116.575 50.904),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-YT-MAIN-752fbcae,Minto,-137.23858,62.618875,POINT (-137.23858 62.618875),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NU-MAIN-8e62bfbc,High Lake,-110.8436,67.37556,POINT (-110.8436 67.37556),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NU-MAIN-1ef8af2c,Izok Lake,-112.79889,65.63056,POINT (-112.79889 65.63056),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-eb73fd68,Nemaska lithium conversion facility,-72.433334,46.333332,POINT (-72.433334 46.333332),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-9d41d417,Whabouchi,-75.85333,51.67972,POINT (-75.85333 51.67972),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-2bb07cd3,River Valley,-80.27606,46.70591,POINT (-80.27606 46.70591),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-aa76f6f2,New Afton,-120.514,50.661,POINT (-120.514 50.661),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-0aadf28f,Rainy River,-94.012,48.833,POINT (-94.012 48.833),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-1c674cd0,Borden,-83.260981,47.871883,POINT (-83.260981 47.871883),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-857b7b89,Brucejack,-130.21783,56.47554,POINT (-130.21783 56.47554),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-c720b195,GJ,-130.25,57.63,POINT (-130.25 57.63),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-8629a493,Hollinger,-81.31314,48.4733,POINT (-81.31314 48.4733),peat dominated,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-538513cd,Hoyle Pond,-81.1083,48.5519,POINT (-81.1083 48.5519),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-fefeaee4,Musselwhite,-90.3636,52.6127,POINT (-90.3636 52.6127),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-3b3e5365,Porcupine,-81.242719,48.463511,POINT (-81.242719 48.463511),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-8eb8be0d,Red Chris,-129.78333,57.7,POINT (-129.78333 57.7),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-6dc537e6,Éléonore,-76.08667,52.69889,POINT (-76.08667 52.69889),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-b4655afb,Galore Creek,-131.45,57.13,POINT (-131.45 57.13),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-SK-MAIN-3012889c,Rook I,-108.9925,57.59144,POINT (-108.9925 57.59144),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-YT-MAIN-1910d1c3,Nickel Shaw,-139.53333,61.46667,POINT (-139.53333 61.46667),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-288718a6,Crevier,-72.7644,49.46003,POINT (-72.7644 49.46003),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NB-MAIN-f58cc895,Sisson,-67.045,46.365,POINT (-67.045 46.365),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-8b86d975,Bissett Creek,-78.05992,46.11814,POINT (-78.05992 46.11814),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-6fbdcf4c,North Island,-127.85639,50.67556,POINT (-127.85639 50.67556),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-265a57f6,Kwanika,-125.271268,55.415303,POINT (-125.271268 55.415303),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NT-MAIN-b3681e03,Prairie Creek,-124.79938,61.55713,POINT (-124.79938 61.55713),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-d6748d40,Matawinie,-73.9212,46.61728,POINT (-73.9212 46.61728),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-69bb36c1,Caber Complex,-77.936644,49.773163,POINT (-77.936644 49.773163),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-SK-MAIN-60ba74c4,McClean Lake,-103.8361,58.3472,POINT (-103.8361 58.3472),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NT-MAIN-b99d4cb2,Pine Point,-114.38652,60.87216,POINT (-114.38652 60.87216),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NL-MAIN-a498ddc6,Michelin,-59.984,54.584,POINT (-59.984 54.584),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-bfbcd72e,Bell Creek,-81.178,48.553,POINT (-81.178 48.553),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-f3e6ff08,Timmins West,-81.549826,48.383275,POINT (-81.549826 48.383275),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-3aa117d8,Alma,-71.6897,48.5847,POINT (-71.6897 48.5847),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-c1c7eb99,Arvida,-71.165521,48.430174,POINT (-71.165521 48.430174),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-01c1e81f,Grande-Baie,-70.9258,48.3058,POINT (-70.9258 48.3058),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-eb47f7c7,Kitimat,-128.6954,53.9976,POINT (-128.6954 53.9976),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-c0e3a48b,Laterrière,-71.1287,48.3013,POINT (-71.1287 48.3013),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-92628f16,Vaudreuil,-71.157919,48.428476,POINT (-71.157919 48.428476),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-8d6616b4,Alouette,-66.4429,50.1571,POINT (-66.4429 50.1571),peat dominated,https://greifswaldmoor.de/global-peatland-database-en.html
-NT-MAIN-0ec39ce0,Diavik,-110.272,64.495,POINT (-110.272 64.495),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-e82266c5,Lac Tio,-63.416,50.5541,POINT (-63.416 50.5541),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-11c40b1f,Lithium Demonstration Plant,-73.139626,46.043727,POINT (-73.139626 46.043727),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-3e146840,Rio Tinto Iron and Titanium,-73.138424,46.045907,POINT (-73.138424 46.045907),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-7b3b4c8b,Scandium Demonstration Plant,-73.139626,46.043727,POINT (-73.139626 46.043727),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-eda110b0,Georgia Lake,-88.00298,49.45236,POINT (-88.00298 49.45236),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-YT-MAIN-73ce66b5,Klaza,-137.3175,62.14117,POINT (-137.3175 62.14117),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-116ae608,Revel Ridge,-118.121,51.287,POINT (-118.121 51.287),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-dca9cce7,Ottawa,-75.69922,45.431332,POINT (-75.69922 45.431332),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-SK-MAIN-d5c9124e,Rare Earth Processing Facility,-106.62737,52.1400327,POINT (-106.62737 52.1400327),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-c4fb59c2,Moblan,-74.91215,50.73176,POINT (-74.91215 50.73176),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-1186a6d0,Authier,-78.19557,48.36207,POINT (-78.19557 48.36207),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-dc1a16f9,North American Lithium,-77.80934,48.4115,POINT (-77.80934 48.4115),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-b7591127,Iskut,-131.0925,56.66667,POINT (-131.0925 56.66667),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-4959ea63,KSM,-130.33556,56.46666,POINT (-130.33556 56.46666),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-YT-MAIN-03a159d7,Selwyn,-129.20011,62.45542,POINT (-129.20011 62.45542),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-AB-MAIN-d3a4aba9,The Cobalt Refinery Company Inc.,-113.19011,53.719929,POINT (-113.19011 53.719929),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-f4fc3276,Sugar Zone,-85.00401,48.80496,POINT (-85.00401 48.80496),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-MB-MAIN-915d9faa,Tanco,-95.4502,50.4291,POINT (-95.4502 50.4291),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-b1fe389a,Eskay Creek,-130.43,56.653,POINT (-130.43 56.653),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-1d2f31f9,Kwyjibo,-65.26564,51.04975,POINT (-65.26564 51.04975),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NL-MAIN-bb23d8a6,Great Burnt Lake,-56.1344,48.3758,POINT (-56.1344 48.3758),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-SK-MAIN-22ce14be,Santoy,-103.414571,55.66778,POINT (-103.414571 55.66778),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-SK-MAIN-29afbdb5,Seabee,-103.622257,55.683772,POINT (-103.622257 55.683772),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NS-MAIN-c9c77a59,Moose River Consolidated,-62.94292,44.98243,POINT (-62.94292 44.98243),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-020a683c,Hamilton Works,-79.819,43.275,POINT (-79.819 43.275),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-b2e5c9bb,Lake Erie Works,-80.0937,42.8001,POINT (-80.0937 42.8001),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-3032c251,Renard,-72.190579,52.813913,POINT (-72.190579 52.813913),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-b5937543,Blackrock,-74.062113,49.800453,POINT (-74.062113 49.800453),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-64595b02,Blackrock Pyrometallurgical Facility,-70.854841,48.399648,POINT (-70.854841 48.399648),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-a505d25d,Ootsa,-127.08333,53.63333,POINT (-127.08333 53.63333),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-c5d1b42d,Berg,-127.431,53.802,POINT (-127.431 53.802),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-6a26086e,Sorel Forge,-73.124998,46.045865,POINT (-73.124998 46.045865),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NL-MAIN-b64bae7a,Scully,-66.912573,52.907129,POINT (-66.912573 52.907129),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NL-MAIN-18695c6d,Scully Mine - Manganese project,-66.91222,52.91806,POINT (-66.91222 52.91806),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-1aa10efa,Kenbridge,-93.6347,49.48357,POINT (-93.6347 49.48357),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-23f67ea8,Aley,-123.77829,56.4471,POINT (-123.77829 56.4471),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-6b4800fe,Gibraltar,-122.28716,52.528495,POINT (-122.28716 52.528495),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-18bed6d7,Yellowhead,-119.817,51.52,POINT (-119.817 51.52),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NL-MAIN-e09881ff,DSO (3 and 4),-67.081916,54.890828,POINT (-67.081916 54.890828),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-b8c826a2,DSO (Goodwood),-67.34778,55.09939,POINT (-67.34778 55.09939),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-bf503b6b,Highland Valley,-121.0483,50.4855,POINT (-121.0483 50.4855),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-193ddddb,Schaft Creek,-131.0,57.36667,POINT (-131 57.36667),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-3bb6b7cd,Trail,-117.7137,49.0999,POINT (-117.7137 49.0999),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-2587e541,Strange Lake,-64.2,56.35,POINT (-64.2 56.35),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-23155c25,Myra Falls,-125.59,49.57,POINT (-125.59 49.57),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-YT-MAIN-68c87980,Freegold Mountain,-137.2,62.3,POINT (-137.2 62.3),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-b2148882,Troilus,-74.46,51.01,POINT (-74.46 51.01),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-4a6187a4,RapidSX Demonstration Plant,-76.5,44.233334,POINT (-76.5 44.233334),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-SK-MAIN-9dd2b7f8,Horseshoe-Raven,-103.73639,58.15333,POINT (-103.73639 58.15333),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-387b06fe,Welland Mill,-79.235065,42.998265,POINT (-79.235065 42.998265),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-de2f9639,Clarabelle,-81.056782,46.495822,POINT (-81.056782 46.495822),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-6e9b2449,Coleman,-81.3397,46.6771,POINT (-81.3397 46.6771),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-f080c409,Copper Cliff Complex,-81.068205,46.491445,POINT (-81.068205 46.491445),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-63b394c3,Copper Cliff Complex,-81.0569,46.4801,POINT (-81.0569 46.4801),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-52224e1e,Creighton,-81.1861,46.474,POINT (-81.1861 46.474),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-48fe2205,Garson,-80.857,46.568,POINT (-80.857 46.568),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-2e13aaa0,Port Colborne,-79.24,42.883,POINT (-79.24 42.883),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-MB-MAIN-e0a6250e,Thompson (T-1 and T-3),-97.8444,55.7152,POINT (-97.8444 55.7152),peat in soil mosaic,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-28f3f0fc,Totten,-81.454839,46.381174,POINT (-81.454839 46.381174),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NL-MAIN-d9036091,Long Harbour,-53.811792,47.410938,POINT (-53.811792 47.410938),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NL-MAIN-2d8801d6,Voisey’s Bay,-62.090855,56.331659,POINT (-62.090855 56.331659),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-860bbbfc,Lac Doré Vanadium,-73.95682,49.84573,POINT (-73.95682 49.84573),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-YT-MAIN-e05ed9fe,Eagle (Dublin Gulch),-135.8456,64.0322,POINT (-135.8456 64.0322),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-d59f82aa,Sirmac,-75.47624,50.62225,POINT (-75.47624 50.62225),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-NT-MAIN-b1b28b01,Nechalacho - T-Zone & Tardiff Zone,-112.59972,62.11806,POINT (-112.59972 62.11806),peat dominated,https://greifswaldmoor.de/global-peatland-database-en.html
-AB-MAIN-63f096a6,Rainbow Lake,-119.30174,58.50664,POINT (-119.30174 58.50664),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-be473617,Mont Sorcier,-74.127578,49.918163,POINT (-74.127578 49.918163),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-3c468faa,Superior Lake,-87.38361,48.9775,POINT (-87.38361 48.9775),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-cb85213a,Eagle River,-85.4619,47.9861,POINT (-85.4619 47.9861),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-QC-MAIN-9de9bb0d,Kiena,-77.91,48.12,POINT (-77.91 48.12),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-c5fefb01,Mishi,-85.4525,48.11028,POINT (-85.4525 48.11028),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-feb13c30,Record Ridge,-117.884,49.082,POINT (-117.884 49.082),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-YT-MAIN-5e0d8b48,Casino,-138.83333,62.73333,POINT (-138.83333 62.73333),No data,https://greifswaldmoor.de/global-peatland-database-en.html
-ON-MAIN-12c68d49,Eagle's Nest,-86.3038,52.74202,POINT (-86.3038 52.74202),peat dominated,https://greifswaldmoor.de/global-peatland-database-en.html
-BC-MAIN-891d3cb5,Akie,-124.86599,57.38088,POINT (-124.86599 57.38088),No data,https://greifswaldmoor.de/global-peatland-database-en.html
+﻿peatland_presence,main_id,source_id
+No data,QC-MAIN-5801b453,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,QC-MAIN-d29e0839,https://greifswaldmoor.de/global-peatland-database-en.html
+peat dominated,QC-MAIN-f1ff4920,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NU-MAIN-4ea8ac9d,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-e7e6a960,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,ON-MAIN-aeafbb59,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,QC-MAIN-c0660aec,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-e51eda66,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-1f126a43,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NU-MAIN-730aefe3,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NU-MAIN-8b0264c9,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,MB-MAIN-5d21dbd5,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-74997012,https://greifswaldmoor.de/global-peatland-database-en.html
+peat dominated,ON-MAIN-687b8c8d,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-7607a50e,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,QC-MAIN-52c01ae4,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-eac5a52b,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-81a288d0,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-c8966bdc,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-eab8c362,https://greifswaldmoor.de/global-peatland-database-en.html
+peat dominated,QC-MAIN-8c7063b2,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-3ef4f421,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,AB-MAIN-9fed34a8,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-33c09b8b,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-084bd95c,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-1eee4ace,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-844dcc47,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-e25eed27,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-4c35e094,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-8825d90d,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,SK-MAIN-de2e2f8e,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-e928d96a,https://greifswaldmoor.de/global-peatland-database-en.html
+peat dominated,NT-MAIN-4f11f183,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-46f71d5b,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NU-MAIN-5154702a,https://greifswaldmoor.de/global-peatland-database-en.html
+peat dominated,ON-MAIN-6e9be24e,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,AB-MAIN-8434dce0,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,YT-MAIN-2cc9bb06,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,NL-MAIN-895cb178,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NT-MAIN-6c1d6ee6,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NB-MAIN-0c5b40d8,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-484e4fa3,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,SK-MAIN-91cf5448,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,SK-MAIN-bb89158f,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,SK-MAIN-d3c471e8,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-237587f6,https://greifswaldmoor.de/global-peatland-database-en.html
+peat dominated,ON-MAIN-4c5c1179,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NB-MAIN-8e04eb21,https://greifswaldmoor.de/global-peatland-database-en.html
+peat dominated,ON-MAIN-37e9571e,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NB-MAIN-3e7d42ac,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NU-MAIN-eae1621e,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-5ce331b8,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-eba3e309,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-e34feb4d,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-ed23117f,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-089f3c60,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NL-MAIN-251d6364,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-be399420,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-3330383b,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,MB-MAIN-6fca9d6d,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,QC-MAIN-d4e2812a,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,AB-MAIN-9a0307f6,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-715d4318,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NT-MAIN-94e652a5,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-382acb18,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,SK-MAIN-4aef3cb2,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,SK-MAIN-95ec2625,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-51068f3b,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,AB-MAIN-7d4a0421,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,QC-MAIN-f9e41c2a,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-6664e89b,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-5398dfac,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-2cf66e65,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,ON-MAIN-7f050560,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,SK-MAIN-26b9aaf3,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-c1cc9f7c,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,NL-MAIN-c139de6d,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NL-MAIN-842ba1b4,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,YT-MAIN-ca488f19,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,YT-MAIN-70d629b4,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-efff21d3,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,SK-MAIN-0684a5d8,https://greifswaldmoor.de/global-peatland-database-en.html
+peat dominated,MB-MAIN-f7fde5b4,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-ae473a4e,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,SK-MAIN-7a11ae49,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,AB-MAIN-ca9625ce,https://greifswaldmoor.de/global-peatland-database-en.html
+peat dominated,NT-MAIN-b7cdf82c,https://greifswaldmoor.de/global-peatland-database-en.html
+peat dominated,ON-MAIN-d47616e5,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-e1641dfb,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,ON-MAIN-c06904f0,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-64bbe7e6,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-22426144,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,MB-MAIN-0d5c2cae,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-92cdea80,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-bddeaef0,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,MB-MAIN-b4ca1426,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-21b6ab35,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-de3d8b7b,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-529c96b4,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-206041d1,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-abb3e1c7,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-30c1828c,https://greifswaldmoor.de/global-peatland-database-en.html
+peat dominated,ON-MAIN-f8313ebd,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-fcb287a4,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-319e04a8,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-a97821c0,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-ed85ac94,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-40ce0593,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-4724f4ba,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,YT-MAIN-956d050a,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,ON-MAIN-97ee890f,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,MB-MAIN-27a90834,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,SK-MAIN-fbe28fef,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-b031959a,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,QC-MAIN-b86f7d07,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,YT-MAIN-44857446,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,YT-MAIN-c3105f43,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-fc6f1a44,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,MB-MAIN-e2e67f8f,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-599152a0,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,MB-MAIN-be5b3dc8,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,MB-MAIN-da0b5c3d,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,MB-MAIN-c0684566,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,MB-MAIN-0898e255,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,MB-MAIN-854abe09,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,MB-MAIN-1a82a1b7,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,MB-MAIN-b5b81ee3,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-02884fb5,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-a3c56a83,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-3f490561,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-586679b9,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NL-MAIN-dd723db4,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-7001a391,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-9a34108c,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-6bd6cc80,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,MB-MAIN-a832fb0a,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-12730593,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-575c5e66,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-6b998583,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-0414a373,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,AB-MAIN-35d0dc71,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-a2c6775d,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-b1d981ca,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-54b7e152,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-aa793d35,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-649d2873,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-a555d9b9,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NB-MAIN-c1e4dee0,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,NL-MAIN-f021107e,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-615ebdb4,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-470b504b,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,ON-MAIN-4e0734b5,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-237d67c1,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-c7247100,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,YT-MAIN-752fbcae,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NU-MAIN-8e62bfbc,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NU-MAIN-1ef8af2c,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-eb73fd68,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,QC-MAIN-9d41d417,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-2bb07cd3,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-aa76f6f2,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,ON-MAIN-0aadf28f,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-1c674cd0,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-857b7b89,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-c720b195,https://greifswaldmoor.de/global-peatland-database-en.html
+peat dominated,ON-MAIN-8629a493,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,ON-MAIN-538513cd,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,ON-MAIN-fefeaee4,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-3b3e5365,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-8eb8be0d,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-6dc537e6,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-b4655afb,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,SK-MAIN-3012889c,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,YT-MAIN-1910d1c3,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-288718a6,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NB-MAIN-f58cc895,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-8b86d975,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-6fbdcf4c,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-265a57f6,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NT-MAIN-b3681e03,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-d6748d40,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,QC-MAIN-69bb36c1,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,SK-MAIN-60ba74c4,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NT-MAIN-b99d4cb2,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,NL-MAIN-a498ddc6,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,ON-MAIN-bfbcd72e,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-f3e6ff08,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-3aa117d8,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-c1c7eb99,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-01c1e81f,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-eb47f7c7,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-c0e3a48b,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-92628f16,https://greifswaldmoor.de/global-peatland-database-en.html
+peat dominated,QC-MAIN-8d6616b4,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NT-MAIN-0ec39ce0,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-e82266c5,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-11c40b1f,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-3e146840,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-7b3b4c8b,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-eda110b0,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,YT-MAIN-73ce66b5,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-116ae608,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-dca9cce7,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,SK-MAIN-d5c9124e,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-c4fb59c2,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-1186a6d0,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-dc1a16f9,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-b7591127,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-4959ea63,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,YT-MAIN-03a159d7,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,AB-MAIN-d3a4aba9,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-f4fc3276,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,MB-MAIN-915d9faa,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-b1fe389a,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-1d2f31f9,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,NL-MAIN-bb23d8a6,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,SK-MAIN-22ce14be,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,SK-MAIN-29afbdb5,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NS-MAIN-c9c77a59,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-020a683c,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-b2e5c9bb,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-3032c251,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-b5937543,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-64595b02,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-a505d25d,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-c5d1b42d,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-6a26086e,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NL-MAIN-b64bae7a,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NL-MAIN-18695c6d,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-1aa10efa,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-23f67ea8,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-6b4800fe,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-18bed6d7,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NL-MAIN-e09881ff,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-b8c826a2,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-bf503b6b,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-193ddddb,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-3bb6b7cd,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-2587e541,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-23155c25,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,YT-MAIN-68c87980,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,QC-MAIN-b2148882,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-4a6187a4,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,SK-MAIN-9dd2b7f8,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-387b06fe,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-de2f9639,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-6e9b2449,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-f080c409,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-63b394c3,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-52224e1e,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-48fe2205,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-2e13aaa0,https://greifswaldmoor.de/global-peatland-database-en.html
+peat in soil mosaic,MB-MAIN-e0a6250e,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-28f3f0fc,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NL-MAIN-d9036091,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,NL-MAIN-2d8801d6,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-860bbbfc,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,YT-MAIN-e05ed9fe,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-d59f82aa,https://greifswaldmoor.de/global-peatland-database-en.html
+peat dominated,NT-MAIN-b1b28b01,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,AB-MAIN-63f096a6,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-be473617,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-3c468faa,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-cb85213a,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,QC-MAIN-9de9bb0d,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,ON-MAIN-c5fefb01,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-feb13c30,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,YT-MAIN-5e0d8b48,https://greifswaldmoor.de/global-peatland-database-en.html
+peat dominated,ON-MAIN-12c68d49,https://greifswaldmoor.de/global-peatland-database-en.html
+No data,BC-MAIN-891d3cb5,https://greifswaldmoor.de/global-peatland-database-en.html

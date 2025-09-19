@@ -1,6 +1,6 @@
 # MetalliCan
 
-<img src="MetalliCan_logo_color.png" alt="Project Logo" width="300"/>
+<img src="logo.png" alt="Project Logo" width="300"/>
 
 This repository contains the code and data associated to create the MetalliCan database, 
 a database on metal-related production activities in Canada and their relation to environmental and social impacts. 
@@ -28,6 +28,6 @@ This repository is licensed under the BSD 3-Clause License. See the LICENSE file
 For questions, feel free to open an issue or reach out via email at: [marin.pellan@polymtl.ca](mailto:marin.pellan@polymtl.ca)
 
 # 📄 Citation
-Citing the code: Zenodo to come
-Citing the article: article currently under review
+Zenodo: https://doi.org/10.5281/zenodo.17154043
+Article: currently under review
 

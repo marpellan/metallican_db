@@ -1,32 +1,32 @@
-﻿facility_name,host,by_product,ratio,main_id,source_id
-Lac des Iles,Pt,Te,0.007717825173910154,ON-MAIN-a3c56a83,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Lac des Iles,Pt,Se,0.3221256123791495,ON-MAIN-a3c56a83,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Lac des Iles,Pt,Pd,0.7487918735372824,ON-MAIN-a3c56a83,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Lac des Iles,Pt,Sb,0.0001399046797636348,ON-MAIN-a3c56a83,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Lac des Iles,Pt,Cd,0.003383740488131935,ON-MAIN-a3c56a83,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Lac des Iles,Pt,Cu,464.0222786858769,ON-MAIN-a3c56a83,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Lac des Iles,Pt,Ni,520.9960177009466,ON-MAIN-a3c56a83,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Lac des Iles,Pt,Bi,0.0009572279978327487,ON-MAIN-a3c56a83,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Lac des Iles,Pt,Au,0.1175814446742934,ON-MAIN-a3c56a83,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Lac des Iles,Pt,Co,44.42961461528535,ON-MAIN-a3c56a83,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Kidd Creek,Cu,Ag,0.002674254803628782,ON-MAIN-f8313ebd,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Kidd Creek,Cu,In,0.002521552938524821,ON-MAIN-f8313ebd,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Kidd Creek,Cu,Zn,2.558460584887586,ON-MAIN-f8313ebd,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-New Afton,Cu,Ag,0.0002639312728292131,BC-MAIN-aa76f6f2,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-New Afton,Cu,Au,8.036901840739612e-05,BC-MAIN-aa76f6f2,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Mount Milligan,Au,Cu,5471.571795707132,BC-MAIN-ed23117f,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-LaRonde,Au,Ag,3.900797036568881,QC-MAIN-e51eda66,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-LaRonde,Au,Cu,506.2072545877254,QC-MAIN-e51eda66,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-LaRonde,Au,Zn,1796.149997366619,QC-MAIN-e51eda66,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Mount Polley,Cu,Ag,0.0002928717715558423,BC-MAIN-3f490561,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Mount Polley,Cu,Au,0.0001066267155297789,BC-MAIN-3f490561,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Galore Creek,Cu,Ag,0.001036625764443234,BC-MAIN-b4655afb,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Galore Creek,Cu,Au,5.843163136318241e-05,BC-MAIN-b4655afb,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Gibraltar,Cu,Mo,0.03145450707198649,BC-MAIN-6b4800fe,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Gibraltar,Cu,Re,1.608613046231793e-05,BC-MAIN-6b4800fe,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Red Chris,Cu,Ag,0.0003392546212158562,BC-MAIN-8eb8be0d,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Red Chris,Cu,Au,0.0001036692615405016,BC-MAIN-8eb8be0d,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Raglan,Ni,Pt,2.920480626434454e-05,QC-MAIN-a97821c0,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Raglan,Ni,Pd,7.185545204986275e-05,QC-MAIN-a97821c0,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Raglan,Ni,Cu,0.28992394581702,QC-MAIN-a97821c0,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
-Raglan,Ni,Co,0.02244723459790288,QC-MAIN-a97821c0,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+﻿host,by_product,ratio,main_id,source_id
+Pt,Te,0.007717825173910154,ON-MAIN-a3c56a83,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Pt,Se,0.3221256123791495,ON-MAIN-a3c56a83,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Pt,Pd,0.7487918735372824,ON-MAIN-a3c56a83,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Pt,Sb,0.0001399046797636348,ON-MAIN-a3c56a83,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Pt,Cd,0.003383740488131935,ON-MAIN-a3c56a83,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Pt,Cu,464.0222786858769,ON-MAIN-a3c56a83,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Pt,Ni,520.9960177009466,ON-MAIN-a3c56a83,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Pt,Bi,0.0009572279978327487,ON-MAIN-a3c56a83,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Pt,Au,0.1175814446742934,ON-MAIN-a3c56a83,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Pt,Co,44.42961461528535,ON-MAIN-a3c56a83,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Cu,Ag,0.002674254803628782,ON-MAIN-f8313ebd,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Cu,In,0.002521552938524821,ON-MAIN-f8313ebd,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Cu,Zn,2.558460584887586,ON-MAIN-f8313ebd,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Cu,Ag,0.0002639312728292131,BC-MAIN-aa76f6f2,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Cu,Au,8.036901840739612e-05,BC-MAIN-aa76f6f2,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Au,Cu,5471.571795707132,BC-MAIN-ed23117f,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Au,Ag,3.900797036568881,QC-MAIN-e51eda66,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Au,Cu,506.2072545877254,QC-MAIN-e51eda66,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Au,Zn,1796.149997366619,QC-MAIN-e51eda66,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Cu,Ag,0.0002928717715558423,BC-MAIN-3f490561,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Cu,Au,0.0001066267155297789,BC-MAIN-3f490561,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Cu,Ag,0.001036625764443234,BC-MAIN-b4655afb,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Cu,Au,5.843163136318241e-05,BC-MAIN-b4655afb,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Cu,Mo,0.03145450707198649,BC-MAIN-6b4800fe,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Cu,Re,1.608613046231793e-05,BC-MAIN-6b4800fe,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Cu,Ag,0.0003392546212158562,BC-MAIN-8eb8be0d,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Cu,Au,0.0001036692615405016,BC-MAIN-8eb8be0d,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Ni,Pt,2.920480626434454e-05,QC-MAIN-a97821c0,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Ni,Pd,7.185545204986275e-05,QC-MAIN-a97821c0,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Ni,Cu,0.28992394581702,QC-MAIN-a97821c0,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
+Ni,Co,0.02244723459790288,QC-MAIN-a97821c0,https://pubs.acs.org/doi/10.1021/acs.est.4c05293
