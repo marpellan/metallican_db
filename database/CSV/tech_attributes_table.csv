@@ -17,9 +17,9 @@ TA-aeafbb59-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,4.3275814
 TA-9de9bb0d-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,0.649377658594869,Waste rock generated taken for calculation,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
 TA-9de9bb0d-2023-2,2023,Gold,Crude ore,Head grade,Reported,g/t,12.6,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
 TA-9de9bb0d-2023-3,2023,Gold,Crude ore,Recovery rate,Reported,%,96.9,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
-TA-538513cd-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,0.361706201083684,Total waste rock generated taken for calculation,ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
-TA-538513cd-2023-2,2023,Gold,Crude ore,Mill ore grade,Reported,g/t,4.785,,ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
-TA-538513cd-2023-3,2023,Gold,Crude ore,Mill recovery rate,Reported,%,91.0,,ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
+TA-6dc537e6-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,0.361706201083684,Total waste rock generated taken for calculation,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
+TA-6dc537e6-2023-2,2023,Gold,Crude ore,Mill ore grade,Reported,g/t,4.785,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
+TA-6dc537e6-2023-3,2023,Gold,Crude ore,Mill recovery rate,Reported,%,91.0,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
 TA-4724f4ba-2024-1,2024,Gold,Total extraction,Strip ratio,Reported,waste/ore,47.7,,BC-MAIN-4724f4ba,,CMP-d726df1c,SRC_GoldMountainMiningCorp_gold-mountain-reports-its-interim-q4-2025-financial-and-operating-results-1001121?utm_source=chatgpt
 TA-4724f4ba-2024-2,2024,Gold,Crude ore,Ore grade,Reported,g/t,4.26,,BC-MAIN-4724f4ba,,CMP-d726df1c,SRC_GoldMountainMiningCorp_gold-mountain-reports-its-interim-q4-2025-financial-and-operating-results-1001121?utm_source=chatgpt
 TA-4e0734b5-2023-1,2023,Gold,Crude ore,Head grade,Reported,g/t,2.84,,ON-MAIN-4e0734b5,,CMP-3ff42329,SRC_McEwenMiningInc_SEC_2024

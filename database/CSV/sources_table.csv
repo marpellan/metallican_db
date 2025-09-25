@@ -1,5 +1,6 @@
 source_id,source_provenance,source_name
 https://tailing.grida.no/,dataset,Global Tailings Portal
+https://miningdataonline.com/property/1439/Hoyle-Pond-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/72/Brucejack-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/63/Musselwhite-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/246/Red-Chris-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
@@ -7,9 +8,9 @@ https://miningdataonline.com/property/420/Hollinger-Mine.aspx ; https://ecat.ga.
 https://miningdataonline.com/property/69/Rainy-River-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/11/new-afton-mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/58/Minto-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
+https://miningdataonline.com/property/98/McClean-Lake-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/588/Fox-Complex.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
-https://miningdataonline.com/property/1439/Hoyle-Pond-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
-https://miningdataonline.com/property/454/Eagle-Mine-Operation.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
+https://miningdataonline.com/property/12/Niobec-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 "https://miningdataonline.com/property/173/McCreedy-West,--Morrison-Levack-Sudbury-Basin-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496",dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/23/Carol-Lake-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/61/Mount-Polley.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
@@ -17,11 +18,10 @@ https://miningdataonline.com/property/55/Lac-des-Iles-Mine.aspx ; https://ecat.g
 https://miningdataonline.com/property/77/Westwood-Operation.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/1/copper-mountain-mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/24/Casa-Berardi-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
+https://miningdataonline.com/property/454/Eagle-Mine-Operation.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/4563/Keno-Hill-Operation.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
-https://miningdataonline.com/property/12/Niobec-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
-https://miningdataonline.com/property/98/McClean-Lake-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/8/Bell-Creek-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
-https://miningdataonline.com/property/9/Timmins-West-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
+https://miningdataonline.com/property/955/Lac-Tio-(Havre-St-Pierre)-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/1254/Eagle-River-Complex.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/1238/Mishi-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/3048/Kiena-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
@@ -30,21 +30,21 @@ https://miningdataonline.com/property/626/Totten-Mine.aspx ; https://ecat.ga.gov
 https://miningdataonline.com/property/1485/Sudbury-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/1377/Thompson-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/417/Voiseys-Bay-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
+https://miningdataonline.com/property/9/Timmins-West-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/64/Myra-Falls-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
-https://miningdataonline.com/property/50/Highland-Valley-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/941/Howse-Project.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
-https://miningdataonline.com/property/2/Gibraltar-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
+https://miningdataonline.com/property/4651/Scully-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/968/Renard-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/944/Atlantic-Operation.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/1552/15-Mile-and-Beaver-Dam-Project.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/977/Tanco-Bernic-Lake-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/1741/Sugar-Zone-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/1628/North-American-Lithium-NAL-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
-https://miningdataonline.com/property/955/Lac-Tio-(Havre-St-Pierre)-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
+https://miningdataonline.com/property/50/Highland-Valley-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/3134/Elk-Gold-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
-https://miningdataonline.com/property/68/Raglan-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
-https://miningdataonline.com/property/4651/Scully-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
-https://miningdataonline.com/property/960/Ming-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
+https://miningdataonline.com/property/2/Gibraltar-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
+https://miningdataonline.com/property/1375/Sudbury-INO-Operation.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
+https://miningdataonline.com/property/1589/Sleeping-Giant-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://pubs.acs.org/doi/10.1021/acs.est.4c05293,dataset,Byproduct-to-Host Ratios for Assessing the Accessibility of Mineral Resources
 https://www.nature.com/articles/s41597-025-05296-y,dataset,Machine learning-enhanced monitoring of global copper mining areas
 https://doi.org/10.1038/s43247-023-00805-6,dataset,Global Mining Footprint Mapped from High-Resolution Satellite Imagery
@@ -52,41 +52,41 @@ https://www.protectedplanet.net,dataset,World Database on Protected Areas (WDPA)
 http://www.landmarkmap.org,dataset,Indigenous Peoples’ and Local Community Lands and Territories
 https://doi.org/10.7717/peerj.5457,dataset,Potential Natural Vegetation (NPV)
 https://doi.org/10.5067/MODIS/MCD12Q1.061 + https://doi.org/10.5281/zenodo.7254221,dataset,Modis Land Cover and ESA World Cover
+https://miningdataonline.com/property/46/LaRonde-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://www.wri.org/data/aqueduct-global-maps-40-data,dataset,Aqueduct 4.0
-https://miningdataonline.com/property/1589/Sleeping-Giant-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
-https://doi.org/10.2905/2FF68A52-5B5B-4A22-8F40-C41DA8332CFE,dataset,Global Human Settlement Layer (GHSL)
-https://climate-scenarios.canada.ca/?page=CanDCS6-indices,dataset,CMIP6 statistically downscaled climate indices (CanDCS-M6)
+https://greifswaldmoor.de/global-peatland-database-en.html,dataset,Global Peatland Database
+https://doi.org/10.1038/s41597-023-02549-6,dataset,High-Resolution (1 km) Koppen-Geiger Maps for 1901–2099 Based on Constrained CMIP6 Projections
 https://doi.org/10.5281/zenodo.5006332,dataset,"Areas of global importance for conserving terrestrial biodiversity, carbon and water"
-https://www.canada.ca/en/environment-climate-change/services/national-pollutant-release-inventory/tools-resources-data/exploredata.html,dataset,National Pollutant Inventory Report (NPRI)
 https://www.canada.ca/en/environment-climate-change/services/environmental-indicators/greenhouse-gas-emissions/large-facilities.html,dataset,GHG from large facilities
 http://journals.librarypublishing.arizona.edu/jpe/article/id/1932/,dataset,Environmental Justice Atlas
 "Jolleys, M. et al (2024). Mineral Extraction sector: Mining and Quarrying Emissions from Copper, Iron, Bauxite, Rock and Sand, Hypervine, UK, Climate TRACE Emissions Inventory",dataset,ClimateTRACE mineral extraction sector
 10.1038/s41597-024-03116-3,dataset,A Comprehensive Historical and Geolocalized Database of Mining Activities in Canada
-https://miningdataonline.com/property/1375/Sudbury-INO-Operation.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
-https://greifswaldmoor.de/global-peatland-database-en.html,dataset,Global Peatland Database
-https://miningdataonline.com/property/46/LaRonde-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
-https://doi.org/10.1038/s41597-023-02549-6,dataset,High-Resolution (1 km) Koppen-Geiger Maps for 1901–2099 Based on Constrained CMIP6 Projections
+https://miningdataonline.com/property/68/Raglan-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
+https://doi.org/10.2905/2FF68A52-5B5B-4A22-8F40-C41DA8332CFE,dataset,Global Human Settlement Layer (GHSL)
+https://miningdataonline.com/property/453/Macassa-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
+https://climate-scenarios.canada.ca/?page=CanDCS6-indices,dataset,CMIP6 statistically downscaled climate indices (CanDCS-M6)
+https://miningdataonline.com/property/44/Goldex-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
+https://miningdataonline.com/property/960/Ming-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/959/Meliadine-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/234/Red-Lake-Operation.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
-https://miningdataonline.com/property/453/Macassa-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/1694/Lamaque-Project.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/40/Gahcho-Ku%C3%A9-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
-https://miningdataonline.com/property/3027/Bloom-Lake-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
+https://miningdataonline.com/property/59/Mount-Milligan-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/1603/Nunavik-Nickel-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/26/Cigar-Lake-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/17/Ekati-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 "https://miningdataonline.com/property/49/Hemlo-Williams,-David-Bell-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496",dataset,Critical Minerals Mapping Initiative
-https://miningdataonline.com/property/57/Mary-River-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
-https://miningdataonline.com/property/59/Mount-Milligan-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
+https://miningdataonline.com/property/3027/Bloom-Lake-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
+https://miningdataonline.com/property/1752/Magino-Project.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/962/Mont-Wright-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
-https://miningdataonline.com/property/44/Goldex-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/963/Fire-Lake-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
+https://miningdataonline.com/property/20/Canadian-Malartic-Complex.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/7/Island-Gold-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/1484/young-davidson-mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/47/Meadowbank-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
+https://miningdataonline.com/property/57/Mary-River-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
 https://miningdataonline.com/property/13/Detour-Lake-Mine.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
-https://miningdataonline.com/property/1752/Magino-Project.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
-https://miningdataonline.com/property/20/Canadian-Malartic-Complex.aspx ; https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/145496,dataset,Critical Minerals Mapping Initiative
+SRC_EldoradoGold_ESG_2023,report,ESG_2023.pdf
 SRC_SSRMiningInc_Reserves-and-Resources_2024,report,Reserves-and-Resources_2024
 SRC_StBarbaraLimited_MRMR-2024,report,MRMR-2024.pdf
 SRC_TasekoMinesLimited_reserves-and-resources,report,reserves-and-resources
@@ -98,7 +98,6 @@ SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked,report,New
 SRC_TasekoMinesLimited_ESG_2023,report,ESG_2023.pdf
 SRC_SilverLakeResourcesLtd._sugar-zone,report,sugar-zone
 SRC_ImpalaCanadaLtd_ESG_2024,report,ESG_2024.pdf
-SRC_EldoradoGold_ESG_2023,report,ESG_2023.pdf
 SRC_HeclaMiningCompany_SR_2023,report,SR_2023.pdf
 SRC_PanAmericanSilverCorp_Reserves_2024,report,Reserves_2024
 SRC_GoldMountainMiningCorp._Q4,report,Q4.24-GMTN-Deck-2

@@ -33,20 +33,20 @@ TECH-9de9bb0d-2023-3,2023,Energy,Electricity consumption|Grid electricity,MWh,38
 TECH-9de9bb0d-2023-4,2023,Energy,Explosives,t,1211.0,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd._ESG_data_2023
 TECH-9de9bb0d-2023-5,2023,Energy,Gasoline,kl,369.0,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd._ESG_data_2023
 TECH-9de9bb0d-2023-6,2023,Energy,Propane,kl,2528.0,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd._ESG_data_2023
-TECH-538513cd-2023-1,2023,Energy,Aviation fuel,GJ,21662.09888,,ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_2023-Performance-data
-TECH-538513cd-2023-2,2023,Material use,Cement,t,27374.0,,ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
-TECH-538513cd-2023-3,2023,Energy,Diesel,GJ,385327.7974,,ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_2023-Performance-data
-TECH-538513cd-2023-4,2023,Energy,Electricity consumption,GJ,892229.95044,,ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_2023-Performance-data
-TECH-538513cd-2023-5,2023,Energy,Electricity consumption|Generated on-site,GJ,3531.1068,,ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_2023-Performance-data
-TECH-538513cd-2023-6,2023,Energy,Gasoline,GJ,10018.1179,,ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_2023-Performance-data
-TECH-538513cd-2023-7,2023,Energy,Grinding media,t,3039.9,"Explosives, treated as energy consumption",ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
-TECH-538513cd-2023-8,2023,Material use,Lime,t,2229.0,,ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
-TECH-538513cd-2023-9,2023,Material use,Lubricants,kl,380.687,,ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
-TECH-538513cd-2023-10,2023,Material use,Nitric acid (HNO3),l,26575.0,,ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
-TECH-538513cd-2023-11,2023,Energy,Propane,GJ,142393.17415,,ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_2023-Performance-data
-TECH-538513cd-2023-12,2023,Material use,Sodium cyanide (NaCN),t,838.8,,ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
-TECH-538513cd-2023-13,2023,Material use,Sulfuric acid (H2SO4),l,73.96,,ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
-TECH-538513cd-2023-14,2023,Material use,Tires,t,241.250566996281,,ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
+TECH-6dc537e6-2023-1,2023,Energy,Aviation fuel,GJ,21662.09888,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_2023-Performance-data
+TECH-6dc537e6-2023-2,2023,Material use,Cement,t,27374.0,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
+TECH-6dc537e6-2023-3,2023,Energy,Diesel,GJ,385327.7974,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_2023-Performance-data
+TECH-6dc537e6-2023-4,2023,Energy,Electricity consumption,GJ,892229.95044,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_2023-Performance-data
+TECH-6dc537e6-2023-5,2023,Energy,Electricity consumption|Generated on-site,GJ,3531.1068,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_2023-Performance-data
+TECH-6dc537e6-2023-6,2023,Energy,Gasoline,GJ,10018.1179,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_2023-Performance-data
+TECH-6dc537e6-2023-7,2023,Energy,Grinding media,t,3039.9,"Explosives, treated as energy consumption",QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
+TECH-6dc537e6-2023-8,2023,Material use,Lime,t,2229.0,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
+TECH-6dc537e6-2023-9,2023,Material use,Lubricants,kl,380.687,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
+TECH-6dc537e6-2023-10,2023,Material use,Nitric acid (HNO3),l,26575.0,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
+TECH-6dc537e6-2023-11,2023,Energy,Propane,GJ,142393.17415,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_2023-Performance-data
+TECH-6dc537e6-2023-12,2023,Material use,Sodium cyanide (NaCN),t,838.8,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
+TECH-6dc537e6-2023-13,2023,Material use,Sulfuric acid (H2SO4),l,73.96,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
+TECH-6dc537e6-2023-14,2023,Material use,Tires,t,241.250566996281,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
 TECH-6b4800fe-2023-1,2023,Energy,Diesel,GJ,1683653.0,,BC-MAIN-6b4800fe,,CMP-e35f138c,SRC_TasekoMinesLimited_ESG_2023
 TECH-6b4800fe-2023-2,2023,Energy,Electricity consumption|Grid electricity,GJ,1695665.0,,BC-MAIN-6b4800fe,,CMP-e35f138c,SRC_TasekoMinesLimited_ESG_2023
 TECH-6b4800fe-2023-3,2023,Energy,Gasoline,GJ,38791.0,,BC-MAIN-6b4800fe,,CMP-e35f138c,SRC_TasekoMinesLimited_ESG_2023
@@ -87,17 +87,17 @@ TECH-f9e41c2a-2023-4,2023,Energy,Gasoline,GJ,3549.0,,QC-MAIN-f9e41c2a,,CMP-64d60
 TECH-f9e41c2a-2023-5,2023,Energy,LPG|Mobile equipment,GJ,45.0,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_ESG_2023
 TECH-f9e41c2a-2023-6,2023,Energy,LPG|Stationary equipment,GJ,187.0,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_ESG_2023
 TECH-f9e41c2a-2023-7,2023,Energy,Natural gas,GJ,76904.0,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_ESG_2023
-TECH-4ea8ac9d-2023-1,2023,Energy,Diesel,GJ,391146.0,,NU-MAIN-4ea8ac9d,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-TECH-4ea8ac9d-2023-2,2023,Energy,Electricity consumption,kWh,469220285.0,,NU-MAIN-4ea8ac9d,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-TECH-4ea8ac9d-2023-3,2023,Energy,Explosives,GJ,6280.0,,NU-MAIN-4ea8ac9d,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-TECH-4ea8ac9d-2023-4,2023,Energy,Light Fuel & Gasoline,GJ,8329.0,,NU-MAIN-4ea8ac9d,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-TECH-4ea8ac9d-2023-5,2023,Energy,Natural gas,GJ,297435.0,,NU-MAIN-4ea8ac9d,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-TECH-730aefe3-2023-1,2023,Energy,Diesel,GJ,91423.0,,NU-MAIN-730aefe3,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-TECH-730aefe3-2023-2,2023,Energy,Electricity consumption,kWh,182554670.0,,NU-MAIN-730aefe3,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-TECH-730aefe3-2023-3,2023,Energy,Explosives,GJ,82576.0,,NU-MAIN-730aefe3,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-TECH-730aefe3-2023-4,2023,Energy,Light Fuel & Gasoline,GJ,6440.0,,NU-MAIN-730aefe3,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-TECH-730aefe3-2023-5,2023,Energy,Natural gas,GJ,327090.0,,NU-MAIN-730aefe3,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-TECH-730aefe3-2023-6,2023,Energy,Propane,GJ,658.0,,NU-MAIN-730aefe3,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TECH-e51eda66-2023-1,2023,Energy,Diesel,GJ,391146.0,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TECH-e51eda66-2023-2,2023,Energy,Electricity consumption,kWh,469220285.0,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TECH-e51eda66-2023-3,2023,Energy,Explosives,GJ,6280.0,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TECH-e51eda66-2023-4,2023,Energy,Light Fuel & Gasoline,GJ,8329.0,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TECH-e51eda66-2023-5,2023,Energy,Natural gas,GJ,297435.0,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TECH-1f126a43-2023-6,2023,Energy,Diesel,GJ,91423.0,,ON-MAIN-1f126a43,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TECH-1f126a43-2023-7,2023,Energy,Electricity consumption,kWh,182554670.0,,ON-MAIN-1f126a43,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TECH-1f126a43-2023-8,2023,Energy,Explosives,GJ,82576.0,,ON-MAIN-1f126a43,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TECH-1f126a43-2023-9,2023,Energy,Light Fuel & Gasoline,GJ,6440.0,,ON-MAIN-1f126a43,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TECH-1f126a43-2023-10,2023,Energy,Natural gas,GJ,327090.0,,ON-MAIN-1f126a43,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TECH-1f126a43-2023-11,2023,Energy,Propane,GJ,658.0,,ON-MAIN-1f126a43,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-GRP-0a2c0d69-2023-1,2023,Energy,Diesel,GJ,3590887.0,,,GRP-0a2c0d69,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-GRP-0a2c0d69-2023-2,2023,Energy,Electricity consumption,kWh,164987364.0,,,GRP-0a2c0d69,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-GRP-0a2c0d69-2023-3,2023,Energy,Electricity consumption|Generated on-site,kWh,164987364.0,,,GRP-0a2c0d69,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data

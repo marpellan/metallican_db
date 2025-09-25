@@ -15,15 +15,15 @@ RES-8b0264c9-2024-2,2024,"Gold, silver",Reserves,Probable ,14085,kt,1.44,g/t,654
 RES-8b0264c9-2024-3,2024,"Gold, silver",Resources,Measured,12360,kt,1.86,g/t,739.0,koz,,,NU-MAIN-8b0264c9,,SRC_AgnicoEagleMinesLimited_2024_MRMR
 RES-8b0264c9-2024-4,2024,"Gold, silver",Resources,Indicated,22270,kt,1.33,g/t,955.0,koz,,,NU-MAIN-8b0264c9,,SRC_AgnicoEagleMinesLimited_2024_MRMR
 RES-8b0264c9-2024-5,2024,"Gold, silver",Resources,Inferred,16946,kt,1.62,g/t,885.0,koz,,,NU-MAIN-8b0264c9,,SRC_AgnicoEagleMinesLimited_2024_MRMR
-RES-4ea8ac9d-2024-1,2024,"Gold, zinc, copper, silver, cadmium",Reserves,Proven,7424,kt,2.98,g/t,712.0,koz,94.6,,NU-MAIN-4ea8ac9d,,SRC_AgnicoEagleMinesLimited_2024_MRMR
-RES-4ea8ac9d-2024-2,2024,"Gold, zinc, copper, silver, cadmium",Reserves,Probable,12574,kt,5.02,g/t,2028.0,koz,94.6,,NU-MAIN-4ea8ac9d,,SRC_AgnicoEagleMinesLimited_2024_MRMR
-RES-4ea8ac9d-2024-3,2024,"Gold, zinc, copper, silver, cadmium",Resources,Indicated,16945,kt,2.79,g/t,1522.0,koz,,,NU-MAIN-4ea8ac9d,,SRC_AgnicoEagleMinesLimited_2024_MRMR
-RES-4ea8ac9d-2024-4,2024,"Gold, zinc, copper, silver, cadmium",Resources,Inferred,8806,kt,4.38,g/t,1240.0,koz,,,NU-MAIN-4ea8ac9d,,SRC_AgnicoEagleMinesLimited_2024_MRMR
-RES-730aefe3-2024-1,2024,"Gold, silver",Reserves,Proven,352,kt,12.65,g/t,143.0,koz,,,NU-MAIN-730aefe3,,SRC_AgnicoEagleMinesLimited_2024_MRMR
-RES-730aefe3-2024-2,2024,"Gold, silver",Reserves,Probable ,6675,kt,9,g/t,1931.0,koz,,,NU-MAIN-730aefe3,,SRC_AgnicoEagleMinesLimited_2024_MRMR
-RES-730aefe3-2024-3,2024,"Gold, silver",Resources,Measured,278,kt,8.46,g/t,76.0,koz,,,NU-MAIN-730aefe3,,SRC_AgnicoEagleMinesLimited_2024_MRMR
-RES-730aefe3-2024-4,2024,"Gold, silver",Resources,Indicated,3144,kt,7.05,g/t,712.0,koz,,,NU-MAIN-730aefe3,,SRC_AgnicoEagleMinesLimited_2024_MRMR
-RES-730aefe3-2024-5,2024,"Gold, silver",Resources,Inferred,5524,kt,7.44,g/t,1322.0,koz,,,NU-MAIN-730aefe3,,SRC_AgnicoEagleMinesLimited_2024_MRMR
+RES-e51eda66-2024-1,2024,"Gold, zinc, copper, silver, cadmium",Reserves,Proven,7424,kt,2.98,g/t,712.0,koz,94.6,,QC-MAIN-e51eda66,,SRC_AgnicoEagleMinesLimited_2024_MRMR
+RES-e51eda66-2024-2,2024,"Gold, zinc, copper, silver, cadmium",Reserves,Probable,12574,kt,5.02,g/t,2028.0,koz,94.6,,QC-MAIN-e51eda66,,SRC_AgnicoEagleMinesLimited_2024_MRMR
+RES-e51eda66-2024-3,2024,"Gold, zinc, copper, silver, cadmium",Resources,Indicated,16945,kt,2.79,g/t,1522.0,koz,,,QC-MAIN-e51eda66,,SRC_AgnicoEagleMinesLimited_2024_MRMR
+RES-e51eda66-2024-4,2024,"Gold, zinc, copper, silver, cadmium",Resources,Inferred,8806,kt,4.38,g/t,1240.0,koz,,,QC-MAIN-e51eda66,,SRC_AgnicoEagleMinesLimited_2024_MRMR
+RES-1f126a43-2024-5,2024,"Gold, silver",Reserves,Proven,352,kt,12.65,g/t,143.0,koz,,,ON-MAIN-1f126a43,,SRC_AgnicoEagleMinesLimited_2024_MRMR
+RES-1f126a43-2024-6,2024,"Gold, silver",Reserves,Probable ,6675,kt,9,g/t,1931.0,koz,,,ON-MAIN-1f126a43,,SRC_AgnicoEagleMinesLimited_2024_MRMR
+RES-1f126a43-2024-7,2024,"Gold, silver",Resources,Measured,278,kt,8.46,g/t,76.0,koz,,,ON-MAIN-1f126a43,,SRC_AgnicoEagleMinesLimited_2024_MRMR
+RES-1f126a43-2024-8,2024,"Gold, silver",Resources,Indicated,3144,kt,7.05,g/t,712.0,koz,,,ON-MAIN-1f126a43,,SRC_AgnicoEagleMinesLimited_2024_MRMR
+RES-1f126a43-2024-9,2024,"Gold, silver",Resources,Inferred,5524,kt,7.44,g/t,1322.0,koz,,,ON-MAIN-1f126a43,,SRC_AgnicoEagleMinesLimited_2024_MRMR
 RES-GRP-0a2c0d69-2024-1,2024,Gold,Reserves,Proven,3355,kt,1.86,g/t,200.0,koz,90.7,,,GRP-0a2c0d69,SRC_AgnicoEagleMinesLimited_2024_MRMR
 RES-GRP-0a2c0d69-2024-2,2024,Gold,Reserves,Probable,11516,kt,3.8,g/t,1408.0,koz,90.7,,,GRP-0a2c0d69,SRC_AgnicoEagleMinesLimited_2024_MRMR
 RES-GRP-0a2c0d69-2024-3,2024,Gold,Resources,Indicated,9915,kt,4.01,g/t,1277.0,koz,,,,GRP-0a2c0d69,SRC_AgnicoEagleMinesLimited_2024_MRMR
@@ -325,11 +325,11 @@ RES-0aadf28f-2024-10,2024,Silver,Resources,Inferred,7663,kt,3.68,g/t,908.0,koz,,
 RES-fefeaee4-2023-1,2023,Gold,Reserves,Probable,11500,kt,8.44,g/t,3100.0,koz,96.0,,ON-MAIN-fefeaee4,,SRC_NewmountCorporation_2023_reserves
 RES-fefeaee4-2023-2,2023,Gold,Resources,Indicated,1800,kt,7.64,g/t,500.0,koz,96.0,,ON-MAIN-fefeaee4,,SRC_NewmountCorporation_2023_reserves
 RES-fefeaee4-2023-3,2023,Gold,Resources,Inferred,12100,kt,10.35,g/t,4000.0,koz,96.0,,ON-MAIN-fefeaee4,,SRC_NewmountCorporation_2023_reserves
-RES-538513cd-2023-1,2023,Gold,Reserves,Probable,6800,kt,5.47,g/t,1200.0,koz,92.0,,ON-MAIN-538513cd,,SRC_NewmountCorporation_2023_reserves
-RES-538513cd-2023-2,2023,Gold,Reserves,Proven,2100,kt,5.08,g/t,300.0,koz,92.0,,ON-MAIN-538513cd,,SRC_NewmountCorporation_2023_reserves
-RES-538513cd-2023-3,2023,Gold,Resources,Indicated,2100,kt,4.7,g/t,300.0,koz,92.0,,ON-MAIN-538513cd,,SRC_NewmountCorporation_2023_reserves
-RES-538513cd-2023-4,2023,Gold,Resources,Inferred,1800,kt,5.7,g/t,300.0,koz,92.0,,ON-MAIN-538513cd,,SRC_NewmountCorporation_2023_reserves
-RES-538513cd-2023-5,2023,Gold,Resources,Measured,700,kt,4.59,g/t,100.0,koz,92.0,,ON-MAIN-538513cd,,SRC_NewmountCorporation_2023_reserves
+RES-6dc537e6-2023-1,2023,Gold,Reserves,Probable,6800,kt,5.47,g/t,1200.0,koz,92.0,,QC-MAIN-6dc537e6,,SRC_NewmountCorporation_2023_reserves
+RES-6dc537e6-2023-2,2023,Gold,Reserves,Proven,2100,kt,5.08,g/t,300.0,koz,92.0,,QC-MAIN-6dc537e6,,SRC_NewmountCorporation_2023_reserves
+RES-6dc537e6-2023-3,2023,Gold,Resources,Indicated,2100,kt,4.7,g/t,300.0,koz,92.0,,QC-MAIN-6dc537e6,,SRC_NewmountCorporation_2023_reserves
+RES-6dc537e6-2023-4,2023,Gold,Resources,Inferred,1800,kt,5.7,g/t,300.0,koz,92.0,,QC-MAIN-6dc537e6,,SRC_NewmountCorporation_2023_reserves
+RES-6dc537e6-2023-5,2023,Gold,Resources,Measured,700,kt,4.59,g/t,100.0,koz,92.0,,QC-MAIN-6dc537e6,,SRC_NewmountCorporation_2023_reserves
 RES-b4655afb-2023-1,2023,Copper,Resources,Indicated,385600,kt,0.47,%,4000.0,Mlbs,93.0,,BC-MAIN-b4655afb,,SRC_NewmountCorporation_2023_reserves
 RES-b4655afb-2023-2,2023,Gold,Resources,Indicated,385600,kt,0.22,g/t,2700.0,koz,75.0,,BC-MAIN-b4655afb,,SRC_NewmountCorporation_2023_reserves
 RES-b4655afb-2023-3,2023,Copper,Resources,Inferred,118900,kt,0.26,%,700.0,Mlbs,93.0,,BC-MAIN-b4655afb,,SRC_NewmountCorporation_2023_reserves

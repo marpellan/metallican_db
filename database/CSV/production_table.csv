@@ -14,8 +14,8 @@ PROD-e51eda66-2023-2,2023,Canada,Gold,Usable ore,Contained metal in concentrate,
 PROD-e51eda66-2023-3,2023,Canada,Ore,Crude ore,Ore processed,Production,t,2658395.96049,2658395.96049,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 PROD-e51eda66-2023-4,2023,Canada,Silver,Usable ore,Contained metal in concentrate,Production,koz,588.0,18.288858,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 PROD-e51eda66-2023-5,2023,Canada,Zinc,Usable ore,Concentrate,Production,t,2577.9603749999997,2577.9603749999997,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-PROD-730aefe3-2023-1,2023,Canada,Ore,Crude ore,Ore processed,Production,t,441588.0,441588.0,,NU-MAIN-730aefe3,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-PROD-730aefe3-2023-2,2023,Canada,Gold,Usable ore,Contained metal in concentrate,Production,oz,228535.0,7.1082383725,,NU-MAIN-730aefe3,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-1f126a43-2023-1,2023,Canada,Ore,Crude ore,Ore processed,Production,t,441588.0,441588.0,,ON-MAIN-1f126a43,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-1f126a43-2023-2,2023,Canada,Gold,Usable ore,Contained metal in concentrate,Production,oz,228535.0,7.1082383725,,ON-MAIN-1f126a43,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 PROD-GRP-0a2c0d69-2023-1,2023,Canada,Gold,Crude ore,Ore processed,Production,t,3842649.005728,3842649.005728,,,GRP-0a2c0d69,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 PROD-GRP-0a2c0d69-2023-2,2023,Canada,Gold,Usable ore,Contained metal in concentrate,Production,oz,431665.6270210001,13.426311830047675,,,GRP-0a2c0d69,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 PROD-GRP-0a2c0d69-2023-3,2023,Canada,Silver,Usable ore,Contained metal in concentrate,Production,koz,125.0,3.8879375,,,GRP-0a2c0d69,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
@@ -34,8 +34,8 @@ PROD-c8966bdc-2023-1,2023,Canada,Aluminum,Intermediate metal produced,Capacity,C
 PROD-GRP-1402249f-2024-1,2024,Canada,Iron,Usable ore,Unspecified,Production,mt,24.2,24200000.0,Ambigous production type,,GRP-1402249f,CMP-3775c12e,SRC_ArcelorMittal_arcelormittal-factbook-2024
 PROD-4c35e094-2024-1,2024,Canada,Steel,Refined metal produced,Flat,Production,mt,3.1,3100000.0,"Integrated, mini-mill",ON-MAIN-4c35e094,,CMP-3775c12e,SRC_ArcelorMittal_Factbook_2024
 PROD-GRP-7a9ba115-2024-1,2024,Canada,Steel,Refined metal produced,"Long/wire rod, bars, slabs",Production,mt,1.9,1900000.0,Mini-mill,,GRP-7a9ba115,CMP-3775c12e,SRC_ArcelorMittal_Factbook_2024
-PROD-084bd95c-2023-1,2023,Canada,Iron,Usable ore,Iron ore,Production,kt,5901.0,5901000.0,Given in ttpa (total ton per annum),QC-MAIN-084bd95c,,CMP-3775c12e,SRC_ArcelorMittal_ArcelorMittal_Fire_Lake_Mine
-PROD-33c09b8b-2023-1,2023,Canada,Iron,Usable ore,Concentrate & pellets,Production,mt,22.4,22400000.0,,QC-MAIN-33c09b8b,,CMP-3775c12e,SRC_ArcelorMittal_arcelormittal-factbook-2024
+PROD-33c09b8b-2023-1,2023,Canada,Iron,Usable ore,Iron ore,Production,kt,5901.0,5901000.0,Given in ttpa (total ton per annum),QC-MAIN-33c09b8b,GRP-1402249f,CMP-3775c12e,SRC_ArcelorMittal_ArcelorMittal_Fire_Lake_Mine
+PROD-084bd95c-2023-1,2023,Canada,Iron,Usable ore,Concentrate & pellets,Production,mt,22.4,22400000.0,,QC-MAIN-084bd95c,GRP-1402249f,CMP-3775c12e,SRC_ArcelorMittal_arcelormittal-factbook-2024
 PROD-8825d90d-2024-1,2024,Canada,Gold,Usable ore,Contained metal in concentrate,Production,oz,33000.0,1.0264155,Data from Alamos Gold,ON-MAIN-8825d90d,,CMP-a6812c47,SRC_ArgonautGoldInc_Data_2023
 PROD-8825d90d-2024-2,2024,Canada,Gold,Total extraction,Ore mined,Production,t,1838496.0,1838496.0,Data from Alamos Gold,ON-MAIN-8825d90d,,CMP-a6812c47,SRC_ArgonautGoldInc_Data_2023
 PROD-8825d90d-2024-3,2024,Canada,Gold,Crude ore,Ore processed,Production,t,1165551.0,1165551.0,Data from Alamos Gold,ON-MAIN-8825d90d,,CMP-a6812c47,SRC_ArgonautGoldInc_Data_2023
@@ -65,8 +65,8 @@ PROD-7f050560-2024-3,2024,Canada,Ore,Crude ore,Ore processed,Production,t,841000
 PROD-7f050560-2024-4,2024,Canada,Gold,Usable ore,Contained metal in concentrate,Production,oz,112700.0,3.5053644499999996,,ON-MAIN-7f050560,,CMP-ca642bce,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
 PROD-26b9aaf3-2021-1,2021,Canada,Steel,Intermediate metal produced,EAF production,Production,kt,828.0,828000.0,,SK-MAIN-26b9aaf3,,CMP-28720916,SRC_EVRAZNorthAmericaInc_Evraz_Regina_Steel_plant
 PROD-26b9aaf3-2021-2,2021,Canada,Steel,Intermediate metal produced,Nominal crude steel capacity,Capacity,ttpa,1200.0,,,SK-MAIN-26b9aaf3,,CMP-28720916,SRC_EVRAZNorthAmericaInc_Evraz_Regina_Steel_plant
-PROD-529c96b4-2023-1,2023,Canada,Lead,Refined metal produced,Refinery production,Production,kt,244.6,244600.0,,QC-MAIN-529c96b4,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
-PROD-529c96b4-2023-2,2023,Canada,Zinc,Refined metal produced,Refinery production,Production,kt,752.6,752600.0,,QC-MAIN-529c96b4,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
+PROD-de3d8b7b-2023-1,2023,Canada,Lead,Refined metal produced,Refinery production,Production,kt,244.6,244600.0,,QC-MAIN-de3d8b7b,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
+PROD-de3d8b7b-2023-2,2023,Canada,Zinc,Refined metal produced,Refinery production,Production,kt,752.6,752600.0,,QC-MAIN-de3d8b7b,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
 PROD-GRP-de097f20-2023-1,2023,World,Cobalt,Refined metal produced,Refinery production,Production,kt,0.4,400.0,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",,GRP-de097f20,CMP-d5f1c66b,SRC_Glencore_GLEN_2024_FY_ProductionReport
 PROD-GRP-de097f20-2023-2,2023,World,Cobalt,Refined metal produced,Refinery production,Production,kt,3.5,3500.0,"Includes third-party feed. Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",,GRP-de097f20,CMP-d5f1c66b,SRC_Glencore_GLEN_2024_FY_ProductionReport
 PROD-GRP-de097f20-2023-3,2023,Canada,Copper,Usable ore,Concentrate,Production,kt,4.8,4800.0,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",,GRP-de097f20,CMP-d5f1c66b,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
@@ -85,11 +85,11 @@ PROD-GRP-de097f20-2023-15,2023,World,Rhodium,Intermediate metal produced,Interme
 PROD-GRP-de097f20-2023-16,2023,World,Rhodium,Intermediate metal produced,Intermediate metal,Production,koz,3.0,0.09331049999999999,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",,GRP-de097f20,CMP-d5f1c66b,SRC_Glencore_GLEN_2024_FY_ProductionReport
 PROD-GRP-de097f20-2023-17,2023,World,Silver,Intermediate metal produced,Intermediate metal,Production,koz,223.0,6.9360805,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",,GRP-de097f20,CMP-d5f1c66b,SRC_Glencore_GLEN_2024_FY_ProductionReport
 PROD-GRP-de097f20-2023-18,2023,World,Silver,Intermediate metal produced,Intermediate metal,Production,koz,407.0,12.659124499999999,"Integrated Nickel Operations includes Sudbury, Raglan and Nikkelverk (in Norway). Intermediate or refined metal thus have world coverage.",,GRP-de097f20,CMP-d5f1c66b,SRC_Glencore_GLEN_2024_FY_ProductionReport
-PROD-a97821c0-2023-1,2023,Canada,Copper,Usable ore,Concentrate,Production,kt,22.6,22600.0,,QC-MAIN-a97821c0,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
-PROD-a97821c0-2023-2,2023,Canada,Zinc,Usable ore,Contained metal in concentrate,Production,kt,38.6,38600.0,,QC-MAIN-a97821c0,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024_FY_ProductionReport
-PROD-a97821c0-2023-3,2023,Canada,Zinc,Usable ore,Concentrate,Production,kt,38.6,38600.0,,QC-MAIN-a97821c0,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024_FY_ProductionReport
-PROD-a97821c0-2023-4,2023,Canada,Copper,Usable ore,Contained metal in concentrate,Production,kt,22.6,22600.0,,QC-MAIN-a97821c0,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024_FY_ProductionReport
-PROD-a97821c0-2023-5,2023,Canada,Silver,Usable ore,Contained metal in concentrate,Production,koz,1378.0,42.860623,,QC-MAIN-a97821c0,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-f8313ebd-2023-1,2023,Canada,Copper,Usable ore,Concentrate,Production,kt,22.6,22600.0,,ON-MAIN-f8313ebd,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024-FY_ProductionReport_tables
+PROD-f8313ebd-2023-2,2023,Canada,Zinc,Usable ore,Contained metal in concentrate,Production,kt,38.6,38600.0,,ON-MAIN-f8313ebd,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-f8313ebd-2023-3,2023,Canada,Zinc,Usable ore,Concentrate,Production,kt,38.6,38600.0,,ON-MAIN-f8313ebd,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-f8313ebd-2023-4,2023,Canada,Copper,Usable ore,Contained metal in concentrate,Production,kt,22.6,22600.0,,ON-MAIN-f8313ebd,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024_FY_ProductionReport
+PROD-f8313ebd-2023-5,2023,Canada,Silver,Usable ore,Contained metal in concentrate,Production,koz,1378.0,42.860623,,ON-MAIN-f8313ebd,,CMP-d5f1c66b,SRC_Glencore_GLEN_2024_FY_ProductionReport
 PROD-4724f4ba-2024-1,2024,Canada,Gold,Total extraction,Ore mined,Production,t,34017.0,34017.0,,BC-MAIN-4724f4ba,,CMP-d726df1c,SRC_GoldMountainMiningCorp_gold-mountain-reports-its-interim-q4-2025-financial-and-operating-results-1001121?utm_source=chatgpt
 PROD-4724f4ba-2024-2,2024,Canada,Gold,Crude ore,Ore delivered,Production,t,33245.0,33245.0,,BC-MAIN-4724f4ba,,CMP-d726df1c,SRC_GoldMountainMiningCorp_gold-mountain-reports-its-interim-q4-2025-financial-and-operating-results-1001121?utm_source=chatgpt
 PROD-4724f4ba-2024-3,2024,Canada,Gold,Usable ore,Contained metal in concentrate,Production,oz,3916.0,0.121801306,Gold ounces sold',BC-MAIN-4724f4ba,,CMP-d726df1c,SRC_GoldMountainMiningCorp_gold-mountain-reports-its-interim-q4-2025-financial-and-operating-results-1001121?utm_source=chatgpt
@@ -153,9 +153,9 @@ PROD-0aadf28f-2023-3,2023,Canada,Gold,Usable ore,Contained metal in concentrate,
 PROD-fefeaee4-2023-1,2023,Canada,Ore,Total extraction,Ore mined,Production,kt,167.0,167000.0,,ON-MAIN-fefeaee4,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
 PROD-fefeaee4-2023-2,2023,Canada,Ore,Crude ore,Ore processed,Production,kt,166.0,166000.0,,ON-MAIN-fefeaee4,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
 PROD-fefeaee4-2023-3,2023,Canada,Gold,Usable ore,Contained metal in concentrate,Production,koz,29.0,0.9020015,,ON-MAIN-fefeaee4,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
-PROD-538513cd-2023-1,2023,Canada,Gold,Usable ore,Contained metal in concentrate,Production,koz,232.0,7.216012,,ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
-PROD-538513cd-2023-2,2023,Canada,Gold,Total extraction,Ore mined,Production,kt,1656.0,1656000.0,,ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
-PROD-538513cd-2023-3,2023,Canada,Gold,Crude ore,Ore processed,Production,kt,1661.0,1661000.0,,ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-6dc537e6-2023-1,2023,Canada,Gold,Usable ore,Contained metal in concentrate,Production,koz,232.0,7.216012,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-6dc537e6-2023-2,2023,Canada,Gold,Total extraction,Ore mined,Production,kt,1656.0,1656000.0,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
+PROD-6dc537e6-2023-3,2023,Canada,Gold,Crude ore,Ore processed,Production,kt,1661.0,1661000.0,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
 PROD-8eb8be0d-2023-1,2023,Canada,Ore,Total extraction,Ore mined,Production,kt,1027.0,1027000.0,,BC-MAIN-8eb8be0d,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
 PROD-8eb8be0d-2023-2,2023,Canada,Ore,Crude ore,Ore processed,Production,kt,1028.0,1028000.0,,BC-MAIN-8eb8be0d,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
 PROD-8eb8be0d-2023-3,2023,Canada,Gold,Usable ore,Contained metal in concentrate,Production,koz,180.0,5.59863,,BC-MAIN-8eb8be0d,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
@@ -178,16 +178,16 @@ PROD-8d6616b4-2023-1,2023,Canada,Aluminum,Intermediate metal produced,Smelter pr
 PROD-8d6616b4-2023-2,2023,Canada,Aluminum,Intermediate metal produced,Smelter production,Production,kt,634.0,634000.0,,QC-MAIN-8d6616b4,GRP-677b5973,CMP-7a096012,SRC_RioTinto_rt-fact-book-addendum
 PROD-c0e3a48b-2023-1,2023,Canada,Aluminum,Intermediate metal produced,Smelter production,Capacity,t,234000.0,,,QC-MAIN-c0e3a48b,GRP-677b5973,CMP-7a096012,SRC_RioTinto_rt-fact-book-addendum
 PROD-c0e3a48b-2023-2,2023,Canada,Aluminum,Intermediate metal produced,Smelter production,Production,kt,172.039452,172039.45200000002,,QC-MAIN-c0e3a48b,GRP-677b5973,CMP-7a096012,SRC_RioTinto_rt-fact-book-addendum
-PROD-e82266c5-2023-1,2023,Canada,Diamonds,Usable ore,Diamond recovered,Production,kct,3339.76203,0.667952406,,QC-MAIN-e82266c5,,CMP-7a096012,SRC_RioTinto_2024-4qor-xlsx
-PROD-e82266c5-2023-2,2023,Canada,Diamonds,Crude ore,Ore processed,Production,kct,1687.71,0.337542,,QC-MAIN-e82266c5,,CMP-7a096012,SRC_RioTinto_2024-4qor-xlsx
+PROD-0ec39ce0-2023-1,2023,Canada,Diamonds,Usable ore,Diamond recovered,Production,kct,3339.76203,0.667952406,,NT-MAIN-0ec39ce0,,CMP-7a096012,SRC_RioTinto_2024-4qor-xlsx
+PROD-0ec39ce0-2023-2,2023,Canada,Diamonds,Crude ore,Ore processed,Production,kct,1687.71,0.337542,,NT-MAIN-0ec39ce0,,CMP-7a096012,SRC_RioTinto_2024-4qor-xlsx
 PROD-92628f16-2023-1,2023,Canada,Aluminum,Intermediate metal produced,Smelter production,Capacity,t,233000.0,,,QC-MAIN-92628f16,GRP-677b5973,CMP-7a096012,SRC_RioTinto_the-industry
 PROD-92628f16-2023-2,2023,Canada,Aluminum,Intermediate metal produced,Smelter production,Production,kt,229.0,229000.0,,QC-MAIN-92628f16,GRP-677b5973,CMP-7a096012,SRC_RioTinto_rt-fact-book-addendum
-PROD-c1c7eb99-2023-1,2023,Canada,Aluminum,Intermediate metal produced,Smelter production,Capacity,t,432000.0,,,QC-MAIN-c1c7eb99,,CMP-7a096012,SRC_RioTinto_the-industry
-PROD-c1c7eb99-2023-2,2023,Canada,Aluminum,Intermediate metal produced,Smelter production,Production,kt,377.272078,377272.07800000004,,QC-MAIN-c1c7eb99,,CMP-7a096012,SRC_RioTinto_rt-fact-book-addendum
+PROD-eb47f7c7-2023-1,2023,Canada,Aluminum,Intermediate metal produced,Smelter production,Capacity,t,432000.0,,,BC-MAIN-eb47f7c7,,CMP-7a096012,SRC_RioTinto_the-industry
+PROD-eb47f7c7-2023-2,2023,Canada,Aluminum,Intermediate metal produced,Smelter production,Production,kt,377.272078,377272.07800000004,,BC-MAIN-eb47f7c7,,CMP-7a096012,SRC_RioTinto_rt-fact-book-addendum
 PROD-3aa117d8-2023-1,2023,Canada,Aluminum,Intermediate metal produced,Smelter production,Capacity,t,257000.0,,,QC-MAIN-3aa117d8,GRP-677b5973,CMP-7a096012,SRC_RioTinto_the-industry
 PROD-3aa117d8-2023-2,2023,Canada,Aluminum,Intermediate metal produced,Smelter production,Production,kt,243.851812,243851.812,,QC-MAIN-3aa117d8,GRP-677b5973,CMP-7a096012,SRC_RioTinto_rt-fact-book-addendum
 PROD-3e146840-2023-1,2023,Canada,Titanium dioxide slag,Refined metal produced,Unspecified,Production,kt,1111.0,1111000.0,Difficult to assign a reference point. Probably 4 or 5?,QC-MAIN-3e146840,GRP-25483238,CMP-7a096012,SRC_RioTinto_rt-fact-book-addendum
-PROD-eb47f7c7-2023-1,2023,Canada,Alumina,Intermediate metal produced,Smelter grade alumina,Production,kt,1391.80580303269,1391805.80303269,,BC-MAIN-eb47f7c7,GRP-677b5973,CMP-7a096012,SRC_RioTinto_rt-fact-book-addendum
+PROD-92628f16-2023-3,2023,Canada,Alumina,Intermediate metal produced,Smelter grade alumina,Production,kt,1391.80580303269,1391805.80303269,,QC-MAIN-92628f16,GRP-677b5973,CMP-7a096012,SRC_RioTinto_rt-fact-book-addendum
 PROD-dc1a16f9-2023-1,2023,Canada,Lithium,Total extraction,Ore mined,Production,wmt,407034.0,407034.0,,QC-MAIN-dc1a16f9,,CMP-9f967ad1,SRC_SayonaQuébecInc_AR_2023
 PROD-dc1a16f9-2023-2,2023,Canada,Lithium,Usable ore,Concentrate,Production,dmt,33120.0,33120.0,,QC-MAIN-dc1a16f9,,CMP-9f967ad1,SRC_SayonaQuébecInc_AR_2023
 PROD-d3a4aba9-2022-1,2022,Canada,Cobalt,Refined metal produced,Refinery production,Production,t,3368.0,3368.0,Deducted as the difference and verified in the SR,AB-MAIN-d3a4aba9,,CMP-2ef1f553,SRC_SherrittInternationalCorporationandGeneralNickelCompanyS.A._TR_2023

@@ -7,10 +7,31 @@ WASTE-aeafbb59-2023-1,2023,waste,Total waste generated,t,110071399.0,,ON-MAIN-ae
 WASTE-aeafbb59-2023-2,2023,waste,Total waste rock mined,t,84640098.0,,ON-MAIN-aeafbb59,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 WASTE-aeafbb59-2023-3,2023,waste,Total mill tailings produced,t,25430000.0,,ON-MAIN-aeafbb59,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 WASTE-aeafbb59-2023-4,2023,waste,Total mined material,t,110070098.0,,ON-MAIN-aeafbb59,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+WASTE-9de9bb0d-2023-1,2023,waste,Waste rock generated,t,144569.0,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+WASTE-9de9bb0d-2023-2,2023,waste,Tailings waste generated,t,225768.0,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+WASTE-9de9bb0d-2023-3,2023,waste,Non-mineral waste generated,t,1486.0,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+WASTE-6c1d6ee6-2023-1,2023,waste,Waste mined,Mwmt,16.6,,NT-MAIN-6c1d6ee6,,CMP-caa580a0,SRC_BurgundyDiamondMines_Quarterly-Activities-Report-for-the-Period-ended-September-30th-2024
+WASTE-6dc537e6-2023-1,2023,waste,Total tailings produced,t,1660564.0,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
+WASTE-6dc537e6-2023-2,2023,waste,Total waste rock generated,t,600794.0,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
+WASTE-4724f4ba-2024-1,2024,waste,Waste mined,t,1623010.0,,BC-MAIN-4724f4ba,,CMP-d726df1c,SRC_GoldMountainMiningCorp_gold-mountain-reports-its-interim-q4-2025-financial-and-operating-results-1001121?utm_source=chatgpt
+WASTE-6b4800fe-2023-1,2023,waste,Tailings produced,t,27122843.0,,BC-MAIN-6b4800fe,,CMP-e35f138c,SRC_TasekoMinesLimited_ESG_2023
+WASTE-6b4800fe-2023-2,2023,waste,Waste rock generated,t,44910851.0,,BC-MAIN-6b4800fe,,CMP-e35f138c,SRC_TasekoMinesLimited_ESG_2023
 WASTE-c0660aec-2023-1,2023,waste,Total waste generated,t,3268938.1,,QC-MAIN-c0660aec,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 WASTE-c0660aec-2023-2,2023,waste,Total waste rock mined,t,468055.0,,QC-MAIN-c0660aec,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 WASTE-c0660aec-2023-3,2023,waste,Total mill tailings produced,t,2800764.0,,QC-MAIN-c0660aec,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 WASTE-c0660aec-2023-4,2023,waste,Total mined material,t,3268819.0,,QC-MAIN-c0660aec,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+WASTE-6e9be24e-2023-1,2023,waste,Waste rock mined,t,1530006.0,Not sure of the unit,ON-MAIN-6e9be24e,,CMP-79bcdb91,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
+WASTE-7607a50e-2023-1,2023,waste,Total waste rock generated,t,482598.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+WASTE-7607a50e-2023-2,2023,waste,Total non-mineral waste,t,4300.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+WASTE-7607a50e-2023-3,2023,waste,Total mineral waste,t,921606.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+WASTE-7607a50e-2023-4,2023,waste,Total tailings generated,t,439008.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+WASTE-c5fefb01-2023-1,2023,waste,Waste rock generated,t,162150.0,,ON-MAIN-c5fefb01,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+WASTE-c5fefb01-2023-2,2023,waste,Tailings waste generated,t,198644.0,,ON-MAIN-c5fefb01,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+WASTE-c5fefb01-2023-3,2023,waste,Non-mineral waste generated,t,749.0,,ON-MAIN-c5fefb01,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+WASTE-f9e41c2a-2023-1,2023,waste,Mineral waste|Non-acid generating waste rock,t,232583.0,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_ESG_2023
+WASTE-f9e41c2a-2023-2,2023,waste,Tailings produced,t,852679.0,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_ESG_2023
+WASTE-f9e41c2a-2023-3,2023,waste,Non-mineral waste|Non-hazardous,t,1153.0,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_ESG_2023
+WASTE-f9e41c2a-2023-4,2023,waste,Non-mineral waste|Hazardous,t,1406.0,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_ESG_2023
 WASTE-e51eda66-2023-1,2023,waste,Total waste generated,t,3900105.9220000003,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 WASTE-e51eda66-2023-2,2023,waste,Total waste rock mined,t,1192036.2,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 WASTE-e51eda66-2023-3,2023,waste,Total mill tailings produced,t,60933565.0,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
@@ -19,6 +40,7 @@ WASTE-1f126a43-2023-1,2023,waste,Total waste generated,t,878017.01,,ON-MAIN-1f12
 WASTE-1f126a43-2023-2,2023,waste,Total waste rock mined,t,552101.0,,ON-MAIN-1f126a43,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 WASTE-1f126a43-2023-3,2023,waste,Total mill tailings produced,t,325845.0,,ON-MAIN-1f126a43,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 WASTE-1f126a43-2023-4,2023,waste,Total mined material,t,877946.0,,ON-MAIN-1f126a43,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+WASTE-8825d90d-2024-1,2024,waste,Waste mined,t,6759562.0,Data from Alamos Gold,ON-MAIN-8825d90d,,CMP-a6812c47,SRC_ArgonautGoldInc_Data_2023
 WASTE-GRP-0a2c0d69-2023-1,2023,waste,Total waste generated,t,36711918.10199999,,,GRP-0a2c0d69,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 WASTE-GRP-0a2c0d69-2023-2,2023,waste,Total waste rock mined,t,32867064.101999987,,,GRP-0a2c0d69,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 WASTE-GRP-0a2c0d69-2023-3,2023,waste,Total mill tailings produced,t,3842647.0,,,GRP-0a2c0d69,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
@@ -27,65 +49,43 @@ WASTE-8b0264c9-2023-1,2023,waste,Total waste generated,t,6038878.0,,NU-MAIN-8b02
 WASTE-8b0264c9-2023-2,2023,waste,Total waste rock mined,t,4119386.0,,NU-MAIN-8b0264c9,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 WASTE-8b0264c9-2023-3,2023,waste,Total mill tailings produced,t,1918143.0,,NU-MAIN-8b0264c9,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 WASTE-8b0264c9-2023-4,2023,waste,Total mined material,t,6037529.0,,NU-MAIN-8b0264c9,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-WASTE-7607a50e-2023-1,2023,waste,Total waste rock generated,t,482598.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-WASTE-7607a50e-2023-2,2023,waste,Total non-mineral waste,t,4300.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-WASTE-7607a50e-2023-3,2023,waste,Total mineral waste,t,921606.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-WASTE-7607a50e-2023-4,2023,waste,Total tailings generated,t,439008.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-WASTE-687b8c8d-2023-1,2023,waste,Total waste rock generated,t,451287.1,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-WASTE-687b8c8d-2023-2,2023,waste,Total non-mineral waste,t,1317.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-WASTE-687b8c8d-2023-3,2023,waste,Total mineral waste,t,3329334.063136,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-WASTE-687b8c8d-2023-4,2023,waste,Total tailings generated,t,2878047.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-WASTE-8825d90d-2024-1,2024,waste,Waste mined,t,6759562.0,Data from Alamos Gold,ON-MAIN-8825d90d,,CMP-a6812c47,SRC_ArgonautGoldInc_Data_2023
-WASTE-6e9be24e-2023-1,2023,waste,Waste rock mined,t,1530006.0,Not sure of the unit,ON-MAIN-6e9be24e,,CMP-79bcdb91,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
-WASTE-6c1d6ee6-2023-1,2023,waste,Waste mined,Mwmt,16.6,,NT-MAIN-6c1d6ee6,,CMP-caa580a0,SRC_BurgundyDiamondMines_Quarterly-Activities-Report-for-the-Period-ended-September-30th-2024
 WASTE-ed23117f-2023-1,2023,waste,Total waste rock,t,23170013.0,,BC-MAIN-ed23117f,,CMP-fa032e20,SRC_CenterraGoldInc_Data
 WASTE-ed23117f-2023-2,2023,waste,Total weight of industrial waste,t,7261.1,,BC-MAIN-ed23117f,,CMP-fa032e20,SRC_CenterraGoldInc_Data
 WASTE-ed23117f-2023-3,2023,waste,Total tailings produced,t,28177873.0,,BC-MAIN-ed23117f,,CMP-fa032e20,SRC_CenterraGoldInc_Data
 WASTE-ed23117f-2023-4,2023,waste,Total hazardous waste generated,t,592.79,,BC-MAIN-ed23117f,,CMP-fa032e20,SRC_CenterraGoldInc_Data
-WASTE-f9e41c2a-2023-1,2023,waste,Mineral waste|Non-acid generating waste rock,t,232583.0,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_ESG_2023
-WASTE-f9e41c2a-2023-2,2023,waste,Tailings produced,t,852679.0,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_ESG_2023
-WASTE-f9e41c2a-2023-3,2023,waste,Non-mineral waste|Non-hazardous,t,1153.0,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_ESG_2023
-WASTE-f9e41c2a-2023-4,2023,waste,Non-mineral waste|Hazardous,t,1406.0,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_ESG_2023
+WASTE-8eb8be0d-2023-1,2023,waste,Total tailings produced,t,1028185.0,,BC-MAIN-8eb8be0d,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
+WASTE-8eb8be0d-2023-2,2023,waste,Total waste rock generated,t,701214.0,,BC-MAIN-8eb8be0d,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
+WASTE-aa76f6f2-2023-1,2023,waste,Total waste generated,t,1230.619,,BC-MAIN-aa76f6f2,,CMP-d94be190,SRC_NewGoldInc_2023-New-Gold-ESG-Data-Factbook
+WASTE-aa76f6f2-2023-2,2023,waste,Total tailings produced,t,2970929.0,,BC-MAIN-aa76f6f2,,CMP-d94be190,SRC_NewGoldInc_2023-New-Gold-ESG-Data-Factbook
+WASTE-aa76f6f2-2023-3,2023,waste,Total waste rock generated,t,573564.0,,BC-MAIN-aa76f6f2,,CMP-d94be190,SRC_NewGoldInc_2023-New-Gold-ESG-Data-Factbook
+WASTE-aa76f6f2-2023-4,2023,waste,Waste mined,kt,574.0,,BC-MAIN-aa76f6f2,,CMP-d94be190,SRC_NewGoldInc_New_gold_production
+WASTE-GRP-0d911886-2023-1,2023,waste,Total tailings produced,t,2911165.0,,,GRP-0d911886,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
+WASTE-GRP-0d911886-2023-2,2023,waste,Total waste rock generated,t,4629650.0,,,GRP-0d911886,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
+WASTE-0aadf28f-2023-1,2023,waste,Total waste generated,t,2158.62,,ON-MAIN-0aadf28f,,CMP-d94be190,SRC_NewGoldInc_2023-New-Gold-ESG-Data-Factbook
+WASTE-0aadf28f-2023-2,2023,waste,Total tailings produced,t,8764782.0,,ON-MAIN-0aadf28f,,CMP-d94be190,SRC_NewGoldInc_2023-New-Gold-ESG-Data-Factbook
+WASTE-0aadf28f-2023-3,2023,waste,Total waste rock generated,t,30433778.0,,ON-MAIN-0aadf28f,,CMP-d94be190,SRC_NewGoldInc_2023-New-Gold-ESG-Data-Factbook
+WASTE-0aadf28f-2023-4,2023,waste,Waste mined,kt,31553.0,,ON-MAIN-0aadf28f,,CMP-d94be190,SRC_NewGoldInc_New_gold_production
 WASTE-7f050560-2024-1,2024,waste,Total non-hazardous waste generated,t,8877.1665,,ON-MAIN-7f050560,,CMP-ca642bce,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
 WASTE-7f050560-2024-2,2024,waste,Total hazardous waste generated,t,622.02440708,,ON-MAIN-7f050560,,CMP-ca642bce,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
 WASTE-7f050560-2024-3,2024,waste,Total waste generated,t,9499.19090708,,ON-MAIN-7f050560,,CMP-ca642bce,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
 WASTE-7f050560-2024-4,2024,waste,Total waste mined,t,993271.0,,ON-MAIN-7f050560,,CMP-ca642bce,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
 WASTE-7f050560-2024-5,2024,waste,Total non-mineral waste generated,t,9499.191,,ON-MAIN-7f050560,,CMP-ca642bce,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
 WASTE-7f050560-2024-6,2024,waste,Waste mined,t,993271.0,,ON-MAIN-7f050560,,CMP-ca642bce,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
-WASTE-4724f4ba-2024-1,2024,waste,Waste mined,t,1623010.0,,BC-MAIN-4724f4ba,,CMP-d726df1c,SRC_GoldMountainMiningCorp_gold-mountain-reports-its-interim-q4-2025-financial-and-operating-results-1001121?utm_source=chatgpt
-WASTE-02884fb5-2023-1,2023,waste,Mineral waste|Waste rock,t,2423604.0,,QC-MAIN-02884fb5,,CMP-3d0a95b7,SRC_IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
-WASTE-02884fb5-2023-2,2023,waste,Mineral waste|Tailings,t,927386.0,,QC-MAIN-02884fb5,,CMP-3d0a95b7,SRC_IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
-WASTE-02884fb5-2023-3,2023,waste,Mineral waste|Sludges,t,10095.0,,QC-MAIN-02884fb5,,CMP-3d0a95b7,SRC_IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
-WASTE-02884fb5-2023-4,2023,waste,Non-mineral waste|Overburden,t,1185440.0,,QC-MAIN-02884fb5,,CMP-3d0a95b7,SRC_IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
-WASTE-aa76f6f2-2023-1,2023,waste,Total waste generated,t,1230.619,,BC-MAIN-aa76f6f2,,CMP-d94be190,SRC_NewGoldInc_2023-New-Gold-ESG-Data-Factbook
-WASTE-aa76f6f2-2023-2,2023,waste,Total tailings produced,t,2970929.0,,BC-MAIN-aa76f6f2,,CMP-d94be190,SRC_NewGoldInc_2023-New-Gold-ESG-Data-Factbook
-WASTE-aa76f6f2-2023-3,2023,waste,Total waste rock generated,t,573564.0,,BC-MAIN-aa76f6f2,,CMP-d94be190,SRC_NewGoldInc_2023-New-Gold-ESG-Data-Factbook
-WASTE-aa76f6f2-2023-4,2023,waste,Waste mined,kt,574.0,,BC-MAIN-aa76f6f2,,CMP-d94be190,SRC_NewGoldInc_New_gold_production
-WASTE-0aadf28f-2023-1,2023,waste,Total waste generated,t,2158.62,,ON-MAIN-0aadf28f,,CMP-d94be190,SRC_NewGoldInc_2023-New-Gold-ESG-Data-Factbook
-WASTE-0aadf28f-2023-2,2023,waste,Total tailings produced,t,8764782.0,,ON-MAIN-0aadf28f,,CMP-d94be190,SRC_NewGoldInc_2023-New-Gold-ESG-Data-Factbook
-WASTE-0aadf28f-2023-3,2023,waste,Total waste rock generated,t,30433778.0,,ON-MAIN-0aadf28f,,CMP-d94be190,SRC_NewGoldInc_2023-New-Gold-ESG-Data-Factbook
-WASTE-0aadf28f-2023-4,2023,waste,Waste mined,kt,31553.0,,ON-MAIN-0aadf28f,,CMP-d94be190,SRC_NewGoldInc_New_gold_production
-WASTE-538513cd-2023-1,2023,waste,Total tailings produced,t,1660564.0,,ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
-WASTE-538513cd-2023-2,2023,waste,Total waste rock generated,t,600794.0,,ON-MAIN-538513cd,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
-WASTE-8eb8be0d-2023-1,2023,waste,Total tailings produced,t,1028185.0,,BC-MAIN-8eb8be0d,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
-WASTE-8eb8be0d-2023-2,2023,waste,Total waste rock generated,t,701214.0,,BC-MAIN-8eb8be0d,,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
-WASTE-GRP-0d911886-2023-1,2023,waste,Total tailings produced,t,2911165.0,,,GRP-0d911886,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
-WASTE-GRP-0d911886-2023-2,2023,waste,Total waste rock generated,t,4629650.0,,,GRP-0d911886,CMP-4a434d72,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
+WASTE-GRP-14bfbb82-2023-1,2023,waste,Tailings deposited,t,318053.0,,,GRP-14bfbb82,CMP-4a73c5f8,SRC_SSRMiningInc_ESG_2023
+WASTE-GRP-14bfbb82-2023-2,2023,waste,Waste rock mined,t,307070.0,,,GRP-14bfbb82,CMP-4a73c5f8,SRC_SSRMiningInc_ESG_2023
+WASTE-GRP-14bfbb82-2023-3,2023,waste,Waste rock backfilled,t,307070.0,,,GRP-14bfbb82,CMP-4a73c5f8,SRC_SSRMiningInc_ESG_2023
+WASTE-GRP-14bfbb82-2023-4,2023,waste,Hazardous waste,t,84.0,,,GRP-14bfbb82,CMP-4a73c5f8,SRC_SSRMiningInc_ESG_2023
 WASTE-GRP-147b3123-2023-1,2023,waste,Maximum permitted storage capacity,Mt,24.1,,,GRP-147b3123,CMP-48a36546,SRC_PanAmericanSilverCorp_PAS-2023-Sustainability-Performance-Data-Book
 WASTE-GRP-147b3123-2023-2,2023,waste,Current amount of tailings stored,Mt,13.8,,,GRP-147b3123,CMP-48a36546,SRC_PanAmericanSilverCorp_PAS-2023-Sustainability-Performance-Data-Book
 WASTE-GRP-147b3123-2023-3,2023,waste,Tailings|Not used as hydraulic backfill,dry t,1573733.1,,,GRP-147b3123,CMP-48a36546,SRC_PanAmericanSilverCorp_PAS-2023-Sustainability-Performance-Data-Book
 WASTE-GRP-147b3123-2023-4,2023,waste,Tailings|Used as hydraulic backfill,dry t,401350.0,,,GRP-147b3123,CMP-48a36546,SRC_PanAmericanSilverCorp_PAS-2023-Sustainability-Performance-Data-Book
 WASTE-GRP-147b3123-2023-5,2023,waste,Waste rock|Not used as backfill,t,103803.0,,,GRP-147b3123,CMP-48a36546,SRC_PanAmericanSilverCorp_PAS-2023-Sustainability-Performance-Data-Book
 WASTE-GRP-147b3123-2023-6,2023,waste,Waste rock|Used as backfill,t,573800.0,,,GRP-147b3123,CMP-48a36546,SRC_PanAmericanSilverCorp_PAS-2023-Sustainability-Performance-Data-Book
-WASTE-GRP-14bfbb82-2023-1,2023,waste,Tailings deposited,t,318053.0,,,GRP-14bfbb82,CMP-4a73c5f8,SRC_SSRMiningInc_ESG_2023
-WASTE-GRP-14bfbb82-2023-2,2023,waste,Waste rock mined,t,307070.0,,,GRP-14bfbb82,CMP-4a73c5f8,SRC_SSRMiningInc_ESG_2023
-WASTE-GRP-14bfbb82-2023-3,2023,waste,Waste rock backfilled,t,307070.0,,,GRP-14bfbb82,CMP-4a73c5f8,SRC_SSRMiningInc_ESG_2023
-WASTE-GRP-14bfbb82-2023-4,2023,waste,Hazardous waste,t,84.0,,,GRP-14bfbb82,CMP-4a73c5f8,SRC_SSRMiningInc_ESG_2023
-WASTE-6b4800fe-2023-1,2023,waste,Tailings produced,t,27122843.0,,BC-MAIN-6b4800fe,,CMP-e35f138c,SRC_TasekoMinesLimited_ESG_2023
-WASTE-6b4800fe-2023-2,2023,waste,Waste rock generated,t,44910851.0,,BC-MAIN-6b4800fe,,CMP-e35f138c,SRC_TasekoMinesLimited_ESG_2023
-WASTE-9de9bb0d-2023-1,2023,waste,Waste rock generated,t,144569.0,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-WASTE-9de9bb0d-2023-2,2023,waste,Tailings waste generated,t,225768.0,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-WASTE-9de9bb0d-2023-3,2023,waste,Non-mineral waste generated,t,1486.0,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-WASTE-c5fefb01-2023-1,2023,waste,Waste rock generated,t,162150.0,,ON-MAIN-c5fefb01,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-WASTE-c5fefb01-2023-2,2023,waste,Tailings waste generated,t,198644.0,,ON-MAIN-c5fefb01,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-WASTE-c5fefb01-2023-3,2023,waste,Non-mineral waste generated,t,749.0,,ON-MAIN-c5fefb01,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+WASTE-02884fb5-2023-1,2023,waste,Mineral waste|Waste rock,t,2423604.0,,QC-MAIN-02884fb5,,CMP-3d0a95b7,SRC_IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
+WASTE-02884fb5-2023-2,2023,waste,Mineral waste|Tailings,t,927386.0,,QC-MAIN-02884fb5,,CMP-3d0a95b7,SRC_IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
+WASTE-02884fb5-2023-3,2023,waste,Mineral waste|Sludges,t,10095.0,,QC-MAIN-02884fb5,,CMP-3d0a95b7,SRC_IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
+WASTE-02884fb5-2023-4,2023,waste,Non-mineral waste|Overburden,t,1185440.0,,QC-MAIN-02884fb5,,CMP-3d0a95b7,SRC_IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
+WASTE-687b8c8d-2023-1,2023,waste,Total waste rock generated,t,451287.1,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+WASTE-687b8c8d-2023-2,2023,waste,Total non-mineral waste,t,1317.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+WASTE-687b8c8d-2023-3,2023,waste,Total mineral waste,t,3329334.063136,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+WASTE-687b8c8d-2023-4,2023,waste,Total tailings generated,t,2878047.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
