@@ -1,4 +1,95 @@
 ﻿intensity_id,year,commodity,type,subtype,unit,value,comment,main_id,facility_group_id,company_id,source_id
+INT-e7e6a960-2023-1,2023,"Gold, silver",Water,Freshwater withdrawn for use intensity,m3 of water/t of ore processed,0.03242599309372303,,QC-MAIN-e7e6a960,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042091
+INT-e7e6a960-2023-2,2023,"Gold, silver",Water,Freshwater withdrawn for use intensity,m3 of water/oz of gold,0.9280570810937134,,QC-MAIN-e7e6a960,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042092
+INT-e7e6a960-2023-3,2023,"Gold, silver",Energy,Electricity intensity,kWh/t ore processed,34.42341742720361,,QC-MAIN-e7e6a960,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+INT-e7e6a960-2023-4,2023,"Gold, silver",Energy,Energy intensity,GJ/t ore processed,0.265028869173186,,QC-MAIN-e7e6a960,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+INT-dd723db4-2023-1,2023,Iron,GHG,scope1+2 intensity|mining operation,kgCO2eq/kt,1341.0,,NL-MAIN-dd723db4,,,SRC_IronOreCompanyofCanadaInc_SR_2023
+INT-dd723db4-2023-2,2023,Iron,GHG,scope1+2 intensity|concentrate,kgCO2eq/kt,813.0,,NL-MAIN-dd723db4,,,SRC_IronOreCompanyofCanadaInc_SR_2023
+INT-dd723db4-2023-3,2023,Iron,GHG,scope1+2 intensity|pellets,tCO2/kt,58.5,,NL-MAIN-dd723db4,,,SRC_IronOreCompanyofCanadaInc_SR_2023
+INT-dd723db4-2023-4,2023,Iron,GHG,scope1+2 intensity|saleable products,tCO2eq/t of total saleable product,0.0539,,NL-MAIN-dd723db4,,,SRC_IronOreCompanyofCanadaInc_SR_2023
+INT-aeafbb59-2023-1,2023,Gold,Water,Freshwater withdrawn for use intensity,m3 of water/t of ore processed,0.02,,ON-MAIN-aeafbb59,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042028
+INT-aeafbb59-2023-2,2023,Gold,Water,Freshwater withdrawn for use intensity,m3 of water/oz of gold,0.08,,ON-MAIN-aeafbb59,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042029
+INT-aeafbb59-2023-3,2023,Gold,Energy,Electricity intensity,kWh/t ore processed,32.670089368553114,,ON-MAIN-aeafbb59,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+INT-aeafbb59-2023-4,2023,Gold,Energy,Energy intensity,GJ/t ore processed,0.285352773874262,,ON-MAIN-aeafbb59,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+INT-cb85213a-2023-1,2023,Gold,Energy,Energy intensity,GJ/t milled,2.18,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd._ESG_data_2023
+INT-cb85213a-2023-2,2023,Gold,Energy,Energy intensity,GJ/oz,5.67,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd._ESG_data_2023
+INT-cb85213a-2023-3,2023,Gold,GHG,scope1+2,tCO2eq/t milled,0.07,,ON-MAIN-cb85213a,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+INT-cb85213a-2023-4,2023,Gold,GHG,scope1+2,tCO2eq/oz produced,0.17,,ON-MAIN-cb85213a,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+INT-cb85213a-2023-5,2023,Gold,GHG,scope1+2,tCO2eq/t milled,0.07,,ON-MAIN-cb85213a,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+INT-cb85213a-2023-6,2023,Gold,GHG,scope1+2,tCO2eq/oz produced,0.17,,ON-MAIN-cb85213a,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+INT-cb85213a-2023-7,2023,Gold,Water,Water intensity,m3/t milled,0.13,,ON-MAIN-cb85213a,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+INT-cb85213a-2023-8,2023,Gold,Water,Water intensity,m3/oz produced,0.33,,ON-MAIN-cb85213a,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+INT-6dc537e6-2023-1,2023,Gold,Water,Water intensity,ML/thousand geo,4.338125,,QC-MAIN-6dc537e6,,,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
+INT-6dc537e6-2023-2,2023,Gold,Water,Water intensity,ML/t ore processed,0.605927152317881,,QC-MAIN-6dc537e6,,,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
+INT-6b4800fe-2023-1,2023,"Copper, molybdenum, silver",GHG,scope1 intensity,tCO2eq/t Cueq,2.21,,BC-MAIN-6b4800fe,,,SRC_TasekoMinesLimited_ESG_2023
+INT-c0660aec-2023-1,2023,"Gold, silver",Water,Freshwater withdrawn for use intensity,m3 of water/t of ore processed,0.6315166931499504,,QC-MAIN-c0660aec,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042112
+INT-c0660aec-2023-2,2023,"Gold, silver",Water,Freshwater withdrawn for use intensity,m3 of water/oz of gold,12.931689622605415,,QC-MAIN-c0660aec,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042113
+INT-c0660aec-2023-3,2023,"Gold, silver",Energy,Electricity intensity,kWh/t ore processed,61.97653235666382,,QC-MAIN-c0660aec,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+INT-c0660aec-2023-4,2023,"Gold, silver",Energy,Energy intensity,GJ/t ore processed,0.302120871322905,,QC-MAIN-c0660aec,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+INT-6e9be24e-2023-1,2023,Gold,Energy,Energy intensity,GJ/oz gold produced,6.53,,ON-MAIN-6e9be24e,,CMP-79bcdb91,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
+INT-6e9be24e-2023-2,2023,Gold,Energy,Energy intensity,GJ/t of ore processed,0.73,,ON-MAIN-6e9be24e,,CMP-79bcdb91,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
+INT-6e9be24e-2023-3,2023,,GHG,scope1+2?,tCO2eq/oz gold,0.177,,ON-MAIN-6e9be24e,,,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
+INT-6e9be24e-2023-4,2023,,GHG,scope1+2?,tCO2eq/t of ore processed,0.02,,ON-MAIN-6e9be24e,,,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
+INT-6e9be24e-2023-5,2023,Gold,GHG,scope1+2?,tCO2eq/oz gold,0.177,,ON-MAIN-6e9be24e,,,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
+INT-6e9be24e-2023-6,2023,Gold,GHG,scope1+2?,tCO2eq/t of ore processed,0.02,,ON-MAIN-6e9be24e,,,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
+INT-6e9be24e-2023-7,2023,Gold,Water,Withdrawal intensity,m3/oz produced,23.7,,ON-MAIN-6e9be24e,,,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
+INT-6e9be24e-2023-8,2023,Gold,Water,Withdrawal intensity,m3/t of ore processed,2.64,,ON-MAIN-6e9be24e,,,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
+INT-6e9be24e-2023-9,2023,Gold,Water,Consumption intensity,m3/oz produced,7.37,,ON-MAIN-6e9be24e,,,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
+INT-6e9be24e-2023-10,2023,Gold,Water,Consumption intensity,m3/t of ore processed,0.82,,ON-MAIN-6e9be24e,,,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
+INT-687b8c8d-2023-1,2023,Gold,Energy,Energy intensity,GJ/t ore mined,1.47,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+INT-687b8c8d-2023-2,2023,Gold,Energy,Energy intensity,GJ/oz gold produced,4.89,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+INT-687b8c8d-2023-3,2023,Gold,GHG,scope1+2?,CO2eq/t ore mined,0.0523288103286321,,ON-MAIN-687b8c8d,,,SRC_AlamosGoldInc_Data_2023
+INT-687b8c8d-2023-4,2023,Gold,GHG,scope1+2?,CO2eq/t ore treated,0.052153947080691,,ON-MAIN-687b8c8d,,,SRC_AlamosGoldInc_Data_2023
+INT-687b8c8d-2023-5,2023,Gold,GHG,scope1+2?,CO2eq/oz gold production,0.174246575342466,,ON-MAIN-687b8c8d,,,SRC_AlamosGoldInc_Data_2023
+INT-687b8c8d-2023-6,2023,Gold,GHG,scope1+2?,CO2eq/t ore mined,0.0523288103286321,,ON-MAIN-687b8c8d,,,SRC_AlamosGoldInc_Data_2023
+INT-687b8c8d-2023-7,2023,Gold,GHG,scope1+2?,CO2eq/t ore treated,0.052153947080691,,ON-MAIN-687b8c8d,,,SRC_AlamosGoldInc_Data_2023
+INT-687b8c8d-2023-8,2023,Gold,GHG,scope1+2?,CO2eq/oz gold production,0.174246575342466,,ON-MAIN-687b8c8d,,,SRC_AlamosGoldInc_Data_2023
+INT-9de9bb0d-2023-1,2023,Gold,Energy,Energy intensity,GJ/t milled,1.07,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd._ESG_data_2023
+INT-9de9bb0d-2023-2,2023,Gold,Energy,Energy intensity,GJ/oz,5.78,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd._ESG_data_2023
+INT-9de9bb0d-2023-3,2023,Gold,GHG,scope1+2,tCO2eq/t milled,0.02,,QC-MAIN-9de9bb0d,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+INT-9de9bb0d-2023-4,2023,Gold,GHG,scope1+2,tCO2eq/oz produced,0.12,,QC-MAIN-9de9bb0d,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+INT-9de9bb0d-2023-5,2023,Gold,GHG,scope1+2,tCO2eq/t milled,0.02,,QC-MAIN-9de9bb0d,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+INT-9de9bb0d-2023-6,2023,Gold,GHG,scope1+2,tCO2eq/oz produced,0.12,,QC-MAIN-9de9bb0d,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+INT-9de9bb0d-2023-7,2023,Gold,Water,Water intensity,m3/t milled,0.43,,QC-MAIN-9de9bb0d,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+INT-9de9bb0d-2023-8,2023,Gold,Water,Water intensity,m3/oz produced,17.02,,QC-MAIN-9de9bb0d,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+INT-f9e41c2a-2023-1,2023,Gold,GHG,scope1+2,tCO2eq/t ore milled,0.0218,,QC-MAIN-f9e41c2a,,,SRC_EldoradoGold_ESG_2023
+INT-f9e41c2a-2023-2,2023,Gold,GHG,scope1+2,tCO2eq/oz Au produced,0.1,,QC-MAIN-f9e41c2a,,,SRC_EldoradoGold_ESG_2023
+INT-f9e41c2a-2023-3,2023,Gold,GHG,scope1+2,tCO2eq/t ore milled,0.0218,,QC-MAIN-f9e41c2a,,,SRC_EldoradoGold_ESG_2023
+INT-f9e41c2a-2023-4,2023,Gold,GHG,scope1+2,tCO2eq/oz Au produced,0.1,,QC-MAIN-f9e41c2a,,,SRC_EldoradoGold_ESG_2023
+INT-e51eda66-2023-1,2023,"Gold, zinc, copper, silver, cadmium",Water,Freshwater withdrawn for use intensity,m3 of water/t of ore processed,0.5593410545680798,,QC-MAIN-e51eda66,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042154
+INT-e51eda66-2023-2,2023,"Gold, zinc, copper, silver, cadmium",Water,Freshwater withdrawn for use intensity,m3 of water/oz of gold,4.849037466890153,,QC-MAIN-e51eda66,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042155
+INT-e51eda66-2023-3,2023,"Gold, zinc, copper, silver, cadmium",Energy,Electricity intensity,kWh/t ore processed,176.50503987130364,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+INT-e51eda66-2023-4,2023,"Gold, zinc, copper, silver, cadmium",Energy,Energy intensity,GJ/t ore processed,0.899934786072663,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+INT-1f126a43-2023-1,2023,"Gold, silver",Water,Freshwater withdrawn for use intensity,m3 of water/t of ore processed,0.4370680362691015,,ON-MAIN-1f126a43,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042133
+INT-1f126a43-2023-2,2023,"Gold, silver",Water,Freshwater withdrawn for use intensity,m3 of water/oz of gold,0.8445270965060057,,ON-MAIN-1f126a43,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042134
+INT-1f126a43-2023-3,2023,"Gold, silver",Energy,Electricity intensity,kWh/t ore processed,413.40496118553943,,ON-MAIN-1f126a43,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+INT-1f126a43-2023-4,2023,"Gold, silver",Energy,Energy intensity,GJ/t ore processed,2.63907533719213,,ON-MAIN-1f126a43,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+INT-GRP-0a2c0d69-2023-1,2023,Gold,Water,Freshwater withdrawn for use intensity,m3 of water/t of ore processed,0.25211488183174835,,,GRP-0a2c0d69,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042049
+INT-GRP-0a2c0d69-2023-2,2023,Gold,Water,Freshwater withdrawn for use intensity,m3 of water/oz of gold,2.24430424698344,,,GRP-0a2c0d69,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042050
+INT-GRP-0a2c0d69-2023-3,2023,Gold,Energy,Electricity intensity,kWh/t ore processed,42.9,,,GRP-0a2c0d69,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+INT-GRP-0a2c0d69-2023-4,2023,Gold,Energy,Energy intensity,GJ/t ore processed,0.96,,,GRP-0a2c0d69,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+INT-8b0264c9-2023-1,2023,Gold,Water,Freshwater withdrawn for use intensity,m3 of water/t of ore processed,0.2739108216512045,,NU-MAIN-8b0264c9,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042070
+INT-8b0264c9-2023-2,2023,Gold,Water,Freshwater withdrawn for use intensity,m3 of water/oz of gold,1.442848265995526,,NU-MAIN-8b0264c9,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042071
+INT-8b0264c9-2023-3,2023,Gold,Energy,Electricity intensity,kWh/t ore processed,69.18668609046546,,NU-MAIN-8b0264c9,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+INT-8b0264c9-2023-4,2023,Gold,Energy,Energy intensity,GJ/t ore processed,1.0258080178506,,NU-MAIN-8b0264c9,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+INT-fefeaee4-2023-1,2023,"Gold, silver",Water,Water intensity,ML/thousand geo,3.12310656111111,,ON-MAIN-fefeaee4,,,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
+INT-fefeaee4-2023-2,2023,"Gold, silver",Water,Water intensity,ML/t ore processed,0.54684745233463,,ON-MAIN-fefeaee4,,,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
+INT-5ce331b8-2023-1,2023,"Nickel, copper, platinum group metals, cobalt",GHG,GHG intensity,tCO2eq/t ore milled,0.0794,,QC-MAIN-5ce331b8,,,SRC_CanadianRoyaltiesInc._Rapport_Objectif_Emissions_GES_2023_EN
+INT-5ce331b8-2023-2,2023,"Nickel, copper, platinum group metals, cobalt",Water,Water intensity,m3/t ore,0.4566666666666667,,QC-MAIN-5ce331b8,,,SRC_CanadianRoyaltiesInc._Rapport_Objectif_Emissions_GES_2023_EN
+INT-5ce331b8-2023-3,2023,"Nickel, copper, platinum group metals, cobalt",Energy,Energy intensity,kWt/ore milled,22.5,,QC-MAIN-5ce331b8,,CMP-d87d1101,SRC_CanadianRoyaltiesInc._Rapport_Objectif_Emissions_GES_2023_EN
+INT-GRP-0d911886-2023-1,2023,Gold,Water,Water intensity,ML/thousand geo,18.8762256653846,,,GRP-0d911886,,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
+INT-GRP-0d911886-2023-2,2023,Gold,Water,Water intensity,ML/t ore processed,1.68595626004809,,,GRP-0d911886,,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
+INT-7f050560-2024-1,2024,"Gold, silver",Energy,Electricity intensity,MWh/t of ore processed,0.29524214549167654,,ON-MAIN-7f050560,,CMP-ca642bce,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
+INT-7f050560-2024-2,2024,"Gold, silver",Energy,Energy intensity,GJ/t of ore processed,1.61310009892862,,ON-MAIN-7f050560,,CMP-ca642bce,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
+INT-7f050560-2024-3,2024,"Gold, silver",Energy,Energy intensity,GJ/oz of gold produced,12.037419549236647,,ON-MAIN-7f050560,,CMP-ca642bce,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
+INT-7607a50e-2023-1,2023,Gold,GHG,scope1+2?,CO2eq/t ore mined,0.0102982639920366,,ON-MAIN-7607a50e,,,SRC_AlamosGoldInc_Data_2023
+INT-7607a50e-2023-2,2023,Gold,GHG,scope1+2?,CO2eq/t ore treated,0.0102986510421976,,ON-MAIN-7607a50e,,,SRC_AlamosGoldInc_Data_2023
+INT-7607a50e-2023-3,2023,Gold,GHG,scope1+2?,CO2eq/oz gold production,0.160129659643436,,ON-MAIN-7607a50e,,,SRC_AlamosGoldInc_Data_2023
+INT-7607a50e-2023-4,2023,Gold,GHG,scope1+2?,CO2eq/t ore mined,0.0102982639920366,,ON-MAIN-7607a50e,,,SRC_AlamosGoldInc_Data_2023
+INT-7607a50e-2023-5,2023,Gold,GHG,scope1+2?,CO2eq/t ore treated,0.0102986510421976,,ON-MAIN-7607a50e,,,SRC_AlamosGoldInc_Data_2023
+INT-7607a50e-2023-6,2023,Gold,GHG,scope1+2?,CO2eq/oz gold production,0.160129659643436,,ON-MAIN-7607a50e,,,SRC_AlamosGoldInc_Data_2023
+INT-7607a50e-2023-7,2023,Gold,Energy,Energy intensity,GJ/t ore mined,0.47,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+INT-7607a50e-2023-8,2023,Gold,Energy,Energy intensity,GJ/oz gold produced,7.24,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
 INT-CMP-140e111b-2023-1,2023,Aluminum,GHG,Refining,tCO2eq/t of production,0.54,,,,CMP-140e111b,SRC_AlcoaCorporation_2023-Sustainability-Data-Book
 INT-CMP-140e111b-2023-2,2023,Aluminum,GHG,Smelting,tCO2eq/t of production,4.15,Operational control,,,CMP-140e111b,SRC_AlcoaCorporation_2023-Sustainability-Data-Book
 INT-CMP-140e111b-2023-3,2023,Aluminum,Land,Land utilization requirements for bauxite residue,m2 land/kt alumina produced,44.97,,,,CMP-140e111b,SRC_AlcoaCorporation_2023-Sustainability-Data-Book
@@ -25,108 +116,17 @@ INT-CMP-c08ac7d7-2023-2,2023,Iron,Air,PM2.5,kg/t iron concentrate produced,0.025
 INT-CMP-28720916-2021-1,2021,Steel,GHG,scope1+2?,tCO2eq/t steel cast,1.96,,,,CMP-28720916,SRC_EVRAZNorthAmericaInc_Databook_2021
 INT-CMP-28720916-2021-2,2021,Steel,Water,Freshwater withdrawal intensity,m3/t of steel cast,11.43,,,,CMP-28720916,SRC_EVRAZNorthAmericaInc_Databook_2021
 INT-CMP-28720916-2021-3,2021,Steel,GHG,scope1+2?,tCO2eq/t steel cast,1.96,,,,CMP-28720916,SRC_EVRAZNorthAmericaInc_Databook_2021
+INT-CMP-140e111b-2023-12,2023,Aluminum,Energy,Energy intensity,GJ/t aluminum produced,74.8,,,,CMP-140e111b,SRC_AlcoaCorporation_2023-Sustainability-Data-Book
 INT-CMP-12afc634-2023-1,2023,,GHG,scope1+2,tCO2eq/t of ore processed,9.9,,,,CMP-12afc634,SRC_HudbayMineralsInc_Hudbay-2023-Integrated-Annual-Report-Performance-Data
 INT-CMP-12afc634-2023-2,2023,,GHG,scope1+2,tCO2eq/t of copper-equivalent production),1.7,,,,CMP-12afc634,SRC_HudbayMineralsInc_Hudbay-2023-Integrated-Annual-Report-Performance-Data
 INT-CMP-12afc634-2023-3,2023,,GHG,scope1+2,tCO2eq/t of ore processed,9.9,,,,CMP-12afc634,SRC_HudbayMineralsInc_Hudbay-2023-Integrated-Annual-Report-Performance-Data
 INT-CMP-12afc634-2023-4,2023,,GHG,scope1+2,tCO2eq/t of copper-equivalent production),1.7,,,,CMP-12afc634,SRC_HudbayMineralsInc_Hudbay-2023-Integrated-Annual-Report-Performance-Data
+INT-CMP-c08ac7d7-2024-3,2024,Iron,Energy,Energy intensity,MJ/t iron concentrate produced,265.0,,,,CMP-c08ac7d7,SRC_ChampionIronLtd_cil-23sr-esg-databookvf
+INT-CMP-28720916-2021-4,2021,Steel,Energy,Energy intensity,GJ/t of crude steel,23.3,,,,CMP-28720916,SRC_EVRAZNorthAmericaInc_Databook_2021
 INT-CMP-9abb4c27-2023-1,2023,Talc,GHG,scope1+2 intensity,tCO2eq/t,0.13,,,,CMP-9abb4c27,SRC_MagrisPerformanceMaterials_SR_2023
 INT-CMP-9abb4c27-2023-2,2023,Niobium,GHG,scope1+2 intensity,tCO2eq/t,1.61,,,,CMP-9abb4c27,SRC_MagrisPerformanceMaterials_SR_2023
 INT-CMP-7a096012-2023-1,2023,,GHG,scope1+2 intensity,tCO2eq/t Cu-eq,6.8,,,,CMP-7a096012,SRC_RioTinto_2024-sustainability-factbook
-INT-1f126a43-2023-1,2023,"Gold, silver",Water,Freshwater withdrawn for use intensity,m3 of water/t of ore processed,0.03242599309372303,,ON-MAIN-1f126a43,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042091
-INT-1f126a43-2023-2,2023,"Gold, silver",Water,Freshwater withdrawn for use intensity,m3 of water/oz of gold,0.9280570810937134,,ON-MAIN-1f126a43,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042092
-INT-dd723db4-2023-1,2023,Iron,GHG,scope1+2 intensity|mining operation,kgCO2eq/kt,1341.0,,NL-MAIN-dd723db4,,,SRC_IronOreCompanyofCanadaInc_SR_2023
-INT-dd723db4-2023-2,2023,Iron,GHG,scope1+2 intensity|concentrate,kgCO2eq/kt,813.0,,NL-MAIN-dd723db4,,,SRC_IronOreCompanyofCanadaInc_SR_2023
-INT-dd723db4-2023-3,2023,Iron,GHG,scope1+2 intensity|pellets,tCO2/kt,58.5,,NL-MAIN-dd723db4,,,SRC_IronOreCompanyofCanadaInc_SR_2023
-INT-dd723db4-2023-4,2023,Iron,GHG,scope1+2 intensity|saleable products,tCO2eq/t of total saleable product,0.0539,,NL-MAIN-dd723db4,,,SRC_IronOreCompanyofCanadaInc_SR_2023
-INT-e7e6a960-2023-1,2023,Gold,Water,Freshwater withdrawn for use intensity,m3 of water/t of ore processed,0.02,,QC-MAIN-e7e6a960,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042028
-INT-e7e6a960-2023-2,2023,Gold,Water,Freshwater withdrawn for use intensity,m3 of water/oz of gold,0.08,,QC-MAIN-e7e6a960,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042029
-INT-9de9bb0d-2023-1,2023,Gold,GHG,scope1+2,tCO2eq/t milled,0.07,,QC-MAIN-9de9bb0d,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-INT-9de9bb0d-2023-2,2023,Gold,GHG,scope1+2,tCO2eq/oz produced,0.17,,QC-MAIN-9de9bb0d,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-INT-8b0264c9-2023-1,2023,"Gold, silver",Water,Freshwater withdrawn for use intensity,m3 of water/t of ore processed,0.6315166931499504,,NU-MAIN-8b0264c9,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042112
-INT-8b0264c9-2023-2,2023,"Gold, silver",Water,Freshwater withdrawn for use intensity,m3 of water/oz of gold,12.931689622605415,,NU-MAIN-8b0264c9,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042113
-INT-9de9bb0d-2023-3,2023,Gold,GHG,scope1+2,tCO2eq/t milled,0.07,,QC-MAIN-9de9bb0d,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-INT-9de9bb0d-2023-4,2023,Gold,GHG,scope1+2,tCO2eq/oz produced,0.17,,QC-MAIN-9de9bb0d,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-INT-4ea8ac9d-2023-1,2023,"Gold, zinc, copper, silver, cadmium",Water,Freshwater withdrawn for use intensity,m3 of water/t of ore processed,0.5593410545680798,,NU-MAIN-4ea8ac9d,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042154
-INT-4ea8ac9d-2023-2,2023,"Gold, zinc, copper, silver, cadmium",Water,Freshwater withdrawn for use intensity,m3 of water/oz of gold,4.849037466890153,,NU-MAIN-4ea8ac9d,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042155
-INT-6b4800fe-2023-1,2023,"Copper, molybdenum, silver",GHG,scope1 intensity,tCO2eq/t Cueq,2.21,,BC-MAIN-6b4800fe,,,SRC_TasekoMinesLimited_ESG_2023
-INT-730aefe3-2023-1,2023,"Gold, silver",Water,Freshwater withdrawn for use intensity,m3 of water/t of ore processed,0.4370680362691015,,NU-MAIN-730aefe3,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042133
-INT-730aefe3-2023-2,2023,"Gold, silver",Water,Freshwater withdrawn for use intensity,m3 of water/oz of gold,0.8445270965060057,,NU-MAIN-730aefe3,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042134
-INT-6e9be24e-2023-1,2023,,GHG,scope1+2?,tCO2eq/oz gold,0.177,,ON-MAIN-6e9be24e,,,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
-INT-6e9be24e-2023-2,2023,,GHG,scope1+2?,tCO2eq/t of ore processed,0.02,,ON-MAIN-6e9be24e,,,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
-INT-GRP-0a2c0d69-2023-1,2023,Gold,Water,Freshwater withdrawn for use intensity,m3 of water/t of ore processed,0.25211488183174835,,,GRP-0a2c0d69,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042049
-INT-GRP-0a2c0d69-2023-2,2023,Gold,Water,Freshwater withdrawn for use intensity,m3 of water/oz of gold,2.24430424698344,,,GRP-0a2c0d69,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042050
-INT-aeafbb59-2023-1,2023,Gold,Water,Freshwater withdrawn for use intensity,m3 of water/t of ore processed,0.2739108216512045,,ON-MAIN-aeafbb59,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042070
-INT-aeafbb59-2023-2,2023,Gold,Water,Freshwater withdrawn for use intensity,m3 of water/oz of gold,1.442848265995526,,ON-MAIN-aeafbb59,,,SRC_AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042071
-INT-6e9be24e-2023-3,2023,Gold,GHG,scope1+2?,tCO2eq/oz gold,0.177,,ON-MAIN-6e9be24e,,,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
-INT-6e9be24e-2023-4,2023,Gold,GHG,scope1+2?,tCO2eq/t of ore processed,0.02,,ON-MAIN-6e9be24e,,,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
-INT-7607a50e-2023-1,2023,Gold,GHG,scope1+2?,CO2eq/t ore mined,0.0523288103286321,,ON-MAIN-7607a50e,,,SRC_AlamosGoldInc_Data_2023
-INT-7607a50e-2023-2,2023,Gold,GHG,scope1+2?,CO2eq/t ore treated,0.052153947080691,,ON-MAIN-7607a50e,,,SRC_AlamosGoldInc_Data_2023
-INT-7607a50e-2023-3,2023,Gold,GHG,scope1+2?,CO2eq/oz gold production,0.174246575342466,,ON-MAIN-7607a50e,,,SRC_AlamosGoldInc_Data_2023
-INT-7607a50e-2023-4,2023,Gold,GHG,scope1+2?,CO2eq/t ore mined,0.0523288103286321,,ON-MAIN-7607a50e,,,SRC_AlamosGoldInc_Data_2023
-INT-7607a50e-2023-5,2023,Gold,GHG,scope1+2?,CO2eq/t ore treated,0.052153947080691,,ON-MAIN-7607a50e,,,SRC_AlamosGoldInc_Data_2023
-INT-7607a50e-2023-6,2023,Gold,GHG,scope1+2?,CO2eq/oz gold production,0.174246575342466,,ON-MAIN-7607a50e,,,SRC_AlamosGoldInc_Data_2023
-INT-c5fefb01-2023-1,2023,Gold,GHG,scope1+2,tCO2eq/t milled,0.02,,ON-MAIN-c5fefb01,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-INT-c5fefb01-2023-2,2023,Gold,GHG,scope1+2,tCO2eq/oz produced,0.12,,ON-MAIN-c5fefb01,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-INT-e7e6a960-2023-3,2023,Gold,Energy,Electricity intensity,kWh/t ore processed,32.670089368553114,,QC-MAIN-e7e6a960,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-INT-e7e6a960-2023-4,2023,Gold,Energy,Energy intensity,GJ/t ore processed,0.2853527738742617,,QC-MAIN-e7e6a960,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-INT-c5fefb01-2023-3,2023,Gold,GHG,scope1+2,tCO2eq/t milled,0.02,,ON-MAIN-c5fefb01,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-INT-c5fefb01-2023-4,2023,Gold,GHG,scope1+2,tCO2eq/oz produced,0.12,,ON-MAIN-c5fefb01,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-INT-f9e41c2a-2023-1,2023,Gold,GHG,scope1+2,tCO2eq/t ore milled,0.0218,,QC-MAIN-f9e41c2a,,,SRC_EldoradoGold_ESG_2023
-INT-f9e41c2a-2023-2,2023,Gold,GHG,scope1+2,tCO2eq/oz Au produced,0.1,,QC-MAIN-f9e41c2a,,,SRC_EldoradoGold_ESG_2023
-INT-f9e41c2a-2023-3,2023,Gold,GHG,scope1+2,tCO2eq/t ore milled,0.0218,,QC-MAIN-f9e41c2a,,,SRC_EldoradoGold_ESG_2023
-INT-f9e41c2a-2023-4,2023,Gold,GHG,scope1+2,tCO2eq/oz Au produced,0.1,,QC-MAIN-f9e41c2a,,,SRC_EldoradoGold_ESG_2023
-INT-GRP-0a2c0d69-2023-3,2023,Gold,Energy,Electricity intensity,kWh/t ore processed,42.9,,,GRP-0a2c0d69,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-INT-GRP-0a2c0d69-2023-4,2023,Gold,Energy,Energy intensity,GJ/t ore processed,0.96,,,GRP-0a2c0d69,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-INT-aeafbb59-2023-3,2023,Gold,Energy,Electricity intensity,kWh/t ore processed,69.18668609046546,,ON-MAIN-aeafbb59,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-INT-aeafbb59-2023-4,2023,Gold,Energy,Energy intensity,GJ/t ore processed,1.0258080178506015,,ON-MAIN-aeafbb59,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-INT-1f126a43-2023-3,2023,"Gold, silver",Energy,Electricity intensity,kWh/t ore processed,34.42341742720361,,ON-MAIN-1f126a43,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-INT-1f126a43-2023-4,2023,"Gold, silver",Energy,Energy intensity,GJ/t ore processed,0.2650288691731861,,ON-MAIN-1f126a43,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-INT-8b0264c9-2023-3,2023,"Gold, silver",Energy,Electricity intensity,kWh/t ore processed,61.97653235666382,,NU-MAIN-8b0264c9,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-INT-8b0264c9-2023-4,2023,"Gold, silver",Energy,Energy intensity,GJ/t ore processed,0.30212087132290455,,NU-MAIN-8b0264c9,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-INT-730aefe3-2023-3,2023,"Gold, silver",Energy,Electricity intensity,kWh/t ore processed,413.40496118553943,,NU-MAIN-730aefe3,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-INT-730aefe3-2023-4,2023,"Gold, silver",Energy,Energy intensity,GJ/t ore processed,2.639075337192134,,NU-MAIN-730aefe3,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-INT-5ce331b8-2023-1,2023,"Nickel, copper, platinum group metals, cobalt",GHG,GHG intensity,tCO2eq/t ore milled,0.0794,,QC-MAIN-5ce331b8,,,SRC_CanadianRoyaltiesInc._Rapport_Objectif_Emissions_GES_2023_EN
-INT-4ea8ac9d-2023-3,2023,"Gold, zinc, copper, silver, cadmium",Energy,Electricity intensity,kWh/t ore processed,176.50503987130364,,NU-MAIN-4ea8ac9d,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-INT-4ea8ac9d-2023-4,2023,"Gold, zinc, copper, silver, cadmium",Energy,Energy intensity,GJ/t ore processed,0.8999347860726632,,NU-MAIN-4ea8ac9d,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-INT-7607a50e-2023-7,2023,Gold,Energy,Energy intensity,GJ/t ore mined,1.47,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-INT-687b8c8d-2023-1,2023,Gold,GHG,scope1+2?,CO2eq/t ore mined,0.0102982639920366,,ON-MAIN-687b8c8d,,,SRC_AlamosGoldInc_Data_2023
-INT-687b8c8d-2023-2,2023,Gold,GHG,scope1+2?,CO2eq/t ore treated,0.0102986510421976,,ON-MAIN-687b8c8d,,,SRC_AlamosGoldInc_Data_2023
-INT-687b8c8d-2023-3,2023,Gold,GHG,scope1+2?,CO2eq/oz gold production,0.160129659643436,,ON-MAIN-687b8c8d,,,SRC_AlamosGoldInc_Data_2023
-INT-687b8c8d-2023-4,2023,Gold,GHG,scope1+2?,CO2eq/t ore mined,0.0102982639920366,,ON-MAIN-687b8c8d,,,SRC_AlamosGoldInc_Data_2023
-INT-687b8c8d-2023-5,2023,Gold,GHG,scope1+2?,CO2eq/t ore treated,0.0102986510421976,,ON-MAIN-687b8c8d,,,SRC_AlamosGoldInc_Data_2023
-INT-687b8c8d-2023-6,2023,Gold,GHG,scope1+2?,CO2eq/oz gold production,0.160129659643436,,ON-MAIN-687b8c8d,,,SRC_AlamosGoldInc_Data_2023
-INT-CMP-140e111b-2023-12,2023,Aluminum,Energy,Energy intensity,GJ/t aluminum produced,74.8,,,,CMP-140e111b,SRC_AlcoaCorporation_2023-Sustainability-Data-Book
-INT-CMP-c08ac7d7-2024-3,2024,Iron,Energy,Energy intensity,MJ/t iron concentrate produced,265.0,,,,CMP-c08ac7d7,SRC_ChampionIronLtd_cil-23sr-esg-databookvf
-INT-CMP-28720916-2021-4,2021,Steel,Energy,Energy intensity,GJ/t of crude steel,23.3,,,,CMP-28720916,SRC_EVRAZNorthAmericaInc_Databook_2021
-INT-CMP-12afc634-2023-5,2023,,Energy,Energy intensity,TJ/Mt of ore processed,200.0,,,,CMP-12afc634,SRC_HudbayMineralsInc_Hudbay-2023-Integrated-Annual-Report-Performance-Data
-INT-CMP-12afc634-2023-6,2023,,Energy,Energy intensity,TJ/kt of copper-equivalent production,35.0,,,,CMP-12afc634,SRC_HudbayMineralsInc_Hudbay-2023-Integrated-Annual-Report-Performance-Data
 INT-CMP-d5f1c66b-2023-1,2023,,Energy,Energy intensity of metals mining,GJ/t Cu-eq,40.3,,,,CMP-d5f1c66b,SRC_Glencore_2024+ESG+data+book
 INT-CMP-d5f1c66b-2023-2,2023,,Energy,Energy intensity of metals smelting,GJ/t Cu-eq,30.3,,,,CMP-d5f1c66b,SRC_Glencore_2024+ESG+data+book
-INT-7607a50e-2023-8,2023,Gold,Energy,Energy intensity,GJ/oz gold produced,4.89,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-INT-687b8c8d-2023-7,2023,Gold,Energy,Energy intensity,GJ/t ore mined,0.47,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-INT-687b8c8d-2023-8,2023,Gold,Energy,Energy intensity,GJ/oz gold produced,7.24,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-INT-6e9be24e-2023-5,2023,Gold,Water,Withdrawal intensity,m3/oz produced,23.7,,ON-MAIN-6e9be24e,,,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
-INT-6e9be24e-2023-6,2023,Gold,Water,Withdrawal intensity,m3/t of ore processed,2.64,,ON-MAIN-6e9be24e,,,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
-INT-6e9be24e-2023-7,2023,Gold,Water,Consumption intensity,m3/oz produced,7.37,,ON-MAIN-6e9be24e,,,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
-INT-6e9be24e-2023-8,2023,Gold,Water,Consumption intensity,m3/t of ore processed,0.82,,ON-MAIN-6e9be24e,,,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
-INT-6e9be24e-2023-9,2023,Gold,Energy,Energy intensity,GJ/oz gold produced,6.53,,ON-MAIN-6e9be24e,,CMP-79bcdb91,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
-INT-6e9be24e-2023-10,2023,Gold,Energy,Energy intensity,GJ/t of ore processed,0.73,,ON-MAIN-6e9be24e,,CMP-79bcdb91,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
-INT-5ce331b8-2023-2,2023,"Nickel, copper, platinum group metals, cobalt",Water,Water intensity,m3/t ore,0.4566666666666667,,QC-MAIN-5ce331b8,,,SRC_CanadianRoyaltiesInc._Rapport_Objectif_Emissions_GES_2023_EN
-INT-5ce331b8-2023-3,2023,"Nickel, copper, platinum group metals, cobalt",Energy,Energy intensity,kWt/ore milled,22.5,,QC-MAIN-5ce331b8,,CMP-d87d1101,SRC_CanadianRoyaltiesInc._Rapport_Objectif_Emissions_GES_2023_EN
-INT-7f050560-2024-1,2024,"Gold, silver",Energy,Electricity intensity,MWh/t of ore processed,0.29524214549167654,,ON-MAIN-7f050560,,CMP-ca642bce,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
-INT-7f050560-2024-2,2024,"Gold, silver",Energy,Energy intensity,GJ/t of ore processed,1.6131000989286208,,ON-MAIN-7f050560,,CMP-ca642bce,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
-INT-7f050560-2024-3,2024,"Gold, silver",Energy,Energy intensity,GJ/oz of gold produced,12.037419549236647,,ON-MAIN-7f050560,,CMP-ca642bce,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
-INT-538513cd-2023-1,2023,Gold,Water,Water intensity,ML/thousand geo,4.338125,,ON-MAIN-538513cd,,,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
-INT-538513cd-2023-2,2023,Gold,Water,Water intensity,ML/t ore processed,0.605927152317881,,ON-MAIN-538513cd,,,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
-INT-8eb8be0d-2023-1,2023,"Gold, silver",Water,Water intensity,ML/thousand geo,3.12310656111111,,BC-MAIN-8eb8be0d,,,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
-INT-8eb8be0d-2023-2,2023,"Gold, silver",Water,Water intensity,ML/t ore processed,0.54684745233463,,BC-MAIN-8eb8be0d,,,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
-INT-GRP-0d911886-2023-1,2023,Gold,Water,Water intensity,ML/thousand geo,18.8762256653846,,,GRP-0d911886,,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
-INT-GRP-0d911886-2023-2,2023,Gold,Water,Water intensity,ML/t ore processed,1.68595626004809,,,GRP-0d911886,,SRC_NewmontCorporation_Newmont-2023-Performance-Data-Tables-V4-locked
-INT-9de9bb0d-2023-5,2023,Gold,Water,Water intensity,m3/t milled,0.13,,QC-MAIN-9de9bb0d,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-INT-9de9bb0d-2023-6,2023,Gold,Water,Water intensity,m3/oz produced,0.33,,QC-MAIN-9de9bb0d,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-INT-c5fefb01-2023-5,2023,Gold,Water,Water intensity,m3/t milled,0.43,,ON-MAIN-c5fefb01,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-INT-c5fefb01-2023-6,2023,Gold,Water,Water intensity,m3/oz produced,17.02,,ON-MAIN-c5fefb01,,,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-INT-9de9bb0d-2023-7,2023,Gold,Energy,Energy intensity,GJ/t milled,2.18,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd._ESG_data_2023
-INT-9de9bb0d-2023-8,2023,Gold,Energy,Energy intensity,GJ/oz,5.67,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd._ESG_data_2023
-INT-c5fefb01-2023-7,2023,Gold,Energy,Energy intensity,GJ/t milled,1.07,,ON-MAIN-c5fefb01,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd._ESG_data_2023
-INT-c5fefb01-2023-8,2023,Gold,Energy,Energy intensity,GJ/oz,5.78,,ON-MAIN-c5fefb01,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd._ESG_data_2023
+INT-CMP-12afc634-2023-5,2023,,Energy,Energy intensity,TJ/Mt of ore processed,200.0,,,,CMP-12afc634,SRC_HudbayMineralsInc_Hudbay-2023-Integrated-Annual-Report-Performance-Data
+INT-CMP-12afc634-2023-6,2023,,Energy,Energy intensity,TJ/kt of copper-equivalent production,35.0,,,,CMP-12afc634,SRC_HudbayMineralsInc_Hudbay-2023-Integrated-Annual-Report-Performance-Data
