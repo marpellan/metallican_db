@@ -117,7 +117,7 @@ TA-0898e255-2023-7,2023,Silver,Crude ore,Recovery rate,Reported,%,61.4,,MB-MAIN-
 TA-0898e255-2023-8,2023,Zinc,Usable ore,Concentrate grade,Reported,% Zn,51.84,,MB-MAIN-0898e255,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
 TA-0898e255-2023-9,2023,Zinc,Crude ore,Head grade,Reported,%,4.36,,MB-MAIN-0898e255,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
 TA-0898e255-2023-10,2023,Zinc,Crude ore,Recovery rate,Reported,%,82.2,,MB-MAIN-0898e255,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
-TA-f4fc3276-2023-1,2023,Gold,Usable ore,Ore grade,Reported,g/t,5.4,Assumed ore grade,ON-MAIN-f4fc3276,,CMP-79f8bb59,SRC_SilverLakeResourcesLtd_MDI42C14SE00006
+TA-f4fc3276-2023-1,2023,Gold,Usable ore,Ore grade,Reported,g/t,5.1,Assumed ore grade,ON-MAIN-f4fc3276,,CMP-79f8bb59,SRC_SilverLakeResourcesLtd_AR_2023
 TA-d3a4aba9-2022-1,2022,Cobalt,Crude ore,Recovery rate,Reported,%,81.2,Includes other third pary feeds,AB-MAIN-d3a4aba9,,CMP-2ef1f553,SRC_SherrittInternationalCorporationandGeneralNickelCompanyS.A._TR_2023
 TA-d3a4aba9-2022-2,2022,Nickel,Crude ore,Recovery rate,Reported,%,83.5,Includes other third pary feeds,AB-MAIN-d3a4aba9,,CMP-2ef1f553,SRC_SherrittInternationalCorporationandGeneralNickelCompanyS.A._TR_2023
 TA-GRP-147b3123-2023-1,2023,Gold,Crude ore,Ore grade,Reported,g/t,2.7,Assumed ore grade,,GRP-147b3123,CMP-48a36546,SRC_PanAmericanSilverCorp._Financial_results
