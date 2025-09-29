@@ -98,7 +98,7 @@ PROD-a3c56a83-2023-2,2023,Canada,PGM,Intermediate metal produced,Intermediate me
 PROD-be5b3dc8-2023-1,2023,Canada,Ore,Total extraction,Ore mined,Production,t,1526729.0,1526729.0,,MB-MAIN-be5b3dc8,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
 PROD-f9e41c2a-2023-1,2023,Canada,Gold,Usable ore,Contained metal in concentrate,Production,oz,177069.0,5.5074656415,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_Data
 PROD-f9e41c2a-2023-2,2023,Canada,Gold,Crude ore,Ore milled,Production,t,838419.0,838419.0,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_Data
-PROD-e51eda66-2023-1,2023,Canada,Copper,Usable ore,Concentrate,Production,t,7702.438517,7702.438517,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+PROD-e51eda66-2023-1,2023,Canada,Copper,Usable ore,Contained metal in concentrate,Production,t,7702.438517,7702.438517,Assumed metal in concentrate,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 PROD-e51eda66-2023-2,2023,Canada,Gold,Usable ore,Contained metal in concentrate,Production,oz,306648.486458,9.537841198546403,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 PROD-e51eda66-2023-3,2023,Canada,Ore,Crude ore,Ore processed,Production,t,2658395.96049,2658395.96049,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 PROD-e51eda66-2023-4,2023,Canada,Silver,Usable ore,Contained metal in concentrate,Production,koz,588.0,18.288858,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data

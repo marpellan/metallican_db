@@ -4899,19 +4899,19 @@ ENV-8b0264c9-2023-6,2023,Water,7732-18-5,Discharged,,m3,419380.0,,NU-MAIN-8b0264
 ENV-8b0264c9-2023-7,2023,Land,,Occupation and transformation,,ha,906.75,,NU-MAIN-8b0264c9,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 ENV-8b0264c9-2023-8,2023,Land,,Occupation and transformation,,ha,633.0,,NU-MAIN-8b0264c9,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 ENV-8b0264c9-2023-9,2023,Land,,Occupation and transformation,,ha,273.75,,NU-MAIN-8b0264c9,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-ENV-687b8c8d-2023-1,2023,Air,124-38-9,Emission,,CO2eq,1504.0,Biogenic CO2,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-ENV-687b8c8d-2023-2,2023,Air,74-82-8,Emission,,CO2eq,74.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+ENV-687b8c8d-2023-1,2023,Air,124-38-9,Emission,,tCO2eq,1504.0,Biogenic CO2,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+ENV-687b8c8d-2023-2,2023,Air,74-82-8,Emission,,tCO2eq,74.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
 ENV-687b8c8d-2023-3,2023,Air,630-08-0,Emission,,t,322.2,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-ENV-687b8c8d-2023-4,2023,Air,124-38-9,Emission,,CO2eq,19879.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-ENV-687b8c8d-2023-5,2023,Air,NA - GHG,Emission,,CO2eq,20111.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-ENV-687b8c8d-2023-6,2023,Air,NA - GHG,Emission,,CO2eq,2785.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-ENV-687b8c8d-2023-7,2023,Air,NA - GHG,Emission,,CO2eq,72766.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+ENV-687b8c8d-2023-4,2023,Air,124-38-9,Emission,,tCO2eq,19879.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+ENV-687b8c8d-2023-5,2023,Air,NA - GHG,Emission,,tCO2eq,20111.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+ENV-687b8c8d-2023-6,2023,Air,NA - GHG,Emission,,tCO2eq,2785.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+ENV-687b8c8d-2023-7,2023,Air,NA - GHG,Emission,,tCO2eq,72766.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
 ENV-687b8c8d-2023-8,2023,Air,NA - 08,Emission,,t,0.000332575576998052,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
 ENV-687b8c8d-2023-9,2023,Air,NA - 10,Emission,,t,1.90290400308735e-05,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-ENV-687b8c8d-2023-10,2023,Air,10024-97-2,Emission,,CO2eq,127.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+ENV-687b8c8d-2023-10,2023,Air,10024-97-2,Emission,,tCO2eq,127.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
 ENV-687b8c8d-2023-11,2023,Air,NA - NOx,Emission,,t,440.2,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
 ENV-687b8c8d-2023-12,2023,Air,NA - M09,Emission,,t,83.19,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-ENV-687b8c8d-2023-13,2023,Air,NA - PFCs,Emission,,CO2eq,31.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+ENV-687b8c8d-2023-13,2023,Air,NA - PFCs,Emission,,tCO2eq,31.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
 ENV-687b8c8d-2023-14,2023,Air,NA - M10,Emission,,t,61.61,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
 ENV-687b8c8d-2023-15,2023,Air,NA - PAH,Emission,,t,0.418,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
 ENV-687b8c8d-2023-16,2023,Air,NA - SOx,Emission,,t,0.66,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
@@ -4921,14 +4921,14 @@ ENV-687b8c8d-2023-19,2023,Water,7732-18-5,Discharged,,ML,1428.9,,ON-MAIN-687b8c8
 ENV-687b8c8d-2023-20,2023,Water,7732-18-5,Consumption,,ML,-484.6,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
 ENV-687b8c8d-2023-21,2023,Land,,Occupation and transformation,,ha,1375.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
 ENV-687b8c8d-2023-22,2023,Land,,Occupation and transformation,,ha,235.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-ENV-7607a50e-2023-1,2023,Air,124-38-9,Emission,,CO2eq,596.0,Biogenic CO2,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-ENV-7607a50e-2023-2,2023,Air,74-82-8,Emission,,CO2eq,23.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+ENV-7607a50e-2023-1,2023,Air,124-38-9,Emission,,tCO2eq,596.0,Biogenic CO2,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+ENV-7607a50e-2023-2,2023,Air,74-82-8,Emission,,tCO2eq,23.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
 ENV-7607a50e-2023-3,2023,Air,630-08-0,Emission,,t,187.6,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-ENV-7607a50e-2023-4,2023,Air,124-38-9,Emission,,CO2eq,21538.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-ENV-7607a50e-2023-5,2023,Air,NA - GHG,Emission,,CO2eq,21634.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-ENV-7607a50e-2023-6,2023,Air,NA - GHG,Emission,,CO2eq,8006.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-ENV-7607a50e-2023-7,2023,Air,NA - GHG,Emission,,CO2eq,98564.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-ENV-7607a50e-2023-8,2023,Air,10024-97-2,Emission,,CO2eq,73.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+ENV-7607a50e-2023-4,2023,Air,124-38-9,Emission,,tCO2eq,21538.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+ENV-7607a50e-2023-5,2023,Air,NA - GHG,Emission,,tCO2eq,21634.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+ENV-7607a50e-2023-6,2023,Air,NA - GHG,Emission,,tCO2eq,8006.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+ENV-7607a50e-2023-7,2023,Air,NA - GHG,Emission,,tCO2eq,98564.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+ENV-7607a50e-2023-8,2023,Air,10024-97-2,Emission,,tCO2eq,73.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
 ENV-7607a50e-2023-9,2023,Air,NA - NOx,Emission,,t,28.103,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
 ENV-7607a50e-2023-10,2023,Air,NA - M09,Emission,,t,8.6,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
 ENV-7607a50e-2023-11,2023,Air,NA - M10,Emission,,t,2.6,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
@@ -4946,9 +4946,9 @@ ENV-5154702a-2023-3,2023,Air,2025884,Emission,,t,13.0,,NU-MAIN-5154702a,,CMP-84f
 ENV-5154702a-2023-4,2023,Land,,Occupation and transformation,,ha,613.0,,NU-MAIN-5154702a,,CMP-84fc7d46,SRC_BaffinlandIronMinesCorporation_AR_2023
 ENV-6e9be24e-2023-1,2023,Air,NA - GHG,Emission,,tCO2eq,20000.0,,ON-MAIN-6e9be24e,,CMP-79bcdb91,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
 ENV-6e9be24e-2023-2,2023,Air,NA - GHG,Emission,,tCO2eq,5000.0,,ON-MAIN-6e9be24e,,CMP-79bcdb91,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
-ENV-6e9be24e-2023-3,2023,Water,7732-18-5,Withdrawal,,m3?,3343.0,,ON-MAIN-6e9be24e,,CMP-79bcdb91,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
-ENV-6e9be24e-2023-4,2023,Water,7732-18-5,Discharged,,m3?,2145.0,,ON-MAIN-6e9be24e,,CMP-79bcdb91,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
-ENV-6e9be24e-2023-5,2023,Water,7732-18-5,Consumption,,m3?,39664.0,,ON-MAIN-6e9be24e,,CMP-79bcdb91,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
+ENV-6e9be24e-2023-3,2023,Water,7732-18-5,Withdrawal,,m3,3343.0,,ON-MAIN-6e9be24e,,CMP-79bcdb91,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
+ENV-6e9be24e-2023-4,2023,Water,7732-18-5,Discharged,,m3,2145.0,,ON-MAIN-6e9be24e,,CMP-79bcdb91,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
+ENV-6e9be24e-2023-5,2023,Water,7732-18-5,Consumption,,m3,39664.0,,ON-MAIN-6e9be24e,,CMP-79bcdb91,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
 ENV-5ce331b8-2023-1,2023,Air,NA - GHG,Emission,,tCO2eq,107000.0,,QC-MAIN-5ce331b8,,CMP-d87d1101,SRC_CanadianRoyaltiesInc._Rapport_Objectif_Emissions_GES_2023_EN
 ENV-5ce331b8-2023-2,2023,Air,NA - GHG,Emission,,tCO2eq,23.0,,QC-MAIN-5ce331b8,,CMP-d87d1101,SRC_CanadianRoyaltiesInc._Rapport_Objectif_Emissions_GES_2023_EN
 ENV-5ce331b8-2023-3,2023,Air,NA - GHG,Emission,,tCO2eq,40900.0,,QC-MAIN-5ce331b8,,CMP-d87d1101,SRC_CanadianRoyaltiesInc._Rapport_Objectif_Emissions_GES_2023_EN
@@ -4968,9 +4968,9 @@ ENV-ed23117f-2023-7,2023,Water,7732-18-5,Withdrawal,,Mm3,8.11,,BC-MAIN-ed23117f,
 ENV-ed23117f-2023-8,2023,Water,7732-18-5,Consumption,,Mm3,9.11,,BC-MAIN-ed23117f,,CMP-fa032e20,SRC_CenterraGoldInc_Data
 ENV-f9e41c2a-2023-1,2023,Air,NA - GHG,Emission,,tCO2eq,18188.0,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_ESG_2023
 ENV-f9e41c2a-2023-2,2023,Air,NA - GHG,Emission,,tCO2eq,100.0,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_ESG_2023
-ENV-f9e41c2a-2023-3,2023,Water,7732-18-5,Withdrawal,,mm3,3499.0,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_ESG_2023
-ENV-f9e41c2a-2023-4,2023,Water,7732-18-5,Consumption,,mm3,1088.0,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_ESG_2023
-ENV-f9e41c2a-2023-5,2023,Water,7732-18-5,Discharged,,mm3,2411.0,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_ESG_2023
+ENV-f9e41c2a-2023-3,2023,Water,7732-18-5,Withdrawal,,km3,3499.0,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_ESG_2023
+ENV-f9e41c2a-2023-4,2023,Water,7732-18-5,Consumption,,km3,1088.0,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_ESG_2023
+ENV-f9e41c2a-2023-5,2023,Water,7732-18-5,Discharged,,km3,2411.0,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_ESG_2023
 ENV-f9e41c2a-2023-6,2023,Land,,Occupation and transformation,,ha,277.6,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_ESG_2023
 ENV-7f050560-2024-1,2024,Air,630-08-0,Emission,,t,1079.77,,ON-MAIN-7f050560,,CMP-ca642bce,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
 ENV-7f050560-2024-2,2024,Air,NA - GHG,Emission,,tCO2eq,25750.7471650174,,ON-MAIN-7f050560,,CMP-ca642bce,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
@@ -5011,9 +5011,9 @@ ENV-02884fb5-2023-11,2023,Water,7732-18-5,Consumption,,ML,-893.6999999999998,,QC
 ENV-02884fb5-2023-12,2023,Land,,Occupation and transformation,,ha,1014.81,,QC-MAIN-02884fb5,,CMP-3d0a95b7,SRC_IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
 ENV-a3c56a83-2023-1,2023,Air,NA - GHG,Emission,,tCO2eq,59145.0,,ON-MAIN-a3c56a83,,CMP-967076a1,SRC_ImpalaCanadaLtd_ESG_2024
 ENV-a3c56a83-2023-2,2023,Air,NA - GHG,Emission,,tCO2eq,13365.0,,ON-MAIN-a3c56a83,,CMP-967076a1,SRC_ImpalaCanadaLtd_ESG_2024
-ENV-a3c56a83-2023-3,2023,Water,7732-18-5,Withdrawal,,Ml,2027.0,,ON-MAIN-a3c56a83,,CMP-967076a1,SRC_ImpalaCanadaLtd_ESG_2024
-ENV-a3c56a83-2023-4,2023,Water,7732-18-5,Consumption,,Ml,8930.0,,ON-MAIN-a3c56a83,,CMP-967076a1,SRC_ImpalaCanadaLtd_ESG_2024
-ENV-a3c56a83-2023-5,2023,Water,7732-18-5,Discharged,,Ml,1038.0,,ON-MAIN-a3c56a83,,CMP-967076a1,SRC_ImpalaCanadaLtd_ESG_2024
+ENV-a3c56a83-2023-3,2023,Water,7732-18-5,Withdrawal,,ML,2027.0,,ON-MAIN-a3c56a83,,CMP-967076a1,SRC_ImpalaCanadaLtd_ESG_2024
+ENV-a3c56a83-2023-4,2023,Water,7732-18-5,Consumption,,ML,8930.0,,ON-MAIN-a3c56a83,,CMP-967076a1,SRC_ImpalaCanadaLtd_ESG_2024
+ENV-a3c56a83-2023-5,2023,Water,7732-18-5,Discharged,,ML,1038.0,,ON-MAIN-a3c56a83,,CMP-967076a1,SRC_ImpalaCanadaLtd_ESG_2024
 ENV-a3c56a83-2023-6,2023,Land,,Occupation and transformation,,ha,6070.0,,ON-MAIN-a3c56a83,,CMP-967076a1,SRC_ImpalaCanadaLtd_ESG_2024
 ENV-dd723db4-2023-1,2023,Air,NA - GHG,Emission,,tCO2eq,896.0,,NL-MAIN-dd723db4,,CMP-2da4630a,SRC_IronOreCompanyofCanadaInc_SR_2023
 ENV-aa76f6f2-2023-1,2023,Air,NA - GHG,Emission,,tCO2eq,15908.3,,BC-MAIN-aa76f6f2,,CMP-d94be190,SRC_NewGoldInc_2023-New-Gold-ESG-Data-Factbook
@@ -5108,13 +5108,8 @@ ENV-b64bae7a-2023-3,2023,Air,NA - GHG,Emission,,tCO2eq,31390.0,,NL-MAIN-b64bae7a
 ENV-b64bae7a-2023-4,2023,Air,NA - GHG,Emission,,tCO2eq,1077.0,,NL-MAIN-b64bae7a,,CMP-8a99044e,SRC_TacoraResourcesInc._ESG_2024
 ENV-b64bae7a-2023-5,2023,Air,NA - GHG,Emission,,tCO2eq,858.0,,NL-MAIN-b64bae7a,,CMP-8a99044e,SRC_TacoraResourcesInc._ESG_2024
 ENV-b64bae7a-2023-6,2023,Air,NA - GHG,Emission,,tCO2eq,5821.0,,NL-MAIN-b64bae7a,,CMP-8a99044e,SRC_TacoraResourcesInc._ESG_2024
-ENV-6b4800fe-2023-1,2023,Air,630-08-0,Emission,,?,1082.0,,BC-MAIN-6b4800fe,,CMP-e35f138c,SRC_TasekoMinesLimited_ESG_2023
-ENV-6b4800fe-2023-2,2023,Air,NA - NOx,Emission,,?,264.0,Excluding NO2,BC-MAIN-6b4800fe,,CMP-e35f138c,SRC_TasekoMinesLimited_ESG_2023
-ENV-6b4800fe-2023-3,2023,Air,NA - M09,Emission,,?,2201.0,,BC-MAIN-6b4800fe,,CMP-e35f138c,SRC_TasekoMinesLimited_ESG_2023
-ENV-6b4800fe-2023-4,2023,Air,NA - SOx,Emission,,?,32.0,,BC-MAIN-6b4800fe,,CMP-e35f138c,SRC_TasekoMinesLimited_ESG_2023
-ENV-6b4800fe-2023-5,2023,Air,NA - M16,Emission,,?,3.5,,BC-MAIN-6b4800fe,,CMP-e35f138c,SRC_TasekoMinesLimited_ESG_2023
-ENV-6b4800fe-2023-6,2023,Water,7732-18-5,Withdrawal,,km3,141.0,,BC-MAIN-6b4800fe,,CMP-e35f138c,SRC_TasekoMinesLimited_ESG_2023
-ENV-6b4800fe-2023-7,2023,Water,7732-18-5,Consumption,,km3,6140.0,,BC-MAIN-6b4800fe,,CMP-e35f138c,SRC_TasekoMinesLimited_ESG_2023
+ENV-6b4800fe-2023-1,2023,Water,7732-18-5,Withdrawal,,km3,141.0,,BC-MAIN-6b4800fe,,CMP-e35f138c,SRC_TasekoMinesLimited_ESG_2023
+ENV-6b4800fe-2023-2,2023,Water,7732-18-5,Consumption,,km3,6140.0,,BC-MAIN-6b4800fe,,CMP-e35f138c,SRC_TasekoMinesLimited_ESG_2023
 ENV-bf503b6b-2023-1,2023,Air,630-08-0,Emission,,t,707.8,,BC-MAIN-bf503b6b,,CMP-06e20c6e,SRC_TeckResourcesLimited_Teck-Sustainability-Databook
 ENV-bf503b6b-2023-2,2023,Air,10102-44-0,Emission,,t,175.6,,BC-MAIN-bf503b6b,,CMP-06e20c6e,SRC_TeckResourcesLimited_Teck-Sustainability-Databook
 ENV-bf503b6b-2023-3,2023,Air,2025884,Emission,,t,1.701,,BC-MAIN-bf503b6b,,CMP-06e20c6e,SRC_TeckResourcesLimited_Teck-Sustainability-Databook
@@ -5138,25 +5133,21 @@ ENV-cb85213a-2023-3,2023,Air,NA - GHG,Emission,,tCO2eq,2791.0,,ON-MAIN-cb85213a,
 ENV-cb85213a-2023-4,2023,Air,NA - 08,Emission,,kg,0.05,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
 ENV-cb85213a-2023-5,2023,Air,NA - 10,Emission,,kg,0.0,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
 ENV-cb85213a-2023-6,2023,Air,10102-44-0,Emission,,t,10.92,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-ENV-cb85213a-2023-7,2023,Air,NA - M09,Emission,,µm/t,9.89,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-ENV-cb85213a-2023-8,2023,Air,NA - M10,Emission,,µm/t,2.55,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-ENV-cb85213a-2023-9,2023,Air,2025884,Emission,,t,0.61,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-ENV-cb85213a-2023-10,2023,Air,NA - M16,Emission,,t,0.2,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-ENV-cb85213a-2023-11,2023,Water,7732-18-5,Withdrawal,,m3,518856.0,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-ENV-cb85213a-2023-12,2023,Water,7732-18-5,Withdrawal,,m3,518856.0,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-ENV-cb85213a-2023-13,2023,Water,7732-18-5,Consumption,,m3,29350.0,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-ENV-cb85213a-2023-14,2023,Water,7732-18-5,Discharged,,m3,324347.0,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+ENV-cb85213a-2023-7,2023,Air,2025884,Emission,,t,0.61,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+ENV-cb85213a-2023-8,2023,Air,NA - M16,Emission,,t,0.2,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+ENV-cb85213a-2023-9,2023,Water,7732-18-5,Withdrawal,,m3,518856.0,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+ENV-cb85213a-2023-10,2023,Water,7732-18-5,Withdrawal,,m3,518856.0,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+ENV-cb85213a-2023-11,2023,Water,7732-18-5,Consumption,,m3,29350.0,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+ENV-cb85213a-2023-12,2023,Water,7732-18-5,Discharged,,m3,324347.0,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
 ENV-9de9bb0d-2023-1,2023,Air,630-08-0,Emission,,t,21.85,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
 ENV-9de9bb0d-2023-2,2023,Air,NA - GHG,Emission,,tCO2eq,4109.0,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
 ENV-9de9bb0d-2023-3,2023,Air,NA - GHG,Emission,,tCO2eq,64.0,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
 ENV-9de9bb0d-2023-4,2023,Air,NA - 08,Emission,,kg,0.00061,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
 ENV-9de9bb0d-2023-5,2023,Air,NA - 10,Emission,,kg,0.00015,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
 ENV-9de9bb0d-2023-6,2023,Air,10102-44-0,Emission,,t,1.47,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-ENV-9de9bb0d-2023-7,2023,Air,NA - M09,Emission,,µm/t,21.11,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-ENV-9de9bb0d-2023-8,2023,Air,NA - M10,Emission,,µm/t,0.74,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-ENV-9de9bb0d-2023-9,2023,Air,2025884,Emission,,t,1.14,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-ENV-9de9bb0d-2023-10,2023,Air,NA - M16,Emission,,t,0.99,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-ENV-9de9bb0d-2023-11,2023,Water,7732-18-5,Withdrawal,,m3,168115.0,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-ENV-9de9bb0d-2023-12,2023,Water,7732-18-5,Withdrawal,,m3,168115.0,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-ENV-9de9bb0d-2023-13,2023,Water,7732-18-5,Consumption,,m3,82144.0,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
-ENV-9de9bb0d-2023-14,2023,Water,7732-18-5,Discharged,,m3,536420.0,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+ENV-9de9bb0d-2023-7,2023,Air,2025884,Emission,,t,1.14,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+ENV-9de9bb0d-2023-8,2023,Air,NA - M16,Emission,,t,0.99,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+ENV-9de9bb0d-2023-9,2023,Water,7732-18-5,Withdrawal,,m3,168115.0,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+ENV-9de9bb0d-2023-10,2023,Water,7732-18-5,Withdrawal,,m3,168115.0,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+ENV-9de9bb0d-2023-11,2023,Water,7732-18-5,Consumption,,m3,82144.0,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
+ENV-9de9bb0d-2023-12,2023,Water,7732-18-5,Discharged,,m3,536420.0,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2023-ESG-Data-Tables
