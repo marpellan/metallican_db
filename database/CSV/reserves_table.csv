@@ -55,12 +55,12 @@ RES-91cf5448-2024-2,2024,Uranium,Reserves,Probable,229.4,kt,14.73,% U3O8,74.5,Ml
 RES-91cf5448-2024-3,2024,Uranium,Resources,Measured,75.5,kt,4.88,% U3O8,8.1,Mlbs,,,SK-MAIN-91cf5448,,SRC_CamecoCorporation_Reserves_2024
 RES-91cf5448-2024-4,2024,Uranium,Resources,Indicated,141.3,kt,4.95,% U3O8,15.4,Mlbs,,,SK-MAIN-91cf5448,,SRC_CamecoCorporation_Reserves_2024
 RES-91cf5448-2024-5,2024,Uranium,Resources,Inferred,163.4,kt,5.55,% U3O8,20.0,Mlbs,,,SK-MAIN-91cf5448,,SRC_CamecoCorporation_Reserves_2024
-RES-bb89158f-2024-1,2024,Uranium,Reserves,Proven,61.1,kt,0.52,% U3O8,0.7,Mlbs,95.0,,SK-MAIN-bb89158f,,SRC_CamecoCorporation_Reserves_2024
-RES-d3c471e8-2024-1,2024,Uranium,Reserves,Proven,1970.3,kt,6.81,% U3O8,295.8,Mlbs,99.2,,SK-MAIN-d3c471e8,,SRC_CamecoCorporation_Reserves_2024
-RES-d3c471e8-2024-2,2024,Uranium,Reserves,Probable,520.4,kt,5.56,% U3O8,63.7,Mlbs,99.2,,SK-MAIN-d3c471e8,,SRC_CamecoCorporation_Reserves_2024
-RES-d3c471e8-2024-3,2024,Uranium,Resources,Measured,71.8,kt,2.28,% U3O8,3.6,Mlbs,,,SK-MAIN-d3c471e8,,SRC_CamecoCorporation_Reserves_2024
-RES-d3c471e8-2024-4,2024,Uranium,Resources,Indicated,60.3,kt,2.31,% U3O8,3.1,Mlbs,,,SK-MAIN-d3c471e8,,SRC_CamecoCorporation_Reserves_2024
-RES-d3c471e8-2024-5,2024,Uranium,Resources,Inferred,36.4,kt,2.95,% U3O8,2.4,Mlbs,,,SK-MAIN-d3c471e8,,SRC_CamecoCorporation_Reserves_2024
+RES-bb89158f-2024-1,2024,Uranium,Reserves,Proven,61.1,kt,0.52,% U3O8,0.7,Mlbs,95.0,,SK-MAIN-bb89158f,GRP-21eee27d,SRC_CamecoCorporation_Reserves_2024
+RES-d3c471e8-2024-1,2024,Uranium,Reserves,Proven,1970.3,kt,6.81,% U3O8,295.8,Mlbs,99.2,,SK-MAIN-d3c471e8,GRP-21eee27d,SRC_CamecoCorporation_Reserves_2024
+RES-d3c471e8-2024-2,2024,Uranium,Reserves,Probable,520.4,kt,5.56,% U3O8,63.7,Mlbs,99.2,,SK-MAIN-d3c471e8,GRP-21eee27d,SRC_CamecoCorporation_Reserves_2024
+RES-d3c471e8-2024-3,2024,Uranium,Resources,Measured,71.8,kt,2.28,% U3O8,3.6,Mlbs,,,SK-MAIN-d3c471e8,GRP-21eee27d,SRC_CamecoCorporation_Reserves_2024
+RES-d3c471e8-2024-4,2024,Uranium,Resources,Indicated,60.3,kt,2.31,% U3O8,3.1,Mlbs,,,SK-MAIN-d3c471e8,GRP-21eee27d,SRC_CamecoCorporation_Reserves_2024
+RES-d3c471e8-2024-5,2024,Uranium,Resources,Inferred,36.4,kt,2.95,% U3O8,2.4,Mlbs,,,SK-MAIN-d3c471e8,GRP-21eee27d,SRC_CamecoCorporation_Reserves_2024
 RES-ed23117f-2024-1,2024,Gold,Reserves,Proven,187961,kt,0.34,g/t,2056.0,oz,,,BC-MAIN-ed23117f,,SRC_CenterraGoldInc_Reserves_2024
 RES-ed23117f-2024-2,2024,Gold,Reserves,Probable,76551,kt,0.31,g/t,770.0,oz,,,BC-MAIN-ed23117f,,SRC_CenterraGoldInc_Reserves_2024
 RES-ed23117f-2024-3,2024,Copper,Reserves,Proven,-,kt,0.19,%,808.0,Mlbs,,,BC-MAIN-ed23117f,,SRC_CenterraGoldInc_Reserves_2024
