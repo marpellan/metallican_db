@@ -1,131 +1,131 @@
 ﻿tech_attr_id,year,commodity,reference_point,material_type,method,unit,value,comment,main_id,facility_group_id,company_id,source_id
 TA-089f3c60-2022-1,2022,Iron,Usable ore,Concentrate grade,Reported,%,0.662,,QC-MAIN-089f3c60,,CMP-c08ac7d7,SRC_ChampionIronLtd_TR_Bloom_Lake_2023
-TA-857b7b89-2023-1,2023,Ore,Crude ore,Mill ore grade,Reported,g/t,5.685,,BC-MAIN-857b7b89,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
-TA-857b7b89-2023-2,2023,Ore,Crude ore,Mill recovery rate,Reported,%,96.0,,BC-MAIN-857b7b89,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
-TA-e7e6a960-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,1.0001405976077076,Total waste generated taken for calculation,QC-MAIN-e7e6a960,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-TA-e7e6a960-2023-2,2023,Gold,Crude ore,Head grade,Reported,g/t,1.17,,QC-MAIN-e7e6a960,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
-TA-e7e6a960-2023-3,2023,Gold,Crude ore,Recovery rate,Reported,%,92.8,,QC-MAIN-e7e6a960,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
-TA-599152a0-2023-1,2023,Ore,Total extraction,Strip ratio,Reported,waste/ore,3.82,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
-TA-599152a0-2023-2,2023,Copper,Crude ore,Head grade,Reported,%,0.35,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
-TA-599152a0-2023-3,2023,Copper,Crude ore,Recovery rate,Reported,%,79.7,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
-TA-599152a0-2023-4,2023,Copper,Usable ore,Concentrate grade,Reported,%,23.1,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
-TA-599152a0-2023-5,2023,Gold,Crude ore,Head grade,Reported,g/t,0.07,,BC-MAIN-599152a0,,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
-TA-599152a0-2023-6,2023,Gold,Crude ore,Recovery rate,Reported,%,55.9,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
-TA-599152a0-2023-7,2023,Silver,Crude ore,Head grade,Reported,g/t,1.36,,BC-MAIN-599152a0,,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
-TA-599152a0-2023-8,2023,Silver,Crude ore,Recovery rate,Reported,%,73.0,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
-TA-aeafbb59-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,4.327581402800014,Total waste generated taken for calculation,ON-MAIN-aeafbb59,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-TA-cb85213a-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,0.649377658594869,Waste rock generated taken for calculation,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
-TA-cb85213a-2023-2,2023,Gold,Crude ore,Head grade,Reported,g/t,12.6,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
-TA-cb85213a-2023-3,2023,Gold,Crude ore,Recovery rate,Reported,%,96.9,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
-TA-6dc537e6-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,0.361706201083684,Total waste rock generated taken for calculation,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
-TA-6dc537e6-2023-2,2023,Gold,Crude ore,Mill ore grade,Reported,g/t,4.785,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
-TA-6dc537e6-2023-3,2023,Gold,Crude ore,Mill recovery rate,Reported,%,91.0,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
+TA-3f490561-2023-1,2023,Gold,Crude ore,Ore grade,Reported,g/t,0.311,,BC-MAIN-3f490561,,CMP-0dfcd91e,SRC_ImperialMetalsCorporation_2024-Q4-MDA
+TA-3f490561-2023-2,2023,Gold,Crude ore,Recovery rate,Reported,%,70.4,,BC-MAIN-3f490561,,CMP-0dfcd91e,SRC_ImperialMetalsCorporation_2024-Q4-MDA
 TA-4724f4ba-2024-1,2024,Gold,Total extraction,Strip ratio,Reported,waste/ore,47.7,,BC-MAIN-4724f4ba,,CMP-d726df1c,SRC_GoldMountainMiningCorp_gold-mountain-reports-its-interim-q4-2025-financial-and-operating-results-1001121?utm_source=chatgpt
 TA-4724f4ba-2024-2,2024,Gold,Crude ore,Ore grade,Reported,g/t,4.26,,BC-MAIN-4724f4ba,,CMP-d726df1c,SRC_GoldMountainMiningCorp_gold-mountain-reports-its-interim-q4-2025-financial-and-operating-results-1001121?utm_source=chatgpt
-TA-4e0734b5-2023-1,2023,Gold,Crude ore,Head grade,Reported,g/t,2.84,,ON-MAIN-4e0734b5,,CMP-3ff42329,SRC_McEwenMiningInc_SEC_2024
-TA-4e0734b5-2023-2,2023,Gold,Crude ore,Ore grade,Reported,g/t,3.08,,ON-MAIN-4e0734b5,,CMP-3ff42329,SRC_McEwenMiningInc_SEC_2024
+TA-599152a0-2023-1,2023,Ore,Total extraction,Strip ratio,Reported,waste/ore,3.82,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
+TA-599152a0-2023-2,2023,Gold,Crude ore,Head grade,Reported,g/t,0.07,,BC-MAIN-599152a0,,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
+TA-599152a0-2023-3,2023,Copper,Crude ore,Head grade,Reported,%,0.35,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
+TA-599152a0-2023-4,2023,Copper,Crude ore,Recovery rate,Reported,%,79.7,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
+TA-599152a0-2023-5,2023,Copper,Usable ore,Concentrate grade,Reported,%,23.1,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
+TA-599152a0-2023-6,2023,Gold,Crude ore,Recovery rate,Reported,%,55.9,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
 TA-6b4800fe-2023-1,2023,Ore,Crude ore,Strip ratio,Reported,waste/ore,1.3,,BC-MAIN-6b4800fe,,CMP-e35f138c,SRC_TasekoMinesLimited_taseko-reports-strong-fourth-quarter-financial-performance-and-190-million-of-adjusted-ebitda-for-2023
+TA-599152a0-2023-7,2023,Silver,Crude ore,Head grade,Reported,g/t,1.36,,BC-MAIN-599152a0,,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
+TA-599152a0-2023-8,2023,Silver,Crude ore,Recovery rate,Reported,%,73.0,"""As Copper Mountain was acquired on June 20, 2023, the results for the year ended December 31, 2023 represents the period from the acquisition date, June 20, 2023, through to the end of the fourth quarter of 2023""",BC-MAIN-599152a0,,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
+TA-857b7b89-2023-1,2023,Ore,Crude ore,Mill ore grade,Reported,g/t,5.685,,BC-MAIN-857b7b89,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
+TA-857b7b89-2023-2,2023,Ore,Crude ore,Mill recovery rate,Reported,%,96.0,,BC-MAIN-857b7b89,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
+TA-8eb8be0d-2023-1,2023,Gold,Crude ore,Mill ore grade,Reported,g/t,0.276,,BC-MAIN-8eb8be0d,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
+TA-8eb8be0d-2023-2,2023,Gold,Crude ore,Mill recovery rate,Reported,%,54.2,,BC-MAIN-8eb8be0d,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
+TA-aa76f6f2-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,0.187133442088091,Waste rock generated taken for calculation,BC-MAIN-aa76f6f2,,CMP-d94be190,SRC_NewGoldInc_New_gold_production
+TA-aa76f6f2-2023-2,2023,Gold,Crude ore,Ore grade,Reported,g/t,0.72,Assumed ore grade,BC-MAIN-aa76f6f2,,CMP-d94be190,SRC_NewGoldInc_New_gold_production
+TA-aa76f6f2-2023-3,2023,Gold,Crude ore,Recovery rate,Reported,%,90.0,,BC-MAIN-aa76f6f2,,CMP-d94be190,SRC_NewGoldInc_New_gold_production
+TA-ed23117f-2023-1,2023,Gold,Crude ore,Head grade,Reported,g/t,0.36,,BC-MAIN-ed23117f,,CMP-fa032e22,SRC_CenterraGoldInc_Data
+TA-ed23117f-2023-2,2023,Gold,Crude ore,Recovery rate,Reported,%,64.0,,BC-MAIN-ed23117f,,CMP-fa032e23,SRC_CenterraGoldInc_Data
+TA-0898e255-2023-1,2023,Gold,Crude ore,Head grade,Reported,g/t,3.45,,MB-MAIN-0898e255,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
+TA-0898e255-2023-2,2023,Gold,Crude ore,Recovery rate,Reported,%,64.8,,MB-MAIN-0898e255,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
+TA-be5b3dc8-2023-1,2023,Gold,Crude ore,Ore grade,Reported,g/t,4.74,,MB-MAIN-be5b3dc8,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
 TA-6b4800fe-2023-2,2023,Copper,Usable ore,Head grade,Reported,%,0.25,,BC-MAIN-6b4800fe,,CMP-e35f138c,SRC_TasekoMinesLimited_taseko-reports-strong-fourth-quarter-financial-performance-and-190-million-of-adjusted-ebitda-for-2023
 TA-6b4800fe-2023-3,2023,Copper,Usable ore,Copper recovery,Reported,%,82.6,,BC-MAIN-6b4800fe,,CMP-e35f138c,SRC_TasekoMinesLimited_taseko-reports-strong-fourth-quarter-financial-performance-and-190-million-of-adjusted-ebitda-for-2023
-TA-6e9be24e-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,1.20852695359985,Waste rock mined taken for calculation,ON-MAIN-6e9be24e,,CMP-79bcdb91,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
-TA-687b8c8d-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,0.16768245966796233,Total waste rock generated taken for calculation,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-TA-687b8c8d-2023-2,2023,Gold,Crude ore,Mill grade,Reported,g/t,9.48,Assumed g/t,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-TA-687b8c8d-2023-3,2023,Gold,Crude ore,Mill recovery rate,Reported,%,97.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-TA-687b8c8d-2023-4,2023,Gold,Crude ore,Ore grade,Reported,g/t,9.43,Assumed g/t,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+TA-da0b5c3d-2023-1,2023,Gold,Crude ore,Head grade,Reported,g/t,6.76,,MB-MAIN-da0b5c3d,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
+TA-da0b5c3d-2023-2,2023,Gold,Crude ore,Recovery rate,Reported,%,88.6,,MB-MAIN-da0b5c3d,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
+TA-8b0264c9-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,3.1482939488870225,Total waste generated taken for calculation,NU-MAIN-8b0264c9,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TA-8b0264c9-2023-2,2023,Gold,Crude ore,Head grade,Reported,g/t,6.11,,NU-MAIN-8b0264c9,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
+TA-8b0264c9-2023-3,2023,Gold,Crude ore,Recovery rate,Reported,%,96.6,,NU-MAIN-8b0264c9,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
 TA-44857446-2024-1,2024,Silver,Crude ore,Head grade,Reported,g/t,944.0,,YT-MAIN-44857446,,CMP-7e360a1f,SRC_HeclaMiningCompany_TR_Keno_Hill_2024
 TA-44857446-2024-2,2024,Lead,Crude ore,Head grade,Reported,%,2.11,,YT-MAIN-44857446,,CMP-7e360a1f,SRC_HeclaMiningCompany_TR_Keno_Hill_2024
 TA-44857446-2024-3,2024,Zinc,Crude ore,Head grade,Reported,%,1.34,,YT-MAIN-44857446,,CMP-7e360a1f,SRC_HeclaMiningCompany_TR_Keno_Hill_2024
-TA-9de9bb0d-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,0.848295561554397,Waste rock generated taken for calculation,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
-TA-9de9bb0d-2023-2,2023,Gold,Crude ore,Head grade,Reported,g/t,5.9,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
-TA-9de9bb0d-2023-3,2023,Gold,Crude ore,Recovery rate,Reported,%,98.3,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
+TA-0aadf28f-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,3.4725899132816,Waste rock generated taken for calculation,ON-MAIN-0aadf28f,,CMP-d94be190,SRC_NewGoldInc_New_gold_production
+TA-0aadf28f-2023-2,2023,Gold,Crude ore,Ore grade,Reported,g/t,0.99,Assumed ore grade,ON-MAIN-0aadf28f,,CMP-d94be190,SRC_NewGoldInc_New_gold_production
+TA-0aadf28f-2023-3,2023,Ore,Crude ore,Recovery rate,Reported,%,91.0,,ON-MAIN-0aadf28f,,CMP-d94be190,SRC_NewGoldInc_New_gold_production
 TA-a3c56a83-2023-1,2023,PGM,Crude ore,Head grade,Reported,g/t,3.88,,ON-MAIN-a3c56a83,,CMP-967076a1,SRC_ImpalaCanadaLtd_FY2024
-TA-be5b3dc8-2023-1,2023,Copper,Crude ore,Ore grade,Reported,%,0.86,,MB-MAIN-be5b3dc8,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
-TA-be5b3dc8-2023-2,2023,Gold,Crude ore,Ore grade,Reported,g/t,4.74,,MB-MAIN-be5b3dc8,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
+TA-be5b3dc8-2023-2,2023,Copper,Crude ore,Ore grade,Reported,%,0.86,,MB-MAIN-be5b3dc8,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
+TA-4e0734b5-2023-1,2023,Gold,Crude ore,Head grade,Reported,g/t,2.84,,ON-MAIN-4e0734b5,,CMP-3ff42329,SRC_McEwenMiningInc_SEC_2024
 TA-be5b3dc8-2023-3,2023,Silver,Crude ore,Ore grade,Reported,g/t,24.51,,MB-MAIN-be5b3dc8,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
 TA-be5b3dc8-2023-4,2023,Zinc,Crude ore,Ore grade,Reported,%,3.0,,MB-MAIN-be5b3dc8,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
-TA-f9e41c2a-2023-1,2023,Gold,Crude ore,Head grade,Reported,g/t,6.76,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_Data
-TA-f9e41c2a-2023-2,2023,Gold,Crude ore,Recovery rate,Reported,%,0.971,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_Data
-TA-e51eda66-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,1.46708992187948,Total waste generated taken for calculation,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-TA-e51eda66-2023-2,2023,Gold,Crude ore,Head grade,Reported,g/t,5.23,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
-TA-e51eda66-2023-3,2023,Silver,Crude ore,Head grade,Reported,g/t,16.15,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
-TA-e51eda66-2023-4,2023,Zinc,Crude ore,Head grade,Reported,%,0.44,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
-TA-e51eda66-2023-5,2023,Copper,Crude ore,Head grade,Reported,%,0.13,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
-TA-e51eda66-2023-6,2023,Gold,Crude ore,Recovery rate,Reported,%,93.5,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
-TA-e51eda66-2023-7,2023,Silver,Crude ore,Recovery rate,Reported,%,85.7,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
-TA-e51eda66-2023-8,2023,Zinc,Crude ore,Recovery rate,Reported,%,76.8,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
-TA-e51eda66-2023-9,2023,Copper,Crude ore,Recovery rate,Reported,%,80.8,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
-TA-8825d90d-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,5.79945622285082,Waste mined taken for calculation. Data from Alamos Gold,ON-MAIN-8825d90d,,CMP-a6812c47,SRC_ArgonautGoldInc_Data_2023
-TA-8825d90d-2024-1,2024,Gold,Crude ore,Ore grade,Reported,g/t,0.81,Data from Alamos Gold,ON-MAIN-8825d90d,,CMP-a6812c47,SRC_ArgonautGoldInc_Data_2023
-TA-8825d90d-2024-2,2024,Gold,Crude ore,Head grade,Reported,g/t,0.91,Data from Alamos Gold,ON-MAIN-8825d90d,,CMP-a6812c47,SRC_ArgonautGoldInc_Data_2023
-TA-8825d90d-2024-3,2024,Gold,Crude ore,Recovery rate,Reported,%,95.0,Data from Alamos Gold,ON-MAIN-8825d90d,,CMP-a6812c47,SRC_ArgonautGoldInc_Data_2023
-TA-7001a391-2023-1,2023,Cobalt,Crude ore,Head grade,Reported,%,0.01,,ON-MAIN-7001a391,,CMP-5f083f16,SRC_KGHMPolskaMiedźS.A._mccreedy-west-project
-TA-7001a391-2023-2,2023,Copper,Crude ore,Head grade,Reported,%,1.59,,ON-MAIN-7001a391,,CMP-5f083f16,SRC_KGHMPolskaMiedźS.A._mccreedy-west-project
-TA-7001a391-2023-3,2023,Gold,Crude ore,Head grade,Reported,g/t,0.41,,ON-MAIN-7001a391,,CMP-5f083f16,SRC_KGHMPolskaMiedźS.A._mccreedy-west-project
+TA-4e0734b5-2023-2,2023,Gold,Crude ore,Ore grade,Reported,g/t,3.08,,ON-MAIN-4e0734b5,,CMP-3ff42329,SRC_McEwenMiningInc_SEC_2024
+TA-687b8c8d-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,0.16768245966796233,Total waste rock generated taken for calculation,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+TA-687b8c8d-2023-2,2023,Gold,Crude ore,Mill grade,Reported,g/t,9.48,Assumed g/t,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+TA-687b8c8d-2023-3,2023,Gold,Crude ore,Mill recovery rate,Reported,%,97.0,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+TA-e51eda66-2023-1,2023,Silver,Crude ore,Head grade,Reported,g/t,16.15,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
+TA-e51eda66-2023-2,2023,Zinc,Crude ore,Head grade,Reported,%,0.44,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
+TA-e51eda66-2023-3,2023,Copper,Crude ore,Head grade,Reported,%,0.13,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
+TA-687b8c8d-2023-4,2023,Gold,Crude ore,Ore grade,Reported,g/t,9.43,Assumed g/t,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+TA-e51eda66-2023-4,2023,Silver,Crude ore,Recovery rate,Reported,%,85.7,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
+TA-e51eda66-2023-5,2023,Zinc,Crude ore,Recovery rate,Reported,%,76.8,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
+TA-e51eda66-2023-6,2023,Copper,Crude ore,Recovery rate,Reported,%,80.8,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
+TA-6e9be24e-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,1.20852695359985,Waste rock mined taken for calculation,ON-MAIN-6e9be24e,,CMP-79bcdb91,SRC_BarrickGoldCorporation_Barrick_2023_Performance-Data
+TA-7001a391-2023-1,2023,Gold,Crude ore,Head grade,Reported,g/t,0.41,,ON-MAIN-7001a391,,CMP-5f083f16,SRC_KGHMPolskaMiedźS.A._mccreedy-west-project
+TA-7607a50e-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,0.156803241920649,Total waste rock generated taken for calculation,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+TA-7607a50e-2023-2,2023,Gold,Crude ore,Mill grade,Reported,g/t,2.2,Assumed g/t,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+TA-7001a391-2023-2,2023,Cobalt,Crude ore,Head grade,Reported,%,0.01,,ON-MAIN-7001a391,,CMP-5f083f16,SRC_KGHMPolskaMiedźS.A._mccreedy-west-project
+TA-7001a391-2023-3,2023,Copper,Crude ore,Head grade,Reported,%,1.59,,ON-MAIN-7001a391,,CMP-5f083f16,SRC_KGHMPolskaMiedźS.A._mccreedy-west-project
+TA-7607a50e-2023-3,2023,Gold,Crude ore,Mill recovery rate,Reported,%,90.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
 TA-7001a391-2023-4,2023,Nickel,Crude ore,Head grade,Reported,%,0.23,,ON-MAIN-7001a391,,CMP-5f083f16,SRC_KGHMPolskaMiedźS.A._mccreedy-west-project
 TA-7001a391-2023-5,2023,Palladium,Crude ore,Head grade,Reported,g/t,1.34,,ON-MAIN-7001a391,,CMP-5f083f16,SRC_KGHMPolskaMiedźS.A._mccreedy-west-project
 TA-7001a391-2023-6,2023,Platinum,Crude ore,Head grade,Reported,g/t,1.03,,ON-MAIN-7001a391,,CMP-5f083f16,SRC_KGHMPolskaMiedźS.A._mccreedy-west-project
 TA-7001a391-2023-7,2023,Silver,Crude ore,Head grade,Reported,g/t,14.05,,ON-MAIN-7001a391,,CMP-5f083f16,SRC_KGHMPolskaMiedźS.A._mccreedy-west-project
-TA-GRP-0a2c0d69-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,9.553804692355664,Total waste generated taken for calculation,,GRP-0a2c0d69,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-TA-GRP-0a2c0d69-2023-2,2023,Gold,Crude ore,Head grade,Reported,g/t,3.86,,,GRP-0a2c0d69,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
-TA-GRP-0a2c0d69-2023-3,2023,Gold,Crude ore,Recovery rate,Reported,%,90.6,,,GRP-0a2c0d69,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
-TA-8b0264c9-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,3.1482939488870225,Total waste generated taken for calculation,NU-MAIN-8b0264c9,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-TA-8b0264c9-2023-2,2023,Gold,Crude ore,Head grade,Reported,g/t,6.11,,NU-MAIN-8b0264c9,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
-TA-8b0264c9-2023-3,2023,Gold,Crude ore,Recovery rate,Reported,%,96.6,,NU-MAIN-8b0264c9,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
-TA-ed23117f-2023-1,2023,Copper,Crude ore,Head grade,Reported,%,0.18,,BC-MAIN-ed23117f,,CMP-fa032e20,SRC_CenterraGoldInc_Data
-TA-ed23117f-2023-2,2023,Copper,Crude ore,Recovery rate,Reported,%,77.6,,BC-MAIN-ed23117f,,CMP-fa032e21,SRC_CenterraGoldInc_Data
-TA-ed23117f-2023-3,2023,Gold,Crude ore,Head grade,Reported,g/t,0.36,,BC-MAIN-ed23117f,,CMP-fa032e22,SRC_CenterraGoldInc_Data
-TA-ed23117f-2023-4,2023,Gold,Crude ore,Recovery rate,Reported,%,64.0,,BC-MAIN-ed23117f,,CMP-fa032e23,SRC_CenterraGoldInc_Data
-TA-3f490561-2023-1,2023,Copper,Crude ore,Ore grade,Reported,%,0.287,,BC-MAIN-3f490561,,CMP-0dfcd91e,SRC_ImperialMetalsCorporation_2024-Q4-MDA
-TA-3f490561-2023-2,2023,Copper,Crude ore,Recovery rate,Reported,%,80.0,,BC-MAIN-3f490561,,CMP-0dfcd91e,SRC_ImperialMetalsCorporation_2024-Q4-MDA
-TA-3f490561-2023-3,2023,Gold,Crude ore,Ore grade,Reported,g/t,0.311,,BC-MAIN-3f490561,,CMP-0dfcd91e,SRC_ImperialMetalsCorporation_2024-Q4-MDA
-TA-3f490561-2023-4,2023,Gold,Crude ore,Recovery rate,Reported,%,70.4,,BC-MAIN-3f490561,,CMP-0dfcd91e,SRC_ImperialMetalsCorporation_2024-Q4-MDA
+TA-7607a50e-2023-4,2023,Gold,Crude ore,Ore grade,Reported,g/t,2.2,Assumed g/t,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
+TA-7f050560-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,1.1810594530321,Total waste mined taken for calculation,ON-MAIN-7f050560,,CMP-ca642bce,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
+TA-8825d90d-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,5.79945622285082,Waste mined taken for calculation. Data from Alamos Gold,ON-MAIN-8825d90d,,CMP-a6812c47,SRC_ArgonautGoldInc_Data_2023
+TA-8825d90d-2024-1,2024,Gold,Crude ore,Ore grade,Reported,g/t,0.81,Data from Alamos Gold,ON-MAIN-8825d90d,,CMP-a6812c47,SRC_ArgonautGoldInc_Data_2023
+TA-8825d90d-2024-2,2024,Gold,Crude ore,Head grade,Reported,g/t,0.91,Data from Alamos Gold,ON-MAIN-8825d90d,,CMP-a6812c47,SRC_ArgonautGoldInc_Data_2023
+TA-8825d90d-2024-3,2024,Gold,Crude ore,Recovery rate,Reported,%,95.0,Data from Alamos Gold,ON-MAIN-8825d90d,,CMP-a6812c47,SRC_ArgonautGoldInc_Data_2023
+TA-ed23117f-2023-3,2023,Copper,Crude ore,Head grade,Reported,%,0.18,,BC-MAIN-ed23117f,,CMP-fa032e20,SRC_CenterraGoldInc_Data
+TA-ed23117f-2023-4,2023,Copper,Crude ore,Recovery rate,Reported,%,77.6,,BC-MAIN-ed23117f,,CMP-fa032e21,SRC_CenterraGoldInc_Data
+TA-aeafbb59-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,4.327581402800014,Total waste generated taken for calculation,ON-MAIN-aeafbb59,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TA-cb85213a-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,0.649377658594869,Waste rock generated taken for calculation,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
+TA-3f490561-2023-3,2023,Copper,Crude ore,Ore grade,Reported,%,0.287,,BC-MAIN-3f490561,,CMP-0dfcd91e,SRC_ImperialMetalsCorporation_2024-Q4-MDA
+TA-3f490561-2023-4,2023,Copper,Crude ore,Recovery rate,Reported,%,80.0,,BC-MAIN-3f490561,,CMP-0dfcd91e,SRC_ImperialMetalsCorporation_2024-Q4-MDA
+TA-cb85213a-2023-2,2023,Gold,Crude ore,Head grade,Reported,g/t,12.6,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
+TA-cb85213a-2023-3,2023,Gold,Crude ore,Recovery rate,Reported,%,96.9,,ON-MAIN-cb85213a,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
+TA-f4fc3276-2023-1,2023,Gold,Usable ore,Ore grade,Reported,g/t,5.1,Assumed ore grade,ON-MAIN-f4fc3276,,CMP-79f8bb59,SRC_SilverLakeResourcesLtd_AR_2023
 TA-fefeaee4-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,0.682114785992217,Total waste rock generated taken for calculation,ON-MAIN-fefeaee4,,CMP-4a434d72,SRC_NewmontCorporation_AR_2024
 TA-fefeaee4-2023-2,2023,Ore,Crude ore,Mill ore grade,Reported,g/t,5.701,,ON-MAIN-fefeaee4,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2024
 TA-fefeaee4-2023-3,2023,Ore,Crude ore,Mill recovery rate,Reported,%,95.7,,ON-MAIN-fefeaee4,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2025
-TA-aa76f6f2-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,0.187133442088091,Waste rock generated taken for calculation,BC-MAIN-aa76f6f2,,CMP-d94be190,SRC_NewGoldInc_New_gold_production
-TA-aa76f6f2-2023-2,2023,Copper,Crude ore,Ore grade,Reported,%,0.77,Assumed ore grade,BC-MAIN-aa76f6f2,,CMP-d94be190,SRC_NewGoldInc_New_gold_production
-TA-aa76f6f2-2023-3,2023,Copper,Crude ore,Recovery rate,Reported,%,91.0,,BC-MAIN-aa76f6f2,,CMP-d94be190,SRC_NewGoldInc_New_gold_production
-TA-aa76f6f2-2023-4,2023,Gold,Crude ore,Ore grade,Reported,g/t,0.72,Assumed ore grade,BC-MAIN-aa76f6f2,,CMP-d94be190,SRC_NewGoldInc_New_gold_production
-TA-aa76f6f2-2023-5,2023,Gold,Crude ore,Recovery rate,Reported,%,90.0,,BC-MAIN-aa76f6f2,,CMP-d94be190,SRC_NewGoldInc_New_gold_production
-TA-da0b5c3d-2023-1,2023,Copper,Crude ore,Head grade,Reported,%,1.03,,MB-MAIN-da0b5c3d,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
-TA-da0b5c3d-2023-2,2023,Copper,Crude ore,Recovery rate,Reported,%,93.3,,MB-MAIN-da0b5c3d,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
-TA-da0b5c3d-2023-3,2023,Copper,Usable ore,Concentrate grade,Reported,% Cu,15.44,,MB-MAIN-da0b5c3d,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
-TA-da0b5c3d-2023-4,2023,Gold,Crude ore,Head grade,Reported,g/t,6.76,,MB-MAIN-da0b5c3d,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
-TA-da0b5c3d-2023-5,2023,Gold,Crude ore,Recovery rate,Reported,%,88.6,,MB-MAIN-da0b5c3d,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
+TA-aa76f6f2-2023-4,2023,Copper,Crude ore,Ore grade,Reported,%,0.77,Assumed ore grade,BC-MAIN-aa76f6f2,,CMP-d94be190,SRC_NewGoldInc_New_gold_production
+TA-aa76f6f2-2023-5,2023,Copper,Crude ore,Recovery rate,Reported,%,91.0,,BC-MAIN-aa76f6f2,,CMP-d94be190,SRC_NewGoldInc_New_gold_production
+TA-02884fb5-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,2.34391102514506,Mineral waste|Waste rock taken for calculation,QC-MAIN-02884fb5,,CMP-3d0a95b7,SRC_IAMGOLDCorporation_operational_data
+TA-02884fb5-2023-2,2023,Ore,Crude ore,Head grade,Reported,g/t,3.03,,QC-MAIN-02884fb5,,CMP-3d0a95b7,SRC_IAMGOLDCorporation_operational_data
+TA-da0b5c3d-2023-3,2023,Copper,Crude ore,Head grade,Reported,%,1.03,,MB-MAIN-da0b5c3d,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
+TA-da0b5c3d-2023-4,2023,Copper,Crude ore,Recovery rate,Reported,%,93.3,,MB-MAIN-da0b5c3d,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
+TA-da0b5c3d-2023-5,2023,Copper,Usable ore,Concentrate grade,Reported,% Cu,15.44,,MB-MAIN-da0b5c3d,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
+TA-02884fb5-2023-3,2023,Ore,Crude ore,Ore grade,Reported,g/t,3.19,,QC-MAIN-02884fb5,,CMP-3d0a95b7,SRC_IAMGOLDCorporation_operational_data
+TA-02884fb5-2023-4,2023,Ore,Crude ore,Recovery rate,Reported,%,93.0,,QC-MAIN-02884fb5,,CMP-3d0a95b7,SRC_IAMGOLDCorporation_operational_data
 TA-da0b5c3d-2023-6,2023,Silver,Crude ore,Head grade,Reported,%,25.11,,MB-MAIN-da0b5c3d,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
 TA-da0b5c3d-2023-7,2023,Silver,Crude ore,Recovery rate,Reported,%,81.5,,MB-MAIN-da0b5c3d,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
 TA-da0b5c3d-2023-8,2023,Zinc,Crude ore,Head grade,Reported,%,0.84,,MB-MAIN-da0b5c3d,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
-TA-GRP-0d911886-2023-1,2023,Gold,Crude ore,Mill ore grade,Reported,g/t,3.015,,,GRP-0d911886,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
-TA-GRP-0d911886-2023-2,2023,Gold,Crude ore,Mill recovery rate,Reported,%,91.4,,,GRP-0d911886,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
-TA-0aadf28f-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,3.4725899132816,Waste rock generated taken for calculation,ON-MAIN-0aadf28f,,CMP-d94be190,SRC_NewGoldInc_New_gold_production
-TA-0aadf28f-2023-2,2023,Gold,Crude ore,Ore grade,Reported,g/t,0.99,Assumed ore grade,ON-MAIN-0aadf28f,,CMP-d94be190,SRC_NewGoldInc_New_gold_production
-TA-0aadf28f-2023-3,2023,Ore,Crude ore,Recovery rate,Reported,%,91.0,,ON-MAIN-0aadf28f,,CMP-d94be190,SRC_NewGoldInc_New_gold_production
-TA-8eb8be0d-2023-1,2023,Copper,Crude ore,Mill ore grade,Reported,%,0.4,,BC-MAIN-8eb8be0d,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
-TA-8eb8be0d-2023-2,2023,Copper,Crude ore,Mill recovery rate,Reported,%,81.2,,BC-MAIN-8eb8be0d,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
-TA-8eb8be0d-2023-3,2023,Gold,Crude ore,Mill ore grade,Reported,g/t,0.276,,BC-MAIN-8eb8be0d,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
-TA-8eb8be0d-2023-4,2023,Gold,Crude ore,Mill recovery rate,Reported,%,54.2,,BC-MAIN-8eb8be0d,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
-TA-7f050560-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,1.1810594530321,Total waste mined taken for calculation,ON-MAIN-7f050560,,CMP-ca642bce,SRC_EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web
-TA-GRP-14bfbb82-2023-1,2023,Gold,Crude ore,Mill feed grade,Reported,g/t,10.14,,,GRP-14bfbb82,CMP-4a73c5f8,SRC_SSRMiningInc_FY2024
-TA-GRP-14bfbb82-2023-2,2023,Gold,Crude ore,Recovery rate,Reported,%,97.0,,,GRP-14bfbb82,CMP-4a73c5f8,SRC_SSRMiningInc_FY2024
-TA-0898e255-2023-1,2023,Copper,Usable ore,Concentrate grade,Reported,% Cu,20.11,,MB-MAIN-0898e255,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
-TA-0898e255-2023-2,2023,Copper,Crude ore,Head grade,Reported,%,0.74,,MB-MAIN-0898e255,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
-TA-0898e255-2023-3,2023,Copper,Crude ore,Recovery rate,Reported,%,90.4,,MB-MAIN-0898e255,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
-TA-0898e255-2023-4,2023,Gold,Crude ore,Head grade,Reported,g/t,3.45,,MB-MAIN-0898e255,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
-TA-0898e255-2023-5,2023,Gold,Crude ore,Recovery rate,Reported,%,64.8,,MB-MAIN-0898e255,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
+TA-6dc537e6-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,0.361706201083684,Total waste rock generated taken for calculation,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
+TA-6dc537e6-2023-2,2023,Gold,Crude ore,Mill ore grade,Reported,g/t,4.785,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
+TA-6dc537e6-2023-3,2023,Gold,Crude ore,Mill recovery rate,Reported,%,91.0,,QC-MAIN-6dc537e6,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
+TA-9de9bb0d-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,0.848295561554397,Waste rock generated taken for calculation,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
+TA-9de9bb0d-2023-2,2023,Gold,Crude ore,Head grade,Reported,g/t,5.9,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
+TA-8eb8be0d-2023-3,2023,Copper,Crude ore,Mill ore grade,Reported,%,0.4,,BC-MAIN-8eb8be0d,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
+TA-8eb8be0d-2023-4,2023,Copper,Crude ore,Mill recovery rate,Reported,%,81.2,,BC-MAIN-8eb8be0d,,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
+TA-9de9bb0d-2023-3,2023,Gold,Crude ore,Recovery rate,Reported,%,98.3,,QC-MAIN-9de9bb0d,,CMP-3d2c4955,SRC_WesdomeGoldMinesLtd_2024-MDA-FINAL
+TA-e51eda66-2023-7,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,1.46708992187948,Total waste generated taken for calculation,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TA-e51eda66-2023-8,2023,Gold,Crude ore,Head grade,Reported,g/t,5.23,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
+TA-e51eda66-2023-9,2023,Gold,Crude ore,Recovery rate,Reported,%,93.5,,QC-MAIN-e51eda66,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
+TA-e7e6a960-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,1.0001405976077076,Total waste generated taken for calculation,QC-MAIN-e7e6a960,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TA-0898e255-2023-3,2023,Copper,Usable ore,Concentrate grade,Reported,% Cu,20.11,,MB-MAIN-0898e255,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
+TA-0898e255-2023-4,2023,Copper,Crude ore,Head grade,Reported,%,0.74,,MB-MAIN-0898e255,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
+TA-0898e255-2023-5,2023,Copper,Crude ore,Recovery rate,Reported,%,90.4,,MB-MAIN-0898e255,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
+TA-e7e6a960-2023-2,2023,Gold,Crude ore,Head grade,Reported,g/t,1.17,,QC-MAIN-e7e6a960,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
+TA-e7e6a960-2023-3,2023,Gold,Crude ore,Recovery rate,Reported,%,92.8,,QC-MAIN-e7e6a960,,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
 TA-0898e255-2023-6,2023,Silver,Crude ore,Head grade,Reported,g/t,24.19,,MB-MAIN-0898e255,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
 TA-0898e255-2023-7,2023,Silver,Crude ore,Recovery rate,Reported,%,61.4,,MB-MAIN-0898e255,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
 TA-0898e255-2023-8,2023,Zinc,Usable ore,Concentrate grade,Reported,% Zn,51.84,,MB-MAIN-0898e255,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
 TA-0898e255-2023-9,2023,Zinc,Crude ore,Head grade,Reported,%,4.36,,MB-MAIN-0898e255,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
 TA-0898e255-2023-10,2023,Zinc,Crude ore,Recovery rate,Reported,%,82.2,,MB-MAIN-0898e255,GRP-a13779f8,CMP-12afc634,SRC_HudbayMineralsInc_MDA25
-TA-f4fc3276-2023-1,2023,Gold,Usable ore,Ore grade,Reported,g/t,5.1,Assumed ore grade,ON-MAIN-f4fc3276,,CMP-79f8bb59,SRC_SilverLakeResourcesLtd_AR_2023
+TA-f9e41c2a-2023-1,2023,Gold,Crude ore,Head grade,Reported,g/t,6.76,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_Data
 TA-d3a4aba9-2022-1,2022,Cobalt,Crude ore,Recovery rate,Reported,%,81.2,Includes other third pary feeds,AB-MAIN-d3a4aba9,,CMP-2ef1f553,SRC_SherrittInternationalCorporationandGeneralNickelCompanyS.A._TR_2023
 TA-d3a4aba9-2022-2,2022,Nickel,Crude ore,Recovery rate,Reported,%,83.5,Includes other third pary feeds,AB-MAIN-d3a4aba9,,CMP-2ef1f553,SRC_SherrittInternationalCorporationandGeneralNickelCompanyS.A._TR_2023
+TA-f9e41c2a-2023-2,2023,Gold,Crude ore,Recovery rate,Reported,%,0.971,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,SRC_EldoradoGold_Data
+TA-GRP-0a2c0d69-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,9.553804692355664,Total waste generated taken for calculation,,GRP-0a2c0d69,CMP-6265c407,SRC_AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TA-GRP-0a2c0d69-2023-2,2023,Gold,Crude ore,Head grade,Reported,g/t,3.86,,,GRP-0a2c0d69,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
+TA-GRP-0a2c0d69-2023-3,2023,Gold,Crude ore,Recovery rate,Reported,%,90.6,,,GRP-0a2c0d69,CMP-6265c407,SRC_AgnicoEagleMinesLimited_operational_data
+TA-GRP-0d911886-2023-1,2023,Gold,Crude ore,Mill ore grade,Reported,g/t,3.015,,,GRP-0d911886,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
+TA-GRP-0d911886-2023-2,2023,Gold,Crude ore,Mill recovery rate,Reported,%,91.4,,,GRP-0d911886,CMP-4a434d72,SRC_NewmontCorporation_Operating_statistics_2023
+TA-GRP-14bfbb82-2023-1,2023,Gold,Crude ore,Mill feed grade,Reported,g/t,10.14,,,GRP-14bfbb82,CMP-4a73c5f8,SRC_SSRMiningInc_FY2024
+TA-GRP-14bfbb82-2023-2,2023,Gold,Crude ore,Recovery rate,Reported,%,97.0,,,GRP-14bfbb82,CMP-4a73c5f8,SRC_SSRMiningInc_FY2024
 TA-GRP-147b3123-2023-1,2023,Gold,Crude ore,Ore grade,Reported,g/t,2.7,Assumed ore grade,,GRP-147b3123,CMP-48a36546,SRC_PanAmericanSilverCorp._Financial_results
-TA-02884fb5-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,2.34391102514506,Mineral waste|Waste rock taken for calculation,QC-MAIN-02884fb5,,CMP-3d0a95b7,SRC_IAMGOLDCorporation_operational_data
-TA-02884fb5-2023-2,2023,Ore,Crude ore,Head grade,Reported,g/t,3.03,,QC-MAIN-02884fb5,,CMP-3d0a95b7,SRC_IAMGOLDCorporation_operational_data
-TA-02884fb5-2023-3,2023,Ore,Crude ore,Ore grade,Reported,g/t,3.19,,QC-MAIN-02884fb5,,CMP-3d0a95b7,SRC_IAMGOLDCorporation_operational_data
-TA-02884fb5-2023-4,2023,Ore,Crude ore,Recovery rate,Reported,%,93.0,,QC-MAIN-02884fb5,,CMP-3d0a95b7,SRC_IAMGOLDCorporation_operational_data
-TA-7607a50e-2023-1,2023,Ore,Crude ore,Strip ratio,Calculated,waste/ore,0.156803241920649,Total waste rock generated taken for calculation,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-TA-7607a50e-2023-2,2023,Gold,Crude ore,Mill grade,Reported,g/t,2.2,Assumed g/t,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-TA-7607a50e-2023-3,2023,Gold,Crude ore,Mill recovery rate,Reported,%,90.0,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
-TA-7607a50e-2023-4,2023,Gold,Crude ore,Ore grade,Reported,g/t,2.2,Assumed g/t,ON-MAIN-7607a50e,,CMP-3a4ccc7f,SRC_AlamosGoldInc_Data_2023
