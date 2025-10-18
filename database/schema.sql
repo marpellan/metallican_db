@@ -309,11 +309,12 @@ CREATE TABLE "Peatland" (
     -- FOREIGN KEY (source_id) REFERENCES "Sources"(source_id)
 );
 
--- PRIORITIZED CONSERVATION AREAS
-CREATE TABLE "Prioritized_conservation_areas" (
-    score_1km FLOAT,
-    mean_score_50km FLOAT,
+-- PRIORITIZATION CONSERVATION AREAS
+CREATE TABLE "Prioritization_conservation_areas" (
+    score_1_km FLOAT,
+    mean_score_50_km FLOAT,
     main_id TEXT,
+    source_id TEXT,
     FOREIGN KEY (main_id) REFERENCES "Main"(main_id)
 );
 
