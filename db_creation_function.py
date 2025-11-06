@@ -466,28 +466,46 @@ def analyze_and_compare_polygon_areas(gdf1, gdf2, dataset_name1, dataset_name2, 
     return summary_df
 
 
-def add_source_id_to_collected_data(df, company_col="company", facility_col="facility", source_col="source", source_id_col="source_id"):
+def add_source_id_to_collected_data(
+    df, company_col="company", facility_col="facility", source_col="source", source_id_col="source_id"
+):
     """
-    Add a human-readable source_id column to a DataFrame using company, facility, and source file name.
+    Add a human-readable source_id column to a DataFrame using company, facility, and source file name or URL.
 
-    Parameters:
-    - df: pandas DataFrame
-    - company_col: column name for the company
-    - facility_col: column name for the facility
-    - source_col: column name for the source file (e.g. PDF, Excel)
-    - source_id_col: name of the output column to be added
+    Parameters
+    ----------
+    df : pd.DataFrame
+        Input DataFrame.
+    company_col : str
+        Column name for the company.
+    facility_col : str
+        Column name for the facility.
+    source_col : str
+        Column name for the source file (can be URL or file path).
+    source_id_col : str
+        Name of the output column to be added.
 
-    Returns:
-    - df with a new 'source_id' column (if not already present)
+    Returns
+    -------
+    pd.DataFrame
+        DataFrame with a new 'source_id' column.
     """
     import pandas as pd
     from pathlib import Path
+    from urllib.parse import urlparse
 
     if source_id_col not in df.columns:
         def create_source_id(row):
             company = str(row[company_col]).strip().replace(" ", "")
-            file_stem = Path(str(row[source_col])).stem.strip().replace(" ", "")
-            return f"SRC_{company}_{file_stem}"
+            source = str(row[source_col]).strip()
+
+            # If it's a URL, keep the full URL (cleaned)
+            if source.startswith(("http://", "https://")):
+                return source
+
+            # Otherwise, use file stem
+            file_stem = Path(source).stem.strip().replace(" ", "")
+            return f"{company}_{file_stem}"
 
         df[source_id_col] = df.apply(create_source_id, axis=1)
     else:
@@ -496,23 +514,38 @@ def add_source_id_to_collected_data(df, company_col="company", facility_col="fac
     return df
 
 
-def create_source_table_from_datasets(dataset_dict, manually_collected_dfs, source_col="source", company_col="company", facility_col="facility"):
+def create_source_table_from_datasets(
+    dataset_dict,
+    manually_collected_dfs,
+    source_col="source",
+    company_col="company",
+    facility_col="facility"
+):
     """
     Create a consolidated source table from multiple GeoDataFrames and manually collected data.
 
-    Parameters:
-    - dataset_dict: dict mapping GeoDataFrame name (str) to actual df with a single source_id value
-    - manually_collected_dfs: list of dataframes that use the 'add_source_id' function
-    - source_col, company_col, facility_col: column names in manually collected dfs
+    Parameters
+    ----------
+    dataset_dict : dict
+        Mapping of dataset names (str) to DataFrames, each containing a 'source_id' column.
+    manually_collected_dfs : list
+        List of manually collected DataFrames that use the 'add_source_id_to_collected_data' function.
+    source_col : str
+        Column name for the source file or URL.
+    company_col : str
+        Column name for the company.
+    facility_col : str
+        Column name for the facility.
 
-    Returns:
-    - A pandas DataFrame with columns: source_id, source_provenance, source_name
+    Returns
+    -------
+    pandas.DataFrame
+        Consolidated table with columns: ['source_id', 'source_provenance', 'source_name'].
     """
-
     import pandas as pd
     from pathlib import Path
 
-    # Step 1: Add known datasets
+    # Step 1: Add known dataset sources
     dataset_sources = []
     for name, df in dataset_dict.items():
         unique_ids = df['source_id'].dropna().unique()
@@ -526,24 +559,44 @@ def create_source_table_from_datasets(dataset_dict, manually_collected_dfs, sour
     # Step 2: Add manually collected sources
     manual_sources = []
     for df in manually_collected_dfs:
-        if "source_id" not in df.columns:
-            continue  # skip if not processed yet
-        for _, row in df.dropna(subset=["source_id"]).drop_duplicates(subset=["source_id"]).iterrows():
+        if "source_id" not in df.columns or source_col not in df.columns:
+            continue  # skip incomplete dfs
+
+        for _, row in (
+            df.dropna(subset=["source_id"])
+              .drop_duplicates(subset=["source_id"])
+              .iterrows()
+        ):
             source_id = row["source_id"]
+            source = str(row.get(source_col, "")).strip()
             company = str(row.get(company_col, "")).strip()
             facility = str(row.get(facility_col, "")).strip()
-            file_path = Path(str(row.get(source_col, "")))
-            file_name = file_path.name
-            source_name = f"{company} – {facility} ({file_name})".strip(" –()")
-            manual_sources.append({
-                "source_id": source_id,
-                "source_provenance": "report",
-                "source_name": source_name
-            })
 
-    # Combine, deduplicate
+            # Distinguish website vs report
+            if source.startswith(("http://", "https://")):
+                manual_sources.append({
+                    "source_id": source_id,
+                    "source_provenance": "website",
+                    "source_name": source
+                })
+            else:
+                file_path = Path(source)
+                file_name = file_path.name
+                source_name = f"{company} – {facility} ({file_name})".strip(" –()")
+                manual_sources.append({
+                    "source_id": source_id,
+                    "source_provenance": "report",
+                    "source_name": source_name
+                })
+
+    # Step 3: Combine, deduplicate, and sort
     full_source_table = pd.DataFrame(dataset_sources + manual_sources)
-    full_source_table = full_source_table.drop_duplicates(subset=["source_id"]).sort_values("source_provenance")
+    full_source_table = (
+        full_source_table
+        .drop_duplicates(subset=["source_id"])
+        .sort_values(by=["source_provenance", "source_name"])
+        .reset_index(drop=True)
+    )
 
     return full_source_table
 
