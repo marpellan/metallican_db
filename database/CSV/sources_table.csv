@@ -123,22 +123,22 @@ AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_250421
 AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042154,report,Agnico-Eagle-2023-Sustainability-Performance-Data_25042154
 AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042155,report,Agnico-Eagle-2023-Sustainability-Performance-Data_25042155
 BarrickGoldCorporation_Barrick_2023_Performance-Data,report,Barrick_2023_Performance-Data.xlsx
-CenterraGoldInc_Data,report,Data.xlsx
 EldoradoGold_Data,report,Data.xlsx
+CenterraGoldInc_Data,report,Data.xlsx
 AlamosGoldInc_Data_2023,report,Data_2023.xlsx
 ArgonautGoldInc_Data_2023,report,Data_2023.xlsx
 EVRAZNorthAmericaInc_Databook_2021,report,Databook_2021.xlsx
 TasekoMinesLimited_ESG_2023,report,ESG_2023.pdf
-SSRMiningInc_ESG_2023,report,ESG_2023.pdf
 EldoradoGold_ESG_2023,report,ESG_2023.pdf
+SSRMiningInc_ESG_2023,report,ESG_2023.pdf
 ImpalaCanadaLtd_ESG_2024,report,ESG_2024.pdf
 TacoraResourcesInc._ESG_2024,report,ESG_2024.pdf
-PanAmericanSilverCorp_ESG_data_2023,report,ESG_data_2023.xlsx
 WesdomeGoldMinesLtd._ESG_data_2023,report,ESG_data_2023.xlsx
 NewGoldInc_ESG_data_2023,report,ESG_data_2023.xlsx
+PanAmericanSilverCorp_ESG_data_2023,report,ESG_data_2023.xlsx
 EvolutionMiningLtd_EVN_FY24-ESG-Performance-Data_web,report,EVN_FY24-ESG-Performance-Data_web.xlsx
-ImpalaCanadaLtd_FY2024,report,FY2024
 SSRMiningInc_FY2024,report,FY2024
+ImpalaCanadaLtd_FY2024,report,FY2024
 ArcelorMittal_Factbook_2024,report,Factbook_2024.pdf
 PanAmericanSilverCorp._Financial_results,report,Financial_results
 Glencore_GLENCORE+Resources+and+Reserves+report+2024,report,GLENCORE+Resources+and+Reserves+report+2024.pdf
@@ -164,15 +164,15 @@ HeclaMiningCompany_RR-tables-12-31-2024,report,RR-tables-12-31-2024
 CanadianRoyaltiesInc._Rapport_Objectif_Emissions_GES_2023_EN,report,Rapport_Objectif_Emissions_GES_2023_EN
 ImperialMetalsCorporation_Reserves-Resources_June-2023,report,Reserves-Resources_June-2023
 SSRMiningInc_Reserves-and-Resources_2024,report,Reserves-and-Resources_2024
-BarrickGoldCorporation_Reserves_2024,report,Reserves_2024
 CamecoCorporation_Reserves_2024,report,Reserves_2024
+BarrickGoldCorporation_Reserves_2024,report,Reserves_2024
 PanAmericanSilverCorp_Reserves_2024,report,Reserves_2024
-CenterraGoldInc_Reserves_2024,report,Reserves_2024.pdf
 HudbayMineralsInc_Reserves_2024,report,Reserves_2024.pdf
+CenterraGoldInc_Reserves_2024,report,Reserves_2024.pdf
 McEwenMiningInc_SEC_2024,report,SEC_2024.pdf
 MagrisPerformanceMaterialsInc._SR_2023,report,SR_2023.pdf
-HeclaMiningCompany_SR_2023,report,SR_2023.pdf
 IronOreCompanyofCanadaInc_SR_2023,report,SR_2023.pdf
+HeclaMiningCompany_SR_2023,report,SR_2023.pdf
 MagrisPerformanceMaterials_SR_2023,report,SR_2023.pdf
 TacoraResourcesInc._SR_2024,report,SR_2024.pdf
 SherrittInternationalCorporationandGeneralNickelCompanyS.A._TR_2023,report,TR_2023.pdf
@@ -183,14 +183,13 @@ HeclaMiningCompany_TR_Keno_Hill_2024,report,TR_Keno_Hill_2024.pdf
 TeckResourcesLimited_Teck-Sustainability-Databook,report,Teck-Sustainability-Databook
 Vale_Vale'sperformancein1Q25-xls,report,Vale's performance in 1Q25 - xls
 ChampionIronLtd_cil-23sr-esg-databookvf,report,cil-23sr-esg-databookvf.xlsx
-Glencore_nan,report,nan
 Vale_nan,report,nan
 IronOreCompanyofCanadaInc._nan,report,nan
 AlgomaSteelInc._nan,report,nan
 AgnicoEagleMinesLimited_operational_data,report,operational_data.xlsx
 IAMGOLDCorporation_operational_data,report,operational_data.xlsx
-IronOreCompanyofCanada_rt-fact-book-addendum,report,rt-fact-book-addendum.xlsx
 RioTinto_rt-fact-book-addendum,report,rt-fact-book-addendum.xlsx
+IronOreCompanyofCanada_rt-fact-book-addendum,report,rt-fact-book-addendum.xlsx
 IronOreCompanyofCanadaInc._rt-fact-book-addendum,report,rt-fact-book-addendum.xlsx
 https://aluminium.ca/en/the-industry/,website,https://aluminium.ca/en/the-industry/
 https://evolutionmining.com.au/reservesresources/,website,https://evolutionmining.com.au/reservesresources/
@@ -212,6 +211,12 @@ https://www.gem.wiki/IOC_Carol_Lake_Mine,website,https://www.gem.wiki/IOC_Carol_
 https://www.gem.wiki/Ivaco_Rolling_Mills_steel_plant,website,https://www.gem.wiki/Ivaco_Rolling_Mills_steel_plant
 https://www.gem.wiki/Quebec_Iron_Bloom_Lake_Mine,website,https://www.gem.wiki/Quebec_Iron_Bloom_Lake_Mine
 https://www.gem.wiki/Tacora_Resources_Scully_Mine,website,https://www.gem.wiki/Tacora_Resources_Scully_Mine
+https://www.geologyontario.mines.gov.on.ca/mineral-inventory/MDI41I06NE00002,website,https://www.geologyontario.mines.gov.on.ca/mineral-inventory/MDI41I06NE00002
+https://www.geologyontario.mines.gov.on.ca/mineral-inventory/MDI42A11NW00002,website,https://www.geologyontario.mines.gov.on.ca/mineral-inventory/MDI42A11NW00002
+https://www.geologyontario.mines.gov.on.ca/mineral-inventory/MDI52H04NE00003,website,https://www.geologyontario.mines.gov.on.ca/mineral-inventory/MDI52H04NE00003
+https://www.geologyontario.mndm.gov.on.ca/mndmfiles/mdi/data/records/MDI41I06NE00005.html,website,https://www.geologyontario.mndm.gov.on.ca/mndmfiles/mdi/data/records/MDI41I06NE00005.html
+https://www.geologyontario.mndm.gov.on.ca/mndmfiles/mdi/data/records/MDI41I06NW00004.html,website,https://www.geologyontario.mndm.gov.on.ca/mndmfiles/mdi/data/records/MDI41I06NW00004.html
+https://www.geologyontario.mndm.gov.on.ca/mndmfiles/mdi/data/records/MDI41I10SW00006.html,website,https://www.geologyontario.mndm.gov.on.ca/mndmfiles/mdi/data/records/MDI41I10SW00006.html
 https://www.glencore.ca/en/raglan/what-we-do/our-mining-activity,website,https://www.glencore.ca/en/raglan/what-we-do/our-mining-activity
 https://www.glencore.ca/en/sudburyino/who-we-are/at-a-glance,website,https://www.glencore.ca/en/sudburyino/who-we-are/at-a-glance
 https://www.gov.nl.ca/iet/files/Mining-in-NL-Fall-2024.pdf,website,https://www.gov.nl.ca/iet/files/Mining-in-NL-Fall-2024.pdf
@@ -221,5 +226,6 @@ https://www.mining-technology.com/marketdata/five-largest-nickel-mines-canada/?c
 https://www.orano.group/canada/en/our-uranium-expertise/mining-and-milling,website,https://www.orano.group/canada/en/our-uranium-expertise/mining-and-milling
 https://www.tasekomines.com/investors/news/taseko-reports-strong-fourth-quarter-financial-performance-and-190-million-of-adjusted-ebitda-for-2023/,website,https://www.tasekomines.com/investors/news/taseko-reports-strong-fourth-quarter-financial-performance-and-190-million-of-adjusted-ebitda-for-2023/
 https://www.tasekomines.com/properties/reserves-and-resources/,website,https://www.tasekomines.com/properties/reserves-and-resources/
+https://www.teck.com/media/Teck-Highland-Valley-Copper-Site-Visit-2019-HVC-Presentation.pdf,website,https://www.teck.com/media/Teck-Highland-Valley-Copper-Site-Visit-2019-HVC-Presentation.pdf
 https://open.canada.ca/data/en/dataset/22b2db8a-dc12-47f2-9737-99d3da921751,dataset,"Critical minerals advanced projects, mines and processing facilities in Canada "
 https://open.canada.ca/data/en/dataset/000183ed-8864-42f0-ae43-c4313a860720,dataset,"Principal Mineral Areas, Producing Mines, and Oil and Gas Fields (900A) "
