@@ -29,4 +29,5 @@ For questions, feel free to open an issue or reach out via email at: [marin.pell
 
 # 📄 Citation
 Open-access article: https://www.nature.com/articles/s41597-025-06106-1
-Zenodo: https://doi.org/10.5281/zenodo.17289399
+Zenodo: https://zenodo.org/records/17651052
+Web application: https://metallican-data-explorer.streamlit.app/
