@@ -1,0 +1,471 @@
+Facility GHGRP ID No. / Installation No d'identification du PDGES,Reference Year / Année de référence,Facility Name / Nom de l'installation,Facility City or District or Municipality / Ville ou District ou Municipalité de l'installation,Facility Province or Territory / Province ou territoire de l'installation,Latitude,Longitude,Facility NAICS Code / Code SCIAN de l'installation,English Facility NAICS Code Description / Description du code SCIAN de l'installation en anglais,Reporting Company Legal Name / Dénomination sociale de la société déclarante,Emission Source / Source d'emission,substance,unit,value
+10052,2023,Carol Project,Labrador city,Newfoundland and Labrador,52.9565,-66.8936,212210,Iron Ore Mining,Iron Ore Company of Canada,Stationary Fuel Combustion,CO2,t,504422.833
+10052,2023,Carol Project,Labrador city,Newfoundland and Labrador,52.9565,-66.8936,212210,Iron Ore Mining,Iron Ore Company of Canada,Industrial Processes,CO2,t,129810.756
+10052,2023,Carol Project,Labrador city,Newfoundland and Labrador,52.9565,-66.8936,212210,Iron Ore Mining,Iron Ore Company of Canada,On-site Transportation,CO2,t,140977.403
+10164,2023,Kidd Metallurgical Site,Timmins/District of Cochrane,Ontario,48.57373,-81.09115,212233,Copper-Zinc Ore Mining,Glencore,Stationary Fuel Combustion,CO2,t,20752.326
+10164,2023,Kidd Metallurgical Site,Timmins/District of Cochrane,Ontario,48.57373,-81.09115,212233,Copper-Zinc Ore Mining,Glencore,On-site Transportation,CO2,t,8266.7293
+10188,2023,Mine de Mont-Wright,Fermont,Quebec,52.76639,-67.33306,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Stationary Fuel Combustion,CO2,t,16827.654
+10188,2023,Mine de Mont-Wright,Fermont,Quebec,52.76639,-67.33306,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Industrial Processes,CO2,t,11987.145
+10188,2023,Mine de Mont-Wright,Fermont,Quebec,52.76639,-67.33306,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,On-site Transportation,CO2,t,221258.242
+10240,2023,Mine Raglan,Rivière-Koksoak,Quebec,61.6916,-73.6666,212232,Nickel-Copper Ore Mining,Glencore,Stationary Fuel Combustion,CO2,t,138037.1125
+10240,2023,Mine Raglan,Rivière-Koksoak,Quebec,61.6916,-73.6666,212232,Nickel-Copper Ore Mining,Glencore,Industrial Processes,CO2,t,1553.41073
+10240,2023,Mine Raglan,Rivière-Koksoak,Quebec,61.6916,-73.6666,212232,Nickel-Copper Ore Mining,Glencore,On-site Transportation,CO2,t,17060.32142
+10240,2023,Mine Raglan,Rivière-Koksoak,Quebec,61.6916,-73.6666,212232,Nickel-Copper Ore Mining,Glencore,Waste,CO2,t,7.744957
+10240,2023,Mine Raglan,Rivière-Koksoak,Quebec,61.6916,-73.6666,212232,Nickel-Copper Ore Mining,Glencore,Wastewater,CO2,t,0.0
+10299,2023,Usine de Bouletage de Port-Cartier,Port-Cartier,Quebec,50.0334,-66.791,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Stationary Fuel Combustion,CO2,t,659666.451
+10299,2023,Usine de Bouletage de Port-Cartier,Port-Cartier,Quebec,50.0334,-66.791,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Industrial Processes,CO2,t,142394.284
+10299,2023,Usine de Bouletage de Port-Cartier,Port-Cartier,Quebec,50.0334,-66.791,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,On-site Transportation,CO2,t,248.073
+10350,2023,Wabush Mines - Scully,Wabush,Newfoundland and Labrador,52.907,-66.9105,212210,Iron Ore Mining,Tacora Resources Inc.,Stationary Fuel Combustion,CO2,t,76214.5865
+10350,2023,Wabush Mines - Scully,Wabush,Newfoundland and Labrador,52.907,-66.9105,212210,Iron Ore Mining,Tacora Resources Inc.,Industrial Processes,CO2,t,1718.3632
+10350,2023,Wabush Mines - Scully,Wabush,Newfoundland and Labrador,52.907,-66.9105,212210,Iron Ore Mining,Tacora Resources Inc.,On-site Transportation,CO2,t,30804.5179
+10385,2023,Teck Highland Valley Copper Partnership,Logan Lake,British Columbia,50.47235,-121.02132,212233,Copper-Zinc Ore Mining,Teck Highland Valley Copper Partnership,Stationary Fuel Combustion,CO2,t,16582.3091
+10385,2023,Teck Highland Valley Copper Partnership,Logan Lake,British Columbia,50.47235,-121.02132,212233,Copper-Zinc Ore Mining,Teck Highland Valley Copper Partnership,On-site Transportation,CO2,t,160943.741
+10569,2023,Thompson Operations,Thompson,Manitoba,55.7138,-97.8561,212232,Nickel-Copper Ore Mining,Vale Canada Ltd,Stationary Fuel Combustion,CO2,t,9305.97
+10569,2023,Thompson Operations,Thompson,Manitoba,55.7138,-97.8561,212232,Nickel-Copper Ore Mining,Vale Canada Ltd,On-site Transportation,CO2,t,9048.2
+10569,2023,Thompson Operations,Thompson,Manitoba,55.7138,-97.8561,212232,Nickel-Copper Ore Mining,Vale Canada Ltd,Waste,CO2,t,0.0
+10570,2023,Voisey's Bay Mine Site,HAPPY VALLEY-GOOSE BAY,Newfoundland and Labrador,56.33826,-62.09508,212232,Nickel-Copper Ore Mining,Vale Newfoundland and Labrador Limited,Stationary Fuel Combustion,CO2,t,127614.0
+10570,2023,Voisey's Bay Mine Site,HAPPY VALLEY-GOOSE BAY,Newfoundland and Labrador,56.33826,-62.09508,212232,Nickel-Copper Ore Mining,Vale Newfoundland and Labrador Limited,On-site Transportation,CO2,t,39297.0
+10580,2023,Sudbury Operations Mines Mill - Onaping Area,Onaping,Ontario,46.67417,-81.3425,212232,Nickel-Copper Ore Mining,Glencore Canada Corporation,Stationary Fuel Combustion,CO2,t,16737.386
+10580,2023,Sudbury Operations Mines Mill - Onaping Area,Onaping,Ontario,46.67417,-81.3425,212232,Nickel-Copper Ore Mining,Glencore Canada Corporation,Industrial Processes,CO2,t,3.213
+10580,2023,Sudbury Operations Mines Mill - Onaping Area,Onaping,Ontario,46.67417,-81.3425,212232,Nickel-Copper Ore Mining,Glencore Canada Corporation,On-site Transportation,CO2,t,7132.265
+10580,2023,Sudbury Operations Mines Mill - Onaping Area,Onaping,Ontario,46.67417,-81.3425,212232,Nickel-Copper Ore Mining,Glencore Canada Corporation,Waste,CO2,t,0.0
+10589,2023,Mine de Fire Lake,Mont-Wright,Quebec,52.35028,-67.36917,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Stationary Fuel Combustion,CO2,t,4177.193
+10589,2023,Mine de Fire Lake,Mont-Wright,Quebec,52.35028,-67.36917,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Industrial Processes,CO2,t,2246.073
+10589,2023,Mine de Fire Lake,Mont-Wright,Quebec,52.35028,-67.36917,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,On-site Transportation,CO2,t,38449.359
+10613,2023,Mount Polley Mine,Likely,British Columbia,52.5443,-121.6328,212299,All Other Metal Ore Mining,Imperial Metals Corporation,Stationary Fuel Combustion,CO2,t,917.04
+10613,2023,Mount Polley Mine,Likely,British Columbia,52.5443,-121.6328,212299,All Other Metal Ore Mining,Imperial Metals Corporation,On-site Transportation,CO2,t,46615.6208
+10647,2023,Tree Island Industries Ltd.,Richmond,British Columbia,49.1875,-122.95916,331222,Steel Wire Drawing,Tree Island Industries Ltd,Stationary Fuel Combustion,CO2,t,12445.45
+10647,2023,Tree Island Industries Ltd.,Richmond,British Columbia,49.1875,-122.95916,331222,Steel Wire Drawing,Tree Island Industries Ltd,On-site Transportation,CO2,t,534.39
+10679,2023,Gibraltar Mine (SFO),MCLEESE LAKE,British Columbia,52.5299,-122.2851,212233,Copper-Zinc Ore Mining,Gibraltar Mines Ltd.,Stationary Fuel Combustion,CO2,t,9638.285157
+10679,2023,Gibraltar Mine (SFO),MCLEESE LAKE,British Columbia,52.5299,-122.2851,212233,Copper-Zinc Ore Mining,Gibraltar Mines Ltd.,On-site Transportation,CO2,t,114905.3282
+10722,2023,Mine du Lac Bloom,Fermont,Quebec,52.85235,-67.25387,212210,Iron Ore Mining,MINERAI DE FER QUÉBEC INC.,Stationary Fuel Combustion,CO2,t,12677.53
+10722,2023,Mine du Lac Bloom,Fermont,Quebec,52.85235,-67.25387,212210,Iron Ore Mining,MINERAI DE FER QUÉBEC INC.,Industrial Processes,CO2,t,6256.35
+10722,2023,Mine du Lac Bloom,Fermont,Quebec,52.85235,-67.25387,212210,Iron Ore Mining,MINERAI DE FER QUÉBEC INC.,On-site Transportation,CO2,t,99691.72
+10785,2023,Myra Falls Mine Ltd.,Campbell River,British Columbia,49.57694,-125.60194,212233,Copper-Zinc Ore Mining,Myra Falls Mine Ltd,Stationary Fuel Combustion,CO2,t,32726.26
+10835,2023,Mary River Mine Site,,Nunavut,71.3146,-79.28194,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Stationary Fuel Combustion,CO2,t,23680.69145
+10835,2023,Mary River Mine Site,,Nunavut,71.3146,-79.28194,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,On-site Transportation,CO2,t,64863.55484
+10835,2023,Mary River Mine Site,,Nunavut,71.3146,-79.28194,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Waste,CO2,t,52.18549
+10835,2023,Mary River Mine Site,,Nunavut,71.3146,-79.28194,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Wastewater,CO2,t,0.0
+10900,2023,Milne Port Site,,Nunavut,71.88444,-80.88611,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Stationary Fuel Combustion,CO2,t,17394.28422
+10900,2023,Milne Port Site,,Nunavut,71.88444,-80.88611,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,On-site Transportation,CO2,t,59761.99755
+10900,2023,Milne Port Site,,Nunavut,71.88444,-80.88611,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Waste,CO2,t,84.39828
+10900,2023,Milne Port Site,,Nunavut,71.88444,-80.88611,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Wastewater,CO2,t,0.0
+10907,2023,La Mine Niobec,Saint-Honoré,Quebec,48.5322,-71.1578,212299,All Other Metal Ore Mining,Magris Ressources,Stationary Fuel Combustion,CO2,t,6426.51
+10907,2023,La Mine Niobec,Saint-Honoré,Quebec,48.5322,-71.1578,212299,All Other Metal Ore Mining,Magris Ressources,On-site Transportation,CO2,t,5333.48
+10908,2023,McClean Lake Operations,Saskatoon,Saskatchewan,58.25,-103.91694,212291,Uranium Ore Mining,Orano Canada Inc.,Stationary Fuel Combustion,CO2,t,19114.0205
+10908,2023,McClean Lake Operations,Saskatoon,Saskatchewan,58.25,-103.91694,212291,Uranium Ore Mining,Orano Canada Inc.,Industrial Processes,CO2,t,352.1914
+10908,2023,McClean Lake Operations,Saskatoon,Saskatchewan,58.25,-103.91694,212291,Uranium Ore Mining,Orano Canada Inc.,On-site Transportation,CO2,t,1780.2028
+10908,2023,McClean Lake Operations,Saskatoon,Saskatchewan,58.25,-103.91694,212291,Uranium Ore Mining,Orano Canada Inc.,Waste,CO2,t,47.1596
+10908,2023,McClean Lake Operations,Saskatoon,Saskatchewan,58.25,-103.91694,212291,Uranium Ore Mining,Orano Canada Inc.,Wastewater,CO2,t,0.0
+10913,2023,Key Lake Operation,Saskatoon,Saskatchewan,57.21194,-105.67861,212291,Uranium Ore Mining,Cameco Corporation,Stationary Fuel Combustion,CO2,t,31998.175
+10913,2023,Key Lake Operation,Saskatoon,Saskatchewan,57.21194,-105.67861,212291,Uranium Ore Mining,Cameco Corporation,Industrial Processes,CO2,t,2282.2442
+10913,2023,Key Lake Operation,Saskatoon,Saskatchewan,57.21194,-105.67861,212291,Uranium Ore Mining,Cameco Corporation,On-site Transportation,CO2,t,2632.4912
+10913,2023,Key Lake Operation,Saskatoon,Saskatchewan,57.21194,-105.67861,212291,Uranium Ore Mining,Cameco Corporation,Waste,CO2,t,116.3
+10913,2023,Key Lake Operation,Saskatoon,Saskatchewan,57.21194,-105.67861,212291,Uranium Ore Mining,Cameco Corporation,Wastewater,CO2,t,0.0
+10921,2023,HBMS Chisel Lake Mine,Snow Lake,Manitoba,54.83,-100.12,212233,Copper-Zinc Ore Mining,Hudbay Minerals,Stationary Fuel Combustion,CO2,t,12933.56
+10921,2023,HBMS Chisel Lake Mine,Snow Lake,Manitoba,54.83,-100.12,212233,Copper-Zinc Ore Mining,Hudbay Minerals,On-site Transportation,CO2,t,9876.01
+10922,2023,McArthur River Operation,Saskatoon,Saskatchewan,57.75556,-105.065,212291,Uranium Ore Mining,Cameco Corporation,Stationary Fuel Combustion,CO2,t,18051.9123
+10922,2023,McArthur River Operation,Saskatoon,Saskatchewan,57.75556,-105.065,212291,Uranium Ore Mining,Cameco Corporation,Industrial Processes,CO2,t,14.0118
+10922,2023,McArthur River Operation,Saskatoon,Saskatchewan,57.75556,-105.065,212291,Uranium Ore Mining,Cameco Corporation,On-site Transportation,CO2,t,3736.5818
+10922,2023,McArthur River Operation,Saskatoon,Saskatchewan,57.75556,-105.065,212291,Uranium Ore Mining,Cameco Corporation,Waste,CO2,t,0.0
+10922,2023,McArthur River Operation,Saskatoon,Saskatchewan,57.75556,-105.065,212291,Uranium Ore Mining,Cameco Corporation,Wastewater,CO2,t,0.0
+10923,2023,Cigar Lake Operation,Sasktoon,Saskatchewan,58.0676,-104.542,212291,Uranium Ore Mining,Cameco Corporation,Stationary Fuel Combustion,CO2,t,12732.9967
+10923,2023,Cigar Lake Operation,Sasktoon,Saskatchewan,58.0676,-104.542,212291,Uranium Ore Mining,Cameco Corporation,Industrial Processes,CO2,t,8.5812
+10923,2023,Cigar Lake Operation,Sasktoon,Saskatchewan,58.0676,-104.542,212291,Uranium Ore Mining,Cameco Corporation,On-site Transportation,CO2,t,6771.2984
+10923,2023,Cigar Lake Operation,Sasktoon,Saskatchewan,58.0676,-104.542,212291,Uranium Ore Mining,Cameco Corporation,Waste,CO2,t,0.0
+10923,2023,Cigar Lake Operation,Sasktoon,Saskatchewan,58.0676,-104.542,212291,Uranium Ore Mining,Cameco Corporation,Wastewater,CO2,t,0.0
+10926,2023,Impala Canada Ltd.,Thunder Bay,Ontario,49.16168,-89.61435,212299,All Other Metal Ore Mining,Impala Canada Ltd.,Stationary Fuel Combustion,CO2,t,18681.197
+10926,2023,Impala Canada Ltd.,Thunder Bay,Ontario,49.16168,-89.61435,212299,All Other Metal Ore Mining,Impala Canada Ltd.,On-site Transportation,CO2,t,36179.248
+11095,2023,INFASCO,Marieville,Quebec,45.431,-73.1673,331221,Cold-Rolled Steel Shape Manufacturing,Ifastgroupe,Stationary Fuel Combustion,CO2,t,14831.0
+11095,2023,INFASCO,Marieville,Quebec,45.431,-73.1673,331221,Cold-Rolled Steel Shape Manufacturing,Ifastgroupe,On-site Transportation,CO2,t,309.0
+11128,2023,Sivaco Québec,Marieville,Quebec,45.4372,-73.1676,331222,Steel Wire Drawing,Groupe des tréfileries Sivaco 2004,Stationary Fuel Combustion,CO2,t,10774.0
+11128,2023,Sivaco Québec,Marieville,Quebec,45.4372,-73.1676,331222,Steel Wire Drawing,Groupe des tréfileries Sivaco 2004,On-site Transportation,CO2,t,251.0
+11382,2023,Projet Nunavik Nickel,Kattiniq,Quebec,61.3239,-73.3234,212232,Nickel-Copper Ore Mining,Canadian Royalties inc.,Stationary Fuel Combustion,CO2,t,93808.86
+11382,2023,Projet Nunavik Nickel,Kattiniq,Quebec,61.3239,-73.3234,212232,Nickel-Copper Ore Mining,Canadian Royalties inc.,Industrial Processes,CO2,t,0.0
+11382,2023,Projet Nunavik Nickel,Kattiniq,Quebec,61.3239,-73.3234,212232,Nickel-Copper Ore Mining,Canadian Royalties inc.,On-site Transportation,CO2,t,32843.45
+11390,2023,Fonderie Bibby Sainte-Croix,Sainte-Croix,Quebec,46.6236,-71.7361,331511,Iron Foundries,Canada Pipe Co Ltd.,Stationary Fuel Combustion,CO2,t,15299.86
+11390,2023,Fonderie Bibby Sainte-Croix,Sainte-Croix,Quebec,46.6236,-71.7361,331511,Iron Foundries,Canada Pipe Co Ltd.,Industrial Processes,CO2,t,175.1
+11390,2023,Fonderie Bibby Sainte-Croix,Sainte-Croix,Quebec,46.6236,-71.7361,331511,Iron Foundries,Canada Pipe Co Ltd.,On-site Transportation,CO2,t,391.59
+11734,2023,DSO Timmins Project,Menihek,Newfoundland and Labrador,54.88945,-67.0842,212210,Iron Ore Mining,Tata Steel Minerals Canada,Stationary Fuel Combustion,CO2,t,27325.165
+11734,2023,DSO Timmins Project,Menihek,Newfoundland and Labrador,54.88945,-67.0842,212210,Iron Ore Mining,Tata Steel Minerals Canada,On-site Transportation,CO2,t,24120.525
+11736,2023,North American Lithium,La Corne,Quebec,48.40579,-77.82782,212299,All Other Metal Ore Mining,North American Lithium inc.,Stationary Fuel Combustion,CO2,t,4063.867
+11736,2023,North American Lithium,La Corne,Quebec,48.40579,-77.82782,212299,All Other Metal Ore Mining,North American Lithium inc.,On-site Transportation,CO2,t,22599.016
+11736,2023,North American Lithium,La Corne,Quebec,48.40579,-77.82782,212299,All Other Metal Ore Mining,North American Lithium inc.,Waste,CO2,t,0.0
+11736,2023,North American Lithium,La Corne,Quebec,48.40579,-77.82782,212299,All Other Metal Ore Mining,North American Lithium inc.,Wastewater,CO2,t,0.0
+11765,2023,ArcelorMittal long Products Canada - Hamilton East,Hamilton,Ontario,43.2625,-79.7857,331222,Steel Wire Drawing,ArcelorMittal long Products Canada G.P.,Stationary Fuel Combustion,CO2,t,15202.7
+11765,2023,ArcelorMittal long Products Canada - Hamilton East,Hamilton,Ontario,43.2625,-79.7857,331222,Steel Wire Drawing,ArcelorMittal long Products Canada G.P.,On-site Transportation,CO2,t,307.22
+11767,2023,Rio Tinto Fer et Titane inc. - HAVRE-SAINT-PIERRE,Havre-Saint-Pierre,Quebec,50.2435,-63.6064,212210,Iron Ore Mining,Rio Tinto Fer et Titane inc.,Stationary Fuel Combustion,CO2,t,2182.0
+11767,2023,Rio Tinto Fer et Titane inc. - HAVRE-SAINT-PIERRE,Havre-Saint-Pierre,Quebec,50.2435,-63.6064,212210,Iron Ore Mining,Rio Tinto Fer et Titane inc.,Industrial Processes,CO2,t,152.0
+11767,2023,Rio Tinto Fer et Titane inc. - HAVRE-SAINT-PIERRE,Havre-Saint-Pierre,Quebec,50.2435,-63.6064,212210,Iron Ore Mining,Rio Tinto Fer et Titane inc.,On-site Transportation,CO2,t,13983.0
+11878,2023,Max Aicher (North America) Limited,Hamilton,Ontario,43.26654,-79.82236,331221,Cold-Rolled Steel Shape Manufacturing,Max Aicher (North America) Limited,Stationary Fuel Combustion,CO2,t,20322.1349
+11894,2023,Copper Mountain Mine,Princeton,British Columbia,49.34556,-120.51,212233,Copper-Zinc Ore Mining,Copper Mountain Mine (BC) Ltd.,Stationary Fuel Combustion,CO2,t,3053.158
+11894,2023,Copper Mountain Mine,Princeton,British Columbia,49.34556,-120.51,212233,Copper-Zinc Ore Mining,Copper Mountain Mine (BC) Ltd.,On-site Transportation,CO2,t,66954.959
+11894,2023,Copper Mountain Mine,Princeton,British Columbia,49.34556,-120.51,212233,Copper-Zinc Ore Mining,Copper Mountain Mine (BC) Ltd.,Waste,CO2,t,0.0
+12009,2023,NATT Tools Group Inc.,Hamilton,Ontario,43.2663,-79.829,331221,Cold-Rolled Steel Shape Manufacturing,NATT Tools Group Inc.,Stationary Fuel Combustion,CO2,t,9204.5
+12009,2023,NATT Tools Group Inc.,Hamilton,Ontario,43.2663,-79.829,331221,Cold-Rolled Steel Shape Manufacturing,NATT Tools Group Inc.,On-site Transportation,CO2,t,1.101
+12112,2023,Silvertip Mine,Vancouver,British Columbia,53.72667,-127.64762,212231,Lead-Zinc Ore Mining,Coeur Silvertip Holdings Ltd.,Stationary Fuel Combustion,CO2,t,12690.973
+12112,2023,Silvertip Mine,Vancouver,British Columbia,53.72667,-127.64762,212231,Lead-Zinc Ore Mining,Coeur Silvertip Holdings Ltd.,On-site Transportation,CO2,t,1353.8955
+12555,2023,Moly-Cop Canada,Kamloops,British Columbia,50.65726,-120.09649,331511,Iron Foundries,Moly-Cop Canada,Stationary Fuel Combustion,CO2,t,22485.21296
+12555,2023,Moly-Cop Canada,Kamloops,British Columbia,50.65726,-120.09649,331511,Iron Foundries,Moly-Cop Canada,On-site Transportation,CO2,t,44.898812
+10052,2023,Carol Project,Labrador city,Newfoundland and Labrador,52.9565,-66.8936,212210,Iron Ore Mining,Iron Ore Company of Canada,Stationary Fuel Combustion,CH4,t,11.802626
+10052,2023,Carol Project,Labrador city,Newfoundland and Labrador,52.9565,-66.8936,212210,Iron Ore Mining,Iron Ore Company of Canada,Industrial Processes,CH4,t,
+10052,2023,Carol Project,Labrador city,Newfoundland and Labrador,52.9565,-66.8936,212210,Iron Ore Mining,Iron Ore Company of Canada,On-site Transportation,CH4,t,3.725748
+10164,2023,Kidd Metallurgical Site,Timmins/District of Cochrane,Ontario,48.57373,-81.09115,212233,Copper-Zinc Ore Mining,Glencore,Stationary Fuel Combustion,CH4,t,0.4045
+10164,2023,Kidd Metallurgical Site,Timmins/District of Cochrane,Ontario,48.57373,-81.09115,212233,Copper-Zinc Ore Mining,Glencore,On-site Transportation,CH4,t,0.83601
+10188,2023,Mine de Mont-Wright,Fermont,Quebec,52.76639,-67.33306,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Stationary Fuel Combustion,CH4,t,0.7046
+10188,2023,Mine de Mont-Wright,Fermont,Quebec,52.76639,-67.33306,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Industrial Processes,CH4,t,
+10188,2023,Mine de Mont-Wright,Fermont,Quebec,52.76639,-67.33306,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,On-site Transportation,CH4,t,12.4656
+10240,2023,Mine Raglan,Rivière-Koksoak,Quebec,61.6916,-73.6666,212232,Nickel-Copper Ore Mining,Glencore,Stationary Fuel Combustion,CH4,t,4.076889
+10240,2023,Mine Raglan,Rivière-Koksoak,Quebec,61.6916,-73.6666,212232,Nickel-Copper Ore Mining,Glencore,Industrial Processes,CH4,t,0.000119
+10240,2023,Mine Raglan,Rivière-Koksoak,Quebec,61.6916,-73.6666,212232,Nickel-Copper Ore Mining,Glencore,On-site Transportation,CH4,t,0.464529
+10240,2023,Mine Raglan,Rivière-Koksoak,Quebec,61.6916,-73.6666,212232,Nickel-Copper Ore Mining,Glencore,Waste,CH4,t,24.860208
+10240,2023,Mine Raglan,Rivière-Koksoak,Quebec,61.6916,-73.6666,212232,Nickel-Copper Ore Mining,Glencore,Wastewater,CH4,t,
+10299,2023,Usine de Bouletage de Port-Cartier,Port-Cartier,Quebec,50.0334,-66.791,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Stationary Fuel Combustion,CH4,t,11.7706
+10299,2023,Usine de Bouletage de Port-Cartier,Port-Cartier,Quebec,50.0334,-66.791,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Industrial Processes,CH4,t,0.0
+10299,2023,Usine de Bouletage de Port-Cartier,Port-Cartier,Quebec,50.0334,-66.791,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,On-site Transportation,CH4,t,0.0158
+10350,2023,Wabush Mines - Scully,Wabush,Newfoundland and Labrador,52.907,-66.9105,212210,Iron Ore Mining,Tacora Resources Inc.,Stationary Fuel Combustion,CH4,t,2.9254
+10350,2023,Wabush Mines - Scully,Wabush,Newfoundland and Labrador,52.907,-66.9105,212210,Iron Ore Mining,Tacora Resources Inc.,Industrial Processes,CH4,t,
+10350,2023,Wabush Mines - Scully,Wabush,Newfoundland and Labrador,52.907,-66.9105,212210,Iron Ore Mining,Tacora Resources Inc.,On-site Transportation,CH4,t,1.5378
+10385,2023,Teck Highland Valley Copper Partnership,Logan Lake,British Columbia,50.47235,-121.02132,212233,Copper-Zinc Ore Mining,Teck Highland Valley Copper Partnership,Stationary Fuel Combustion,CH4,t,0.2503
+10385,2023,Teck Highland Valley Copper Partnership,Logan Lake,British Columbia,50.47235,-121.02132,212233,Copper-Zinc Ore Mining,Teck Highland Valley Copper Partnership,On-site Transportation,CH4,t,8.0724
+10569,2023,Thompson Operations,Thompson,Manitoba,55.7138,-97.8561,212232,Nickel-Copper Ore Mining,Vale Canada Ltd,Stationary Fuel Combustion,CH4,t,0.14742
+10569,2023,Thompson Operations,Thompson,Manitoba,55.7138,-97.8561,212232,Nickel-Copper Ore Mining,Vale Canada Ltd,On-site Transportation,CH4,t,0.4233
+10569,2023,Thompson Operations,Thompson,Manitoba,55.7138,-97.8561,212232,Nickel-Copper Ore Mining,Vale Canada Ltd,Waste,CH4,t,2.21687
+10570,2023,Voisey's Bay Mine Site,HAPPY VALLEY-GOOSE BAY,Newfoundland and Labrador,56.33826,-62.09508,212232,Nickel-Copper Ore Mining,Vale Newfoundland and Labrador Limited,Stationary Fuel Combustion,CH4,t,7.000135
+10570,2023,Voisey's Bay Mine Site,HAPPY VALLEY-GOOSE BAY,Newfoundland and Labrador,56.33826,-62.09508,212232,Nickel-Copper Ore Mining,Vale Newfoundland and Labrador Limited,On-site Transportation,CH4,t,2.003
+10580,2023,Sudbury Operations Mines Mill - Onaping Area,Onaping,Ontario,46.67417,-81.3425,212232,Nickel-Copper Ore Mining,Glencore Canada Corporation,Stationary Fuel Combustion,CH4,t,0.323
+10580,2023,Sudbury Operations Mines Mill - Onaping Area,Onaping,Ontario,46.67417,-81.3425,212232,Nickel-Copper Ore Mining,Glencore Canada Corporation,Industrial Processes,CH4,t,
+10580,2023,Sudbury Operations Mines Mill - Onaping Area,Onaping,Ontario,46.67417,-81.3425,212232,Nickel-Copper Ore Mining,Glencore Canada Corporation,On-site Transportation,CH4,t,0.47
+10580,2023,Sudbury Operations Mines Mill - Onaping Area,Onaping,Ontario,46.67417,-81.3425,212232,Nickel-Copper Ore Mining,Glencore Canada Corporation,Waste,CH4,t,32.829
+10589,2023,Mine de Fire Lake,Mont-Wright,Quebec,52.35028,-67.36917,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Stationary Fuel Combustion,CH4,t,0.2087
+10589,2023,Mine de Fire Lake,Mont-Wright,Quebec,52.35028,-67.36917,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Industrial Processes,CH4,t,
+10589,2023,Mine de Fire Lake,Mont-Wright,Quebec,52.35028,-67.36917,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,On-site Transportation,CH4,t,2.1658
+10613,2023,Mount Polley Mine,Likely,British Columbia,52.5443,-121.6328,212299,All Other Metal Ore Mining,Imperial Metals Corporation,Stationary Fuel Combustion,CH4,t,0.0146
+10613,2023,Mount Polley Mine,Likely,British Columbia,52.5443,-121.6328,212299,All Other Metal Ore Mining,Imperial Metals Corporation,On-site Transportation,CH4,t,3.5057
+10647,2023,Tree Island Industries Ltd.,Richmond,British Columbia,49.1875,-122.95916,331222,Steel Wire Drawing,Tree Island Industries Ltd,Stationary Fuel Combustion,CH4,t,0.24
+10647,2023,Tree Island Industries Ltd.,Richmond,British Columbia,49.1875,-122.95916,331222,Steel Wire Drawing,Tree Island Industries Ltd,On-site Transportation,CH4,t,0.023
+10679,2023,Gibraltar Mine (SFO),MCLEESE LAKE,British Columbia,52.5299,-122.2851,212233,Copper-Zinc Ore Mining,Gibraltar Mines Ltd.,Stationary Fuel Combustion,CH4,t,0.187125
+10679,2023,Gibraltar Mine (SFO),MCLEESE LAKE,British Columbia,52.5299,-122.2851,212233,Copper-Zinc Ore Mining,Gibraltar Mines Ltd.,On-site Transportation,CH4,t,5.738607
+10722,2023,Mine du Lac Bloom,Fermont,Quebec,52.85235,-67.25387,212210,Iron Ore Mining,MINERAI DE FER QUÉBEC INC.,Stationary Fuel Combustion,CH4,t,0.234
+10722,2023,Mine du Lac Bloom,Fermont,Quebec,52.85235,-67.25387,212210,Iron Ore Mining,MINERAI DE FER QUÉBEC INC.,Industrial Processes,CH4,t,
+10722,2023,Mine du Lac Bloom,Fermont,Quebec,52.85235,-67.25387,212210,Iron Ore Mining,MINERAI DE FER QUÉBEC INC.,On-site Transportation,CH4,t,2.8397
+10785,2023,Myra Falls Mine Ltd.,Campbell River,British Columbia,49.57694,-125.60194,212233,Copper-Zinc Ore Mining,Myra Falls Mine Ltd,Stationary Fuel Combustion,CH4,t,2.1501
+10835,2023,Mary River Mine Site,,Nunavut,71.3146,-79.28194,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Stationary Fuel Combustion,CH4,t,0.68891
+10835,2023,Mary River Mine Site,,Nunavut,71.3146,-79.28194,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,On-site Transportation,CH4,t,1.71291
+10835,2023,Mary River Mine Site,,Nunavut,71.3146,-79.28194,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Waste,CH4,t,
+10835,2023,Mary River Mine Site,,Nunavut,71.3146,-79.28194,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Wastewater,CH4,t,0.01022
+10900,2023,Milne Port Site,,Nunavut,71.88444,-80.88611,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Stationary Fuel Combustion,CH4,t,0.50604
+10900,2023,Milne Port Site,,Nunavut,71.88444,-80.88611,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,On-site Transportation,CH4,t,1.63958
+10900,2023,Milne Port Site,,Nunavut,71.88444,-80.88611,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Waste,CH4,t,
+10900,2023,Milne Port Site,,Nunavut,71.88444,-80.88611,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Wastewater,CH4,t,0.00402
+10907,2023,La Mine Niobec,Saint-Honoré,Quebec,48.5322,-71.1578,212299,All Other Metal Ore Mining,Magris Ressources,Stationary Fuel Combustion,CH4,t,0.102
+10907,2023,La Mine Niobec,Saint-Honoré,Quebec,48.5322,-71.1578,212299,All Other Metal Ore Mining,Magris Ressources,On-site Transportation,CH4,t,0.3
+10908,2023,McClean Lake Operations,Saskatoon,Saskatchewan,58.25,-103.91694,212291,Uranium Ore Mining,Orano Canada Inc.,Stationary Fuel Combustion,CH4,t,0.308795
+10908,2023,McClean Lake Operations,Saskatoon,Saskatchewan,58.25,-103.91694,212291,Uranium Ore Mining,Orano Canada Inc.,Industrial Processes,CH4,t,
+10908,2023,McClean Lake Operations,Saskatoon,Saskatchewan,58.25,-103.91694,212291,Uranium Ore Mining,Orano Canada Inc.,On-site Transportation,CH4,t,0.0485
+10908,2023,McClean Lake Operations,Saskatoon,Saskatchewan,58.25,-103.91694,212291,Uranium Ore Mining,Orano Canada Inc.,Waste,CH4,t,17.77
+10908,2023,McClean Lake Operations,Saskatoon,Saskatchewan,58.25,-103.91694,212291,Uranium Ore Mining,Orano Canada Inc.,Wastewater,CH4,t,2.3563
+10913,2023,Key Lake Operation,Saskatoon,Saskatchewan,57.21194,-105.67861,212291,Uranium Ore Mining,Cameco Corporation,Stationary Fuel Combustion,CH4,t,0.5133
+10913,2023,Key Lake Operation,Saskatoon,Saskatchewan,57.21194,-105.67861,212291,Uranium Ore Mining,Cameco Corporation,Industrial Processes,CH4,t,
+10913,2023,Key Lake Operation,Saskatoon,Saskatchewan,57.21194,-105.67861,212291,Uranium Ore Mining,Cameco Corporation,On-site Transportation,CH4,t,1.4747
+10913,2023,Key Lake Operation,Saskatoon,Saskatchewan,57.21194,-105.67861,212291,Uranium Ore Mining,Cameco Corporation,Waste,CH4,t,45.325
+10913,2023,Key Lake Operation,Saskatoon,Saskatchewan,57.21194,-105.67861,212291,Uranium Ore Mining,Cameco Corporation,Wastewater,CH4,t,1.4886
+10921,2023,HBMS Chisel Lake Mine,Snow Lake,Manitoba,54.83,-100.12,212233,Copper-Zinc Ore Mining,Hudbay Minerals,Stationary Fuel Combustion,CH4,t,0.2049
+10921,2023,HBMS Chisel Lake Mine,Snow Lake,Manitoba,54.83,-100.12,212233,Copper-Zinc Ore Mining,Hudbay Minerals,On-site Transportation,CH4,t,0.891
+10922,2023,McArthur River Operation,Saskatoon,Saskatchewan,57.75556,-105.065,212291,Uranium Ore Mining,Cameco Corporation,Stationary Fuel Combustion,CH4,t,0.2915
+10922,2023,McArthur River Operation,Saskatoon,Saskatchewan,57.75556,-105.065,212291,Uranium Ore Mining,Cameco Corporation,Industrial Processes,CH4,t,
+10922,2023,McArthur River Operation,Saskatoon,Saskatchewan,57.75556,-105.065,212291,Uranium Ore Mining,Cameco Corporation,On-site Transportation,CH4,t,1.0728
+10922,2023,McArthur River Operation,Saskatoon,Saskatchewan,57.75556,-105.065,212291,Uranium Ore Mining,Cameco Corporation,Waste,CH4,t,4.515
+10922,2023,McArthur River Operation,Saskatoon,Saskatchewan,57.75556,-105.065,212291,Uranium Ore Mining,Cameco Corporation,Wastewater,CH4,t,1.7386
+10923,2023,Cigar Lake Operation,Sasktoon,Saskatchewan,58.0676,-104.542,212291,Uranium Ore Mining,Cameco Corporation,Stationary Fuel Combustion,CH4,t,0.2042
+10923,2023,Cigar Lake Operation,Sasktoon,Saskatchewan,58.0676,-104.542,212291,Uranium Ore Mining,Cameco Corporation,Industrial Processes,CH4,t,
+10923,2023,Cigar Lake Operation,Sasktoon,Saskatchewan,58.0676,-104.542,212291,Uranium Ore Mining,Cameco Corporation,On-site Transportation,CH4,t,1.5461
+10923,2023,Cigar Lake Operation,Sasktoon,Saskatchewan,58.0676,-104.542,212291,Uranium Ore Mining,Cameco Corporation,Waste,CH4,t,4.812
+10923,2023,Cigar Lake Operation,Sasktoon,Saskatchewan,58.0676,-104.542,212291,Uranium Ore Mining,Cameco Corporation,Wastewater,CH4,t,2.2389
+10926,2023,Impala Canada Ltd.,Thunder Bay,Ontario,49.16168,-89.61435,212299,All Other Metal Ore Mining,Impala Canada Ltd.,Stationary Fuel Combustion,CH4,t,0.299
+10926,2023,Impala Canada Ltd.,Thunder Bay,Ontario,49.16168,-89.61435,212299,All Other Metal Ore Mining,Impala Canada Ltd.,On-site Transportation,CH4,t,2.885
+11095,2023,INFASCO,Marieville,Quebec,45.431,-73.1673,331221,Cold-Rolled Steel Shape Manufacturing,Ifastgroupe,Stationary Fuel Combustion,CH4,t,0.377
+11095,2023,INFASCO,Marieville,Quebec,45.431,-73.1673,331221,Cold-Rolled Steel Shape Manufacturing,Ifastgroupe,On-site Transportation,CH4,t,0.0907
+11128,2023,Sivaco Québec,Marieville,Quebec,45.4372,-73.1676,331222,Steel Wire Drawing,Groupe des tréfileries Sivaco 2004,Stationary Fuel Combustion,CH4,t,0.212
+11128,2023,Sivaco Québec,Marieville,Quebec,45.4372,-73.1676,331222,Steel Wire Drawing,Groupe des tréfileries Sivaco 2004,On-site Transportation,CH4,t,0.053
+11382,2023,Projet Nunavik Nickel,Kattiniq,Quebec,61.3239,-73.3234,212232,Nickel-Copper Ore Mining,Canadian Royalties inc.,Stationary Fuel Combustion,CH4,t,4.745063
+11382,2023,Projet Nunavik Nickel,Kattiniq,Quebec,61.3239,-73.3234,212232,Nickel-Copper Ore Mining,Canadian Royalties inc.,Industrial Processes,CH4,t,
+11382,2023,Projet Nunavik Nickel,Kattiniq,Quebec,61.3239,-73.3234,212232,Nickel-Copper Ore Mining,Canadian Royalties inc.,On-site Transportation,CH4,t,1.86
+11390,2023,Fonderie Bibby Sainte-Croix,Sainte-Croix,Quebec,46.6236,-71.7361,331511,Iron Foundries,Canada Pipe Co Ltd.,Stationary Fuel Combustion,CH4,t,0.183
+11390,2023,Fonderie Bibby Sainte-Croix,Sainte-Croix,Quebec,46.6236,-71.7361,331511,Iron Foundries,Canada Pipe Co Ltd.,Industrial Processes,CH4,t,0.13
+11390,2023,Fonderie Bibby Sainte-Croix,Sainte-Croix,Quebec,46.6236,-71.7361,331511,Iron Foundries,Canada Pipe Co Ltd.,On-site Transportation,CH4,t,0.081
+11734,2023,DSO Timmins Project,Menihek,Newfoundland and Labrador,54.88945,-67.0842,212210,Iron Ore Mining,Tata Steel Minerals Canada,Stationary Fuel Combustion,CH4,t,0.795
+11734,2023,DSO Timmins Project,Menihek,Newfoundland and Labrador,54.88945,-67.0842,212210,Iron Ore Mining,Tata Steel Minerals Canada,On-site Transportation,CH4,t,0.641
+11736,2023,North American Lithium,La Corne,Quebec,48.40579,-77.82782,212299,All Other Metal Ore Mining,North American Lithium inc.,Stationary Fuel Combustion,CH4,t,0.1123
+11736,2023,North American Lithium,La Corne,Quebec,48.40579,-77.82782,212299,All Other Metal Ore Mining,North American Lithium inc.,On-site Transportation,CH4,t,2.071
+11736,2023,North American Lithium,La Corne,Quebec,48.40579,-77.82782,212299,All Other Metal Ore Mining,North American Lithium inc.,Waste,CH4,t,0.09
+11736,2023,North American Lithium,La Corne,Quebec,48.40579,-77.82782,212299,All Other Metal Ore Mining,North American Lithium inc.,Wastewater,CH4,t,0.04
+11765,2023,ArcelorMittal long Products Canada - Hamilton East,Hamilton,Ontario,43.2625,-79.7857,331222,Steel Wire Drawing,ArcelorMittal long Products Canada G.P.,Stationary Fuel Combustion,CH4,t,0.296442
+11765,2023,ArcelorMittal long Products Canada - Hamilton East,Hamilton,Ontario,43.2625,-79.7857,331222,Steel Wire Drawing,ArcelorMittal long Products Canada G.P.,On-site Transportation,CH4,t,0.103
+11767,2023,Rio Tinto Fer et Titane inc. - HAVRE-SAINT-PIERRE,Havre-Saint-Pierre,Quebec,50.2435,-63.6064,212210,Iron Ore Mining,Rio Tinto Fer et Titane inc.,Stationary Fuel Combustion,CH4,t,0.11
+11767,2023,Rio Tinto Fer et Titane inc. - HAVRE-SAINT-PIERRE,Havre-Saint-Pierre,Quebec,50.2435,-63.6064,212210,Iron Ore Mining,Rio Tinto Fer et Titane inc.,Industrial Processes,CH4,t,
+11767,2023,Rio Tinto Fer et Titane inc. - HAVRE-SAINT-PIERRE,Havre-Saint-Pierre,Quebec,50.2435,-63.6064,212210,Iron Ore Mining,Rio Tinto Fer et Titane inc.,On-site Transportation,CH4,t,1.12
+11878,2023,Max Aicher (North America) Limited,Hamilton,Ontario,43.26654,-79.82236,331221,Cold-Rolled Steel Shape Manufacturing,Max Aicher (North America) Limited,Stationary Fuel Combustion,CH4,t,0.3953
+11894,2023,Copper Mountain Mine,Princeton,British Columbia,49.34556,-120.51,212233,Copper-Zinc Ore Mining,Copper Mountain Mine (BC) Ltd.,Stationary Fuel Combustion,CH4,t,0.07623
+11894,2023,Copper Mountain Mine,Princeton,British Columbia,49.34556,-120.51,212233,Copper-Zinc Ore Mining,Copper Mountain Mine (BC) Ltd.,On-site Transportation,CH4,t,4.644
+11894,2023,Copper Mountain Mine,Princeton,British Columbia,49.34556,-120.51,212233,Copper-Zinc Ore Mining,Copper Mountain Mine (BC) Ltd.,Waste,CH4,t,2.962
+12009,2023,NATT Tools Group Inc.,Hamilton,Ontario,43.2663,-79.829,331221,Cold-Rolled Steel Shape Manufacturing,NATT Tools Group Inc.,Stationary Fuel Combustion,CH4,t,0.174
+12009,2023,NATT Tools Group Inc.,Hamilton,Ontario,43.2663,-79.829,331221,Cold-Rolled Steel Shape Manufacturing,NATT Tools Group Inc.,On-site Transportation,CH4,t,0.0005
+12112,2023,Silvertip Mine,Vancouver,British Columbia,53.72667,-127.64762,212231,Lead-Zinc Ore Mining,Coeur Silvertip Holdings Ltd.,Stationary Fuel Combustion,CH4,t,2.4049
+12112,2023,Silvertip Mine,Vancouver,British Columbia,53.72667,-127.64762,212231,Lead-Zinc Ore Mining,Coeur Silvertip Holdings Ltd.,On-site Transportation,CH4,t,0.3452
+12555,2023,Moly-Cop Canada,Kamloops,British Columbia,50.65726,-120.09649,331511,Iron Foundries,Moly-Cop Canada,Stationary Fuel Combustion,CH4,t,0.428721
+12555,2023,Moly-Cop Canada,Kamloops,British Columbia,50.65726,-120.09649,331511,Iron Foundries,Moly-Cop Canada,On-site Transportation,CH4,t,0.001652
+10052,2023,Carol Project,Labrador city,Newfoundland and Labrador,52.9565,-66.8936,212210,Iron Ore Mining,Iron Ore Company of Canada,Stationary Fuel Combustion,N2O,t,6.670616
+10052,2023,Carol Project,Labrador city,Newfoundland and Labrador,52.9565,-66.8936,212210,Iron Ore Mining,Iron Ore Company of Canada,Industrial Processes,N2O,t,
+10052,2023,Carol Project,Labrador city,Newfoundland and Labrador,52.9565,-66.8936,212210,Iron Ore Mining,Iron Ore Company of Canada,On-site Transportation,N2O,t,11.707492
+10164,2023,Kidd Metallurgical Site,Timmins/District of Cochrane,Ontario,48.57373,-81.09115,212233,Copper-Zinc Ore Mining,Glencore,Stationary Fuel Combustion,N2O,t,0.3591
+10164,2023,Kidd Metallurgical Site,Timmins/District of Cochrane,Ontario,48.57373,-81.09115,212233,Copper-Zinc Ore Mining,Glencore,On-site Transportation,N2O,t,0.69281
+10188,2023,Mine de Mont-Wright,Fermont,Quebec,52.76639,-67.33306,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Stationary Fuel Combustion,N2O,t,0.8886
+10188,2023,Mine de Mont-Wright,Fermont,Quebec,52.76639,-67.33306,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Industrial Processes,N2O,t,
+10188,2023,Mine de Mont-Wright,Fermont,Quebec,52.76639,-67.33306,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,On-site Transportation,N2O,t,91.3918
+10240,2023,Mine Raglan,Rivière-Koksoak,Quebec,61.6916,-73.6666,212232,Nickel-Copper Ore Mining,Glencore,Stationary Fuel Combustion,N2O,t,1.039991
+10240,2023,Mine Raglan,Rivière-Koksoak,Quebec,61.6916,-73.6666,212232,Nickel-Copper Ore Mining,Glencore,Industrial Processes,N2O,t,
+10240,2023,Mine Raglan,Rivière-Koksoak,Quebec,61.6916,-73.6666,212232,Nickel-Copper Ore Mining,Glencore,On-site Transportation,N2O,t,0.127268
+10240,2023,Mine Raglan,Rivière-Koksoak,Quebec,61.6916,-73.6666,212232,Nickel-Copper Ore Mining,Glencore,Waste,N2O,t,0.660689
+10240,2023,Mine Raglan,Rivière-Koksoak,Quebec,61.6916,-73.6666,212232,Nickel-Copper Ore Mining,Glencore,Wastewater,N2O,t,0.05525
+10299,2023,Usine de Bouletage de Port-Cartier,Port-Cartier,Quebec,50.0334,-66.791,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Stationary Fuel Combustion,N2O,t,6.8753
+10299,2023,Usine de Bouletage de Port-Cartier,Port-Cartier,Quebec,50.0334,-66.791,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Industrial Processes,N2O,t,
+10299,2023,Usine de Bouletage de Port-Cartier,Port-Cartier,Quebec,50.0334,-66.791,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,On-site Transportation,N2O,t,0.1006
+10350,2023,Wabush Mines - Scully,Wabush,Newfoundland and Labrador,52.907,-66.9105,212210,Iron Ore Mining,Tacora Resources Inc.,Stationary Fuel Combustion,N2O,t,1.567
+10350,2023,Wabush Mines - Scully,Wabush,Newfoundland and Labrador,52.907,-66.9105,212210,Iron Ore Mining,Tacora Resources Inc.,Industrial Processes,N2O,t,
+10350,2023,Wabush Mines - Scully,Wabush,Newfoundland and Labrador,52.907,-66.9105,212210,Iron Ore Mining,Tacora Resources Inc.,On-site Transportation,N2O,t,4.6255
+10385,2023,Teck Highland Valley Copper Partnership,Logan Lake,British Columbia,50.47235,-121.02132,212233,Copper-Zinc Ore Mining,Teck Highland Valley Copper Partnership,Stationary Fuel Combustion,N2O,t,0.2343
+10385,2023,Teck Highland Valley Copper Partnership,Logan Lake,British Columbia,50.47235,-121.02132,212233,Copper-Zinc Ore Mining,Teck Highland Valley Copper Partnership,On-site Transportation,N2O,t,24.0086
+10569,2023,Thompson Operations,Thompson,Manitoba,55.7138,-97.8561,212232,Nickel-Copper Ore Mining,Vale Canada Ltd,Stationary Fuel Combustion,N2O,t,0.6634
+10569,2023,Thompson Operations,Thompson,Manitoba,55.7138,-97.8561,212232,Nickel-Copper Ore Mining,Vale Canada Ltd,On-site Transportation,N2O,t,0.7728
+10569,2023,Thompson Operations,Thompson,Manitoba,55.7138,-97.8561,212232,Nickel-Copper Ore Mining,Vale Canada Ltd,Waste,N2O,t,0.05116
+10570,2023,Voisey's Bay Mine Site,HAPPY VALLEY-GOOSE BAY,Newfoundland and Labrador,56.33826,-62.09508,212232,Nickel-Copper Ore Mining,Vale Newfoundland and Labrador Limited,Stationary Fuel Combustion,N2O,t,19.000608
+10570,2023,Voisey's Bay Mine Site,HAPPY VALLEY-GOOSE BAY,Newfoundland and Labrador,56.33826,-62.09508,212232,Nickel-Copper Ore Mining,Vale Newfoundland and Labrador Limited,On-site Transportation,N2O,t,6.000062
+10580,2023,Sudbury Operations Mines Mill - Onaping Area,Onaping,Ontario,46.67417,-81.3425,212232,Nickel-Copper Ore Mining,Glencore Canada Corporation,Stationary Fuel Combustion,N2O,t,0.279
+10580,2023,Sudbury Operations Mines Mill - Onaping Area,Onaping,Ontario,46.67417,-81.3425,212232,Nickel-Copper Ore Mining,Glencore Canada Corporation,Industrial Processes,N2O,t,
+10580,2023,Sudbury Operations Mines Mill - Onaping Area,Onaping,Ontario,46.67417,-81.3425,212232,Nickel-Copper Ore Mining,Glencore Canada Corporation,On-site Transportation,N2O,t,0.056
+10580,2023,Sudbury Operations Mines Mill - Onaping Area,Onaping,Ontario,46.67417,-81.3425,212232,Nickel-Copper Ore Mining,Glencore Canada Corporation,Waste,N2O,t,
+10589,2023,Mine de Fire Lake,Mont-Wright,Quebec,52.35028,-67.36917,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Stationary Fuel Combustion,N2O,t,0.6274
+10589,2023,Mine de Fire Lake,Mont-Wright,Quebec,52.35028,-67.36917,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Industrial Processes,N2O,t,
+10589,2023,Mine de Fire Lake,Mont-Wright,Quebec,52.35028,-67.36917,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,On-site Transportation,N2O,t,15.8821
+10613,2023,Mount Polley Mine,Likely,British Columbia,52.5443,-121.6328,212299,All Other Metal Ore Mining,Imperial Metals Corporation,Stationary Fuel Combustion,N2O,t,0.0656
+10613,2023,Mount Polley Mine,Likely,British Columbia,52.5443,-121.6328,212299,All Other Metal Ore Mining,Imperial Metals Corporation,On-site Transportation,N2O,t,6.8682
+10647,2023,Tree Island Industries Ltd.,Richmond,British Columbia,49.1875,-122.95916,331222,Steel Wire Drawing,Tree Island Industries Ltd,Stationary Fuel Combustion,N2O,t,0.214
+10647,2023,Tree Island Industries Ltd.,Richmond,British Columbia,49.1875,-122.95916,331222,Steel Wire Drawing,Tree Island Industries Ltd,On-site Transportation,N2O,t,0.047
+10679,2023,Gibraltar Mine (SFO),MCLEESE LAKE,British Columbia,52.5299,-122.2851,212233,Copper-Zinc Ore Mining,Gibraltar Mines Ltd.,Stationary Fuel Combustion,N2O,t,0.866753
+10679,2023,Gibraltar Mine (SFO),MCLEESE LAKE,British Columbia,52.5299,-122.2851,212233,Copper-Zinc Ore Mining,Gibraltar Mines Ltd.,On-site Transportation,N2O,t,17.259097
+10722,2023,Mine du Lac Bloom,Fermont,Quebec,52.85235,-67.25387,212210,Iron Ore Mining,MINERAI DE FER QUÉBEC INC.,Stationary Fuel Combustion,N2O,t,0.125
+10722,2023,Mine du Lac Bloom,Fermont,Quebec,52.85235,-67.25387,212210,Iron Ore Mining,MINERAI DE FER QUÉBEC INC.,Industrial Processes,N2O,t,
+10722,2023,Mine du Lac Bloom,Fermont,Quebec,52.85235,-67.25387,212210,Iron Ore Mining,MINERAI DE FER QUÉBEC INC.,On-site Transportation,N2O,t,1.1894
+10785,2023,Myra Falls Mine Ltd.,Campbell River,British Columbia,49.57694,-125.60194,212233,Copper-Zinc Ore Mining,Myra Falls Mine Ltd,Stationary Fuel Combustion,N2O,t,4.7607
+10835,2023,Mary River Mine Site,,Nunavut,71.3146,-79.28194,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Stationary Fuel Combustion,N2O,t,0.17689
+10835,2023,Mary River Mine Site,,Nunavut,71.3146,-79.28194,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,On-site Transportation,N2O,t,5.26807
+10835,2023,Mary River Mine Site,,Nunavut,71.3146,-79.28194,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Waste,N2O,t,0.00795
+10835,2023,Mary River Mine Site,,Nunavut,71.3146,-79.28194,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Wastewater,N2O,t,0.000109
+10900,2023,Milne Port Site,,Nunavut,71.88444,-80.88611,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Stationary Fuel Combustion,N2O,t,0.12985
+10900,2023,Milne Port Site,,Nunavut,71.88444,-80.88611,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,On-site Transportation,N2O,t,5.12659
+10900,2023,Milne Port Site,,Nunavut,71.88444,-80.88611,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Waste,N2O,t,0.12571
+10900,2023,Milne Port Site,,Nunavut,71.88444,-80.88611,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Wastewater,N2O,t,2.8e-05
+10907,2023,La Mine Niobec,Saint-Honoré,Quebec,48.5322,-71.1578,212299,All Other Metal Ore Mining,Magris Ressources,Stationary Fuel Combustion,N2O,t,0.46
+10907,2023,La Mine Niobec,Saint-Honoré,Quebec,48.5322,-71.1578,212299,All Other Metal Ore Mining,Magris Ressources,On-site Transportation,N2O,t,2.203
+10908,2023,McClean Lake Operations,Saskatoon,Saskatchewan,58.25,-103.91694,212291,Uranium Ore Mining,Orano Canada Inc.,Stationary Fuel Combustion,N2O,t,1.333676
+10908,2023,McClean Lake Operations,Saskatoon,Saskatchewan,58.25,-103.91694,212291,Uranium Ore Mining,Orano Canada Inc.,Industrial Processes,N2O,t,5.2063
+10908,2023,McClean Lake Operations,Saskatoon,Saskatchewan,58.25,-103.91694,212291,Uranium Ore Mining,Orano Canada Inc.,On-site Transportation,N2O,t,0.0133
+10908,2023,McClean Lake Operations,Saskatoon,Saskatchewan,58.25,-103.91694,212291,Uranium Ore Mining,Orano Canada Inc.,Waste,N2O,t,0.0088
+10908,2023,McClean Lake Operations,Saskatoon,Saskatchewan,58.25,-103.91694,212291,Uranium Ore Mining,Orano Canada Inc.,Wastewater,N2O,t,0.0782
+10913,2023,Key Lake Operation,Saskatoon,Saskatchewan,57.21194,-105.67861,212291,Uranium Ore Mining,Cameco Corporation,Stationary Fuel Combustion,N2O,t,2.2503
+10913,2023,Key Lake Operation,Saskatoon,Saskatchewan,57.21194,-105.67861,212291,Uranium Ore Mining,Cameco Corporation,Industrial Processes,N2O,t,
+10913,2023,Key Lake Operation,Saskatoon,Saskatchewan,57.21194,-105.67861,212291,Uranium Ore Mining,Cameco Corporation,On-site Transportation,N2O,t,0.0327
+10913,2023,Key Lake Operation,Saskatoon,Saskatchewan,57.21194,-105.67861,212291,Uranium Ore Mining,Cameco Corporation,Waste,N2O,t,
+10913,2023,Key Lake Operation,Saskatoon,Saskatchewan,57.21194,-105.67861,212291,Uranium Ore Mining,Cameco Corporation,Wastewater,N2O,t,0.0007
+10921,2023,HBMS Chisel Lake Mine,Snow Lake,Manitoba,54.83,-100.12,212233,Copper-Zinc Ore Mining,Hudbay Minerals,Stationary Fuel Combustion,N2O,t,0.922
+10921,2023,HBMS Chisel Lake Mine,Snow Lake,Manitoba,54.83,-100.12,212233,Copper-Zinc Ore Mining,Hudbay Minerals,On-site Transportation,N2O,t,0.831
+10922,2023,McArthur River Operation,Saskatoon,Saskatchewan,57.75556,-105.065,212291,Uranium Ore Mining,Cameco Corporation,Stationary Fuel Combustion,N2O,t,1.2602
+10922,2023,McArthur River Operation,Saskatoon,Saskatchewan,57.75556,-105.065,212291,Uranium Ore Mining,Cameco Corporation,Industrial Processes,N2O,t,
+10922,2023,McArthur River Operation,Saskatoon,Saskatchewan,57.75556,-105.065,212291,Uranium Ore Mining,Cameco Corporation,On-site Transportation,N2O,t,0.0369
+10922,2023,McArthur River Operation,Saskatoon,Saskatchewan,57.75556,-105.065,212291,Uranium Ore Mining,Cameco Corporation,Waste,N2O,t,
+10922,2023,McArthur River Operation,Saskatoon,Saskatchewan,57.75556,-105.065,212291,Uranium Ore Mining,Cameco Corporation,Wastewater,N2O,t,0.0008
+10923,2023,Cigar Lake Operation,Sasktoon,Saskatchewan,58.0676,-104.542,212291,Uranium Ore Mining,Cameco Corporation,Stationary Fuel Combustion,N2O,t,0.8955
+10923,2023,Cigar Lake Operation,Sasktoon,Saskatchewan,58.0676,-104.542,212291,Uranium Ore Mining,Cameco Corporation,Industrial Processes,N2O,t,
+10923,2023,Cigar Lake Operation,Sasktoon,Saskatchewan,58.0676,-104.542,212291,Uranium Ore Mining,Cameco Corporation,On-site Transportation,N2O,t,0.0632
+10923,2023,Cigar Lake Operation,Sasktoon,Saskatchewan,58.0676,-104.542,212291,Uranium Ore Mining,Cameco Corporation,Waste,N2O,t,
+10923,2023,Cigar Lake Operation,Sasktoon,Saskatchewan,58.0676,-104.542,212291,Uranium Ore Mining,Cameco Corporation,Wastewater,N2O,t,0.0011
+10926,2023,Impala Canada Ltd.,Thunder Bay,Ontario,49.16168,-89.61435,212299,All Other Metal Ore Mining,Impala Canada Ltd.,Stationary Fuel Combustion,N2O,t,1.316
+10926,2023,Impala Canada Ltd.,Thunder Bay,Ontario,49.16168,-89.61435,212299,All Other Metal Ore Mining,Impala Canada Ltd.,On-site Transportation,N2O,t,3.053
+11095,2023,INFASCO,Marieville,Quebec,45.431,-73.1673,331221,Cold-Rolled Steel Shape Manufacturing,Ifastgroupe,Stationary Fuel Combustion,N2O,t,0.304
+11095,2023,INFASCO,Marieville,Quebec,45.431,-73.1673,331221,Cold-Rolled Steel Shape Manufacturing,Ifastgroupe,On-site Transportation,N2O,t,0.0491
+11128,2023,Sivaco Québec,Marieville,Quebec,45.4372,-73.1676,331222,Steel Wire Drawing,Groupe des tréfileries Sivaco 2004,Stationary Fuel Combustion,N2O,t,0.189
+11128,2023,Sivaco Québec,Marieville,Quebec,45.4372,-73.1676,331222,Steel Wire Drawing,Groupe des tréfileries Sivaco 2004,On-site Transportation,N2O,t,0.062
+11382,2023,Projet Nunavik Nickel,Kattiniq,Quebec,61.3239,-73.3234,212232,Nickel-Copper Ore Mining,Canadian Royalties inc.,Stationary Fuel Combustion,N2O,t,14.235333
+11382,2023,Projet Nunavik Nickel,Kattiniq,Quebec,61.3239,-73.3234,212232,Nickel-Copper Ore Mining,Canadian Royalties inc.,Industrial Processes,N2O,t,
+11382,2023,Projet Nunavik Nickel,Kattiniq,Quebec,61.3239,-73.3234,212232,Nickel-Copper Ore Mining,Canadian Royalties inc.,On-site Transportation,N2O,t,13.560123
+11390,2023,Fonderie Bibby Sainte-Croix,Sainte-Croix,Quebec,46.6236,-71.7361,331511,Iron Foundries,Canada Pipe Co Ltd.,Stationary Fuel Combustion,N2O,t,0.312
+11390,2023,Fonderie Bibby Sainte-Croix,Sainte-Croix,Quebec,46.6236,-71.7361,331511,Iron Foundries,Canada Pipe Co Ltd.,Industrial Processes,N2O,t,0.0
+11390,2023,Fonderie Bibby Sainte-Croix,Sainte-Croix,Quebec,46.6236,-71.7361,331511,Iron Foundries,Canada Pipe Co Ltd.,On-site Transportation,N2O,t,0.116
+11734,2023,DSO Timmins Project,Menihek,Newfoundland and Labrador,54.88945,-67.0842,212210,Iron Ore Mining,Tata Steel Minerals Canada,Stationary Fuel Combustion,N2O,t,0.224
+11734,2023,DSO Timmins Project,Menihek,Newfoundland and Labrador,54.88945,-67.0842,212210,Iron Ore Mining,Tata Steel Minerals Canada,On-site Transportation,N2O,t,0.193
+11736,2023,North American Lithium,La Corne,Quebec,48.40579,-77.82782,212299,All Other Metal Ore Mining,North American Lithium inc.,Stationary Fuel Combustion,N2O,t,0.05886
+11736,2023,North American Lithium,La Corne,Quebec,48.40579,-77.82782,212299,All Other Metal Ore Mining,North American Lithium inc.,On-site Transportation,N2O,t,1.899
+11736,2023,North American Lithium,La Corne,Quebec,48.40579,-77.82782,212299,All Other Metal Ore Mining,North American Lithium inc.,Waste,N2O,t,0.004
+11736,2023,North American Lithium,La Corne,Quebec,48.40579,-77.82782,212299,All Other Metal Ore Mining,North American Lithium inc.,Wastewater,N2O,t,0.0004
+11765,2023,ArcelorMittal long Products Canada - Hamilton East,Hamilton,Ontario,43.2625,-79.7857,331222,Steel Wire Drawing,ArcelorMittal long Products Canada G.P.,Stationary Fuel Combustion,N2O,t,0.263168
+11765,2023,ArcelorMittal long Products Canada - Hamilton East,Hamilton,Ontario,43.2625,-79.7857,331222,Steel Wire Drawing,ArcelorMittal long Products Canada G.P.,On-site Transportation,N2O,t,0.01955
+11767,2023,Rio Tinto Fer et Titane inc. - HAVRE-SAINT-PIERRE,Havre-Saint-Pierre,Quebec,50.2435,-63.6064,212210,Iron Ore Mining,Rio Tinto Fer et Titane inc.,Stationary Fuel Combustion,N2O,t,0.33
+11767,2023,Rio Tinto Fer et Titane inc. - HAVRE-SAINT-PIERRE,Havre-Saint-Pierre,Quebec,50.2435,-63.6064,212210,Iron Ore Mining,Rio Tinto Fer et Titane inc.,Industrial Processes,N2O,t,
+11767,2023,Rio Tinto Fer et Titane inc. - HAVRE-SAINT-PIERRE,Havre-Saint-Pierre,Quebec,50.2435,-63.6064,212210,Iron Ore Mining,Rio Tinto Fer et Titane inc.,On-site Transportation,N2O,t,1.299
+11878,2023,Max Aicher (North America) Limited,Hamilton,Ontario,43.26654,-79.82236,331221,Cold-Rolled Steel Shape Manufacturing,Max Aicher (North America) Limited,Stationary Fuel Combustion,N2O,t,0.351
+11894,2023,Copper Mountain Mine,Princeton,British Columbia,49.34556,-120.51,212233,Copper-Zinc Ore Mining,Copper Mountain Mine (BC) Ltd.,Stationary Fuel Combustion,N2O,t,0.13005
+11894,2023,Copper Mountain Mine,Princeton,British Columbia,49.34556,-120.51,212233,Copper-Zinc Ore Mining,Copper Mountain Mine (BC) Ltd.,On-site Transportation,N2O,t,0.543
+11894,2023,Copper Mountain Mine,Princeton,British Columbia,49.34556,-120.51,212233,Copper-Zinc Ore Mining,Copper Mountain Mine (BC) Ltd.,Waste,N2O,t,
+12009,2023,NATT Tools Group Inc.,Hamilton,Ontario,43.2663,-79.829,331221,Cold-Rolled Steel Shape Manufacturing,NATT Tools Group Inc.,Stationary Fuel Combustion,N2O,t,0.155
+12009,2023,NATT Tools Group Inc.,Hamilton,Ontario,43.2663,-79.829,331221,Cold-Rolled Steel Shape Manufacturing,NATT Tools Group Inc.,On-site Transportation,N2O,t,0.0001
+12112,2023,Silvertip Mine,Vancouver,British Columbia,53.72667,-127.64762,212231,Lead-Zinc Ore Mining,Coeur Silvertip Holdings Ltd.,Stationary Fuel Combustion,N2O,t,0.334
+12112,2023,Silvertip Mine,Vancouver,British Columbia,53.72667,-127.64762,212231,Lead-Zinc Ore Mining,Coeur Silvertip Holdings Ltd.,On-site Transportation,N2O,t,0.0129
+12555,2023,Moly-Cop Canada,Kamloops,British Columbia,50.65726,-120.09649,331511,Iron Foundries,Moly-Cop Canada,Stationary Fuel Combustion,N2O,t,0.382065
+12555,2023,Moly-Cop Canada,Kamloops,British Columbia,50.65726,-120.09649,331511,Iron Foundries,Moly-Cop Canada,On-site Transportation,N2O,t,0.00536
+10052,2023,Carol Project,Labrador city,Newfoundland and Labrador,52.9565,-66.8936,212210,Iron Ore Mining,Iron Ore Company of Canada,Stationary Fuel Combustion,CO2eq,t,506521.0198
+10052,2023,Carol Project,Labrador city,Newfoundland and Labrador,52.9565,-66.8936,212210,Iron Ore Mining,Iron Ore Company of Canada,Industrial Processes,CO2eq,t,129810.756
+10052,2023,Carol Project,Labrador city,Newfoundland and Labrador,52.9565,-66.8936,212210,Iron Ore Mining,Iron Ore Company of Canada,On-site Transportation,CO2eq,t,144184.2093
+10164,2023,Kidd Metallurgical Site,Timmins/District of Cochrane,Ontario,48.57373,-81.09115,212233,Copper-Zinc Ore Mining,Glencore,Stationary Fuel Combustion,CO2eq,t,20858.8135
+10164,2023,Kidd Metallurgical Site,Timmins/District of Cochrane,Ontario,48.57373,-81.09115,212233,Copper-Zinc Ore Mining,Glencore,On-site Transportation,CO2eq,t,8473.73223
+10188,2023,Mine de Mont-Wright,Fermont,Quebec,52.76639,-67.33306,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Stationary Fuel Combustion,CO2eq,t,17082.8618
+10188,2023,Mine de Mont-Wright,Fermont,Quebec,52.76639,-67.33306,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Industrial Processes,CO2eq,t,11987.145
+10188,2023,Mine de Mont-Wright,Fermont,Quebec,52.76639,-67.33306,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,On-site Transportation,CO2eq,t,245826.1058
+10240,2023,Mine Raglan,Rivière-Koksoak,Quebec,61.6916,-73.6666,212232,Nickel-Copper Ore Mining,Glencore,Stationary Fuel Combustion,CO2eq,t,138426.863
+10240,2023,Mine Raglan,Rivière-Koksoak,Quebec,61.6916,-73.6666,212232,Nickel-Copper Ore Mining,Glencore,Industrial Processes,CO2eq,t,1567.749062
+10240,2023,Mine Raglan,Rivière-Koksoak,Quebec,61.6916,-73.6666,212232,Nickel-Copper Ore Mining,Glencore,On-site Transportation,CO2eq,t,17107.05425
+10240,2023,Mine Raglan,Rivière-Koksoak,Quebec,61.6916,-73.6666,212232,Nickel-Copper Ore Mining,Glencore,Waste,CO2eq,t,878.913366
+10240,2023,Mine Raglan,Rivière-Koksoak,Quebec,61.6916,-73.6666,212232,Nickel-Copper Ore Mining,Glencore,Wastewater,CO2eq,t,14.64125
+10299,2023,Usine de Bouletage de Port-Cartier,Port-Cartier,Quebec,50.0334,-66.791,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Stationary Fuel Combustion,CO2eq,t,661817.9823
+10299,2023,Usine de Bouletage de Port-Cartier,Port-Cartier,Quebec,50.0334,-66.791,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Industrial Processes,CO2eq,t,142394.284
+10299,2023,Usine de Bouletage de Port-Cartier,Port-Cartier,Quebec,50.0334,-66.791,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,On-site Transportation,CO2eq,t,275.1744
+10350,2023,Wabush Mines - Scully,Wabush,Newfoundland and Labrador,52.907,-66.9105,212210,Iron Ore Mining,Tacora Resources Inc.,Stationary Fuel Combustion,CO2eq,t,76711.7527
+10350,2023,Wabush Mines - Scully,Wabush,Newfoundland and Labrador,52.907,-66.9105,212210,Iron Ore Mining,Tacora Resources Inc.,Industrial Processes,CO2eq,t,1718.3632
+10350,2023,Wabush Mines - Scully,Wabush,Newfoundland and Labrador,52.907,-66.9105,212210,Iron Ore Mining,Tacora Resources Inc.,On-site Transportation,CO2eq,t,32073.3338
+10385,2023,Teck Highland Valley Copper Partnership,Logan Lake,British Columbia,50.47235,-121.02132,212233,Copper-Zinc Ore Mining,Teck Highland Valley Copper Partnership,Stationary Fuel Combustion,CO2eq,t,16651.407
+10385,2023,Teck Highland Valley Copper Partnership,Logan Lake,British Columbia,50.47235,-121.02132,212233,Copper-Zinc Ore Mining,Teck Highland Valley Copper Partnership,On-site Transportation,CO2eq,t,167532.0472
+10569,2023,Thompson Operations,Thompson,Manitoba,55.7138,-97.8561,212232,Nickel-Copper Ore Mining,Vale Canada Ltd,Stationary Fuel Combustion,CO2eq,t,9485.89876
+10569,2023,Thompson Operations,Thompson,Manitoba,55.7138,-97.8561,212232,Nickel-Copper Ore Mining,Vale Canada Ltd,On-site Transportation,CO2eq,t,9264.8444
+10569,2023,Thompson Operations,Thompson,Manitoba,55.7138,-97.8561,212232,Nickel-Copper Ore Mining,Vale Canada Ltd,Waste,CO2eq,t,75.62976
+10570,2023,Voisey's Bay Mine Site,HAPPY VALLEY-GOOSE BAY,Newfoundland and Labrador,56.33826,-62.09508,212232,Nickel-Copper Ore Mining,Vale Newfoundland and Labrador Limited,Stationary Fuel Combustion,CO2eq,t,132845.1649
+10570,2023,Voisey's Bay Mine Site,HAPPY VALLEY-GOOSE BAY,Newfoundland and Labrador,56.33826,-62.09508,212232,Nickel-Copper Ore Mining,Vale Newfoundland and Labrador Limited,On-site Transportation,CO2eq,t,40943.10043
+10580,2023,Sudbury Operations Mines Mill - Onaping Area,Onaping,Ontario,46.67417,-81.3425,212232,Nickel-Copper Ore Mining,Glencore Canada Corporation,Stationary Fuel Combustion,CO2eq,t,16820.365
+10580,2023,Sudbury Operations Mines Mill - Onaping Area,Onaping,Ontario,46.67417,-81.3425,212232,Nickel-Copper Ore Mining,Glencore Canada Corporation,Industrial Processes,CO2eq,t,96.813
+10580,2023,Sudbury Operations Mines Mill - Onaping Area,Onaping,Ontario,46.67417,-81.3425,212232,Nickel-Copper Ore Mining,Glencore Canada Corporation,On-site Transportation,CO2eq,t,7160.265
+10580,2023,Sudbury Operations Mines Mill - Onaping Area,Onaping,Ontario,46.67417,-81.3425,212232,Nickel-Copper Ore Mining,Glencore Canada Corporation,Waste,CO2eq,t,919.212
+10589,2023,Mine de Fire Lake,Mont-Wright,Quebec,52.35028,-67.36917,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Stationary Fuel Combustion,CO2eq,t,4349.2976
+10589,2023,Mine de Fire Lake,Mont-Wright,Quebec,52.35028,-67.36917,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Industrial Processes,CO2eq,t,2246.073
+10589,2023,Mine de Fire Lake,Mont-Wright,Quebec,52.35028,-67.36917,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,On-site Transportation,CO2eq,t,42718.7579
+10613,2023,Mount Polley Mine,Likely,British Columbia,52.5443,-121.6328,212299,All Other Metal Ore Mining,Imperial Metals Corporation,Stationary Fuel Combustion,CO2eq,t,934.8328
+10613,2023,Mount Polley Mine,Likely,British Columbia,52.5443,-121.6328,212299,All Other Metal Ore Mining,Imperial Metals Corporation,On-site Transportation,CO2eq,t,48533.8534
+10647,2023,Tree Island Industries Ltd.,Richmond,British Columbia,49.1875,-122.95916,331222,Steel Wire Drawing,Tree Island Industries Ltd,Stationary Fuel Combustion,CO2eq,t,12508.88
+10647,2023,Tree Island Industries Ltd.,Richmond,British Columbia,49.1875,-122.95916,331222,Steel Wire Drawing,Tree Island Industries Ltd,On-site Transportation,CO2eq,t,547.489
+10679,2023,Gibraltar Mine (SFO),MCLEESE LAKE,British Columbia,52.5299,-122.2851,212233,Copper-Zinc Ore Mining,Gibraltar Mines Ltd.,Stationary Fuel Combustion,CO2eq,t,9873.214202
+10679,2023,Gibraltar Mine (SFO),MCLEESE LAKE,British Columbia,52.5299,-122.2851,212233,Copper-Zinc Ore Mining,Gibraltar Mines Ltd.,On-site Transportation,CO2eq,t,119639.6699
+10722,2023,Mine du Lac Bloom,Fermont,Quebec,52.85235,-67.25387,212210,Iron Ore Mining,MINERAI DE FER QUÉBEC INC.,Stationary Fuel Combustion,CO2eq,t,12717.207
+10722,2023,Mine du Lac Bloom,Fermont,Quebec,52.85235,-67.25387,212210,Iron Ore Mining,MINERAI DE FER QUÉBEC INC.,Industrial Processes,CO2eq,t,6351.50483
+10722,2023,Mine du Lac Bloom,Fermont,Quebec,52.85235,-67.25387,212210,Iron Ore Mining,MINERAI DE FER QUÉBEC INC.,On-site Transportation,CO2eq,t,100086.4226
+10785,2023,Myra Falls Mine Ltd.,Campbell River,British Columbia,49.57694,-125.60194,212233,Copper-Zinc Ore Mining,Myra Falls Mine Ltd,Stationary Fuel Combustion,CO2eq,t,34048.0483
+10835,2023,Mary River Mine Site,,Nunavut,71.3146,-79.28194,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Stationary Fuel Combustion,CO2eq,t,23746.85678
+10835,2023,Mary River Mine Site,,Nunavut,71.3146,-79.28194,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,On-site Transportation,CO2eq,t,66307.55487
+10835,2023,Mary River Mine Site,,Nunavut,71.3146,-79.28194,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Waste,CO2eq,t,54.29224
+10835,2023,Mary River Mine Site,,Nunavut,71.3146,-79.28194,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Wastewater,CO2eq,t,0.315045
+10900,2023,Milne Port Site,,Nunavut,71.88444,-80.88611,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Stationary Fuel Combustion,CO2eq,t,17442.86359
+10900,2023,Milne Port Site,,Nunavut,71.88444,-80.88611,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,On-site Transportation,CO2eq,t,61166.45214
+10900,2023,Milne Port Site,,Nunavut,71.88444,-80.88611,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Waste,CO2eq,t,117.71143
+10900,2023,Milne Port Site,,Nunavut,71.88444,-80.88611,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Wastewater,CO2eq,t,0.11998
+10907,2023,La Mine Niobec,Saint-Honoré,Quebec,48.5322,-71.1578,212299,All Other Metal Ore Mining,Magris Ressources,Stationary Fuel Combustion,CO2eq,t,6551.266
+10907,2023,La Mine Niobec,Saint-Honoré,Quebec,48.5322,-71.1578,212299,All Other Metal Ore Mining,Magris Ressources,On-site Transportation,CO2eq,t,5925.675
+10908,2023,McClean Lake Operations,Saskatoon,Saskatchewan,58.25,-103.91694,212291,Uranium Ore Mining,Orano Canada Inc.,Stationary Fuel Combustion,CO2eq,t,19476.0909
+10908,2023,McClean Lake Operations,Saskatoon,Saskatchewan,58.25,-103.91694,212291,Uranium Ore Mining,Orano Canada Inc.,Industrial Processes,CO2eq,t,1731.8609
+10908,2023,McClean Lake Operations,Saskatoon,Saskatchewan,58.25,-103.91694,212291,Uranium Ore Mining,Orano Canada Inc.,On-site Transportation,CO2eq,t,1785.0853
+10908,2023,McClean Lake Operations,Saskatoon,Saskatchewan,58.25,-103.91694,212291,Uranium Ore Mining,Orano Canada Inc.,Waste,CO2eq,t,547.0516
+10908,2023,McClean Lake Operations,Saskatoon,Saskatchewan,58.25,-103.91694,212291,Uranium Ore Mining,Orano Canada Inc.,Wastewater,CO2eq,t,86.6994
+10913,2023,Key Lake Operation,Saskatoon,Saskatchewan,57.21194,-105.67861,212291,Uranium Ore Mining,Cameco Corporation,Stationary Fuel Combustion,CO2eq,t,32608.8769
+10913,2023,Key Lake Operation,Saskatoon,Saskatchewan,57.21194,-105.67861,212291,Uranium Ore Mining,Cameco Corporation,Industrial Processes,CO2eq,t,2282.2442
+10913,2023,Key Lake Operation,Saskatoon,Saskatchewan,57.21194,-105.67861,212291,Uranium Ore Mining,Cameco Corporation,On-site Transportation,CO2eq,t,2682.4483
+10913,2023,Key Lake Operation,Saskatoon,Saskatchewan,57.21194,-105.67861,212291,Uranium Ore Mining,Cameco Corporation,Waste,CO2eq,t,1385.4
+10913,2023,Key Lake Operation,Saskatoon,Saskatchewan,57.21194,-105.67861,212291,Uranium Ore Mining,Cameco Corporation,Wastewater,CO2eq,t,41.8663
+10921,2023,HBMS Chisel Lake Mine,Snow Lake,Manitoba,54.83,-100.12,212233,Copper-Zinc Ore Mining,Hudbay Minerals,Stationary Fuel Combustion,CO2eq,t,13183.6272
+10921,2023,HBMS Chisel Lake Mine,Snow Lake,Manitoba,54.83,-100.12,212233,Copper-Zinc Ore Mining,Hudbay Minerals,On-site Transportation,CO2eq,t,10121.173
+10922,2023,McArthur River Operation,Saskatoon,Saskatchewan,57.75556,-105.065,212291,Uranium Ore Mining,Cameco Corporation,Stationary Fuel Combustion,CO2eq,t,18394.0273
+10922,2023,McArthur River Operation,Saskatoon,Saskatchewan,57.75556,-105.065,212291,Uranium Ore Mining,Cameco Corporation,Industrial Processes,CO2eq,t,14.0118
+10922,2023,McArthur River Operation,Saskatoon,Saskatchewan,57.75556,-105.065,212291,Uranium Ore Mining,Cameco Corporation,On-site Transportation,CO2eq,t,3776.3987
+10922,2023,McArthur River Operation,Saskatoon,Saskatchewan,57.75556,-105.065,212291,Uranium Ore Mining,Cameco Corporation,Waste,CO2eq,t,126.42
+10922,2023,McArthur River Operation,Saskatoon,Saskatchewan,57.75556,-105.065,212291,Uranium Ore Mining,Cameco Corporation,Wastewater,CO2eq,t,48.8928
+10923,2023,Cigar Lake Operation,Sasktoon,Saskatchewan,58.0676,-104.542,212291,Uranium Ore Mining,Cameco Corporation,Stationary Fuel Combustion,CO2eq,t,12976.0218
+10923,2023,Cigar Lake Operation,Sasktoon,Saskatchewan,58.0676,-104.542,212291,Uranium Ore Mining,Cameco Corporation,Industrial Processes,CO2eq,t,8.5812
+10923,2023,Cigar Lake Operation,Sasktoon,Saskatchewan,58.0676,-104.542,212291,Uranium Ore Mining,Cameco Corporation,On-site Transportation,CO2eq,t,6831.3372
+10923,2023,Cigar Lake Operation,Sasktoon,Saskatchewan,58.0676,-104.542,212291,Uranium Ore Mining,Cameco Corporation,Waste,CO2eq,t,134.736
+10923,2023,Cigar Lake Operation,Sasktoon,Saskatchewan,58.0676,-104.542,212291,Uranium Ore Mining,Cameco Corporation,Wastewater,CO2eq,t,62.9807
+10926,2023,Impala Canada Ltd.,Thunder Bay,Ontario,49.16168,-89.61435,212299,All Other Metal Ore Mining,Impala Canada Ltd.,Stationary Fuel Combustion,CO2eq,t,19038.309
+10926,2023,Impala Canada Ltd.,Thunder Bay,Ontario,49.16168,-89.61435,212299,All Other Metal Ore Mining,Impala Canada Ltd.,On-site Transportation,CO2eq,t,37069.073
+11095,2023,INFASCO,Marieville,Quebec,45.431,-73.1673,331221,Cold-Rolled Steel Shape Manufacturing,Ifastgroupe,Stationary Fuel Combustion,CO2eq,t,14922.116
+11095,2023,INFASCO,Marieville,Quebec,45.431,-73.1673,331221,Cold-Rolled Steel Shape Manufacturing,Ifastgroupe,On-site Transportation,CO2eq,t,324.5511
+11128,2023,Sivaco Québec,Marieville,Quebec,45.4372,-73.1676,331222,Steel Wire Drawing,Groupe des tréfileries Sivaco 2004,Stationary Fuel Combustion,CO2eq,t,10830.021
+11128,2023,Sivaco Québec,Marieville,Quebec,45.4372,-73.1676,331222,Steel Wire Drawing,Groupe des tréfileries Sivaco 2004,On-site Transportation,CO2eq,t,268.914
+11382,2023,Projet Nunavik Nickel,Kattiniq,Quebec,61.3239,-73.3234,212232,Nickel-Copper Ore Mining,Canadian Royalties inc.,Stationary Fuel Combustion,CO2eq,t,97714.08501
+11382,2023,Projet Nunavik Nickel,Kattiniq,Quebec,61.3239,-73.3234,212232,Nickel-Copper Ore Mining,Canadian Royalties inc.,Industrial Processes,CO2eq,t,57.088425
+11382,2023,Projet Nunavik Nickel,Kattiniq,Quebec,61.3239,-73.3234,212232,Nickel-Copper Ore Mining,Canadian Royalties inc.,On-site Transportation,CO2eq,t,36488.9626
+11390,2023,Fonderie Bibby Sainte-Croix,Sainte-Croix,Quebec,46.6236,-71.7361,331511,Iron Foundries,Canada Pipe Co Ltd.,Stationary Fuel Combustion,CO2eq,t,15387.664
+11390,2023,Fonderie Bibby Sainte-Croix,Sainte-Croix,Quebec,46.6236,-71.7361,331511,Iron Foundries,Canada Pipe Co Ltd.,Industrial Processes,CO2eq,t,178.74
+11390,2023,Fonderie Bibby Sainte-Croix,Sainte-Croix,Quebec,46.6236,-71.7361,331511,Iron Foundries,Canada Pipe Co Ltd.,On-site Transportation,CO2eq,t,424.598
+11734,2023,DSO Timmins Project,Menihek,Newfoundland and Labrador,54.88945,-67.0842,212210,Iron Ore Mining,Tata Steel Minerals Canada,Stationary Fuel Combustion,CO2eq,t,27406.785
+11734,2023,DSO Timmins Project,Menihek,Newfoundland and Labrador,54.88945,-67.0842,212210,Iron Ore Mining,Tata Steel Minerals Canada,On-site Transportation,CO2eq,t,24189.618
+11736,2023,North American Lithium,La Corne,Quebec,48.40579,-77.82782,212299,All Other Metal Ore Mining,North American Lithium inc.,Stationary Fuel Combustion,CO2eq,t,4082.6093
+11736,2023,North American Lithium,La Corne,Quebec,48.40579,-77.82782,212299,All Other Metal Ore Mining,North American Lithium inc.,On-site Transportation,CO2eq,t,23160.239
+11736,2023,North American Lithium,La Corne,Quebec,48.40579,-77.82782,212299,All Other Metal Ore Mining,North American Lithium inc.,Waste,CO2eq,t,3.58
+11736,2023,North American Lithium,La Corne,Quebec,48.40579,-77.82782,212299,All Other Metal Ore Mining,North American Lithium inc.,Wastewater,CO2eq,t,1.226
+11765,2023,ArcelorMittal long Products Canada - Hamilton East,Hamilton,Ontario,43.2625,-79.7857,331222,Steel Wire Drawing,ArcelorMittal long Products Canada G.P.,Stationary Fuel Combustion,CO2eq,t,15280.7399
+11765,2023,ArcelorMittal long Products Canada - Hamilton East,Hamilton,Ontario,43.2625,-79.7857,331222,Steel Wire Drawing,ArcelorMittal long Products Canada G.P.,On-site Transportation,CO2eq,t,315.28475
+11767,2023,Rio Tinto Fer et Titane inc. - HAVRE-SAINT-PIERRE,Havre-Saint-Pierre,Quebec,50.2435,-63.6064,212210,Iron Ore Mining,Rio Tinto Fer et Titane inc.,Stationary Fuel Combustion,CO2eq,t,2272.53
+11767,2023,Rio Tinto Fer et Titane inc. - HAVRE-SAINT-PIERRE,Havre-Saint-Pierre,Quebec,50.2435,-63.6064,212210,Iron Ore Mining,Rio Tinto Fer et Titane inc.,Industrial Processes,CO2eq,t,152.0
+11767,2023,Rio Tinto Fer et Titane inc. - HAVRE-SAINT-PIERRE,Havre-Saint-Pierre,Quebec,50.2435,-63.6064,212210,Iron Ore Mining,Rio Tinto Fer et Titane inc.,On-site Transportation,CO2eq,t,14358.595
+11878,2023,Max Aicher (North America) Limited,Hamilton,Ontario,43.26654,-79.82236,331221,Cold-Rolled Steel Shape Manufacturing,Max Aicher (North America) Limited,Stationary Fuel Combustion,CO2eq,t,20426.2183
+11894,2023,Copper Mountain Mine,Princeton,British Columbia,49.34556,-120.51,212233,Copper-Zinc Ore Mining,Copper Mountain Mine (BC) Ltd.,Stationary Fuel Combustion,CO2eq,t,3089.75569
+11894,2023,Copper Mountain Mine,Princeton,British Columbia,49.34556,-120.51,212233,Copper-Zinc Ore Mining,Copper Mountain Mine (BC) Ltd.,On-site Transportation,CO2eq,t,67228.886
+11894,2023,Copper Mountain Mine,Princeton,British Columbia,49.34556,-120.51,212233,Copper-Zinc Ore Mining,Copper Mountain Mine (BC) Ltd.,Waste,CO2eq,t,82.936
+12009,2023,NATT Tools Group Inc.,Hamilton,Ontario,43.2663,-79.829,331221,Cold-Rolled Steel Shape Manufacturing,NATT Tools Group Inc.,Stationary Fuel Combustion,CO2eq,t,9250.447
+12009,2023,NATT Tools Group Inc.,Hamilton,Ontario,43.2663,-79.829,331221,Cold-Rolled Steel Shape Manufacturing,NATT Tools Group Inc.,On-site Transportation,CO2eq,t,1.1415
+12112,2023,Silvertip Mine,Vancouver,British Columbia,53.72667,-127.64762,212231,Lead-Zinc Ore Mining,Coeur Silvertip Holdings Ltd.,Stationary Fuel Combustion,CO2eq,t,12846.8202
+12112,2023,Silvertip Mine,Vancouver,British Columbia,53.72667,-127.64762,212231,Lead-Zinc Ore Mining,Coeur Silvertip Holdings Ltd.,On-site Transportation,CO2eq,t,1366.9796
+12555,2023,Moly-Cop Canada,Kamloops,British Columbia,50.65726,-120.09649,331511,Iron Foundries,Moly-Cop Canada,Stationary Fuel Combustion,CO2eq,t,22598.46437
+12555,2023,Moly-Cop Canada,Kamloops,British Columbia,50.65726,-120.09649,331511,Iron Foundries,Moly-Cop Canada,On-site Transportation,CO2eq,t,46.365468
+10052,2023,Carol Project,Labrador city,Newfoundland and Labrador,52.9565,-66.8936,212210,Iron Ore Mining,Iron Ore Company of Canada,Total,CO2eq,t,780515.9851
+10164,2023,Kidd Metallurgical Site,Timmins/District of Cochrane,Ontario,48.57373,-81.09115,212233,Copper-Zinc Ore Mining,Glencore,Total,CO2eq,t,29332.54573
+10188,2023,Mine de Mont-Wright,Fermont,Quebec,52.76639,-67.33306,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Total,CO2eq,t,274896.1126
+10240,2023,Mine Raglan,Rivière-Koksoak,Quebec,61.6916,-73.6666,212232,Nickel-Copper Ore Mining,Glencore,Total,CO2eq,t,157995.2209
+10299,2023,Usine de Bouletage de Port-Cartier,Port-Cartier,Quebec,50.0334,-66.791,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Total,CO2eq,t,804487.4407
+10350,2023,Wabush Mines - Scully,Wabush,Newfoundland and Labrador,52.907,-66.9105,212210,Iron Ore Mining,Tacora Resources Inc.,Total,CO2eq,t,110503.4497
+10385,2023,Teck Highland Valley Copper Partnership,Logan Lake,British Columbia,50.47235,-121.02132,212233,Copper-Zinc Ore Mining,Teck Highland Valley Copper Partnership,Total,CO2eq,t,184183.4542
+10569,2023,Thompson Operations,Thompson,Manitoba,55.7138,-97.8561,212232,Nickel-Copper Ore Mining,Vale Canada Ltd,Total,CO2eq,t,18826.37292
+10570,2023,Voisey's Bay Mine Site,HAPPY VALLEY-GOOSE BAY,Newfoundland and Labrador,56.33826,-62.09508,212232,Nickel-Copper Ore Mining,Vale Newfoundland and Labrador Limited,Total,CO2eq,t,173788.2653
+10580,2023,Sudbury Operations Mines Mill - Onaping Area,Onaping,Ontario,46.67417,-81.3425,212232,Nickel-Copper Ore Mining,Glencore Canada Corporation,Total,CO2eq,t,24996.655
+10589,2023,Mine de Fire Lake,Mont-Wright,Quebec,52.35028,-67.36917,212210,Iron Ore Mining,ArcelorMittal Exploitation Minière Canada s.e.n.c.,Total,CO2eq,t,49314.1285
+10613,2023,Mount Polley Mine,Likely,British Columbia,52.5443,-121.6328,212299,All Other Metal Ore Mining,Imperial Metals Corporation,Total,CO2eq,t,49468.6862
+10647,2023,Tree Island Industries Ltd.,Richmond,British Columbia,49.1875,-122.95916,331222,Steel Wire Drawing,Tree Island Industries Ltd,Total,CO2eq,t,13056.369
+10679,2023,Gibraltar Mine (SFO),MCLEESE LAKE,British Columbia,52.5299,-122.2851,212233,Copper-Zinc Ore Mining,Gibraltar Mines Ltd.,Total,CO2eq,t,129512.8841
+10722,2023,Mine du Lac Bloom,Fermont,Quebec,52.85235,-67.25387,212210,Iron Ore Mining,MINERAI DE FER QUÉBEC INC.,Total,CO2eq,t,119155.1344
+10785,2023,Myra Falls Mine Ltd.,Campbell River,British Columbia,49.57694,-125.60194,212233,Copper-Zinc Ore Mining,Myra Falls Mine Ltd,Total,CO2eq,t,34048.0483
+10835,2023,Mary River Mine Site,,Nunavut,71.3146,-79.28194,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Total,CO2eq,t,90109.01894
+10900,2023,Milne Port Site,,Nunavut,71.88444,-80.88611,212210,Iron Ore Mining,Baffinland Iron Mines Corporation,Total,CO2eq,t,78727.14714
+10907,2023,La Mine Niobec,Saint-Honoré,Quebec,48.5322,-71.1578,212299,All Other Metal Ore Mining,Magris Ressources,Total,CO2eq,t,12476.941
+10908,2023,McClean Lake Operations,Saskatoon,Saskatchewan,58.25,-103.91694,212291,Uranium Ore Mining,Orano Canada Inc.,Total,CO2eq,t,23626.7881
+10913,2023,Key Lake Operation,Saskatoon,Saskatchewan,57.21194,-105.67861,212291,Uranium Ore Mining,Cameco Corporation,Total,CO2eq,t,39000.8357
+10921,2023,HBMS Chisel Lake Mine,Snow Lake,Manitoba,54.83,-100.12,212233,Copper-Zinc Ore Mining,Hudbay Minerals,Total,CO2eq,t,23304.8002
+10922,2023,McArthur River Operation,Saskatoon,Saskatchewan,57.75556,-105.065,212291,Uranium Ore Mining,Cameco Corporation,Total,CO2eq,t,22359.7506
+10923,2023,Cigar Lake Operation,Sasktoon,Saskatchewan,58.0676,-104.542,212291,Uranium Ore Mining,Cameco Corporation,Total,CO2eq,t,20013.6569
+10926,2023,Impala Canada Ltd.,Thunder Bay,Ontario,49.16168,-89.61435,212299,All Other Metal Ore Mining,Impala Canada Ltd.,Total,CO2eq,t,56107.382
+11095,2023,INFASCO,Marieville,Quebec,45.431,-73.1673,331221,Cold-Rolled Steel Shape Manufacturing,Ifastgroupe,Total,CO2eq,t,15246.6671
+11128,2023,Sivaco Québec,Marieville,Quebec,45.4372,-73.1676,331222,Steel Wire Drawing,Groupe des tréfileries Sivaco 2004,Total,CO2eq,t,11098.935
+11382,2023,Projet Nunavik Nickel,Kattiniq,Quebec,61.3239,-73.3234,212232,Nickel-Copper Ore Mining,Canadian Royalties inc.,Total,CO2eq,t,134260.136
+11390,2023,Fonderie Bibby Sainte-Croix,Sainte-Croix,Quebec,46.6236,-71.7361,331511,Iron Foundries,Canada Pipe Co Ltd.,Total,CO2eq,t,15991.002
+11734,2023,DSO Timmins Project,Menihek,Newfoundland and Labrador,54.88945,-67.0842,212210,Iron Ore Mining,Tata Steel Minerals Canada,Total,CO2eq,t,51596.403
+11736,2023,North American Lithium,La Corne,Quebec,48.40579,-77.82782,212299,All Other Metal Ore Mining,North American Lithium inc.,Total,CO2eq,t,27247.6543
+11765,2023,ArcelorMittal long Products Canada - Hamilton East,Hamilton,Ontario,43.2625,-79.7857,331222,Steel Wire Drawing,ArcelorMittal long Products Canada G.P.,Total,CO2eq,t,15596.02465
+11767,2023,Rio Tinto Fer et Titane inc. - HAVRE-SAINT-PIERRE,Havre-Saint-Pierre,Quebec,50.2435,-63.6064,212210,Iron Ore Mining,Rio Tinto Fer et Titane inc.,Total,CO2eq,t,16783.125
+11878,2023,Max Aicher (North America) Limited,Hamilton,Ontario,43.26654,-79.82236,331221,Cold-Rolled Steel Shape Manufacturing,Max Aicher (North America) Limited,Total,CO2eq,t,20426.2183
+11894,2023,Copper Mountain Mine,Princeton,British Columbia,49.34556,-120.51,212233,Copper-Zinc Ore Mining,Copper Mountain Mine (BC) Ltd.,Total,CO2eq,t,70401.57769
+12009,2023,NATT Tools Group Inc.,Hamilton,Ontario,43.2663,-79.829,331221,Cold-Rolled Steel Shape Manufacturing,NATT Tools Group Inc.,Total,CO2eq,t,9251.5885
+12112,2023,Silvertip Mine,Vancouver,British Columbia,53.72667,-127.64762,212231,Lead-Zinc Ore Mining,Coeur Silvertip Holdings Ltd.,Total,CO2eq,t,14213.7998
+12555,2023,Moly-Cop Canada,Kamloops,British Columbia,50.65726,-120.09649,331511,Iron Foundries,Moly-Cop Canada,Total,CO2eq,t,22644.82984

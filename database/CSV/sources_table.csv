@@ -5,7 +5,7 @@ https://doi.org/10.5281/zenodo.5006332,dataset,"Areas of global importance for c
 https://pubs.acs.org/doi/10.1021/acs.est.4c05293,dataset,Byproduct-to-Host Ratios for Assessing the Accessibility of Mineral Resources
 https://climate-scenarios.canada.ca/?page=CanDCS6-indices,dataset,CMIP6 statistically downscaled climate indices (CanDCS-M6)
 http://journals.librarypublishing.arizona.edu/jpe/article/id/1932/,dataset,Environmental Justice Atlas
-https://www.canada.ca/en/environment-climate-change/services/environmental-indicators/greenhouse-gas-emissions/large-facilities.html,dataset,GHG from large facilities
+https://www.canada.ca/en/environment-climate-change/services/environmental-indicators/greenhouse-gas-emissions/large-facilities.html; https://open.canada.ca/data/en/dataset/a8ba14b7-7f23-462a-bdbb-83b0ef629823,dataset,GHG from large facilities
 https://doi.org/10.2905/2FF68A52-5B5B-4A22-8F40-C41DA8332CFE,dataset,Global Human Settlement Layer (GHSL)
 https://doi.org/10.1038/s43247-023-00805-6,dataset,Global Mining Footprint Mapped from High-Resolution Satellite Imagery
 https://greifswaldmoor.de/global-peatland-database-en.html,dataset,Global Peatland Database
@@ -123,8 +123,8 @@ AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_250421
 AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042154,report,Agnico-Eagle-2023-Sustainability-Performance-Data_25042154
 AgnicoEagleMinesLimited_Agnico-Eagle-2023-Sustainability-Performance-Data_25042155,report,Agnico-Eagle-2023-Sustainability-Performance-Data_25042155
 BarrickGoldCorporation_Barrick_2023_Performance-Data,report,Barrick_2023_Performance-Data.xlsx
-EldoradoGold_Data,report,Data.xlsx
 CenterraGoldInc_Data,report,Data.xlsx
+EldoradoGold_Data,report,Data.xlsx
 AlamosGoldInc_Data_2023,report,Data_2023.xlsx
 ArgonautGoldInc_Data_2023,report,Data_2023.xlsx
 EVRAZNorthAmericaInc_Databook_2021,report,Databook_2021.xlsx
@@ -188,8 +188,8 @@ IronOreCompanyofCanadaInc._nan,report,nan
 AlgomaSteelInc._nan,report,nan
 AgnicoEagleMinesLimited_operational_data,report,operational_data.xlsx
 IAMGOLDCorporation_operational_data,report,operational_data.xlsx
-RioTinto_rt-fact-book-addendum,report,rt-fact-book-addendum.xlsx
 IronOreCompanyofCanada_rt-fact-book-addendum,report,rt-fact-book-addendum.xlsx
+RioTinto_rt-fact-book-addendum,report,rt-fact-book-addendum.xlsx
 IronOreCompanyofCanadaInc._rt-fact-book-addendum,report,rt-fact-book-addendum.xlsx
 https://aluminium.ca/en/the-industry/,website,https://aluminium.ca/en/the-industry/
 https://evolutionmining.com.au/reservesresources/,website,https://evolutionmining.com.au/reservesresources/
