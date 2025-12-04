@@ -4,8 +4,8 @@
 metal_ore_mining_naics = [
     "Metal Ore Mining",
     "Iron Ore Mining",
-    "Gold And Silver Ore Mining",
-    "Copper, Nickel, Lead And Zinc Ore Mining",
+    "Gold and Silver Ore Mining",
+    "Copper, Nickel, Lead and Zinc Ore Mining",
     "Lead-Zinc Ore Mining",
     "Nickel-Copper Ore Mining",
     "Copper-Zinc Ore Mining",
@@ -28,37 +28,38 @@ metal_ore_mining_naics = [
     # "Gypsum Mining",
     # "Potash Mining",
     # "Peat Extraction",
-    "All Other Non-Metallic Mineral Mining And Quarrying",
-    "Support Activities For Mining, And Oil And Gas Extraction",
+    "All Other Non-Metallic Mineral Mining and Quarrying",
+    "Support Activities For Mining, And Oil and Gas Extraction",
     # "Oil And Gas Contract Drilling",
-    "Contract Drilling (Except Oil And Gas)",
+    "Contract Drilling (except Oil And Gas)",
     # "Services To Oil And Gas Extraction",
-    "Other Support Activities For Mining"
+    "Other Support Activities for Mining"
 ]
 
 
 metal_manufacturing_naics = [
+    "Non-Ferrous Metal (except Aluminum) Production and Processing",
+    "Non-Ferrous Metal (except Aluminum) Smelting and Refining",
     "Primary Metal Manufacturing",
-    "Iron And Steel Mills And Ferro-Alloy Manufacturing",
-    "Steel Product Manufacturing From Purchased Steel",
-    "Iron And Steel Pipes And Tubes Manufacturing From Purchased Steel",
-    "Rolling And Drawing Of Purchased Steel",
+    "Iron and Steel Mills and Ferro-Alloy Manufacturing",
+    "Steel Product Manufacturing from Purchased Steel",
+    "Iron and Steel Pipes and Tubes Manufacturing from Purchased Steel",
+    "Rolling and Drawing Of Purchased Steel",
     "Cold-Rolled Steel Shape Manufacturing",
     "Steel Wire Drawing",
-    "Alumina And Aluminum Production And Processing",
-    "Primary Production Of Alumina And Aluminum",
+    "Alumina and Aluminum Production and Processing",
+    "Primary Production of Alumina and Aluminum",
     "Aluminum Rolling, Drawing, Extruding And Alloying",
-    "Non-Ferrous Metal (Except Aluminum) Production And Processing",
-    "Non-Ferrous Metal (Except Aluminum) Smelting And Refining",
-    "Copper Rolling, Drawing, Extruding And Alloying",
-    "Non-Ferrous Metal (Except Copper And Aluminum) Rolling, Drawing, Extruding And Alloying",
+
+    "Copper Rolling, Drawing, Extruding and Alloying",
+    "Non-Ferrous Metal (except Copper and Aluminum) Rolling, Drawing, Extruding and Alloying",
     "Foundries",
     "Ferrous Metal Foundries",
     "Iron Foundries",
     "Steel Foundries",
     "Non-Ferrous Metal Foundries",
     "Non-Ferrous Metal Die-Casting Foundries",
-    "Non-Ferrous Metal Foundries (Except Die-Casting)"
+    "Non-Ferrous Metal Foundries (except Die-Casting)"
 ]
 
 
