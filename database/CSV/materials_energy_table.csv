@@ -24,7 +24,7 @@ TECH-599152a0-2023.0-3.0,2023.0,Energy,Gasoline,TJ,0.368,Share of primary energy
 TECH-599152a0-2023.0-4.0,2023.0,Energy,Propane,TJ,10.12,Share of primary energy source derived from the all group,BC-MAIN-599152a0,,CMP-12afc634,HudbayMineralsInc_Hudbay-2023-Integrated-Annual-Report-Performance-Data
 TECH-aeafbb59-2023.0-1.0,2023.0,Energy,Diesel,GJ,3947008.0,,ON-MAIN-aeafbb59,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-aeafbb59-2023.0-2.0,2023.0,Energy,Electricity consumption|Grid electricity,kWh,830958937.0,,ON-MAIN-aeafbb59,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-TECH-aeafbb59-2023.0-3.0,2023.0,Energy,Explosives,GJ,65074.0,,ON-MAIN-aeafbb59,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TECH-aeafbb59-2023.0-3.0,2023.0,Material use,Explosives,GJ,65074.0,,ON-MAIN-aeafbb59,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-aeafbb59-2023.0-4.0,2023.0,Energy,Light Fuel & Gasoline,GJ,71904.0,,ON-MAIN-aeafbb59,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-aeafbb59-2023.0-5.0,2023.0,Energy,Propane,GJ,182468.0,,ON-MAIN-aeafbb59,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-cb85213a-2023.0-1.0,2023.0,Energy,Diesel,kl,2829.0,,ON-MAIN-cb85213a,,CMP-3d2c4955,WesdomeGoldMinesLtd._ESG_data_2023
@@ -54,7 +54,7 @@ TECH-6b4800fe-2023.0-4.0,2023.0,Energy,Natural gas,GJ,186977.0,,BC-MAIN-6b4800fe
 TECH-6b4800fe-2023.0-5.0,2023.0,Energy,Propane,GJ,453.0,,BC-MAIN-6b4800fe,,CMP-e35f138c,TasekoMinesLimited_ESG_2023
 TECH-c0660aec-2023.0-1.0,2023.0,Energy,Diesel,GJ,129455.0,,QC-MAIN-c0660aec,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-c0660aec-2023.0-2.0,2023.0,Energy,Electricity consumption|Grid electricity,kWh,178921745.0,,QC-MAIN-c0660aec,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-TECH-c0660aec-2023.0-3.0,2023.0,Energy,Explosives,GJ,11047.0,,QC-MAIN-c0660aec,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TECH-c0660aec-2023.0-3.0,2023.0,Material use,Explosives,GJ,11047.0,,QC-MAIN-c0660aec,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-c0660aec-2023.0-4.0,2023.0,Energy,Light Fuel & Gasoline,GJ,1347.0,,QC-MAIN-c0660aec,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-c0660aec-2023.0-5.0,2023.0,Energy,Natural gas,GJ,86234.0,,QC-MAIN-c0660aec,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-6e9be24e-2023.0-1.0,2023.0,Energy,Electricity consumption|Non-renewable electricity use,GJ,619000.0,,ON-MAIN-6e9be24e,,CMP-79bcdb91,BarrickGoldCorporation_Barrick_2023_Performance-Data
@@ -89,29 +89,29 @@ TECH-f9e41c2a-2023.0-6.0,2023.0,Energy,LPG|Stationary equipment,GJ,187.0,,QC-MAI
 TECH-f9e41c2a-2023.0-7.0,2023.0,Energy,Natural gas,GJ,76904.0,,QC-MAIN-f9e41c2a,,CMP-64d60fd7,EldoradoGold_ESG_2023
 TECH-e51eda66-2023.0-1.0,2023.0,Energy,Diesel,GJ,391146.0,,QC-MAIN-e51eda66,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-e51eda66-2023.0-2.0,2023.0,Energy,Electricity consumption|Grid electricity,kWh,469220285.0,,QC-MAIN-e51eda66,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-TECH-e51eda66-2023.0-3.0,2023.0,Energy,Explosives,GJ,6280.0,,QC-MAIN-e51eda66,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TECH-e51eda66-2023.0-3.0,2023.0,Material use,Explosives,GJ,6280.0,,QC-MAIN-e51eda66,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-e51eda66-2023.0-4.0,2023.0,Energy,Light Fuel & Gasoline,GJ,8329.0,,QC-MAIN-e51eda66,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-e51eda66-2023.0-5.0,2023.0,Energy,Natural gas,GJ,297435.0,,QC-MAIN-e51eda66,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-1f126a43-2023.0-1.0,2023.0,Energy,Diesel,GJ,91423.0,,ON-MAIN-1f126a43,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-1f126a43-2023.0-2.0,2023.0,Energy,Electricity consumption|Grid electricity,kWh,182554670.0,,ON-MAIN-1f126a43,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-TECH-1f126a43-2023.0-3.0,2023.0,Energy,Explosives,GJ,82576.0,,ON-MAIN-1f126a43,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TECH-1f126a43-2023.0-3.0,2023.0,Material use,Explosives,GJ,82576.0,,ON-MAIN-1f126a43,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-1f126a43-2023.0-4.0,2023.0,Energy,Light Fuel & Gasoline,GJ,6440.0,,ON-MAIN-1f126a43,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-1f126a43-2023.0-5.0,2023.0,Energy,Natural gas,GJ,327090.0,,ON-MAIN-1f126a43,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-1f126a43-2023.0-6.0,2023.0,Energy,Propane,GJ,658.0,,ON-MAIN-1f126a43,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-GRP-0a2c0d69-2023.0-1.0,2023.0,Energy,Diesel,GJ,3590887.0,,,GRP-0a2c0d69,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-GRP-0a2c0d69-2023.0-2.0,2023.0,Energy,Electricity consumption|Generated on-site,kWh,164987364.0,,,GRP-0a2c0d69,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-TECH-GRP-0a2c0d69-2023.0-3.0,2023.0,Energy,Explosives,GJ,45318.0,,,GRP-0a2c0d69,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TECH-GRP-0a2c0d69-2023.0-3.0,2023.0,Material use,Explosives,GJ,45318.0,,,GRP-0a2c0d69,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-GRP-0a2c0d69-2023.0-4.0,2023.0,Energy,Light Fuel & Gasoline,GJ,51161.0,,,GRP-0a2c0d69,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-GRP-0a2c0d69-2023.0-5.0,2023.0,Energy,Lubricating Oils & Greases,GJ,7311.0,,,GRP-0a2c0d69,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-GRP-0a2c0d69-2023.0-6.0,2023.0,Energy,Propane,GJ,235.0,,,GRP-0a2c0d69,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-8b0264c9-2023.0-1.0,2023.0,Energy,Diesel,GJ,1944158.0,,NU-MAIN-8b0264c9,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-8b0264c9-2023.0-2.0,2023.0,Energy,Electricity consumption|Generated on-site,kWh,132709926.0,,NU-MAIN-8b0264c9,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
-TECH-8b0264c9-2023.0-3.0,2023.0,Energy,Explosives,GJ,18198.0,,NU-MAIN-8b0264c9,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
+TECH-8b0264c9-2023.0-3.0,2023.0,Material use,Explosives,GJ,18198.0,,NU-MAIN-8b0264c9,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-8b0264c9-2023.0-4.0,2023.0,Energy,Light Fuel & Gasoline,GJ,5290.0,,NU-MAIN-8b0264c9,,CMP-6265c407,AgnicoEagleMinesLimited_2023-Sustainability-Performance_data
 TECH-ed23117f-2023.0-1.0,2023.0,Energy,Diesel,GJ,929608.6369770581,"Data initially in tCO2eq; back calculated with emission factors: 74.1kgCO2eq/GJ for diesel, 69.9kgCO2eq/GJ for gasoline, 59.9kgCO2eq/GJ for propane, BC mix 12kgCO2eq/MWh",BC-MAIN-ed23117f,,CMP-fa032e20,CenterraGoldInc_Data
 TECH-ed23117f-2023.0-2.0,2023.0,Energy,Electricity consumption|Grid electricity,GJ,365541.6666666667,"Data initially in tCO2eq; back calculated with emission factors: 74.1kgCO2eq/GJ for diesel, 69.9kgCO2eq/GJ for gasoline, 59.9kgCO2eq/GJ for propane, BC mix 12kgCO2eq/MWh. 62% of electricity come from the grid.",BC-MAIN-ed23117f,,CMP-fa032e20,CenterraGoldInc_Data
 TECH-ed23117f-nan-nan,,Energy,Electricity consumption|Generated on-site,GJ,36282.05128205128,"Data initially in tCO2eq; back calculated with emission factors: 74.1kgCO2eq/GJ for diesel, 69.9kgCO2eq/GJ for gasoline, 59.9kgCO2eq/GJ for propane, BC mix 12kgCO2eq/MWh. 62% of electricity come from the grid.",BC-MAIN-ed23117f,,CMP-fa032e20,CenterraGoldInc_Data
-TECH-ed23117f-2023.0-3.0,2023.0,Energy,Explosives,GJ,2587.5,"Data initially in tCO2eq; back calculated with emission factors: 74.1kgCO2eq/GJ for diesel, 69.9kgCO2eq/GJ for gasoline, 59.9kgCO2eq/GJ for propane, BC mix 12kgCO2eq/MWh, explosives 3.75GJ/tCO2",BC-MAIN-ed23117f,,CMP-fa032e20,CenterraGoldInc_Data
+TECH-ed23117f-2023.0-3.0,2023.0,Material use,Explosives,GJ,2587.5,"Data initially in tCO2eq; back calculated with emission factors: 74.1kgCO2eq/GJ for diesel, 69.9kgCO2eq/GJ for gasoline, 59.9kgCO2eq/GJ for propane, BC mix 12kgCO2eq/MWh, explosives 3.75GJ/tCO2",BC-MAIN-ed23117f,,CMP-fa032e20,CenterraGoldInc_Data
 TECH-ed23117f-2023.0-4.0,2023.0,Energy,Gasoline,GJ,21012.145748987856,"Data initially in tCO2eq; back calculated with emission factors: 74.1kgCO2eq/GJ for diesel, 69.9kgCO2eq/GJ for gasoline, 59.9kgCO2eq/GJ for propane, BC mix 12kgCO2eq/MWh",BC-MAIN-ed23117f,,CMP-fa032e20,CenterraGoldInc_Data
 TECH-ed23117f-2023.0-5.0,2023.0,Energy,Propane,GJ,22737.89649415693,"Data initially in tCO2eq; back calculated with emission factors: 74.1kgCO2eq/GJ for diesel, 69.9kgCO2eq/GJ for gasoline, 59.9kgCO2eq/GJ for propane, BC mix 12kgCO2eq/MWh",BC-MAIN-ed23117f,,CMP-fa032e20,CenterraGoldInc_Data
 TECH-fefeaee4-2023.0-1.0,2023.0,Energy,Aviation fuel,GJ,27653.22904,,ON-MAIN-fefeaee4,,CMP-4a434d72,NewmontCorporation_2023-Performance-data
@@ -135,7 +135,7 @@ TECH-aa76f6f2-2023.0-3.0,2023.0,Material use,Anti-scalant,kg,38000.0,,BC-MAIN-aa
 TECH-aa76f6f2-2023.0-4.0,2023.0,Energy,Diesel,l,4761600.1,,BC-MAIN-aa76f6f2,,CMP-d94be190,NewGoldInc_ESG_data_2023
 TECH-aa76f6f2-2023.0-5.0,2023.0,Energy,Electricity consumption|Generated on-site,GJ,56414.6765,,BC-MAIN-aa76f6f2,,CMP-d94be190,NewGoldInc_ESG_data_2023
 TECH-aa76f6f2-2023.0-6.0,2023.0,Energy,Electricity consumption|Grid electricity,GJ,171984.8235,,BC-MAIN-aa76f6f2,,CMP-d94be190,NewGoldInc_ESG_data_2023
-TECH-aa76f6f2-2023.0-7.0,2023.0,Energy,Explosives,kg,522600.0,,BC-MAIN-aa76f6f2,,CMP-d94be190,NewGoldInc_ESG_data_2023
+TECH-aa76f6f2-2023.0-7.0,2023.0,Material use,Explosives,kg,522600.0,,BC-MAIN-aa76f6f2,,CMP-d94be190,NewGoldInc_ESG_data_2023
 TECH-aa76f6f2-2023.0-8.0,2023.0,Material use,Flocculant,t,192.0,,BC-MAIN-aa76f6f2,,CMP-d94be190,NewGoldInc_2023-New-Gold-ESG-Data-Factbook
 TECH-aa76f6f2-2023.0-9.0,2023.0,Energy,Gasoline,l,119418.4,,BC-MAIN-aa76f6f2,,CMP-d94be190,NewGoldInc_ESG_data_2023
 TECH-aa76f6f2-2023.0-10.0,2023.0,Material use,Lime,t,2724.0,,BC-MAIN-aa76f6f2,,CMP-d94be190,NewGoldInc_2023-New-Gold-ESG-Data-Factbook
@@ -166,7 +166,7 @@ TECH-0aadf28f-2023.0-4.0,2023.0,Material use,Caustic soda,t,526.21,,ON-MAIN-0aad
 TECH-0aadf28f-2023.0-5.0,2023.0,Material use,Cyanide,t,2269.57,,ON-MAIN-0aadf28f,,CMP-d94be190,NewGoldInc_2023-New-Gold-ESG-Data-Factbook
 TECH-0aadf28f-2023.0-6.0,2023.0,Energy,Diesel,l,42378137.86,,ON-MAIN-0aadf28f,,CMP-d94be190,NewGoldInc_ESG_data_2023
 TECH-0aadf28f-2023.0-7.0,2023.0,Energy,Electricity consumption,GJ,2919222.0,,ON-MAIN-0aadf28f,,CMP-d94be190,NewGoldInc_ESG_data_2023
-TECH-0aadf28f-2023.0-8.0,2023.0,Energy,Explosives,kg,14805627.0,,ON-MAIN-0aadf28f,,CMP-d94be190,NewGoldInc_ESG_data_2023
+TECH-0aadf28f-2023.0-8.0,2023.0,Material use,Explosives,kg,14805627.0,,ON-MAIN-0aadf28f,,CMP-d94be190,NewGoldInc_ESG_data_2023
 TECH-0aadf28f-2023.0-9.0,2023.0,Material use,Flocculant,t,149.1,,ON-MAIN-0aadf28f,,CMP-d94be190,NewGoldInc_2023-New-Gold-ESG-Data-Factbook
 TECH-0aadf28f-2023.0-10.0,2023.0,Energy,Gasoline,l,1147190.1,,ON-MAIN-0aadf28f,,CMP-d94be190,NewGoldInc_ESG_data_2023
 TECH-0aadf28f-2023.0-11.0,2023.0,Material use,Lime,t,6390.4,,ON-MAIN-0aadf28f,,CMP-d94be190,NewGoldInc_2023-New-Gold-ESG-Data-Factbook
@@ -197,14 +197,14 @@ TECH-GRP-a13779f8-2023.0-1.0,2023.0,Energy,Diesel,TJ,387.2,Share of primary ener
 TECH-GRP-a13779f8-2023.0-2.0,2023.0,Energy,Electricity consumption,TJ,764.0,,,GRP-a13779f8,CMP-12afc634,HudbayMineralsInc_Hudbay-2023-Integrated-Annual-Report-Performance-Data
 TECH-GRP-a13779f8-2023.0-3.0,2023.0,Energy,Gasoline,TJ,1.76,Share of primary energy source derived from the all group,,GRP-a13779f8,CMP-12afc634,HudbayMineralsInc_Hudbay-2023-Integrated-Annual-Report-Performance-Data
 TECH-GRP-a13779f8-2023.0-4.0,2023.0,Energy,Propane,TJ,48.4,Share of primary energy source derived from the all group,,GRP-a13779f8,CMP-12afc634,HudbayMineralsInc_Hudbay-2023-Integrated-Annual-Report-Performance-Data
-TECH-GRP-147b3123-2023.0-1.0,2023.0,Energy,Ammonium nitrate,GJ,20.7,,,GRP-147b3123,CMP-48a36546,PanAmericanSilverCorp_ESG_data_2023
+TECH-GRP-147b3123-2023.0-1.0,2023.0,Material use,Ammonium nitrate,GJ,20.7,,,GRP-147b3123,CMP-48a36546,PanAmericanSilverCorp_ESG_data_2023
 TECH-GRP-147b3123-2023.0-2.0,2023.0,Energy,Diesel,GJ,384285.8,,,GRP-147b3123,CMP-48a36546,PanAmericanSilverCorp_ESG_data_2023
-TECH-GRP-147b3123-2023.0-3.0,2023.0,Energy,Dynamite,GJ,4889.799999999999,,,GRP-147b3123,CMP-48a36546,PanAmericanSilverCorp_ESG_data_2023
+TECH-GRP-147b3123-2023.0-3.0,2023.0,Material use,Dynamite,GJ,4889.799999999999,,,GRP-147b3123,CMP-48a36546,PanAmericanSilverCorp_ESG_data_2023
 TECH-GRP-147b3123-2023.0-4.0,2023.0,Energy,Electricity consumption|Grid electricity,GJ,738226.8,,,GRP-147b3123,CMP-48a36546,PanAmericanSilverCorp_ESG_data_2023
-TECH-GRP-147b3123-2023.0-5.0,2023.0,Energy,Emulsions,GJ,2026.3,"Explosives, treated as energy consumption",,GRP-147b3123,CMP-48a36546,PanAmericanSilverCorp_ESG_data_2023
+TECH-GRP-147b3123-2023.0-5.0,2023.0,Material use,Emulsions,GJ,2026.3,"Explosives, treated as material usage",,GRP-147b3123,CMP-48a36546,PanAmericanSilverCorp_ESG_data_2023
 TECH-GRP-147b3123-2023.0-6.0,2023.0,Energy,Gasoline,GJ,2946.1,,,GRP-147b3123,CMP-48a36546,PanAmericanSilverCorp_ESG_data_2023
 TECH-GRP-147b3123-2023.0-7.0,2023.0,Energy,Natural gas,GJ,159325.59885,,,GRP-147b3123,CMP-48a36546,PanAmericanSilverCorp_ESG_data_2023
-TECH-02884fb5-2023.0-1.0,2023.0,Energy,ANFO,GJ,1530.9,"Explosives, treated as energy consumption",QC-MAIN-02884fb5,,CMP-3d0a95b7,IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
+TECH-02884fb5-2023.0-1.0,2023.0,Material use,ANFO,GJ,1530.9,"Explosives, treated as material usage",QC-MAIN-02884fb5,,CMP-3d0a95b7,IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
 TECH-02884fb5-2023.0-2.0,2023.0,Material use,Anti-scalant,t,35.4,,QC-MAIN-02884fb5,,CMP-3d0a95b7,IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
 TECH-02884fb5-2023.0-3.0,2023.0,Material use,Carbon,t,60.4,,QC-MAIN-02884fb5,,CMP-3d0a95b7,IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
 TECH-02884fb5-2023.0-4.0,2023.0,Material use,Caustic soda,t,86.6,,QC-MAIN-02884fb5,,CMP-3d0a95b7,IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
@@ -212,7 +212,7 @@ TECH-02884fb5-2023.0-5.0,2023.0,Material use,Compressor oil,t,1.5,,QC-MAIN-02884
 TECH-02884fb5-2023.0-6.0,2023.0,Material use,Cyanide,t,399.3,,QC-MAIN-02884fb5,,CMP-3d0a95b7,IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
 TECH-02884fb5-2023.0-7.0,2023.0,Energy,Diesel,GJ,206946.0,,QC-MAIN-02884fb5,,CMP-3d0a95b7,IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
 TECH-02884fb5-2023.0-8.0,2023.0,Energy,Electricity consumption|Grid electricity,GJ,525946.7,,QC-MAIN-02884fb5,,CMP-3d0a95b7,IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
-TECH-02884fb5-2023.0-9.0,2023.0,Energy,Emulsion ANFO,GJ,4260.6,"Explosives, treated as energy consumption",QC-MAIN-02884fb5,,CMP-3d0a95b7,IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
+TECH-02884fb5-2023.0-9.0,2023.0,Material use,Emulsion ANFO,GJ,4260.6,"Explosives, treated as material usage",QC-MAIN-02884fb5,,CMP-3d0a95b7,IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
 TECH-02884fb5-2023.0-10.0,2023.0,Material use,Explosives,t,1483.4,"Explosives, treated as material input because in t",QC-MAIN-02884fb5,,CMP-3d0a95b7,IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
 TECH-02884fb5-2023.0-11.0,2023.0,Material use,Flocculant,t,46.2,,QC-MAIN-02884fb5,,CMP-3d0a95b7,IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
 TECH-02884fb5-2023.0-12.0,2023.0,Energy,Gasoline,GJ,3350.8,,QC-MAIN-02884fb5,,CMP-3d0a95b7,IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
