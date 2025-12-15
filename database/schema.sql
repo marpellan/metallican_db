@@ -320,7 +320,7 @@ CREATE TABLE "Prioritization_conservation_areas" (
 
 -- PROTECTED AND INDIGENOUS LANDS
 CREATE TABLE "Protected_indigenous_lands" (
-    protected_area_id TEXT, -- Primary key is not defined here, as it may not be unique
+    protected_area_id TEXT,
     land_name TEXT,
     land_type TEXT,
     distance_km TEXT,
@@ -331,5 +331,16 @@ CREATE TABLE "Protected_indigenous_lands" (
     -- FOREIGN KEY (source_id) REFERENCES "Sources"(source_id)
 );
 
-
+-- CARBON STOCK ECOSYSTEMS
+CREATE TABLE "Carbon_stock_ecosystems" (
+    carbon_stock_ecosystems_id TEXT,
+    pool TEXT,
+    variable TEXT,
+    unit TEXT,
+    value FLOAT,
+    main_id TEXT,
+    source_id TEXT,
+    FOREIGN KEY (main_id) REFERENCES "Main"(main_id)
+    -- FOREIGN KEY (source_id) REFERENCES "Sources"(source_id)
+);
 

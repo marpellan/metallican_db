@@ -57,11 +57,11 @@ RES-b86f7d07-2024-7,2024,"Copper, gold, silver",Reserves,Indicated,3522,kt,0.17,
 RES-b86f7d07-2024-8,2024,"Copper, gold, silver",Reserves,Indicated,126,kt,0.03,oz/t,4.0,koz,,Open-pit part,QC-MAIN-b86f7d07,,HeclaMiningCompany_RR-tables-12-31-2024
 RES-b86f7d07-2024-9,2024,"Copper, gold, silver",Reserves,Inferred,2076,kt,0.2,oz/t,408.0,koz,,Underground part,QC-MAIN-b86f7d07,,HeclaMiningCompany_RR-tables-12-31-2024
 RES-b86f7d07-2024-10,2024,"Copper, gold, silver",Reserves,Inferred,577,kt,0.1,oz/t,57.0,koz,,Open-pit part,QC-MAIN-b86f7d07,,HeclaMiningCompany_RR-tables-12-31-2024
-RES-91cf5448-2024-1,2024,Uranium,Reserves,Proven,322,kt,16.68,% U3O8,118.4,Mlbs,98.7,,SK-MAIN-91cf5448,,CamecoCorporation_Reserves_2024
-RES-91cf5448-2024-2,2024,Uranium,Reserves,Probable,229.4,kt,14.73,% U3O8,74.5,Mlbs,98.7,,SK-MAIN-91cf5448,,CamecoCorporation_Reserves_2024
-RES-91cf5448-2024-3,2024,Uranium,Resources,Measured,75.5,kt,4.88,% U3O8,8.1,Mlbs,,,SK-MAIN-91cf5448,,CamecoCorporation_Reserves_2024
-RES-91cf5448-2024-4,2024,Uranium,Resources,Indicated,141.3,kt,4.95,% U3O8,15.4,Mlbs,,,SK-MAIN-91cf5448,,CamecoCorporation_Reserves_2024
-RES-91cf5448-2024-5,2024,Uranium,Resources,Inferred,163.4,kt,5.55,% U3O8,20.0,Mlbs,,,SK-MAIN-91cf5448,,CamecoCorporation_Reserves_2024
+RES-91cf5448-2024-1,2024,Uranium,Reserves,Proven,322,kt,16.68,% U3O8,118.4,Mlbs,98.7,,SK-MAIN-91cf5448,GRP-91aaa60b,CamecoCorporation_Reserves_2024
+RES-91cf5448-2024-2,2024,Uranium,Reserves,Probable,229.4,kt,14.73,% U3O8,74.5,Mlbs,98.7,,SK-MAIN-91cf5448,GRP-91aaa60b,CamecoCorporation_Reserves_2024
+RES-91cf5448-2024-3,2024,Uranium,Resources,Measured,75.5,kt,4.88,% U3O8,8.1,Mlbs,,,SK-MAIN-91cf5448,GRP-91aaa60b,CamecoCorporation_Reserves_2024
+RES-91cf5448-2024-4,2024,Uranium,Resources,Indicated,141.3,kt,4.95,% U3O8,15.4,Mlbs,,,SK-MAIN-91cf5448,GRP-91aaa60b,CamecoCorporation_Reserves_2024
+RES-91cf5448-2024-5,2024,Uranium,Resources,Inferred,163.4,kt,5.55,% U3O8,20.0,Mlbs,,,SK-MAIN-91cf5448,GRP-91aaa60b,CamecoCorporation_Reserves_2024
 RES-599152a0-2025-1,2025,Ore,Reserves,Proven,1729000,Mt,,,,,,,BC-MAIN-599152a0,GRP-a13779f8,HudbayMineralsInc_Reserves_2024
 RES-599152a0-2025-2,2025,Copper,Reserves,Proven,,,0.269,%,,,,,BC-MAIN-599152a0,GRP-a13779f8,HudbayMineralsInc_Reserves_2024
 RES-599152a0-2025-3,2025,Gold,Reserves,Proven,,,0.124,g/t,,,,,BC-MAIN-599152a0,GRP-a13779f8,HudbayMineralsInc_Reserves_2024
