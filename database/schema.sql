@@ -339,6 +339,7 @@ CREATE TABLE "Carbon_stock_ecosystems" (
     unit TEXT,
     value FLOAT,
     main_id TEXT,
+    facility_group_id TEXT,
     source_id TEXT,
     FOREIGN KEY (main_id) REFERENCES "Main"(main_id)
     -- FOREIGN KEY (source_id) REFERENCES "Sources"(source_id)

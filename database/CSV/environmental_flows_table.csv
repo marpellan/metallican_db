@@ -6260,9 +6260,8 @@ ENV-687b8c8d-2023-13,2023,Air,NA - SOx,Emission,,t,0.66,,ON-MAIN-687b8c8d,,CMP-3
 ENV-687b8c8d-2023-14,2023,Air,NA - M16,Emission,,t,8.5,,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,AlamosGoldInc_Data_2023
 ENV-687b8c8d-2023-15,2023,Water,7732-18-5,Withdrawal,,ML,944.3,Total water withdrawal,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,AlamosGoldInc_Data_2023
 ENV-687b8c8d-2023-16,2023,Water,7732-18-5,Discharged,,ML,1428.9,Total water discharge,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,AlamosGoldInc_Data_2023
-ENV-687b8c8d-2023-17,2023,Water,7732-18-5,Consumption,,ML,-484.6,Total water consumption,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,AlamosGoldInc_Data_2023
-ENV-687b8c8d-2023-18,2023,Land,,Occupation and transformation,,ha,1375.0,Size of operation,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,AlamosGoldInc_Data_2023
-ENV-687b8c8d-2023-19,2023,Land,,Occupation and transformation,,ha,235.0,Total disturbed land not rehabilitated,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,AlamosGoldInc_Data_2023
+ENV-687b8c8d-2023-17,2023,Land,,Occupation and transformation,,ha,1375.0,Size of operation,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,AlamosGoldInc_Data_2023
+ENV-687b8c8d-2023-18,2023,Land,,Occupation and transformation,,ha,235.0,Total disturbed land not rehabilitated,ON-MAIN-687b8c8d,,CMP-3a4ccc7f,AlamosGoldInc_Data_2023
 ENV-44857446-2023-1,2023,Air,NA - GHG,Emission,,tCO2eq,7271.0,scope1,YT-MAIN-44857446,,CMP-7e360a1f,HeclaMiningCompany_SR_2023
 ENV-44857446-2023-2,2023,Air,NA - GHG,Emission,,tCO2eq,1408.0,scope2,YT-MAIN-44857446,,CMP-7e360a1f,HeclaMiningCompany_SR_2023
 ENV-9de9bb0d-2023-1,2023,Water,7732-18-5,Consumption,,m3,82144.0,Total water consumption,QC-MAIN-9de9bb0d,,CMP-3d2c4955,WesdomeGoldMinesLtd_2023-ESG-Data-Tables
@@ -6443,8 +6442,7 @@ ENV-02884fb5-2023-7,2023,Air,NA - SOx,Emission,,kg,16.3,,QC-MAIN-02884fb5,,CMP-3
 ENV-02884fb5-2023-8,2023,Air,NA - M16,Emission,,kg,152.4,,QC-MAIN-02884fb5,,CMP-3d0a95b7,IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
 ENV-02884fb5-2023-9,2023,Land,,Occupation and transformation,,ha,1014.81,Total land disturbed and not yet rehabilitated,QC-MAIN-02884fb5,,CMP-3d0a95b7,IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
 ENV-02884fb5-2023-10,2023,Water,7732-18-5,Discharged,,ML,6038.8,Discharge,QC-MAIN-02884fb5,,CMP-3d0a95b7,IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
-ENV-02884fb5-2023-11,2023,Water,7732-18-5,Consumption,,ML,-893.6999999999998,Consumed,QC-MAIN-02884fb5,,CMP-3d0a95b7,IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
-ENV-02884fb5-2023-12,2023,Water,7732-18-5,Withdrawal,,ML,5145.1,Withdrawal|Freshwater,QC-MAIN-02884fb5,,CMP-3d0a95b7,IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
+ENV-02884fb5-2023-11,2023,Water,7732-18-5,Withdrawal,,ML,5145.1,Withdrawal|Freshwater,QC-MAIN-02884fb5,,CMP-3d0a95b7,IAMGOLDCorporation_2023_iamgold-esg-performance-data-final_protected
 ENV-7607a50e-2023-1,2023,Air,630-08-0,Emission,,t,187.6,,ON-MAIN-7607a50e,,CMP-3a4ccc7f,AlamosGoldInc_Data_2023
 ENV-7607a50e-2023-2,2023,Air,NA - GHG,Emission,,tCO2eq,21634.0,scope1,ON-MAIN-7607a50e,,CMP-3a4ccc7f,AlamosGoldInc_Data_2023
 ENV-7607a50e-2023-3,2023,Air,NA - GHG,Emission,,tCO2eq,8006.0,scope2,ON-MAIN-7607a50e,,CMP-3a4ccc7f,AlamosGoldInc_Data_2023
